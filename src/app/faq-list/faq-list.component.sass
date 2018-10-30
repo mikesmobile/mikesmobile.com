@@ -1,0 +1,23 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+.nav-tabs
+    background-color: #00aeef !important
+
+.title
+    padding-bottom: 0.2rem !important
+
+
+.nav-tabs .nav-item a 
+    padding: 1rem 4rem
+    margin: 0.3rem
+    border-bottom: solid
+    @include breakpoint(md)
+            padding: 0.5rem 1rem
+            margin: 0
+            border-bottom: none
+
+.content 
+    background-color: white !important
+    padding: 1.3rem
+    margin: -1rem

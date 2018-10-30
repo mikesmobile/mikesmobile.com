@@ -1,0 +1,28 @@
+<ng-container *ngIf="Images">
+<div class="container bd-example">
+    <h2>View some of our recent installs</h2>
+    <hr>
+    <img *ngFor="let image of Images;let i = index" alt = "{{image.alt}}" type="image" class="footerThumb" src="{{image.big}}" data-toggle="modal" data-target="#footerModal"  (click)="show( i )" mdbWavesEffect>
+
+    <div mdbModal #footerContent="mdb-modal" class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class=" modal-dialog gallery-dialog" role="img">
+            <div class="modal-content gallery-content w-100">
+                <div class="gallery-header">
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="footerContent.hide()">
+                        <span aria-hidden="true">×</span>
+                    </button> -->
+                    <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="footerContent.hide()" mdbWavesEffect>X</button>
+                </div>
+                <div class="text-center galleryImg">
+                    <img #footerModalImage src="{{name}}" alt = "{{name}}">
+                </div>
+ 
+            <div class="gallery-footer">
+                <button type="button" class="btn btn-primary waves-light" (click)="previous()" mdbWavesEffect><span aria-hidden="true" class="carousel-control-prev-icon"></span></button>
+                <button type="button" class="btn btn-primary waves-light" (click)="next()" mdbWavesEffect><span aria-hidden="true" class="carousel-control-next-icon"></span></button>
+            </div>
+            </div>
+        </div>    
+    </div>
+</div>
+</ng-container>

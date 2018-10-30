@@ -1,0 +1,84 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+.carousel
+    img
+        overflow: hidden
+        height: 300px
+        background-repeat: no-repeat
+        background-size: cover
+        resize: both
+        @include breakpoint(md)
+            height: 400px
+    h2
+        // padding: 10px
+        text-transform: uppercase
+        font-weight: 400
+        letter-spacing: 1px
+    button
+        padding: 10px 20px
+        border-radius: 2.5px
+        margin: 5px 0
+    li
+        list-style-type: none
+        text-align: left
+        @include breakpoint(md)
+            list-style-type: disc
+
+.action-btns
+    img
+        height: 100px
+        @include breakpoint(md)
+            height: 175px
+    h4
+        font-size: .75em
+        @include breakpoint(md)
+            font-size: 1.25em
+
+select
+    box-shadow: 0
+
+.info-box
+    background-color: $mmblue
+    // color: white
+    border-radius: 5px
+    text-align: center
+    width: 300px
+    height: 200px
+    top: 265px
+    margin-top: -190px
+    left: 8%
+    z-index: 9
+    position: relative
+    @include breakpoint(sm)
+        background-color: $mmblue
+        // color: white
+        border-radius: 5px
+        text-align: center
+        width: 300px
+        height: 200px
+        top: 380px
+        margin-top: -190px
+        left: 70%
+        z-index: 9
+        position: relative
+    p
+        font-size: 1rem
+    
+.pills-secondary .nav-link.active 
+    background-color: $mmblue !important
+        
+h3, .h3 
+    font-size: 1.25rem
+
+.nav-tabs 
+    overflow-y: hidden
+    margin-bottom: 5px
+       
+.mobile-disappear
+	display: none
+	@include breakpoint(md)
+		display: block
+
+.email
+    margin: 0 auto

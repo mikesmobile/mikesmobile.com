@@ -1,0 +1,147 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+#serviceInfo
+    h5
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+    h3, h4
+        font-family: 'Open Sans', sans-serif
+        font-weight: lighter
+    ul
+        padding-left: 0
+        li
+            list-style-type: none
+            padding: 10px 0
+
+.breadcrumb
+    background: none
+    a
+        color: #4083BB
+        &:hover
+            color: $orange
+
+.thumbnails img, .main-image img
+    max-width: 100%
+    padding: 5px
+    height: auto
+    // border: 1px solid #ccc
+    // background: #fff
+    // box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+.main-image
+    width: 100%
+    margin-bottom: 0.75em
+    img
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+        @include breakpoint(sm)
+            max-height: 500px
+
+.thumbnails li
+      display: inline
+      margin: 5px 0
+      width: 100%
+
+.thumbnails li img
+    width: 100%
+    height: 100px
+
+.thumbnails
+
+    
+.square
+    height: 75px
+    width: 75px
+    background: $light-gray
+    margin: 5px
+    img
+        background-size: cover
+        
+
+#centered-gallery
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+
+#p-colors
+    font-size: .75em
+    
+ngx-gallery /deep/ .ngx-gallery-arrow
+    color: #000000
+
+.square
+    height: 100px
+    width: 100%
+    background: $light-gray
+    margin: 5px
+    @include breakpoint(md)
+        width: 75px
+        height: 75px
+
+.square-lg
+    height: 250px
+    width: 250px
+
+.centered-sq
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+#more-colors
+    &:hover
+        color: $mmblue !important
+        cursor: pointer
+
+#less-colors
+    display: none
+    &:hover
+        cursor: pointer
+
+@for $i from 6 through 18
+    #square-#{$i}
+        display: none
+    #square-p-#{$i}
+        display: none
+
+.p-colors
+    font-size: .75em
+    @include breakpoint(md)
+        display: none    
+
+#std-color-1
+    background: #2D3017
+#std-color-2
+    background: #fff
+#color-1
+    background: #FAF9ED
+#color-2
+    background: #F4EDCA
+#color-3
+    background: #3F2823
+#color-4
+    background: #103427
+#color-5
+    background: #928A6F
+
+#centered-gallery
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+
+ngx-gallery /deep/ .ngx-gallery-arrow
+    color: #000000
+
+.nav-tabs
+    z-index: 0
+    .nav-link
+        z-index: 0 !important
+
+.modal-content
+    background: #f2f2f2 !important
+
+#ptr
+    cursor: pointer

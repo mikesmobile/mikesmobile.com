@@ -1,0 +1,42 @@
+--------------------------
+---- MD BOOTSTRAP KEY ----
+--------------------------
+zYzzGAPxVUe1Qx44c_6X
+--------------------------
+---- DO NOT DELETE -------
+--------------------------
+
+TODO until live
+
+Visual Fixes:
+-------------
+Blog page
+Contact page
+
+Quote Form (submit function): emailjs redirect on submitFomr
+Thank You page redirect after Quote form is completed
+
+
+SEO Fixes:
+----------
+? Google Analytics Conversions
+? Facebook Pixels Tracker
+
+IMAGES @ http://reyesmasonrycontractor.com
+
+		
+<!-- Firebase -->
+		<!-- <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+		<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBH6jOkyb51ae3_igSO8SLz4tKZil_caGQ",
+			authDomain: "mikesmobile-5.firebaseapp.com",
+			databaseURL: "https://mikesmobile-5.firebaseio.com",
+			projectId: "mikesmobile-5",
+			storageBucket: "mikesmobile-5.appspot.com",
+			messagingSenderId: "908045739438"
+		};
+		firebase.initializeApp(config);
+		</script>
+/Firebase -->

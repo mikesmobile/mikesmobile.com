@@ -1,0 +1,88 @@
+
+
+<div class="container pt-4" *ngIf="landingPage">
+  <h1 class="p-3 text-center">{{landingPage.title}}</h1>
+  <hr/>
+  <div class="row">
+    <div class="col-md-7">
+      <!--Card-->
+      <div class="card card-cascade wider reverse my-4">
+        <!--Card image-->
+        <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
+            <img src="{{landingPage.image}}" class="img-fluid w-100" alt="{{landingPage.title}}" />
+            <a>
+                <div class="mask"></div>
+            </a>
+        </div>
+        <!--/Card image-->
+        <!--Card content-->
+        <div class="card-body text-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>{{landingPage.heading}}</strong></h4>
+            <!-- <h5 class="indigo-text"><strong>Photography</strong></h5> -->
+            <hr/>
+            <p class="card-text" *ngFor="let txt of landingPage.text">{{txt}}</p>
+            <h3 class="blue-text"><i class="fa fa-phone mr-2"></i> Call Now! &nbsp; <span class="mobile-disappear">(877) 520 3595</span></h3>
+        </div>
+        <!--/.Card content-->
+      </div>
+      <!--/.Card-->          
+    </div>
+    <div class="col-md-5">
+      <!--Contact Form-->
+      <form>
+        <p class="h5 blue-text text-center mb-4 animated pulse infinite">Get Your Free Quote Now!</p>
+        <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" id="form1" class="form-control" mdbActive>
+            <label for="form1">Your name</label>
+        </div>
+        <div class="md-form">
+          <i class="fa fa-globe prefix grey-text"></i>
+          <input type="text" id="form2" class="form-control" mdbActive>
+          <label for="form2">Your city</label>
+        </div>
+        <div class="md-form">
+          <i class="fa fa-phone prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control" mdbActive>
+          <label for="form3">Your phone</label>
+        </div>
+        <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="text" id="form4" class="form-control" mdbActive>
+            <label for="form4">Your email</label>
+        </div>
+        <!-- <div class="md-form">
+            <i class="fa fa-tag prefix grey-text"></i>
+            <input type="text" id="form32" class="form-control" mdbActive>
+            <label for="form34">Subject</label>
+        </div> -->
+        <div class="md-form">
+            <i class="fa fa-pencil prefix grey-text"></i>
+            <textarea type="text" id="form5" class="md-textarea" style="height: 100px" mdbActive></textarea>
+            <label for="form5">Your message</label>
+        </div>
+        <div class="text-center">
+            <button class="btn orange waves-light" mdbRippleRadius>Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        </div>
+      </form>
+      <!--Contact Form-->
+      
+    </div>
+  </div>
+  
+  <hr class="my-4" />
+
+  <div class="row">
+    <div class="col-md-3">
+      <h5>What We Offer</h5>
+      <ul>
+        <li>Custom Sizes</li>
+      </ul>
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+

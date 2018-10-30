@@ -1,0 +1,7 @@
+<!-- Search form -->
+<form #searchForm='ngForm' class="waves-light p-2" (ngSubmit)='submitSearch($event, searchForm)' mdbRippleRadius>
+    <div class="input-group">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" name='q' [(ngModel)]='searchQuery'>
+        <button class="btn orange waves-light" type="submit">Search</button>
+    </div>
+</form>

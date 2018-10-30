@@ -1,0 +1,68 @@
+@import 'modules/_mixins.sass'
+@import 'modules/_variables.sass'
+
+html, body
+	overflow-x: hidden !important
+	font-family: 'Didact Gothic', sans-serif
+
+body
+	background: #f2f2f2
+
+a
+	color: #000
+	&:hover
+		color: $light-gray
+
+.blue
+	background: $mmblue !important
+.blue-text
+	color: $mmblue !important
+.blue-outline
+	border: 2px solid $mmblue
+	background: none
+	color: $orange !important
+
+.orange
+	background: $orange
+.orange-text
+	color: $orange
+
+.gray
+	background: $gray
+.gray-text
+	color: $gray
+
+.light-gray
+	background: $light-gray
+.light-gray-text
+	color: $light-gray
+
+.transparent-gray
+    background: rgba(0, 0, 0, 0.6)
+
+#desktop-disappear
+	@include breakpoint(md)
+		display: none
+
+#tablet-disappear
+	@include breakpoint(sm)
+		display: none
+
+#mobile-disappear
+	display: none
+	@include breakpoint(xs)
+		display: inline
+
+
+@media (min-width: 1200px)
+    .container
+        max-width: 1200px
+
+.no-pointer
+	cursor: default !important
+
+.pills-secondary .nav-link.active 
+    background-color: $mmblue !important
+
+.indigo 
+    background-color: $mmblue !important

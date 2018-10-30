@@ -1,0 +1,97 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+nav
+	background: #ffffff !important
+	@include breakpoint(md)
+	.megamenu
+		position: relative
+		z-index: 9999 !important
+		min-width: 960px
+		left: -700px
+		@include breakpoint(md)
+			left: -800px
+		h5
+			padding: 5px 0
+		a
+			padding: 5px
+
+h5
+	font-weight: 900
+h6
+	color: $mmblue
+	font-weight: 900
+	@include breakpoint(md)
+		color: $orange
+
+.nav-text
+	font-weight: 400
+
+li.nav-item .nav-link:hover
+	color: white !important
+	border-radius: 3px
+
+.dropdown-menu
+	border-radius: 1px
+	a:hover
+		color: $orange !important
+
+.dropdown-item:active
+	background-color: $mmblue
+	margin: 0 !important
+
+.active
+	a
+		color: $orange !important
+
+.underline
+	border-bottom: 1px solid #f2f2f2
+
+.mobile-submenu
+	width: 100% !important
+	font-weight: 900
+	font-size: 12px !important
+	
+
+#navBtn:hover
+	background: $mmblue !important
+    
+
+	
+.display-mobile
+    display: block !important
+    @include breakpoint(md)
+        display: none !important
+
+.display-desktop
+    display: none !important
+    @include breakpoint(md)
+        display: block !important
+
+.quote
+	background-color: $mmblue
+	color: white
+	padding: 6px
+	margin: -5px
+	@include breakpoint(md)
+		background-color: $mmblue
+		color: white
+		padding: 10px
+		margin: -15px 0px -15px 10px
+
+.quote-text
+	display: inline
+	@include breakpoint(md)
+		display: block
+
+.lic
+	margin-bottom: 0
+	font-size: 12px
+	display: inline
+	font-weight: 600
+
+.item-sm
+	border-left: 1px solid #ffffff
+
+.fs
+	font-size: 0.9em

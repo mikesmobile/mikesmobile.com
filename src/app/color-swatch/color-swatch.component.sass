@@ -1,0 +1,207 @@
+@import '~sass/modules/_mixins.sass'
+@import '~sass/modules/_variables.sass'
+
+#productInfo
+    h5
+        font-family: 'Open Sans', sans-serif
+        font-weight: bold
+    h3, h4
+        font-family: 'Open Sans', sans-serif
+        font-weight: lighter
+    ul
+        padding-left: 25px
+        #l1
+            padding: 10px 0
+        #l2
+            padding: 5px 0
+
+
+.breadcrumb
+    background: none
+    a
+        color: #4083BB
+        &:hover
+            color: $orange
+
+.thumbnails img, .main-image img
+    max-width: 100%
+    padding: 5px
+    height: auto
+    // border: 1px solid #ccc
+    // background: #fff
+    // box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+
+.main-image
+    height: 650px
+    width: 250px
+    // height: 810px
+    // width: 310px
+    margin-bottom: 0.75em
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    &:hover
+        cursor: pointer
+    img
+        width: 100%
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+        @include breakpoint(sm)
+            max-height: 500px
+
+.main-image-modal
+    height: 600px
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    img
+        position: relative
+        max-height: 400px
+        left: 50%
+        transform: translate(-50%,0)
+        @include breakpoint(sm)
+            max-height: 500px
+
+.thumbnails li
+      display: inline
+      margin: 5px 0
+      width: 100%
+
+.thumbnails li img
+    height: 100px
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    background: #fff
+
+.thumbnails
+    height: 325px
+    overflow-y: auto
+    overflow-x: hidden
+
+.square
+    cursor: pointer
+    height: 100px
+    width: 100%
+    background: $light-gray
+    margin: 5px
+    @include breakpoint(md)
+        width: 75px
+        height: 75px
+
+.square-lg
+    height: 250px
+    width: 250px
+
+.centered-sq
+    position: relative
+    width: 100%
+    left: 50%
+    transform: translate(-50%, 0)
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+#more-colors
+    &:hover
+        color: $mmblue !important
+        cursor: pointer
+
+#less-colors
+    display: none
+    &:hover
+        cursor: pointer
+
+@for $i from 6 through 18
+    #square-#{$i}
+        display: none
+    #square-p-#{$i}
+        display: none
+
+.p-colors
+    font-size: .75em
+    display: none 
+    @include breakpoint(md)
+        display: none    
+
+#std-color-1
+    background: #2D3017
+#std-color-2
+    background: #fff
+#color-1
+    background: #FAF9ED
+#color-2
+    background: #F4EDCA
+#color-3
+    background: #3F2823
+#color-4
+    background: #103427
+#color-5
+    background: #928A6F
+
+
+.imageScrollBox
+    width: 100%
+    overflow-x: auto
+    overflow-y: hidden
+
+#centered-gallery
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+
+ngx-gallery
+    padding: 10px 0 0 0
+    border: 1px solid #e3e3e3
+    @include breakpoint(md)
+        border: none
+
+ngx-gallery /deep/ .ngx-gallery-arrow
+    color: #000000
+
+/deep/ .ngx-gallery-thumbnail.ngx-gallery-active  
+    border: $mmblue solid 2px
+    border-radius: 5px
+    box-shadow: 0px 0px 15px 1px $mmblue
+    transition: 0.5s
+    
+// section.section.feature-box 
+//     text-align: center
+
+
+.nav-tabs
+    z-index: 0
+    .nav-link
+        z-index: 0 !important
+
+.modal-content
+    background: #f2f2f2 !important
+
+.paintchips
+    display: block
+    text-align: -webkit-center
+    height: 300px
+    overflow: auto
+
+.paintchipsModal
+    display: block
+    text-align: -webkit-center
+
+.collapse
+    display: none
+    height: 0
+
+mdb-tabset
+    position: relative !important
+    z-index: 0 !important
+
+.lower-zindex
+    position: relative !important
+    z-index: 0 !important
+
+#ptr
+    cursor: pointer
+
+.small
+    font-size: .75em

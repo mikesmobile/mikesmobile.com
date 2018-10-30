@@ -1,0 +1,63 @@
+
+<app-action-buttons></app-action-buttons>
+
+<div class="container my-4">
+  <!--Author box-->
+  <div class="author-box" *ngIf="post">
+    <!--Name-->
+    <h3 class="h3-responsive text-center">{{post.title}}</h3>
+    <hr>
+    <div class="row">
+      <!--Avatar-->
+      <div class="col-12 col-sm-2">
+        <img src="{{post.images[0]}}" class="img-fluid rounded-circle z-depth-2" (click)="blogImgModal.show()">
+        <div mdbModal #blogImgModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="blogImgModal"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close pull-right" aria-label="Close" (click)="blogImgModal.hide()">
+                  <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title w-100" id="myModalLabel">{{post.title}}</h4>
+              </div>
+              <div class="modal-body">
+                <img src="{{post.images[0]}}" class="img-fluid z-depth-2" (click)="blogImgModal.show()">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Author Data-->
+      <div class=" col-12 col-sm-10">
+        <p><strong>{{post.user}}</strong></p>
+        <div class="personal-sm">
+          <a class="fb-ic" href="https://www.facebook.com/MikesMobileScreenAndChimneyService"><i class="fa fa-facebook"></i></a>
+          <a class="tw-ic" href="https://twitter.com/home?status="><i class="fa fa-twitter"> </i></a>
+          <a class="gplus-ic" href="https://plus.google.com/+MikesMobileScreenChimneyServiceSacramento"><i class="fa fa-google-plus"> </i></a>
+          <a class="gplus-ic" href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i class="fa fa-yelp s-icons"> </i></a>
+          <a class="email-ic" href="mailto:office@mikesmobile.com"><i class="fa fa-envelope-o"> </i></a>
+        </div>
+        <!-- <div *ngIf="post.video">
+          <iframe *ngIf="post.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(post.video)"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div> -->
+        <ng-container *ngFor="let p of post.content">
+          <p class="p-4" [innerHTML]="p"></p>
+        </ng-container>
+      </div>
+    </div>
+    <hr />
+    <div class="container" *ngIf="blogGallery">
+      <mdb-carousel [isControls]="true" class="carousel slide carousel-slide" [type]="'carousel-thumbnails'"
+        [animation]="'slide'">
+        <ng-container *ngFor="let img of post.images">
+          <mdb-slide>
+            <img class="d-block w-100 blogpostimg" src="{{img}}" alt="Blog Post Image">
+          </mdb-slide>
+        </ng-container>
+      </mdb-carousel>
+    </div>
+  </div>
+  <!--/.Author box-->
+</div>
