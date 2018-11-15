@@ -55,6 +55,8 @@ const appRoutes: Routes = [
   { path:'screens/:slug',         component: LandingScreensComponent,           data: { title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path:'security/:slug',        component: LandingSecurityComponent,          data: { title:" Mikes Mobile Screen and Chimney Service"}                  },
   { path: 'thank-you',            component: ThankYouComponent,                 data: { title: "Thank you!"}},
+  
+  //SEO Hidden locations doc
   {path:'about/chimney-services/chimney-service-in-sacramento', redirectTo:"/chimneys/sacramento"},
   {path:'about/chimney-services/chimney-services-in-antioch', redirectTo:"/chimneys/antioch-east-bay-region"},
   {path:'about/awnings/awnings-in-antioch', redirectTo:"/screens/antioch-east-bay-region"},
@@ -79,8 +81,9 @@ const appRoutes: Routes = [
   {path:'window-door-screens-modesto', redirectTo:"/screens/modesto"},
   {path:'sitemap',redirectTo:"/sitemap.xml"},
   
-
-
+  //Google search artifacts
+  {path:'http://mikesmobile.com/walnut-creek-screen-doors-windows', redirectTo:"/screens/danville-and-walnut-creek-south-bay"},
+  {path:'steel-security-doors', redirectTo:"/about/security-doors"},
 
 
 

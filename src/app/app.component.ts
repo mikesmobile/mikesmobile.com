@@ -28,6 +28,7 @@ export class AppComponent {
 
 	constructor(@Optional() @Inject(SESSION_STORAGE) 
 	private storage: WebStorageService, 
+	@Inject(PLATFORM_ID) private platformId:Object,
 	public router: Router, 
 	private activatedRoute: ActivatedRoute, 
 	private meta: Meta, 
@@ -86,13 +87,17 @@ export class AppComponent {
 					content:"Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
 				}
 				let title = "Security Doors, Security Window Screens & Chimney Services | Mike's Mobile"
+				//console.log(this.href)
 				for(var i = 0; i < this.metaList.length; i++){
+				
 				  if (this.metaList[i].page === this.href) {
+				
 					tag.name=this.metaList[i].name;
 					tag.content=this.metaList[i].content
 					title = this.metaList[i].title
 				  } 
 				}
+				//console.log(tag)
 				this.meta.updateTag(tag)
 				this.titleService.setTitle(title)
 			  }) 
@@ -102,7 +107,10 @@ export class AppComponent {
 		this.subscription = this.router.events.pipe(
 			filter(event => event instanceof NavigationEnd)
 		)
-		.subscribe(() => window.scrollTo(0, 0));
+		.subscribe(() =>{ 
+			if(isPlatformBrowser(this.platformId))
+			window.scrollTo(0, 0)
+		});
 
 	}
 	ngOnDestroy() {

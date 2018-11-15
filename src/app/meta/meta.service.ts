@@ -14,7 +14,7 @@ export class MetaService {
 			if(origin)
 			{
                 endpoint =`${origin}${endpoint}`;
-                console.log(endpoint) 
+                //console.log(endpoint) 
             }
         }
 
@@ -51,7 +51,7 @@ export class MetaService {
             catchError(error=>this.handleError(error,"search")))
     }
     handleError(handleError: any,type:string): any {
-        console.log(handleError, type);
+        //console.log(handleError, type);
         throw new Error(handleError);
     }
 

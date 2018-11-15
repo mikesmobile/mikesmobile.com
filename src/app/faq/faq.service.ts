@@ -12,7 +12,7 @@ export class FaqService {
 		@Optional() @Inject(APP_BASE_HREF) origin: string) {
 			if(origin)
 			endpoint =`${origin}${endpoint}`;
-			console.log(endpoint) 
+			//console.log(endpoint) 
 		}
 
   list(){

@@ -1,5 +1,6 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, PLATFORM_ID, Inject } from '@angular/core';
 import { turnState } from 'ng-uikit-pro-standard';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { turnState } from 'ng-uikit-pro-standard';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
-  constructor() { }
+  constructor(@Inject(PLATFORM_ID) private platformId:Object) { }
   
   groupOptionsSelect = []
   innerWidth:number
@@ -87,16 +88,19 @@ export class HomeComponent implements OnInit {
     //     this.growSlideshow();
     //     stateManager.init();
    // ];
-    this.innerWidth = window.innerWidth;
+   if(isPlatformBrowser(this.platformId)){ 
+   this.innerWidth = window.innerWidth;
     if (this.innerWidth < 1300) {
       this.slider = false;
     }
     else {
       this.slider = true;
     }
-
+    
     this.growSlideshow();
     stateManager.init();
+    }
+    
   }
 
   growSlideshow() {

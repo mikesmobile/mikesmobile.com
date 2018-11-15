@@ -27,7 +27,7 @@ export class ServicesService {
 		if(origin){
 		this.baseURL =`${origin}${this.baseURL}`;
 		endpoint=`${origin}${endpoint}`;
-		console.log(this.baseURL) 
+		//console.log(this.baseURL) 
 	}
  }
 

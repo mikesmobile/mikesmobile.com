@@ -62,8 +62,8 @@ export class ContactComponent implements OnInit {
   clickedMarker(label: string) {
     this.clicked = label
     this.state == 'normal' ? this.state = 'clicked' : this.state = 'normal';
-    console.log(this.clicked)
-    console.log(this.state)
+    //console.log(this.clicked)
+    //console.log(this.state)
  //   console.log(`clicked the marker: ${this.clicked}`)
   }
 
@@ -78,8 +78,8 @@ export class ContactComponent implements OnInit {
 
 
   ngOnInit() {
-   console.log(this.clicked)
-   console.log(this.state)
+   //console.log(this.clicked)
+   //console.log(this.state)
     this.emailForm = new FormGroup({
       'name': new FormControl("", [
         Validators.required,

@@ -3427,7 +3427,7 @@
         "slug":"oakland-north-bay",
         "type":"landing-chimney",
         "description": "Mike's Mobile is Oakland's premier, full service chimney company. If there are issues regarding your chimney or fireplace we can also do any repairs! We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
-        "region":"North Bay",
+        "region":"Oakland",
         "images":{
             "Inspections":"/assets/images/landing/chimney-inspections.jpg",
             "Repairs":"/assets/images/landing/hayward-oakland-chimney-service.jpg",
@@ -3621,7 +3621,7 @@
         "slug":"oakland-north-bay",
         "type":"landing-screen",
         "description":"Mike's Mobile Screen and Chimney Service is Oakland's premier window and door screen contractor. Whether it's screen repair, solar screens, sliding screen doors, swinging screen doors, retractable screen doors, pet doors, retractable patio awnings or drop roll sunscreens, Mike's Mobile has you covered!",
-        "region":"North Bay",
+        "region":"Oakland",
         "images":{
             "Window Screen Repair":"/assets/images/landing/hayward-oakland-sunscreens.jpg",
             "Swinging Screen Doors":"/assets/images/landing/hayward-oakland-screen-doors.jpg",
@@ -3668,7 +3668,7 @@
         "region":"Napa",
         "images":{
             "Window Screen Repair":"/assets/images/landing/web-windowscreen.jpg",
-            "Sliding Screen Doors":"/assets/images/landing/screen-door.jpg",
+            "Sliding Screen Doors":"/assets/images/landing/sacramento-screen-doors.jpg",
             "Retractable Patio Awnings":"/assets/images/landing/awning-vacaville.jpg"
         },
         "cards":{
@@ -3690,7 +3690,7 @@
         "region":"Vacaville",
         "images":{
             "Window Screen Repair":"/assets/images/landing/web-windowscreen.jpg",
-            "Sliding Screen Doors":"/assets/images/landing/screen-door.jpg",
+            "Sliding Screen Doors":"/assets/images/landing/sacramento-screen-doors.jpg",
             "Retractable Patio Awnings":"/assets/images/landing/awning-vacaville.jpg"
         },
         "cards":{
@@ -3818,7 +3818,7 @@
         "slug":"oakland-north-bay",
         "type":"landing-security",
         "description":"Mike's Mobile is Oakland's premier door and window security expert. Whether it's our steel security doors for unequaled customization or our aluminum and stainless steel viewguard and guarda products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
-        "region":"North Bay",
+        "region":"Oakland",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",

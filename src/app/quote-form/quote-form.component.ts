@@ -1,9 +1,10 @@
-import { Component, OnInit, ViewChild, Input, OnDestroy, Inject, Optional } from '@angular/core';
+import { Component, OnInit, ViewChild, Input, OnDestroy, Inject, Optional, PLATFORM_ID } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 import { ActivatedRoute, Router } from '../../../node_modules/@angular/router';
 import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
+import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
@@ -19,7 +20,8 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
   hide(){
     this.basicModal.hide();
   }
-  constructor(@Optional() @Inject(SESSION_STORAGE) private storage:WebStorageService, private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
+
+  constructor(@Inject(PLATFORM_ID) private platformId:Object,@Optional() @Inject(SESSION_STORAGE) private storage:WebStorageService, private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
 
   optionsSelect=[]
   groupOptionsSelect=[]
@@ -104,7 +106,11 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
           option = 'Homepage';
         else
           option = url.toString();   
-        this._service.create(name, city, phone, email, message, option,this.storage.get('utm_source'),this.storage.get('utm_medium'),this.storage.get('utm_campaign')).subscribe(data=>{
+
+         if (isPlatformBrowser(this.platformId)) {
+
+         }
+        this._service.create(name, city, phone, email, message, option,utm_source,utm_medium,utm_campaign).subscribe(data=>{
           //console.log(data);
           this.router.navigate(['/thank-you']);
         })
