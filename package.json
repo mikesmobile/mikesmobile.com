@@ -36,6 +36,7 @@
     "angular-webstorage-service": "^1.0.2",
     "bootstrap": "^4.0.0-alpha.6",
     "chart.js": "^2.5.0",
+    "classlist.js": "^1.1.20150312",
     "core-js": "^2.4.1",
     "easy-pie-chart": "^2.1.7",
     "ekko-lightbox": "^5.3.0",
@@ -53,6 +54,7 @@
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.0.0-rc.0",
     "screenfull": "^3.3.0",
+    "web-animations-js": "^2.3.1",
     "webpack-node-externals": "^1.7.2",
     "zone.js": "^0.8.26"
   },
