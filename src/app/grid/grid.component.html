@@ -209,13 +209,11 @@
 										<!--/ front content -->
 
 										<!-- back content -->
-										<a routerLink="/{{item.type}}/{{item.slug}}">
-											<div class="back">
-											<h4 class="text-center">{{item.title}}</h4>
+										<div class="back" routerLink="/{{item.type}}/{{item.slug}}">
+											<h4 class="text-center card-back-title">{{item.title}}</h4>
 											<div class="divider dropdown-divider pt-0 mt-0"></div>
 											<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
-											</div>
-										</a>
+										</div>
 										<!--/ back content -->
 										</div>
 									</div>
@@ -254,26 +252,24 @@
 									<!-- Flip Card -->
 									<div class="flip-container">
 										<div class="flipper">
-										<!-- front content -->
-										<div class="front">
-											<!--Card image-->
-											<div class="view waves-light" mdbRippleRadius>
-												<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="servicesImages">
+											<!-- front content -->
+											<div class="front">
+												<!--Card image-->
+												<div class="view waves-light" mdbRippleRadius>
+													<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="servicesImages">
+												</div>
+												<!--Title-->
+												<h5 class="card-title px-4 py-2">{{item.title}}</h5>
 											</div>
-											<!--Title-->
-											<h5 class="card-title px-4 py-2">{{item.title}}</h5>
-										</div>
-										<!--/ front content -->
+											<!--/ front content -->
 
-										<!-- back content -->
-										<a routerLink="/{{item.type}}/{{item.slug}}">
-											<div class="back">
-											<h4 class="text-center">{{item.title}}</h4>
-											<div class="divider dropdown-divider pt-0 mt-0"></div>
-											<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
+											<!-- back content -->
+											<div class="back" routerLink="/{{item.type}}/{{item.slug}}">
+												<h4 class="text-center card-back-title">{{item.title}}</h4>
+												<div class="divider dropdown-divider pt-0 mt-0"></div>
+												<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
 											</div>
-										</a>
-										<!--/ back content -->
+											<!--/ back content -->
 										</div>
 									</div>
 									<!-- /Flip Card -->
@@ -314,23 +310,20 @@
 										<div class="flipper">
 											<!-- front content -->
 											<div class="front">
-											<!--Card image-->
-											<div class="view waves-light" mdbRippleRadius>
-												<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="servicesImages">
-											</div>
-											<!--Title-->
-											<h5 class="card-title px-4 py-2">{{item.title}}</h5>
+												<!--Card image-->
+												<div class="view waves-light" mdbRippleRadius>
+													<img src="{{item.tileImage}}" class="img-fluid" alt="{{item.title}}" id="servicesImages">
+												</div>
+												<!--Title-->
+												<h5 class="card-title px-4 py-2">{{item.title}}</h5>
 											</div>
 											<!--/ front content -->
-	
 											<!-- back content -->
-											<a routerLink="/{{item.type}}/{{item.slug}}">
-											<div class="back">
-												<h4 class="text-center card-back-titile">{{item.title}}</h4>
+											<div class="back" routerLink="/{{item.type}}/{{item.slug}}">
+												<h4 class="text-center card-back-title">{{item.title}}</h4>
 												<div class="divider dropdown-divider pt-0 mt-0"></div>
 												<p class="p-1 mb-0 text-center">{{item.tileText}}</p>
 											</div>
-											</a>
 											<!--/ back content -->
 										</div>
 									</div>
