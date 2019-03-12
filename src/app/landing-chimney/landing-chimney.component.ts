@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ServiceItem } from '../services/service';
 import { ServicesService } from '../services/service.service';
-import { ActivatedRoute } from '../../../node_modules/@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-landing-chimney',
@@ -53,10 +53,10 @@ export class LandingChimneyComponent implements OnInit {
 						this.cards=this.region['cards']
 						//console.log("bb",this.cards)
 						if(this.region.hasOwnProperty('images'))
-							this.images=this.region['images'];	
+							this.images=this.region['images'];
 						this.title+=this.region.region
 						this.cities=this.regionList[this.region.region]
-						
+
                         }
                     }
                 )
@@ -68,4 +68,3 @@ export class LandingChimneyComponent implements OnInit {
 		this.req.unsubscribe();
 	}
 }
-

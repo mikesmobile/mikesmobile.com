@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceItem } from '../services/service';
-import { ActivatedRoute } from '../../../node_modules/@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { ServicesService } from '../services/service.service';
 
 @Component({
@@ -48,9 +48,9 @@ export class LandingScreensComponent implements OnInit {
 				data.filter(item => {
 					if (item.slug == this.slug&&item.type=='landing-screen') {
 						this.region = item as ServiceItem;
-						
+
 						if(this.region.hasOwnProperty('images'))
-							this.images=this.region['images'];	
+							this.images=this.region['images'];
 						this.cities = this.regionList[this.region.region]
 						this.title += this.region.region
 						//console.log(this.cities)

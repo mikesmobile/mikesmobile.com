@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Input, OnDestroy, Inject, Optional, PLATF
 import { FormControl, FormGroup, Validators, NgForm} from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from 'ng-uikit-pro-standard';
-import { ActivatedRoute, Router } from '../../../node_modules/@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 import { isPlatformBrowser } from '@angular/common';
 @Component({

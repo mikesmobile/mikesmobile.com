@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FaqService } from '../faq/faq.service';
-import { ActivatedRoute } from '../../../node_modules/@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { FaqSegment } from '../faq/faq';
 
 @Component({

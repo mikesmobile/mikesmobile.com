@@ -5,7 +5,6 @@ import { ServicesService } from '../services/service.service';
 import { DomSanitizer } from '@angular/platform-browser';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
 
-import * as $ from 'jquery';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import {TabNavComponent} from '../tab-nav/tab-nav.component';
 @Component({
@@ -88,7 +87,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     @ViewChild('navwrap') private navwrap;
 
     constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
-    
+
     ngOnInit() {
         this.routeSub = this.route.params.subscribe(params => {
             this.slug = params['slug']
@@ -99,8 +98,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                         this.videoLink=this.sanitizer.bypassSecurityTrustUrl(this.product.video)
                         this.recent_install_images = this.product.recentInstallImages;
                         if(this.details != undefined){
-                            this.details = undefined    
-                        }                        
+                            this.details = undefined
+                        }
                         this.details=this.product.details
                         if (this.product.thumbImages && this.product.thumbImages.length > 1){
                             this.gallery_images = this.product.thumbImages;
@@ -112,7 +111,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                         if (this.product.bullets!=undefined &&this.product.bullets.length > 5){
                             let smallLi = true;
                         }
-                        
+
                     }
                 })
             })
@@ -144,7 +143,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
             { value: '', label: 'AWNINGS', group: true },
             { value: '20', label: 'Retractable Patio Awnings' },
             { value: '21', label: 'Drop Roll Sunscreens' },
-          
+
         ];
 
         this.gallery_options = [
@@ -160,7 +159,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
                 thumbnailsSwipe: true,
                 imageSize: NgxGalleryImageSize.Contain,
                 imageAnimation: NgxGalleryAnimation.Zoom,
-                previewCloseOnClick: true, 
+                previewCloseOnClick: true,
                 previewCloseOnEsc: true,
                 imageSwipe: true
             },
@@ -184,37 +183,37 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
         ];
 
         this.recent_install_images_options = [
-            { 
-                image: false, 
+            {
+                image: false,
                 height: '200px',
                 width: '800px',
-                // width: '600px', 
-                // height: '500px', 
-                thumbnailsColumns: 5, 
-                // thumbnailsRows: 2, 
-                // thumbnailsPercent: 40, 
-                // imagePercent: 60, 
-                // thumbnailMargin: 2, 
-                // thumbnailsMargin: 2, 
-                imageAutoPlay: true, 
+                // width: '600px',
+                // height: '500px',
+                thumbnailsColumns: 5,
+                // thumbnailsRows: 2,
+                // thumbnailsPercent: 40,
+                // imagePercent: 60,
+                // thumbnailMargin: 2,
+                // thumbnailsMargin: 2,
+                imageAutoPlay: true,
                 thumbnailsSwipe: true,
-                imageAutoPlayPauseOnHover: true, 
-                previewAutoPlay: true, 
-                previewAutoPlayPauseOnHover: true, 
-                previewCloseOnClick: true, 
+                imageAutoPlayPauseOnHover: true,
+                previewAutoPlay: true,
+                previewAutoPlayPauseOnHover: true,
+                previewCloseOnClick: true,
                 previewCloseOnEsc: true
             },
-            { 
-              breakpoint: 990, 
+            {
+              breakpoint: 990,
               width: "100%",
-              thumbnailsColumns: 3, 
+              thumbnailsColumns: 3,
 
             },
-            // { 
-            //     breakpoint: 300, 
-            //     width: '100%', 
-            //     height: '200px', 
-            //     thumbnailsColumns: 2 
+            // {
+            //     breakpoint: 300,
+            //     width: '100%',
+            //     height: '200px',
+            //     thumbnailsColumns: 2
             // }
         ]
     }
@@ -228,27 +227,27 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
     //     var viewLessBtn = document.getElementById('less-colors').style.display="block";
 
     //     for (var i=6; i<19; i++){
-    //         var el = document.getElementById("square-" + i);            
+    //         var el = document.getElementById("square-" + i);
     //         el.style.display = 'block';
     //         if (screen.width < 992){
     //             var ello = document.getElementById("square-p-" + i);
     //             ello.style.display = 'block';
-    //         }            
+    //         }
     //     }
-        
+
     // }
     // viewLessColors(){
     //     var viewLessBtn = document.getElementById('less-colors').style.display="none";
     //     var viewMoreBtn = document.getElementById('more-colors').style.display="block";
 
     //     for (var i=6; i<19; i++){
-    //         var el = document.getElementById("square-" + i);            
+    //         var el = document.getElementById("square-" + i);
     //         el.style.display = 'none';
     //         if (screen.width < 992){
     //             var ello = document.getElementById("square-p-" + i);
     //             ello.style.display = 'none';
-    //         }            
-    //     }     
+    //         }
+    //     }
     // }
 
     // moreSteelToggle(){
