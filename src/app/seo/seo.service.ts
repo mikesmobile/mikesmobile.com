@@ -8,7 +8,7 @@ import { Injectable, Inject } from '@angular/core';
 export class SEOService {
   constructor(@Inject(DOCUMENT) private dom) { }
 
-  createCanonicalURL() {
+  updateCanonicalURL() {
     // Update canonical link in DOM if possible
     let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector("link[rel='canonical']")
     if (existingCanonicalLink) {

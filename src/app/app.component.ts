@@ -20,12 +20,9 @@ declare let ga: Function;
 
 })
 export class AppComponent {
-  title = 'Mikes Mobile';
-  private req: any
-  private reques: any
   metaList: [Metas]
-  href: string;
-  subscription: Subscription;
+  title = 'Mikes Mobile'
+  subscription: Subscription
 
   constructor(
     @Optional() @Inject(SESSION_STORAGE)
@@ -34,90 +31,63 @@ export class AppComponent {
     public router: Router,
     private activatedRoute: ActivatedRoute,
     private meta: Meta,
-    private _meta:MetaService,
+    private metaService:MetaService,
     private seoService: SEOService,
     private titleService: Title
   ) {
     this.router.events.subscribe((event) => {
       if (isPlatformBrowser(PLATFORM_ID)) {
         if (event instanceof NavigationEnd) {
-          ga('set', 'page', event.urlAfterRedirects);
-          ga('send', 'pageview');
+          ga('set', 'page', event.urlAfterRedirects)
+          ga('send', 'pageview')
         }
-
       }
     });
 
   }
 
   ngOnInit() {
-    this.router.events.pipe(
-      filter((event) => event instanceof NavigationEnd),
-      map(() => this.activatedRoute),
-      map((route) => {
-        while (route.firstChild) route = route.firstChild;
-        return route;
-      }),
-      filter((route) => route.outlet === 'primary'),
-      mergeMap((route) => route.data))
-      .subscribe((event) => this.titleService.setTitle(event['title']));
-
-    this.router.events.subscribe((evt) => {
-      if (!(evt instanceof NavigationEnd)) {
-        return;
-      }
-      if(isPlatformBrowser(PLATFORM_ID))
-      {
-      window.scrollTo(0, 0)
-      }
-    });
-
     this.activatedRoute.queryParams.subscribe((params) => {
-      if (params)
-        for (var key in params) {
+      if (params) {
+        for (let key in params) {
           if (params.hasOwnProperty(key)) {
-            this.storage.set(key, params[key]);
+            this.storage.set(key, params[key])
           }
         }
+      }
     });
 
-    this.router.events.pipe(
-    filter((event) => event instanceof NavigationEnd))
-    .subscribe((event) => {
-      this.href = this.router.url
-  //    console.log('page Url :', this.href)
-      this.req = this._meta.list().subscribe(data => {
-        this.metaList = data as [Metas];
+    this.subscription = this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe((event) => {
+      // Scroll to top of page on router events
+      if (isPlatformBrowser(this.platformId)) {
+        window.scrollTo(0, 0)
+      }
+
+      // Set <link rel="canonical"> tag
+      this.seoService.updateCanonicalURL()
+
+      // Set <meta name="description"> tag
+      this.metaService.list().subscribe((data) => {
+        this.metaList = data as [Metas]
+
+        let title = "Security Doors, Security Window Screens & Chimney Services | Mike's Mobile"
         let tag = {
           name:"description",
           content:"Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
         }
-        let title = "Security Doors, Security Window Screens & Chimney Services | Mike's Mobile"
-        //console.log(this.href)
-        for(var i = 0; i < this.metaList.length; i++){
 
-          if (this.metaList[i].page === this.href) {
-
-          tag.name=this.metaList[i].name;
-          tag.content=this.metaList[i].content
-          title = this.metaList[i].title
+        for (let i = 0; i < this.metaList.length; i++) {
+          if (this.metaList[i].page === this.router.url) {
+            tag.name = this.metaList[i].name
+            tag.content = this.metaList[i].content
+            title = this.metaList[i].title
           }
         }
-        //console.log(tag)
-        this.seoService.createCanonicalURL()
+
         this.meta.updateTag(tag)
         this.titleService.setTitle(title)
-        })
-
+      })
     })
-    //For Scrolling up on every new page
-    this.subscription = this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd)
-    )
-    .subscribe(() =>{
-      if (isPlatformBrowser(this.platformId))
-      window.scrollTo(0, 0)
-    });
   }
 
   ngOnDestroy() {
