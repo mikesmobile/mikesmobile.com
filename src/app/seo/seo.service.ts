@@ -9,14 +9,17 @@ export class SEOService {
   constructor(@Inject(DOCUMENT) private dom) { }
 
   createCanonicalURL() {
-    const existingCanonicalLink = this.dom.head.querySelector("link[rel='canonical']")
+    // Find canonical link in DOM if possible
+    let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector("link[rel='canonical']")
     if (existingCanonicalLink) {
-      this.dom.head.removeChild(existingCanonicalLink)
+      existingCanonicalLink.setAttribute('href', this.dom.URL);
+      return;
     }
 
-    let link: HTMLLinkElement = this.dom.createElement('link')
-    link.setAttribute('rel', 'canonical')
-    this.dom.head.appendChild(link)
-    link.setAttribute('href', this.dom.URL)
+    // Generate new canonical link
+    let newCanonicalLink: HTMLLinkElement = this.dom.createElement('link')
+    newCanonicalLink.setAttribute('rel', 'canonical')
+    newCanonicalLink.setAttribute('href', this.dom.URL)
+    this.dom.head.appendChild(newCanonicalLink)
   }
 }
