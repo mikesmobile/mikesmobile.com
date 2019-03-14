@@ -9,10 +9,10 @@ export class SEOService {
   constructor(@Inject(DOCUMENT) private dom) { }
 
   createCanonicalURL() {
-    // Find canonical link in DOM if possible
+    // Update canonical link in DOM if possible
     let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector("link[rel='canonical']")
     if (existingCanonicalLink) {
-      existingCanonicalLink.setAttribute('href', this.dom.URL);
+      existingCanonicalLink.setAttribute('href', this.dom.URL)
       return;
     }
 
