@@ -72,17 +72,16 @@ export class AppComponent {
 
         let title = "Security Doors, Security Window Screens & Chimney Services | Mike's Mobile"
         let tag = {
-          name:"description",
-          content:"Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
+          name: "description",
+          content: "Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
         }
 
-        for (let i = 0; i < this.metaList.length; i++) {
-          if (this.metaList[i].page === this.router.url) {
-            tag.name = this.metaList[i].name
-            tag.content = this.metaList[i].content
-            title = this.metaList[i].title
-          }
-        }
+        const metaInfo = this.metaList.find((_meta) => {
+          return _meta.page === this.router.url
+        })
+
+        tag.content = metaInfo.content
+        title = metaInfo.title
 
         this.meta.updateTag(tag)
         this.titleService.setTitle(title)
