@@ -8,7 +8,7 @@ let endpoint = '/assets/json/og_services.json'
 @Injectable()
 export class RegionsService {
   constructor(
-    private http: HttpClient,
+    private http:HttpClient,
     @Optional() @Inject(APP_BASE_HREF) origin: string
   ) {
     if (origin) {
@@ -17,7 +17,11 @@ export class RegionsService {
   }
 
   list() {
-    return this.http.get<any[]>(endpoint).pipe(map((response) => response), catchError((error) => this.handleError(error, "list")))
+		return this.http.get<any[]>(endpoint).pipe(map((response) => response.filter((item) => {
+		  if (item.type.indexOf("landing-") > -1) {
+			 return item
+      }
+		})), catchError((error) => this.handleError(error, "get")))
   }
 
   get(slug) {
