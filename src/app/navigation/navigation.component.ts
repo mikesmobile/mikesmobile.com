@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
-import { Title }     									from '@angular/platform-browser';
+import { ServiceItem }        from '../services/service';
+import { ServicesService }    from '../services/service.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
@@ -22,7 +21,7 @@ export class NavigationComponent implements OnInit {
   private req:any
   serviceList:[ServiceItem]
 
-  constructor(private _service:ServicesService, private titleService:Title) { }
+  constructor(private _service:ServicesService) { }
 
   ngOnInit() {
       this.req = this._service.list().subscribe(data=>{
@@ -52,10 +51,4 @@ export class NavigationComponent implements OnInit {
       dropdown.classList.toggle('show');
     }
   }
-
-  
-  public setTitle( newTitle: string) {
-		this.titleService.setTitle( newTitle );
-	}
-
 }
