@@ -1,49 +1,49 @@
-import {catchError, map} from 'rxjs/operators';
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Injectable }     from '@angular/core';
+import { HttpClient }     from '@angular/common/http';
+import {catchError, map}  from 'rxjs/operators';
 
-const endpoint = '/assets/json/manuals.json';
+const endpoint = '/assets/json/manuals.json'
 
 @Injectable()
-export class manulasService {
+export class manualsService {
+  constructor(private http: HttpClient) { }
 
-  constructor(private http:HttpClient) { }
-
-  list(){
-    return this.http.get(endpoint).pipe(map(response=>response),catchError(this.handleError),)
+  list() {
+    return this.http.get<any[]>(endpoint).pipe(map((response) => response), catchError((error) => this.handleError(error, "list")))
   }
-	listInput(input){
-		return this.http.get(input).pipe(map(response=>response),catchError(this.handleError),)
+
+	listInput(input) {
+		return this.http.get<any[]>(input).pipe(map((response) => response), catchError((error) => this.handleError(error, "listInput")))
 	}
-  get(slug){
-	  return this.http.get<any[]>(endpoint).pipe(map(response=>{
-		  let data = response.filter(item=>{
-		  	if (item.slug == slug){
-			  	return item
-		  	}
-			})
-			if (data.length == 1){
-		  	return data[0]
-	  	}
-	  	return {}
-		}),catchError(this.handleError),)
+
+  get(slug) {
+    return this.http.get<any[]>(endpoint).pipe(map((response) => {
+      let data = response.filter((item) => {
+        if (item.slug == slug) {
+          return item
+        }
+      })
+      if (data.length == 1) {
+        return data[0]
+      }
+      return {}
+    }), catchError((error) => this.handleError(error, "get")))
   }
 
-  search(query){
-	  return this.http.get<any[]>(endpoint).pipe(map(response=>{
-		let data = []
-		let req = response.filter(item=>{
-			if (item.title.toLowerCase().indexOf(query.toLowerCase()) >= 0){
-				data.push(item)
-			}
-		})
-		return data
-	  }),
-	  catchError(this.handleError),)
+  search(query) {
+    return this.http.get<any[]>(endpoint).pipe(map((response) => {
+      let data = []
+      let req = response.filter((item) => {
+        if (item.title.toLowerCase().indexOf(query.toLowerCase()) >= 0) {
+          data.push(item)
+        }
+      })
+
+      return data
+    }), catchError((error) => this.handleError(error, "search")))
   }
 
-  handleError(error:any, caught:any):any{
-    //console.log(error, caught)
+  handleError(handleError: any, type:string): any {
+    throw new Error(handleError)
   }
-
 }

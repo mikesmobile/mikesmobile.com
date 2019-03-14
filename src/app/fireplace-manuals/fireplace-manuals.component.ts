@@ -1,29 +1,32 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { manulasService } from '../fireplace-manuals/manuals.service';
-import { manualsSegment } from '../fireplace-manuals/manuals';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute }                   from '@angular/router';
+
+import { manualsSegment } from './manuals';
+import { manualsService } from './manuals.service';
 
 @Component({
   selector: 'app-fireplace-manuals',
   templateUrl: './fireplace-manuals.component.html',
   styleUrls: ['./fireplace-manuals.component.sass'],
-  providers:[manulasService]
+  providers: [ manualsService ]
 })
-export class FireplaceManualsComponent implements OnInit,AfterViewInit {
 
-  manulasSections:[manualsSegment];
-  req:any;
-  private fragment:string;
+export class FireplaceManualsComponent implements OnInit, AfterViewInit {
+  manualsSections:[manualsSegment]
+  private fragment:string
 
-  constructor(private _service:manulasService, private route:ActivatedRoute) { }
+  constructor(private _service:manualsService, private route:ActivatedRoute) { }
 
   ngOnInit() {
-    this.req = this._service.list().subscribe(data=>{
-      this.manulasSections = data as [manualsSegment];
-      //console.log(this.faqSections)
+    this._service.list().subscribe((data) => {
+      this.manualsSections = data as [manualsSegment]
     })
-    this.route.fragment.subscribe(fragment =>{this.fragment = fragment});
+
+    this.route.fragment.subscribe((fragment) => {
+      this.fragment = fragment
+    })
   }
+
   ngAfterViewInit(): void {
     //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
     //Add 'implements AfterViewInit' to the class.
