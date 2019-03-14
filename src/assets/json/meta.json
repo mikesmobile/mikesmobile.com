@@ -10,6 +10,10 @@
         "title": "About Mike's Mobile Screen & Chimney Service, Serving the Greater Sacramento, Stockton, Modesto, Napa and East Bay Areas"
     },
     {
+        "page": "/faq",
+        "title": "FAQ | Mike's Mobile Screen and Chimney Service"
+    },
+    {
         "page": "/about/awnings",
         "content": "Mike's Mobile provides Sunesta retractable awnings and more for the Sacramento, Stockton, Modesto, Napa and East Bay areas.",
         "title": "Awnings for Sacramento, Stockton, Modesto, Napa & the East Bay | Mike's Mobile"
@@ -27,7 +31,7 @@
     {
         "page": "/blog",
         "content": "Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto, Napa and East Bay areas. We are also experts at recommending and installing awnings. Call us today!",
-        "title": "Security Doors, Windows & Chimney Services | Mike's Mobile"
+        "title": "Blog | Mike's Mobile Screen and Chimney Service"
     },
     {
         "page": "/about/chimney-services",
@@ -102,7 +106,7 @@
     {
         "page": "/chimney-glossary",
         "content": "Browse through our exhaustive chimney glossary. We service chimneys in the Sacramento, Stockton, Modesto and East Bay areas.",
-        "title": "Chimney Glossary - Chimney Service & Repair | Mike's Mobile"
+        "title": "Chimney Glossary | Mike's Mobile Screen and Chimney Service"
     },
     {
         "page": "/services/chimney-rebuild",
@@ -122,7 +126,7 @@
     {
         "page": "/contact",
         "content": "Contact Mike's Mobile for all of your Sacramento, East Bay, Stockton and Modesto security doors, windows and chimney service needs. We do window and door screen repair, security doors, chimney sweeps, chimney cleaning, chimney inspection, chimney repair and more.",
-        "title": "Security Doors, Windows & Chimney Service - Contact Us | Mike's Mobile"
+        "title": "Contact Us | Mike's Mobile Screen and Chimney Service"
     },
     {
         "page": "/about/security-doors",
@@ -363,6 +367,10 @@
         "page": "/products/santa-fe",
         "content": "The Santa Fe steel security doors have a tamperproof guard strip & hinges to protect against forced entry. Mike's Mobile is here for you in Sacramento, Stockton, Modesto, the East Bay and beyond. Call for a free quote!",
         "title": "Santa Fe Steel Security Doors | Mike's Mobile"
+    },
+    {
+        "page": "/blog/",
+        "content": "We service chimneys in the Sacramento, Stockton, Modesto and East Bay areas."
     },
     {
         "page": "/blog/vineyard-steel-security-door-says-welcome",

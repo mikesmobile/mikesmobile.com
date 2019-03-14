@@ -70,7 +70,7 @@ export class AppComponent {
       this.metaService.list().subscribe((data) => {
         this.metaList = data as [Metas]
 
-        let title = "Security Doors, Security Window Screens & Chimney Services | Mike's Mobile"
+        let title = "Mike's Mobile Screen and Chimney Service"
         let tag = {
           name: "description",
           content: "Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
@@ -80,8 +80,14 @@ export class AppComponent {
           return _meta.page === this.router.url
         })
 
-        tag.content = metaInfo.content
-        title = metaInfo.title
+        if (metaInfo) {
+          if (metaInfo.content) {
+            tag.content = metaInfo.content
+          }
+          if (metaInfo.title) {
+            title = metaInfo.title
+          }
+        }
 
         this.meta.updateTag(tag)
         this.titleService.setTitle(title)
