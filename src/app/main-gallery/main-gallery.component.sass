@@ -1,7 +1,10 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-.modal-open .modal 
+.carousel-item.active > img
+    object-fit: contain
+
+.modal-open .modal
     overflow-x: hidden
     overflow-y: auto
 
@@ -22,20 +25,20 @@
 .gallery-content
     background-color: rgba(0, 0, 0, 0.3)
 
-.gallery-content .close 
+.gallery-content .close
     position: relative
     right: 0px
     color: white
 
-.galleryImg .btn-secondary 
+.galleryImg .btn-secondary
     background-color:  !important
     color: #fff !important
 
 
-.carousel-control-prev:hover , .carousel-control-next:hover 
+.carousel-control-prev:hover , .carousel-control-next:hover
     background-color: rgba(0, 0, 0, 0.5)
 
-.carousel-control-prev, .carousel-control-next 
+.carousel-control-prev, .carousel-control-next
     width: 8%
 
 .carousel-thumbnails .carousel-indicators img
@@ -45,7 +48,7 @@
     max-width: auto
     height: auto
 
-.carousel-thumbnails .carousel-indicators li 
+.carousel-thumbnails .carousel-indicators li
     height: auto
     width: auto
     border: 2px solid
@@ -61,15 +64,15 @@
         opacity: 0.5
         background-color: rgba(255, 255, 255, 0) !important
         margin-bottom: -30px
-     
-.btn-danger 
+
+.btn-danger
     padding: 0.50rem 0.90rem
 
-.carousel-thumbnails .carousel-indicators .active 
+.carousel-thumbnails .carousel-indicators .active
     opacity: 1
     border: 2px solid
-    
-.gallery-header 
+
+.gallery-header
     justify-content: flex-end
     display: -webkit-box
     display: -ms-flexbox
@@ -81,7 +84,7 @@
     border: none
     padding: 0
 
-.gallery-footer 
+.gallery-footer
     display: -webkit-box
     display: -ms-flexbox
     display: flex
@@ -101,7 +104,7 @@
     margin: 2px
     padding: 1rem
 
-.gallery-footer > :not(:last-child) 
+.gallery-footer > :not(:last-child)
     padding: 1rem
 
 

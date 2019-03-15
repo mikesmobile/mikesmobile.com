@@ -1,13 +1,16 @@
-import { NgModule, NO_ERRORS_SCHEMA,PLATFORM_ID, APP_ID, Inject } from '@angular/core';
-import { isPlatformBrowser }                                      from '@angular/common';
-import { HttpClientModule }                                       from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule }                       from '@angular/forms';
-import { BrowserModule, Title }                                   from '@angular/platform-browser';
-import { BrowserAnimationsModule }                                from '@angular/platform-browser/animations'
-import { AgmCoreModule }                                          from '@agm/core';
-import { StorageServiceModule}                                    from 'angular-webstorage-service';
-import { LazyLoadImageModule }                                    from 'ng-lazyload-image';
-import { MDBBootstrapModulesPro }                                 from 'ng-uikit-pro-standard';
+import {  Inject, NgModule,
+          NO_ERRORS_SCHEMA,
+          PLATFORM_ID, APP_ID }             from '@angular/core';
+import { isPlatformBrowser }                from '@angular/common';
+import { HttpClientModule }                 from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {  BrowserModule, HammerGestureConfig,
+          Title, HAMMER_GESTURE_CONFIG }    from '@angular/platform-browser';
+import { BrowserAnimationsModule }          from '@angular/platform-browser/animations'
+import { AgmCoreModule }                    from '@agm/core';
+import { StorageServiceModule}              from 'angular-webstorage-service';
+import { LazyLoadImageModule }              from 'ng-lazyload-image';
+import { MDBBootstrapModulesPro }           from 'ng-uikit-pro-standard';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent }     from './app.component';
@@ -52,6 +55,8 @@ import { RegionListComponent }        from './region-list/region-list.component'
 import { ContractComponent }          from './contract/contract.component';
 import { FreeQuoteComponent }         from './free-quote/free-quote.component';
 
+declare var Hammer: any;
+
 let imports = [
   MDBBootstrapModulesPro.forRoot(),
   AppRoutingModule,
@@ -68,6 +73,26 @@ let imports = [
 
 if(isPlatformBrowser(PLATFORM_ID)){
   imports.push(StorageServiceModule)
+}
+
+export class PanYHammerConfig extends HammerGestureConfig {
+  overrides = <any> {
+    'pan': { direction: Hammer.DIRECTION_VERTICAL },
+    'swipe': { direction: Hammer.DIRECTION_ALL },
+  };
+
+   buildHammer(element: HTMLElement) {
+    const mc = new Hammer(element, {
+      touchAction: 'auto',
+          inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput,
+          recognizers: [
+            [Hammer.Swipe, {
+              direction: Hammer.DIRECTION_HORIZONTAL
+            }]
+          ]
+    });
+    return mc;
+  }
 }
 
 @NgModule({
@@ -116,6 +141,10 @@ if(isPlatformBrowser(PLATFORM_ID)){
   imports: imports,
   providers: [
       Title,
+      {
+        provide: HAMMER_GESTURE_CONFIG,
+        useClass: PanYHammerConfig
+      }
   ],
   bootstrap: [ AppComponent ],
   schemas: [ NO_ERRORS_SCHEMA ],
