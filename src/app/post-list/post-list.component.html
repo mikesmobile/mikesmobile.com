@@ -1,110 +1,74 @@
-
 <app-action-buttons></app-action-buttons>
 <div class="container">
-    <!--Section heading-->
-    <h1 class="text-center mt-md-4 pt-4 pb-md-4">Blog Posts</h1>
-    <!--Section description-->
-    <p class="section-description px-4">Welcome to Mike's Mobile Blog! Here you will find some of our latest
-        articles, and any other news.</p>
+  <!--Section heading-->
+  <h1 class="text-center mt-md-4 pt-4 pb-md-4">Blog Posts</h1>
+  <!--Section description-->
+  <p class="section-description px-4">Welcome to Mike's Mobile Blog! Here you will find some of our latest articles, and any other news.</p>
 </div>
 <div class="d-flex flex-wrap mx-3">
-    <div class="container col-12 col-md-3 col-lg-2 order-1 order-md-1 mb-3">
-                <ul class="list-group">
-                    <!-- <li class="list-group-item active text-center">Filter By</li> -->
-                    <li class="list-group-item head">Category</li>
-                    <a>
-                        <li *ngFor="let item of category; let i = index" id="{{item}}" class="list-group-item subcat" (click)="clickedItem(item)">{{item}}</li>
-                    </a>
-                    <li class="list-group-item head">Location</li>
-                    <a>
-                        <li *ngFor="let item of location; let i = index" id="{{item}}" class="list-group-item subcat" (click)="clickedItem(item)">{{item}}</li>
-                    </a>
-                    <div class="dropright text-center">
-                    <li type="button" class="list-group-item head dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">Date<span class="sr-only">Toggle Dropdown</span></li>
-                    <div class="dropdown-menu">
-                        <a *ngFor="let item of date; let i = index" id="{{item}}" class="dropdown-item subcat" (click)="clickedItem(item)">{{item}}</a>
-                    </div>
-                </div>
-                </ul>
-        <!-- <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Filter By
-            </button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                    <a class="dropdown-item" id="main" tabindex="-1">Category<i class="icon icon-caret-right"></i></a>
-                    <ul class="dropdown-menu sub hide" id="category" tabindex="1">
-                        <li><a *ngFor="let item of category; let i = index" class="dropdown-item" (click)="clickedItem(item)">{{item}}</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown-submenu">
-                    <a class="dropdown-item" id="main" tabindex="-1">Date<i class="icon icon-caret-right"></i></a>
-                    <ul class="dropdown-menu sub hide" id="date" tabindex="1">
-                        <li><a *ngFor="let item of date; let i = index" class="dropdown-item" (click)="clickedItem(item)">{{item}}</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown-submenu">
-                    <a class="dropdown-item" id="main" tabindex="-1">Location<i class="icon icon-caret-right"></i></a>
-                    <ul class="dropdown-menu sub hide" id="location" tabindex="1">
-                        <li><a *ngFor="let item of location; let i = index" class="dropdown-item" (click)="clickedItem(item)">{{item}}</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <button *ngFor="let post of selected" type="button" class="btn btn-danger" (click)="removeButton()">
-                {{ post }} <span class="pl-4"></span> X</button>
-        </div> -->
-    </div>
-    <div class="container col-12 col-md-9 col-lg-10 order-2 order-md-2">
-        <!--Section: Blog v.1-->
-        <section class="section pb-3 text-center text-lg-left">
-            <!--Grid row-->
-            <div *ngFor="let post of blogPostList">
-                <div class="row" *ngIf="(post.filter.Category == clicked ||  post.filter.Location == clicked || post.filter.Postdate == clicked || clicked == 'all')">
-                    <!--Grid column-->
-                    <div class="col-md-4">
-                        <div class="view overlay">
-                            <!--Featured image-->
-                            <img class="post-img" src="{{post.images[0]}}" alt="{{post.slug}}">
-                            <a>
-                                <div class="mask rgba-orange-light"></div>
-                            </a>
-                            <!-- </div> -->
-                        </div>
-                    </div>
-                    <!--/Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-8">
-                        <div class="blog-text">
-                            <!--Excerpt-->
-                            <a [routerLink]="[post.slug]">
-                                <h4 class="mb-4"><strong>{{post.title}}</strong></h4>
-                            </a>
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <p [innerHTML]="(post.content[0].length>75)? (post.content[0] | slice:0:75)+'...':(post.content[0])"></p>
-                                    <p class="my-0"><span class="font-weight-bold">by:</span> {{post.user}}</p>
-                                    <p class="my-0"><span class="font-weight-bold">Date:</span>
-                                        {{post.filter.Postdate}}</p>
-                                    <p class="my-0"><span class="font-weight-bold">Category:</span>
-                                        {{post.filter.Category}}</p>
-                                    <p class="my-0"><span class="font-weight-bold">Location:</span>
-                                        {{post.filter.Location}}</p>
-                                </div>
-                                <div class="col-md-2">
-                                    <a class="btn-floating blue-gradient" [routerLink]="[post.slug]"><i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-                    <hr class="hr-width mb-5 mt-5 pb-3">
-                </div>
+  <div class="container col-12 col-md-3 col-lg-2 order-1 order-md-1 mb-3">
+    <ul class="list-group">
+      <li class="list-group-item head">Category</li>
+      <a>
+        <li *ngFor="let item of category; let i = index" id="{{item}}" class="list-group-item subcat" (click)="clickedItem(item)">{{item}}</li>
+      </a>
+      <li class="list-group-item head">Location</li>
+      <a>
+        <li *ngFor="let item of location; let i = index" id="{{item}}" class="list-group-item subcat" (click)="clickedItem(item)">{{item}}</li>
+      </a>
+      <div class="dropright text-center">
+        <li type="button" class="list-group-item head dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date<span class="sr-only">Toggle Dropdown</span></li>
+        <div class="dropdown-menu">
+          <a *ngFor="let item of date; let i = index" id="{{item}}" class="dropdown-item subcat" (click)="clickedItem(item)">{{item}}</a>
+        </div>
+      </div>
+    </ul>
+  </div>
+  <div class="container col-12 col-md-9 col-lg-10 order-2 order-md-2">
+    <!--Section: Blog v.1-->
+    <section class="section pb-3 text-center text-lg-left">
+      <!--Grid row-->
+      <div *ngFor="let post of blogPostList">
+        <div class="row" *ngIf="(post.filter.Category == clicked ||  post.filter.Location == clicked || post.filter.Postdate == clicked || clicked == 'all')">
+          <!--Grid column-->
+          <div class="col-md-4">
+            <div class="view overlay">
+              <!--Featured image-->
+              <img class="post-img" src="{{post.images[0]}}" alt="{{post.slug}}">
+              <a>
+                <div class="mask rgba-orange-light"></div>
+              </a>
             </div>
-            <!--Grid row-->
-        </section>
-        <!--Section: Blog v.1-->
-    </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-8">
+            <div class="blog-text">
+              <!--Excerpt-->
+              <a [routerLink]="[post.slug]">
+                <h4 class="mb-4"><strong>{{post.title}}</strong></h4>
+              </a>
+              <div class="row">
+                <div class="col-md-10">
+                  <p [innerHTML]="(post.content[0].length>75)? (post.content[0] | slice:0:75)+'...':(post.content[0])"></p>
+                  <p class="my-0"><span class="font-weight-bold">by:</span> {{post.user}}</p>
+                  <p class="my-0"><span class="font-weight-bold">Date:</span> {{post.filter.Postdate}}</p>
+                  <p class="my-0"><span class="font-weight-bold">Category:</span> {{post.filter.Category}}</p>
+                  <p class="my-0"><span class="font-weight-bold">Location:</span> {{post.filter.Location}}</p>
+                </div>
+                <div class="col-md-2">
+                  <a class="btn-floating blue-gradient" [routerLink]="[post.slug]"><i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+          <hr class="hr-width mb-5 mt-5 pb-3">
+        </div>
+      </div>
+      <!--Grid row-->
+    </section>
+    <!--Section: Blog v.1-->
+  </div>
 </div>
