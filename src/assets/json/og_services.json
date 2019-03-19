@@ -489,7 +489,7 @@
             },
             {
                 "title":"Related Products",
-                "links":{    
+                "links":{
                     "Sliding Screen Doors": "/products/sliding-screen-door",
                     "Retractable Screen Doors": "/products/retractable-screen-door",
                     "Door and Window Screens": "/about/door-and-window-screens",
@@ -958,7 +958,7 @@
                     "Pet Doors":"https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
                 }
             }
-            
+
         ],
         "colorSet":["petDoorColors"],
         "images":{
@@ -1010,16 +1010,16 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Metal chimney inspection",
-                "small": "/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg", 
-                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg", 
+                "small": "/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg",
+                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg",
                 "big":"/assets/images/chimneys/inspections/Chimney-Inspection-outdoor.jpg"
             },
-            {   
+            {
                 "alt":"Fireplace inspection",
-                "small": "/assets/images/chimneys/inspections/Chimney-Inspection.jpg", 
-                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection.jpg", 
+                "small": "/assets/images/chimneys/inspections/Chimney-Inspection.jpg",
+                "medium":"/assets/images/chimneys/inspections/Chimney-Inspection.jpg",
                 "big":"/assets/images/chimneys/inspections/Chimney-Inspection.jpg"
             }
     ]
@@ -1047,22 +1047,22 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg", 
-                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg", 
+                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
+                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
                 "big":"/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg", 
-                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg", 
+                "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
+                "medium":"/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
                 "big":"/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg", 
-                "medium":"/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg", 
+                "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
+                "medium":"/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
                 "big":"/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg"
             }
     ]
@@ -1097,34 +1097,34 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg", 
-                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg", 
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
                 "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg", 
-                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg", 
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
                 "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg", 
-                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg", 
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
                 "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg", 
-                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg", 
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
                 "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg", 
-                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg", 
+                "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
+                "medium":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
                 "big":"/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg"
             }
     ]
@@ -1147,28 +1147,28 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg", 
-                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg", 
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg",
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg",
                 "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-1.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg", 
-                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg", 
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg",
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg",
                 "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-2.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg", 
-                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg", 
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg",
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg",
                 "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-3.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg", 
-                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg", 
+                "small": "/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg",
+                "medium":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg",
                 "big":"/assets/images/chimneys/repairs/rear-firewall-heat-damage/Rear-Firewall-Heat-Damage-4.jpg"
             }
     ]
@@ -1195,28 +1195,28 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg", 
-                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg", 
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg",
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg",
                 "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg", 
-                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg", 
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
                 "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg", 
-                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg", 
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg",
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg",
                 "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg", 
-                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg", 
+                "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg",
+                "medium":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg",
                 "big":"/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg"
             }
     ]
@@ -1239,34 +1239,34 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg", 
-                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg", 
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg",
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg",
                 "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-1.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg", 
-                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg", 
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg",
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg",
                 "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-2.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg", 
-                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg", 
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg",
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg",
                 "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-3.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg", 
-                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg", 
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg",
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg",
                 "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-4.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg", 
-                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg", 
+                "small": "/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg",
+                "medium":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg",
                 "big":"/assets/images/chimneys/repairs/chimney-liner/Chimney-Liner-Repair-5.jpg"
             }
     ]
@@ -1289,34 +1289,34 @@
             }
         ],
         "recentInstallImages":[
-            {  
+            {
                 "alt":"Vacuuming Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg", 
-                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg", 
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg",
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg",
                 "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-1.jpg"
             },
-            {   
+            {
                 "alt":"Inside Chimney Cleaning",
-                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg", 
-                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg", 
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg",
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg",
                 "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-2.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg", 
-                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg", 
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg",
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg",
                 "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-3.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg", 
-                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg", 
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg",
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg",
                 "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-4.jpg"
             },
-            {   
+            {
                 "alt":"Brushing Chimney Clean",
-                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg", 
-                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg", 
+                "small": "/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg",
+                "medium":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg",
                 "big":"/assets/images/chimneys/repairs/refractory-panels/Refractory-Panel-5.jpg"
             }
     ]
@@ -2527,7 +2527,7 @@
                 "medium":"/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
                 "big":"/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
             }
-            
+
         ],
         "details":[
             {
@@ -2558,52 +2558,52 @@
         ],
         "colorSet":["stdColors", "slidingSecurityDoorColors"],
         "recentInstallImages":[
-        {   
+        {
             "alt":"white-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg"
         },
-        {   
+        {
             "alt":"bronze-viewguard-security-door",
-            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg", 
-            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg", 
+            "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg",
+            "medium":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg",
             "big":"/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg"
         }
         ]
@@ -2674,52 +2674,52 @@
         "recentInstallImages":[
 
 
-        {  
+        {
             "alt":"Tru View Security Double White Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Single Beige Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Single Black Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Single Brown Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Door Brown colored",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Single White Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg"
         },
-        {   
+        {
             "alt":"Tru View Security Door White",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg"
         },
-        {   
+        {
             "alt":"Single Tru View Security Door",
-            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg", 
-            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg", 
+            "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
+            "medium":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
             "big":"/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg"
         }
 
@@ -3084,7 +3084,7 @@
                 "big":"/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg"
             }
         ],
-        "colorSet":["quickEscapeColors", "stdColors"]    
+        "colorSet":["quickEscapeColors", "stdColors"]
     },
     {
         "title":"CRL Guarda™ Fixed",
@@ -3246,7 +3246,7 @@
                 "big":"/assets/images/awnings/retractable-patio-awnings/recent-installs/White-Retractable-Patio-Awning.jpg"
             }
         ]
-        
+
     },
     {
         "title":"Drop Roll Sunscreens",
@@ -3322,7 +3322,7 @@
             }
         ]
     },
-    
+
     {
         "title":"Chimney Services in Sacramento",
         "slug":"sacramento",
@@ -3360,11 +3360,11 @@
         }
     },
     {
-        "title":"Chimney Services in Antioch and the East Bay Region",
+        "title":"Chimney Services in Antioch and the Bay Region",
         "slug":"antioch-east-bay-region",
         "type":"landing-chimney",
         "description": "At Mike's Mobile, we take pride in successfully solving your chimney needs in a cost effective and timely manner. Our goal is to make sure that your trust in us develops into a lifelong working relationship. From the office to the field, our employees have been trained by CSIA and NFI standards to give you superior customer service and high-quality workmanship. Chimney maintenance is important as chimneys vent hazardous gasses out of your home. Chimneys that are not annually swept and or inspected can potentially be a hazard to you, your family and your home. Maintaining the interior and exterior of your chimney will not only help protect you, your family and your home, but annual maintenance will aid in finding smaller problems before they develop into costly, more extensive repairs.",
-        "region":"Antioch and the East Bay Region",
+        "region":"Antioch",
         "images":{
             "Inspections":"/assets/images/landing/chimney-inspections.jpg",
             "Repairs":"/assets/images/landing/chimney-repairs-crown-seal.jpg",
@@ -3402,11 +3402,11 @@
         }
     },
     {
-        "title":"Chimney Services in Danville and Walnut Creek / South Bay",
+        "title":"Chimney Services in Danville & Walnut Creek",
         "slug":"danville-and-walnut-creek-south-bay",
         "type":"landing-chimney",
         "description": "Mike’s Mobile Screen & Chimney Service is a full service chimney sweep company in Walnut Creek, California. We service the entire Counties of Contra Costa as well as Alameda. You will get top-notch service no matter the size of the job. Chimney cleanings, inspections, repairs and accessories are no problem!",
-        "region":"South Bay",
+        "region":"Walnut Creek",
         "images":{
             "Inspections":"/assets/images/landing/chimney-inspections.jpg",
             "Repairs":"/assets/images/landing/chimney-accessories.jpg",
@@ -3423,7 +3423,7 @@
         }
     },
     {
-        "title":"Chimney Services in Oakland / North Bay",
+        "title":"Chimney Services in Oakland",
         "slug":"oakland-north-bay",
         "type":"landing-chimney",
         "description": "Mike's Mobile is Oakland's premier, full service chimney company. If there are issues regarding your chimney or fireplace we can also do any repairs! We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
@@ -3551,11 +3551,11 @@
         }
     },
     {
-        "title":"Door Screens, Window Screens and Awnings in Antioch / East Bay",
+        "title":"Door Screens, Window Screens and Awnings in Antioch",
         "slug":"antioch-east-bay-region",
         "type":"landing-screen",
         "description":"Most of us don’t give much thought to window screens, unless we need to use one and it is damaged or missing. When it’s time to replace your screens, you may be surprised by the many different and handy options that are currently available. Did you know that window screens can help keep out unwanted light and protect against the sun's harmful UV rays too? Solar screens can even help keep energy costs down and make your living space more comfortable. Try the shade design that rolls up like a typical window shade. Discover how Mike's Mobile can help make your home in Antioch more comfortable and efficient!",
-        "region":"Antioch and the East Bay Region",
+        "region":"Antioch",
         "images":{
             "Window Screen Repair":"/assets/images/landing/hayward-oakland-sunscreens.jpg",
             "Swinging Screen Doors":"/assets/images/landing/hayward-oakland-screen-doors.jpg",
@@ -3599,7 +3599,7 @@
         "slug":"danville-and-walnut-creek-south-bay",
         "type":"landing-screen",
         "description":"Our licensed and insured team of professionals at Mike's Mobile can construct and install new screen doors, window screens, retractable awnings or drop rolls to help your home or commercial property look its best. We use only the best products along with the most trusted brand names in the industry. Adding new window and door screens not only helps improve the look of your property, it also improves its value.",
-        "region":"South Bay",
+        "region":"Walnut Creek",
         "images":{
             "Window Screen Repair":"/assets/images/landing/walnut-creek-screens.jpg",
             "Swinging Screen Doors":"/assets/images/landing/walnut-screen-doors.jpg",
@@ -3617,7 +3617,7 @@
         }
     },
     {
-        "title":"Door Screens, Window Screens and Awnings in Oakland / North Bay",
+        "title":"Door Screens, Window Screens and Awnings in Oakland",
         "slug":"oakland-north-bay",
         "type":"landing-screen",
         "description":"Mike's Mobile Screen and Chimney Service is Oakland's premier window and door screen contractor. Whether it's screen repair, solar screens, sliding screen doors, swinging screen doors, retractable screen doors, pet doors, retractable patio awnings or drop roll sunscreens, Mike's Mobile has you covered!",
@@ -3718,7 +3718,7 @@
             "Sliding Security Doors":"Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive. ",
             "CRL Guarda™ Quick Escape":"Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release guarda security screens offer the ultimate in window protection and also meet all fire-egress code requirement. ",
             "CRL Guarda™ Fixed":"CRL Guarda Fixed Security Screens are an ideal solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a concealed fastening system and blends with any architecture. Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses."
-            
+
         }
     },
     {
@@ -3741,30 +3741,30 @@
             "Sliding Security Doors":"Your patio sliding glass door is an easy entry point for a burglar. Our sliding security doors solve this problem without making your home look like a jail. Good looks, ease of use and legitimate security really make our sliding security doors stand apart.",
             "CRL Guarda™ Quick Escape":"CRL Security Screen Quick Escape Window Screens have an easy release push mechanism that also act as a secure, temper resistant device locking the screen closed for a peace of mind. Our windows features a certified, internationally patented framing system and passes international testing for knife shear, dynamic impact, and salt spray.",
             "CRL Guarda™ Fixed":"Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our guarda security screens offer the ultimate in window protection but offer the simple look of a screen."
-            
+
         }
     },
     {
-        "title":"Security doors and window security for Antioch / East Bay",
+        "title":"Security doors and window security for Antioch",
         "slug":"antioch-east-bay",
         "type":"landing-security",
-        "description":"Mike's Mobile has been offering premium window and door security products to Antioch and the East Bay area for over 16 years. If you want something truly cusomizable check out our steel doors. For something contemporary that offers premium protection that doesn't have the bars of a traditional security door, check out our Viewguard. We also have aluminum and stainless mesh security products to cover your windows and back patio slider.",
-        "region":"Antioch and the East Bay Region",
+        "description":"Mike's Mobile has been offering premium window and door security products to Antioch for over 16 years. If you want something truly cusomizable check out our steel doors. For something contemporary that offers premium protection that doesn't have the bars of a traditional security door, check out our Viewguard. We also have aluminum and stainless mesh security products to cover your windows and back patio slider.",
+        "region":"Antioch",
         "images":{
-        
+
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
             "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Mike's Mobile has been offering 100% customizable steel security doors in Antioch and the east bay area for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers.",
+            "Steel Security Doors":"Mike's Mobile has been offering 100% customizable steel security doors in Antioch for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers.",
             "Viewguard Security Doors":"The Viewguard is our best selling security door for a reason. The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home. It is a security screen door that no bars and no busy designs; it offers quiet operation and will never rust.",
             "TRU-View Security Doors":"The Tru-View Security Screen Door has heavy gauge extruded aluminum for long lasting durabililty. Available in Bronze anodized, white or a host of custom colors, this door is sure to compliment your home. A keyed lock with inside thumb turn, steel strike plate and a deep extending dead bolt makes this lock virtually pick proof.",
             "TRU-Frame Security Doors":"The Tru-Frame Screen Door enhances the appearance of your entryway with its sculptured pattern amplimesh grille. Available in a variety of frame and screen color options, you can customize the Tru-View security screen door to fit your home.",
             "Sliding Security Doors":"Enjoy the cool night air while sleeping in peace, quiet and safety. Good looks, ease of use and legitimate security really make our sliding security doors stand apart.",
             "CRL Guarda™ Quick Escape":"CRL Guarda quick escape security window screens offer the ultimate in window security with good looks to match. As an added bonus, our screens block out an average of 60% of the sun's harmful ultraviolet rays to make your home more comfortable during the summer months.",
             "CRL Guarda™ Fixed":"Guarda Fixed Security Screens are the perrfect solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a hidden fastening system. With many frame options to choose from they blend in with any architecture. Applications include: Day care centers, psychiatric and detox centers, government buildings, military installations, schools, adult care facilities and residential homes."
-            
+
         }
     },
     {
@@ -3775,7 +3775,7 @@
         "region":"Stockton",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
-          
+
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
             "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
         },
@@ -3787,19 +3787,19 @@
             "Sliding Security Doors":"Mike's Mobile sliding security doors offer smooth operation, great looks and premium security. The stainless steel weave looks like a screen and offers excellent airflow, 60% UV blockage and an unobstructed view.",
             "CRL Guarda™ Quick Escape":"Say no to the old school wrought iron bars over windows for security. The guarda quick escape offers better security, way better looks and most importantly an escape route in case of emergency. On top of all that he stainless mesh cuts out 60% of UV rays to help your home stay cool for those hot Stockton summers.",
             "CRL Guarda™ Fixed":"Guarda Fixed Security Screens are the perrfect solution to cover and protect your windows. Our security screens come in a variety of color options and feature a hidden fastening system. Applications include: Day care centers, psychiatric and detox centers, government buildings, military installations, schools, adult care facilities and residential homes."
-            
+
         }
     },
     {
-        "title":"Security doors and window security for Danville & Walnut Creek / South Bay",
+        "title":"Security doors and window security for Danville & Walnut Creek",
         "slug":"danville-and-walnut-creek-south-bay",
         "type":"landing-security",
         "description":"Mike's Mobile has been the premier contractor for security doors and window security products in the Danville and Walnut Creek area for over 16 years! Check out our stainless mesh products- tru-view, viewguard, sliding security doors and guarda security window screens for premium protection without the bars!",
-        "region":"South Bay",
+        "region":"Walnut Creek",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
-        
+
             "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
         },
         "cards":{
@@ -3810,11 +3810,11 @@
             "Sliding Security Doors":"Our sliding security doors offer premium protection for your patio sliding door without any compromises. The 'screen' is actually a high strength stainless steel mesh that stops the bugs as well as the thugs so you can get the cool breeze without worry!",
             "CRL Guarda™ Quick Escape":"Mike's Mobile quick escape security screens feature a high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home.",
             "CRL Guarda™ Fixed":"Mike's Mobile fixed security screens look like regular screens but offer premium security, good looks and 60% UV blockage"
-            
+
         }
     },
     {
-        "title":"Security doors and window security for Oakland / North Bay",
+        "title":"Security doors and window security for Oakland",
         "slug":"oakland-north-bay",
         "type":"landing-security",
         "description":"Mike's Mobile is Oakland's premier door and window security expert. Whether it's our steel security doors for unequaled customization or our aluminum and stainless steel viewguard and guarda products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
@@ -3823,7 +3823,7 @@
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg"
-          
+
         },
         "cards":{
             "Steel Security Doors":"Mike's Mobile has been Oakland's premier steel security door dealer for 16 years and running. Our steel doors are hand-made and fully-customizable for adding security but also a personal touch to make your home unique.",
@@ -3833,7 +3833,7 @@
             "Sliding Security Doors":"Our sliding security doors offer premium protection for your patio sliding door without compromising anything. The 'screen' is actually a high strength stainless steel mesh that stops the bugs as well as the thugs so you can get the cool breeze while still getting a peaceful nights rest.",
             "CRL Guarda™ Quick Escape":"CRL Guarda quick escape security screens are an ideal solution to cover and protect your windows. Our security screens come in a variety of colors and feature a concealed fastening system and blends with any architecture.",
             "CRL Guarda™ Fixed":"Mike's Mobile fixed guarda security screens feature a high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home."
-            
+
         }
     },
     {
@@ -3854,7 +3854,7 @@
             "Sliding Security Doors":"Ever wanted to sleep with your patio door open so you can get the breeze and fresh air all night? Now you can with our sliding security doors. The stainless steel mesh looks like a screen but offers premium security with maximum airflow and also cuts UV rays by 60%.",
             "CRL Guarda™ Quick Escape":"Want security but the jail-bar look isn't for you or your home? Mike's Mobile has you covered! Our security screens come in a variety of frame colors and the 'screen' is actually a high-tensile strength stainless steel weave. It offers great looks, superior protection and even blocks 60% of the sun's UV rays for those hot summers.",
             "CRL Guarda™ Fixed":"Say no to the old school jail-bar iron bars over windows for security. The guarda fixed security screens offer better looks, better security and will never rust. On top of all that he stainless mesh cuts out 60% of UV rays to help your home stay cool for those hot Modesto summers."
-            
+
         }
     },
     {
@@ -3875,7 +3875,7 @@
             "Sliding Security Doors":"Ever wanted to get a breeze through your patio door while you sleep? With our sliding security doors, now you're able to! The stainless steel mesh looks like a screen but offers maximum airflow, unbarred visibility and premium security.",
             "CRL Guarda™ Quick Escape":"Mike's Mobile security window screens provide superior protection against intruders, UV rays and other unwanted pests. The screens are custom made to match your existing window style, color, and type so they add to the curb appeal of your home. They are mounted directly to your window for a seamless look and most importantly give offer easy access through the window in case of an emergency.",
             "CRL Guarda™ Fixed":"Mike's Mobile can help put your mind at ease by providing real security against burglars, vandals and forces of nature with our stainless steel security screens. The 'screen' is actually a high strength stainless steel mesh that offers the ultimate in protection while stopping bugs and cutting UV rays by 60%."
-            
+
         }
     },
     {
@@ -3896,7 +3896,7 @@
             "Sliding Security Doors":"Mike's mobile sliding security doors offer a no-bar design, smooth operation and premium security. Sleep with your door open and get the breeze all night!",
             "CRL Guarda™ Quick Escape":"Mike's Mobile can help put your mind at ease by providing real security against burglars, vandals and forces of nature with our stainless steel security screens. Our full length release allows for easy escape, even for children and senior adults, in case of emergency.",
             "CRL Guarda™ Fixed":"Mike's Mobile security screens offer real protection against burglars, vandals and even bugs. Our Guarda security screens excell where other home protection systems fail. Real protection against real threats and good looks to match!"
-            
+
         }
     },
 
