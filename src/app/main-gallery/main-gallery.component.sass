@@ -1,113 +1,110 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-.carousel-item.active > img
-    object-fit: contain
+.carousel
+  .carousel-indicators
+    img
+      object-fit: contain
+      height: 70px
+  .carousel-inner
+    .carousel-item.active
+      img
+        height: 550px
+        object-fit: contain
 
 .modal-open .modal
-    overflow-x: hidden
-    overflow-y: auto
+  overflow-x: hidden
+  overflow-y: auto
 
 .gallery-dialog
-    max-width: 100%
-    top: 50px
-    @include breakpoint(md)
-        max-width: 60%
-        display:none
+  max-width: 100%
+  top: 50px
+  @include breakpoint(md)
+    max-width: 60%
+    display:none
 
 .galleryImg
-    float: left
+  float: left
 
 .galleryImg img
-    display: block
-    width: 100%
+  display: block
+  margin: 0 auto
+  max-height: 70vh
+  max-width: 100%
+  object-fit: contain
 
 .gallery-content
-    background-color: rgba(0, 0, 0, 0.3)
+  background-color: rgba(0, 0, 0, 0.3)
 
 .gallery-content .close
-    position: relative
-    right: 0px
-    color: white
+  position: relative
+  right: 0px
+  color: white
 
 .galleryImg .btn-secondary
-    background-color:  !important
-    color: #fff !important
-
+  background-color:  !important
+  color: #fff !important
 
 .carousel-control-prev:hover , .carousel-control-next:hover
-    background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5)
 
 .carousel-control-prev, .carousel-control-next
-    width: 8%
-
-.carousel-thumbnails .carousel-indicators img
-    max-width: 100%
-    height: auto
-    @include breakpoint(md)
-    max-width: auto
-    height: auto
+  width: 8%
 
 .carousel-thumbnails .carousel-indicators li
-    height: auto
-    width: auto
+  border: 2px solid
+  border-radius: 2px
+  opacity: 0.5
+  background-color: rgba(255, 255, 255, 0) !important
+  margin-bottom: -10px
+  @include breakpoint(md)
     border: 2px solid
     border-radius: 2px
     opacity: 0.5
     background-color: rgba(255, 255, 255, 0) !important
-    margin-bottom: -10px
-    @include breakpoint(md)
-        height: auto
-        width: auto
-        border: 2px solid
-        border-radius: 2px
-        opacity: 0.5
-        background-color: rgba(255, 255, 255, 0) !important
-        margin-bottom: -30px
+    margin-bottom: -30px
 
 .btn-danger
-    padding: 0.50rem 0.90rem
+  padding: 0.50rem 0.90rem
 
 .carousel-thumbnails .carousel-indicators .active
-    opacity: 1
-    border: 2px solid
+  opacity: 1
+  border: 2px solid
 
 .gallery-header
-    justify-content: flex-end
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-align: end
-    -ms-flex-align: end
-    -webkit-box-pack: justify
-    -ms-flex-pack: justify
-    border: none
-    padding: 0
+  justify-content: flex-end
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: end
+  -ms-flex-align: end
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  border: none
+  padding: 0
 
 .gallery-footer
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-align: center
-    -ms-flex-align: center
-    align-items: center
-    -webkit-box-pack: start
-    -ms-flex-pack: start
-    justify-content: flex-start
-    padding: 0
-    border: none
-
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  padding: 0
+  border: none
 
 .gallery-footer > :not(:first-child)
-    position: absolute
-    right: 0
-    margin: 2px
-    padding: 1rem
+  position: absolute
+  right: 0
+  margin: 2px
+  padding: 1rem
 
 .gallery-footer > :not(:last-child)
-    padding: 1rem
-
+  padding: 1rem
 
 .carousel-control-prev-icon, .carousel-control-next-icon
-    width: 10px
-    height: 10px
+  width: 10px
+  height: 10px

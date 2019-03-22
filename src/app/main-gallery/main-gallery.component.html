@@ -1,21 +1,18 @@
-<mdb-carousel #mainCarousel [isControls]="true" class="carousel slide carousel-fade"  [interval]="0" [type]="'carousel-thumbnails'" [animation]="'fade'" (activeSlideChange)="activeSlideChange($event)">
+<mdb-carousel #mainCarousel [isControls]="true" class="carousel slide carousel-fade" [interval]="0" [type]="'carousel-thumbnails'" [animation]="'fade'" (activeSlideChange)="activeSlideChange($event)">
   <mdb-slide *ngFor="let image of Images">
     <img class="d-block w-100" type="image" alt="{{image.alt}}" src="{{image.big}}" data-toggle="modal" data-target="#mainModal"
-      (click)="show(  )" mdbWavesEffect>
+      (click)="show()" mdbWavesEffect>
   </mdb-slide>
 </mdb-carousel>
-<div mdbModal #mainContent="mdb-modal" class="modal fade"  id="mainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div mdbModal #mainContent="mdb-modal" class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true" (onHidden)="hideCheck($event)">
   <div class=" modal-dialog gallery-dialog" role="img">
-    <div class="modal-content gallery-content w-100">
+    <div class="modal-content gallery-content">
       <div class="gallery-header">
         <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainContent.hide()" mdbWavesEffect>X</button>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="mainContent.hide()">
-            <span aria-hidden="true">×</span>
-          </button> -->
       </div>
       <div class="text-center galleryImg">
-        <img #mainModalImage  src="{{name}}">
+        <img #mainModalImage src="{{name}}">
       </div>
       <div class="gallery-footer">
         <button type="button" class="btn btn-primary waves-light" (click)="previous()" mdbWavesEffect><span aria-hidden="true" class="carousel-control-prev-icon"></span></button>
