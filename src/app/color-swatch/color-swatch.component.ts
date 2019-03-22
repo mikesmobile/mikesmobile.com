@@ -5,17 +5,20 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './color-swatch.component.html',
   styleUrls: ['./color-swatch.component.sass']
 })
+
 export class ColorSwatchComponent implements OnInit {
   @Input() swatchType;
   colors:{};
+
   stdColors = {
     "name":"Standard Colors",
     "values":{
     "Anodized Bronze":"#2D3017",
     "White":"#ffffff"
     }
-}
-colorSetx4 = {
+  }
+
+  colorSetx4 = {
     "name":"Frame Colors",
     "values":{
       "Almond":"#F3E7D3",
@@ -24,7 +27,8 @@ colorSetx4 = {
       "White":"#ffffff"
     }
   }
-colorSetx6 = {
+
+  colorSetx6 = {
     "name":"Custom Colors",
     "values":{
       "Black":"#000000",
@@ -35,7 +39,8 @@ colorSetx6 = {
       "White":"#ffffff"
     }
   }
-swingingDoorColors = {
+
+  swingingDoorColors = {
     "name":"Custom Colors",
     "values":{
       "Adobe":"#E0B17D",
@@ -48,7 +53,8 @@ swingingDoorColors = {
       "White":"#ffffff"
     }
   }
-slidingSecurityDoorColors ={ 
+
+  slidingSecurityDoorColors ={
     "name":"Custom Colors",
     "values":{
       "Alabaster":"#FAF9ED",
@@ -70,17 +76,19 @@ slidingSecurityDoorColors ={
       "Pacific Granite":"#707070",
       "Forest Green":"#0E251B",
       "Statuary Bronze":"#42372F"
-      }
     }
-    screenFrameColors = {
+  }
+
+  screenFrameColors = {
     "name":"Screen Colors",
     "values":{
       Black:"/assets/images/colors/suntex-black.png",
       Brown:"/assets/images/colors/suntex-brown.png",
       Gray:"/assets/images/colors/suntex-grey.png",
       Stucco:"/assets/images/colors/suntex-stucco.png"
+    }
   }
-}
+
   petDoorColors = {
     "name":"Pet Door Frames",
     "values":{
@@ -90,6 +98,7 @@ slidingSecurityDoorColors ={
       "White":"/assets/images/screens/pet-door/white-frame.jpg"
     }
   }
+
   quickEscapeColors = {
     "name":"Custom Colors",
     "values":{
@@ -102,65 +111,102 @@ slidingSecurityDoorColors ={
       "Sahara Gray":"#92989b",
       "Silver":"#e9e9eb",
       "White":"#ffffff"
-      }
+    }
   }
-  constructor() { 
 
-    
+  titanSecurityColors = {
+    "name":"Frame Colors",
+    "values":{
+      "White":"/assets/images/security/titan/colors/white.jpg",
+      "Beige Hammer":"/assets/images/security/titan/colors/beige-hammer.jpg",
+      "Desert Sand":"/assets/images/security/titan/colors/desert-sand.jpg",
+      "Terra Beige":"/assets/images/security/titan/colors/terra-beige.jpg",
+      "Silverado":"/assets/images/security/titan/colors/silverado.jpg",
+      "Royal Brown":"/assets/images/security/titan/colors/royal-brown.jpg",
+      "Copperclad":"/assets/images/security/titan/colors/copperclad.jpg",
+      "Wineberry":"/assets/images/security/titan/colors/wineberry.jpg",
+      "Black":"/assets/images/security/titan/colors/black.jpg",
+      "Blue Hammertone":"/assets/images/security/titan/colors/blue-hammertone.jpg",
+      "Forest Green":"/assets/images/security/titan/colors/forest-green.jpg",
+      "Red Hammertone":"/assets/images/security/titan/colors/red-hammertone.jpg",
+    }
   }
+
+  titanAluminumColors = {
+    "name":"Aluminum Security Screen Colors",
+    "values":{
+      "White":"/assets/images/security/titan/colors/aluminum_white.jpg",
+      "Beige Hammer":"/assets/images/security/titan/colors/aluminum_beige-hammer.jpg",
+      "Desert Sand":"/assets/images/security/titan/colors/aluminum_desert-sand.jpg",
+      "Royal Brown":"/assets/images/security/titan/colors/aluminum_royal-brown.jpg",
+      "Black":"/assets/images/security/titan/colors/aluminum_black.jpg",
+    }
+  }
+
+  constructor() {}
 
   ngOnInit() {
-    //console.log(this.swatchType,this.swatchType==="colorSetx4",this.colorSetx4)
-    switch(this.swatchType){
+    switch(this.swatchType) {
       case "stdColors":
-        this.colors=this.stdColors;
-        break;
+        this.colors = this.stdColors
+        break
       case "colorSetx4":
-        this.colors=this.colorSetx4;
-        break;
+        this.colors = this.colorSetx4
+        break
       case "colorSetx6":
-          this.colors=this.colorSetx6;
-          break;
+          this.colors = this.colorSetx6
+          break
       case "swingingDoorColors":
-          this.colors=this.swingingDoorColors;
-          break;
+          this.colors = this.swingingDoorColors
+          break
       case "slidingSecurityDoorColors":
-          this.colors=this.slidingSecurityDoorColors;
-          break;
+          this.colors = this.slidingSecurityDoorColors
+          break
       case "screenFrameColors":
-          this.colors=this.screenFrameColors;
-          break;
+          this.colors = this.screenFrameColors
+          break
       case "petDoorColors":
-        this.colors=this.petDoorColors;
-        break;
+        this.colors = this.petDoorColors
+        break
       case "quickEscapeColors":
-        this.colors=this.quickEscapeColors;
-        break;
+        this.colors = this.quickEscapeColors
+        break
+      case "titanSecurityColors":
+        this.colors = this.titanSecurityColors
+        break
+      case "titanAluminumColors":
+        this.colors = this.titanAluminumColors
+        break
       default:
-        this.colors=null;
-        break;
+        this.colors = null;
+        break
       }
   }
+
   viewMoreColors(){
-    var viewMoreBtn = document.getElementById('more-colors').style.display="none";
-    var viewLessBtn = document.getElementById('less-colors').style.display="block";
-
-    for (var i=6; i<19; i++){
-        var el = document.getElementById("square-" + i);            
-        el.style.display = 'block';            
+    document.getElementById('more-colors').style.display = "none"
+    document.getElementById('less-colors').style.display = "block"
+    for (let i = 6; i < 19; i++) {
+      let el = document.getElementById(`square-${i}`)
+      if (el) {
+        el.style.display = 'block'
+      }
     }
-    
   }
-  viewLessColors(){
-      var viewLessBtn = document.getElementById('less-colors').style.display="none";
-      var viewMoreBtn = document.getElementById('more-colors').style.display="block";
 
-      for (var i=6; i<19; i++){
-          var el = document.getElementById("square-" + i);            
-          el.style.display = 'none';          
-      }     
+  viewLessColors() {
+    document.getElementById('less-colors').style.display = "none"
+    document.getElementById('more-colors').style.display = "block"
+
+    for (let i = 6; i < 19; i++) {
+      let el = document.getElementById(`square-${i}`)
+      if (el) {
+        el.style.display = 'none'
+      }
+    }
   }
-  moreSteelToggle(){
-    var collapse = document.getElementById('collapseSteelColors').classList.toggle('collapse')
-}
+
+  moreSteelToggle() {
+    document.getElementById('collapseSteelColors').classList.toggle('collapse')
+  }
 }

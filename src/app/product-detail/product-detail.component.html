@@ -10,6 +10,8 @@
         Screen Doors</a>
       <a *ngIf="product.category === 'Steel Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/steel-security-doors']">Steel
         Security Doors</a>
+      <a *ngIf="product.category === 'Titan Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/titan-security-doors']">Titan
+        Security Doors</a>
       <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Security
         Doors and Windows</a>
       <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" [routerLink]="['/about/door']">Security Doors</a>
@@ -84,9 +86,9 @@
             </mdb-tabset>
           </div>
         </ng-container>
-        <ng-container *ngIf="product.category === 'Steel Security Doors' || product.category === 'Swinging Screen Door'">
-          <!-- Modal Image for Swinging Screen Doors and Steel Security Doors -->
 
+        <!-- Modal Image for Swinging Screen Doors and Steel Security Doors -->
+        <ng-container *ngIf="product.category === 'Steel Security Doors' || product.category === 'Swinging Screen Door' || (product.category === 'Titan Security Doors' && !gallery_images)">
           <img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()" />
           <p class="text-center p-2">(Click Image to Enlarge)</p>
           <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doorModal" aria-hidden="true">
@@ -105,6 +107,7 @@
             </div>
           </div>
         </ng-container>
+
         <!-- Normal Gallery for most Product Pages -->
         <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
           <!--Carousel Wrapper-->
@@ -113,6 +116,7 @@
         </ng-container>
       </div>
       <!-- /GALLERY SECTION -->
+
       <div class="col-12 col-md-5" id="productInfo">
         <h5 class="text-left">{{product.category}}</h5>
         <h3 class="text-left">{{product.title}}</h3>

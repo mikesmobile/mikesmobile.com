@@ -16,44 +16,46 @@
                     <span aria-hidden="true">×</span>
                   </button>
                 </div>
-                <div class="modal-body">													
+                <div class="modal-body">
                   <div *ngIf="color.value[0]==='#'" class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background': color.value}" placement="bottom"></div>
                   <div *ngIf="color.value[0]==='/'" class="square-lg centered-sq" mdbTooltip="{{color.key}}" [ngStyle]="{'background-image': 'url(' + color.value + ')', 'background-size': 'cover'}" placement="bottom"></div>
-                </div>									
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </ng-container>
+
     <!-- Edge Case For Colors with more than 1 row of colors, provides a toggleable interface -->
-    <ng-container *ngIf="swatchType === 'swingingDoorColors' || swatchType === 'slidingSecurityDoorColors'">     
+    <ng-container *ngIf="swatchType === 'swingingDoorColors' || swatchType === 'slidingSecurityDoorColors'">
       <p  class="orange-text" id="more-colors" (click)="viewMoreColors()"> Click to view more colors &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></p>
       <p  id="less-colors" (click)="viewLessColors()">Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i></p>
     </ng-container>
+
     <!-- Edge Case For Steel Security doors with more than 1 row of colors, provides a toggleable interface -->
     <ng-container *ngIf="swatchType === 'securityDoorColors'">
         <div class="paintchips" (click)="steelColorsModal.show()">
-          <img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>	
+          <img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>
           <img src="/assets/images/security/steel-security-doors/paintchips/row2.png" class="img-fluid"/>
           <img src="/assets/images/security/steel-security-doors/paintchips/row3.png" class="img-fluid"/>
           <div class="collapse" id="collapseSteelColors">
-            <img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row5.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row6.png" class="img-fluid"/>
-            <img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row8.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row9.png" class="img-fluid"/>
-            <img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row11.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row12.png" class="img-fluid"/>
-            <img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row14.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row15.png" class="img-fluid"/>
-            <img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row17.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row18.png" class="img-fluid"/>
-            <img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>	
+            <img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row20.png" class="img-fluid"/>
             <img src="/assets/images/security/steel-security-doors/paintchips/row21.png" class="img-fluid"/>
           </div>
@@ -70,25 +72,25 @@
               </div>
               <div class="modal-body">
                 <div class="paintchipsModal">
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row1.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row2.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row3.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row4.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row5.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row6.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row7.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row8.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row9.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row10.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row11.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row12.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row13.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row14.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row15.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row16.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row17.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row18.png" class="img-fluid"/>
-                  <img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>	
+                  <img src="/assets/images/security/steel-security-doors/paintchips/row19.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row20.png" class="img-fluid"/>
                   <img src="/assets/images/security/steel-security-doors/paintchips/row21.png" class="img-fluid"/>
                 </div>
@@ -97,7 +99,7 @@
                 <button type="button" class="btn orange centered-sq mb-2 w-75" (click)="steelColorsModal.hide()">
                   Close Colors
                 </button>
-              </div>							
+              </div>
             </div>
           </div>
         </div>

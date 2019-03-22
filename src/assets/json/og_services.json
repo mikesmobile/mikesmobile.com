@@ -1,5 +1,2132 @@
 [
     {
+        "title":"Titan Security Doors",
+        "slug":"titan-security-doors",
+        "category":"Security Doors and Windows",
+        "subcategory":"Door",
+        "type":"grid",
+        "description":"Custom Titan Security Doors can take your home to the next level of style and security. All of our Titan Security doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
+        "tileImage":"/assets/images/security/titan/doors/elegante_2_wide.jpg",
+        "tileText":"Custom Titan Security Doors can take your home to the next level of style and security."
+    },
+    {
+        "title":"Biltmore",
+        "slug":"titan-biltmore",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/biltmore_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Biltmore Door",
+                "small":"/assets/images/security/titan/doors/biltmore_1.jpg",
+                "medium":"/assets/images/security/titan/doors/biltmore_1.jpg",
+                "big":"/assets/images/security/titan/doors/biltmore_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Chili Ristra",
+        "slug":"titan-chili-ristra",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/chili-ristra_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Chili Ristra Door",
+                "small":"/assets/images/security/titan/doors/chili-ristra_1.jpg",
+                "medium":"/assets/images/security/titan/doors/chili-ristra_1.jpg",
+                "big":"/assets/images/security/titan/doors/chili-ristra_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Classic French",
+        "slug":"titan-classic-french",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple, classic design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/classic-french_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_1.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_1.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_1.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_3.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_3.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Deer Meadow",
+        "slug":"titan-deer-meadow",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simply designed frame provides the perfect setting for the meadow scene, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/deer-meadow_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Deer Meadow Door",
+                "small":"/assets/images/security/titan/doors/deer-meadow_1.jpg",
+                "medium":"/assets/images/security/titan/doors/deer-meadow_1.jpg",
+                "big":"/assets/images/security/titan/doors/deer-meadow_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Elegante",
+        "slug":"titan-elegante",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/elegante_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Elegante Door",
+                "small":"/assets/images/security/titan/doors/elegante_1.jpg",
+                "medium":"/assets/images/security/titan/doors/elegante_1.jpg",
+                "big":"/assets/images/security/titan/doors/elegante_1.jpg"
+            },
+            {
+                "alt":"Titan Security Elegante Door",
+                "small":"/assets/images/security/titan/doors/elegante_2.jpg",
+                "medium":"/assets/images/security/titan/doors/elegante_2.jpg",
+                "big":"/assets/images/security/titan/doors/elegante_2.jpg"
+            },
+            {
+                "alt":"Titan Security Elegante Door",
+                "small":"/assets/images/security/titan/doors/elegante_3.jpg",
+                "medium":"/assets/images/security/titan/doors/elegante_3.jpg",
+                "big":"/assets/images/security/titan/doors/elegante_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Essex",
+        "slug":"titan-essex",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/essex_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Essex Door",
+                "small":"/assets/images/security/titan/doors/essex_1.jpg",
+                "medium":"/assets/images/security/titan/doors/essex_1.jpg",
+                "big":"/assets/images/security/titan/doors/essex_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Folkstone",
+        "slug":"titan-folkstone",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Ornate style is a perfect complement to a range of traditional architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/folkstone_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Folkstone Door",
+                "small":"/assets/images/security/titan/doors/folkstone_1.jpg",
+                "medium":"/assets/images/security/titan/doors/folkstone_1.jpg",
+                "big":"/assets/images/security/titan/doors/folkstone_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"French Hummingbird",
+        "slug":"titan-french-hummingbird",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple, classic lines provide a perfect frame for the hummingbird motif, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_1.jpg"
+            },
+            {
+                "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_2.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Full View",
+        "slug":"titan-full-view",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple, classic design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/full-view_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Full View Door",
+                "small":"/assets/images/security/titan/doors/full-view_1.jpg",
+                "medium":"/assets/images/security/titan/doors/full-view_1.jpg",
+                "big":"/assets/images/security/titan/doors/full-view_1.jpg"
+            },
+            {
+                "alt":"Titan Security Full View Door",
+                "small":"/assets/images/security/titan/doors/full-view_2.jpg",
+                "medium":"/assets/images/security/titan/doors/full-view_2.jpg",
+                "big":"/assets/images/security/titan/doors/full-view_2.jpg"
+            },
+            {
+                "alt":"Titan Security Full View Door",
+                "small":"/assets/images/security/titan/doors/full-view_3.jpg",
+                "medium":"/assets/images/security/titan/doors/full-view_3.jpg",
+                "big":"/assets/images/security/titan/doors/full-view_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Garland",
+        "slug":"titan-garland",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/garland_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Garland Door",
+                "small":"/assets/images/security/titan/doors/garland_1.jpg",
+                "medium":"/assets/images/security/titan/doors/garland_1.jpg",
+                "big":"/assets/images/security/titan/doors/garland_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Guardsman",
+        "slug":"titan-guardsman",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Old-world influenced, laser cut design makes a strong design statement, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/guardsman_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Guardsman Door",
+                "small":"/assets/images/security/titan/doors/guardsman_1.jpg",
+                "medium":"/assets/images/security/titan/doors/guardsman_1.jpg",
+                "big":"/assets/images/security/titan/doors/guardsman_1.jpg"
+            },
+            {
+                "alt":"Titan Security Guardsman Door",
+                "small":"/assets/images/security/titan/doors/guardsman_2.jpg",
+                "medium":"/assets/images/security/titan/doors/guardsman_2.jpg",
+                "big":"/assets/images/security/titan/doors/guardsman_2.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Halcyon",
+        "slug":"titan-halcyon",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design adds a tasteful accent to a wide variety of architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/halcyon_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Halcyon Door",
+                "small":"/assets/images/security/titan/doors/halcyon_1.jpg",
+                "medium":"/assets/images/security/titan/doors/halcyon_1.jpg",
+                "big":"/assets/images/security/titan/doors/halcyon_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Harbour Beacon",
+        "slug":"titan-harbour-beacon",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Sea-inspired design makes a cheerful additional to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/harbour-beacon_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Harbour Beacon Door",
+                "small":"/assets/images/security/titan/doors/harbour-beacon_1.jpg",
+                "medium":"/assets/images/security/titan/doors/harbour-beacon_1.jpg",
+                "big":"/assets/images/security/titan/doors/harbour-beacon_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Harvard",
+        "slug":"titan-harvard",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Organic design brings natural beauty right to your door, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/harvard_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Harvard Door",
+                "small":"/assets/images/security/titan/doors/harvard_1.jpg",
+                "medium":"/assets/images/security/titan/doors/harvard_1.jpg",
+                "big":"/assets/images/security/titan/doors/harvard_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Heart of Texas",
+        "slug":"titan-heart-of-texas",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Texas Star design brings a touch the Texas to your door, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/heart-of-texas_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Heart of Texas Door",
+                "small":"/assets/images/security/titan/doors/heart-of-texas_1.jpg",
+                "medium":"/assets/images/security/titan/doors/heart-of-texas_1.jpg",
+                "big":"/assets/images/security/titan/doors/heart-of-texas_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Leeds",
+        "slug":"titan-leeds",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Romantic, flowing lines make a beautiful addition to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/leeds_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Leeds Door",
+                "small":"/assets/images/security/titan/doors/leeds_1.jpg",
+                "medium":"/assets/images/security/titan/doors/leeds_1.jpg",
+                "big":"/assets/images/security/titan/doors/leeds_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Lizard Bar",
+        "slug":"titan-lizard-bar",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/lizard-bar_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Lizard Bar Door",
+                "small":"/assets/images/security/titan/doors/lizard-bar_1.jpg",
+                "medium":"/assets/images/security/titan/doors/lizard-bar_1.jpg",
+                "big":"/assets/images/security/titan/doors/lizard-bar_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Longfellow",
+        "slug":"titan-longfellow",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Clean, modern design adds a bit of flair to a range of contemporary architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/longfellow_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Longfellow Door",
+                "small":"/assets/images/security/titan/doors/longfellow_1.jpg",
+                "medium":"/assets/images/security/titan/doors/longfellow_1.jpg",
+                "big":"/assets/images/security/titan/doors/longfellow_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Manchester",
+        "slug":"titan-manchester",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Romantic, flowing lines make a beautiful addition to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/manchester_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Manchester Door",
+                "small":"/assets/images/security/titan/doors/manchester_1.jpg",
+                "medium":"/assets/images/security/titan/doors/manchester_1.jpg",
+                "big":"/assets/images/security/titan/doors/manchester_1.jpg"
+            },
+            {
+                "alt":"Titan Security Manchester Door",
+                "small":"/assets/images/security/titan/doors/manchester_2.jpg",
+                "medium":"/assets/images/security/titan/doors/manchester_2.jpg",
+                "big":"/assets/images/security/titan/doors/manchester_2.jpg"
+            },
+            {
+                "alt":"Titan Security Manchester Door",
+                "small":"/assets/images/security/titan/doors/manchester_3.jpg",
+                "medium":"/assets/images/security/titan/doors/manchester_3.jpg",
+                "big":"/assets/images/security/titan/doors/manchester_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Martini",
+        "slug":"titan-martini",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Clean, modern design adds a bit of flair to a range of contemporary architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/martini_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Martini Door",
+                "small":"/assets/images/security/titan/doors/martini_1.jpg",
+                "medium":"/assets/images/security/titan/doors/martini_1.jpg",
+                "big":"/assets/images/security/titan/doors/martini_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Matrix",
+        "slug":"titan-matrix",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/matrix_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Matrix Door",
+                "small":"/assets/images/security/titan/doors/matrix_1.jpg",
+                "medium":"/assets/images/security/titan/doors/matrix_1.jpg",
+                "big":"/assets/images/security/titan/doors/matrix_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Modern Cross",
+        "slug":"titan-modern-cross",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Clean, modern design adds a bit of flair to a range of contemporary architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/modern-cross_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Modern Cross Door",
+                "small":"/assets/images/security/titan/doors/modern-cross_1.jpg",
+                "medium":"/assets/images/security/titan/doors/modern-cross_1.jpg",
+                "big":"/assets/images/security/titan/doors/modern-cross_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Modern Trellis",
+        "slug":"titan-modern-trellis",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple trellis design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/modern-trellis_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Modern Trellis Door",
+                "small":"/assets/images/security/titan/doors/modern-trellis_1.jpg",
+                "medium":"/assets/images/security/titan/doors/modern-trellis_1.jpg",
+                "big":"/assets/images/security/titan/doors/modern-trellis_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Nogales",
+        "slug":"titan-nogales",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Southwestern sunset design brings a touch the desert to your door, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/nogales_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Nogales Door",
+                "small":"/assets/images/security/titan/doors/nogales_1.jpg",
+                "medium":"/assets/images/security/titan/doors/nogales_1.jpg",
+                "big":"/assets/images/security/titan/doors/nogales_1.jpg"
+            },
+            {
+                "alt":"Titan Security Nogales Door",
+                "small":"/assets/images/security/titan/doors/nogales_2.jpg",
+                "medium":"/assets/images/security/titan/doors/nogales_2.jpg",
+                "big":"/assets/images/security/titan/doors/nogales_2.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Nottingham",
+        "slug":"titan-nottingham",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Romantic, flowing lines make a beautiful addition to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/nottingham_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Nottingham Door",
+                "small":"/assets/images/security/titan/doors/nottingham_1.jpg",
+                "medium":"/assets/images/security/titan/doors/nottingham_1.jpg",
+                "big":"/assets/images/security/titan/doors/nottingham_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Plain Bar",
+        "slug":"titan-plain-bar",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Plain Bar Door",
+                "small":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "medium":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "big":"/assets/images/security/titan/doors/plain-bar_1.jpg"
+            },
+            {
+                "alt":"Titan Security Plain Bar Door",
+                "small":"/assets/images/security/titan/doors/plain-bar_2.jpg",
+                "medium":"/assets/images/security/titan/doors/plain-bar_2.jpg",
+                "big":"/assets/images/security/titan/doors/plain-bar_2.jpg"
+            },
+            {
+                "alt":"Titan Security Plain Bar Door",
+                "small":"/assets/images/security/titan/doors/plain-bar_3.jpg",
+                "medium":"/assets/images/security/titan/doors/plain-bar_3.jpg",
+                "big":"/assets/images/security/titan/doors/plain-bar_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Playa",
+        "slug":"titan-playa",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Popular palm tree design makes every entryway a tropical paradise, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/playa_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Playa Door",
+                "small":"/assets/images/security/titan/doors/playa_1.jpg",
+                "medium":"/assets/images/security/titan/doors/playa_1.jpg",
+                "big":"/assets/images/security/titan/doors/playa_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Prosperity",
+        "slug":"titan-prosperity",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Asian influenced, laser cut design makes a strong design statement, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/prosperity_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Prosperity Door",
+                "small":"/assets/images/security/titan/doors/prosperity_1.jpg",
+                "medium":"/assets/images/security/titan/doors/prosperity_1.jpg",
+                "big":"/assets/images/security/titan/doors/prosperity_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Quail Covey",
+        "slug":"titan-quail-covey",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design with classic touches complements a wide variety of architectural style, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/quail-covey_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Quail Covey Door",
+                "small":"/assets/images/security/titan/doors/quail-covey_1.jpg",
+                "medium":"/assets/images/security/titan/doors/quail-covey_1.jpg",
+                "big":"/assets/images/security/titan/doors/quail-covey_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Queen Mary",
+        "slug":"titan-queen-mary",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Intricate, old-world influenced, laser cut design makes a strong design statement, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/queen-mary_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Queen Mary Door",
+                "small":"/assets/images/security/titan/doors/queen-mary_1.jpg",
+                "medium":"/assets/images/security/titan/doors/queen-mary_1.jpg",
+                "big":"/assets/images/security/titan/doors/queen-mary_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Sail Away",
+        "slug":"titan-sail-away",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Sea-inspired design makes a cheerful additional to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/sail-away_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Sail Away Door",
+                "small":"/assets/images/security/titan/doors/sail-away_1.jpg",
+                "medium":"/assets/images/security/titan/doors/sail-away_1.jpg",
+                "big":"/assets/images/security/titan/doors/sail-away_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Seychelles",
+        "slug":"titan-seychelles",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Old-world influenced, laser cut design makes a strong design statement, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/seychelles_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Seycheles Door",
+                "small":"/assets/images/security/titan/doors/seychelles_1.jpg",
+                "medium":"/assets/images/security/titan/doors/seychelles_1.jpg",
+                "big":"/assets/images/security/titan/doors/seychelles_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Sheraton",
+        "slug":"titan-sheraton",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design adds a tasteful accent to a wide variety of architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/sheraton_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Sheraton Door",
+                "small":"/assets/images/security/titan/doors/sheraton_1.jpg",
+                "medium":"/assets/images/security/titan/doors/sheraton_1.jpg",
+                "big":"/assets/images/security/titan/doors/sheraton_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Spaniard",
+        "slug":"titan-spaniard",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Intricate, old-world influenced, laser cut design makes a strong design statement, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/spaniard_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Spaniard Door",
+                "small":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "medium":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "big":"/assets/images/security/titan/doors/spaniard_1.jpg"
+            },
+            {
+                "alt":"Titan Security Spaniard Door",
+                "small":"/assets/images/security/titan/doors/spaniard_2.jpg",
+                "medium":"/assets/images/security/titan/doors/spaniard_2.jpg",
+                "big":"/assets/images/security/titan/doors/spaniard_2.jpg"
+            },
+            {
+                "alt":"Titan Security Spaniard Door",
+                "small":"/assets/images/security/titan/doors/spaniard_3.jpg",
+                "medium":"/assets/images/security/titan/doors/spaniard_3.jpg",
+                "big":"/assets/images/security/titan/doors/spaniard_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Stencil",
+        "slug":"titan-stencil",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Clean, modern design adds a bit of flair to a range of contemporary architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/stencil_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Stencil Door",
+                "small":"/assets/images/security/titan/doors/stencil_1.jpg",
+                "medium":"/assets/images/security/titan/doors/stencil_1.jpg",
+                "big":"/assets/images/security/titan/doors/stencil_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Sunfire",
+        "slug":"titan-sunfire",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Extremely popular sun-inspired design makes a cheerful additional to any entryway, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/sunfire_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_1.jpg"
+            },
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_2.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_2.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_2.jpg"
+            },
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_3.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_3.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_3.jpg"
+            },
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_4.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Texas Star",
+        "slug":"titan-texas-star",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Texas Star design brings a touch the Texas to your door, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/texas-star_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Texas Star Door",
+                "small":"/assets/images/security/titan/doors/texas-star_1.jpg",
+                "medium":"/assets/images/security/titan/doors/texas-star_1.jpg",
+                "big":"/assets/images/security/titan/doors/texas-star_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Trellis",
+        "slug":"titan-trellis",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Simple trellis design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/trellis_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Trellis Door",
+                "small":"/assets/images/security/titan/doors/trellis_1.jpg",
+                "medium":"/assets/images/security/titan/doors/trellis_1.jpg",
+                "big":"/assets/images/security/titan/doors/trellis_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Winchester",
+        "slug":"titan-winchester",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design adds a tasteful accent to a wide variety of architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/winchester_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Winchester Door",
+                "small":"/assets/images/security/titan/doors/winchester_1.jpg",
+                "medium":"/assets/images/security/titan/doors/winchester_1.jpg",
+                "big":"/assets/images/security/titan/doors/winchester_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Windfall",
+        "slug":"titan-windfall",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Modern design adds a tasteful accent to a wide variety of architectural styles, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/windfall_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Windfall Door",
+                "small":"/assets/images/security/titan/doors/windfall_1.jpg",
+                "medium":"/assets/images/security/titan/doors/windfall_1.jpg",
+                "big":"/assets/images/security/titan/doors/windfall_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
+        "title":"Yale",
+        "slug":"titan-yale",
+        "category":"Titan Security Doors",
+        "type":"products",
+        "bullets":[
+            "Organic design brings natural beauty right to your door, and precision manufacturing enhances appearance, security and durability",
+            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
+            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
+        ],
+        "tileImage":"/assets/images/security/titan/doors/yale_1.jpg",
+        "thumbImages":[
+            {
+                "alt":"Titan Security Yale Door",
+                "small":"/assets/images/security/titan/doors/yale_1.jpg",
+                "medium":"/assets/images/security/titan/doors/yale_1.jpg",
+                "big":"/assets/images/security/titan/doors/yale_1.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Tru Frame": "/products/tru-frame-security-doors",
+                    "Tru View": "/products/tru-view-security-doors",
+                    "Viewguard Security Door": "/products/viewguard-security-doors",
+                    "Sliding Security Doors": "/products/sliding-security-doors"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+            }
+        ],
+        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
+        "colorSet":["titanSecurityColors", "titanAluminumColors"]
+    },
+    {
         "title":"Window Screen Repair",
         "slug":"window-screen-repair",
         "category":"Door and Window Screens",
