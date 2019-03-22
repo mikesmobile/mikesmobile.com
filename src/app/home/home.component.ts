@@ -9,106 +9,39 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class HomeComponent implements OnInit {
   constructor(@Inject(PLATFORM_ID) private platformId:Object) { }
-  
-  groupOptionsSelect = []
+
   innerWidth:number
   slider:boolean
-  
+
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    this.innerWidth = window.innerWidth;
-    console.log(this.slider)
-    console.log(this.innerWidth)
+    this.innerWidth = window.innerWidth
     if (this.innerWidth < 1300) {
-      this.slider = false;
-    }
-    else {
-      this.slider = true;
+      this.slider = false
+    } else {
+      this.slider = true
     }
   }
 
   ngOnInit() {
-    // this.groupOptionsSelect = [
-    //   { value: '', label:  'DOOR AND WINDOW SCREENS', group: true },
-    //   { value: '1', label: 'Retractable Screen Doors' },
-    //   { value: '2', label: 'Sliding Screen Doors' },
-    //   { value: '3', label: 'Swinging Screen Doors' },
-    //   { value: '4', label: 'Pet Doors' },
-    //   { value: '5', label: 'Window Screen Repair' },
-    //   { value: '6', label: 'Solar Screens' },
-    //   { value: '', label:  'CHIMNEY SERVICES', group: true },
-    //   { value: '7', label: 'Chimney Inspection' },
-    //   { value: '8', label: 'Chimney Cleaning' },
-    //   { value: '9', label: 'Chimney Repair' },
-    //   { value: '10', label: 'Masonry Services' },
-    //   { value: '11', label: 'Dryer Vent Cleaning' },
-    //   { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
-    //   { value: '12', label: 'Steel Security Doors' },
-    //   { value: '13', label: 'Viewguard' },
-    //   { value: '14', label: 'Tru-View' },
-    //   { value: '15', label: 'Tru-Frame' },
-    //   { value: '16', label: 'Sliding Security Doors' },
-    //   { value: '17', label: 'CRL Guarda Quick Escape' },
-    //   { value: '18', label: 'CRL Guarda Fixed' },
-    //   //{ value: '19', label: 'CRL Guarda Casement' },
-    //   { value: '', label: 'AWNINGS', group: true },
-    //   { value: '20', label: 'Retractable Patio Awnings' },
-    //   { value: '21', label: 'Drop Roll Sunscreens' },
-
-
-    //   this.groupOptionsSelect = [
-    //     { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
-    //     { value: '1', label: 'Retractable Screen Doors' },
-    //     { value: '2', label: 'Sliding Screen Doors' },
-    //     { value: '3', label: 'Swinging Screen Doors' },
-    //     { value: '4', label: 'Pet Doors' },
-    //     { value: '5', label: 'Window Screen Repair' },
-    //     { value: '6', label: 'Solar Screens' },
-    //     { value: '', label: 'CHIMNEY SERVICES', group: true },
-    //     { value: '7', label: 'Chimney Inspection' },
-    //     { value: '8', label: 'Chimney Cleaning' },
-    //     { value: '9', label: 'Chimney Repair' },
-    //     { value: '10', label: 'Masonry Services' },
-    //     { value: '11', label: 'Dryer Vent Cleaning' },
-    //     { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
-    //     { value: '12', label: 'Steel Security Doors' },
-    //     { value: '13', label: 'Viewguard' },
-    //     { value: '14', label: 'Tru-View' },
-    //     { value: '15', label: 'Tru-Frame' },
-    //     { value: '16', label: 'Sliding Security Doors' },
-    //     { value: '17', label: 'CRL Guarda Quick Escape' },
-    //     { value: '18', label: 'CRL Guarda Fixed' },
-    //     //{ value: '19', label: 'CRL Guarda Casement' },
-    //     { value: '', label: 'AWNINGS', group: true },
-    //     { value: '20', label: 'Retractable Patio Awnings' },
-    //     { value: '21', label: 'Drop Roll Sunscreens' },
-      
-    // ];
-    //     this.growSlideshow();
-    //     stateManager.init();
-   // ];
-   if(isPlatformBrowser(this.platformId)){ 
-   this.innerWidth = window.innerWidth;
-    if (this.innerWidth < 1300) {
-      this.slider = false;
+    if (isPlatformBrowser(this.platformId)) {
+      this.innerWidth = window.innerWidth
+      if (this.innerWidth < 1300) {
+        this.slider = false
+      } else {
+        this.slider = true
+      }
+      this.growSlideshow()
+      stateManager.init()
     }
-    else {
-      this.slider = true;
-    }
-    
-    this.growSlideshow();
-    stateManager.init();
-    }
-    
   }
 
   growSlideshow() {
     if (screen.width < 992) {
-      var slideshow = document.getElementById('slideshow');
-      slideshow.classList.remove('container', 'mt-3');
-      slideshow.classList.add('row');
-
+      let slideshow = document.getElementById('slideshow')
+      slideshow.classList.remove('container', 'mt-3')
+      slideshow.classList.add('row')
     }
   }
 }

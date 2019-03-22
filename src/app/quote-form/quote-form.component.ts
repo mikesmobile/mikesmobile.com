@@ -24,7 +24,6 @@ export class QuoteFormComponent implements OnInit, OnDestroy{
   constructor(@Inject(PLATFORM_ID) private platformId:Object,@Optional() @Inject(SESSION_STORAGE) private storage:WebStorageService, private route: ActivatedRoute, private router: Router,private _service:ServicesService) { }
 
   optionsSelect=[]
-  groupOptionsSelect=[]
   emailForm:FormGroup
   ngOnInit() {
   //console.log(this.storage);

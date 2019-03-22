@@ -3045,7 +3045,7 @@
             },
             {
                 "title":"Technical Specs",
-                "description":"<li>WEIGHT    4.0000</li><li>YOUR MAXIMUM PET SIZE    Cats, Large Cats, Small Dogs, Medium Dogs, Large Dogs</li><li>CLIMATE SUITABILITY   Temperate-3 Season</li><li>WIND RESISTANCE  High</li><li>SEALING VALUE        Average</li><li>FRAME MATERIAL        Light Weight Aluminum</li><li>INSULATION VALUE        Low</li><li>FLAP MATERIAL        Rubber</li><li>FLAP DESIGN        Single, Two Part , Flexible, Thin Flap</li><li>FLAP COLORS        Black</li><li>FLAP THICKNESS        1/8\"</li><li>REPLACEMENT FLAPS AVAILABLE        Yes</li><li>ABILITY TO LOCK FLAP        Separate Locking Cover-Loads from Top</li><li>LOCKING COVER MATERIAL        Fiberboard</li><li>CAN BE INSTALLED IN        Solid Core Door, sliding screen doors, Viewguard, Truview, Steel Security Doors</li><li>ADAPTER AVAILABLE FOR INSTALLATION IN SCREEN        Yes</li>"
+                "description":"<li>WEIGHT    4.0000</li><li>YOUR MAXIMUM PET SIZE    Cats, Large Cats, Small Dogs, Medium Dogs, Large Dogs</li><li>CLIMATE SUITABILITY   Temperate-3 Season</li><li>WIND RESISTANCE  High</li><li>SEALING VALUE        Average</li><li>FRAME MATERIAL        Light Weight Aluminum</li><li>INSULATION VALUE        Low</li><li>FLAP MATERIAL        Rubber</li><li>FLAP DESIGN        Single, Two Part , Flexible, Thin Flap</li><li>FLAP COLORS        Black</li><li>FLAP THICKNESS        1/8\"</li><li>REPLACEMENT FLAPS AVAILABLE        Yes</li><li>ABILITY TO LOCK FLAP        Separate Locking Cover-Loads from Top</li><li>LOCKING COVER MATERIAL        Fiberboard</li><li>CAN BE INSTALLED IN        Solid Core Door, sliding screen doors, Viewguard, Truview, Titan Security Doors</li><li>ADAPTER AVAILABLE FOR INSTALLATION IN SCREEN        Yes</li>"
             },
             {
                 "title":"Options",
@@ -3055,7 +3055,7 @@
                 "title":"Related Products",
                 "links":{
                     "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Steel Security Doors": "/grid/steel-security-doors",
+                    "Titan Security Doors": "/grid/titan-security-doors",
                     "TRU View Security Doors":"/products/tru-view-security-doors"
                 }
             },
@@ -3758,868 +3758,6 @@
             }
         ]
     },
-
-    {
-        "title":"Steel Security Doors",
-        "slug":"steel-security-doors",
-        "category":"Security Doors and Windows",
-        "subcategory":"Door",
-        "type":"grid",
-        "description":"Custom Steel Security Doors can take your home to the next level of style and security. All of our Steel Security doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
-        "tileImage":"/assets/images/security/steel-security-doors/Steel-Security-Door-Main.jpg",
-        "tileText":"Custom Steel Security Doors can take your home to the next level of style and security.",
-        "recentInstallImages":[
-            {
-                "alt":"Black Steel Security Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Custom-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Garden Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Black-Garden-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Door Bronze colored",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Lanai-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Vino Door Bronze",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Bronze Steel Vino Security Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Bronze-Vino-Welcome-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Gold Steel Security Door Artisan",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Gold-Artisan-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Green Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Green-Artisan-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Light Blue Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Light-Blue-Artisan-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Olive Green Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Olive-Green-Vino-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Red French Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Red-French-Lanai-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Red Zen Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Red-Zen-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security Silver Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/Silver-Vino-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security White French Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/White-French-Sunrise-Steel-Security-Door.jpg"
-            },
-            {
-                "alt":"Steel Security White Sunrise Door",
-                "small":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
-                "medium":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg",
-                "big":"/assets/images/security/steel-security-doors/recent-installs/White-Sunrise-Steel-Security-Door.jpg"
-            }
-        ]
-    },
-    {
-        "title":"Artisan",
-        "slug":"artisan",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
-        "thumbImages":[
-            {
-                "alt":"Steel Security artisan Door",
-                "small":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
-                "medium":"/assets/images/security/steel-security-doors/artisan/door-387x810.png",
-                "big":"/assets/images/security/steel-security-doors/artisan/door-387x810.png"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>4in 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Pickets.</li><li>Decorative Collars on Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side inTamper Guardin.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>4″ Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating.</li><li>1 Tone or 2 Tone (Cardinal Paint Colors).</li><li>6 Mounting Styles.</li><li>21 color choices .</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Garden",
-        "slug":"garden",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "thumbImages":[
-            {
-                "alt":"Steel Security garden Door",
-                "small":"/assets/images/security/steel-security-doors/garden/garden.jpg",
-                "medium":"/assets/images/security/steel-security-doors/garden/garden.jpg",
-                "big":"/assets/images/security/steel-security-doors/garden/garden.jpg"
-            }
-        ],
-        "details": [
-            {
-                "title": "Product Overview",
-                "description": "Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title": "Technical Specs",
-                "description": "<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>4in 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Pickets.</li><li>Decorative Collars on Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>4″ Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title": "Options",
-                "description": "<li>Powder Coating.</li><li>1 Tone or 2 Tone (Cardinal Paint Colors).</li><li>6 Mounting Styles.</li><li>21 color choices .</li>"
-            },
-            {
-                "title": "Related Products",
-                "links": {
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title": "Warranty",
-                "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/garden/garden.jpg",
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Artisan View",
-        "slug":"artisan-view",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
-        "thumbImages":[
-            {
-                "alt":"Artisan View Steel Security Door",
-                "small":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
-                "medium":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg",
-                "big":"/assets/images/security/steel-security-doors/artisan-view/artisan-view.jpg"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>1-1/4in sq. x 18 Ga. 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Pickets.</li><li>Decorative Collars on Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From</li><li>1-1/4in sq x 18 Ga. Frame</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Vino",
-        "slug":"vino",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/vino/vino.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security vino Door",
-                "small":"/assets/images/security/steel-security-doors/vino/vino.jpg",
-                "medium":"/assets/images/security/steel-security-doors/vino/vino.jpg",
-                "big":"/assets/images/security/steel-security-doors/vino/vino.jpg"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>4in 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Pickets.</li><li>Decorative Collars on Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From</li><li>4in Frame.</li><li>1/2in sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from 1/8in Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating.</li><li>1 Tone or 2 Tone (Cardinal Paint Colors).</li><li>6 Mounting Styles.</li><li>21 color choices .</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Lanai",
-        "slug":"lanai",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security lanai Door",
-                "small":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
-                "medium":"/assets/images/security/steel-security-doors/lanai/lanai.jpg",
-                "big":"/assets/images/security/steel-security-doors/lanai/lanai.jpg"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>4in x 2in 1-Piece Mounting Frame</li><li>1-1/2in x 2in fully welded door jamb</li><li>1in. sq. x 18 Ga. Steel Door Frame</li><li>5/8in. sq. x 18 Ga. Vertical Pickets</li><li>Decorative Collars on Pickets</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8 Backset</li><li>Continuous 1/8in. x 3/4in Lock Side Tamper Guard</li><li>Tamper Proof Hinges</li><li>24 Ga. Perforated Steel Mesh for Extra Security</li><li>Hidden Mounting Hardware</li><li>Many Powder Coating Colors to Choose From</li><li>4″ Frame</li><li>1/2″sq. x 18 Ga. Steel Pickets</li><li>Center Designs Plasma Cut from1/8″ Steel</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating.</li><li>1 Tone or 2 Tone (Cardinal Paint Colors).</li><li>6 Mounting Styles.</li><li>21 color choices .</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Vino Welcome",
-        "slug":"vino-welcome",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Signature",
-        "tileImage":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security vino welcome Door",
-                "small":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
-                "medium":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg",
-                "big":"/assets/images/security/steel-security-doors/vino-welcome/vino-welcome.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Signature doors have a 4 inch wide frame for unmatched strength & rigidity.",
-            "The generous frame thickness allows for elegant handle sets to be installed.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>4in 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Pickets.</li><li>Decorative Collars on Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>4″ Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Park Avenue",
-        "slug":"park-avenue",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Premier",
-        "bullets":[
-            "Our Premier doors have a 2 inch wide frame which is nearly twice the thickness of standard doors on the market.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (2 tone)."
-        ],
-        "tileImage":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
-        "thumbImages":[
-            {
-                "alt":"Steel Security park avenue Door",
-                "small":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
-                "medium":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png",
-                "big":"/assets/images/security/steel-security-doors/park-avenue/park-avenue.png"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>2in x 1in  1-Piece Mounting Door Frame.</li><li>1-1/4in x 1-1/4in Fully welded Door jamb.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Crescent Picket at Lock-Box.</li><li>1/2in sq. x 18 Ga. Radiant Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″ sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Sunrise",
-        "slug":"sunrise",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Premier",
-        "tileImage":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
-        "thumbImages":[
-            {
-                "alt":"Sunrise Steel Security Door",
-                "small":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
-                "medium":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg",
-                "big":"/assets/images/security/steel-security-doors/sunrise/sunrise.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Premier doors have a 2 inch wide frame which is nearly twice the thickness of standard doors on the market.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (2 tone)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>1-1/4in sq. x 18 Ga. 1-Piece Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Crescent Picket at Lock-Box.</li><li>1/2in sq. x 18 Ga. Radiant Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in.</li><li>Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Arbor",
-        "slug":"arbor",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Premier",
-        "tileImage":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security arbor Door",
-                "small":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
-                "medium":"/assets/images/security/steel-security-doors/arbor/arbor.jpg",
-                "big":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Premier doors have a 2 inch wide frame which is nearly twice the thickness of standard doors on the market.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (2 tone)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>2in x 1in  1-Piece Mounting Door Frame.</li><li>1-1/4in x 1-1/4in Fully welded Door jamb.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Crescent Picket at Lock-Box.</li><li>1/2in sq. x 18 Ga. Radiant Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″ sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Zen",
-        "slug":"zen",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Premier",
-        "tileImage":"/assets/images/security/steel-security-doors/zen/zen.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security zen Door",
-                "small":"/assets/images/security/steel-security-doors/zen/zen.jpg",
-                "medium":"/assets/images/security/steel-security-doors/zen/zen.jpg",
-                "big":"/assets/images/security/steel-security-doors/zen/zen.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Premier doors have a 2 inch wide frame which is nearly twice the thickness of standard doors on the market.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (2 tone)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>This Door Series is Built To Order.</li><li>Custom Sizes Available.</li><li>2in x 1in  1-Piece Mounting Door Frame.</li><li>1-1/4in x 1-1/4in Fully welded Door jamb.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Crescent Picket at Lock-Box.</li><li>1/2in sq. x 18 Ga. Radiant Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side Tamper Guard.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″ sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Palladio",
-        "slug":"palladio",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Standard",
-        "tileImage":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security palladio Door",
-                "small":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
-                "medium":"/assets/images/security/steel-security-doors/palladio/palladio.jpg",
-                "big":"/assets/images/security/steel-security-doors/palladio/palladio.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Standard models have a  1 1/4 inch frame.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Custom Sizes Available</li><li>1-1/4in sq. x 18 Ga. 1-Piece Steel Mounting Frame</li><li>1in sq. x 18 Ga. Steel Door Frame</li><li>5/8in sq. x 18 Ga. Vertical Steel Pickets</li><li>5/8in sq. x 18 Ga. Horizontal Steel Pickets</li><li>1/8in Thick x 1/2in Wide Steel Scroll Design</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset</li><li>Continuous 1/8in x 3/4in Lock Side “Tamper Guard”</li><li>Tamper Proof Hinges</li><li>24 Ga. Perforated Steel Mesh for Extra Security</li><li>Hidden Mounting hardware</li><li>Many Powder Coating Colors to Choose From</li><li>1-1/4″sq x 18 Ga. Frame</li><li>1/2″sq. x 18 Ga. Steel Pickets</li><li>Center Designs Plasma Cut from1/8″ Steel</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Estate",
-        "slug":"estate",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Standard",
-        "tileImage":"/assets/images/security/steel-security-doors/estate/estate.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security estate Door",
-                "small":"/assets/images/security/steel-security-doors/estate/estate.jpg",
-                "medium":"/assets/images/security/steel-security-doors/estate/estate.jpg",
-                "big":"/assets/images/security/steel-security-doors/estate/estate.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Standard models have a  1 1/4 inch frame.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Custom Sizes Available.</li><li>1-1/4in sq. x 18 Ga. 1-Piece Steel Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Steel Pickets.</li><li>5/8in sq. x 18 Ga. Horizontal Steel Pickets.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side “Tamper Guard”.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Security Mounting Screws.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Plantation",
-        "slug":"plantation",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Standard",
-        "tileImage":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security plantation Door",
-                "small":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
-                "medium":"/assets/images/security/steel-security-doors/plantation/plantation.jpg",
-                "big":"/assets/images/security/steel-security-doors/plantation/plantation.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Standard models have a  1 1/4 inch frame.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Custom Sizes Available.</li><li>1-1/4in sq. x 18 Ga. 1-Piece Steel Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>5/8in sq. x 18 Ga. Vertical Steel Pickets (2 Twisted - 3.</li><li>Straight).</li><li>1in sq. x 18 Ga. Steel Horizontal Tubes at Lock-Box.</li><li>Ten Signature Aluminum Castings.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side “Tamper Guard”.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Security Mounting Screws.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Villa",
-        "slug":"villa",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Standard",
-        "tileImage":"/assets/images/security/steel-security-doors/villa/villa.jpg",
-        "thumbImages":[
-            {
-                "alt":"Villa Steel Security Door",
-                "small":"/assets/images/security/steel-security-doors/villa/villa.jpg",
-                "medium":"/assets/images/security/steel-security-doors/villa/villa.jpg",
-                "big":"/assets/images/security/steel-security-doors/villa/villa.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Standard models have a  1 1/4 inch frame.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Custom Sizes Available</li><li>1-1/4in sq. x 18 Ga. 1-Piece Steel Mounting Frame</li><li>1in sq. x 18 Ga. Steel Door Frame</li><li>5/8in sq. x 18 Ga. Vertical Steel Pickets</li><li>5/8in sq. x 18 Ga. Horizontal Steel Pickets</li><li>1/8in Thick x 1/2in Wide Steel Scroll Design</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset</li><li>Continuous 1/8in x 3/4in Lock Side “Tamper Guard”</li><li>Tamper Proof Hinges</li><li>24 Ga. Perforated Steel Mesh for Extra Security</li><li>Hidden Mounting hardware</li><li>Many Powder Coating Colors to Choose From</li><li>1-1/4″sq x 18 Ga. Frame</li><li>1/2″sq. x 18 Ga. Steel Pickets</li><li>Center Designs Plasma Cut from1/8″ Steel</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "colorSet":["securityDoorColors"]
-    },
-    {
-        "title":"Santa Fe",
-        "slug":"santa-fe",
-        "category":"Steel Security Doors",
-        "type":"products",
-        "line":"Standard",
-        "tileImage":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
-        "thumbImages":[
-            {
-                "alt":"Steel Security santa fe Door",
-                "small":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
-                "medium":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg",
-                "big":"/assets/images/security/steel-security-doors/santa-fe/santa-fe.jpg"
-            }
-        ],
-        "bullets":[
-            "Our Standard models have a  1 1/4 inch frame.",
-            "Tamperproof guard strip & hinges to protect against forced entry.",
-            "24 gauge perforated steel screens allow you to see out, yet outsiders cannot see in.",
-            "Contrasting Color Mesh (as shown)."
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Trademark Security Doors combine the best features to provide long lasting security and durability with designs complimentary to your home’s style. Each security screen door is custom built using locally sourced materials and made to fit your home’s unique entry size and mounting requirements. We gladly offer to our clients a wide range of durable powder coat finishes to best compliment your home"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Custom Sizes Available.</li><li>1-1/4in sq. x 18 Ga. 1-Piece Steel Mounting Frame.</li><li>1in sq. x 18 Ga. Steel Door Frame.</li><li>1in sq. x 18 Ga. Steel Horizontal Tubes at Lock-Box,.</li><li>Top, & Bottom.</li><li>5/8in sq. x 18 Ga. Vertical Steel Pickets.</li><li>5/8in sq. x 18 Ga. Horizontal Steel Pickets at Top, Center & Bottom.</li><li>1/8in Thick x 1/2in Wide Steel Scroll Design.</li><li>Double Hole Lock-Box w/ 2-1/8in Bore & 2-3/8in Backset.</li><li>Continuous 1/8in x 3/4in Lock Side “Tamper Guard”.</li><li>11 Ga. Dakota Designs at Top, Center, & Bottom.</li><li>Tamper Proof Hinges.</li><li>24 Ga. Perforated Steel Mesh for Extra Security.</li><li>Hidden Mounting hardware.</li><li>Many Powder Coating Colors to Choose From.</li><li>1-1/4″sq x 18 Ga. Frame.</li><li>1/2″sq. x 18 Ga. Steel Pickets.</li><li>Center Designs Plasma Cut from1/8″ Steel.</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>Powder Coating<li>1 Tone or 2 Tone (Cardinal Paint Colors)<li>6 Mounting Styles<li>*Upgrade any door to a 4in wide steel frame for the full look of an entry door with unmatched strength!.</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru Frame": "/products/tru-frame-security-doors",
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["securityDoorColors"]
-    },
-
-
-
-
     {
         "title":"Viewguard Security Doors",
         "slug":"viewguard-security-doors",
@@ -4674,7 +3812,7 @@
                 "links":{
                     "Tru Frame Security Doors": "/products/tru-frame-security-doors",
                     "Tru View Security Doors": "/products/tru-view-security-doors",
-                    "Steel Security Doors": "/grid/steel-security-doors",
+                    "Titan Security Doors": "/grid/titan-security-doors",
                     "Sliding Security Doors": "/products/sliding-security-doors"
                 }
             },
@@ -4789,7 +3927,7 @@
                 "links":{
                     "Viewguard Security Doors": "/products/viewguard-security-doors",
                     "Tru Frame Security Doors": "/products/tru-frame-security-doors",
-                    "Steel Security Doors": "/grid/steel-security-doors",
+                    "Titan Security Doors": "/grid/titan-security-doors",
                     "Sliding Security Doors": "/products/sliding-security-doors"
                 }
             },
@@ -4907,7 +4045,7 @@
                 "links":{
                     "Viewguard Security Doors": "/products/viewguard-security-doors",
                     "Tru View Security Doors": "/products/tru-view-security-doors",
-                    "Steel Security Doors": "/grid/steel-security-doors",
+                    "Titan Security Doors": "/grid/titan-security-doors",
                     "Sliding Security Doors": "/products/sliding-security-doors"
                 }
             },
@@ -5037,7 +4175,7 @@
                 "links":{
                     "Tru Frame Security Doors": "/products/tru-frame-security-doors",
                     "Tru View Security Doors": "/products/tru-view-security-doors",
-                    "Steel Security Doors": "/grid/steel-security-doors",
+                    "Titan Security Doors": "/grid/titan-security-doors",
                     "Viewguard Security Doors": "/products/viewguard-security-doors"
                 }
             },
@@ -5838,7 +4976,7 @@
         "description":"Mike's Mobile is your one-stop shop in the greater Sacramento area for all your home window and door security needs. Make sure you visit our showroom at 9941 Horn Rd., Suite A, Sacramento, Ca, 95827 to see all of our security products in person!",
         "region":"Sacramento",
         "cards":{
-            "Steel Security Doors":"Mike's Mobile steel security doors are the best around. Fully hand-made and 100% customizable our steel security doors come in a full range for every price point or home type.",
+            "Titan Security Doors":"Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type.",
             "Viewguard Security Doors":"The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!",
             "TRU-View Security Doors":"The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay. ",
             "TRU-Frame Security Doors":"The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay. ",
@@ -5852,16 +4990,16 @@
         "title":"Security doors and window security for Auburn",
         "slug":"auburn",
         "type":"landing-security",
-        "description":"Mike's Mobile is Auburn's premier supplier of window and door security products. From our completely customizable steel security doors to our contemporary Viewguard and stainless mesh products; we now even have sliding security doors to secure your patio door.",
+        "description":"Mike's Mobile is Auburn's premier supplier of window and door security products. From our completely customizable security doors to our contemporary Viewguard and stainless mesh products; we now even have sliding security doors to secure your patio door.",
         "region":"Auburn",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/classic-french_2.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Mike's Mobile's custom made exterior metal security doors are handmade from 100% American steel. These security screen doors are designed to improve your home with the strength, security and beauty of wrought iron. Plus, our security doors are built to last. We have been in the business of offering custom security doors fabricated from wrought iron for more than16 years.",
+            "Titan Security Doors":"Mike's Mobile's security doors are made of an aluminum alloy construction which is up to 6 times stronger than steel and cannot rust.",
             "Viewguard Security Doors":"The viewguard security door is always a handsome focal point for the front of a home. It's large frame, simple yet contemporary design and timeless stainless mesh offer premium security that doesn't compromise in the looks department.",
             "TRU-View Security Doors":"Tru-View Security doors offer the same handsome stainless mesh as it's older brother, the Viewguard security door, but with a smaller frame and a reduced price point.",
             "TRU-Frame Security Doors":"Tru-Frame swinging screen doors offer more security and durability than a standard swinging screen door but with a lower price point than our premium security doors.",
@@ -5878,13 +5016,12 @@
         "description":"Mike's Mobile has been offering premium window and door security products to Antioch for over 16 years. If you want something truly cusomizable check out our steel doors. For something contemporary that offers premium protection that doesn't have the bars of a traditional security door, check out our Viewguard. We also have aluminum and stainless mesh security products to cover your windows and back patio slider.",
         "region":"Antioch",
         "images":{
-
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/elegante_3.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Mike's Mobile has been offering 100% customizable steel security doors in Antioch for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers.",
+            "Titan Security Doors":"Mike's Mobile has been offering 100% customizable security doors in Antioch for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers.",
             "Viewguard Security Doors":"The Viewguard is our best selling security door for a reason. The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home. It is a security screen door that no bars and no busy designs; it offers quiet operation and will never rust.",
             "TRU-View Security Doors":"The Tru-View Security Screen Door has heavy gauge extruded aluminum for long lasting durabililty. Available in Bronze anodized, white or a host of custom colors, this door is sure to compliment your home. A keyed lock with inside thumb turn, steel strike plate and a deep extending dead bolt makes this lock virtually pick proof.",
             "TRU-Frame Security Doors":"The Tru-Frame Screen Door enhances the appearance of your entryway with its sculptured pattern amplimesh grille. Available in a variety of frame and screen color options, you can customize the Tru-View security screen door to fit your home.",
@@ -5902,12 +5039,11 @@
         "region":"Stockton",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
-
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/plain-bar_3.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Mike's Mobile has been Stockton's premier steel security door dealer for over 16 years. Please come in and check out our doors on display to see for yourself!",
+            "Titan Security Doors":"Mike's Mobile has been Stockton's premier security door dealer for over 16 years. Please come in and check out our doors on display to see for yourself!",
             "Viewguard Security Doors":"Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.",
             "TRU-View Security Doors":"Tru-View doors offer security stainless steel mesh that offers a clear unobstructed view, while offering handsome good looks. This door has more ventilation than a conventional screen door and is also pet-safe to keep your animals inside.",
             "TRU-Frame Security Doors":"Want to get that delta breeze to cool off your home but need something a little stronger than a screen door? The Tru-Frame security door is just that! It comes with a deadbolt for security and you can add solar screen for customization and durability.",
@@ -5926,11 +5062,10 @@
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
             "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
-
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/yale_2.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Looking for a steel security door in the Danville or Walnut Creek area? Mike's Mobile offers the best steel security doors around, hands-down. Call today for a FREE quote!",
+            "Titan Security Doors":"Looking for a security door in the Danville or Walnut Creek area? Mike's Mobile offers the best security doors around, hands-down. Call today for a FREE quote!",
             "Viewguard Security Doors":"The Viewguard is our top of the line security screen door. Full customizable, with many colors to choose from and a handsome frame surround, this door takes a traditional lock set to match the rest of your doors. The Viewguard door offers beauty, simplicity, and above all, absolute security.",
             "TRU-View Security Doors":"Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally, you can experience total security without resorting to bars or unsightly steel grills.",
             "TRU-Frame Security Doors":"Mike's Mobile offers the Tru-Frame security screen door as an upgrade to a traditional swinging screen door. At a lower price point than the Viewguard and Steel doors, the Tru-Frame door comes in many colors and screen options.",
@@ -5944,7 +5079,7 @@
         "title":"Security doors and window security for Oakland",
         "slug":"oakland-north-bay",
         "type":"landing-security",
-        "description":"Mike's Mobile is Oakland's premier door and window security expert. Whether it's our steel security doors for unequaled customization or our aluminum and stainless steel viewguard and guarda products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
+        "description":"Mike's Mobile is Oakland's premier door and window security expert. Whether it's our security doors for unequaled customization or our aluminum and stainless steel viewguard and guarda products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
         "region":"Oakland",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
@@ -5953,7 +5088,7 @@
 
         },
         "cards":{
-            "Steel Security Doors":"Mike's Mobile has been Oakland's premier steel security door dealer for 16 years and running. Our steel doors are hand-made and fully-customizable for adding security but also a personal touch to make your home unique.",
+            "Titan Security Doors":"Mike's Mobile has been Oakland's premier security door dealer for 16 years and running. Our steel doors are hand-made and fully-customizable for adding security but also a personal touch to make your home unique.",
             "Viewguard Security Doors":"There is a reason the Viewguard Security Screen Door is our best selling security screen door. WIth it's heavy-duty extruded aluminum framing and stainless steel woven security mesh, you get the airflow and exellent visibility. The wide frame and stainless steel security mesh provides top of the line security protection.",
             "TRU-View Security Doors":"Tru-View™ security screen doors incorporate the latest advances in high tensile strength materials and construction. The stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.",
             "TRU-Frame Security Doors":"Mike's Mobile Tru-Frame security screen doors have all the benefits of a screen door with the added safety of a dead bolted security door. With various frame and screen color options you can choose a door that's a perfect fit for your home.",
@@ -5971,10 +5106,10 @@
         "region":"Modesto",
         "images":{
             "Viewguard Security Doors":"/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/sunfire_4.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Want something truly custom and unique for your home? Mike's Mobile steel security doors are auto-cad designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other steel security door.",
+            "Titan Security Doors":"Want something truly custom and unique for your home? Mike's Mobile security doors are auto-cad designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other security door.",
             "Viewguard Security Doors":"Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. You can experience total security without resorting to bars or unsightly steel grills of traditional security doors. The Viewguard security screen door offers quiet operation and will never rust. Strength and beauty in perfect harmony.",
             "TRU-View Security Doors":"The Tru-View looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides securitybut gives you a clear view of the outdoors without compromising the style or appearance of your home. A security screen door that no bars and no busy designs, a simple looking outer frame with a specialized stainless steel mesh!",
             "TRU-Frame Security Doors":"Need a screen door but want somethign that can withstand a little more abuse? The Tru-Frame is a perfect option!",
@@ -5988,14 +5123,15 @@
         "title":"Security doors and window security for Napa, Vallejo",
         "slug":"napa-vallejo",
         "type":"landing-security",
-        "description":"Mike's Mobile has been the premier contractor for security doors and window security products in the Napa and Vallejo area for over 16 years! We have full customizable steel security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!",
+        "description":"Mike's Mobile has been the premier contractor for security doors and window security products in the Napa and Vallejo area for over 16 years! We have full customizable security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!",
         "region":"Napa",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
-            "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png"
+            "CRL Guarda™ Fixed":"/assets/images/security/guarda-casement/1.png",
+            "Titan Security Doors":"/assets/images/security/titan/doors/sunfire_2.jpg"
          },
         "cards":{
-            "Steel Security Doors":"Heavy Duty Steel Security Doors have a heavy gauge steel frame with a galvanized, perforated steel backing. Computer designed but hand-made, these doors offer tight tolerances to keep the bugs out but are fully customizable for a look to make your home unique.",
+            "Titan Security Doors":"Heavy Duty Security Doors have a heavy gauge steel frame with a galvanized, perforated steel backing. Computer designed but hand-made, these doors offer tight tolerances to keep the bugs out but are fully customizable for a look to make your home unique.",
             "Viewguard Security Doors":"The Viewguard security screen door looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home. It will never rust and has a full length gear hinge for quiet, smooth operation. Strength and beauty in perfect harmony.",
             "TRU-View Security Doors":"If you want security but don't want it to look like you live in a jail, the Tru-View is the door for you. WIth it's heavy-duty extruded aluminum framing and stainless steel woven security mesh, you get the airflow and exellent visibility.",
             "TRU-Frame Security Doors":"Want the breeze to cool off your home but need something a little stronger than a screen door? The Tru-View security screen door is just that! It comes with a deadbolt for security and you can add solar screen for customization and durability.",
@@ -6009,14 +5145,14 @@
         "title":"Security doors and window security for Fairfield, Vacaville",
         "slug":"fairfield-vacaville",
         "type":"landing-security",
-        "description":"Mike's Mobile has you covered for premium security doors and window security products in the Fairfield / Vacaville area. Check out our steel security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!",
+        "description":"Mike's Mobile has you covered for premium security doors and window security products in the Fairfield / Vacaville area. Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!",
         "region":"Vacaville",
         "images":{
             "CRL Guarda™ Quick Escape":"/assets/images/security/guarda-escape/3.png",
-            "Steel Security Doors":"/assets/images/security/steel-security-doors/arbor/arbor.jpg"
+            "Titan Security Doors":"/assets/images/security/titan/doors/manchester_3.jpg"
         },
         "cards":{
-            "Steel Security Doors":"Looking for something truly custom and unique for your home? Mike's Mobile steel security doors are computer designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other steel security door.",
+            "Titan Security Doors":"Looking for something truly custom and unique for your home? Mike's Mobile security doors are computer designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other steel security door.",
             "Viewguard Security Doors":"The Viewguard security screen doors incorporate the latest advances in high tensile strength materials and construction. The Stainless steel marine grade mesh screen optimizes airflow while maximizing security. Strength and beauty in perfect harmony.",
             "TRU-View Security Doors":"Tru-View security screen doors feature a stainless steel mesh that is both visually appealing as well as protective to keep your home safe. With many color options to choose from you can't go wrong with a Tru-View security screen door.",
             "TRU-Frame Security Doors":"The Tru-View is a step up from a traditional swinging screen door at a price that won't brek the bank! Multiple frame and screen color options means that we can get a custom door to fit your home perfectly.",
@@ -6026,8 +5162,6 @@
 
         }
     },
-
-
     {
         "title":"Door and Window Screens",
         "slug":"door-and-window-screens",
@@ -6074,7 +5208,5 @@
         "title":"Awnings",
         "slug":"awnings",
         "type":"landing"
-
     }
-
 ]

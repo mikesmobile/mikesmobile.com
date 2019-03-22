@@ -13,7 +13,6 @@ export class ActionButtonsComponent implements OnInit {
   toppings = new FormControl();
 
   optionsSelect=[]
-  groupOptionsSelect=[]
   emailForm:FormGroup
   @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent;
   toggleQuoteForm(){
@@ -84,7 +83,7 @@ export class ActionButtonsComponent implements OnInit {
     }
 
   }
- 
+
   hideShowSearch(){
       var searchInput = document.getElementById('search-input');
 

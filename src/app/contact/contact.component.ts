@@ -71,7 +71,6 @@ export class ContactComponent implements OnInit {
   toppings = new FormControl();
   toppingList = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
   optionsSelect = []
-  groupOptionsSelect = []
   emailForm: FormGroup
 
   constructor(private _service: ServicesService) { }
@@ -104,39 +103,6 @@ export class ContactComponent implements OnInit {
       ]),
       'option': new FormControl("", Validators.required)
     })
-
-    this.groupOptionsSelect = [
-      { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
-      { value: '', label: 'SCREEN DOORS', group: true },
-      { value: 'Retractable Screen Doors', label: 'Retractable Screen Doors' },
-      { value: 'Sliding Screen Doors', label: 'Sliding Screen Doors' },
-      { value: 'Swinging Screen Doors', label: 'Swinging Screen Doors' },
-      { value: 'Pet Doors', label: 'Pet Doors' },
-      { value: '', label: 'WINDOWS SCREENS', group: true },
-      { value: 'Window Screen Repair', label: 'Window Screen Repair' },
-      { value: 'Solar Screens', label: 'Solar Screens' },
-      { value: '', label: 'CHIMNEY SERVICES', group: true },
-      { value: 'Chimney Inspection', label: 'Chimney Inspection' },
-      { value: 'Chimney Cleaning', label: 'Chimney Cleaning' },
-      { value: 'Chimney Repair', label: 'Chimney Repair' },
-      { value: 'Masonry Services', label: 'Masonry Services' },
-      { value: 'Dryer Vent Cleaning', label: 'Dryer Vent Cleaning' },
-      { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
-      { value: '', label: 'SECURITY DOORS', group: true },
-      { value: 'Steel Security Doors', label: 'Steel Security Doors' },
-      { value: 'Viewguard', label: 'Viewguard' },
-      { value: 'Tru-View', label: 'Tru-View' },
-      { value: 'Tru-Frame', label: 'Tru-Frame' },
-      { value: 'Sliding Security Doors', label: 'Sliding Security Doors' },
-      { value: '', label: 'SECURITY WINDOWS', group: true },
-      { value: 'CRL Guarda Quick Escape', label: 'CRL Guarda Quick Escape' },
-      { value: 'CRL Guarda Fixed', label: 'CRL Guarda Fixed' },
-      //{ value: 'CRL Guarda Casement', label: 'CRL Guarda Casement' },
-      { value: '', label: 'AWNINGS', group: true },
-      { value: 'Retractable Patio Awnings', label: 'Retractable Patio Awnings' },
-      { value: 'Drop Roll Sunscreens', label: 'Drop Roll Sunscreens' },
-
-    ];
 
     //    this.growActionBtns();
 
@@ -194,7 +160,6 @@ export class ContactComponent implements OnInit {
     } else {
       searchInput.style.display = "none"
     }
-
   }
 
   growActionBtns() {

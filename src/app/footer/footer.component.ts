@@ -26,7 +26,7 @@ export class FooterComponent implements OnInit {
       { value: '10', label: 'Masonry Services' },
       { value: '11', label: 'Dryer Vent Cleaning' },
       { value: '', label: 'SECURITY DOORS AND WINDOWS', group: true },
-      { value: '12', label: 'Steel Security Doors' },
+      { value: '12', label: 'Titan Security Doors' },
       { value: '13', label: 'Viewguard' },
       { value: '14', label: 'Tru-View' },
       { value: '15', label: 'Tru-Frame' },
@@ -37,7 +37,7 @@ export class FooterComponent implements OnInit {
       { value: '', label: 'AWNINGS', group: true },
       { value: '20', label: 'Retractable Patio Awnings' },
       { value: '21', label: 'Drop Roll Sunscreens' },
-      
+
     ];
   }
 
