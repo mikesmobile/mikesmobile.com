@@ -32,7 +32,7 @@ import { FreeQuoteComponent }         from './free-quote/free-quote.component';
 
 const appRoutes: Routes = [
   //SEO Hidden locations doc
-  { path: 'grid/steel-security-doors',                                                              redirectTo: "grid/titan-security-doors" },
+  { path: 'grid/steel-security-doors',                                                              redirectTo: "/grid/titan-security-doors" },
   { path: 'about/chimney-services/chimney-service-in-sacramento',                                   redirectTo: "/chimneys/sacramento" },
   { path: 'about/chimney-services/chimney-services-in-antioch',                                     redirectTo: "/chimneys/antioch-east-bay-region" },
   { path: 'about/awnings/awnings-in-antioch',                                                       redirectTo: "/screens/antioch-east-bay-region" },
@@ -58,8 +58,8 @@ const appRoutes: Routes = [
   { path: 'clean-or-dirty',                                                                         redirectTo: "/blog/clean-or-dirty"},
 
   //Google search artifacts
-  { path: 'http://mikesmobile.com/walnut-creek-screen-doors-windows', redirectTo: "/screens/danville-and-walnut-creek-south-bay" },
-  { path: 'steel-security-doors',                                     redirectTo: "/about/security-doors" },
+  { path: 'walnut-creek-screen-doors-windows',  redirectTo: "/screens/danville-and-walnut-creek-south-bay" },
+  { path: 'steel-security-doors',               redirectTo: "/about/security-doors" },
 
   { path: 'about',              component: AboutComponent,            data: { title: "About Mike's Mobile Screen & Chimney Service" }},
   { path: 'blog',               component: PostListComponent,         data: { title: "Blog | Mike's Mobile Screen and Chimney Service" }},
