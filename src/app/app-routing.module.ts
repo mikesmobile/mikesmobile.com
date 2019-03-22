@@ -79,6 +79,7 @@ const appRoutes: Routes = [
   { path: 'about/window-and-door-coverings/window-and-door-screens-in-stockton',                    redirectTo: "/screens/stockton" },
   { path: 'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa',  redirectTo: "/screens/fairfield-vacaville" },
   { path: 'window-door-screens-modesto',                                                            redirectTo: "/screens/modesto" },
+  { path: 'clean-or-dirty',                                                                         redirectTo: "/blog/clean-or-dirty"},
 
   //Google search artifacts
   { path: 'http://mikesmobile.com/walnut-creek-screen-doors-windows', redirectTo: "/screens/danville-and-walnut-creek-south-bay" },
