@@ -1,4 +1,4 @@
-<mdb-carousel #mainCarousel [isControls]="true" class="carousel slide carousel-fade" [interval]="0" [type]="'carousel-thumbnails'" [animation]="'fade'" (activeSlideChange)="activeSlideChange($event)">
+<mdb-carousel #mainCarousel [isControls]="true" class="carousel main-gallery slide carousel-fade" [interval]="0" [type]="'carousel-thumbnails'" [animation]="'fade'" (activeSlideChange)="activeSlideChange($event)">
   <mdb-slide *ngFor="let image of Images">
     <img class="d-block w-100" type="image" alt="{{image.alt}}" src="{{image.big}}" data-toggle="modal" data-target="#mainModal"
       (click)="show()" mdbWavesEffect>
