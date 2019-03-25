@@ -11,72 +11,58 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
   providers: [ServicesService]
 })
 export class GridComponent implements OnInit {
+  private getReq:any;
+  private listReq:any
+  private routeSub:any;
 
-    title = 'View our top services'
-    gridType = ['swinging-screen-doors', 'accessories', 'repairs', 'resources', 'masonry-services', 'steel-security-doors']
+  slug:string
+  service:ServiceItem
+  serviceList:[ServiceItem]
 
-    private getReq:any;
-    private listReq:any
-    private routeSub:any;
+  gallery_images: NgxGalleryImage[];
+  gallery_options: NgxGalleryOptions[];
 
-    slug:string
-    service:ServiceItem
-    serviceList:[ServiceItem]
-    
-    line_type:string[];
+  constructor(private route: ActivatedRoute, private _service:ServicesService) { }
 
-    gallery_images: NgxGalleryImage[];
-    gallery_options: NgxGalleryOptions[];
-
-    constructor(private route: ActivatedRoute, private _service:ServicesService) { }
-
-    ngOnInit() {
-        this.routeSub = this.route.params.subscribe(params => {
-            this.slug = params['slug']
-            this.getReq = this._service.list().subscribe(data => {
-                data.filter(item => {
-                    if(item.slug == this.slug){
-                        this.service = item as ServiceItem;
-                        this.gallery_images = this.service.recentInstallImages;
-                    }
-                })
-            })
+  ngOnInit() {
+    this.routeSub = this.route.params.subscribe((params) => {
+      this.slug = params['slug']
+      this.getReq = this._service.list().subscribe((data) => {
+        data.filter((item) => {
+          if (item.slug == this.slug) {
+            this.service = item as ServiceItem
+            this.gallery_images = this.service.recentInstallImages
+          }
         })
+      })
+    })
 
-        this.listReq = this._service.list().subscribe(data=>{
-			this.serviceList = data as [ServiceItem];
-        })
-        
-        this.line_type = ["Signature", "Premier", "Standard"]
+    this.listReq = this._service.list().subscribe((data) => {
+      this.serviceList = data as [ServiceItem]
+    })
 
-        this.gallery_options = [
-            { 
-                image: false, 
-                height: '200px',
-                width: '800px',
-                thumbnailsColumns: 5, 
-                imageAutoPlay: true, 
-                thumbnailsSwipe: true,
-                imageAutoPlayPauseOnHover: true, 
-                previewAutoPlay: true, 
-                previewAutoPlayPauseOnHover: true, 
-                previewCloseOnClick: true, 
-                previewCloseOnEsc: true
-            },
-            { 
-                breakpoint: 990, 
-                width: "100%",
-                thumbnailsColumns: 3, 
-            },
-            
-        ]
+    this.gallery_options = [{
+      image: false,
+      height: '200px',
+      width: '800px',
+      thumbnailsColumns: 5,
+      imageAutoPlay: true,
+      thumbnailsSwipe: true,
+      imageAutoPlayPauseOnHover: true,
+      previewAutoPlay: true,
+      previewAutoPlayPauseOnHover: true,
+      previewCloseOnClick: true,
+      previewCloseOnEsc: true
+    }, {
+      breakpoint: 990,
+      width: "100%",
+      thumbnailsColumns: 3,
+    }]
+  }
 
-    }
-
-    ngOnDestroy(){
-        this.routeSub.unsubscribe();
-        this.listReq.unsubscribe();
-        this.getReq.unsubscribe();
-    }
-
+  ngOnDestroy() {
+    this.routeSub.unsubscribe()
+    this.listReq.unsubscribe()
+    this.getReq.unsubscribe()
+  }
 }

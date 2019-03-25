@@ -17,11 +17,11 @@ export class RegionsService {
   }
 
   list() {
-		return this.http.get<any[]>(endpoint).pipe(map((response) => response.filter((item) => {
-		  if (item.type.indexOf("landing-") > -1) {
-			 return item
+    return this.http.get<any[]>(endpoint).pipe(map((response) => response.filter((item) => {
+      if (item.type.indexOf("landing-") > -1) {
+       return item
       }
-		})), catchError((error) => this.handleError(error, "get")))
+    })), catchError((error) => this.handleError(error, "get")))
   }
 
   get(slug) {

@@ -2,75 +2,75 @@
 @import 'modules/_variables.sass'
 
 html, body
-	overflow-x: hidden !important
-	font-family: 'Didact Gothic', sans-serif
+  overflow-x: hidden !important
+  font-family: 'Didact Gothic', sans-serif
 
 body
-	background: #f2f2f2
+  background: #f2f2f2
 
 a
-	color: #000
-	&:hover
-		color: $light-gray
+  color: #000
+  &:hover
+    color: $light-gray
 
 .blue
-	background: $mmblue !important
+  background: $mmblue !important
 .blue-text
-	color: $mmblue !important
+  color: $mmblue !important
 .blue-outline
-	border: 2px solid $mmblue
-	background: none
-	color: $orange !important
+  border: 2px solid $mmblue
+  background: none
+  color: $orange !important
 
 .orange
-	background: $orange
+  background: $orange
 .orange-text
-	color: $orange
+  color: $orange
 
 .gray
-	background: $gray
+  background: $gray
 .gray-text
-	color: $gray
+  color: $gray
 
 .light-gray
-	background: $light-gray
+  background: $light-gray
 .light-gray-text
-	color: $light-gray
+  color: $light-gray
 
 .transparent-gray
-    background: rgba(0, 0, 0, 0.6)
+  background: rgba(0, 0, 0, 0.6)
 
 #desktop-disappear
-	@include breakpoint(md)
-		display: none
+  @include breakpoint(md)
+    display: none
 
 #tablet-disappear
-	@include breakpoint(sm)
-		display: none
+  @include breakpoint(sm)
+    display: none
 
 #action-button
-	display: none
-	@include breakpoint(md)
-		display: inline
+  display: none
+  @include breakpoint(md)
+    display: inline
 
 #mobile-disappear
-	display: none
-	@include breakpoint(xs)
-		display: inline
+  display: none
+  @include breakpoint(xs)
+    display: inline
 
 
 @media (min-width: 1200px)
-    .container
-        max-width: 1200px
+  .container
+    max-width: 1200px
 
 .no-pointer
-	cursor: default !important
+  cursor: default !important
 
 .pills-secondary .nav-link.active
-    background-color: $mmblue !important
+  background-color: $mmblue !important
 
 .indigo
-    background-color: $mmblue !important
+  background-color: $mmblue !important
 
 .modal-image
-	object-fit: cover
+  object-fit: cover

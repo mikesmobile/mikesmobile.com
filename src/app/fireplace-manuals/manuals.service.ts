@@ -12,9 +12,9 @@ export class manualsService {
     return this.http.get<any[]>(endpoint).pipe(map((response) => response), catchError((error) => this.handleError(error, "list")))
   }
 
-	listInput(input) {
-		return this.http.get<any[]>(input).pipe(map((response) => response), catchError((error) => this.handleError(error, "listInput")))
-	}
+  listInput(input) {
+    return this.http.get<any[]>(input).pipe(map((response) => response), catchError((error) => this.handleError(error, "listInput")))
+  }
 
   get(slug) {
     return this.http.get<any[]>(endpoint).pipe(map((response) => {

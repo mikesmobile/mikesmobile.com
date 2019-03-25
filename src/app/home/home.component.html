@@ -1,8 +1,6 @@
 
 <div class="slideshow" id="slideshow">
-  <!--Carousel Wrapper-->
   <mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="4000">
-    <!--First slide-->
     <mdb-slide>
       <div class="view w-100 hm-bluegrey-light">
         <img class="d-block w-100 modal-image" src="assets/images/main/three-sliding-security-doors.jpg" alt="First slide">
@@ -16,8 +14,6 @@
         <button type="button" class="btn blue waves-light" mdbRippleRadius [pageScrollOffset]="55"  mdbPageScroll href="#Security-Doors-and-Windows">Learn More</button>
       </div>
     </mdb-slide>
-    <!--/First slide-->
-    <!--Second slide-->
     <mdb-slide>
       <div class="view w-100 hm-stylish-light">
         <img class="d-block w-100 modal-image" src="assets/images/main/single-chimney.jpg" alt="Second slide">
@@ -31,8 +27,6 @@
         <button type="button" class="btn blue waves-light"  [pageScrollOffset]="55" mdbPageScroll href="#chimney-services" mdbRippleRadius>Learn More</button>
       </div>
     </mdb-slide>
-    <!--/Second slide-->
-    <!--Third slide-->
     <mdb-slide>
       <div class="view w-100 hm-stylish-light">
         <img class="d-block w-100 modal-image" src="assets/images/awnings/awning2.png" alt="Third slide">
@@ -46,9 +40,7 @@
         <button type="button" class="btn blue waves-light"  [pageScrollOffset]="55" mdbPageScroll href="#awnings" mdbRippleRadius>Learn More</button>
       </div>
     </mdb-slide>
-    <!--/Third slide-->
   </mdb-carousel>
-  <!--/.Carousel Wrapper-->
 </div>
 
 <app-action-buttons></app-action-buttons>
