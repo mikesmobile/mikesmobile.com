@@ -35,7 +35,7 @@
             <div class="view overlay">
               <!--Featured image-->
               <img class="post-img" src="{{post.images[0]}}" alt="{{post.slug}}">
-              <a>
+              <a [routerLink]="[post.slug]">
                 <div class="mask rgba-orange-light"></div>
               </a>
             </div>
