@@ -1,18 +1,13 @@
 @import '~sass/modules/_mixins.sass'
 @import '~sass/modules/_variables.sass'
 
-img#doorImages1
+img.doorImages
   height: 400px
   position: relative
   left: 50%
   transform: translate(-50%, 0)
   cursor: pointer
-
-img#doorImages2
-  height: 400px
-  position: relative
-  left: 50%
-  transform: translate(-50%, 0)
+  object-fit: cover
 
 .mask:hover
   cursor: pointer
@@ -42,7 +37,7 @@ img#doorImages2
 /*  --------------------------------------------
   THIS IS FOR FLIP CARD STYLING AND ANIMATIONS
   -------------------------------------------- */
-img#servicesImages
+img.servicesImages
   position: relative
   height: 125px
   width: 100%
