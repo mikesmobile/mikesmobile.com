@@ -3,7 +3,7 @@
 
 <ng-container *ngIf="service">
   <div class="container pb-4">
-      <!-- Breadcrumb Navigation -->
+    <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
       <a *ngIf="service.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Door and Window Screens</a>
@@ -20,34 +20,29 @@
       <a *ngIf="service.category === 'Awnings'" class="breadcrumb-item" [routerLink]="['/about/awnings']">Awnings</a>
       <span class="breadcrumb-item active">{{service.title}}</span>
     </nav>
-      <!-- /Breadcrumb Navigation -->
+    <!-- /Breadcrumb Navigation -->
 
     <section class="section extra-margins">
-        <!--Grid row-->
-        <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
+      <div class="row">
+        <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
           <h2 class="pb-3 text-center animated pulse infinite orange-text" id="ptr" (click)="toggleQuoteForm()">Get started today!</h2>
           <img *ngIf="service.tileImage" src="{{service.tileImage}}" alt="project image" class="img-fluid z-depth-2 main-image">
           <h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text">{{service.serviceImgCaption}}</h4>
           <div *ngIf="service.video" class="row">
-              <iframe *ngIf="service.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(service.video)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
+            <iframe *ngIf="service.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(service.video)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
           <div class="row mb-4">
             <div class="col-12">
               <h5 class="text-center">{{service.category}}</h5>
               <h3 class="text-center mb-3" id="serviceInfo">{{service.title}}</h3>
               <!--Accordion wrapper-->
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-                  <mdb-item *ngFor="let item of service.textList; index as i" >
-                      <mdb-item-head>{{ item.title }}</mdb-item-head>
-                     <mdb-item-body>{{ item.description }}</mdb-item-body>
-                  </mdb-item>
+                <mdb-item *ngFor="let item of service.textList; index as i">
+                  <mdb-item-head>{{ item.title }}</mdb-item-head>
+                  <mdb-item-body>{{ item.description }}</mdb-item-body>
+                </mdb-item>
               </mdb-squeezebox>
               <!--/.Accordion wrapper-->
             </div>
@@ -84,11 +79,11 @@
             <div class="col-12">
               <h4>Color Selection &nbsp; <span class="small">(click to zoom)</span></h4>
               <ng-container *ngFor="let i of service.colorSet">
-                  <app-color-swatch  [swatchType]="i"></app-color-swatch>
+                <app-color-swatch  [swatchType]="i"></app-color-swatch>
                </ng-container>
             </div>
           </div>
-        <!-- COLOR SECTION -->
+          <!-- COLOR SECTION -->
           <ng-container *ngIf="service.extraImages">
             <h4 class="p-2" *ngIf="service.extraImagesTitle;else defaultImageTitle">{{service.extraImagesTitle}}</h4>
             <ng-template #defaultImageTitle ><h4 class="p-2">Informational Graphics</h4></ng-template>
@@ -114,75 +109,44 @@
               </div>
             </div>
           </ng-container>
-            </div>
-            <!--Grid column-->
         </div>
-        <!--Grid row-->
+      </div>
     </section>
 
-
     <div class="row" *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'">
-
-      <!--Section: Features v.1-->
       <section class="section feature-box">
-        <!--Section heading-->
-        <!-- <h3 class="light-gray-text my-4">The quality of caps we carry, two words say it all, Lifetime Warranty. Every one of our caps is guaranteed for life to not blow off or burn/ rust through like hardware store caps.</h3> -->
         <h1 class="section-heading h1 light-gray-text">We offer these types of caps</h1>
-
-        <!--Grid row-->
         <div class="row features-big">
-
-          <!--Grid column-->
           <div class="col-md-3 mb-r">
-            <img src="/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid"/>
+            <img src="/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid" />
             <h5 class="feature-title">Masonry Chimney Caps</h5>
             <p class="light-gray-text p-2">Masonry Chimney caps connect to the top of your brick/masonry chimney. We sell black galvanized chimney caps that have a spark arrestor build in. You'll get 2 for the price of one with this cap. Fits all standard chimney flue sizes: 8" x 8", 8" x 13", 8" x 17", 13" x 13", 13" x 17" - We can also order custom size chimney caps. Contact us today and find out how!</p>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
           <div class="col-md-3 mb-r">
-            <img src="/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid"/>
+            <img src="/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid" />
             <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
             <p class="light-gray-text p-2">We offer prefab or Zero Clearance chimney caps for sizes: 6", 8", and 10". All sizes are available in Solid pack and Air Cooled options. Contact us today for custom sizes. We can do it!</p>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
           <div class="col-md-3 mb-r">
-            <img src="/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid"/>
+            <img src="/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid" />
             <h5 class="feature-title">Lock Top Damper</h5>
             <p class="light-gray-text p-2">If you are tired of that old masonry throat damper or you are looking to become more efficient and save some money on your energy bill, you can invest in a Lock Top Damper. This top mount damper seals shut with a rubber seal and keeps the cold air out of your chimney and out of your home.</p>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
           <div class="col-md-3 mb-r">
-            <img src="/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid"/>
+            <img src="/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid" />
             <h5 class="feature-title">Flue Extender Caps</h5>
             <p class="light-gray-text p-2">Many masonry chimneys do not meet minimum code-height requirements and have the potential to be a serious fire hazard. Also, many draft issues can be attributed to a chimney being too short. These caps keep sparks off your roof and assist in a strong chimney draft.</p>
           </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
       </section>
-      <!--Section: Features v.1-->
     </div>
-    <!--Optional Video section-->
 
     <div class="container" *ngIf="service.recentInstallImages">
-      <!--Section: Features v.2-->
       <section class="text-center section feature-box">
         <app-footer-gallery  [Images]="gallery_images"></app-footer-gallery>
       </section>
     </div>
-
-
   </div>
 </ng-container>
 
-
-
-<!--QuoteForm Modal-->
 <app-quote-form></app-quote-form>
-<!--/QuoteForm Modal-->
