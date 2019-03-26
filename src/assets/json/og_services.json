@@ -117,13 +117,13 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/classic-french_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/classic-french_thumb.jpg",
         "thumbImages":[
             {
                 "alt":"Titan Security Classic French Door",
-                "small":"/assets/images/security/titan/doors/classic-french_1.jpg",
-                "medium":"/assets/images/security/titan/doors/classic-french_1.jpg",
-                "big":"/assets/images/security/titan/doors/classic-french_1.jpg"
+                "small":"/assets/images/security/titan/doors/classic-french_4.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_4.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_4.jpg"
             },
             {
                 "alt":"Titan Security Classic French Door",
@@ -136,6 +136,12 @@
                 "small":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "medium":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "big":"/assets/images/security/titan/doors/classic-french_3.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_1.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_1.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_1.jpg"
             }
         ],
         "details":[
@@ -227,13 +233,13 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/elegante_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/elegante_thumb.jpg",
         "thumbImages":[
             {
                 "alt":"Titan Security Elegante Door",
-                "small":"/assets/images/security/titan/doors/elegante_1.jpg",
-                "medium":"/assets/images/security/titan/doors/elegante_1.jpg",
-                "big":"/assets/images/security/titan/doors/elegante_1.jpg"
+                "small":"/assets/images/security/titan/doors/elegante_3.jpg",
+                "medium":"/assets/images/security/titan/doors/elegante_3.jpg",
+                "big":"/assets/images/security/titan/doors/elegante_3.jpg"
             },
             {
                 "alt":"Titan Security Elegante Door",
@@ -243,9 +249,9 @@
             },
             {
                 "alt":"Titan Security Elegante Door",
-                "small":"/assets/images/security/titan/doors/elegante_3.jpg",
-                "medium":"/assets/images/security/titan/doors/elegante_3.jpg",
-                "big":"/assets/images/security/titan/doors/elegante_3.jpg"
+                "small":"/assets/images/security/titan/doors/elegante_1.jpg",
+                "medium":"/assets/images/security/titan/doors/elegante_1.jpg",
+                "big":"/assets/images/security/titan/doors/elegante_1.jpg"
             }
         ],
         "details":[
@@ -288,8 +294,14 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/essex_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/essex_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Essex Door",
+                "small":"/assets/images/security/titan/doors/essex_2.jpg",
+                "medium":"/assets/images/security/titan/doors/essex_2.jpg",
+                "big":"/assets/images/security/titan/doors/essex_2.jpg"
+            },
             {
                 "alt":"Titan Security Essex Door",
                 "small":"/assets/images/security/titan/doors/essex_1.jpg",
@@ -337,8 +349,14 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/folkstone_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/folkstone_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Folkstone Door",
+                "small":"/assets/images/security/titan/doors/folkstone_2.jpg",
+                "medium":"/assets/images/security/titan/doors/folkstone_2.jpg",
+                "big":"/assets/images/security/titan/doors/folkstone_2.jpg"
+            },
             {
                 "alt":"Titan Security Folkstone Door",
                 "small":"/assets/images/security/titan/doors/folkstone_1.jpg",
@@ -386,19 +404,25 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/french-hummingbird_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security French Hummingbird Door",
-                "small":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
-                "medium":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
-                "big":"/assets/images/security/titan/doors/french-hummingbird_1.jpg"
-            },
             {
                 "alt":"Titan Security French Hummingbird Door",
                 "small":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
                 "medium":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
                 "big":"/assets/images/security/titan/doors/french-hummingbird_2.jpg"
+            },
+            {
+                "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_3.jpg"
+            },
+            {
+                "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_1.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_1.jpg"
             }
         ],
         "details":[
@@ -441,13 +465,13 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/full-view_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/full-view_thumb.jpg",
         "thumbImages":[
             {
                 "alt":"Titan Security Full View Door",
-                "small":"/assets/images/security/titan/doors/full-view_1.jpg",
-                "medium":"/assets/images/security/titan/doors/full-view_1.jpg",
-                "big":"/assets/images/security/titan/doors/full-view_1.jpg"
+                "small":"/assets/images/security/titan/doors/full-view_3.jpg",
+                "medium":"/assets/images/security/titan/doors/full-view_3.jpg",
+                "big":"/assets/images/security/titan/doors/full-view_3.jpg"
             },
             {
                 "alt":"Titan Security Full View Door",
@@ -457,9 +481,9 @@
             },
             {
                 "alt":"Titan Security Full View Door",
-                "small":"/assets/images/security/titan/doors/full-view_3.jpg",
-                "medium":"/assets/images/security/titan/doors/full-view_3.jpg",
-                "big":"/assets/images/security/titan/doors/full-view_3.jpg"
+                "small":"/assets/images/security/titan/doors/full-view_1.jpg",
+                "medium":"/assets/images/security/titan/doors/full-view_1.jpg",
+                "big":"/assets/images/security/titan/doors/full-view_1.jpg"
             }
         ],
         "details":[
@@ -551,19 +575,19 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/guardsman_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/guardsman_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Guardsman Door",
-                "small":"/assets/images/security/titan/doors/guardsman_1.jpg",
-                "medium":"/assets/images/security/titan/doors/guardsman_1.jpg",
-                "big":"/assets/images/security/titan/doors/guardsman_1.jpg"
-            },
             {
                 "alt":"Titan Security Guardsman Door",
                 "small":"/assets/images/security/titan/doors/guardsman_2.jpg",
                 "medium":"/assets/images/security/titan/doors/guardsman_2.jpg",
                 "big":"/assets/images/security/titan/doors/guardsman_2.jpg"
+            },
+            {
+                "alt":"Titan Security Guardsman Door",
+                "small":"/assets/images/security/titan/doors/guardsman_1.jpg",
+                "medium":"/assets/images/security/titan/doors/guardsman_1.jpg",
+                "big":"/assets/images/security/titan/doors/guardsman_1.jpg"
             }
         ],
         "details":[
@@ -949,14 +973,8 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/manchester_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/manchester_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Manchester Door",
-                "small":"/assets/images/security/titan/doors/manchester_1.jpg",
-                "medium":"/assets/images/security/titan/doors/manchester_1.jpg",
-                "big":"/assets/images/security/titan/doors/manchester_1.jpg"
-            },
             {
                 "alt":"Titan Security Manchester Door",
                 "small":"/assets/images/security/titan/doors/manchester_2.jpg",
@@ -968,6 +986,12 @@
                 "small":"/assets/images/security/titan/doors/manchester_3.jpg",
                 "medium":"/assets/images/security/titan/doors/manchester_3.jpg",
                 "big":"/assets/images/security/titan/doors/manchester_3.jpg"
+            },
+            {
+                "alt":"Titan Security Manchester Door",
+                "small":"/assets/images/security/titan/doors/manchester_1.jpg",
+                "medium":"/assets/images/security/titan/doors/manchester_1.jpg",
+                "big":"/assets/images/security/titan/doors/manchester_1.jpg"
             }
         ],
         "details":[
@@ -1010,8 +1034,20 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/martini_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/martini_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Martini Door",
+                "small":"/assets/images/security/titan/doors/martini_2.jpg",
+                "medium":"/assets/images/security/titan/doors/martini_2.jpg",
+                "big":"/assets/images/security/titan/doors/martini_2.jpg"
+            },
+            {
+                "alt":"Titan Security Martini Door",
+                "small":"/assets/images/security/titan/doors/martini_3.jpg",
+                "medium":"/assets/images/security/titan/doors/martini_3.jpg",
+                "big":"/assets/images/security/titan/doors/martini_3.jpg"
+            },
             {
                 "alt":"Titan Security Martini Door",
                 "small":"/assets/images/security/titan/doors/martini_1.jpg",
@@ -1206,19 +1242,19 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/nogales_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/nogales_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Nogales Door",
-                "small":"/assets/images/security/titan/doors/nogales_1.jpg",
-                "medium":"/assets/images/security/titan/doors/nogales_1.jpg",
-                "big":"/assets/images/security/titan/doors/nogales_1.jpg"
-            },
             {
                 "alt":"Titan Security Nogales Door",
                 "small":"/assets/images/security/titan/doors/nogales_2.jpg",
                 "medium":"/assets/images/security/titan/doors/nogales_2.jpg",
                 "big":"/assets/images/security/titan/doors/nogales_2.jpg"
+            },
+            {
+                "alt":"Titan Security Nogales Door",
+                "small":"/assets/images/security/titan/doors/nogales_1.jpg",
+                "medium":"/assets/images/security/titan/doors/nogales_1.jpg",
+                "big":"/assets/images/security/titan/doors/nogales_1.jpg"
             }
         ],
         "details":[
@@ -1310,19 +1346,19 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/plain-bar_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Plain Bar Door",
-                "small":"/assets/images/security/titan/doors/plain-bar_1.jpg",
-                "medium":"/assets/images/security/titan/doors/plain-bar_1.jpg",
-                "big":"/assets/images/security/titan/doors/plain-bar_1.jpg"
-            },
             {
                 "alt":"Titan Security Plain Bar Door",
                 "small":"/assets/images/security/titan/doors/plain-bar_2.jpg",
                 "medium":"/assets/images/security/titan/doors/plain-bar_2.jpg",
                 "big":"/assets/images/security/titan/doors/plain-bar_2.jpg"
+            },
+            {
+                "alt":"Titan Security Plain Bar Door",
+                "small":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "medium":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "big":"/assets/images/security/titan/doors/plain-bar_1.jpg"
             },
             {
                 "alt":"Titan Security Plain Bar Door",
@@ -1371,8 +1407,14 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/playa_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/playa_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Playa Door",
+                "small":"/assets/images/security/titan/doors/playa_2.jpg",
+                "medium":"/assets/images/security/titan/doors/playa_2.jpg",
+                "big":"/assets/images/security/titan/doors/playa_2.jpg"
+            },
             {
                 "alt":"Titan Security Playa Door",
                 "small":"/assets/images/security/titan/doors/playa_1.jpg",
@@ -1714,19 +1756,19 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/spaniard_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/spaniard_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Spaniard Door",
-                "small":"/assets/images/security/titan/doors/spaniard_1.jpg",
-                "medium":"/assets/images/security/titan/doors/spaniard_1.jpg",
-                "big":"/assets/images/security/titan/doors/spaniard_1.jpg"
-            },
             {
                 "alt":"Titan Security Spaniard Door",
                 "small":"/assets/images/security/titan/doors/spaniard_2.jpg",
                 "medium":"/assets/images/security/titan/doors/spaniard_2.jpg",
                 "big":"/assets/images/security/titan/doors/spaniard_2.jpg"
+            },
+            {
+                "alt":"Titan Security Spaniard Door",
+                "small":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "medium":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "big":"/assets/images/security/titan/doors/spaniard_1.jpg"
             },
             {
                 "alt":"Titan Security Spaniard Door",
@@ -1824,19 +1866,19 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/sunfire_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/sunfire_thumb.jpg",
         "thumbImages":[
-            {
-                "alt":"Titan Security Sunfire Door",
-                "small":"/assets/images/security/titan/doors/sunfire_1.jpg",
-                "medium":"/assets/images/security/titan/doors/sunfire_1.jpg",
-                "big":"/assets/images/security/titan/doors/sunfire_1.jpg"
-            },
             {
                 "alt":"Titan Security Sunfire Door",
                 "small":"/assets/images/security/titan/doors/sunfire_2.jpg",
                 "medium":"/assets/images/security/titan/doors/sunfire_2.jpg",
                 "big":"/assets/images/security/titan/doors/sunfire_2.jpg"
+            },
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_1.jpg"
             },
             {
                 "alt":"Titan Security Sunfire Door",
@@ -1940,8 +1982,14 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/trellis_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/trellis_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Trellis Door",
+                "small":"/assets/images/security/titan/doors/trellis_2.jpg",
+                "medium":"/assets/images/security/titan/doors/trellis_2.jpg",
+                "big":"/assets/images/security/titan/doors/trellis_2.jpg"
+            },
             {
                 "alt":"Titan Security Trellis Door",
                 "small":"/assets/images/security/titan/doors/trellis_1.jpg",
@@ -1989,8 +2037,20 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/winchester_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/winchester_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Winchester Door",
+                "small":"/assets/images/security/titan/doors/winchester_2.jpg",
+                "medium":"/assets/images/security/titan/doors/winchester_2.jpg",
+                "big":"/assets/images/security/titan/doors/winchester_2.jpg"
+            },
+            {
+                "alt":"Titan Security Winchester Door",
+                "small":"/assets/images/security/titan/doors/winchester_3.jpg",
+                "medium":"/assets/images/security/titan/doors/winchester_3.jpg",
+                "big":"/assets/images/security/titan/doors/winchester_3.jpg"
+            },
             {
                 "alt":"Titan Security Winchester Door",
                 "small":"/assets/images/security/titan/doors/winchester_1.jpg",
@@ -2087,8 +2147,20 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/yale_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/yale_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Yale Door",
+                "small":"/assets/images/security/titan/doors/yale_3.jpg",
+                "medium":"/assets/images/security/titan/doors/yale_3.jpg",
+                "big":"/assets/images/security/titan/doors/yale_3.jpg"
+            },
+            {
+                "alt":"Titan Security Yale Door",
+                "small":"/assets/images/security/titan/doors/yale_2.jpg",
+                "medium":"/assets/images/security/titan/doors/yale_2.jpg",
+                "big":"/assets/images/security/titan/doors/yale_2.jpg"
+            },
             {
                 "alt":"Titan Security Yale Door",
                 "small":"/assets/images/security/titan/doors/yale_1.jpg",
