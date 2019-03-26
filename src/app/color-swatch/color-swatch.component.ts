@@ -143,6 +143,24 @@ export class ColorSwatchComponent implements OnInit {
     }
   }
 
+  lifestyleColors = {
+    "name":"Frame Colors",
+    "values":{
+      "White":"#ffffff",
+      "Brown":"#542a00",
+      "Sandstone":"#dcc798"
+    }
+  }
+
+  lifestyleScreenColors = {
+    "name":"Screen Materials",
+    "values":{
+      "Charcoal (Fiberglass)":"/assets/images/screens/lifestyle/color_fiberglass_charcoal.jpg",
+      "White (PVC Coated Polyester)":"/assets/images/screens/lifestyle/color_polyester_white.jpg",
+      "Black (PVC Coated Polyester)":"/assets/images/screens/lifestyle/color_polyester_black.jpg"
+    }
+  }
+
   constructor() {}
 
   ngOnInit() {
@@ -176,6 +194,12 @@ export class ColorSwatchComponent implements OnInit {
         break
       case "titanAluminumColors":
         this.colors = this.titanAluminumColors
+        break
+      case "lifestyleColors":
+        this.colors = this.lifestyleColors
+        break
+      case "lifestyleScreenColors":
+        this.colors = this.lifestyleScreenColors
         break
       default:
         this.colors = null;

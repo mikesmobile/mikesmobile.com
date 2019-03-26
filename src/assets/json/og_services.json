@@ -3946,6 +3946,88 @@
         ]
     },
     {
+        "title":"Lifestyle Garage Screen",
+        "slug":"lifestyle-garage-screen",
+        "category":"Door and Window Screens",
+        "subcategory":"Door",
+        "type":"products",
+        "bullets":["Fully retractable garage screen door that works with your existing garage door","Installed and operates entirely from the interior of the garage","Completely invisible when garage door is closed"],
+        "tileImage":"/assets/images/screens/lifestyle/tile.jpg",
+        "tileText":"Turn your garage into an airy, pest-free space on demand!",
+        "thumbImages":[
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/product_1.jpg",
+                "medium":"/assets/images/screens/lifestyle/product_1.jpg",
+                "big":"/assets/images/screens/lifestyle/product_1.jpg"
+            },
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/product_2.jpg",
+                "medium":"/assets/images/screens/lifestyle/product_2.jpg",
+                "big":"/assets/images/screens/lifestyle/product_2.jpg"
+            },
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/product_3.jpg",
+                "medium":"/assets/images/screens/lifestyle/product_3.jpg",
+                "big":"/assets/images/screens/lifestyle/product_3.jpg"
+            }
+        ],
+        "details":[
+            {
+                "title":"Product Overview",
+                "description":"The Lifestyle Screen system is a patented, fully spring loaded garage door screen that works with your existing garage door. Available with a center retractable passage door or without, three different frame color choices and three different screen options. The Lifestyle Screens features a Limited Lifetime warranty."
+            },
+            {
+                "title":"Technical Specs",
+                "description":"<li>Sturdy but lightweight aluminum frame</li><li>Fiberglass or PVC Coated Polyester screens</li><li>Sizes for garages between 7' to 10' tall and 6' to 18' wide</li>"
+            },
+            {
+                "title":"Options",
+                "description":"<li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>3 Screen Materials</li>"
+            },
+            {
+                "title":"Related Products",
+                "links":{
+                    "Retractable Screen Doors": "/products/retractable-screen-doors",
+                    "Door and Window Screens": "/about/door-and-window-screens",
+                    "Screen Doors": "/about/door-screens",
+                    "Window Screens": "/about/window-screens",
+                    "Swinging Screen Doors": "/products/swinging-screen-doors",
+                    "Security Door and Windows": "/about/security-doors-and-windows",
+                    "Security Door": "/about/security-doors",
+                    "Security Windows": "/about/security-windows"
+                }
+            },
+            {
+                "title":"Warranty",
+                "description":"TODO"
+            }
+        ],
+        "colorSet":["lifestyleColors","lifestyleScreenColors"],
+        "recentInstallImages": [
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/recent_1.jpg",
+                "medium":"/assets/images/screens/lifestyle/recent_1.jpg",
+                "big":"/assets/images/screens/lifestyle/recent_1.jpg"
+            },
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/recent_2.jpg",
+                "medium":"/assets/images/screens/lifestyle/recent_2.jpg",
+                "big":"/assets/images/screens/lifestyle/recent_2.jpg"
+            },
+            {
+                "alt":"Lifestyle Garage Screen",
+                "small":"/assets/images/screens/lifestyle/recent_3.jpg",
+                "medium":"/assets/images/screens/lifestyle/recent_3.jpg",
+                "big":"/assets/images/screens/lifestyle/recent_3.jpg"
+            }
+        ]
+    },
+    {
         "title":"TRU-View Security Doors",
         "slug":"tru-view-security-doors",
         "category":"Security Doors and Windows",
