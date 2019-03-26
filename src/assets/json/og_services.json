@@ -3645,10 +3645,9 @@
             }
         ]
     },
-
     {
         "title":"Chimney Glossary Terms",
-        "slug":"chimney-glossary-terms",
+        "slug":"chimney-glossary",
         "category":"Resources",
         "type":"resource",
         "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
@@ -3656,7 +3655,7 @@
     },
     {
         "title":"Chimney FAQs",
-        "slug":"chimney-faqs",
+        "slug":"chimney-faq",
         "category":"Resources",
         "type":"resource",
         "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
@@ -3670,7 +3669,6 @@
         "tileImage":"assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
         "tileText":"Protect your chimney from water damage. Get a crown seal for your chimney now!"
     },
-
 
     {
         "title":"Masonry Services",

@@ -1,61 +1,33 @@
 
 <app-action-buttons></app-action-buttons>
 
-<!-- ServiceList -->
 <div class="container">
   <h2 *ngIf='query' class="my-3 text-center">Searched for <span class="blue-text">{{ query }}</span></h2>
 </div>
-<!-- ServiceList -->
-<!-- <ng-container *ngFor='let category of categories; index as i'> -->
-  <div class="container service-list mt-3" id="service-list">
-    <!-- ServiceItem row -->
-    <div class="row">
-      <!-- ServiceList Title -->
-      <!-- <div class="col-12 pb-2">
-        <h1 class="orange-text py-3">{{category}}</h1>
-      </div> -->
-      <!-- /ServiceList Title -->
-      <!-- Angular For Loop -->
-      <ng-container *ngFor='let search of searchList'>
-        <!-- Ensure only those in 'Screens' Category -->
-        <!-- <ng-container *ngIf="search.category === category"> -->
-          <!-- ServiceItem -->
-          <div class="col-6 col-md-4 col-lg-3 my-3">
-            <!-- Flip Card -->
-            <ng-container *ngIf="search.tileImage">
-              <div class="flip-container">
-                <div class="flipper">
-                  <!-- front content -->
-                  <div class="front">
-                    <!--Card image-->
-                    <div class="view waves-light" mdbRippleRadius>
-                        <img src="{{search.tileImage}}" class="img-fluid" alt="{{search.title}}">
-                    </div>
-                    <!--Title-->
-                    <h4 class="card-title">{{search.title}}</h4>
-                  </div>
-                  <!--/ front content -->
-                  <!-- back content -->
-                  <a routerLink="/{{search.type}}/{{search.slug}}">
-                    <div class="back">
-                      <h4 class="text-center">{{search.title}}</h4>
-                      <div class="divider dropdown-divider pt-0 mt-0"></div>
-                      <p class="p-1 mb-0 text-center">{{search.tileText}}</p>
-                    </div>
-                  </a>
-                  <!--/ back content -->
+<div class="container service-list mt-3" id="service-list">
+  <div class="row">
+    <ng-container *ngFor='let result of searchList'>
+      <div class="col-6 col-md-4 col-lg-3 my-3">
+        <ng-container *ngIf="result.tileImage">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <div class="view waves-light" mdbRippleRadius>
+                  <img src="{{result.tileImage}}" class="img-fluid" alt="{{result.title}}">
                 </div>
+                <h4 class="card-title">{{result.title}}</h4>
               </div>
-            </ng-container>
-            <!-- /Flip Card -->
+              <a routerLink='/{{result.slug}}'>
+                <div class="back">
+                  <h4 class="text-center">{{result.title}}</h4>
+                  <div class="divider dropdown-divider pt-0 mt-0"></div>
+                  <p class="p-1 mb-0 text-center">{{result.tileText}}</p>
+                </div>
+              </a>
+            </div>
           </div>
-          <!-- /ServiceItem -->
-        <!-- </ng-container> -->
-        <!-- /Ensure only those in 'Screens' Category -->
-      </ng-container>
-      <!-- /Angular For Loop -->
-    </div>
-    <!-- ServiceItem row -->
+        </ng-container>
+      </div>
+    </ng-container>
   </div>
-  <!-- /Screens ServiceList -->
-<!-- </ng-container> -->
+</div>
