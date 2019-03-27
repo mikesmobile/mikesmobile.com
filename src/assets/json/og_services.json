@@ -1356,15 +1356,15 @@
             },
             {
                 "alt":"Titan Security Plain Bar Door",
-                "small":"/assets/images/security/titan/doors/plain-bar_1.jpg",
-                "medium":"/assets/images/security/titan/doors/plain-bar_1.jpg",
-                "big":"/assets/images/security/titan/doors/plain-bar_1.jpg"
-            },
-            {
-                "alt":"Titan Security Plain Bar Door",
                 "small":"/assets/images/security/titan/doors/plain-bar_3.jpg",
                 "medium":"/assets/images/security/titan/doors/plain-bar_3.jpg",
                 "big":"/assets/images/security/titan/doors/plain-bar_3.jpg"
+            },
+            {
+                "alt":"Titan Security Plain Bar Door",
+                "small":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "medium":"/assets/images/security/titan/doors/plain-bar_1.jpg",
+                "big":"/assets/images/security/titan/doors/plain-bar_1.jpg"
             }
         ],
         "details":[
@@ -1766,15 +1766,15 @@
             },
             {
                 "alt":"Titan Security Spaniard Door",
-                "small":"/assets/images/security/titan/doors/spaniard_1.jpg",
-                "medium":"/assets/images/security/titan/doors/spaniard_1.jpg",
-                "big":"/assets/images/security/titan/doors/spaniard_1.jpg"
-            },
-            {
-                "alt":"Titan Security Spaniard Door",
                 "small":"/assets/images/security/titan/doors/spaniard_3.jpg",
                 "medium":"/assets/images/security/titan/doors/spaniard_3.jpg",
                 "big":"/assets/images/security/titan/doors/spaniard_3.jpg"
+            },
+            {
+                "alt":"Titan Security Spaniard Door",
+                "small":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "medium":"/assets/images/security/titan/doors/spaniard_1.jpg",
+                "big":"/assets/images/security/titan/doors/spaniard_1.jpg"
             }
         ],
         "details":[
