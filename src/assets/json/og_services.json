@@ -4009,7 +4009,7 @@
         "category":"Garage Screen Doors",
         "subcategory":"Door",
         "type":"products",
-        "bullets":["Fully retractable garage screen door that works with your existing garage door","Installed and operates entirely from the interior of the garage","Completely invisible when garage door is closed"],
+        "bullets":["Fully retractable garage screen door that works with your existing garage door","Optional door allows for easy entry and exit","Installed and operates entirely from the interior of the garage","Completely invisible when garage door is closed"],
         "tileImage":"/assets/images/screens/lifestyle/tile.jpg",
         "tileText":"Turn your garage into an airy, pest-free space on demand!",
         "thumbImages":[
@@ -4035,7 +4035,7 @@
         "details":[
             {
                 "title":"Product Overview",
-                "description":"The Lifestyle Screen system is a patented, fully spring loaded garage screen door that works with your existing garage door. Available with a center retractable passage door or without, three different frame color choices and three different screen options. The Lifestyle Screens features a Limited Lifetime warranty."
+                "description":"<p>The Lifestyle garage door screen is a fully retractable garage screen door that works with your existing garage door. The Lifestyle features an industry first, fully retractable passage door for ease of entry and exit without having to retract the entire system. The Lifestyle garage screen is fully spring loaded, making opening and closing quick and easy.</p><p>Now you can go from garage to a cool, bright, pest-free space in seconds. When you're done enjoying the great outdoors, simply retract your Lifestyle garage screen system and close your garage door as usual. It's just that easy!</p>"
             },
             {
                 "title":"Technical Specs",
@@ -4043,7 +4043,7 @@
             },
             {
                 "title":"Options",
-                "description":"<li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>3 Screen Materials</li>"
+                "description":"<li>Optional Passage Door</li><li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>3 Screen Materials: Charcoal (Fiberglass), White (PVC Coated Polyester), or Black (PVC Coated Polyester)</li>"
             },
             {
                 "title":"Related Products",
