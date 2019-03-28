@@ -86,10 +86,10 @@ export class AppComponent {
           }
           if (metaInfo.title) {
             title = metaInfo.title
-            this.titleService.setTitle(title)
           }
         }
 
+        this.titleService.setTitle(title)
         this.meta.updateTag(tag)
       })
     })
