@@ -127,12 +127,6 @@
         "thumbImages":[
             {
                 "alt":"Titan Security Classic French Door",
-                "small":"/assets/images/security/titan/doors/classic-french_4.jpg",
-                "medium":"/assets/images/security/titan/doors/classic-french_4.jpg",
-                "big":"/assets/images/security/titan/doors/classic-french_4.jpg"
-            },
-            {
-                "alt":"Titan Security Classic French Door",
                 "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
                 "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
                 "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
@@ -142,6 +136,12 @@
                 "small":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "medium":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "big":"/assets/images/security/titan/doors/classic-french_3.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_4.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_4.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_4.jpg"
             },
             {
                 "alt":"Titan Security Classic French Door",
