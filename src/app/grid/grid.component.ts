@@ -1,8 +1,16 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
-import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImageSize } from 'ngx-gallery';
+import { Component,
+        OnInit,
+        OnDestroy,
+        ViewChild }           from '@angular/core';
+import { ActivatedRoute }     from '@angular/router';
+import { NgxGalleryAnimation,
+        NgxGalleryImage,
+        NgxGalleryImageSize,
+        NgxGalleryOptions }   from 'ngx-gallery';
+
+import { ServiceItem }        from '../services/service';
+import { ServicesService }    from '../services/service.service';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-grid',
@@ -10,6 +18,7 @@ import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation, NgxGalleryImag
   styleUrls: ['./grid.component.sass'],
   providers: [ServicesService]
 })
+
 export class GridComponent implements OnInit {
   private getReq:any;
   private listReq:any
@@ -20,9 +29,13 @@ export class GridComponent implements OnInit {
   serviceList:[ServiceItem]
 
   gallery_images: NgxGalleryImage[];
-  gallery_options: NgxGalleryOptions[];
 
+  @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent
   constructor(private route: ActivatedRoute, private _service:ServicesService) { }
+
+  toggleQuoteForm() {
+    this.quoteForm.show()
+  }
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
@@ -40,24 +53,6 @@ export class GridComponent implements OnInit {
     this.listReq = this._service.list().subscribe((data) => {
       this.serviceList = data as [ServiceItem]
     })
-
-    this.gallery_options = [{
-      image: false,
-      height: '200px',
-      width: '800px',
-      thumbnailsColumns: 5,
-      imageAutoPlay: true,
-      thumbnailsSwipe: true,
-      imageAutoPlayPauseOnHover: true,
-      previewAutoPlay: true,
-      previewAutoPlayPauseOnHover: true,
-      previewCloseOnClick: true,
-      previewCloseOnEsc: true
-    }, {
-      breakpoint: 990,
-      width: "100%",
-      thumbnailsColumns: 3,
-    }]
   }
 
   ngOnDestroy() {

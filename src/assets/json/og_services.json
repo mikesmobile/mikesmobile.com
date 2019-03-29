@@ -5,9 +5,35 @@
         "category":"Security Doors and Windows",
         "subcategory":"Door",
         "type":"grid",
-        "description":"Custom Titan Security Screen Doors can take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more)",
+        "description":"Custom Titan Security Screen Doors can take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
         "tileImage":"/assets/images/security/titan/doors/elegante_2_wide.jpg",
-        "tileText":"Custom Titan Security Screen Doors can take your home to the next level of style and security."
+        "tileText":"Custom Titan Security Screen Doors can take your home to the next level of style and security.",
+        "recentInstallImages":[
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
+            },
+            {
+                "alt":"Titan Security Sunfire Door",
+                "small":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_4.jpg"
+            },
+            {
+                "alt":"Titan Security Playa Door",
+                "small":"/assets/images/security/titan/doors/playa_2.jpg",
+                "medium":"/assets/images/security/titan/doors/playa_2.jpg",
+                "big":"/assets/images/security/titan/doors/playa_2.jpg"
+            },
+            {
+                "alt":"Titan Security Nogales Door",
+                "small":"/assets/images/security/titan/doors/nogales_2.jpg",
+                "medium":"/assets/images/security/titan/doors/nogales_2.jpg",
+                "big":"/assets/images/security/titan/doors/nogales_2.jpg"
+            }
+        ]
     },
     {
         "title":"Biltmore",
