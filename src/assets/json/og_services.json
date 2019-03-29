@@ -466,66 +466,6 @@
         "colorSet":["titanSecurityColors", "titanAluminumColors"]
     },
     {
-        "title":"Full View",
-        "slug":"titan-full-view",
-        "category":"Titan Security Doors",
-        "type":"products",
-        "bullets":[
-            "Simple, classic design complements the architecture of almost any home, and precision manufacturing enhances appearance, security and durability",
-            "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
-            "Welded hinges and mitered corners add strength, enhance appearance and increase security"
-        ],
-        "tileImage":"/assets/images/security/titan/doors/full-view_thumb.jpg",
-        "thumbImages":[
-            {
-                "alt":"Titan Security Full View Door",
-                "small":"/assets/images/security/titan/doors/full-view_3.jpg",
-                "medium":"/assets/images/security/titan/doors/full-view_3.jpg",
-                "big":"/assets/images/security/titan/doors/full-view_3.jpg"
-            },
-            {
-                "alt":"Titan Security Full View Door",
-                "small":"/assets/images/security/titan/doors/full-view_2.jpg",
-                "medium":"/assets/images/security/titan/doors/full-view_2.jpg",
-                "big":"/assets/images/security/titan/doors/full-view_2.jpg"
-            },
-            {
-                "alt":"Titan Security Full View Door",
-                "small":"/assets/images/security/titan/doors/full-view_1.jpg",
-                "medium":"/assets/images/security/titan/doors/full-view_1.jpg",
-                "big":"/assets/images/security/titan/doors/full-view_1.jpg"
-            }
-        ],
-        "details":[
-            {
-                "title":"Product Overview",
-                "description":"Titan Premium Security Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
-            },
-            {
-                "title":"Technical Specs",
-                "description":"<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
-            },
-            {
-                "title":"Options",
-                "description":"<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
-            },
-            {
-                "title":"Related Products",
-                "links":{
-                    "Tru View": "/products/tru-view-security-doors",
-                    "Viewguard Security Door": "/products/viewguard-security-doors",
-                    "Sliding Security Doors": "/products/sliding-security-doors"
-                }
-            },
-            {
-                "title":"Warranty",
-                "description":"All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
-            }
-        ],
-        "tileText":"Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-        "colorSet":["titanSecurityColors", "titanAluminumColors"]
-    },
-    {
         "title":"Garland",
         "slug":"titan-garland",
         "category":"Titan Security Doors",
