@@ -139,7 +139,13 @@ export class ColorSwatchComponent implements OnInit {
       "Beige Hammer":"/assets/images/security/titan/colors/aluminum_beige-hammer.jpg",
       "Desert Sand":"/assets/images/security/titan/colors/aluminum_desert-sand.jpg",
       "Royal Brown":"/assets/images/security/titan/colors/aluminum_royal-brown.jpg",
-      "Black":"/assets/images/security/titan/colors/aluminum_black.jpg",
+      "Black":"/assets/images/security/titan/colors/aluminum_black.jpg"
+    }
+  }
+
+  meshtecColor = {
+    "name":"Meshtec Screen",
+    "values":{
       "Meshtec":"/assets/images/security/titan/colors/meshtec-security-screen.jpg"
     }
   }
@@ -201,6 +207,9 @@ export class ColorSwatchComponent implements OnInit {
         break
       case "lifestyleScreenColors":
         this.colors = this.lifestyleScreenColors
+        break
+      case "meshtecColor":
+        this.colors = this.meshtecColor
         break
       default:
         this.colors = null;
