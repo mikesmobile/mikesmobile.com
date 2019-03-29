@@ -1895,15 +1895,15 @@
         "thumbImages":[
             {
                 "alt":"Titan Security Sunfire Door",
-                "small":"/assets/images/security/titan/doors/sunfire_2.jpg",
-                "medium":"/assets/images/security/titan/doors/sunfire_2.jpg",
-                "big":"/assets/images/security/titan/doors/sunfire_2.jpg"
+                "small":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_4.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_4.jpg"
             },
             {
                 "alt":"Titan Security Sunfire Door",
-                "small":"/assets/images/security/titan/doors/sunfire_1.jpg",
-                "medium":"/assets/images/security/titan/doors/sunfire_1.jpg",
-                "big":"/assets/images/security/titan/doors/sunfire_1.jpg"
+                "small":"/assets/images/security/titan/doors/sunfire_2.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_2.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_2.jpg"
             },
             {
                 "alt":"Titan Security Sunfire Door",
@@ -1913,9 +1913,9 @@
             },
             {
                 "alt":"Titan Security Sunfire Door",
-                "small":"/assets/images/security/titan/doors/sunfire_4.jpg",
-                "medium":"/assets/images/security/titan/doors/sunfire_4.jpg",
-                "big":"/assets/images/security/titan/doors/sunfire_4.jpg"
+                "small":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "medium":"/assets/images/security/titan/doors/sunfire_1.jpg",
+                "big":"/assets/images/security/titan/doors/sunfire_1.jpg"
             }
         ],
         "details":[
