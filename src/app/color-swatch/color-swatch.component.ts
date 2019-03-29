@@ -128,7 +128,7 @@ export class ColorSwatchComponent implements OnInit {
       "Black":"/assets/images/security/titan/colors/black.jpg",
       "Blue Hammertone":"/assets/images/security/titan/colors/blue-hammertone.jpg",
       "Forest Green":"/assets/images/security/titan/colors/forest-green.jpg",
-      "Red Hammertone":"/assets/images/security/titan/colors/red-hammertone.jpg",
+      "Red Hammertone":"/assets/images/security/titan/colors/red-hammertone.jpg"
     }
   }
 
@@ -140,6 +140,7 @@ export class ColorSwatchComponent implements OnInit {
       "Desert Sand":"/assets/images/security/titan/colors/aluminum_desert-sand.jpg",
       "Royal Brown":"/assets/images/security/titan/colors/aluminum_royal-brown.jpg",
       "Black":"/assets/images/security/titan/colors/aluminum_black.jpg",
+      "Meshtec":"/assets/images/security/titan/colors/meshtec-security-screen.jpg"
     }
   }
 
@@ -204,10 +205,10 @@ export class ColorSwatchComponent implements OnInit {
       default:
         this.colors = null;
         break
-      }
+    }
   }
 
-  viewMoreColors(){
+  viewMoreColors() {
     document.getElementById('more-colors').style.display = "none"
     document.getElementById('less-colors').style.display = "block"
     for (let i = 6; i < 19; i++) {
