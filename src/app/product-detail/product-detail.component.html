@@ -7,7 +7,7 @@
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
       <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item" [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Doors</a>
-      <a *ngIf="product.category === 'Titan Security Doors'" class="breadcrumb-item" [routerLink]="['/grid/titan-security-doors']">Titan Security Doors</a>
+      <a *ngIf="product.category === 'Titan Security Screen Doors'" class="breadcrumb-item" [routerLink]="['/grid/titan-security-doors']">Titan Security Screen Doors</a>
       <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Doors and Window Screens</a>
       <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" [routerLink]="['/about/door']">Screen Doors</a>
       <a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" [routerLink]="['/about/window-screens']">Window Screens</a>
@@ -51,8 +51,8 @@
           </div>
         </ng-container>
 
-        <!-- Modal Image for Swinging Screen Doors and Titan Security Doors -->
-        <ng-container *ngIf="product.category === 'Swinging Screen Door' || (product.category === 'Titan Security Doors' && !gallery_images)">
+        <!-- Modal Image for Swinging Screen Doors and Titan Security Screen Doors -->
+        <ng-container *ngIf="product.category === 'Swinging Screen Door' || (product.category === 'Titan Security Screen Doors' && !gallery_images)">
           <img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()" />
           <p class="text-center p-2">(Click Image to Enlarge)</p>
           <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doorModal" aria-hidden="true">
