@@ -11,9 +11,9 @@
         "recentInstallImages":[
             {
                 "alt":"Titan Security Classic French Door",
-                "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
-                "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
-                "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
+                "small":"/assets/images/security/titan/doors/classic-french_3.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_3.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_3.jpg"
             },
             {
                 "alt":"Titan Security Sunfire Door",
@@ -28,10 +28,10 @@
                 "big":"/assets/images/security/titan/doors/playa_2.jpg"
             },
             {
-                "alt":"Titan Security Nogales Door",
-                "small":"/assets/images/security/titan/doors/nogales_2.jpg",
-                "medium":"/assets/images/security/titan/doors/nogales_2.jpg",
-                "big":"/assets/images/security/titan/doors/nogales_2.jpg"
+                "alt":"Titan Security Trellis Door",
+                "small":"/assets/images/security/titan/doors/trellis_2.jpg",
+                "medium":"/assets/images/security/titan/doors/trellis_2.jpg",
+                "big":"/assets/images/security/titan/doors/trellis_2.jpg"
             }
         ]
     },
@@ -151,21 +151,33 @@
         "thumbImages":[
             {
                 "alt":"Titan Security Classic French Door",
-                "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
-                "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
-                "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
-            },
-            {
-                "alt":"Titan Security Classic French Door",
                 "small":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "medium":"/assets/images/security/titan/doors/classic-french_3.jpg",
                 "big":"/assets/images/security/titan/doors/classic-french_3.jpg"
             },
             {
                 "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_2.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_2.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
                 "small":"/assets/images/security/titan/doors/classic-french_4.jpg",
                 "medium":"/assets/images/security/titan/doors/classic-french_4.jpg",
                 "big":"/assets/images/security/titan/doors/classic-french_4.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_5.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_5.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_5.jpg"
+            },
+            {
+                "alt":"Titan Security Classic French Door",
+                "small":"/assets/images/security/titan/doors/classic-french_6.jpg",
+                "medium":"/assets/images/security/titan/doors/classic-french_6.jpg",
+                "big":"/assets/images/security/titan/doors/classic-french_6.jpg"
             },
             {
                 "alt":"Titan Security Classic French Door",
@@ -445,15 +457,27 @@
         "thumbImages":[
             {
                 "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_3.jpg"
+            },
+            {
+                "alt":"Titan Security French Hummingbird Door",
                 "small":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
                 "medium":"/assets/images/security/titan/doors/french-hummingbird_2.jpg",
                 "big":"/assets/images/security/titan/doors/french-hummingbird_2.jpg"
             },
             {
                 "alt":"Titan Security French Hummingbird Door",
-                "small":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
-                "medium":"/assets/images/security/titan/doors/french-hummingbird_3.jpg",
-                "big":"/assets/images/security/titan/doors/french-hummingbird_3.jpg"
+                "small":"/assets/images/security/titan/doors/french-hummingbird_4.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_4.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_4.jpg"
+            },
+            {
+                "alt":"Titan Security French Hummingbird Door",
+                "small":"/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+                "medium":"/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+                "big":"/assets/images/security/titan/doors/french-hummingbird_5.jpg"
             },
             {
                 "alt":"Titan Security French Hummingbird Door",
@@ -501,8 +525,14 @@
             "Aluminum alloy construction is up to 6 times stronger than steel and cannot rust",
             "Welded hinges and mitered corners add strength, enhance appearance and increase security"
         ],
-        "tileImage":"/assets/images/security/titan/doors/garland_1.jpg",
+        "tileImage":"/assets/images/security/titan/doors/garland_thumb.jpg",
         "thumbImages":[
+            {
+                "alt":"Titan Security Garland Door",
+                "small":"/assets/images/security/titan/doors/garland_2.jpg",
+                "medium":"/assets/images/security/titan/doors/garland_2.jpg",
+                "big":"/assets/images/security/titan/doors/garland_2.jpg"
+            },
             {
                 "alt":"Titan Security Garland Door",
                 "small":"/assets/images/security/titan/doors/garland_1.jpg",
@@ -1981,6 +2011,12 @@
             },
             {
                 "alt":"Titan Security Trellis Door",
+                "small":"/assets/images/security/titan/doors/trellis_3.jpg",
+                "medium":"/assets/images/security/titan/doors/trellis_3.jpg",
+                "big":"/assets/images/security/titan/doors/trellis_3.jpg"
+            },
+            {
+                "alt":"Titan Security Trellis Door",
                 "small":"/assets/images/security/titan/doors/trellis_1.jpg",
                 "medium":"/assets/images/security/titan/doors/trellis_1.jpg",
                 "big":"/assets/images/security/titan/doors/trellis_1.jpg"
@@ -2032,12 +2068,6 @@
                 "small":"/assets/images/security/titan/doors/winchester_2.jpg",
                 "medium":"/assets/images/security/titan/doors/winchester_2.jpg",
                 "big":"/assets/images/security/titan/doors/winchester_2.jpg"
-            },
-            {
-                "alt":"Titan Security Winchester Door",
-                "small":"/assets/images/security/titan/doors/winchester_3.jpg",
-                "medium":"/assets/images/security/titan/doors/winchester_3.jpg",
-                "big":"/assets/images/security/titan/doors/winchester_3.jpg"
             },
             {
                 "alt":"Titan Security Winchester Door",
