@@ -4,8 +4,7 @@ import {  Inject, NgModule,
 import { isPlatformBrowser }                from '@angular/common';
 import { HttpClientModule }                 from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {  BrowserModule, HammerGestureConfig,
-          Title, HAMMER_GESTURE_CONFIG }    from '@angular/platform-browser';
+import { BrowserModule, Title }             from '@angular/platform-browser';
 import { BrowserAnimationsModule }          from '@angular/platform-browser/animations'
 import { AgmCoreModule }                    from '@agm/core';
 import { StorageServiceModule}              from 'angular-webstorage-service';
@@ -54,12 +53,10 @@ import { RegionListComponent }        from './region-list/region-list.component'
 import { ContractComponent }          from './contract/contract.component';
 import { FreeQuoteComponent }         from './free-quote/free-quote.component';
 
-declare var Hammer: any;
-
 let imports = [
   MDBBootstrapModulesPro.forRoot(),
   AppRoutingModule,
-  BrowserModule.withServerTransition({ appId: 'my-app' }),
+  BrowserModule.withServerTransition({ appId: 'mikesmobile' }),
   HttpClientModule,
   FormsModule,
   ReactiveFormsModule,
@@ -71,26 +68,6 @@ let imports = [
 
 if(isPlatformBrowser(PLATFORM_ID)){
   imports.push(StorageServiceModule)
-}
-
-export class PanYHammerConfig extends HammerGestureConfig {
-  overrides = <any> {
-    'pan': { direction: Hammer.DIRECTION_VERTICAL },
-    'swipe': { direction: Hammer.DIRECTION_ALL },
-  };
-
-   buildHammer(element: HTMLElement) {
-    const mc = new Hammer(element, {
-      touchAction: 'auto',
-          inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput,
-          recognizers: [
-            [Hammer.Swipe, {
-              direction: Hammer.DIRECTION_HORIZONTAL
-            }]
-          ]
-    });
-    return mc;
-  }
 }
 
 @NgModule({
@@ -138,11 +115,7 @@ export class PanYHammerConfig extends HammerGestureConfig {
   ],
   imports: imports,
   providers: [
-      Title,
-      {
-        provide: HAMMER_GESTURE_CONFIG,
-        useClass: PanYHammerConfig
-      }
+      Title
   ],
   bootstrap: [ AppComponent ],
   schemas: [ NO_ERRORS_SCHEMA ],

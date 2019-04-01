@@ -34,19 +34,13 @@ global['Event']['prototype'] = win.Event.prototype;
 global['document'] = win.document;
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
-const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');
-
-const { provideModuleMap } = require('@nguniversal/module-map-ngfactory-loader');
+const { AppServerModuleNgFactory } = require('./dist/server/main');
 
 app.engine('html', (_, options, callback) => {
   renderModuleFactory(AppServerModuleNgFactory, {
     // Our index.html
     document: template,
     url: options.req.url,
-    // DI so that we can get lazy-loading to work differently (since we need it to just instantly render it)
-    extraProviders: [
-      provideModuleMap(LAZY_MODULE_MAP)
-    ]
   }).then(html => {
     callback(null, html);
   });
