@@ -9,7 +9,6 @@ import {  BrowserModule, HammerGestureConfig,
 import { BrowserAnimationsModule }          from '@angular/platform-browser/animations'
 import { AgmCoreModule }                    from '@agm/core';
 import { StorageServiceModule}              from 'angular-webstorage-service';
-import { LazyLoadImageModule }              from 'ng-lazyload-image';
 import { MDBBootstrapModulesPro }           from 'ng-uikit-pro-standard';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -64,7 +63,6 @@ let imports = [
   HttpClientModule,
   FormsModule,
   ReactiveFormsModule,
-  LazyLoadImageModule,
   BrowserAnimationsModule,
   AgmCoreModule.forRoot({
     apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
