@@ -58,40 +58,40 @@ export class AppComponent {
     });
 
     this.subscription = this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe((event) => {
-      // Scroll to top of page on router events
       if (isPlatformBrowser(this.platformId)) {
+        // Scroll to top of page on router events
         window.scrollTo(0, 0)
-      }
 
-      // Set <link rel="canonical"> tag
-      this.seoService.updateCanonicalURL()
+        // Set <link rel="canonical"> tag
+        this.seoService.updateCanonicalURL()
 
-      // Set <meta name="description"> tag
-      this.metaService.list().subscribe((data) => {
-        this.metaList = data as [Metas]
+        // Set <meta name="description"> tag
+        this.metaService.list().subscribe((data) => {
+          this.metaList = data as [Metas]
 
-        let title = "Mike's Mobile Screen and Chimney Service"
-        let tag = {
-          name: "description",
-          content: "Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
-        }
+          let title = "Mike's Mobile Screen and Chimney Service"
+          let tag = {
+            name: "description",
+            content: "Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
+          }
 
-        const metaInfo = this.metaList.find((_meta) => {
-          return _meta.page === this.router.url
+          const metaInfo = this.metaList.find((_meta) => {
+            return _meta.page === this.router.url
+          })
+
+          if (metaInfo) {
+            if (metaInfo.content) {
+              tag.content = metaInfo.content
+            }
+            if (metaInfo.title) {
+              title = metaInfo.title
+            }
+          }
+
+          this.titleService.setTitle(title)
+          this.meta.updateTag(tag)
         })
-
-        if (metaInfo) {
-          if (metaInfo.content) {
-            tag.content = metaInfo.content
-          }
-          if (metaInfo.title) {
-            title = metaInfo.title
-          }
-        }
-
-        this.titleService.setTitle(title)
-        this.meta.updateTag(tag)
-      })
+      }
     })
   }
 
