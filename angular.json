@@ -10,7 +10,7 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "sass"
+          "style": "sass"
         }
       },
       "architect": {
@@ -27,22 +27,22 @@
               "src/assets",
               "src/_redirects"
             ],
-
             "styles": [
               "node_modules/ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/mdb.scss",
               "src/styles.sass"
             ],
-
-            "scripts": [
-            ]
+            "scripts": [],
+            "es5BrowserSupport": true
           },
           "configurations": {
             "production": {
-              "fileReplacements": [{
-                "replace": "src/environments/environment.ts",
-                "with": "src/environments/environment.prod.ts"
-              }],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -51,7 +51,14 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "5mb",
+                  "maximumError": "15mb"
+                }
+              ]
             }
           }
         },
@@ -84,6 +91,7 @@
             ],
             "scripts": [],
             "assets": [
+              "src/favicon.ico",
               "src/assets"
             ]
           }
