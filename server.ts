@@ -28,6 +28,8 @@ app.engine('html', ngExpressEngine({
   ]
 }));
 
+app.use(require('prerender-node'));
+
 app.set('view engine', 'html');
 app.set('views', DIST_FOLDER);
 
