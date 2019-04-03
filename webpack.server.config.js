@@ -2,24 +2,18 @@
 
 const path = require('path');
 const webpack = require('webpack');
-const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   mode: 'none',
   entry: {
     // This is our Express server for Dynamic universal
-    server: './server.ts',
-    // This is an example of Static prerendering (generative)
+    server: './server.ts'
   },
   target: 'node',
   resolve: { extensions: ['.ts', '.js'] },
-  // Make sure we include all node_modules etc
-  externals: [/node_modules/, nodeExternals({
-    whitelist: [
-        /^@agm\/core/,
-        /^hammerjs/
-      ]
-  })],
+  optimization: {
+    minimize: false
+  },
   output: {
     // Puts the output at the root of the dist folder
     path: path.join(__dirname, 'dist'),
@@ -31,7 +25,7 @@ module.exports = {
       {
         // Mark files inside `@angular/core` as using SystemJS style dynamic imports.
         // Removing this will cause deprecation warnings to appear.
-        test: /[\/\\]@angular[\/\\]core[\/\\].+\.js$/,
+        test: /(\\|\/)@angular(\\|\/)core(\\|\/).+\.js$/,
         parser: { system: true },
       },
     ]
@@ -50,4 +44,4 @@ module.exports = {
       {}
     )
   ]
-}
+};
