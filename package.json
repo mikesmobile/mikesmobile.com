@@ -34,7 +34,6 @@
     "express": "^4.15.2",
     "ng-uikit-pro-standard": "git+https://oauth2:TX6AkotB4d5zXzhTg-dh@git.mdbootstrap.com/mdb/angular/ng-uikit-pro-standard.git",
     "ngx-gallery": "5.9.1",
-    "prerender-node": "^3.2.2",
     "rxjs": "6.4.0",
     "web-animations-js": "2.3.1",
     "zone.js": "0.8.29"

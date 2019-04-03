@@ -28,8 +28,6 @@ app.engine('html', ngExpressEngine({
   ]
 }));
 
-app.use(require('prerender-node').set('prerenderServiceUrl', 'http://prerender.mikesmobile.com'));
-
 app.set('view engine', 'html');
 app.set('views', DIST_FOLDER);
 
