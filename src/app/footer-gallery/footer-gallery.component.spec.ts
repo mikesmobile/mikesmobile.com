@@ -8,9 +8,8 @@ describe('FooterGalleryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FooterGalleryComponent ]
-    })
-    .compileComponents();
+      declarations: [FooterGalleryComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

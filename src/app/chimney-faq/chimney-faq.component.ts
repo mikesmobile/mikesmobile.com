@@ -7,19 +7,23 @@ import { FaqSegment } from '../faq/faq';
   selector: 'app-chimney-faq',
   templateUrl: './chimney-faq.component.html',
   styleUrls: ['./chimney-faq.component.sass'],
-  providers:[FaqService]
+  providers: [FaqService]
 })
 export class ChimneyFaqComponent implements OnInit {
-  public faqs=[];
-  req:any;
-  private fragment:string;
-  constructor(private _service:FaqService, private route:ActivatedRoute) { }
+  public faqs = [];
+  req: any;
+  private fragment: string;
+  constructor(private _service: FaqService, private route: ActivatedRoute) {}
 
   ngOnInit() {
-    this.req = this._service.listInput('/assets/json/chimney-faq.json').subscribe(data=>{
-      this.faqs = data as [FaqSegment];
-      //console.log(this.faqs)
-    })
-    this.route.fragment.subscribe(fragment =>{this.fragment = fragment});
+    this.req = this._service
+      .listInput('/assets/json/chimney-faq.json')
+      .subscribe((data) => {
+        this.faqs = data as [FaqSegment];
+        //console.log(this.faqs)
+      });
+    this.route.fragment.subscribe((fragment) => {
+      this.fragment = fragment;
+    });
   }
 }

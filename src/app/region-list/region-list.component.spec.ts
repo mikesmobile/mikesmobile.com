@@ -8,9 +8,8 @@ describe('RegionListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RegionListComponent ]
-    })
-    .compileComponents();
+      declarations: [RegionListComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

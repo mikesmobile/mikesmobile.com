@@ -11,8 +11,8 @@ import { ViewChild, ElementRef } from '@angular/core';
 })
 export class PostListComponent implements OnInit, OnDestroy {
   @ViewChild('item') nameInputRef: ElementRef;
-  private req: any
-  blogPostList: [BlogPost]
+  private req: any;
+  blogPostList: [BlogPost];
   filterItems = [];
   category = [];
   location = [];
@@ -26,13 +26,13 @@ export class PostListComponent implements OnInit, OnDestroy {
   }
 
   clickedItem(post) {
-    this.clicked = post
-    var x = document.getElementsByClassName('subcat')
-    for(var i = 0; i < x.length; i++){
-      x[i].classList.remove('selected')
+    this.clicked = post;
+    var x = document.getElementsByClassName('subcat');
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove('selected');
     }
-    document.getElementById(post).classList.toggle('selected')
-    this.selected = [this.clicked]
+    document.getElementById(post).classList.toggle('selected');
+    this.selected = [this.clicked];
   }
 
   // showSub(arr:string){
@@ -40,33 +40,31 @@ export class PostListComponent implements OnInit, OnDestroy {
   //   console.log(x)
   // }
 
-  removeButton(){
-    this.clicked = 'all'
-    this.selected.splice(this.selected.indexOf(this.clicked),1)
+  removeButton() {
+    this.clicked = 'all';
+    this.selected.splice(this.selected.indexOf(this.clicked), 1);
   }
 
-
-  constructor(private _service: PostService) { }
+  constructor(private _service: PostService) {}
 
   ngOnInit() {
-    this.req = this._service.list().subscribe(data => {
+    this.req = this._service.list().subscribe((data) => {
       this.blogPostList = data as [BlogPost];
       // The Category Filter Dropdown
       for (var i = 0; i < this.blogPostList.length; i++) {
-        this.filterItems.push(this.blogPostList[i].filter)
-        this.category.push(this.filterItems[i].Category)
-        this.location.push(this.filterItems[i].Location)
-        this.date.push(this.filterItems[i].Postdate)
+        this.filterItems.push(this.blogPostList[i].filter);
+        this.category.push(this.filterItems[i].Category);
+        this.location.push(this.filterItems[i].Location);
+        this.date.push(this.filterItems[i].Postdate);
       }
       // Don't duplicate Categories
-      this.category = this.category.filter(this.onlyUnique)
-      this.location = this.location.filter(this.onlyUnique)
-      this.date = this.date.filter(this.onlyUnique)
-    })
+      this.category = this.category.filter(this.onlyUnique);
+      this.location = this.location.filter(this.onlyUnique);
+      this.date = this.date.filter(this.onlyUnique);
+    });
   }
 
   ngOnDestroy() {
     this.req.unsubscribe();
   }
-
 }

@@ -8,10 +8,7 @@ import { ServicesService } from '../services/service.service';
   providers: [ServicesService]
 })
 export class PrivacyComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

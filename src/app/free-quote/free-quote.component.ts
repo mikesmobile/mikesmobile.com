@@ -7,20 +7,18 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
   templateUrl: './free-quote.component.html',
   styleUrls: ['./free-quote.component.sass'],
   providers: [ServicesService]
-
 })
 export class FreeQuoteComponent implements OnInit {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   toggleQuoteForm() {
-    this.quoteForm.show()
+    this.quoteForm.show();
   }
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   ngAfterViewInit() {
-    this.toggleQuoteForm()
+    this.toggleQuoteForm();
   }
 }

@@ -7,27 +7,25 @@ import { Router } from '@angular/router';
   styleUrls: ['./search.component.sass']
 })
 export class SearchComponent implements OnInit {
-
-  searchQuery:string
+  searchQuery: string;
 
   @Input()
-  passedQuery:string
+  passedQuery: string;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {
-    if (this.passedQuery){
-      this.searchQuery = this.passedQuery
+    if (this.passedQuery) {
+      this.searchQuery = this.passedQuery;
     }
   }
 
-  submitSearch(event, formData){
+  submitSearch(event, formData) {
     //console.log(event)
     //console.log(formData.value)
-    let searchedQuery = formData.value['q']
-    if(searchedQuery){
-      this.router.navigate(['/search', {q: searchedQuery}])
+    let searchedQuery = formData.value['q'];
+    if (searchedQuery) {
+      this.router.navigate(['/search', { q: searchedQuery }]);
     }
   }
-
 }

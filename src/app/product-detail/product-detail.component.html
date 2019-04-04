@@ -1,4 +1,3 @@
-
 <app-action-buttons></app-action-buttons>
 
 <ng-container *ngIf="product">
@@ -6,17 +5,67 @@
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
-      <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item" [routerLink]="['/grid/swinging-screen-doors']">Swinging Screen Doors</a>
-      <a *ngIf="product.category === 'Titan Security Screen Doors'" class="breadcrumb-item" [routerLink]="['/grid/titan-security-doors']">Titan Security Screen Doors</a>
-      <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item" [routerLink]="['/about/door-and-window-screens']">Doors and Window Screens</a>
-      <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" [routerLink]="['/about/door']">Screen Doors</a>
-      <a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" [routerLink]="['/about/window-screens']">Window Screens</a>
-      <a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item" [routerLink]="['/about/chimney-services']">Chimney Services</a>
-      <a *ngIf="product.category === 'Security Doors and Windows'" class="breadcrumb-item" [routerLink]="['/about/security-doors-and-windows']">Security Doors and Windows</a>
-      <a *ngIf="product.category === 'Security Doors'" class="breadcrumb-item" [routerLink]="['/about/security-doors']">Security Doors</a>
-      <a *ngIf="product.category === 'Security Windows'" class="breadcrumb-item" [routerLink]="['/about/security-windows']">Security Windows</a>
-      <a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" [routerLink]="['/about/awnings']">Awnings</a>
-      <span class="breadcrumb-item active">{{product.title}}</span>
+      <a
+        *ngIf="product.category === 'Swinging Screen Door'"
+        class="breadcrumb-item"
+        [routerLink]="['/grid/swinging-screen-doors']"
+        >Swinging Screen Doors</a
+      >
+      <a
+        *ngIf="product.category === 'Titan Security Screen Doors'"
+        class="breadcrumb-item"
+        [routerLink]="['/grid/titan-security-doors']"
+        >Titan Security Screen Doors</a
+      >
+      <a
+        *ngIf="product.category === 'Door and Window Screens'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/door-and-window-screens']"
+        >Doors and Window Screens</a
+      >
+      <a
+        *ngIf="product.category === 'Screen Doors'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/door']"
+        >Screen Doors</a
+      >
+      <a
+        *ngIf="product.category === 'Window Screens'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/window-screens']"
+        >Window Screens</a
+      >
+      <a
+        *ngIf="product.category === 'Chimney Services'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/chimney-services']"
+        >Chimney Services</a
+      >
+      <a
+        *ngIf="product.category === 'Security Doors and Windows'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/security-doors-and-windows']"
+        >Security Doors and Windows</a
+      >
+      <a
+        *ngIf="product.category === 'Security Doors'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/security-doors']"
+        >Security Doors</a
+      >
+      <a
+        *ngIf="product.category === 'Security Windows'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/security-windows']"
+        >Security Windows</a
+      >
+      <a
+        *ngIf="product.category === 'Awnings'"
+        class="breadcrumb-item"
+        [routerLink]="['/about/awnings']"
+        >Awnings</a
+      >
+      <span class="breadcrumb-item active">{{ product.title }}</span>
     </nav>
     <!-- /Breadcrumb Navigation -->
     <div class="row">
@@ -27,12 +76,18 @@
           <div class="col-12">
             <div class="lower-zindex">
               <!-- Nav tabs -->
-              <mdb-tabset #staticTabs [buttonClass]="'md-tabs light-blue tabs-3'" [contentClass]="''">
+              <mdb-tabset
+                #staticTabs
+                [buttonClass]="'md-tabs light-blue tabs-3'"
+                [contentClass]="''"
+              >
                 <!--Panel 1-->
                 <mdb-tab heading="Single Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
-                      <img src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+                      <img
+                        src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
+                        class="img-fluid centered-sq"
                       />
                     </div>
                   </div>
@@ -41,7 +96,9 @@
                 <mdb-tab heading="Double Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
-                      <img src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg" class="img-fluid centered-sq"
+                      <img
+                        src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
+                        class="img-fluid centered-sq"
                       />
                     </div>
                   </div>
@@ -52,20 +109,49 @@
         </ng-container>
 
         <!-- Modal Image for Swinging Screen Doors and Titan Security Screen Doors -->
-        <ng-container *ngIf="product.category === 'Swinging Screen Door' || (product.category === 'Titan Security Screen Doors' && !gallery_images)">
-          <img class="img-fluid z-depth-2 main-image" src="{{product.tileImage}}" (click)="doorModal.show()" />
+        <ng-container
+          *ngIf="
+            product.category === 'Swinging Screen Door' ||
+            (product.category === 'Titan Security Screen Doors' &&
+              !gallery_images)
+          "
+        >
+          <img
+            class="img-fluid z-depth-2 main-image"
+            src="{{ product.tileImage }}"
+            (click)="doorModal.show()"
+          />
           <p class="text-center p-2">(Click Image to Enlarge)</p>
-          <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="doorModal" aria-hidden="true">
+          <div
+            mdbModal
+            #doorModal="mdb-modal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="doorModal"
+            aria-hidden="true"
+          >
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close pull-right" aria-label="Close" (click)="doorModal.hide()">
+                  <button
+                    type="button"
+                    class="close pull-right"
+                    aria-label="Close"
+                    (click)="doorModal.hide()"
+                  >
                     <span aria-hidden="true">×</span>
                   </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">{{product.title}}</h4>
+                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
+                    {{ product.title }}
+                  </h4>
                 </div>
                 <div class="modal-body">
-                  <img class="img-fluid z-depth-2 main-image-modal" src="{{product.tileImage}}" mdbRippleRadius/>
+                  <img
+                    class="img-fluid z-depth-2 main-image-modal"
+                    src="{{ product.tileImage }}"
+                    mdbRippleRadius
+                  />
                 </div>
               </div>
             </div>
@@ -73,7 +159,9 @@
         </ng-container>
 
         <!-- Normal Gallery for most Product Pages -->
-        <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
+        <ng-container
+          *ngIf="product.slug !== 'sliding-security-doors' && gallery_images"
+        >
           <!--Carousel Wrapper-->
           <app-main-gallery [Images]="gallery_images"></app-main-gallery>
           <!--/.Carousel Wrapper-->
@@ -82,8 +170,8 @@
       <!-- /GALLERY SECTION -->
 
       <div class="col-12 col-md-5" id="productInfo">
-        <h5 class="text-left">{{product.category}}</h5>
-        <h3 class="text-left">{{product.title}}</h3>
+        <h5 class="text-left">{{ product.category }}</h5>
+        <h3 class="text-left">{{ product.title }}</h3>
         <!--Accordion wrapper-->
         <div class="container my-4 shadowbox" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
@@ -91,7 +179,11 @@
               <mdb-item-head>{{ item.title }}</mdb-item-head>
               <mdb-item-body>
                 <p [innerHTML]="item.description"></p>
-                <img *ngIf="item.image" src="/assets/images/screens/pet-door/measuring-guide.png" class="img-fluid centered-sq">
+                <img
+                  *ngIf="item.image"
+                  src="/assets/images/screens/pet-door/measuring-guide.png"
+                  class="img-fluid centered-sq"
+                />
               </mdb-item-body>
             </mdb-item>
           </mdb-squeezebox>
@@ -99,19 +191,29 @@
         <!--/.Accordion wrapper-->
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
-            <li *ngFor="let bullet of product.bullets" id="l2">{{bullet}}</li>
+            <li *ngFor="let bullet of product.bullets" id="l2">{{ bullet }}</li>
           </ul>
         </div>
-        <div class="flex-row d-none d-md-block my-4" (click)="toggleQuoteForm()">
-          <h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"> &nbsp; Get a Free Quote Now!</h4>
+        <div
+          class="flex-row d-none d-md-block my-4"
+          (click)="toggleQuoteForm()"
+        >
+          <h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr">
+            &nbsp; Get a Free Quote Now!
+          </h4>
         </div>
         <div class="flex-row  d-md-none">
-          <a class="white-text" href="tel:+1-877-520-3595"><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr"><i
-               class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!</h4></a>
+          <a class="white-text" href="tel:+1-877-520-3595"
+            ><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr">
+              <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
+            </h4></a
+          >
         </div>
         <div class="row" *ngIf="product.colorSet">
           <div class="col-12">
-            <h4>Color Selection &nbsp; <span class="small">(click to zoom)</span></h4>
+            <h4>
+              Color Selection &nbsp; <span class="small">(click to zoom)</span>
+            </h4>
             <!-- See color-swatch.component.ts, this iterates over all colors in og_services.json and builds a color-swatch component for it -->
             <ng-container *ngFor="let i of product.colorSet">
               <app-color-swatch [swatchType]="i"></app-color-swatch>
@@ -122,7 +224,9 @@
     </div>
   </div>
   <app-tab-nav [details]="details"></app-tab-nav>
-  <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
+  <app-footer-gallery
+    [Images]="product.recentInstallImages"
+  ></app-footer-gallery>
 </ng-container>
 
 <app-quote-form></app-quote-form>

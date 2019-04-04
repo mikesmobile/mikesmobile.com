@@ -8,9 +8,8 @@ describe('FreeQuoteComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FreeQuoteComponent ]
-    })
-    .compileComponents();
+      declarations: [FreeQuoteComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

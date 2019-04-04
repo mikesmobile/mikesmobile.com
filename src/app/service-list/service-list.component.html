@@ -1,20 +1,71 @@
-<ng-container *ngFor='let category of categories; index as i'>
+<ng-container *ngFor="let category of categories; index as i">
   <div class="container service-list mt-3" id="services">
     <div class="row">
       <!-- ServiceList Title -->
       <div class="col-12 pb-2">
-        <h1 *ngIf="category === 'Door and Window Screens'" class="text-center py-3" id="Door-and-Window-Screens"><a class="orange-text" [routerLink]="['/about/door-and-window-screens']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Screen Doors'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/door-screens']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Window Screens'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/window-screens']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Chimney Services'" class="text-center py-3" id="chimney-services"><a class="orange-text" [routerLink]="['/about/chimney-services']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Security Doors and Windows'" class="text-center py-3" id="Security-Doors-and-Windows"><a class="orange-text"
-           [routerLink]="['/about/security-doors-and-windows']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Security Doors'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-doors']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Security Windows'" class="text-center py-3"><a class="orange-text" [routerLink]="['/about/security-windows']">{{category}}</a></h1>
-        <h1 *ngIf="category === 'Awnings'" class="text-center py-3" id="awnings"><a class="orange-text" [routerLink]="['/about/awnings']">{{category}}</a></h1>
+        <h1
+          *ngIf="category === 'Door and Window Screens'"
+          class="text-center py-3"
+          id="Door-and-Window-Screens"
+        >
+          <a
+            class="orange-text"
+            [routerLink]="['/about/door-and-window-screens']"
+            >{{ category }}</a
+          >
+        </h1>
+        <h1 *ngIf="category === 'Screen Doors'" class="text-center py-3">
+          <a class="orange-text" [routerLink]="['/about/door-screens']">{{
+            category
+          }}</a>
+        </h1>
+        <h1 *ngIf="category === 'Window Screens'" class="text-center py-3">
+          <a class="orange-text" [routerLink]="['/about/window-screens']">{{
+            category
+          }}</a>
+        </h1>
+        <h1
+          *ngIf="category === 'Chimney Services'"
+          class="text-center py-3"
+          id="chimney-services"
+        >
+          <a class="orange-text" [routerLink]="['/about/chimney-services']">{{
+            category
+          }}</a>
+        </h1>
+        <h1
+          *ngIf="category === 'Security Doors and Windows'"
+          class="text-center py-3"
+          id="Security-Doors-and-Windows"
+        >
+          <a
+            class="orange-text"
+            [routerLink]="['/about/security-doors-and-windows']"
+            >{{ category }}</a
+          >
+        </h1>
+        <h1 *ngIf="category === 'Security Doors'" class="text-center py-3">
+          <a class="orange-text" [routerLink]="['/about/security-doors']">{{
+            category
+          }}</a>
+        </h1>
+        <h1 *ngIf="category === 'Security Windows'" class="text-center py-3">
+          <a class="orange-text" [routerLink]="['/about/security-windows']">{{
+            category
+          }}</a>
+        </h1>
+        <h1
+          *ngIf="category === 'Awnings'"
+          class="text-center py-3"
+          id="awnings"
+        >
+          <a class="orange-text" [routerLink]="['/about/awnings']">{{
+            category
+          }}</a>
+        </h1>
       </div>
 
-      <ng-container *ngFor='let service of serviceList'>
+      <ng-container *ngFor="let service of serviceList">
         <ng-container *ngIf="service.category === categories[i]">
           <div class="col-6 col-md-4 col-lg-3">
             <!-- Flip Card -->
@@ -23,15 +74,24 @@
                 <!-- front content -->
                 <div class="front">
                   <div class="view waves-light" mdbRippleRadius>
-                    <img src="{{service.tileImage}}" class="img-fluid" alt="{{service.title}}">
+                    <img
+                      src="{{ service.tileImage }}"
+                      class="img-fluid"
+                      alt="{{ service.title }}"
+                    />
                   </div>
-                  <h4 class="card-title">{{service.title}}</h4>
+                  <h4 class="card-title">{{ service.title }}</h4>
                 </div>
                 <!-- back content -->
-                <div class="back" routerLink="/{{service.type}}/{{service.slug}}">
-                  <h4 class="text-center card-back-title">{{service.title}}</h4>
+                <div
+                  class="back"
+                  routerLink="/{{ service.type }}/{{ service.slug }}"
+                >
+                  <h4 class="text-center card-back-title">
+                    {{ service.title }}
+                  </h4>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <p class="mb-0 text-center">{{service.tileText}}</p>
+                  <p class="mb-0 text-center">{{ service.tileText }}</p>
                 </div>
               </div>
             </div>

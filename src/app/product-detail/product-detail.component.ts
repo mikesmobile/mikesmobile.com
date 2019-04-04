@@ -1,17 +1,23 @@
-import { Component, OnInit,
-        OnDestroy, ViewChild,
-        ViewEncapsulation } from '@angular/core';
-import { DomSanitizer }     from '@angular/platform-browser';
-import { ActivatedRoute }   from '@angular/router';
-import { NgxGalleryOptions,
-        NgxGalleryImage,
-        NgxGalleryAnimation,
-        NgxGalleryImageSize } from 'ngx-gallery';
+import {
+  Component,
+  OnInit,
+  OnDestroy,
+  ViewChild,
+  ViewEncapsulation
+} from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
+import {
+  NgxGalleryOptions,
+  NgxGalleryImage,
+  NgxGalleryAnimation,
+  NgxGalleryImageSize
+} from 'ngx-gallery';
 
-import { ServiceItem }        from '../services/service';
-import { ServicesService }    from '../services/service.service';
+import { ServiceItem } from '../services/service';
+import { ServicesService } from '../services/service.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-import { TabNavComponent }    from '../tab-nav/tab-nav.component';
+import { TabNavComponent } from '../tab-nav/tab-nav.component';
 
 @Component({
   selector: 'app-product-detail',
@@ -20,53 +26,61 @@ import { TabNavComponent }    from '../tab-nav/tab-nav.component';
   providers: [ServicesService],
   encapsulation: ViewEncapsulation.None
 })
-
 export class ProductDetailComponent implements OnInit, OnDestroy {
-  gallery_options: NgxGalleryOptions[]
-  gallery_images: NgxGalleryImage[]
-  recent_install_images_options: NgxGalleryOptions[]
-  recent_install_images:NgxGalleryImage[]
-  details:any
+  gallery_options: NgxGalleryOptions[];
+  gallery_images: NgxGalleryImage[];
+  recent_install_images_options: NgxGalleryOptions[];
+  recent_install_images: NgxGalleryImage[];
+  details: any;
 
-  private req:any
-  private routeSub:any
+  private req: any;
+  private routeSub: any;
 
-  slug:string
-  product:ServiceItem
-  videoLink=null
+  slug: string;
+  product: ServiceItem;
+  videoLink = null;
 
-  @ViewChild(QuoteFormComponent) private quoteForm:QuoteFormComponent
-  @ViewChild('navwrap') private navwrap
+  @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
+  @ViewChild('navwrap') private navwrap;
 
   toggleQuoteForm() {
-    this.quoteForm.show()
+    this.quoteForm.show();
   }
 
-  constructor(private route: ActivatedRoute, private _service:ServicesService, private sanitizer:DomSanitizer) { }
+  constructor(
+    private route: ActivatedRoute,
+    private _service: ServicesService,
+    private sanitizer: DomSanitizer
+  ) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug']
+      this.slug = params['slug'];
       this.req = this._service.list().subscribe((data) => {
         data.filter((item) => {
           if (item.slug == this.slug) {
             this.product = item as ServiceItem;
-            this.videoLink = this.sanitizer.bypassSecurityTrustUrl(this.product.video)
+            this.videoLink = this.sanitizer.bypassSecurityTrustUrl(
+              this.product.video
+            );
             this.recent_install_images = this.product.recentInstallImages;
 
             if (this.details != undefined) {
-              this.details = undefined
+              this.details = undefined;
             }
 
-            this.details = this.product.details
+            this.details = this.product.details;
 
-            if (this.product.thumbImages && this.product.thumbImages.length > 1) {
+            if (
+              this.product.thumbImages &&
+              this.product.thumbImages.length > 1
+            ) {
               this.gallery_images = this.product.thumbImages;
             }
           }
-        })
-      })
-    })
+        });
+      });
+    });
 
     this.gallery_options = [
       {
@@ -127,17 +141,16 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
       },
       {
         breakpoint: 990,
-        width: "100%",
-        thumbnailsColumns: 3,
-
-      },
+        width: '100%',
+        thumbnailsColumns: 3
+      }
       // {
       //   breakpoint: 300,
       //   width: '100%',
       //   height: '200px',
       //   thumbnailsColumns: 2
       // }
-    ]
+    ];
   }
   ngOnDestroy() {
     this.routeSub.unsubscribe();

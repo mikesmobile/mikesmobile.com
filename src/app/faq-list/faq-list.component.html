@@ -1,15 +1,25 @@
-
 <app-action-buttons></app-action-buttons>
 <h1 class="py-5 font-weight-bold text-center title">FAQs</h1>
 <h5 class="text-center">Select To display the questions</h5>
 <div class="container">
-  <mdb-tabset #staticTabs class="menu" [buttonClass]="'md-tabs light-blue tabs-3'" content-class="'card'">
-    <mdb-tab *ngFor="let section of faqSections; let i = index" heading="{{section.category}}">
+  <mdb-tabset
+    #staticTabs
+    class="menu"
+    [buttonClass]="'md-tabs light-blue tabs-3'"
+    content-class="'card'"
+  >
+    <mdb-tab
+      *ngFor="let section of faqSections; let i = index"
+      heading="{{ section.category }}"
+    >
       <div class="row content">
-        <div *ngFor="let question of section.questions | keys" class="col-12 question and answer">
+        <div
+          *ngFor="let question of (section.questions | keys)"
+          class="col-12 question and answer"
+        >
           <div *ngIf="section"></div>
-          <h3>{{question.key}}</h3>
-          <p>{{question.value}}</p>
+          <h3>{{ question.key }}</h3>
+          <p>{{ question.value }}</p>
         </div>
       </div>
     </mdb-tab>

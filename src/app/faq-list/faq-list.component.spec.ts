@@ -8,9 +8,8 @@ describe('FaqListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FaqListComponent ]
-    })
-    .compileComponents();
+      declarations: [FaqListComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

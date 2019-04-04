@@ -8,9 +8,8 @@ describe('ChimneyFaqComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChimneyFaqComponent ]
-    })
-    .compileComponents();
+      declarations: [ChimneyFaqComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

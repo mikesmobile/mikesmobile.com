@@ -10,32 +10,33 @@ import { LandingService } from '../landings/landing.service';
   providers: [LandingService]
 })
 export class SeoAdwordsLpComponent implements OnInit, OnDestroy {
+  private routeSub: any;
+  private req: any;
 
-  private routeSub:any;
-  private req:any
+  slug: string;
+  landingPage: LandingItem;
 
-  slug:string
-  landingPage:LandingItem
-
-  constructor(private route:ActivatedRoute, private _service:LandingService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private _service: LandingService
+  ) {}
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe(params=>{
-      this.slug = params['slug']
+    this.routeSub = this.route.params.subscribe((params) => {
+      this.slug = params['slug'];
       //console.log(this.slug)
-      this.req = this._service.listAdwordsLPs().subscribe(data=>{
-        data.filter(item=>{
-          if(item.slug == this.slug){
-            this.landingPage = item as LandingItem
+      this.req = this._service.listAdwordsLPs().subscribe((data) => {
+        data.filter((item) => {
+          if (item.slug == this.slug) {
+            this.landingPage = item as LandingItem;
           }
-        })
-      })
-    })
+        });
+      });
+    });
   }
 
-  ngOnDestroy(){
+  ngOnDestroy() {
     this.routeSub.unsubscribe();
     this.req.unsubscribe();
   }
-
 }

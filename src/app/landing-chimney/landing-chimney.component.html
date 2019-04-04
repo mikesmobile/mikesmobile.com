@@ -1,20 +1,26 @@
-
 <app-action-buttons></app-action-buttons>
 <div class="container">
   <ng-container *ngIf="region">
     <div>
-      <h1 class="p-4 text-center">{{this.title}}</h1>
-      <hr>
-      <h2 class="p-4 text-center">{{this.regionNumbers[this.region.region]}}</h2>
-      <hr>
-      <h2 class="p-3 text-center subTitle">{{region.description}}</h2>
-      <hr>
+      <h1 class="p-4 text-center">{{ this.title }}</h1>
+      <hr />
+      <h2 class="p-4 text-center">
+        {{ this.regionNumbers[this.region.region] }}
+      </h2>
+      <hr />
+      <h2 class="p-3 text-center subTitle">{{ region.description }}</h2>
+      <hr />
     </div>
     <!-- /Screens ServiceList -->
-    <app-flipcard-list class="p-4" [images]="images" [CardTexts]="region.cards" [categories]="['Chimney Services']"></app-flipcard-list>
+    <app-flipcard-list
+      class="p-4"
+      [images]="images"
+      [CardTexts]="region.cards"
+      [categories]="['Chimney Services']"
+    ></app-flipcard-list>
     <div class="m-3 row">
       <div *ngFor="let city of cities" class="list-group col-3">
-        <h3 class="list-group-item">{{city}}</h3>
+        <h3 class="list-group-item">{{ city }}</h3>
       </div>
     </div>
   </ng-container>

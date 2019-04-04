@@ -1,16 +1,24 @@
-
 <app-action-buttons></app-action-buttons>
-<h1 class="pt-5 font-weight-bold text-center title">Fireplace Products Manuals</h1>
+<h1 class="pt-5 font-weight-bold text-center title">
+  Fireplace Products Manuals
+</h1>
 <h5 class="pb-5 text-center">Select To display the Manuals as a "PDF"</h5>
 <div class="container">
-  <mdb-tabset class="menu" [buttonClass]="'md-tabs light-blue tabs-3'" content-class="'card'">
-    <mdb-tab *ngFor="let section of manualsSections; let i = index" heading="{{section.category}}">
+  <mdb-tabset
+    class="menu"
+    [buttonClass]="'md-tabs light-blue tabs-3'"
+    content-class="'card'"
+  >
+    <mdb-tab
+      *ngFor="let section of manualsSections; let i = index"
+      heading="{{ section.category }}"
+    >
       <div *ngFor="let manuals of section.manuals" class="container">
         <h4 class="pt-4">{{ manuals.subcategory }}</h4>
-        <hr>
+        <hr />
         <ul class="pt-2">
-          <li *ngFor="let i of manuals.pdf | keys">
-            <a target="_blank" [routerLink]="[i.value]">{{i.key}}</a>
+          <li *ngFor="let i of (manuals.pdf | keys)">
+            <a target="_blank" [routerLink]="[i.value]">{{ i.key }}</a>
           </li>
         </ul>
       </div>

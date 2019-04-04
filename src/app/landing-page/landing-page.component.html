@@ -4,27 +4,78 @@
   <!-- door Screens-->
   <ng-container *ngIf="landing.slug === 'door-screens'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
+      <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">Mike’s Mobile offers a variety of window and door screens from sliding screen doors to security doors to Solar Screens which block out much of the sun’s heat. We even offer screen repair and replacement services. Contact us today so we can help you choose the perfect screen for your home.</p>
+      <p class="p-2">
+        Mike’s Mobile offers a variety of window and door screens from sliding
+        screen doors to security doors to Solar Screens which block out much of
+        the sun’s heat. We even offer screen repair and replacement services.
+        Contact us today so we can help you choose the perfect screen for your
+        home.
+      </p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid" />
+          <img
+            src="/assets/images/screens/window-screen-repair/car-logo-2.jpg"
+            class="img-fluid"
+          />
         </div>
         <div class="col-md-3">
           <h4 class="p-2 text-center">Screen Doors</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/retractable-screen-doors']">Retractable Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/sliding-screen-doors']">Sliding Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/swinging-screen-doors']">Swinging Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/pet-doors']">Pet doors</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/lifestyle-garage-screen']">Garage Screen Doors</button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/retractable-screen-doors']"
+            >
+              Retractable Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/sliding-screen-doors']"
+            >
+              Sliding Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/swinging-screen-doors']"
+            >
+              Swinging Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/pet-doors']"
+            >
+              Pet doors
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/lifestyle-garage-screen']"
+            >
+              Garage Screen Doors
+            </button>
           </div>
         </div>
       </div>
       <hr />
       <p class="m-2">
-        If you are in need of more security, please visit our <a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">Security Doors</a> page! Mike’s Mobile has you covered no matter what application your home needs.
+        If you are in need of more security, please visit our
+        <a
+          class="orange-text"
+          [routerLink]="['/about/security-doors-and-windows']"
+          >Security Doors</a
+        >
+        page! Mike’s Mobile has you covered no matter what application your home
+        needs.
       </p>
     </div>
   </ng-container>
@@ -33,24 +84,54 @@
   <!--Window-Screens-->
   <ng-container *ngIf="landing.slug === 'window-screens'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
+      <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">Mike’s Mobile offers a variety of window and door screens from sliding screen doors to security doors to Solar Screens which block out much of the sun’s heat. We even offer screen repair and replacement services. Contact us today so we can help you choose the perfect screen for your home.</p>
+      <p class="p-2">
+        Mike’s Mobile offers a variety of window and door screens from sliding
+        screen doors to security doors to Solar Screens which block out much of
+        the sun’s heat. We even offer screen repair and replacement services.
+        Contact us today so we can help you choose the perfect screen for your
+        home.
+      </p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid" />
+          <img
+            src="/assets/images/screens/window-screen-repair/car-logo-2.jpg"
+            class="img-fluid"
+          />
         </div>
         <div class="col-md-3">
           <h4 class="p-2 text-center">Window Screens</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/window-screen-repair']">Window Screen Repair</button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/solar-screens']"
+            >
+              Solar Screens
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/window-screen-repair']"
+            >
+              Window Screen Repair
+            </button>
           </div>
         </div>
       </div>
       <hr />
       <p class="m-2">
-        If you are in need of more security, please visit our <a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">Security Doors</a> page! Mike’s Mobile has you covered no matter what application your home needs.
+        If you are in need of more security, please visit our
+        <a
+          class="orange-text"
+          [routerLink]="['/about/security-doors-and-windows']"
+          >Security Doors</a
+        >
+        page! Mike’s Mobile has you covered no matter what application your home
+        needs.
       </p>
     </div>
   </ng-container>
@@ -59,32 +140,97 @@
   <!-- door-and-window-screens -->
   <ng-container *ngIf="landing.slug === 'door-and-window-screens'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
+      <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">Mike’s Mobile offers a variety of window and door screens from sliding screen doors to security doors to Solar Screens which block out much of the sun’s heat. We even offer screen repair and replacement services. Contact us today so we can help you choose the perfect screen for your home.</p>
+      <p class="p-2">
+        Mike’s Mobile offers a variety of window and door screens from sliding
+        screen doors to security doors to Solar Screens which block out much of
+        the sun’s heat. We even offer screen repair and replacement services.
+        Contact us today so we can help you choose the perfect screen for your
+        home.
+      </p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid" />
+          <img
+            src="/assets/images/screens/window-screen-repair/car-logo-2.jpg"
+            class="img-fluid"
+          />
         </div>
         <div class="col-md-3">
           <h4 class="p-2 text-center">Window Screens</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/solar-screens']">Solar Screens</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/window-screen-repair']">Window Screen Repair</button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/solar-screens']"
+            >
+              Solar Screens
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/window-screen-repair']"
+            >
+              Window Screen Repair
+            </button>
           </div>
           <h4 class="p-2 text-center">Screen Doors</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/retractable-screen-doors']">Retractable Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/sliding-screen-doors']">Sliding Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/swinging-screen-doors']">Swinging Screens</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/pet-doors']">Pet doors</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/lifestyle-garage-screen']">Garage Screen Doors</button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/retractable-screen-doors']"
+            >
+              Retractable Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/sliding-screen-doors']"
+            >
+              Sliding Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/swinging-screen-doors']"
+            >
+              Swinging Screens
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/pet-doors']"
+            >
+              Pet doors
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/lifestyle-garage-screen']"
+            >
+              Garage Screen Doors
+            </button>
           </div>
         </div>
       </div>
       <hr />
       <p class="m-2">
-      If you are in need of more security, please visit our <a class="orange-text" [routerLink]="['/about/security-doors-and-windows']">Security Doors</a> page! Mike’s Mobile has you covered no matter what application your home needs.
+        If you are in need of more security, please visit our
+        <a
+          class="orange-text"
+          [routerLink]="['/about/security-doors-and-windows']"
+          >Security Doors</a
+        >
+        page! Mike’s Mobile has you covered no matter what application your home
+        needs.
       </p>
     </div>
   </ng-container>
@@ -93,24 +239,78 @@
   <!-- Chimney Services -->
   <ng-container *ngIf="landing.slug === 'chimney-services'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
+      <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">Did you know that chimneys need to be cleaned and inspected regularly in order for them to burn safely? Sooty buildup can lead to chimney fires that spread into the home. Even if you do not use your fireplace often, general deterioration or even animal nests can make it unsafe to use. Let Mike’s Mobile Chimney Service help you keep your fireplace safe and your home cozy.</p>
+      <p class="p-2">
+        Did you know that chimneys need to be cleaned and inspected regularly in
+        order for them to burn safely? Sooty buildup can lead to chimney fires
+        that spread into the home. Even if you do not use your fireplace often,
+        general deterioration or even animal nests can make it unsafe to use.
+        Let Mike’s Mobile Chimney Service help you keep your fireplace safe and
+        your home cozy.
+      </p>
       <div class="row">
         <div class="col">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/PKxsbx7Z9Po"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div class="col-md-3">
           <h4 class="p-2 text-center">Chimney Services</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/chimney-inspections']">Chimney Inspections</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/chimney-cleaning']">Chimney Cleaning</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/chimney-repairs']">Chimney Repair</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/chimney-accessories']">Chimney Accessories</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/grid/masonry-services']">Masonry Services</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/services/dryer-vent-cleaning']">Dryer Vent Cleaning</button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/chimney-inspections']"
+            >
+              Chimney Inspections
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/chimney-cleaning']"
+            >
+              Chimney Cleaning
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/chimney-repairs']"
+            >
+              Chimney Repair
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/chimney-accessories']"
+            >
+              Chimney Accessories
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/masonry-services']"
+            >
+              Masonry Services
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/dryer-vent-cleaning']"
+            >
+              Dryer Vent Cleaning
+            </button>
           </div>
         </div>
       </div>
@@ -122,23 +322,52 @@
   <!--security-doors-->
   <ng-container *ngIf="landing.slug === 'security-doors'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
+      <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">Upgrade your style along with security with our high quality security doors. Whether you are looking for a traditional security door for safety or our high quality aluminum security doors to protect both your view and your home, Mike’s Mobile Screens has plenty of options for you.</p>
+      <p class="p-2">
+        Upgrade your style along with security with our high quality security
+        doors. Whether you are looking for a traditional security door for
+        safety or our high quality aluminum security doors to protect both your
+        view and your home, Mike’s Mobile Screens has plenty of options for you.
+      </p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/security/security-door-table/security-door-table.jpg" class="img-fluid" alt="Security Doors Table" (click)="securityAbtModal.show()"/>
-          <div mdbModal #securityAbtModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="securityAbtModal" aria-hidden="true">
+          <img
+            src="/assets/images/security/security-door-table/security-door-table.jpg"
+            class="img-fluid"
+            alt="Security Doors Table"
+            (click)="securityAbtModal.show()"
+          />
+          <div
+            mdbModal
+            #securityAbtModal="mdb-modal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="securityAbtModal"
+            aria-hidden="true"
+          >
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close pull-right" aria-label="Close" (click)="securityAbtModal.hide()">
+                  <button
+                    type="button"
+                    class="close pull-right"
+                    aria-label="Close"
+                    (click)="securityAbtModal.hide()"
+                  >
                     <span aria-hidden="true">×</span>
                   </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">{{landing.title}}</h4>
+                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
+                    {{ landing.title }}
+                  </h4>
                 </div>
                 <div class="modal-body">
-                    <img src="/assets/images/security/security-door-table/security-door-table.jpg" class="img-fluid" alt="Security Doors Table" />
+                  <img
+                    src="/assets/images/security/security-door-table/security-door-table.jpg"
+                    class="img-fluid"
+                    alt="Security Doors Table"
+                  />
                 </div>
               </div>
             </div>
@@ -147,13 +376,48 @@
         <div class="col-md-3">
           <h4 class="p-2 text-center">Security Doors</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/grid/titan-security-doors']">Titan Security Screen Door</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/viewguard-security-doors']">Viewguard</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/tru-view-security-doors']">Tru View</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/tru-frame-security-doors']">Tru Frame</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/sliding-security-doors']">Sliding Security Doors</button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/titan-security-doors']"
+            >
+              Titan Security Screen Door
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/viewguard-security-doors']"
+            >
+              Viewguard
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/tru-view-security-doors']"
+            >
+              Tru View
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/tru-frame-security-doors']"
+            >
+              Tru Frame
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/sliding-security-doors']"
+            >
+              Sliding Security Doors
+            </button>
           </div>
-          <br/><br/>
+          <br /><br />
         </div>
       </div>
     </div>
@@ -163,40 +427,88 @@
   <!--security-windows-->
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
-      <hr>
-      <p class="p-2">Upgrade your style along with security with our high quality security doors. Whether you are looking for a traditional security door for safety or our high quality aluminum security doors to protect both your view and your home, Mike’s Mobile Screens has plenty of options for you.</p>
+      <h1 class="p-2">{{ landing.title }}</h1>
+      <hr />
+      <p class="p-2">
+        Upgrade your style along with security with our high quality security
+        doors. Whether you are looking for a traditional security door for
+        safety or our high quality aluminum security doors to protect both your
+        view and your home, Mike’s Mobile Screens has plenty of options for you.
+      </p>
       <div class="row">
         <div class="col text-center p-3">
-          <img src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg" class="p-3 w-75 img-fluid" alt="Security Window" (click)="securityAbtModal.show()"/>
-          <div mdbModal #securityAbtModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="securityAbtModal" aria-hidden="true">
+          <img
+            src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
+            class="p-3 w-75 img-fluid"
+            alt="Security Window"
+            (click)="securityAbtModal.show()"
+          />
+          <div
+            mdbModal
+            #securityAbtModal="mdb-modal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="securityAbtModal"
+            aria-hidden="true"
+          >
             <div class="modal modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button type="button" class="close pull-right" aria-label="Close" (click)="securityAbtModal.hide()">
+                  <button
+                    type="button"
+                    class="close pull-right"
+                    aria-label="Close"
+                    (click)="securityAbtModal.hide()"
+                  >
                     <span aria-hidden="true">x</span>
                   </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">{{landing.title}}</h4>
+                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
+                    {{ landing.title }}
+                  </h4>
                 </div>
                 <div class="modal-body">
-                  <img src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg" class="w-75 img-fluid" alt="Security Window" />
+                  <img
+                    src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
+                    class="w-75 img-fluid"
+                    alt="Security Window"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <br/><br/>
+          <br /><br />
           <h4 class="p-2 text-center">Window Security</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-quick-escape']">CRL Guarda™ Quick Escape</button>
-            <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-fixed']">CRL Guarda™ Fixed</button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/crl-guarda-quick-escape']"
+            >
+              CRL Guarda™ Quick Escape
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/crl-guarda-fixed']"
+            >
+              CRL Guarda™ Fixed
+            </button>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div>
           <h4>Security Window Screens</h4>
-          <p>Security bars are an unattractive and potentially illegal way to secure your home from the outside. Here at Mike’s Mobile we offer an attractive and safe way to secure your home from the outside, while allowing your family to escape in case of a fire or other emergency.</p>
+          <p>
+            Security bars are an unattractive and potentially illegal way to
+            secure your home from the outside. Here at Mike’s Mobile we offer an
+            attractive and safe way to secure your home from the outside, while
+            allowing your family to escape in case of a fire or other emergency.
+          </p>
         </div>
       </div>
     </div>
@@ -205,75 +517,180 @@
 
   <!-- security-doors-and-windows -->
   <ng-container *ngIf="landing.slug === 'security-doors-and-windows'">
-  <div class="container py-4">
-    <h1 class="p-2">{{landing.title}}</h1>
-    <hr>
-    <p class="p-2">Upgrade your style along with security with our high quality security doors. Whether you are looking for a traditional security door for safety or our high quality aluminum security doors to protect both your view and your home, Mike’s Mobile Screens has plenty of options for you.</p>
-    <div class="row">
-    <div class="col">
-      <img src="/assets/images/security/security-door-table/security-door-table.jpg" class="img-fluid" alt="Security Doors Table" (click)="securityAbtModal.show()"/>
-      <div mdbModal #securityAbtModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="securityAbtModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close pull-right" aria-label="Close" (click)="securityAbtModal.hide()">
-                <span aria-hidden="true">×</span>
-              </button>
-              <h4 class="modal-title w-100 text-center" id="myModalLabel">{{landing.title}}</h4>
-            </div>
-            <div class="modal-body">
-                <img src="/assets/images/security/security-door-table/security-door-table.jpg" class="img-fluid" alt="Security Doors Table" />
+    <div class="container py-4">
+      <h1 class="p-2">{{ landing.title }}</h1>
+      <hr />
+      <p class="p-2">
+        Upgrade your style along with security with our high quality security
+        doors. Whether you are looking for a traditional security door for
+        safety or our high quality aluminum security doors to protect both your
+        view and your home, Mike’s Mobile Screens has plenty of options for you.
+      </p>
+      <div class="row">
+        <div class="col">
+          <img
+            src="/assets/images/security/security-door-table/security-door-table.jpg"
+            class="img-fluid"
+            alt="Security Doors Table"
+            (click)="securityAbtModal.show()"
+          />
+          <div
+            mdbModal
+            #securityAbtModal="mdb-modal"
+            class="modal fade"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="securityAbtModal"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="close pull-right"
+                    aria-label="Close"
+                    (click)="securityAbtModal.hide()"
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
+                    {{ landing.title }}
+                  </h4>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="/assets/images/security/security-door-table/security-door-table.jpg"
+                    class="img-fluid"
+                    alt="Security Doors Table"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div class="col-md-3">
+          <h4 class="p-2 text-center">Security Doors</h4>
+          <div class="d-flex flex-column">
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/grid/titan-security-doors']"
+            >
+              Titan Security Screen Door
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/viewguard-security-doors']"
+            >
+              Viewguard
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/tru-view-security-doors']"
+            >
+              Tru View
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/tru-frame-security-doors']"
+            >
+              Tru Frame
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/sliding-security-doors']"
+            >
+              Sliding Security Doors
+            </button>
+          </div>
+          <br /><br />
+          <h4 class="p-2 text-center">Security Windows</h4>
+          <div class="d-flex flex-column">
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/crl-guarda-quick-escape']"
+            >
+              CRL Guarda™ Quick Escape
+            </button>
+            <button
+              type="button"
+              class="btn orange my-2"
+              mdbRippleRadius
+              [routerLink]="['/products/crl-guarda-fixed']"
+            >
+              CRL Guarda™ Fixed
+            </button>
+            <!--<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</button>-->
+          </div>
+        </div>
       </div>
+      <hr />
+      <h4>Security Window Screens</h4>
+      <p>
+        Security bars are an unattractive and potentially illegal way to secure
+        your home from the outside. Here at Mike’s Mobile we offer an attractive
+        and safe way to secure your home from the outside, while allowing your
+        family to escape in case of a fire or other emergency.
+      </p>
     </div>
-    <div class="col-md-3">
-      <h4 class="p-2 text-center">Security Doors</h4>
-      <div class="d-flex flex-column">
-        <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/grid/titan-security-doors']">Titan Security Screen Door</button>
-        <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/viewguard-security-doors']">Viewguard</button>
-        <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/tru-view-security-doors']">Tru View</button>
-        <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/tru-frame-security-doors']">Tru Frame</button>
-        <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/products/sliding-security-doors']">Sliding Security Doors</button>
-      </div>
-      <br/><br/>
-      <h4 class="p-2 text-center">Security Windows</h4>
-      <div class="d-flex flex-column">
-        <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-quick-escape']">CRL Guarda™ Quick Escape</button>
-        <button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-fixed']">CRL Guarda™ Fixed</button>
-        <!--<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</button>-->
-      </div>
-    </div>
-    </div>
-    <hr/>
-    <h4>Security Window Screens</h4>
-    <p>Security bars are an unattractive and potentially illegal way to secure your home from the outside. Here at Mike’s Mobile we offer an attractive and safe way to secure your home from the outside, while allowing your family to escape in case of a fire or other emergency.</p>
-  </div>
   </ng-container>
   <!-- security-doors-and-windows -->
 
   <!-- Awnings -->
   <ng-container *ngIf="landing.slug === 'awnings'">
     <div class="container py-4">
-      <h1 class="p-2">{{landing.title}}</h1>
-      <hr>
-      <p class="p-2">Your home is one-of-a-kind, and your window and door awnings should match and compliment it. Not only will your window and door awnings match your home, but they will also lower your energy bills, protect you from the weather while you open your door, and improve the appearance of your home..</p>
+      <h1 class="p-2">{{ landing.title }}</h1>
+      <hr />
+      <p class="p-2">
+        Your home is one-of-a-kind, and your window and door awnings should
+        match and compliment it. Not only will your window and door awnings
+        match your home, but they will also lower your energy bills, protect you
+        from the weather while you open your door, and improve the appearance of
+        your home..
+      </p>
       <div class="row">
         <div class="col">
-          <img src="/assets/images/awnings/folding-arm-awning.jpg" class="img-fluid"/>
+          <img
+            src="/assets/images/awnings/folding-arm-awning.jpg"
+            class="img-fluid"
+          />
         </div>
         <div class="col-md-3">
           <h4 class="p-2 text-center">Awnings</h4>
           <div class="d-flex flex-column">
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/retractable-patio-awnings']">Retractable Patio Awnings</button>
-            <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/drop-roll-sunscreens']">Drop Roll Sunscreens</button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/retractable-patio-awnings']"
+            >
+              Retractable Patio Awnings
+            </button>
+            <button
+              type="button"
+              class="btn blue my-2"
+              mdbRippleRadius
+              [routerLink]="['/services/drop-roll-sunscreens']"
+            >
+              Drop Roll Sunscreens
+            </button>
             <!-- <button type="button" class="btn blue my-2" mdbRippleRadius [routerLink]="['/services/door-and-window-awnings']">Window and Door Awnings</button> -->
           </div>
         </div>
       </div>
-      <hr/>
-
+      <hr />
     </div>
   </ng-container>
   <!-- /Awnings -->

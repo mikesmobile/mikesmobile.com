@@ -8,9 +8,8 @@ describe('ColorSwatchComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ColorSwatchComponent ]
-    })
-    .compileComponents();
+      declarations: [ColorSwatchComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

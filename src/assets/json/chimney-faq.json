@@ -1,77 +1,98 @@
-[  
-        {
-        "question":"How often should I have my chimney cleaned?",
-        "type":"p",
-        "body":["The National Fire Protection Association Standard 211 says, “Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances. Cleaning, maintenance, and repairs shall be done if necessary.” This is the national safety standard and is the correct way to approach the problem. It takes into account the fact that even if you don’t use your chimney much, animals may build nests in the flue or there may be other types of deterioration that could make the chimney unsafe to use.",
-                "The Chimney Safety Institute of America recommends that open masonry fireplaces should be cleaned at 1/8″ of sooty buildup, and sooner if there is any glaze present in the system. Factory-built fireplaces should be cleaned when any appreciable buildup occurs. This is considered to be enough fuel buildup to cause a chimney fire capable of damaging the chimney or spreading to the home.",
-                "Many older inserts or stoves operate with a low efficiency and must be cleaned more often- often once per cord of wood burned per season.",
-                "Pellet stoves should be cleaned annually. Pellet stoves, although very efficient, have small chambers that clog up and most have a forced exhaust system that gets backed up after a season and will burn out motors and cause costly repairs."],
-        "images":"",
-        "postScript":""
-    },
+[
+  {
+    "question": "How often should I have my chimney cleaned?",
+    "type": "p",
+    "body": [
+      "The National Fire Protection Association Standard 211 says, “Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances. Cleaning, maintenance, and repairs shall be done if necessary.” This is the national safety standard and is the correct way to approach the problem. It takes into account the fact that even if you don’t use your chimney much, animals may build nests in the flue or there may be other types of deterioration that could make the chimney unsafe to use.",
+      "The Chimney Safety Institute of America recommends that open masonry fireplaces should be cleaned at 1/8″ of sooty buildup, and sooner if there is any glaze present in the system. Factory-built fireplaces should be cleaned when any appreciable buildup occurs. This is considered to be enough fuel buildup to cause a chimney fire capable of damaging the chimney or spreading to the home.",
+      "Many older inserts or stoves operate with a low efficiency and must be cleaned more often- often once per cord of wood burned per season.",
+      "Pellet stoves should be cleaned annually. Pellet stoves, although very efficient, have small chambers that clog up and most have a forced exhaust system that gets backed up after a season and will burn out motors and cause costly repairs."
+    ],
+    "images": "",
+    "postScript": ""
+  },
 
-    {
-        "question":"What kind of a Fireplace, Insert or Stove do I have",
-        "type":"image-list",
-        "body":"The basic types of fireplaces are masonry or manufactured (commonly called “prefab or “zero-clearance”). You could also have a woodburning insert, freestanding stove or pellet appliance.",
-        "bullets":["Masonry Chimney: Masonry fireplaces, built entirely of bricks, blocks or stone and mortar, are massive structures often weighing between 6 and 7 tons! They are aesthetically pleasing, long lasting, and add real value to your home. With a little care and periodic maintenance they can literally give you a lifetime of enjoyment.",
-                    "Zero-Clearance or Pre-Fab: Relative newcomers to the fireplace scene, these have been commonly available only for the last 25 years or so. A prefab fireplace generally has a firebox of cast refractory panels (usually in some kind of brick pattern), and usually some metal is visible in the room all around the firebox. If you look up past the damper you will see a round metal chimney. And above the roof, covering the pipe, is often a wood-framed chase matching the exterior finish of your house.",
-                    "Woodburning Insert: These appliances generally consist of a solid metal (usually cast iron or steel) closed fire chamber or box, a fire brick base and an adjustable air control. A woodburning insert is essentially a wood stove that can be inserted into an existing fireplace.",        
-                    "Pellet Stove: A pellet stove is a stove that burns compressed wood or biomass pellets to create a source of heat for residential and sometimes industrial spaces. By slowly feeding fuel from a storage container (hopper) into a burn-pot area, they create a constant flame that requires little to no physical adjustments. These stoves are often fit into fireplaces making them a type of insert, but can also be freestanding. Most pellet stoves require a source of electricity and generally have a blower or fan to circulate heated air.",
-                    "Freestanding Stove: A “free-standing” woodstove means that the stove is not installed into a fireplace. (That type of woodstove is called a fireplace insert. The vent pipe is often exposed inside the outside the home. Some freestanding stoves are on legs, others on pedestals, but all sit at least a few inches above the floor."],
-        "images":[{"src":"/assets/images/fireplaces/brick-fireplace.jpg",
-                    "alt":"Brick Fireplace",
-                    "title":"Brick Fireplace"},
-                   {"src":"/assets/images/fireplaces/freestanding-stove.jpg",
-                    "alt":"Freestanding Stove",
-                    "title":"Freestanding Stove"},
-                   {"src":"/assets/images/fireplaces/insert-mikesmobile.jpg",
-                   "alt":"Insert Stove",
-                   "title":"Insert Stove"},
-                   {"src":"/assets/images/fireplaces/pellet-stove.jpg",
-                   "alt":"Pellet Stove",
-                   "title":"Pellet Stove"},
-                   {"src":"/assets/images/fireplaces/prefab-fireplace.jpg",
-                   "alt":"Pre-fab Fireplace",
-                   "title":"Pre-fab Fireplace"}
-                    ],
-        "postScript":""
-    },
-    {
-        "question":"When should I have my chimney inspected?",
-        "type":"list",
-        "body":"",
-        "bullets":["If you notice visible soot anywhere in your home",
-                    "Before each heating season (ideal time to get it cleaned also)",
-                    "Before installation of a new fuel burning appliance (furnace, hot water heater, insert etc.)",
-                    "Before purchasing a new home (Home inspections do not thoroughly cover chimneys)",
-                    "Immediately after a chimney or house fire",
-                    "After a lightning strike to your home",
-                    "If your home or chimney has experienced an impact (hit by a falling tree, etc.)",
-                    "If you notice staining on the inside or outside of your home in the vicinity of the chimney",
-                    "If the roof has been replaced",
-                    "After an earthquake",
-                    "After every cord of wood",
-                    "If you notice your chimney leaning or “pulling away” from the home",
-                    "If your chimney smokes during use",
-                    "If you notice any leaks or water damage around the vicinity of your fireplace"
-                ]
-    },
-    {
-       "question":"Do you perform animal removal?",
-       "type":"p",
-       "body":["Yes, we can perform animal removal in most cases. We have found raccoons, squirrels and all kinds of birds. Of course we highly recommend chimney caps so this doesn’t happen. If you happen to find yourself in this situation please call us immediately! We can usually get the animal out without modifying anything but we are stocked with access doors if necessary"]
-
-    },
-    {
-        "question":"Can I convert a gas fireplace from liquid propane (LP) to natural gas (NG)?",
-        "type":"p",
-        "body":["Yes, most fireplace or gas appliance manufacturers offer conversion kits to convert your fireplace from LP to NG or the other way around."]
-    },
-     {
-        "question":"Can I regulate heat output from a gas fireplace to maintain a certain temperature in my home?",
-        "type":"p",
-        "body":["Most gas fireplaces have multiple ways to change the heat output. Many are designed to accept an optional thermostat which can be set at a certain temperature and regulated the fireplace.","Gas fireplaces sometimes come with a hi/low know on the gas valve that allows you to vary the heat output. This would also change the look and size of the flames."]
-     }   
-
+  {
+    "question": "What kind of a Fireplace, Insert or Stove do I have",
+    "type": "image-list",
+    "body": "The basic types of fireplaces are masonry or manufactured (commonly called “prefab or “zero-clearance”). You could also have a woodburning insert, freestanding stove or pellet appliance.",
+    "bullets": [
+      "Masonry Chimney: Masonry fireplaces, built entirely of bricks, blocks or stone and mortar, are massive structures often weighing between 6 and 7 tons! They are aesthetically pleasing, long lasting, and add real value to your home. With a little care and periodic maintenance they can literally give you a lifetime of enjoyment.",
+      "Zero-Clearance or Pre-Fab: Relative newcomers to the fireplace scene, these have been commonly available only for the last 25 years or so. A prefab fireplace generally has a firebox of cast refractory panels (usually in some kind of brick pattern), and usually some metal is visible in the room all around the firebox. If you look up past the damper you will see a round metal chimney. And above the roof, covering the pipe, is often a wood-framed chase matching the exterior finish of your house.",
+      "Woodburning Insert: These appliances generally consist of a solid metal (usually cast iron or steel) closed fire chamber or box, a fire brick base and an adjustable air control. A woodburning insert is essentially a wood stove that can be inserted into an existing fireplace.",
+      "Pellet Stove: A pellet stove is a stove that burns compressed wood or biomass pellets to create a source of heat for residential and sometimes industrial spaces. By slowly feeding fuel from a storage container (hopper) into a burn-pot area, they create a constant flame that requires little to no physical adjustments. These stoves are often fit into fireplaces making them a type of insert, but can also be freestanding. Most pellet stoves require a source of electricity and generally have a blower or fan to circulate heated air.",
+      "Freestanding Stove: A “free-standing” woodstove means that the stove is not installed into a fireplace. (That type of woodstove is called a fireplace insert. The vent pipe is often exposed inside the outside the home. Some freestanding stoves are on legs, others on pedestals, but all sit at least a few inches above the floor."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/fireplaces/brick-fireplace.jpg",
+        "alt": "Brick Fireplace",
+        "title": "Brick Fireplace"
+      },
+      {
+        "src": "/assets/images/fireplaces/freestanding-stove.jpg",
+        "alt": "Freestanding Stove",
+        "title": "Freestanding Stove"
+      },
+      {
+        "src": "/assets/images/fireplaces/insert-mikesmobile.jpg",
+        "alt": "Insert Stove",
+        "title": "Insert Stove"
+      },
+      {
+        "src": "/assets/images/fireplaces/pellet-stove.jpg",
+        "alt": "Pellet Stove",
+        "title": "Pellet Stove"
+      },
+      {
+        "src": "/assets/images/fireplaces/prefab-fireplace.jpg",
+        "alt": "Pre-fab Fireplace",
+        "title": "Pre-fab Fireplace"
+      }
+    ],
+    "postScript": ""
+  },
+  {
+    "question": "When should I have my chimney inspected?",
+    "type": "list",
+    "body": "",
+    "bullets": [
+      "If you notice visible soot anywhere in your home",
+      "Before each heating season (ideal time to get it cleaned also)",
+      "Before installation of a new fuel burning appliance (furnace, hot water heater, insert etc.)",
+      "Before purchasing a new home (Home inspections do not thoroughly cover chimneys)",
+      "Immediately after a chimney or house fire",
+      "After a lightning strike to your home",
+      "If your home or chimney has experienced an impact (hit by a falling tree, etc.)",
+      "If you notice staining on the inside or outside of your home in the vicinity of the chimney",
+      "If the roof has been replaced",
+      "After an earthquake",
+      "After every cord of wood",
+      "If you notice your chimney leaning or “pulling away” from the home",
+      "If your chimney smokes during use",
+      "If you notice any leaks or water damage around the vicinity of your fireplace"
+    ]
+  },
+  {
+    "question": "Do you perform animal removal?",
+    "type": "p",
+    "body": [
+      "Yes, we can perform animal removal in most cases. We have found raccoons, squirrels and all kinds of birds. Of course we highly recommend chimney caps so this doesn’t happen. If you happen to find yourself in this situation please call us immediately! We can usually get the animal out without modifying anything but we are stocked with access doors if necessary"
+    ]
+  },
+  {
+    "question": "Can I convert a gas fireplace from liquid propane (LP) to natural gas (NG)?",
+    "type": "p",
+    "body": [
+      "Yes, most fireplace or gas appliance manufacturers offer conversion kits to convert your fireplace from LP to NG or the other way around."
+    ]
+  },
+  {
+    "question": "Can I regulate heat output from a gas fireplace to maintain a certain temperature in my home?",
+    "type": "p",
+    "body": [
+      "Most gas fireplaces have multiple ways to change the heat output. Many are designed to accept an optional thermostat which can be set at a certain temperature and regulated the fireplace.",
+      "Gas fireplaces sometimes come with a hi/low know on the gas valve that allows you to vary the heat output. This would also change the look and size of the flames."
+    ]
+  }
 ]

@@ -8,9 +8,8 @@ describe('FlipcardListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlipcardListComponent ]
-    })
-    .compileComponents();
+      declarations: [FlipcardListComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

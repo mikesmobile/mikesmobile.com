@@ -9,21 +9,25 @@ import { ServicesService } from '../services/service.service';
   providers: [ServicesService]
 })
 export class ServiceListComponent implements OnInit, OnDestroy {
+  @Input() categories = [
+    'Chimney Services',
+    'Door and Window Screens',
+    'Security Doors and Windows',
+    'Awnings'
+  ];
 
-  @Input() categories = ['Chimney Services', 'Door and Window Screens', 'Security Doors and Windows', 'Awnings']
+  private req: any;
+  serviceList: [ServiceItem];
 
-  private req:any
-  serviceList:[ServiceItem]
-
-  constructor(private _service:ServicesService) { }
+  constructor(private _service: ServicesService) {}
 
   ngOnInit() {
     this.req = this._service.list().subscribe((data) => {
-      this.serviceList = data as [ServiceItem]
-    })
+      this.serviceList = data as [ServiceItem];
+    });
   }
 
   ngOnDestroy() {
-    this.req.unsubscribe()
+    this.req.unsubscribe();
   }
 }

@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.sass']
 })
 export class FooterComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  groupOptionsSelect=[]
+  groupOptionsSelect = [];
   ngOnInit() {
     this.groupOptionsSelect = [
       { value: '', label: 'DOOR AND WINDOW SCREENS', group: true },
@@ -36,9 +35,7 @@ export class FooterComponent implements OnInit {
       //{ value: '19', label: 'CRL Guarda Casement' },
       { value: '', label: 'AWNINGS', group: true },
       { value: '20', label: 'Retractable Patio Awnings' },
-      { value: '21', label: 'Drop Roll Sunscreens' },
-
+      { value: '21', label: 'Drop Roll Sunscreens' }
     ];
   }
-
 }

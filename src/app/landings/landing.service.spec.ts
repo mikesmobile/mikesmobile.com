@@ -9,7 +9,10 @@ describe('LandingService', () => {
     });
   });
 
-  it('should be created', inject([LandingService], (service: LandingService) => {
-    expect(service).toBeTruthy();
-  }));
+  it('should be created', inject(
+    [LandingService],
+    (service: LandingService) => {
+      expect(service).toBeTruthy();
+    }
+  ));
 });

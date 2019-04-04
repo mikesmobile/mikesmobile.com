@@ -8,9 +8,8 @@ describe('SeoLocationLpComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SeoLocationLpComponent ]
-    })
-    .compileComponents();
+      declarations: [SeoLocationLpComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

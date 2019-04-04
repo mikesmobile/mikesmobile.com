@@ -8,9 +8,8 @@ describe('FireplaceManualsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FireplaceManualsComponent ]
-    })
-    .compileComponents();
+      declarations: [FireplaceManualsComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

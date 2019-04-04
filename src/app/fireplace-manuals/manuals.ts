@@ -1,5 +1,5 @@
-export class manualsSegment{
-    category:string
-    subcategory:string
-    pdf:string[]
+export class manualsSegment {
+  category: string;
+  subcategory: string;
+  pdf: string[];
 }

@@ -8,9 +8,8 @@ describe('LandingChimneyComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LandingChimneyComponent ]
-    })
-    .compileComponents();
+      declarations: [LandingChimneyComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

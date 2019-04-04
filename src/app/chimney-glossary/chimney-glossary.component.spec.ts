@@ -8,9 +8,8 @@ describe('ChimneyGlossaryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChimneyGlossaryComponent ]
-    })
-    .compileComponents();
+      declarations: [ChimneyGlossaryComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

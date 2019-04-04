@@ -1,27 +1,32 @@
-
 <app-action-buttons></app-action-buttons>
 
 <div class="container">
-  <h2 *ngIf='query' class="my-3 text-center">Searched for <span class="blue-text">{{ query }}</span></h2>
+  <h2 *ngIf="query" class="my-3 text-center">
+    Searched for <span class="blue-text">{{ query }}</span>
+  </h2>
 </div>
 <div class="container service-list mt-3" id="service-list">
   <div class="row">
-    <ng-container *ngFor='let result of searchList'>
+    <ng-container *ngFor="let result of searchList">
       <div class="col-6 col-md-4 col-lg-3 my-3">
         <ng-container *ngIf="result.tileImage">
           <div class="flip-container">
             <div class="flipper">
               <div class="front">
                 <div class="view waves-light" mdbRippleRadius>
-                  <img src="{{result.tileImage}}" class="img-fluid" alt="{{result.title}}">
+                  <img
+                    src="{{ result.tileImage }}"
+                    class="img-fluid"
+                    alt="{{ result.title }}"
+                  />
                 </div>
-                <h4 class="card-title">{{result.title}}</h4>
+                <h4 class="card-title">{{ result.title }}</h4>
               </div>
-              <a routerLink='/{{result.slug}}'>
+              <a routerLink="/{{ result.slug }}">
                 <div class="back">
-                  <h4 class="text-center">{{result.title}}</h4>
+                  <h4 class="text-center">{{ result.title }}</h4>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <p class="p-1 mb-0 text-center">{{result.tileText}}</p>
+                  <p class="p-1 mb-0 text-center">{{ result.tileText }}</p>
                 </div>
               </a>
             </div>

@@ -1,21 +1,27 @@
-
 <app-action-buttons></app-action-buttons>
 <div class="container">
   <h1 class="text-center m-4" id="top">Chimney Glossary Terms</h1>
   <h3 class="text-center">Browse through our Glossary of Chimney Terms</h3>
   <div class="row text-center">
     <div *ngFor="let section of glossarySections" class="float-left">
-      <a mdbPageScroll href="#{{section.section}}" class="btn-floating btn-sm blue-gradient">{{section.section}}</a>
+      <a
+        mdbPageScroll
+        href="#{{ section.section }}"
+        class="btn-floating btn-sm blue-gradient"
+        >{{ section.section }}</a
+      >
     </div>
   </div>
   <div class="clearfix mb-5"></div>
   <div *ngFor="let section of glossarySections">
-    <h2 class="font-weight-bold" id="{{section.section}}">Section {{section.section}} |
-      <a class="text-warning" mdbPageScroll href="#top">Back to top</a><hr>
+    <h2 class="font-weight-bold" id="{{ section.section }}">
+      Section {{ section.section }} |
+      <a class="text-warning" mdbPageScroll href="#top">Back to top</a>
+      <hr />
     </h2>
-    <div *ngFor="let term of section.terms|keys">
-      <h4 class="font-weight-bold">{{term.key}}</h4>
-      <p>{{term.value}}</p>
+    <div *ngFor="let term of (section.terms | keys)">
+      <h4 class="font-weight-bold">{{ term.key }}</h4>
+      <p>{{ term.value }}</p>
     </div>
   </div>
 </div>

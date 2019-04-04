@@ -1,650 +1,650 @@
 [
-    {
-        "category": "Napoleon",
-        "manuals": [
-            {
-                "subcategory": "Direct Vent Gas Fireplaces ",
-                "pdf": {
-                    "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
-                    "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
-                    "Napoleon Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
-                    "Napoleon Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf",
-                    "Napolean BGD42N": "/assets/manuals/napolean/direct-vent/Napolean-BGD42N.pdf",
-                    "Napolean BGD90NT Dream": "/assets/manuals/napolean/direct-vent/Napolean-BGD90NT-Dream.pdf",
-                    "Napolean GD19N Vittoria": "/assets/manuals/napolean/direct-vent/Napolean-GD19N-Vittoria.pdf",
-                    "Napolean GD33NR": "/assets/manuals/napolean/direct-vent/Napolean-GD33NR.pdf",
-                    "Napolean GD34 1NT": "/assets/manuals/napolean/direct-vent/Napolean-GD34-1NT.pdf",
-                    "Napolean GD36NTR": "/assets/manuals/napolean/direct-vent/Napolean-GD36NTR.pdf",
-                    "Napolean GD36NTR Crystallo": "/assets/manuals/napolean/direct-vent/Napolean-GD36NTR-Crystallo.pdf",
-                    "Napolean GD70NT S STARfire": "/assets/manuals/napolean/direct-vent/Napolean-GD70NT-S-STARfire.pdf",
-                    "Napolean GD80NT Madison": "/assets/manuals/napolean/direct-vent/Napolean-GD80NT-Madison.pdf",
-                    "Napolean GD82NT PA Park Avenue": "/assets/manuals/napolean/direct-vent/Napolean-GD82NT-PA-Park-Avenue.pdf",
-                    "Napolean GD82NT T Tureen": "/assets/manuals/napolean/direct-vent/Napolean-GD82NT-T-Tureen.pdf",
-                    "Napolean HD35NT Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-HD35NT-Clean-Face.pdf",
-                    "Napolean HD35NT High Definition": "/assets/manuals/napolean/direct-vent/Napolean-HD35NT-High-Definition.pdf",
-                    "Napolean HD81NT": "/assets/manuals/napolean/direct-vent/Napolean-HD81NT.pdf",
-                    "Napolean HDX40NT": "/assets/manuals/napolean/direct-vent/Napolean-HDX40NT.pdf",
-                    "Napolean LHD45N Linear": "/assets/manuals/napolean/direct-vent/Napolean-LHD45N-Linear.pdf",
-                    "Napolean LHD50N": "/assets/manuals/napolean/direct-vent/Napolean-LHD50N.pdf",
-                    "Napolean LHD50SSN Swarovski": "/assets/manuals/napolean/direct-vent/Napolean-LHD50SSN-Swarovski.pdf",
-                    "Napolean LHD62P": "/assets/manuals/napolean/direct-vent/Napolean-LHD62P.pdf",
-                    "Napolean WHD31N PlazmaFire": "/assets/manuals/napolean/direct-vent/Napolean-WHD31N-PlazmaFire.pdf"
-                }
-            },
-            {
-                "subcategory": "Direct Vent Gas",
-                "pdf": {
-                    "Napoleon GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
-                    "Napoleon GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
-                    "Napoleon GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
-                    "Napoleon GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf",
-                    "Napoleon GDS50": "/assets/manuals/napolean/direct-vent-gas/GDS50.pdf",
-                    "Napoleon GDS60": "/assets/manuals/napolean/direct-vent-gas/GDS60.pdf"
-                }
-            },
-            {
-                "subcategory": "Electric Fireplaces",
-                "pdf": {
-                    "Napoleon EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
-                    "Napoleon EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
-                    "Napoleon EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
-                    "Napoleon EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf",
-                    "Napoleon EFC32": "/assets/manuals/napolean/electric-fireplaces/EFC32.pdf",
-                    "Napoleon EFL48 Linear Electric": "/assets/manuals/napolean/electric-fireplaces/EFL48-Linear-Electric.pdf"
-                }
-            },
-            {
-                "subcategory": "Ethanol Burning",
-                "pdf": {
-                    "Napoleon WMFE1 Corner Unit": "/assets/manuals/napolean/ethanol-burning/WMFE1-Corner-Unit.pdf",
-                    "Napoleon WMFE2 Square Unit": "/assets/manuals/napolean/ethanol-burning/WMFE2-Square-Unit.pdf",
-                    "Napoleon WMFE3 Linear Unit": "/assets/manuals/napolean/ethanol-burning/WMFE3-Linear-Unit.pdf"
-                }
-            },
-            {
-                "subcategory": "Gas Burning Inserts",
-                "pdf": {
-                    "Napoleon GDI30": "/assets/manuals/napolean/gas-burning-inserts/GDI30.pdf",
-                    "Napoleon GDI30G": "/assets/manuals/napolean/gas-burning-inserts/GDI30G.pdf",
-                    "Napoleon GDI44": "/assets/manuals/napolean/gas-burning-inserts/GDI44.pdf",
-                    "Napoleon GDIZC": "/assets/manuals/napolean/gas-burning-inserts/GDIZC.pdf",
-                    "Napoleon GI3600": "/assets/manuals/napolean/gas-burning-inserts/GI3600.pdf",
-                    "Napoleon IR3": "/assets/manuals/napolean/gas-burning-inserts/IR3.pdf",
-                    "Napoleon IR3G": "/assets/manuals/napolean/gas-burning-inserts/IR3G.pdf",
-                    "Napoleon XIR3": "/assets/manuals/napolean/gas-burning-inserts/XIR3.pdf",
-                    "Napoleon XIR4": "/assets/manuals/napolean/gas-burning-inserts/XIR4.pdf"
-                }
-            },
-            {
-                "subcategory": "Gas Log Set",
-                "pdf": {
-                    "Napoleon FIBERGLOW Vent Free": "/assets/manuals/napolean/gas-log-set/FIBERGLOW-Vent-Free.pdf",
-                    "Napoleon FIBERGLOW Vented": "/assets/manuals/napolean/gas-log-set/FIBERGLOW-Vented.pdf"
-                }
-            },
-            {
-                "subcategory": "Natural Gas Patio Heaters",
-                "pdf": {
-                    "Napoleon PTH38NK Natural Gas Cast Aluminum Patio Heater": "/assets/manuals/napolean/natural-gas-patio-heaters/PTH38NK-Natural-Gas-Cast-Aluminum-Patio-Heater.pdf",
-                    "Napoleon PTH2650SSN Professional Patio Heater": "/assets/manuals/napolean/natural-gas-patio-heaters/PTH2650SSN-Professional-Patio-Heater.pdf"
-                }
-            },
-            {
-                "subcategory": "Outdoor Fireplace",
-                "pdf": {
-                    "Napoleon GSS42 Outdoor Fireplace": "/assets/manuals/napolean/outdoor-fireplace/GSS42-Outdoor-Fireplace.pdf",
-                    "Napoleon GSST8 Outdoor Torch": "/assets/manuals/napolean/outdoor-fireplace/GSST8-Outdoor-Torch.pdf"
-                }
-            },
-            {
-                "subcategory": "Patioflame Fire Pits",
-                "pdf": {
-                    "Napoleon GPFL48 Linear Patioflame": "/assets/manuals/napolean/patioflame-fire-pits/GPFL48-Linear-Patioflame.pdf",
-                    "Napoleon Patioflame Outdoor Fire Pit": "/assets/manuals/napolean/patioflame-fire-pits/Patioflame-Outdoor-Fire-Pit.pdf"
-                }
-            },
-            {
-                "subcategory": "Pellet Burning Inserts",
-                "pdf": {
-                    "Napoleon GSS42 Outdoor Fireplace": "/assets/manuals/napolean/pellet-burning-inserts/NPI45.pdf"
-                }
-            },
-            {
-                "subcategory": "Pellet Burning Stoves",
-                "pdf": {
-                    "Napoleon NPS45-Pellet-Stove": "/assets/manuals/napolean/pellet-burning-stoves/NPS45-Pellet-Stove.pdf"
-                }
-            },
-            {
-                "subcategory": "Power Venting",
-                "pdf": {
-                    "Napolean-GAS-POWER-VENT": "/assets/manuals/napolean/power-venting/Napolean-GAS-POWER-VENT.pdf"
-                }
-            },
-            {
-                "subcategory": "Propane Patio Heaters",
-                "pdf": {
-                    "Napoleon PTH11PSS Tabletop Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH11PSS-Tabletop-Patio-Heater.pdf",
-                    "Napoleon PTH31GTSS Bellagio": "/assets/manuals/napolean/propane-patio-heaters/PTH31GTSS-Bellagio.pdf",
-                    "Napoleon PTH38PK Propane Cast Aluminum Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH38PK-Propane-Cast-Aluminum-Patio-Heater.pdf",
-                    "Napoleon PTH38PSS Bullet Style Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH38PSS-Bullet-Style-Patio-Heater.pdf",
-                    "Napoleon PTH2650SS Professional Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH2650SS-Professional-Patio-Heater.pdf"
-                }
-            },
-            {
-                "subcategory": "Vent Free Gas",
-                "pdf": {
-                    "Napolean GVF36P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF36P.pdf",
-                    "Napolean GVF40P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF40P.pdf",
-                    "Napolean GVF42P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF42P.pdf",
-                    "Napolean GVFT8N Torch": "/assets/manuals/napolean/vent-free-gas/Napolean-GVFT8N-Torch.pdf",
-                    "Napolean WHD31N Plasmafire": "/assets/manuals/napolean/vent-free-gas/Napolean-WHD31N-Plasmafire.pdf"
-                }
-            },
-            {
-                "subcategory": "Vent Free Gas Stove",
-                "pdf": {
-                    "Napoleon GVFS20 Arlington": "/assets/manuals/napolean/vent-free-gas-stove/GVFS20-Arlington.pdf",
-                    "Napoleon GVFS60": "/assets/manuals/napolean/vent-free-gas-stove/GVFS60.pdf"
-                }
-            },
-            {
-                "subcategory": "Wood Burning",
-                "pdf": {
-                    "Napoleon NZ26": "/assets/manuals/napolean/wood-burning/NZ26.pdf",
-                    "Napoleon NZ3000 High Country": "/assets/manuals/napolean/wood-burning/NZ3000-High-Country.pdf",
-                    "Napoleon NZ6000 High Country": "/assets/manuals/napolean/wood-burning/NZ6000-High-Country.pdf"
-                }
-            },
-            {
-                "subcategory": "Wood Burning Inserts",
-                "pdf": {
-                    "Napoleon 1101": "/assets/manuals/napolean/wood-burning-inserts/1101.pdf",
-                    "Napoleon 1402": "/assets/manuals/napolean/wood-burning-inserts/1402.pdf"
-                }
-            },
-            {
-                "subcategory": "Wood Burning Stove",
-                "pdf": {
-                    "Napoleon 1100C": "/assets/manuals/napolean/wood-burning-stove/1100C.pdf",
-                    "Napoleon 1100 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1100-Pedestal.pdf",
-                    "Napoleon 1100PL Leg Model": "/assets/manuals/napolean/wood-burning-stove/1100PL-Leg-Model.pdf",
-                    "Napoleon 1150P Wood Gourmet": "/assets/manuals/napolean/wood-burning-stove/1150P-Wood-Gourmet.pdf",
-                    "Napoleon 1400C": "/assets/manuals/napolean/wood-burning-stove/1400C.pdf",
-                    "Napoleon 1400 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1400-Pedestal.pdf",
-                    "Napoleon 1400PL Leg Model": "/assets/manuals/napolean/wood-burning-stove/1400PL-Leg-Model.pdf",
-                    "Napoleon 1450 Independence Stove": "/assets/manuals/napolean/wood-burning-stove/1450-Independence-Stove.pdf",
-                    "Napoleon 1600C": "/assets/manuals/napolean/wood-burning-stove/1600C.pdf",
-                    "Napoleon 1900 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1900-Pedestal.pdf"                
-                }
-            }
-        ]
-    },
-    {
-        "category": "Regency",
-        "manuals": [
-            {
-                "subcategory": "Regency Gas Fireplaces",
-                "pdf": {
-                    "Regency BellavistaB36X": "/assets/manuals/regency/gas/fireplaces/BellavistaB36X.pdf",
-                    "Regency BellavistaB36XT": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XT.pdf",
-                    "Regency BellavistaB36XTCE": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XTCE.pdf",
-                    "Regency BellavistaB36XTE": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XTE.pdf",
-                    "Regency BellavistaB41XTCE": "/assets/manuals/regency/gas/fireplaces/BellavistaB41XTCE.pdf",
-                    "Regency BellavistaB41XTE": "/assets/manuals/regency/gas/fireplaces/BellavistaB41XTE.pdf",
-                    "Regency ExcaliburP90": "/assets/manuals/regency/gas/fireplaces/ExcaliburP90.pdf",
-                    "Regency HorizonHZ30E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ30E.pdf",
-                    "Regency HorizonHZ33CE": "/assets/manuals/regency/gas/fireplaces/HorizonHZ33CE.pdf",
-                    "Regency HorizonHZ40E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ40E.pdf",
-                    "Regency HorizonHZ42E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42E.pdf",
-                    "Regency HorizonHZ42STE": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42STE.pdf",
-                    "Regency HorizonHZ42STEPV": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42STEPV.pdf",
-                    "Regency HorizonHZ54E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ54E.pdf",
-                    "Regency HorizonHZ54EPV": "/assets/manuals/regency/gas/fireplaces/HorizonHZ54EPV.pdf",
-                    "Regency HorizonHZO42": "/assets/manuals/regency/gas/fireplaces/HorizonHZO42.pdf",
-                    "Regency PanoramaP33": "/assets/manuals/regency/gas/fireplaces/PanoramaP33.pdf",
-                    "Regency PanoramaP33CE": "/assets/manuals/regency/gas/fireplaces/PanoramaP33CE.pdf",
-                    "Regency PanoramaP33E": "/assets/manuals/regency/gas/fireplaces/PanoramaP33E.pdf",
-                    "Regency PanoramaP36": "/assets/manuals/regency/gas/fireplaces/PanoramaP36.pdf",
-                    "Regency PanoramaP36D": "/assets/manuals/regency/gas/fireplaces/PanoramaP36D.pdf",
-                    "Regency PanoramaP36E": "/assets/manuals/regency/gas/fireplaces/PanoramaP36E.pdf",
-                    "Regency PanoramaP42": "/assets/manuals/regency/gas/fireplaces/PanoramaP42.pdf",
-                    "Regency PanoramaP121": "/assets/manuals/regency/gas/fireplaces/PanoramaP121.pdf",
-                    "Regency PanoramaP131": "/assets/manuals/regency/gas/fireplaces/PanoramaP131.pdf",
-                    "Regency PlateauPTO30": "/assets/manuals/regency/gas/fireplaces/PlateauPTO30.pdf",
-                    "Regency SunriseP33SE": "/assets/manuals/regency/gas/fireplaces/SunriseP33SE.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Gas Firetables",
-                "pdf": {
-                    "Regency Plateau PTO28CIT": "/assets/manuals/regency/gas/firetables/PlateauPTO28CIT.pdf",
-                    "Regency Plateau PTO30CFT": "/assets/manuals/regency/gas/firetables/PlateauPTO30CFT.pdf",
-                    "Regency Plateau PTO30CKT": "/assets/manuals/regency/gas/firetables/PlateauPTO30CKT.pdf",
-                    "Regency GDS20 Plateau PTO30IST": "/assets/manuals/regency/gas/firetables/PlateauPTO30IST.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Gas Inserts",
-                "pdf": {
-                    "Regency Energy E18": "/assets/manuals/regency/gas/inserts/EnergyE18.pdf",
-                    "Regency Energy E21": "/assets/manuals/regency/gas/inserts/EnergyE21.pdf",
-                    "Regency Energy E33": "/assets/manuals/regency/gas/inserts/EnergyE33.pdf",
-                    "Regency Energy U31": "/assets/manuals/regency/gas/inserts/EnergyU31.pdf",
-                    "Regency Energy U32": "/assets/manuals/regency/gas/inserts/EnergyU32.pdf",
-                    "Regency Energy U32E": "/assets/manuals/regency/gas/inserts/EnergyU32E.pdf",
-                    "Regency Excalibur EX-E33": "/assets/manuals/regency/gas/inserts/ExcaliburEX-E33.pdf",
-                    "Regency Excalibur EX-U31": "/assets/manuals/regency/gas/inserts/ExcaliburEX-U31.pdf",
-                    "Regency Horizon HZI234E": "/assets/manuals/regency/gas/inserts/HorizonHZI234E.pdf",
-                    "Regency Horizon HZI390E": "/assets/manuals/regency/gas/inserts/HorizonHZI390E.pdf",
-                    "Regency Horizon HZI540E": "/assets/manuals/regency/gas/inserts/LibertyL234.pdf",
-                    "Regency Liberty L390E": "/assets/manuals/regency/gas/inserts/LibertyL390E.pdf",
-                    "Regency Liberty L540E": "/assets/manuals/regency/gas/inserts/LibertyL540E.pdf",
-                    "Regency Liberty L234": "/assets/manuals/regency/gas/inserts/LibertyL234.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Gas Stoves",
-                "pdf": {
-                    "Regency Classic C34": "/assets/manuals/regency/gas/Stoves/ClassicC34.pdf",
-                    "Regency Ultimate U38": "/assets/manuals/regency/gas/Stoves/UltimateU38.pdf",
-                    "Regency Ultimate U39": "/assets/manuals/regency/gas/Stoves/UltimateU39.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Hampton Inserts",
-                "pdf": {
-                    "Regency GCI60": "/assets/manuals/regency/hampton/inserts/GCI60.zip",
-                    "Regency HI200": "/assets/manuals/regency/hampton/inserts/HI200.pdf",
-                    "Regency HI300": "/assets/manuals/regency/hampton/inserts/HI300.pdf",
-                    "Regency H-U32": "/assets/manuals/regency/hampton/inserts/H-U32.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Hampton Stoves",
-                "pdf": {
-                    "Regency GC60": "/assets/manuals/regency/hampton/stoves/GC60.zip",
-                    "Regency H15": "/assets/manuals/regency/hampton/stoves/H15.pdf",
-                    "Regency H27": "/assets/manuals/regency/hampton/stoves/H27.pdf",
-                    "Regency H35": "/assets/manuals/regency/hampton/stoves/H35.pdf",
-                    "Regency H200": "/assets/manuals/regency/hampton/stoves/H200.pdf",
-                    "Regency H300": "/assets/manuals/regency/hampton/stoves/H300.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Pellet Insert & Stove",
-                "pdf": {
-                    "Regency Greenfire GF55": "/assets/manuals/regency/hampton/GreenfireGF55.pdf",
-                    "Regency Greenfire GFI55": "/assets/manuals/regency/hampton/GreenfireGFI55.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Wood Fireplaces",
-                "pdf": {
-                    "Regency Classic R90": "/assets/manuals/regency/wood/fireplaces/ClassicR90.zip",
-                    "Regency Excalibur EX90": "/assets/manuals/regency/wood/fireplaces/ExcaliburEX90.zip"
-                }
-            },
-            {
-                "subcategory": "Regency Wood Inserts",
-                "pdf": {
-                    "Regency Alterra CI1200": "/assets/manuals/regency/wood/inserts/AlterraCI1200.pdf",
-                    "Regency Alterra CI1250": "/assets/manuals/regency/wood/inserts/AlterraCI1250.pdf",
-                    "Regency Classic H2100": "/assets/manuals/regency/wood/inserts/ClassicH2100.pdf",
-                    "Regency Classic I1200": "/assets/manuals/regency/wood/inserts/ClassicI1200.pdf",
-                    "Regency Classic I2400": "/assets/manuals/regency/wood/inserts/ClassicI2400.pdf",
-                    "Regency Classic I3100": "/assets/manuals/regency/wood/inserts/ClassicI3100.pdf"
-                }
-            },
-            {
-                "subcategory": "Regency Wood stoves",
-                "pdf": {
-                    "Regency AlterraCS1200": "/assets/manuals/regency/wood/stoves/AlterraCS1200.pdf",
-                    "Regency Alterra CS2400": "/assets/manuals/regency/wood/stoves/AlterraCS2400.pdf",
-                    "Regency Classic F1100": "/assets/manuals/regency/wood/stoves/ClassicF1100.pdf",
-                    "Regency Classic F2400": "/assets/manuals/regency/wood/stoves/ClassicF2400.pdf",
-                    "Regency Classic F3100": "/assets/manuals/regency/wood/stoves/ClassicF3100.pdf",
-                    "Regency Classic S2400": "/assets/manuals/regency/wood/stoves/ClassicS2400.pdf"
-                }
-            }
-        ]
-    },
-    {
-        "category": "Quadra",
-        "manuals": [
-            {
-                "subcategory": "Quadra Fireplace Products",
-                "pdf": {
-                    "Quadra-Fire 7100FP-Bk-B": "/assets/manuals/quadra/fireplace/7100FP-Bk-B.pdf",
-                    "Quadra-Fire TWILIGHT-II-MOD": "/assets/manuals/quadra/fireplace/TWILIGHT-II-MOD.pdf"
-                }
-            },
-            {
-                "subcategory": "Quadra Gas Products",
-                "pdf": {
-                    "Quadra-Fire FIRESIDE Grand Oak Match Light": "/assets/manuals/quadra/gas/FIRESIDE-Grand-Oak-Match-Light.pdf",
-                    "Quadra-Fire FIRESIDE REALWOOD FRW18": "/assets/manuals/quadra/gas/FIRESIDE-REALWOOD-FRW18.pdf",
-                    "Quadra-Fire FIRESIDE SUPREME OAK FSO18": "/assets/manuals/quadra/gas/FIRESIDE-SUPREME-OAK-FSO18.pdf",
-                    "Quadra-Fire FIRESIDE VERSAWOOD FVW18": "/assets/manuals/quadra/gas/FIRESIDE-VERSAWOOD-FVW18.pdf"
-                }
-            },
-            {
-                "subcategory": "Quadra Insert Products",
-                "pdf": {
-                    "Quadra-Fire 41-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/41-I-ACCWOODINSERT.pdf",
-                    "Quadra-Fire 51-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/51-I-ACCWOODINSERT.pdf",
-                    "Quadra-Fire 2700i ACC Wood Insert": "/assets/manuals/quadra/insert/2700iACCWoodInsert.pdf",
-                    "Quadra-Fire 3100-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/3100-IACCWOODINSERT.pdf",
-                    "Quadra-Fire MT VERNON PELLET INSERT": "/assets/manuals/quadra/insert/MT-VERNON-PELLET-INSERT.pdf",
-                    "Quadra-Fire VOYAGEUR GRAND WOOD INSERT": "/assets/manuals/quadra/insert/VOYAGEUR-GRAND-WOOD-INSERT.pdf",
-                    "Quadra-Fire VOYAGEUR WOOD INSERT": "/assets/manuals/quadra/insert/VOYAGEUR-WOOD-INSERT.pdf"
-                }
-            },
-            {
-                "subcategory": "Quadra Remote Products",
-                "pdf": {
-                    "Quadra-Fire MtVernon Pellet Appliances AE": "/assets/manuals/quadra/remote/MtVernon-Pellet-Appliances-AE.pdf",
-                    "Quadra-Fire RC100 Wireless Wall Switch": "/assets/manuals/quadra/remote/RC100-Wireless-Wall-Switch.pdf",
-                    "Quadra-Fire RC200-MULTIFUNCTION-CONTROL": "/assets/manuals/quadra/remote/RC200-MULTIFUNCTION-CONTROL.pdf",
-                    "Quadra-Fire RC300 MULTIFUNCTION CONTROL": "/assets/manuals/quadra/remote/RC300-MULTIFUNCTION-CONTROL.pdf",
-                    "Quadra-Fire RCE Series Remote": "/assets/manuals/quadra/remote/RCE-Series-Remote.pdf",
-                    "Quadra-Fire Remote Kit Electric": "/assets/manuals/quadra/remote/Remote-Kit-Electric.pdf",
-                    "Quadra-Fire SMART STAT II Remote Control Kits": "/assets/manuals/quadra/remote/SMART-STAT-II-Remote-Control-Kits.pdf",
-                    "Quadra-Fire WSK210 Wall Switches": "/assets/manuals/quadra/remote/WSK210-Wall-Switches.pdf"
-                }
-            },
-            {
-                "subcategory": "Quadra Service Products",
-                "pdf": {
-                    "Quadra-Fire 21M ACC": "/assets/manuals/quadra/service/21M-ACC.pdf",
-                    "Quadra-Fire 27i ACC": "/assets/manuals/quadra/service/27i-ACC.pdf",
-                    "Quadra-Fire 31i-ACC": "/assets/manuals/quadra/service/31i-ACC.pdf",
-                    "Quadra-Fire 31M-ACC": "/assets/manuals/quadra/service/31M-ACC.pdf",
-                    "Quadra-Fire 31ST ACC": "/assets/manuals/quadra/service/31ST-ACC.pdf",
-                    "Quadra-Fire 400": "/assets/manuals/quadra/service/400.pdf",
-                    "Quadra-Fire 1100 INSERT": "/assets/manuals/quadra/service/1100_INSERT.pdf",
-                    "Quadra-Fire 1900 FS": "/assets/manuals/quadra/service/1900_FS.pdf",
-                    "Quadra-Fire 4100i ACT": "/assets/manuals/quadra/service/4100i-ACT.pdf"
-                }
-            },
-            {
-                "subcategory": "Quadra stove Products",
-                "pdf": {
-                    "Quadra-Fire MTVERNONPELLETSTOVE": "/assets/manuals/quadra/stove/MTVERNONPELLETSTOVE.pdf"
-                }
-            }
-        ]
-    },
-    {
-        "category": "Majestic",
-        "manuals": [
-            {
-                "subcategory": "Majestic Electric Products",
-                "pdf": {
-                    "Majestic Allura Fire WEF33, WEF36": "/assets/manuals/majestic/electric/68D5301_WEF33_36_3.pdf"
-                }
-            },
-            {
-                "subcategory": "Majestic Fireplace Inserts Products",
-                "pdf": {
-                    "Majestic ISD Series": "/assets/manuals/majestic/fireplace-inserts/23D8036_33ISDG_5.pdf",
-                    "Majestic Topaz": "/assets/manuals/majestic/fireplace-inserts/83D0524_30ILDV_8.pdf",
-                    "Majestic Amber": "/assets/manuals/majestic/fireplace-inserts/57D0215_380IDV_13.pdf",
-                    "Majestic Triumph": "/assets/manuals/majestic/fireplace-inserts/20304170_30ICFDV_Insert_1.pdf",
-                    "Majestic LoRider Designer": "/assets/manuals/majestic/fireplace-inserts/79D0004_VF_Designer_5.pdf",
-                    "Majestic Magnum": "/assets/manuals/majestic/fireplace-inserts/26D4750_MCUF_Rev_9.pdf",
-                    "Majestic LoRider": "/assets/manuals/majestic/fireplace-inserts/26D4721_LCUF36_11.pdf",
-                    "Majestic BUF Series": "/assets/manuals/majestic/fireplace-inserts/61D1013_BUF_9.pdf"
-                }
-            },
-            {
-                "subcategory": "Majestic Gas/B Vent Products",
-                "pdf": {
-                    "Majestic Prodigy": "/assets/manuals/majestic/gas-b-vent/53D9009_B_VentSpecialty_5.pdf",
-                    "Majestic SBV Series": "/assets/manuals/majestic/gas-b-vent/62D4037_400BBV_SBV_14.pdf",
-                    "Majestic BBV Series": "/assets/manuals/majestic/gas-b-vent/20301938_BVSTNSC_2.pdf"
-                }
-            },
-            {
-                "subcategory": "Majestic Gas/Direct Vent Products",
-                "pdf": {
-                    "Majestic Marquis 73D4125-KSTDV": "/assets/manuals/majestic/gas-direct-vent/73D4125_KSTDV_9.pdf",
-                    "Majestic Lexington 51D0528_LXDV_13": "/assets/manuals/majestic/gas-direct-vent/51D0528_LXDV_13.pdf",
-                    "Majestic Pearl 20302381-LDV Designer 2": "/assets/manuals/majestic/gas-direct-vent/20302381_LDV_Designer_2.pdf",
-                    "Majestic Cameo 75D2525-DVM 10": "/assets/manuals/majestic/gas-direct-vent/75D2525_DVM_10.pdf",
-                    "Majestic Onyx 75D0004-MLDV 15": "/assets/manuals/majestic/gas-direct-vent/75D0004_MLDV_15.pdf",
-                    "Majestic DVB Series 54D7051-DVB7-6": "/assets/manuals/majestic/gas-direct-vent/54D7051_DVB7_6.pdf",
-                    "Majestic Solitaire 74D3001-DVBL7 12": "/assets/manuals/majestic/gas-direct-vent/74D3001_DVBL7_12.pdf",
-                    "Majestic DVBH Series 54D8001-DVBH7-6": "/assets/manuals/majestic/gas-direct-vent/54D8001_DVBH7_6.pdf",
-                    "Majestic CDV Series 69D3011-CDVRT7-12": "/assets/manuals/majestic/gas-direct-vent/69D3011_CDVRT7_12.pdf",
-                    "Majestic Tribute 20014621-CDVZ 5": "/assets/manuals/majestic/gas-direct-vent/69D3011_CDVRT7_12.pdf"
-                }
-            },
-            {
-                "subcategory": "Majestic Gas/Vent Free Products",
-                "pdf": {
-                    "Majestic DFS Series": "/assets/manuals/majestic/gas-vent-free/71D0533_VFH_7.pdf",
-                    "Majestic Chesapeake": "/assets/manuals/majestic/gas-vent-free/20301726_CFX_4.pdf",
-                    "Majestic Parlor": "/assets/manuals/majestic/gas-vent-free/90D0093_Parlor_PL20_5.pdf",
-                    "Majestic VFS Series": "/assets/manuals/majestic/gas-vent-free/33D4051_VFS_DBX_7.pdf"
-                }
-            },
-            {
-                "subcategory": "Majestic Wood Burning Products",
-                "pdf": {
-                    "Majestic Monarch BFC36": "/assets/manuals/majestic/wood-burning/7412647_BFC_20.pdf",
-                    "Majestic WarmMajic WMC42, WMC36": "/assets/manuals/majestic/wood-burning/20000583_WMC_30.pdf",
-                    "Majestic Biltmore SB50HB": "/assets/manuals/majestic/wood-burning/87D0058_SB50_5.pdf",
-                    "Majestic Sovereign": "/assets/manuals/majestic/wood-burning/7412948_SR_SC_27.pdf"
-                }
-            }
-        ]
-    },
-    {
-        "category": "Monessen",
-        "manuals": [
-            {
-                "subcategory": "Monessen Wood Burning Products",
-                "pdf": {
-                    "Monessen Monarch": "/assets/manuals/monessen/wood-burning/7412647_BFC_20.pdf",
-                    "Monessen WarmMajic": "/assets/manuals/monessen/wood-burning/20000583_WMC_30.pdf",
-                    "Monessen Biltmore": "/assets/manuals/monessen/wood-burning/87D0058_SB50_5.pdf",
-                    "Monessen Sovereign": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf",
-                    "Monessen Designer Series": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf",
-                    "Monessen Royalton": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf"
-                }
-            },
-            {
-                "subcategory": "Monessen Gas/Vent Free Products",
-                "pdf": {
-                    "Monessen DFS Series": "/assets/manuals/monessen/gas-vent-free/71D0532_DFS_10.pdf",
-                    "Monessen Chesapeake": "/assets/manuals/monessen/gas-vent-free/20301726_CFX_4.pdf",
-                    "Monessen Parlor": "/assets/manuals/monessen/gas-vent-free/90D0093_Parlor_PL20_5.pdf",
-                    "Monessen DFX Series": "/assets/manuals/monessen/gas-vent-free/33D4047_DFX_DBX_8.pdf",
-                    "Monessen DBX Series": "/assets/manuals/monessen/gas-vent-free/33D4047_DFX_DBX_8.pdf"
-                }
-            },
-            {
-                "subcategory": "Monessen Gas/B Vent Products",
-                "pdf": {
-                    "Monessen Prodigy": "/assets/manuals/monessen/gas-b-vent/20301938_BVSTNSC_2.pdf",
-                    "Monessen SBV Series": "/assets/manuals/monessen/gas-b-vent/62D4037_400BBV_SBV_14.pdf",
-                    "Monessen BBV Series": "/assets/manuals/monessen/gas-b-vent/62D4037_400BBV_SBV_14.pdf"
-                }
-            },
-            {
-                "subcategory": "Monessen Gas/Direct Vent Products",
-                "pdf": {
-                    "Monessen Covington See Thru": "/assets/manuals/monessen/gas-direct-vent/73D4125_KSTDV_9.pdf",
-                    "Monessen Covington": "/assets/manuals/monessen/gas-direct-vent/51D0528_LXDV_13.pdf",
-                    "Monessen Serenade See Thru": "/assets/manuals/monessen/gas-direct-vent/20302381_LDV_Designer_2.pdf",
-                    "Monessen Serenade": "/assets/manuals/monessen/gas-direct-vent/78D0011_WDV_9.pdf",
-                    "Monessen Arlington": "/assets/manuals/monessen/gas-direct-vent/20302381_LDV_Designer_2.pdf",
-                    "Monessen Manchester": "/assets/manuals/monessen/gas-direct-vent/75D2523_MDV_9.pdf",
-                    "Monessen Winchester": "/assets/manuals/monessen/gas-direct-vent/75D0004_MLDV_15.pdf",
-                    "Monessen BDV Series": "/assets/manuals/monessen/gas-direct-vent/54D7050_BDV7_6.pdf",
-                    "Monessen Belmont": "/assets/manuals/monessen/gas-direct-vent/74D3000_BLDV7_10.pdf",
-                    "Monessen HBDV Series": "/assets/manuals/monessen/gas-direct-vent/54D8000_HBDV7_6.pdf",
-                    "Monessen CDV Series": "/assets/manuals/monessen/gas-direct-vent/69D3011_CDVRT7_12.pdf",
-                    "Monessen Tribute": "/assets/manuals/monessen/gas-direct-vent/20014621_CDVZ_5.pdf"
-                }
-            },
-            {
-                "subcategory": "Monessen Fireplace Inserts Products",
-                "pdf": {
-                    "Monessen DIS33 Series": "/assets/manuals/monessen/fireplace-inserts/23D8020_DIS33G_7.pdf",
-                    "Monessen Harmony": "/assets/manuals/monessen/fireplace-inserts/20304164_ICFDV_Insert_1.pdf",
-                    "Monessen Reveal": "/assets/manuals/monessen/fireplace-inserts/83D0511_ILDV_8.pdf",
-                    "Monessen Accent": "/assets/manuals/monessen/fireplace-inserts/57D0016_IDV380_12.pdf",
-                    "Monessen LoRider Designer": "/assets/manuals/monessen/fireplace-inserts/79D0004_VF_Designer_5.pdf",
-                    "Monessen Magnum": "/assets/manuals/monessen/fireplace-inserts/MCUF_RBLOTMC_26D4720_Rev_7.pdf",
-                    "Monessen LoRider": "/assets/manuals/monessen/fireplace-inserts/26D4721_LCUF36_11.pdf",
-                    "Monessen GCUF GRUF Series": "/assets/manuals/monessen/fireplace-inserts/71D0530_GCUF_7.pdf",
-                    "Monessen BUF Series": "/assets/manuals/monessen/fireplace-inserts/61D1013_BUF_9.pdf"
-                }
-            }
-        ]
-    },
-    {
-        "category": "Kingsman",
-        "manuals": [
-            {
-                "subcategory": "Kingsman Direct Vent Products",
-                "pdf": {
-                    "Kingsman ZDV3320": "/assets/manuals/kingsman/direct-vent/zdv3320_10.pdf",
-                    "Kingsman ZDV6000": "/assets/manuals/kingsman/direct-vent/zdv6000_11.pdf",
-                    "Kingsman ZDV3620": "/assets/manuals/kingsman/direct-vent/zdv3620_12.pdf",
-                    "Kingsman ZDV3622": "/assets/manuals/kingsman/direct-vent/zdv3622_13.pdf",
-                    "Kingsman ZDV3624/28/32": "/assets/manuals/kingsman/direct-vent/zdv3624_28_32_14.pdf",
-                    "Kingsman ZDV4224/28/32": "/assets/manuals/kingsman/direct-vent/zdv4224_28_32_15.pdf",
-                    "Kingsman ZDV3624B": "/assets/manuals/kingsman/direct-vent/zdv3624b_16.pdf",
-                    "Kingsman HBZDV3624/28/32": "/assets/manuals/kingsman/direct-vent/hbzdv3624_28_32_17.pdf",
-                    "Kingsman HBZDV4224/28/32": "/assets/manuals/kingsman/direct-vent/hbzdv4224_28_32_18.pdf",
-                    "Kingsman HBZDV4740": "/assets/manuals/kingsman/direct-vent/hbzdv4740_20.pdf",
-                    "Kingsman MDV31/39": "/assets/manuals/kingsman/direct-vent/mdv31_39_22.pdf",
-                    "Kingsman MDV38": "/assets/manuals/kingsman/direct-vent/mdv38_23.pdf",
-                    "Kingsman MDV30": "/assets/manuals/kingsman/direct-vent/mdv30_24.pdf",
-                    "Kingsman ZDV1001": "/assets/manuals/kingsman/direct-vent/zdv1001_25.pdf",
-                    "Kingsman ZDVRB3622": "/assets/manuals/kingsman/direct-vent/zdvrb3622_126.pdf",
-                    "Kingsman ZRB46": "/assets/manuals/kingsman/direct-vent/zrb46_132.pdf"
-                }
-            },
-            {
-                "subcategory": "Kingsman Fire Places – Vented",
-                "pdf": {
-                    "Kingsman ZV3600": "/assets/manuals/kingsman/vented/zv3600_26.pdf",
-                    "Kingsman ZV4200": "/assets/manuals/kingsman/vented/zv4200_27.pdf",
-                    "Kingsman ZV6500": "/assets/manuals/kingsman/vented/zv6500_28.pdf"
-                }
-            },
-            {
-                "subcategory": "Kingsman Fire Places – Vent Free",
-                "pdf": {
-                    "Kingsman ZVF24": "/assets/manuals/kingsman/vent-free/zvf24_29.pdf",
-                    "Kingsman ZVF33/36U/42U": "/assets/manuals/kingsman/vent-free/zvf33_36u_42u_32.pdf",
-                    "Kingsman ZVF52": "/assets/manuals/kingsman/vent-free/zvf52_33.pdf",
-                    "Kingsman MVF40": "/assets/manuals/kingsman/vent-free/mvf40_34.pdf"
-                }
-            },
-            {
-                "subcategory": "Freestanding Stoves – Direct Vent/Vented",
-                "pdf": {
-                    "Kingsman FV200": "/assets/manuals/kingsman/free-standing-direct/fv200_35.pdf",
-                    "Kingsman FDV200": "/assets/manuals/kingsman/free-standing-direct/fdv200_36.pdf",
-                    "Kingsman FDV300": "/assets/manuals/kingsman/free-standing-direct/fdv300_37.pdf",
-                    "Kingsman FDV350": "/assets/manuals/kingsman/free-standing-direct/fdv350_38.pdf",
-                    "Kingsman FV5000": "/assets/manuals/kingsman/free-standing-direct/fv5000_39.pdf",
-                    "Kingsman FDV5000": "/assets/manuals/kingsman/free-standing-direct/fdv5000_40.pdf"
-                }
-            },
-            {
-                "subcategory": "Freestanding Stoves – Vent Free",
-                "pdf": {
-                    "Kingsman FVF300": "/assets/manuals/kingsman/free-standing-direct-free/fvf300_41.pdf",
-                    "Kingsman FVF350": "/assets/manuals/kingsman/free-standing-direct-free/fvf350_42.pdf"
-                }
-            },
-            {
-                "subcategory": "Fireplace Inserts – Direct Vent & Vent Free",
-                "pdf": {
-                    "Kingsman VFI25": "/assets/manuals/kingsman/fireplace-inserts/vfi25_43.pdf",
-                    "Kingsman VFI30": "/assets/manuals/kingsman/fireplace-inserts/vfi30_44.pdf",
-                    "Kingsman IDV26": "/assets/manuals/kingsman/fireplace-inserts/idv26_130.pdf",
-                    "Kingsman IVF36": "/assets/manuals/kingsman/fireplace-inserts/ivf36_46.pdf"
-                }
-            },
-            {
-                "subcategory": "Outdoor Living – Fireplaces & Fire Pits",
-                "pdf": {
-                    "Kingsman OFP42": "/assets/manuals/kingsman/outdoor-living/ofp42_120.pdf",
-                    "Kingsman FP2085": "/assets/manuals/kingsman/outdoor-living/fp2085_47.pdf",
-                    "Kingsman FP2785": "/assets/manuals/kingsman/outdoor-living/fp2785_48.pdf"
-                }
-            },
-            {
-                "subcategory": "Kingsman Direct Vent Products",
-                "pdf": {
-                    "Kingsman GLVF24": "/assets/manuals/kingsman/gas-log-set/glvf24_49.pdf",
-                    "Kingsman GLMVF38": "/assets/manuals/kingsman/gas-log-set/glmvf38_50.pdf",
-                    "Kingsman VB18/24": "/assets/manuals/kingsman/gas-log-set/vb18_24_51.pdf"
-                }
-            }
-        ]
-    },
-    {
-        "category": "Westgate",
-        "manuals": [
-            {
-                "subcategory": "DV48 – For units with serial #’s from 215256 – 216700",
-                "pdf": {
-                    "C-11799 Instruction DV48 Owner’s Manual_Part1": "/assets/manuals/westgate/C-11799-SN-215256-216700-Instruction-DV48-Owners-Manual_Part1.pdf",
-                    "C-11799 Instruction DV48 Owner’s Manual_Part2": "/assets/manuals/westgate/C-11799-SN-215256-216700-Instruction-DV48-Owners-Manual_Part2.pdf"
-                }
-            },
-            {
-                "subcategory": "DV48 – For units with serial #’s from 216701 on",
-                "pdf": {
-                    "C-12004 Instruction DV48 Owner’s Manual 1 of 2": "/assets/manuals/westgate/C-12004-Instruction-DV48-Owners-Manual-1-of-2.pdf",
-                    "C-12004 Instruction DV48 Owner’s Manual 2 of 2": "/assets/manuals/westgate/C-12004-Instruction-DV48-Owners-Manual-2-of-2.pdf"
-                }
-            },
-            {
-                "subcategory": "DV62 –",
-                "pdf": {
-                    "C-12279 Instruction DV62 Owner’s Manual 02": "/assets/manuals/westgate/C-12279-Instruction-DV62-Owners-Manual-02.pdf"
-                }
-            },
-            {
-                "subcategory": "Technical Manuals DV48 – For units with serial #’s from 216701 on",
-                "pdf": {
-                    "C-12029 Instruction DV48 Technical Manual": "/assets/manuals/westgate/C-12029-Instruction-DV48-Technical-Manual.pdf"
-                }
-            },
-            {
-                "subcategory": "Technical Manuals DV62",
-                "pdf": {
-                    "C-12283 Instruction DV62 Technical Manual": "/assets/manuals/westgate/C-12283-Instruction-DV62-Technical-Manual.pdf"
-                }
-            },
-            {
-                "subcategory": "Technical Information DV48 & DV62",
-                "pdf": {
-                    "C-11969 Instruction Westgate Power Vent Kit DV48 and DV62": "/assets/manuals/westgate/C-11969-Instruction-Westgate-Power-Vent-Kit-DV48-and-DV62.pdf"
-                }
-            },
-            {
-                "subcategory": "Technical Information DV48",
-                "pdf": {
-                    "C-11968 Instruction Westgate DV 48 Heat Distribution Kit": "/assets/manuals/westgate/C-11968-Instruction-Westgate-DV-48-Heat-Distribution-Kit.pdf",
-                    "DV48 Log Placement": "/assets/manuals/westgate/DV48-Log-Placement.pdf"
-                }
-            },
-            {
-                "subcategory": "Technical Information DV62",
-                "pdf": {
-                    "DV62 Log Placement": "/assets/manuals/westgate/DV62-Log-Placement.pdf"
-                }
-            }
-        ]
-    }
+  {
+    "category": "Napoleon",
+    "manuals": [
+      {
+        "subcategory": "Direct Vent Gas Fireplaces ",
+        "pdf": {
+          "Napoleon BGD36CFNTR Manhattan": "/assets/manuals/napolean/direct-vent/Napolean-BGD36CFNTR-Manhattan.pdf",
+          "Napoleon BGD40GN": "/assets/manuals/napolean/direct-vent/Napolean-BGD40GN.pdf",
+          "Napoleon Napolean BGD40-N": "/assets/manuals/napolean/direct-vent/Napolean-BGD40-N.pdf",
+          "Napoleon Napolean BGD42CFN Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-BGD42CFN-Clean-Face.pdf",
+          "Napolean BGD42N": "/assets/manuals/napolean/direct-vent/Napolean-BGD42N.pdf",
+          "Napolean BGD90NT Dream": "/assets/manuals/napolean/direct-vent/Napolean-BGD90NT-Dream.pdf",
+          "Napolean GD19N Vittoria": "/assets/manuals/napolean/direct-vent/Napolean-GD19N-Vittoria.pdf",
+          "Napolean GD33NR": "/assets/manuals/napolean/direct-vent/Napolean-GD33NR.pdf",
+          "Napolean GD34 1NT": "/assets/manuals/napolean/direct-vent/Napolean-GD34-1NT.pdf",
+          "Napolean GD36NTR": "/assets/manuals/napolean/direct-vent/Napolean-GD36NTR.pdf",
+          "Napolean GD36NTR Crystallo": "/assets/manuals/napolean/direct-vent/Napolean-GD36NTR-Crystallo.pdf",
+          "Napolean GD70NT S STARfire": "/assets/manuals/napolean/direct-vent/Napolean-GD70NT-S-STARfire.pdf",
+          "Napolean GD80NT Madison": "/assets/manuals/napolean/direct-vent/Napolean-GD80NT-Madison.pdf",
+          "Napolean GD82NT PA Park Avenue": "/assets/manuals/napolean/direct-vent/Napolean-GD82NT-PA-Park-Avenue.pdf",
+          "Napolean GD82NT T Tureen": "/assets/manuals/napolean/direct-vent/Napolean-GD82NT-T-Tureen.pdf",
+          "Napolean HD35NT Clean Face": "/assets/manuals/napolean/direct-vent/Napolean-HD35NT-Clean-Face.pdf",
+          "Napolean HD35NT High Definition": "/assets/manuals/napolean/direct-vent/Napolean-HD35NT-High-Definition.pdf",
+          "Napolean HD81NT": "/assets/manuals/napolean/direct-vent/Napolean-HD81NT.pdf",
+          "Napolean HDX40NT": "/assets/manuals/napolean/direct-vent/Napolean-HDX40NT.pdf",
+          "Napolean LHD45N Linear": "/assets/manuals/napolean/direct-vent/Napolean-LHD45N-Linear.pdf",
+          "Napolean LHD50N": "/assets/manuals/napolean/direct-vent/Napolean-LHD50N.pdf",
+          "Napolean LHD50SSN Swarovski": "/assets/manuals/napolean/direct-vent/Napolean-LHD50SSN-Swarovski.pdf",
+          "Napolean LHD62P": "/assets/manuals/napolean/direct-vent/Napolean-LHD62P.pdf",
+          "Napolean WHD31N PlazmaFire": "/assets/manuals/napolean/direct-vent/Napolean-WHD31N-PlazmaFire.pdf"
+        }
+      },
+      {
+        "subcategory": "Direct Vent Gas",
+        "pdf": {
+          "Napoleon GDS20 Arlington": "/assets/manuals/napolean/direct-vent-gas/GDS20-Arlington.pdf",
+          "Napoleon GDS25 Bayfield": "/assets/manuals/napolean/direct-vent-gas/GDS25-Bayfield.pdf",
+          "Napoleon GDS26 Castlemore": "/assets/manuals/napolean/direct-vent-gas/GDS26-Castlemore.pdf",
+          "Napoleon GDS28": "/assets/manuals/napolean/direct-vent-gas/GDS28.pdf",
+          "Napoleon GDS50": "/assets/manuals/napolean/direct-vent-gas/GDS50.pdf",
+          "Napoleon GDS60": "/assets/manuals/napolean/direct-vent-gas/GDS60.pdf"
+        }
+      },
+      {
+        "subcategory": "Electric Fireplaces",
+        "pdf": {
+          "Napoleon EF30": "/assets/manuals/napolean/electric-fireplaces/EF30.pdf",
+          "Napoleon EF30G": "/assets/manuals/napolean/electric-fireplaces/EF30G.pdf",
+          "Napoleon EF39HD": "/assets/manuals/napolean/electric-fireplaces/EF39HD.pdf",
+          "Napoleon EF39S": "/assets/manuals/napolean/electric-fireplaces/EF39S.pdf",
+          "Napoleon EFC32": "/assets/manuals/napolean/electric-fireplaces/EFC32.pdf",
+          "Napoleon EFL48 Linear Electric": "/assets/manuals/napolean/electric-fireplaces/EFL48-Linear-Electric.pdf"
+        }
+      },
+      {
+        "subcategory": "Ethanol Burning",
+        "pdf": {
+          "Napoleon WMFE1 Corner Unit": "/assets/manuals/napolean/ethanol-burning/WMFE1-Corner-Unit.pdf",
+          "Napoleon WMFE2 Square Unit": "/assets/manuals/napolean/ethanol-burning/WMFE2-Square-Unit.pdf",
+          "Napoleon WMFE3 Linear Unit": "/assets/manuals/napolean/ethanol-burning/WMFE3-Linear-Unit.pdf"
+        }
+      },
+      {
+        "subcategory": "Gas Burning Inserts",
+        "pdf": {
+          "Napoleon GDI30": "/assets/manuals/napolean/gas-burning-inserts/GDI30.pdf",
+          "Napoleon GDI30G": "/assets/manuals/napolean/gas-burning-inserts/GDI30G.pdf",
+          "Napoleon GDI44": "/assets/manuals/napolean/gas-burning-inserts/GDI44.pdf",
+          "Napoleon GDIZC": "/assets/manuals/napolean/gas-burning-inserts/GDIZC.pdf",
+          "Napoleon GI3600": "/assets/manuals/napolean/gas-burning-inserts/GI3600.pdf",
+          "Napoleon IR3": "/assets/manuals/napolean/gas-burning-inserts/IR3.pdf",
+          "Napoleon IR3G": "/assets/manuals/napolean/gas-burning-inserts/IR3G.pdf",
+          "Napoleon XIR3": "/assets/manuals/napolean/gas-burning-inserts/XIR3.pdf",
+          "Napoleon XIR4": "/assets/manuals/napolean/gas-burning-inserts/XIR4.pdf"
+        }
+      },
+      {
+        "subcategory": "Gas Log Set",
+        "pdf": {
+          "Napoleon FIBERGLOW Vent Free": "/assets/manuals/napolean/gas-log-set/FIBERGLOW-Vent-Free.pdf",
+          "Napoleon FIBERGLOW Vented": "/assets/manuals/napolean/gas-log-set/FIBERGLOW-Vented.pdf"
+        }
+      },
+      {
+        "subcategory": "Natural Gas Patio Heaters",
+        "pdf": {
+          "Napoleon PTH38NK Natural Gas Cast Aluminum Patio Heater": "/assets/manuals/napolean/natural-gas-patio-heaters/PTH38NK-Natural-Gas-Cast-Aluminum-Patio-Heater.pdf",
+          "Napoleon PTH2650SSN Professional Patio Heater": "/assets/manuals/napolean/natural-gas-patio-heaters/PTH2650SSN-Professional-Patio-Heater.pdf"
+        }
+      },
+      {
+        "subcategory": "Outdoor Fireplace",
+        "pdf": {
+          "Napoleon GSS42 Outdoor Fireplace": "/assets/manuals/napolean/outdoor-fireplace/GSS42-Outdoor-Fireplace.pdf",
+          "Napoleon GSST8 Outdoor Torch": "/assets/manuals/napolean/outdoor-fireplace/GSST8-Outdoor-Torch.pdf"
+        }
+      },
+      {
+        "subcategory": "Patioflame Fire Pits",
+        "pdf": {
+          "Napoleon GPFL48 Linear Patioflame": "/assets/manuals/napolean/patioflame-fire-pits/GPFL48-Linear-Patioflame.pdf",
+          "Napoleon Patioflame Outdoor Fire Pit": "/assets/manuals/napolean/patioflame-fire-pits/Patioflame-Outdoor-Fire-Pit.pdf"
+        }
+      },
+      {
+        "subcategory": "Pellet Burning Inserts",
+        "pdf": {
+          "Napoleon GSS42 Outdoor Fireplace": "/assets/manuals/napolean/pellet-burning-inserts/NPI45.pdf"
+        }
+      },
+      {
+        "subcategory": "Pellet Burning Stoves",
+        "pdf": {
+          "Napoleon NPS45-Pellet-Stove": "/assets/manuals/napolean/pellet-burning-stoves/NPS45-Pellet-Stove.pdf"
+        }
+      },
+      {
+        "subcategory": "Power Venting",
+        "pdf": {
+          "Napolean-GAS-POWER-VENT": "/assets/manuals/napolean/power-venting/Napolean-GAS-POWER-VENT.pdf"
+        }
+      },
+      {
+        "subcategory": "Propane Patio Heaters",
+        "pdf": {
+          "Napoleon PTH11PSS Tabletop Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH11PSS-Tabletop-Patio-Heater.pdf",
+          "Napoleon PTH31GTSS Bellagio": "/assets/manuals/napolean/propane-patio-heaters/PTH31GTSS-Bellagio.pdf",
+          "Napoleon PTH38PK Propane Cast Aluminum Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH38PK-Propane-Cast-Aluminum-Patio-Heater.pdf",
+          "Napoleon PTH38PSS Bullet Style Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH38PSS-Bullet-Style-Patio-Heater.pdf",
+          "Napoleon PTH2650SS Professional Patio Heater": "/assets/manuals/napolean/propane-patio-heaters/PTH2650SS-Professional-Patio-Heater.pdf"
+        }
+      },
+      {
+        "subcategory": "Vent Free Gas",
+        "pdf": {
+          "Napolean GVF36P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF36P.pdf",
+          "Napolean GVF40P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF40P.pdf",
+          "Napolean GVF42P": "/assets/manuals/napolean/vent-free-gas/Napolean-GVF42P.pdf",
+          "Napolean GVFT8N Torch": "/assets/manuals/napolean/vent-free-gas/Napolean-GVFT8N-Torch.pdf",
+          "Napolean WHD31N Plasmafire": "/assets/manuals/napolean/vent-free-gas/Napolean-WHD31N-Plasmafire.pdf"
+        }
+      },
+      {
+        "subcategory": "Vent Free Gas Stove",
+        "pdf": {
+          "Napoleon GVFS20 Arlington": "/assets/manuals/napolean/vent-free-gas-stove/GVFS20-Arlington.pdf",
+          "Napoleon GVFS60": "/assets/manuals/napolean/vent-free-gas-stove/GVFS60.pdf"
+        }
+      },
+      {
+        "subcategory": "Wood Burning",
+        "pdf": {
+          "Napoleon NZ26": "/assets/manuals/napolean/wood-burning/NZ26.pdf",
+          "Napoleon NZ3000 High Country": "/assets/manuals/napolean/wood-burning/NZ3000-High-Country.pdf",
+          "Napoleon NZ6000 High Country": "/assets/manuals/napolean/wood-burning/NZ6000-High-Country.pdf"
+        }
+      },
+      {
+        "subcategory": "Wood Burning Inserts",
+        "pdf": {
+          "Napoleon 1101": "/assets/manuals/napolean/wood-burning-inserts/1101.pdf",
+          "Napoleon 1402": "/assets/manuals/napolean/wood-burning-inserts/1402.pdf"
+        }
+      },
+      {
+        "subcategory": "Wood Burning Stove",
+        "pdf": {
+          "Napoleon 1100C": "/assets/manuals/napolean/wood-burning-stove/1100C.pdf",
+          "Napoleon 1100 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1100-Pedestal.pdf",
+          "Napoleon 1100PL Leg Model": "/assets/manuals/napolean/wood-burning-stove/1100PL-Leg-Model.pdf",
+          "Napoleon 1150P Wood Gourmet": "/assets/manuals/napolean/wood-burning-stove/1150P-Wood-Gourmet.pdf",
+          "Napoleon 1400C": "/assets/manuals/napolean/wood-burning-stove/1400C.pdf",
+          "Napoleon 1400 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1400-Pedestal.pdf",
+          "Napoleon 1400PL Leg Model": "/assets/manuals/napolean/wood-burning-stove/1400PL-Leg-Model.pdf",
+          "Napoleon 1450 Independence Stove": "/assets/manuals/napolean/wood-burning-stove/1450-Independence-Stove.pdf",
+          "Napoleon 1600C": "/assets/manuals/napolean/wood-burning-stove/1600C.pdf",
+          "Napoleon 1900 Pedestal": "/assets/manuals/napolean/wood-burning-stove/1900-Pedestal.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Regency",
+    "manuals": [
+      {
+        "subcategory": "Regency Gas Fireplaces",
+        "pdf": {
+          "Regency BellavistaB36X": "/assets/manuals/regency/gas/fireplaces/BellavistaB36X.pdf",
+          "Regency BellavistaB36XT": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XT.pdf",
+          "Regency BellavistaB36XTCE": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XTCE.pdf",
+          "Regency BellavistaB36XTE": "/assets/manuals/regency/gas/fireplaces/BellavistaB36XTE.pdf",
+          "Regency BellavistaB41XTCE": "/assets/manuals/regency/gas/fireplaces/BellavistaB41XTCE.pdf",
+          "Regency BellavistaB41XTE": "/assets/manuals/regency/gas/fireplaces/BellavistaB41XTE.pdf",
+          "Regency ExcaliburP90": "/assets/manuals/regency/gas/fireplaces/ExcaliburP90.pdf",
+          "Regency HorizonHZ30E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ30E.pdf",
+          "Regency HorizonHZ33CE": "/assets/manuals/regency/gas/fireplaces/HorizonHZ33CE.pdf",
+          "Regency HorizonHZ40E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ40E.pdf",
+          "Regency HorizonHZ42E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42E.pdf",
+          "Regency HorizonHZ42STE": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42STE.pdf",
+          "Regency HorizonHZ42STEPV": "/assets/manuals/regency/gas/fireplaces/HorizonHZ42STEPV.pdf",
+          "Regency HorizonHZ54E": "/assets/manuals/regency/gas/fireplaces/HorizonHZ54E.pdf",
+          "Regency HorizonHZ54EPV": "/assets/manuals/regency/gas/fireplaces/HorizonHZ54EPV.pdf",
+          "Regency HorizonHZO42": "/assets/manuals/regency/gas/fireplaces/HorizonHZO42.pdf",
+          "Regency PanoramaP33": "/assets/manuals/regency/gas/fireplaces/PanoramaP33.pdf",
+          "Regency PanoramaP33CE": "/assets/manuals/regency/gas/fireplaces/PanoramaP33CE.pdf",
+          "Regency PanoramaP33E": "/assets/manuals/regency/gas/fireplaces/PanoramaP33E.pdf",
+          "Regency PanoramaP36": "/assets/manuals/regency/gas/fireplaces/PanoramaP36.pdf",
+          "Regency PanoramaP36D": "/assets/manuals/regency/gas/fireplaces/PanoramaP36D.pdf",
+          "Regency PanoramaP36E": "/assets/manuals/regency/gas/fireplaces/PanoramaP36E.pdf",
+          "Regency PanoramaP42": "/assets/manuals/regency/gas/fireplaces/PanoramaP42.pdf",
+          "Regency PanoramaP121": "/assets/manuals/regency/gas/fireplaces/PanoramaP121.pdf",
+          "Regency PanoramaP131": "/assets/manuals/regency/gas/fireplaces/PanoramaP131.pdf",
+          "Regency PlateauPTO30": "/assets/manuals/regency/gas/fireplaces/PlateauPTO30.pdf",
+          "Regency SunriseP33SE": "/assets/manuals/regency/gas/fireplaces/SunriseP33SE.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Gas Firetables",
+        "pdf": {
+          "Regency Plateau PTO28CIT": "/assets/manuals/regency/gas/firetables/PlateauPTO28CIT.pdf",
+          "Regency Plateau PTO30CFT": "/assets/manuals/regency/gas/firetables/PlateauPTO30CFT.pdf",
+          "Regency Plateau PTO30CKT": "/assets/manuals/regency/gas/firetables/PlateauPTO30CKT.pdf",
+          "Regency GDS20 Plateau PTO30IST": "/assets/manuals/regency/gas/firetables/PlateauPTO30IST.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Gas Inserts",
+        "pdf": {
+          "Regency Energy E18": "/assets/manuals/regency/gas/inserts/EnergyE18.pdf",
+          "Regency Energy E21": "/assets/manuals/regency/gas/inserts/EnergyE21.pdf",
+          "Regency Energy E33": "/assets/manuals/regency/gas/inserts/EnergyE33.pdf",
+          "Regency Energy U31": "/assets/manuals/regency/gas/inserts/EnergyU31.pdf",
+          "Regency Energy U32": "/assets/manuals/regency/gas/inserts/EnergyU32.pdf",
+          "Regency Energy U32E": "/assets/manuals/regency/gas/inserts/EnergyU32E.pdf",
+          "Regency Excalibur EX-E33": "/assets/manuals/regency/gas/inserts/ExcaliburEX-E33.pdf",
+          "Regency Excalibur EX-U31": "/assets/manuals/regency/gas/inserts/ExcaliburEX-U31.pdf",
+          "Regency Horizon HZI234E": "/assets/manuals/regency/gas/inserts/HorizonHZI234E.pdf",
+          "Regency Horizon HZI390E": "/assets/manuals/regency/gas/inserts/HorizonHZI390E.pdf",
+          "Regency Horizon HZI540E": "/assets/manuals/regency/gas/inserts/LibertyL234.pdf",
+          "Regency Liberty L390E": "/assets/manuals/regency/gas/inserts/LibertyL390E.pdf",
+          "Regency Liberty L540E": "/assets/manuals/regency/gas/inserts/LibertyL540E.pdf",
+          "Regency Liberty L234": "/assets/manuals/regency/gas/inserts/LibertyL234.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Gas Stoves",
+        "pdf": {
+          "Regency Classic C34": "/assets/manuals/regency/gas/Stoves/ClassicC34.pdf",
+          "Regency Ultimate U38": "/assets/manuals/regency/gas/Stoves/UltimateU38.pdf",
+          "Regency Ultimate U39": "/assets/manuals/regency/gas/Stoves/UltimateU39.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Hampton Inserts",
+        "pdf": {
+          "Regency GCI60": "/assets/manuals/regency/hampton/inserts/GCI60.zip",
+          "Regency HI200": "/assets/manuals/regency/hampton/inserts/HI200.pdf",
+          "Regency HI300": "/assets/manuals/regency/hampton/inserts/HI300.pdf",
+          "Regency H-U32": "/assets/manuals/regency/hampton/inserts/H-U32.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Hampton Stoves",
+        "pdf": {
+          "Regency GC60": "/assets/manuals/regency/hampton/stoves/GC60.zip",
+          "Regency H15": "/assets/manuals/regency/hampton/stoves/H15.pdf",
+          "Regency H27": "/assets/manuals/regency/hampton/stoves/H27.pdf",
+          "Regency H35": "/assets/manuals/regency/hampton/stoves/H35.pdf",
+          "Regency H200": "/assets/manuals/regency/hampton/stoves/H200.pdf",
+          "Regency H300": "/assets/manuals/regency/hampton/stoves/H300.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Pellet Insert & Stove",
+        "pdf": {
+          "Regency Greenfire GF55": "/assets/manuals/regency/hampton/GreenfireGF55.pdf",
+          "Regency Greenfire GFI55": "/assets/manuals/regency/hampton/GreenfireGFI55.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Wood Fireplaces",
+        "pdf": {
+          "Regency Classic R90": "/assets/manuals/regency/wood/fireplaces/ClassicR90.zip",
+          "Regency Excalibur EX90": "/assets/manuals/regency/wood/fireplaces/ExcaliburEX90.zip"
+        }
+      },
+      {
+        "subcategory": "Regency Wood Inserts",
+        "pdf": {
+          "Regency Alterra CI1200": "/assets/manuals/regency/wood/inserts/AlterraCI1200.pdf",
+          "Regency Alterra CI1250": "/assets/manuals/regency/wood/inserts/AlterraCI1250.pdf",
+          "Regency Classic H2100": "/assets/manuals/regency/wood/inserts/ClassicH2100.pdf",
+          "Regency Classic I1200": "/assets/manuals/regency/wood/inserts/ClassicI1200.pdf",
+          "Regency Classic I2400": "/assets/manuals/regency/wood/inserts/ClassicI2400.pdf",
+          "Regency Classic I3100": "/assets/manuals/regency/wood/inserts/ClassicI3100.pdf"
+        }
+      },
+      {
+        "subcategory": "Regency Wood stoves",
+        "pdf": {
+          "Regency AlterraCS1200": "/assets/manuals/regency/wood/stoves/AlterraCS1200.pdf",
+          "Regency Alterra CS2400": "/assets/manuals/regency/wood/stoves/AlterraCS2400.pdf",
+          "Regency Classic F1100": "/assets/manuals/regency/wood/stoves/ClassicF1100.pdf",
+          "Regency Classic F2400": "/assets/manuals/regency/wood/stoves/ClassicF2400.pdf",
+          "Regency Classic F3100": "/assets/manuals/regency/wood/stoves/ClassicF3100.pdf",
+          "Regency Classic S2400": "/assets/manuals/regency/wood/stoves/ClassicS2400.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Quadra",
+    "manuals": [
+      {
+        "subcategory": "Quadra Fireplace Products",
+        "pdf": {
+          "Quadra-Fire 7100FP-Bk-B": "/assets/manuals/quadra/fireplace/7100FP-Bk-B.pdf",
+          "Quadra-Fire TWILIGHT-II-MOD": "/assets/manuals/quadra/fireplace/TWILIGHT-II-MOD.pdf"
+        }
+      },
+      {
+        "subcategory": "Quadra Gas Products",
+        "pdf": {
+          "Quadra-Fire FIRESIDE Grand Oak Match Light": "/assets/manuals/quadra/gas/FIRESIDE-Grand-Oak-Match-Light.pdf",
+          "Quadra-Fire FIRESIDE REALWOOD FRW18": "/assets/manuals/quadra/gas/FIRESIDE-REALWOOD-FRW18.pdf",
+          "Quadra-Fire FIRESIDE SUPREME OAK FSO18": "/assets/manuals/quadra/gas/FIRESIDE-SUPREME-OAK-FSO18.pdf",
+          "Quadra-Fire FIRESIDE VERSAWOOD FVW18": "/assets/manuals/quadra/gas/FIRESIDE-VERSAWOOD-FVW18.pdf"
+        }
+      },
+      {
+        "subcategory": "Quadra Insert Products",
+        "pdf": {
+          "Quadra-Fire 41-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/41-I-ACCWOODINSERT.pdf",
+          "Quadra-Fire 51-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/51-I-ACCWOODINSERT.pdf",
+          "Quadra-Fire 2700i ACC Wood Insert": "/assets/manuals/quadra/insert/2700iACCWoodInsert.pdf",
+          "Quadra-Fire 3100-I ACC WOOD INSERT": "/assets/manuals/quadra/insert/3100-IACCWOODINSERT.pdf",
+          "Quadra-Fire MT VERNON PELLET INSERT": "/assets/manuals/quadra/insert/MT-VERNON-PELLET-INSERT.pdf",
+          "Quadra-Fire VOYAGEUR GRAND WOOD INSERT": "/assets/manuals/quadra/insert/VOYAGEUR-GRAND-WOOD-INSERT.pdf",
+          "Quadra-Fire VOYAGEUR WOOD INSERT": "/assets/manuals/quadra/insert/VOYAGEUR-WOOD-INSERT.pdf"
+        }
+      },
+      {
+        "subcategory": "Quadra Remote Products",
+        "pdf": {
+          "Quadra-Fire MtVernon Pellet Appliances AE": "/assets/manuals/quadra/remote/MtVernon-Pellet-Appliances-AE.pdf",
+          "Quadra-Fire RC100 Wireless Wall Switch": "/assets/manuals/quadra/remote/RC100-Wireless-Wall-Switch.pdf",
+          "Quadra-Fire RC200-MULTIFUNCTION-CONTROL": "/assets/manuals/quadra/remote/RC200-MULTIFUNCTION-CONTROL.pdf",
+          "Quadra-Fire RC300 MULTIFUNCTION CONTROL": "/assets/manuals/quadra/remote/RC300-MULTIFUNCTION-CONTROL.pdf",
+          "Quadra-Fire RCE Series Remote": "/assets/manuals/quadra/remote/RCE-Series-Remote.pdf",
+          "Quadra-Fire Remote Kit Electric": "/assets/manuals/quadra/remote/Remote-Kit-Electric.pdf",
+          "Quadra-Fire SMART STAT II Remote Control Kits": "/assets/manuals/quadra/remote/SMART-STAT-II-Remote-Control-Kits.pdf",
+          "Quadra-Fire WSK210 Wall Switches": "/assets/manuals/quadra/remote/WSK210-Wall-Switches.pdf"
+        }
+      },
+      {
+        "subcategory": "Quadra Service Products",
+        "pdf": {
+          "Quadra-Fire 21M ACC": "/assets/manuals/quadra/service/21M-ACC.pdf",
+          "Quadra-Fire 27i ACC": "/assets/manuals/quadra/service/27i-ACC.pdf",
+          "Quadra-Fire 31i-ACC": "/assets/manuals/quadra/service/31i-ACC.pdf",
+          "Quadra-Fire 31M-ACC": "/assets/manuals/quadra/service/31M-ACC.pdf",
+          "Quadra-Fire 31ST ACC": "/assets/manuals/quadra/service/31ST-ACC.pdf",
+          "Quadra-Fire 400": "/assets/manuals/quadra/service/400.pdf",
+          "Quadra-Fire 1100 INSERT": "/assets/manuals/quadra/service/1100_INSERT.pdf",
+          "Quadra-Fire 1900 FS": "/assets/manuals/quadra/service/1900_FS.pdf",
+          "Quadra-Fire 4100i ACT": "/assets/manuals/quadra/service/4100i-ACT.pdf"
+        }
+      },
+      {
+        "subcategory": "Quadra stove Products",
+        "pdf": {
+          "Quadra-Fire MTVERNONPELLETSTOVE": "/assets/manuals/quadra/stove/MTVERNONPELLETSTOVE.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Majestic",
+    "manuals": [
+      {
+        "subcategory": "Majestic Electric Products",
+        "pdf": {
+          "Majestic Allura Fire WEF33, WEF36": "/assets/manuals/majestic/electric/68D5301_WEF33_36_3.pdf"
+        }
+      },
+      {
+        "subcategory": "Majestic Fireplace Inserts Products",
+        "pdf": {
+          "Majestic ISD Series": "/assets/manuals/majestic/fireplace-inserts/23D8036_33ISDG_5.pdf",
+          "Majestic Topaz": "/assets/manuals/majestic/fireplace-inserts/83D0524_30ILDV_8.pdf",
+          "Majestic Amber": "/assets/manuals/majestic/fireplace-inserts/57D0215_380IDV_13.pdf",
+          "Majestic Triumph": "/assets/manuals/majestic/fireplace-inserts/20304170_30ICFDV_Insert_1.pdf",
+          "Majestic LoRider Designer": "/assets/manuals/majestic/fireplace-inserts/79D0004_VF_Designer_5.pdf",
+          "Majestic Magnum": "/assets/manuals/majestic/fireplace-inserts/26D4750_MCUF_Rev_9.pdf",
+          "Majestic LoRider": "/assets/manuals/majestic/fireplace-inserts/26D4721_LCUF36_11.pdf",
+          "Majestic BUF Series": "/assets/manuals/majestic/fireplace-inserts/61D1013_BUF_9.pdf"
+        }
+      },
+      {
+        "subcategory": "Majestic Gas/B Vent Products",
+        "pdf": {
+          "Majestic Prodigy": "/assets/manuals/majestic/gas-b-vent/53D9009_B_VentSpecialty_5.pdf",
+          "Majestic SBV Series": "/assets/manuals/majestic/gas-b-vent/62D4037_400BBV_SBV_14.pdf",
+          "Majestic BBV Series": "/assets/manuals/majestic/gas-b-vent/20301938_BVSTNSC_2.pdf"
+        }
+      },
+      {
+        "subcategory": "Majestic Gas/Direct Vent Products",
+        "pdf": {
+          "Majestic Marquis 73D4125-KSTDV": "/assets/manuals/majestic/gas-direct-vent/73D4125_KSTDV_9.pdf",
+          "Majestic Lexington 51D0528_LXDV_13": "/assets/manuals/majestic/gas-direct-vent/51D0528_LXDV_13.pdf",
+          "Majestic Pearl 20302381-LDV Designer 2": "/assets/manuals/majestic/gas-direct-vent/20302381_LDV_Designer_2.pdf",
+          "Majestic Cameo 75D2525-DVM 10": "/assets/manuals/majestic/gas-direct-vent/75D2525_DVM_10.pdf",
+          "Majestic Onyx 75D0004-MLDV 15": "/assets/manuals/majestic/gas-direct-vent/75D0004_MLDV_15.pdf",
+          "Majestic DVB Series 54D7051-DVB7-6": "/assets/manuals/majestic/gas-direct-vent/54D7051_DVB7_6.pdf",
+          "Majestic Solitaire 74D3001-DVBL7 12": "/assets/manuals/majestic/gas-direct-vent/74D3001_DVBL7_12.pdf",
+          "Majestic DVBH Series 54D8001-DVBH7-6": "/assets/manuals/majestic/gas-direct-vent/54D8001_DVBH7_6.pdf",
+          "Majestic CDV Series 69D3011-CDVRT7-12": "/assets/manuals/majestic/gas-direct-vent/69D3011_CDVRT7_12.pdf",
+          "Majestic Tribute 20014621-CDVZ 5": "/assets/manuals/majestic/gas-direct-vent/69D3011_CDVRT7_12.pdf"
+        }
+      },
+      {
+        "subcategory": "Majestic Gas/Vent Free Products",
+        "pdf": {
+          "Majestic DFS Series": "/assets/manuals/majestic/gas-vent-free/71D0533_VFH_7.pdf",
+          "Majestic Chesapeake": "/assets/manuals/majestic/gas-vent-free/20301726_CFX_4.pdf",
+          "Majestic Parlor": "/assets/manuals/majestic/gas-vent-free/90D0093_Parlor_PL20_5.pdf",
+          "Majestic VFS Series": "/assets/manuals/majestic/gas-vent-free/33D4051_VFS_DBX_7.pdf"
+        }
+      },
+      {
+        "subcategory": "Majestic Wood Burning Products",
+        "pdf": {
+          "Majestic Monarch BFC36": "/assets/manuals/majestic/wood-burning/7412647_BFC_20.pdf",
+          "Majestic WarmMajic WMC42, WMC36": "/assets/manuals/majestic/wood-burning/20000583_WMC_30.pdf",
+          "Majestic Biltmore SB50HB": "/assets/manuals/majestic/wood-burning/87D0058_SB50_5.pdf",
+          "Majestic Sovereign": "/assets/manuals/majestic/wood-burning/7412948_SR_SC_27.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Monessen",
+    "manuals": [
+      {
+        "subcategory": "Monessen Wood Burning Products",
+        "pdf": {
+          "Monessen Monarch": "/assets/manuals/monessen/wood-burning/7412647_BFC_20.pdf",
+          "Monessen WarmMajic": "/assets/manuals/monessen/wood-burning/20000583_WMC_30.pdf",
+          "Monessen Biltmore": "/assets/manuals/monessen/wood-burning/87D0058_SB50_5.pdf",
+          "Monessen Sovereign": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf",
+          "Monessen Designer Series": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf",
+          "Monessen Royalton": "/assets/manuals/monessen/wood-burning/7412948_SR_SC_27.pdf"
+        }
+      },
+      {
+        "subcategory": "Monessen Gas/Vent Free Products",
+        "pdf": {
+          "Monessen DFS Series": "/assets/manuals/monessen/gas-vent-free/71D0532_DFS_10.pdf",
+          "Monessen Chesapeake": "/assets/manuals/monessen/gas-vent-free/20301726_CFX_4.pdf",
+          "Monessen Parlor": "/assets/manuals/monessen/gas-vent-free/90D0093_Parlor_PL20_5.pdf",
+          "Monessen DFX Series": "/assets/manuals/monessen/gas-vent-free/33D4047_DFX_DBX_8.pdf",
+          "Monessen DBX Series": "/assets/manuals/monessen/gas-vent-free/33D4047_DFX_DBX_8.pdf"
+        }
+      },
+      {
+        "subcategory": "Monessen Gas/B Vent Products",
+        "pdf": {
+          "Monessen Prodigy": "/assets/manuals/monessen/gas-b-vent/20301938_BVSTNSC_2.pdf",
+          "Monessen SBV Series": "/assets/manuals/monessen/gas-b-vent/62D4037_400BBV_SBV_14.pdf",
+          "Monessen BBV Series": "/assets/manuals/monessen/gas-b-vent/62D4037_400BBV_SBV_14.pdf"
+        }
+      },
+      {
+        "subcategory": "Monessen Gas/Direct Vent Products",
+        "pdf": {
+          "Monessen Covington See Thru": "/assets/manuals/monessen/gas-direct-vent/73D4125_KSTDV_9.pdf",
+          "Monessen Covington": "/assets/manuals/monessen/gas-direct-vent/51D0528_LXDV_13.pdf",
+          "Monessen Serenade See Thru": "/assets/manuals/monessen/gas-direct-vent/20302381_LDV_Designer_2.pdf",
+          "Monessen Serenade": "/assets/manuals/monessen/gas-direct-vent/78D0011_WDV_9.pdf",
+          "Monessen Arlington": "/assets/manuals/monessen/gas-direct-vent/20302381_LDV_Designer_2.pdf",
+          "Monessen Manchester": "/assets/manuals/monessen/gas-direct-vent/75D2523_MDV_9.pdf",
+          "Monessen Winchester": "/assets/manuals/monessen/gas-direct-vent/75D0004_MLDV_15.pdf",
+          "Monessen BDV Series": "/assets/manuals/monessen/gas-direct-vent/54D7050_BDV7_6.pdf",
+          "Monessen Belmont": "/assets/manuals/monessen/gas-direct-vent/74D3000_BLDV7_10.pdf",
+          "Monessen HBDV Series": "/assets/manuals/monessen/gas-direct-vent/54D8000_HBDV7_6.pdf",
+          "Monessen CDV Series": "/assets/manuals/monessen/gas-direct-vent/69D3011_CDVRT7_12.pdf",
+          "Monessen Tribute": "/assets/manuals/monessen/gas-direct-vent/20014621_CDVZ_5.pdf"
+        }
+      },
+      {
+        "subcategory": "Monessen Fireplace Inserts Products",
+        "pdf": {
+          "Monessen DIS33 Series": "/assets/manuals/monessen/fireplace-inserts/23D8020_DIS33G_7.pdf",
+          "Monessen Harmony": "/assets/manuals/monessen/fireplace-inserts/20304164_ICFDV_Insert_1.pdf",
+          "Monessen Reveal": "/assets/manuals/monessen/fireplace-inserts/83D0511_ILDV_8.pdf",
+          "Monessen Accent": "/assets/manuals/monessen/fireplace-inserts/57D0016_IDV380_12.pdf",
+          "Monessen LoRider Designer": "/assets/manuals/monessen/fireplace-inserts/79D0004_VF_Designer_5.pdf",
+          "Monessen Magnum": "/assets/manuals/monessen/fireplace-inserts/MCUF_RBLOTMC_26D4720_Rev_7.pdf",
+          "Monessen LoRider": "/assets/manuals/monessen/fireplace-inserts/26D4721_LCUF36_11.pdf",
+          "Monessen GCUF GRUF Series": "/assets/manuals/monessen/fireplace-inserts/71D0530_GCUF_7.pdf",
+          "Monessen BUF Series": "/assets/manuals/monessen/fireplace-inserts/61D1013_BUF_9.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Kingsman",
+    "manuals": [
+      {
+        "subcategory": "Kingsman Direct Vent Products",
+        "pdf": {
+          "Kingsman ZDV3320": "/assets/manuals/kingsman/direct-vent/zdv3320_10.pdf",
+          "Kingsman ZDV6000": "/assets/manuals/kingsman/direct-vent/zdv6000_11.pdf",
+          "Kingsman ZDV3620": "/assets/manuals/kingsman/direct-vent/zdv3620_12.pdf",
+          "Kingsman ZDV3622": "/assets/manuals/kingsman/direct-vent/zdv3622_13.pdf",
+          "Kingsman ZDV3624/28/32": "/assets/manuals/kingsman/direct-vent/zdv3624_28_32_14.pdf",
+          "Kingsman ZDV4224/28/32": "/assets/manuals/kingsman/direct-vent/zdv4224_28_32_15.pdf",
+          "Kingsman ZDV3624B": "/assets/manuals/kingsman/direct-vent/zdv3624b_16.pdf",
+          "Kingsman HBZDV3624/28/32": "/assets/manuals/kingsman/direct-vent/hbzdv3624_28_32_17.pdf",
+          "Kingsman HBZDV4224/28/32": "/assets/manuals/kingsman/direct-vent/hbzdv4224_28_32_18.pdf",
+          "Kingsman HBZDV4740": "/assets/manuals/kingsman/direct-vent/hbzdv4740_20.pdf",
+          "Kingsman MDV31/39": "/assets/manuals/kingsman/direct-vent/mdv31_39_22.pdf",
+          "Kingsman MDV38": "/assets/manuals/kingsman/direct-vent/mdv38_23.pdf",
+          "Kingsman MDV30": "/assets/manuals/kingsman/direct-vent/mdv30_24.pdf",
+          "Kingsman ZDV1001": "/assets/manuals/kingsman/direct-vent/zdv1001_25.pdf",
+          "Kingsman ZDVRB3622": "/assets/manuals/kingsman/direct-vent/zdvrb3622_126.pdf",
+          "Kingsman ZRB46": "/assets/manuals/kingsman/direct-vent/zrb46_132.pdf"
+        }
+      },
+      {
+        "subcategory": "Kingsman Fire Places – Vented",
+        "pdf": {
+          "Kingsman ZV3600": "/assets/manuals/kingsman/vented/zv3600_26.pdf",
+          "Kingsman ZV4200": "/assets/manuals/kingsman/vented/zv4200_27.pdf",
+          "Kingsman ZV6500": "/assets/manuals/kingsman/vented/zv6500_28.pdf"
+        }
+      },
+      {
+        "subcategory": "Kingsman Fire Places – Vent Free",
+        "pdf": {
+          "Kingsman ZVF24": "/assets/manuals/kingsman/vent-free/zvf24_29.pdf",
+          "Kingsman ZVF33/36U/42U": "/assets/manuals/kingsman/vent-free/zvf33_36u_42u_32.pdf",
+          "Kingsman ZVF52": "/assets/manuals/kingsman/vent-free/zvf52_33.pdf",
+          "Kingsman MVF40": "/assets/manuals/kingsman/vent-free/mvf40_34.pdf"
+        }
+      },
+      {
+        "subcategory": "Freestanding Stoves – Direct Vent/Vented",
+        "pdf": {
+          "Kingsman FV200": "/assets/manuals/kingsman/free-standing-direct/fv200_35.pdf",
+          "Kingsman FDV200": "/assets/manuals/kingsman/free-standing-direct/fdv200_36.pdf",
+          "Kingsman FDV300": "/assets/manuals/kingsman/free-standing-direct/fdv300_37.pdf",
+          "Kingsman FDV350": "/assets/manuals/kingsman/free-standing-direct/fdv350_38.pdf",
+          "Kingsman FV5000": "/assets/manuals/kingsman/free-standing-direct/fv5000_39.pdf",
+          "Kingsman FDV5000": "/assets/manuals/kingsman/free-standing-direct/fdv5000_40.pdf"
+        }
+      },
+      {
+        "subcategory": "Freestanding Stoves – Vent Free",
+        "pdf": {
+          "Kingsman FVF300": "/assets/manuals/kingsman/free-standing-direct-free/fvf300_41.pdf",
+          "Kingsman FVF350": "/assets/manuals/kingsman/free-standing-direct-free/fvf350_42.pdf"
+        }
+      },
+      {
+        "subcategory": "Fireplace Inserts – Direct Vent & Vent Free",
+        "pdf": {
+          "Kingsman VFI25": "/assets/manuals/kingsman/fireplace-inserts/vfi25_43.pdf",
+          "Kingsman VFI30": "/assets/manuals/kingsman/fireplace-inserts/vfi30_44.pdf",
+          "Kingsman IDV26": "/assets/manuals/kingsman/fireplace-inserts/idv26_130.pdf",
+          "Kingsman IVF36": "/assets/manuals/kingsman/fireplace-inserts/ivf36_46.pdf"
+        }
+      },
+      {
+        "subcategory": "Outdoor Living – Fireplaces & Fire Pits",
+        "pdf": {
+          "Kingsman OFP42": "/assets/manuals/kingsman/outdoor-living/ofp42_120.pdf",
+          "Kingsman FP2085": "/assets/manuals/kingsman/outdoor-living/fp2085_47.pdf",
+          "Kingsman FP2785": "/assets/manuals/kingsman/outdoor-living/fp2785_48.pdf"
+        }
+      },
+      {
+        "subcategory": "Kingsman Direct Vent Products",
+        "pdf": {
+          "Kingsman GLVF24": "/assets/manuals/kingsman/gas-log-set/glvf24_49.pdf",
+          "Kingsman GLMVF38": "/assets/manuals/kingsman/gas-log-set/glmvf38_50.pdf",
+          "Kingsman VB18/24": "/assets/manuals/kingsman/gas-log-set/vb18_24_51.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Westgate",
+    "manuals": [
+      {
+        "subcategory": "DV48 – For units with serial #’s from 215256 – 216700",
+        "pdf": {
+          "C-11799 Instruction DV48 Owner’s Manual_Part1": "/assets/manuals/westgate/C-11799-SN-215256-216700-Instruction-DV48-Owners-Manual_Part1.pdf",
+          "C-11799 Instruction DV48 Owner’s Manual_Part2": "/assets/manuals/westgate/C-11799-SN-215256-216700-Instruction-DV48-Owners-Manual_Part2.pdf"
+        }
+      },
+      {
+        "subcategory": "DV48 – For units with serial #’s from 216701 on",
+        "pdf": {
+          "C-12004 Instruction DV48 Owner’s Manual 1 of 2": "/assets/manuals/westgate/C-12004-Instruction-DV48-Owners-Manual-1-of-2.pdf",
+          "C-12004 Instruction DV48 Owner’s Manual 2 of 2": "/assets/manuals/westgate/C-12004-Instruction-DV48-Owners-Manual-2-of-2.pdf"
+        }
+      },
+      {
+        "subcategory": "DV62 –",
+        "pdf": {
+          "C-12279 Instruction DV62 Owner’s Manual 02": "/assets/manuals/westgate/C-12279-Instruction-DV62-Owners-Manual-02.pdf"
+        }
+      },
+      {
+        "subcategory": "Technical Manuals DV48 – For units with serial #’s from 216701 on",
+        "pdf": {
+          "C-12029 Instruction DV48 Technical Manual": "/assets/manuals/westgate/C-12029-Instruction-DV48-Technical-Manual.pdf"
+        }
+      },
+      {
+        "subcategory": "Technical Manuals DV62",
+        "pdf": {
+          "C-12283 Instruction DV62 Technical Manual": "/assets/manuals/westgate/C-12283-Instruction-DV62-Technical-Manual.pdf"
+        }
+      },
+      {
+        "subcategory": "Technical Information DV48 & DV62",
+        "pdf": {
+          "C-11969 Instruction Westgate Power Vent Kit DV48 and DV62": "/assets/manuals/westgate/C-11969-Instruction-Westgate-Power-Vent-Kit-DV48-and-DV62.pdf"
+        }
+      },
+      {
+        "subcategory": "Technical Information DV48",
+        "pdf": {
+          "C-11968 Instruction Westgate DV 48 Heat Distribution Kit": "/assets/manuals/westgate/C-11968-Instruction-Westgate-DV-48-Heat-Distribution-Kit.pdf",
+          "DV48 Log Placement": "/assets/manuals/westgate/DV48-Log-Placement.pdf"
+        }
+      },
+      {
+        "subcategory": "Technical Information DV62",
+        "pdf": {
+          "DV62 Log Placement": "/assets/manuals/westgate/DV62-Log-Placement.pdf"
+        }
+      }
+    ]
+  }
 ]

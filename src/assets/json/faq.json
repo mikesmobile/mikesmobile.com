@@ -1,41 +1,40 @@
 [
-    {
-        "category":"General Questions",
-        "questions":{
-                        "Are you able to do work onsite?":"Yes! We are a mobile screen service that can take care of all your screen needs in one visit. When scheduling please be as detailed as possible so the correct amount of time can be set aside for the technician.",
-                        "What type of payment do you accept?":"We accept Cash, Checks and all major Credit Cards.",
-                        "Can you do same day appointments?":"We can do same day appointments depending on our schedule. We always want to service our customer’s needs as quickly as possible.",
-                        "Are you licensed?":"I’m glad you asked. Yes we are. Mike’s Mobile Screen & Chimney Service carries a B contractors license. Please look us up using the CSLB Website. We are also insured and bonded."
-        }       
-    },
-    {
-        "category":"Screen doors and Security Doors",
-        "questions":{
-                        "What kind of doors do you have?":"We carry security, swinging, sliding and retractable screen doors. For more information on any kind of Screen Doors click here. If you would like information on Security Doors click here",
-                        "How are your doors different from Hardware Store’s sliding screen doors?":"Hardware Stores use rollform metal framing with plastic wheels and handles made in standard prefab sizes. The problem here is that most homes are not exactly standard size. Our sliding screen doors are custom made for your home, using the best material on the market. Our sliding screen doors offer a complete metal construction including metal wheels, bearing and handle. We also offer a 10 year warranty.",
-                        "Can you install a pet door into my patio slider?":"Yes! Please check out our Pet Door page to see what size you’ll need. We use Pride Pet doors and our Phifer Suntex screen to complete this task.",
-                        "Which Security Door should I choose?":"Please visit our Security Door page and review the chart. You can also call us! We’ll help you find a door that is perfect for your home. We have tons of styles and mounting options!"
-                    }
-    },
-    {
-        "category":"Window Screens",
-        "questions":{
-            "What kind of screen material do you use?":"We use a high quality fiberglass mesh for regular bugscreens. If you’re thinking about upgrading to Solar Screen we carry Phifer Suntex 80% and 90%.",
-            "How do I keep my screens clean?":"If you are able to clean your screens regularly a light rinse from a hose should do the trick."
-        }   
-    },
-    {
-        "category":"Solar Screens",
-        "questions":{
-            "What are Solar Screens?":"Solar Screens are a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors. They are best used when covering the entire window and not just in place of a traditional screen.",
-            "Do you offer a screen that is pet resistant?":"Our Phifer Suntex screen is amazing for blocking the Sun’s harmful UV rays and it’s also pet resistant! Suntex screen will stand up to your pets. There is no longer a need to install an extra metal pet guard on your patio doors.",
-            "What colors do Solar Screen come in and is there a price difference?":"Solar Screens come in 5 colors incoluding Black, Brown, Grey, Beige, and Stucco. There is no price difference between them. They are all the same price. For more information about Solar Screens click here",
-            "What’s the difference between Suntex 80% and 90%?":"An 80% weave blocks 80% of the UV rays and the 90% weave block 90%.",
-            "How much can I expect to save on my electric bill?":"Using the 90% Suntext will maximize your savings, However, even with the 80% you can expect a 20% savings!",
-            "How do I keep my Solar Screens clean?":"We recommend to keep your solar screens looking nice that they be cleaned 1-2 times a year with a mild soap/water solution.",
-            "How Long Do Solar Screens Last?":"They can outlast almost every other part of your home. Keeping them clean can improve the life of your Solar Screens.",
-            "Will Solar Screens Block My View?":"No. The 80% has perfect visibility looking out from the inside. The 90% has slightly less visibility and both offer some privacy from the outside looking in during the day."
-        }
+  {
+    "category": "General Questions",
+    "questions": {
+      "Are you able to do work onsite?": "Yes! We are a mobile screen service that can take care of all your screen needs in one visit. When scheduling please be as detailed as possible so the correct amount of time can be set aside for the technician.",
+      "What type of payment do you accept?": "We accept Cash, Checks and all major Credit Cards.",
+      "Can you do same day appointments?": "We can do same day appointments depending on our schedule. We always want to service our customer’s needs as quickly as possible.",
+      "Are you licensed?": "I’m glad you asked. Yes we are. Mike’s Mobile Screen & Chimney Service carries a B contractors license. Please look us up using the CSLB Website. We are also insured and bonded."
     }
-    
+  },
+  {
+    "category": "Screen doors and Security Doors",
+    "questions": {
+      "What kind of doors do you have?": "We carry security, swinging, sliding and retractable screen doors. For more information on any kind of Screen Doors click here. If you would like information on Security Doors click here",
+      "How are your doors different from Hardware Store’s sliding screen doors?": "Hardware Stores use rollform metal framing with plastic wheels and handles made in standard prefab sizes. The problem here is that most homes are not exactly standard size. Our sliding screen doors are custom made for your home, using the best material on the market. Our sliding screen doors offer a complete metal construction including metal wheels, bearing and handle. We also offer a 10 year warranty.",
+      "Can you install a pet door into my patio slider?": "Yes! Please check out our Pet Door page to see what size you’ll need. We use Pride Pet doors and our Phifer Suntex screen to complete this task.",
+      "Which Security Door should I choose?": "Please visit our Security Door page and review the chart. You can also call us! We’ll help you find a door that is perfect for your home. We have tons of styles and mounting options!"
+    }
+  },
+  {
+    "category": "Window Screens",
+    "questions": {
+      "What kind of screen material do you use?": "We use a high quality fiberglass mesh for regular bugscreens. If you’re thinking about upgrading to Solar Screen we carry Phifer Suntex 80% and 90%.",
+      "How do I keep my screens clean?": "If you are able to clean your screens regularly a light rinse from a hose should do the trick."
+    }
+  },
+  {
+    "category": "Solar Screens",
+    "questions": {
+      "What are Solar Screens?": "Solar Screens are a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors. They are best used when covering the entire window and not just in place of a traditional screen.",
+      "Do you offer a screen that is pet resistant?": "Our Phifer Suntex screen is amazing for blocking the Sun’s harmful UV rays and it’s also pet resistant! Suntex screen will stand up to your pets. There is no longer a need to install an extra metal pet guard on your patio doors.",
+      "What colors do Solar Screen come in and is there a price difference?": "Solar Screens come in 5 colors incoluding Black, Brown, Grey, Beige, and Stucco. There is no price difference between them. They are all the same price. For more information about Solar Screens click here",
+      "What’s the difference between Suntex 80% and 90%?": "An 80% weave blocks 80% of the UV rays and the 90% weave block 90%.",
+      "How much can I expect to save on my electric bill?": "Using the 90% Suntext will maximize your savings, However, even with the 80% you can expect a 20% savings!",
+      "How do I keep my Solar Screens clean?": "We recommend to keep your solar screens looking nice that they be cleaned 1-2 times a year with a mild soap/water solution.",
+      "How Long Do Solar Screens Last?": "They can outlast almost every other part of your home. Keeping them clean can improve the life of your Solar Screens.",
+      "Will Solar Screens Block My View?": "No. The 80% has perfect visibility looking out from the inside. The 90% has slightly less visibility and both offer some privacy from the outside looking in during the day."
+    }
+  }
 ]

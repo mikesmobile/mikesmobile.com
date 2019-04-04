@@ -11,36 +11,38 @@ import { Http } from '@angular/http';
   providers: [LandingService]
 })
 export class SeoLocationLpComponent implements OnInit {
+  private req: any;
+  private routeSub: any;
+  slug: string;
+  landingPage: LandingItem;
+  numbers: number[];
 
-  private req:any
-  private routeSub:any
-  slug:string
-  landingPage:LandingItem
-  numbers:number[]
-
-  constructor(private route:ActivatedRoute, private _service:LandingService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private _service: LandingService
+  ) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug']
+      this.slug = params['slug'];
       this.req = this._service.listLocations().subscribe((data) => {
         data.filter((item) => {
           if (item.slug == this.slug) {
-            this.landingPage = item as LandingItem
+            this.landingPage = item as LandingItem;
           }
-        })
-      })
-    })
+        });
+      });
+    });
 
     this.numbers = this.numbersArray();
   }
 
   numbersArray() {
-    var list:number[] = [];
-    for (var i = 0; i <= 60; i++){
+    var list: number[] = [];
+    for (var i = 0; i <= 60; i++) {
       var num = i;
-      list.push(num)
+      list.push(num);
     }
-    return list
+    return list;
   }
 }

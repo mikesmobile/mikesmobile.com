@@ -10,27 +10,28 @@ import { ServicesService } from '../services/service.service';
   providers: [ServicesService]
 })
 export class LandingPageComponent implements OnInit, OnDestroy {
+  private req: any;
+  private routeSub: any;
 
-  private req:any;
-  private routeSub:any;
+  slug: string;
+  landing: ServiceItem;
 
-  slug:string
-  landing:ServiceItem
-
-  constructor(private route: ActivatedRoute, private _service:ServicesService) { }
+  constructor(
+    private route: ActivatedRoute,
+    private _service: ServicesService
+  ) {}
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe(params => {
-      this.slug = params['slug']
-      this.req = this._service.list().subscribe(data => {
-        data.filter(item => {
-          if(item.slug == this.slug){
+    this.routeSub = this.route.params.subscribe((params) => {
+      this.slug = params['slug'];
+      this.req = this._service.list().subscribe((data) => {
+        data.filter((item) => {
+          if (item.slug == this.slug) {
             this.landing = item as ServiceItem;
           }
-        })
-      })
-    })
+        });
+      });
+    });
   }
-  ngOnDestroy(){}
-
+  ngOnDestroy() {}
 }

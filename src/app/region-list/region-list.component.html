@@ -6,19 +6,30 @@
     <!--Section heading-->
     <h1 class="text-center mt-md-4 pt-4 pb-md-4">Regions</h1>
     <!--Section description-->
-    <p class="section-description px-4">We offer our services to all these areas!.</p>
+    <p class="section-description px-4">
+      We offer our services to all these areas!.
+    </p>
     <div *ngFor="let region of regions">
-      <u>{{region}}</u>
+      <u>{{ region }}</u>
       <div *ngFor="let k of regionList">
         <div *ngIf="region && k.region.toLowerCase() === region.toLowerCase()">
-          <a *ngIf="k.type === 'landing-chimney'" [routerLink]='"/chimneys/"+k.slug'>
-            <div>{{k.title}}</div>
+          <a
+            *ngIf="k.type === 'landing-chimney'"
+            [routerLink]="'/chimneys/' + k.slug"
+          >
+            <div>{{ k.title }}</div>
           </a>
-          <a *ngIf="k.type === 'landing-screen'" [routerLink]='"/screens/"+k.slug'>
-            <div>{{k.title}}</div>
+          <a
+            *ngIf="k.type === 'landing-screen'"
+            [routerLink]="'/screens/' + k.slug"
+          >
+            <div>{{ k.title }}</div>
           </a>
-          <a *ngIf="k.type === 'landing-security'" [routerLink]='"/security/"+k.slug'>
-            <div>{{k.title}}</div>
+          <a
+            *ngIf="k.type === 'landing-security'"
+            [routerLink]="'/security/' + k.slug"
+          >
+            <div>{{ k.title }}</div>
           </a>
         </div>
       </div>

@@ -1,4 +1,4 @@
-export class FaqSegment{
-    category:string
-    questions:{}
+export class FaqSegment {
+  category: string;
+  questions: {};
 }

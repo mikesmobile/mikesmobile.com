@@ -8,9 +8,8 @@ describe('SeoAdwordsLpComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SeoAdwordsLpComponent ]
-    })
-    .compileComponents();
+      declarations: [SeoAdwordsLpComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
