@@ -80,7 +80,7 @@ export class AppComponent {
             let tag = {
               name: 'description',
               content:
-                "Mike's Mobile Screen and Chimney offers screen repair, Security Doors, Chimney inspections,chimney repairs, retractable awnings and more!"
+                "Mike's Mobile Screen and Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
             };
 
             const metaInfo = this.metaList.find((_meta) => {

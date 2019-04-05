@@ -34,7 +34,7 @@
           }}</a>
         </h1>
         <h1
-          *ngIf="category === 'Security Doors and Windows'"
+          *ngIf="category === 'Security Screen Doors and Windows'"
           class="text-center py-3"
           id="Security-Doors-and-Windows"
         >
@@ -44,12 +44,18 @@
             >{{ category }}</a
           >
         </h1>
-        <h1 *ngIf="category === 'Security Doors'" class="text-center py-3">
+        <h1
+          *ngIf="category === 'Security Screen Doors'"
+          class="text-center py-3"
+        >
           <a class="orange-text" [routerLink]="['/about/security-doors']">{{
             category
           }}</a>
         </h1>
-        <h1 *ngIf="category === 'Security Windows'" class="text-center py-3">
+        <h1
+          *ngIf="category === 'Security Window Screens'"
+          class="text-center py-3"
+        >
           <a class="orange-text" [routerLink]="['/about/security-windows']">{{
             category
           }}</a>

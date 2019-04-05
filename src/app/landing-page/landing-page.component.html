@@ -72,7 +72,7 @@
         <a
           class="orange-text"
           [routerLink]="['/about/security-doors-and-windows']"
-          >Security Doors</a
+          >Security Screen Doors</a
         >
         page! Mike’s Mobile has you covered no matter what application your home
         needs.
@@ -128,7 +128,7 @@
         <a
           class="orange-text"
           [routerLink]="['/about/security-doors-and-windows']"
-          >Security Doors</a
+          >Security Screen Doors</a
         >
         page! Mike’s Mobile has you covered no matter what application your home
         needs.
@@ -227,7 +227,7 @@
         <a
           class="orange-text"
           [routerLink]="['/about/security-doors-and-windows']"
-          >Security Doors</a
+          >Security Screen Doors</a
         >
         page! Mike’s Mobile has you covered no matter what application your home
         needs.
@@ -325,99 +325,101 @@
       <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
       <p class="p-2">
-        Upgrade your style along with security with our high quality security
-        doors. Whether you are looking for a traditional security door for
-        safety or our high quality aluminum security doors to protect both your
-        view and your home, Mike’s Mobile Screens has plenty of options for you.
+        Upgrade your style along with security with our security doors. Whether
+        you are looking for a traditional security door for safety or our high
+        quality aluminum security doors to protect both your view and your home,
+        Mike’s Mobile Screens has plenty of options for you.
       </p>
       <div class="row">
-        <div class="col">
-          <img
-            src="/assets/images/security/security-door-table/security-door-table.jpg"
-            class="img-fluid"
-            alt="Security Doors Table"
-            (click)="securityAbtModal.show()"
-          />
-          <div
-            mdbModal
-            #securityAbtModal="mdb-modal"
-            class="modal fade"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="securityAbtModal"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="close pull-right"
-                    aria-label="Close"
-                    (click)="securityAbtModal.hide()"
-                  >
-                    <span aria-hidden="true">×</span>
-                  </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
-                    {{ landing.title }}
-                  </h4>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="/assets/images/security/security-door-table/security-door-table.jpg"
-                    class="img-fluid"
-                    alt="Security Doors Table"
-                  />
-                </div>
-              </div>
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/viewguard-security-doors"
+            ><img
+              src="./assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+              alt="Viewguard Security Door"
+              class="img-fluid"
+          /></a>
+        </div>
+
+        <!-- Above-the-fold Text-->
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Front Security Screen Doors</h3>
+          <div class="container">
+            <ul class="pb-3">
+              <li id="l2">
+                Our high quality security doors are built to protect your home
+              </li>
+              <li id="l2">
+                These doors keep intruders out without compromising the
+                appearance of your home
+              </li>
+              <li id="l2">
+                With security doors whose designs say "upscale" instead of
+                "security" you can't go wrong with a Mike's Mobile security
+                door!
+              </li>
+            </ul>
+            <div class="d-flex flex-column">
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/grid/titan-security-doors"
+              >
+                Titan
+              </a>
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/viewguard-security-doors"
+              >
+                Viewguard
+              </a>
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/tru-view-security-doors"
+              >
+                Tru View
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Security Doors</h4>
-          <div class="d-flex flex-column">
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/grid/titan-security-doors']"
-            >
-              Titan Security Screen Door
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/viewguard-security-doors']"
-            >
-              Viewguard
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/tru-view-security-doors']"
-            >
-              Tru View
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/tru-frame-security-doors']"
-            >
-              Tru Frame
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/sliding-security-doors']"
-            >
-              Sliding Security Doors
-            </button>
+      </div>
+
+      <br />
+      <hr />
+      <br />
+
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Patio Doors</h3>
+          <div class="container">
+            <p class="p-2">
+              A sliding security door replaces your existing patio screen door.
+              These doors come pre-assembled and tamper resistant. Enjoy the
+              cool night air while sleeping in peace, quiet and safety. These
+              sliding security doors are also pet resistant! No more ripped
+              screens from pets.
+            </p>
+            <div class="d-flex flex-column">
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/sliding-security-doors"
+              >
+                Sliding Security Screen Doors
+              </a>
+            </div>
           </div>
-          <br /><br />
+        </div>
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/sliding-security-doors"
+            ><img
+              src="./assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
+              class="img-fluid"
+              alt="Double Stainless Steel Sliding Security Door"
+          /></a>
         </div>
       </div>
     </div>
@@ -429,86 +431,45 @@
     <div class="container py-4">
       <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
-      <p class="p-2">
-        Upgrade your style along with security with our high quality security
-        doors. Whether you are looking for a traditional security door for
-        safety or our high quality aluminum security doors to protect both your
-        view and your home, Mike’s Mobile Screens has plenty of options for you.
-      </p>
+
       <div class="row">
-        <div class="col text-center p-3">
-          <img
-            src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
-            class="p-3 w-75 img-fluid"
-            alt="Security Window"
-            (click)="securityAbtModal.show()"
-          />
-          <div
-            mdbModal
-            #securityAbtModal="mdb-modal"
-            class="modal fade"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="securityAbtModal"
-            aria-hidden="true"
-          >
-            <div class="modal modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="close pull-right"
-                    aria-label="Close"
-                    (click)="securityAbtModal.hide()"
-                  >
-                    <span aria-hidden="true">x</span>
-                  </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
-                    {{ landing.title }}
-                  </h4>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
-                    class="w-75 img-fluid"
-                    alt="Security Window"
-                  />
-                </div>
-              </div>
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/crl-guarda-quick-escape"
+            ><img
+              src="./assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+              class="img-fluid"
+              alt="Guarda Quick Escape Window"
+          /></a>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Security Window Screens</h3>
+          <div class="container">
+            <p class="p-2">
+              Security bars are an unattractive and potentially illegal way to
+              secure your home from the outside. Here at Mike’s Mobile we offer
+              an attractive and safe way to secure your home from the outside,
+              while allowing your family to escape in case of a fire or other
+              emergency.
+            </p>
+            <div class="d-flex flex-column">
+              <a
+                class="btn orange my-2"
+                mdbRippleRadius
+                routerLink="/products/crl-guarda-quick-escape"
+              >
+                CRL Guarda™ Quick Escape
+              </a>
+              <a
+                class="btn orange my-2"
+                mdbRippleRadius
+                routerLink="/products/crl-guarda-fixed"
+              >
+                CRL Guarda™ Fixed
+              </a>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <br /><br />
-          <h4 class="p-2 text-center">Window Security</h4>
-          <div class="d-flex flex-column">
-            <button
-              type="button"
-              class="btn orange my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/crl-guarda-quick-escape']"
-            >
-              CRL Guarda™ Quick Escape
-            </button>
-            <button
-              type="button"
-              class="btn orange my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/crl-guarda-fixed']"
-            >
-              CRL Guarda™ Fixed
-            </button>
-          </div>
-        </div>
-        <hr />
-        <div>
-          <h4>Security Window Screens</h4>
-          <p>
-            Security bars are an unattractive and potentially illegal way to
-            secure your home from the outside. Here at Mike’s Mobile we offer an
-            attractive and safe way to secure your home from the outside, while
-            allowing your family to escape in case of a fire or other emergency.
-          </p>
         </div>
       </div>
     </div>
@@ -521,129 +482,148 @@
       <h1 class="p-2">{{ landing.title }}</h1>
       <hr />
       <p class="p-2">
-        Upgrade your style along with security with our high quality security
-        doors. Whether you are looking for a traditional security door for
-        safety or our high quality aluminum security doors to protect both your
-        view and your home, Mike’s Mobile Screens has plenty of options for you.
+        Upgrade your style along with security with our security doors. Whether
+        you are looking for a traditional security door for safety or our high
+        quality aluminum security doors to protect both your view and your home,
+        Mike’s Mobile Screens has plenty of options for you.
       </p>
       <div class="row">
-        <div class="col">
-          <img
-            src="/assets/images/security/security-door-table/security-door-table.jpg"
-            class="img-fluid"
-            alt="Security Doors Table"
-            (click)="securityAbtModal.show()"
-          />
-          <div
-            mdbModal
-            #securityAbtModal="mdb-modal"
-            class="modal fade"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="securityAbtModal"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button
-                    type="button"
-                    class="close pull-right"
-                    aria-label="Close"
-                    (click)="securityAbtModal.hide()"
-                  >
-                    <span aria-hidden="true">×</span>
-                  </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
-                    {{ landing.title }}
-                  </h4>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="/assets/images/security/security-door-table/security-door-table.jpg"
-                    class="img-fluid"
-                    alt="Security Doors Table"
-                  />
-                </div>
-              </div>
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/viewguard-security-doors"
+            ><img
+              src="./assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+              alt="Viewguard Security Door"
+              class="img-fluid"
+          /></a>
+        </div>
+
+        <!-- Above-the-fold Text-->
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Front Security Screen Doors</h3>
+          <div class="container">
+            <ul class="pb-3">
+              <li id="l2">
+                Our high quality security doors are built to protect your home
+              </li>
+              <li id="l2">
+                These doors keep intruders out without compromising the
+                appearance of your home
+              </li>
+              <li id="l2">
+                With security doors whose designs say "upscale" instead of
+                "security" you can't go wrong with a Mike's Mobile security
+                door!
+              </li>
+            </ul>
+            <div class="d-flex flex-column">
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/grid/titan-security-doors"
+              >
+                Titan
+              </a>
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/viewguard-security-doors"
+              >
+                Viewguard
+              </a>
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/tru-view-security-doors"
+              >
+                Tru View
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Security Doors</h4>
-          <div class="d-flex flex-column">
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/grid/titan-security-doors']"
-            >
-              Titan Security Screen Door
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/viewguard-security-doors']"
-            >
-              Viewguard
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/tru-view-security-doors']"
-            >
-              Tru View
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/tru-frame-security-doors']"
-            >
-              Tru Frame
-            </button>
-            <button
-              type="button"
-              class="btn blue my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/sliding-security-doors']"
-            >
-              Sliding Security Doors
-            </button>
+      </div>
+
+      <br />
+      <hr />
+      <br />
+
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Patio Doors</h3>
+          <div class="container">
+            <p class="p-2">
+              A sliding security door replaces your existing patio screen door.
+              These doors come pre-assembled and tamper resistant. Enjoy the
+              cool night air while sleeping in peace, quiet and safety. These
+              sliding security doors are also pet resistant! No more ripped
+              screens from pets.
+            </p>
+            <div class="d-flex flex-column">
+              <a
+                class="btn blue my-2"
+                mdbRippleRadius
+                routerLink="/products/sliding-security-doors"
+              >
+                Sliding Security Screen Doors
+              </a>
+            </div>
           </div>
-          <br /><br />
-          <h4 class="p-2 text-center">Security Windows</h4>
-          <div class="d-flex flex-column">
-            <button
-              type="button"
-              class="btn orange my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/crl-guarda-quick-escape']"
-            >
-              CRL Guarda™ Quick Escape
-            </button>
-            <button
-              type="button"
-              class="btn orange my-2"
-              mdbRippleRadius
-              [routerLink]="['/products/crl-guarda-fixed']"
-            >
-              CRL Guarda™ Fixed
-            </button>
-            <!--<button type="button" class="btn orange my-2" mdbRippleRadius [routerLink]="['/products/crl-guarda-casement']">CRL Guarda™ Casement</button>-->
+        </div>
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/sliding-security-doors"
+            ><img
+              src="./assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
+              class="img-fluid"
+              alt="Double Stainless Steel Sliding Security Door"
+          /></a>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+      <br />
+
+      <div class="row">
+        <!-- Gallery -->
+        <div class="col-12 col-md-7 pb-3">
+          <a routerLink="/products/crl-guarda-quick-escape"
+            ><img
+              src="./assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+              class="img-fluid"
+              alt="Guarda Quick Escape Window"
+          /></a>
+        </div>
+
+        <div class="col-12 col-md-5">
+          <h3 class="text-left">Security Window Screens</h3>
+          <div class="container">
+            <p class="p-2">
+              Security bars are an unattractive and potentially illegal way to
+              secure your home from the outside. Here at Mike’s Mobile we offer
+              an attractive and safe way to secure your home from the outside,
+              while allowing your family to escape in case of a fire or other
+              emergency.
+            </p>
+            <div class="d-flex flex-column">
+              <a
+                class="btn orange my-2"
+                mdbRippleRadius
+                routerLink="/products/crl-guarda-quick-escape"
+              >
+                CRL Guarda™ Quick Escape
+              </a>
+              <a
+                class="btn orange my-2"
+                mdbRippleRadius
+                routerLink="/products/crl-guarda-fixed"
+              >
+                CRL Guarda™ Fixed
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <hr />
-      <h4>Security Window Screens</h4>
-      <p>
-        Security bars are an unattractive and potentially illegal way to secure
-        your home from the outside. Here at Mike’s Mobile we offer an attractive
-        and safe way to secure your home from the outside, while allowing your
-        family to escape in case of a fire or other emergency.
-      </p>
     </div>
   </ng-container>
   <!-- security-doors-and-windows -->

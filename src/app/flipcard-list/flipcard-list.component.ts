@@ -13,7 +13,7 @@ export class FlipcardListComponent implements OnInit {
   @Input() categories = [
     'Door and Window Screens',
     'Chimney Services',
-    'Security Doors and Windows',
+    'Security Screen Doors and Windows',
     'Awnings'
   ];
   @Input() images?;

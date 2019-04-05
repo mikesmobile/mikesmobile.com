@@ -12,7 +12,7 @@ export class ServiceListComponent implements OnInit, OnDestroy {
   @Input() categories = [
     'Chimney Services',
     'Door and Window Screens',
-    'Security Doors and Windows',
+    'Security Screen Doors and Windows',
     'Awnings'
   ];
 
