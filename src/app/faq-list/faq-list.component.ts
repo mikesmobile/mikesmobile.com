@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 import { FaqService } from '../faq/faq.service';
 import { FaqSegment } from '../faq/faq';
 import { ActivatedRoute } from '@angular/router';
