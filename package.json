@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --optimization=false --source-map",
+    "build": "ng build --prod --optimization=true --source-map",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,6 +24,7 @@
     "angular-webstorage-service": "1.0.2",
     "classlist.js": "1.1.20150312",
     "core-js": "2.6.5",
+    "hammerjs": "^2.0.8",
     "ng-uikit-pro-standard": "git+https://oauth2:TX6AkotB4d5zXzhTg-dh@git.mdbootstrap.com/mdb/angular/ng-uikit-pro-standard.git",
     "ngx-gallery": "5.9.1",
     "rxjs": "6.4.0",
