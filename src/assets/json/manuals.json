@@ -246,9 +246,9 @@
       {
         "subcategory": "Regency Gas Stoves",
         "pdf": {
-          "Regency Classic C34": "/assets/manuals/regency/gas/Stoves/ClassicC34.pdf",
-          "Regency Ultimate U38": "/assets/manuals/regency/gas/Stoves/UltimateU38.pdf",
-          "Regency Ultimate U39": "/assets/manuals/regency/gas/Stoves/UltimateU39.pdf"
+          "Regency Classic C34": "/assets/manuals/regency/gas/stoves/ClassicC34.pdf",
+          "Regency Ultimate U38": "/assets/manuals/regency/gas/stoves/UltimateU38.pdf",
+          "Regency Ultimate U39": "/assets/manuals/regency/gas/stoves/UltimateU39.pdf"
         }
       },
       {
@@ -274,8 +274,7 @@
       {
         "subcategory": "Regency Pellet Insert & Stove",
         "pdf": {
-          "Regency Greenfire GF55": "/assets/manuals/regency/hampton/GreenfireGF55.pdf",
-          "Regency Greenfire GFI55": "/assets/manuals/regency/hampton/GreenfireGFI55.pdf"
+          "Regency Greenfire GF55 & GFI55": "/assets/manuals/regency/hampton/GreenfireGF55.pdf"
         }
       },
       {
