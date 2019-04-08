@@ -86,8 +86,7 @@
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
           <h2
-            class="pb-3 text-center animated pulse infinite orange-text"
-            id="ptr"
+            class="pb-3 text-center animated pulse infinite orange-text cursor-pointer"
             (click)="toggleQuoteForm()"
           >
             Get started today!
@@ -117,12 +116,10 @@
           </div>
         </div>
         <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
-          <div class="row mb-4">
+          <div class="row mb-4" id="serviceInfo">
             <div class="col-12">
-              <h5 class="text-center">{{ service.category }}</h5>
-              <h3 class="text-center mb-3" id="serviceInfo">
-                {{ service.title }}
-              </h3>
+              <h1 class="text-center h5">{{ service.category }}</h1>
+              <h2 class="text-center h3">{{ service.title }}</h2>
               <!--Accordion wrapper-->
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
                 <mdb-item *ngFor="let item of service.textList; index as i">

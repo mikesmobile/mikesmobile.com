@@ -170,8 +170,8 @@
       <!-- /GALLERY SECTION -->
 
       <div class="col-12 col-md-5" id="productInfo">
-        <h5 class="text-left">{{ product.category }}</h5>
-        <h3 class="text-left">{{ product.title }}</h3>
+        <h1 class="text-left h5">{{ product.category }}</h1>
+        <h2 class="text-left h3">{{ product.title }}</h2>
         <!--Accordion wrapper-->
         <div class="container my-4 shadowbox" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
@@ -198,13 +198,13 @@
           class="flex-row d-none d-md-block my-4"
           (click)="toggleQuoteForm()"
         >
-          <h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr">
+          <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
         <div class="flex-row  d-md-none">
           <a class="white-text" href="tel:+1-877-520-3595"
-            ><h4 class="animated pulse infinite orange-text pl-4 pb-3" id="ptr">
+            ><h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
               <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
             </h4></a
           >
