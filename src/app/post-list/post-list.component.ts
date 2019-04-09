@@ -1,70 +1,52 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { BlogPost } from '../posts/post';
-import { PostService } from '../posts/post.service';
+import { Component, OnInit } from '@angular/core';
 import { ViewChild, ElementRef } from '@angular/core';
+
+import blogsJSON from '../../assets/json/blogposts.json';
 
 @Component({
   selector: 'app-post-list',
   templateUrl: './post-list.component.html',
-  styleUrls: ['./post-list.component.sass'],
-  providers: [PostService]
+  styleUrls: ['./post-list.component.sass']
 })
-export class PostListComponent implements OnInit, OnDestroy {
+export class PostListComponent implements OnInit {
   @ViewChild('item') nameInputRef: ElementRef;
   private req: any;
-  blogPostList: [BlogPost];
+  blogPostList = [];
   filterItems = [];
   category = [];
   location = [];
-  date = [];
   clicked: string = 'all';
   selected = [];
 
-  // Removes the duplicate Categories
-  onlyUnique(value, index, self) {
-    return self.indexOf(value) === index;
+  ngOnInit() {
+    blogsJSON.forEach((data) => {
+      this.blogPostList.push(data);
+      this.filterItems.push(data.filter);
+
+      if (this.category.indexOf(data.filter.Category) < 0) {
+        this.category.push(data.filter.Category);
+      }
+
+      if (this.location.indexOf(data.filter.Location) < 0) {
+        this.location.push(data.filter.Location);
+      }
+    });
   }
 
   clickedItem(post) {
     this.clicked = post;
-    var x = document.getElementsByClassName('subcat');
-    for (var i = 0; i < x.length; i++) {
+    let x = document.getElementsByClassName('subcat');
+
+    for (let i = 0; i < x.length; i++) {
       x[i].classList.remove('selected');
     }
+
     document.getElementById(post).classList.toggle('selected');
     this.selected = [this.clicked];
   }
 
-  // showSub(arr:string){
-  //   var x = document.getElementById(arr).classList.toggle('hide');
-  //   console.log(x)
-  // }
-
   removeButton() {
     this.clicked = 'all';
     this.selected.splice(this.selected.indexOf(this.clicked), 1);
-  }
-
-  constructor(private _service: PostService) {}
-
-  ngOnInit() {
-    this.req = this._service.list().subscribe((data) => {
-      this.blogPostList = data as [BlogPost];
-      // The Category Filter Dropdown
-      for (var i = 0; i < this.blogPostList.length; i++) {
-        this.filterItems.push(this.blogPostList[i].filter);
-        this.category.push(this.filterItems[i].Category);
-        this.location.push(this.filterItems[i].Location);
-        this.date.push(this.filterItems[i].Postdate);
-      }
-      // Don't duplicate Categories
-      this.category = this.category.filter(this.onlyUnique);
-      this.location = this.location.filter(this.onlyUnique);
-      this.date = this.date.filter(this.onlyUnique);
-    });
-  }
-
-  ngOnDestroy() {
-    this.req.unsubscribe();
   }
 }

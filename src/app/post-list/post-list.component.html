@@ -33,26 +33,6 @@
           {{ item }}
         </li>
       </a>
-      <div class="dropright text-center">
-        <li
-          type="button"
-          class="list-group-item head dropdown-toggle px-3"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Date<span class="sr-only">Toggle Dropdown</span>
-        </li>
-        <div class="dropdown-menu">
-          <a
-            *ngFor="let item of date; let i = index"
-            id="{{ item }}"
-            class="dropdown-item subcat"
-            (click)="clickedItem(item)"
-            >{{ item }}</a
-          >
-        </div>
-      </div>
     </ul>
   </div>
   <div class="container col-12 col-md-9 col-lg-10 order-2 order-md-2">
