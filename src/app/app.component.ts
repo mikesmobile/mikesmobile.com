@@ -12,21 +12,18 @@ import { SESSION_STORAGE, WebStorageService } from 'angular-webstorage-service';
 import { Subscription } from 'rxjs';
 import { mergeMap, map, filter } from 'rxjs/operators';
 
-import { MetaService } from './meta/meta.service';
-import { Metas } from './meta/meta';
 import { SEOService } from './seo/seo.service';
+
+import * as metaData from '../assets/json/meta.json';
 
 declare let ga: Function;
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass'],
-  providers: [MetaService]
+  styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  metaList: [Metas];
-  title = 'Mikes Mobile';
   subscription: Subscription;
 
   constructor(
@@ -37,7 +34,6 @@ export class AppComponent {
     public router: Router,
     private activatedRoute: ActivatedRoute,
     private meta: Meta,
-    private metaService: MetaService,
     private seoService: SEOService,
     private titleService: Title
   ) {
@@ -72,33 +68,28 @@ export class AppComponent {
           // Set <link rel="canonical"> tag
           this.seoService.updateCanonicalURL();
 
-          // Set <meta name="description"> tag
-          this.metaService.list().subscribe((data) => {
-            this.metaList = data as [Metas];
+          // Set up defaults
+          let title = "Mike's Mobile Screen and Chimney Service";
+          let tag = {
+            name: 'description',
+            content:
+              "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
+          };
 
-            let title = "Mike's Mobile Screen and Chimney Service";
-            let tag = {
-              name: 'description',
-              content:
-                "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
-            };
+          // Overwrite defaults with found data
+          const metaInfo = metaData.default.find((data) => data.page === this.router.url);
 
-            const metaInfo = this.metaList.find((_meta) => {
-              return _meta.page === this.router.url;
-            });
-
-            if (metaInfo) {
-              if (metaInfo.content) {
-                tag.content = metaInfo.content;
-              }
-              if (metaInfo.title) {
-                title = metaInfo.title;
-              }
+          if (metaInfo) {
+            if (metaInfo.content) {
+              tag.content = metaInfo.content;
             }
+            if (metaInfo.title) {
+              title = metaInfo.title;
+            }
+          }
 
-            this.titleService.setTitle(title);
-            this.meta.updateTag(tag);
-          });
+          this.titleService.setTitle(title);
+          this.meta.updateTag(tag);
         }
       });
   }
