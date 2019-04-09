@@ -14,7 +14,7 @@ import { mergeMap, map, filter } from 'rxjs/operators';
 
 import { SEOService } from './seo/seo.service';
 
-import * as metaData from '../assets/json/meta.json';
+import metaData from '../assets/json/meta.json';
 
 declare let ga: Function;
 
@@ -77,7 +77,7 @@ export class AppComponent {
           };
 
           // Overwrite defaults with found data
-          const metaInfo = metaData.default.find((data) => data.page === this.router.url);
+          const metaInfo = metaData.find((data) => data.page === this.router.url);
 
           if (metaInfo) {
             if (metaInfo.content) {
