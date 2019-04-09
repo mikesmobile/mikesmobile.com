@@ -17,7 +17,8 @@ import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
-  styleUrls: ['./quote-form.component.sass']
+  styleUrls: ['./quote-form.component.sass'],
+  providers: [ServicesService]
 })
 export class QuoteFormComponent implements OnInit, OnDestroy {
   @Input() product: string;
@@ -97,7 +98,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
     if (emailDir.submitted) {
       let url = this.route.snapshot.url.pop();
       let option;
-      //console.log("snapshot:"+this.route.snapshot.url.pop())
+
       let name = emailForm.value['name'];
       let city = emailForm.value['city'];
       let phone = emailForm.value['phone'];
@@ -106,11 +107,13 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
       let utm_source = emailForm.value['utm_source'];
       let utm_medium = emailForm.value['utm_medium'];
       let utm_campaign = emailForm.value['utm_campaign'];
-      if (url === undefined) option = 'Homepage';
-      else option = url.toString();
 
-      if (isPlatformBrowser(this.platformId)) {
+      if (url === undefined) {
+        option = 'Homepage';
+      } else {
+        option = url.toString();
       }
+
       this._service
         .create(
           name,
