@@ -8,7 +8,7 @@ import manualsJSON from '../../assets/json/manuals.json';
   styleUrls: ['./fireplace-manuals.component.sass']
 })
 export class FireplaceManualsComponent implements OnInit {
-  private manualsSections = [];
+  manualsSections = [];
 
   ngOnInit() {
     manualsJSON.forEach((data) => {
