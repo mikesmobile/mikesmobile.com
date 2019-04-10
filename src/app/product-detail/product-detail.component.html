@@ -81,7 +81,7 @@
                 [buttonClass]="'md-tabs light-blue tabs-3'"
                 [contentClass]="''"
               >
-                <!--Panel 1-->
+                <!-- Panel 1 -->
                 <mdb-tab heading="Single Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
@@ -92,7 +92,7 @@
                     </div>
                   </div>
                 </mdb-tab>
-                <!--Panel 2-->
+                <!-- Panel 2 -->
                 <mdb-tab heading="Double Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
@@ -108,7 +108,9 @@
           </div>
         </ng-container>
 
-        <!-- Modal Image for Swinging Screen Doors and Titan Security Screen Doors -->
+        <!--
+          Modal Image for Swinging Screen Doors and Titan Security Screen Doors
+        -->
         <ng-container
           *ngIf="
             product.category === 'Swinging Screen Door' ||
@@ -162,9 +164,9 @@
         <ng-container
           *ngIf="product.slug !== 'sliding-security-doors' && gallery_images"
         >
-          <!--Carousel Wrapper-->
+          <!-- Carousel Wrapper -->
           <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-          <!--/.Carousel Wrapper-->
+          <!-- /.Carousel Wrapper -->
         </ng-container>
       </div>
       <!-- /GALLERY SECTION -->
@@ -172,7 +174,7 @@
       <div class="col-12 col-md-5" id="productInfo">
         <h1 class="text-left h5">{{ product.category }}</h1>
         <h2 class="text-left h3">{{ product.title }}</h2>
-        <!--Accordion wrapper-->
+        <!-- Accordion wrapper -->
         <div class="container my-4 shadowbox" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
             <mdb-item *ngFor="let item of product.textList; index as i">
@@ -188,7 +190,7 @@
             </mdb-item>
           </mdb-squeezebox>
         </div>
-        <!--/.Accordion wrapper-->
+        <!-- /.Accordion wrapper -->
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
             <li *ngFor="let bullet of product.bullets" id="l2">{{ bullet }}</li>
@@ -198,13 +200,17 @@
           class="flex-row d-none d-md-block my-4"
           (click)="toggleQuoteForm()"
         >
-          <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
+          <h4
+            class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
+          >
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
         <div class="flex-row  d-md-none">
           <a class="white-text" href="tel:+1-877-520-3595"
-            ><h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
+            ><h4
+              class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
+            >
               <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
             </h4></a
           >
@@ -214,7 +220,9 @@
             <h4>
               Color Selection &nbsp; <span class="small">(click to zoom)</span>
             </h4>
-            <!-- See color-swatch.component.ts, this iterates over all colors in og_services.json and builds a color-swatch component for it -->
+            <!--
+              See color-swatch.component.ts, this iterates over all colors in og_services.json and builds a color-swatch component for it
+            -->
             <ng-container *ngFor="let i of product.colorSet">
               <app-color-swatch [swatchType]="i"></app-color-swatch>
             </ng-container>
