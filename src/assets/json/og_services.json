@@ -2258,7 +2258,6 @@
       }
     ]
   },
-
   {
     "title": "Solar Screens",
     "slug": "solar-screens",
@@ -2430,7 +2429,6 @@
       }
     ]
   },
-
   {
     "title": "Sliding Screen Doors",
     "slug": "sliding-screen-doors",
@@ -3107,7 +3105,6 @@
     ],
     "colorSet": ["colorSetx6"]
   },
-
   {
     "title": "Pet Doors",
     "slug": "pet-doors",
@@ -3694,7 +3691,6 @@
     "tileImage": "assets/images/chimneys/masonry-services/veneers/bluffstone.jpg",
     "tileText": "Protect your chimney from water damage. Get a crown seal for your chimney now!"
   },
-
   {
     "title": "Masonry Services",
     "slug": "masonry-services",
@@ -4178,7 +4174,6 @@
         "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg"
       }
     ],
-
     "colorSet": ["stdColors", "slidingSecurityDoorColors"]
   },
   {
@@ -4682,7 +4677,6 @@
       }
     ]
   },
-
   {
     "title": "Chimney Services in Sacramento",
     "slug": "sacramento",
