@@ -6,7 +6,8 @@
     "subcategory": "Door",
     "type": "grid",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
-    "tileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
+    "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
+    "tileImage": "/assets/images/tiles/titan-security-screen-doors.jpg",
     "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
     "recentInstallImages": [
       {
@@ -2234,7 +2235,8 @@
         "description": "We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
       }
     ],
-    "tileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+    "fullTileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+    "tileImage": "/assets/images/tiles/window-screen-repair.jpg",
     "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
     "video": "",
     "recentInstallImages": [
@@ -2264,7 +2266,8 @@
     "category": "Door and Window Screens",
     "subcategory": "Window",
     "type": "products",
-    "tileImage": "/assets/images/screens/solar-screens/solar-screen2.jpg",
+    "fullTileImage": "/assets/images/screens/solar-screens/solar-screen2.jpg",
+    "tileImage": "/assets/images/tiles/solar-screens.jpg",
     "tileText": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
     "serviceImgCaption": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
     "colorSet": ["screenFrameColors", "colorSetx4"],
@@ -2440,7 +2443,8 @@
       "Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store.",
       "Every one of our doors is custom made to fit your doorway."
     ],
-    "tileImage": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
+    "fullTileImage": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
+    "tileImage": "/assets/images/tiles/sliding-screen-doors.jpg",
     "tileText": "Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
     "thumbImages": [
       {
@@ -2507,7 +2511,8 @@
     "category": "Door and Window Screens",
     "subcategory": "Door",
     "type": "grid",
-    "tileImage": "/assets/images/screens/swinging-screen-doors/Swinging-Screen-Door-Main-Page-Flipcard.jpg",
+    "fullTileImage": "/assets/images/screens/swinging-screen-doors/Swinging-Screen-Door-Main-Page-Flipcard.jpg",
+    "tileImage": "/assets/images/tiles/swinging-screen-doors.jpg",
     "tileText": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
     "description": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!",
     "recentInstallImages": [
@@ -3007,7 +3012,8 @@
       "The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.",
       "Imagine a screen door that’s only there when you need it! The Rollaway mounts inside the door frame for minimal intrusion and most people don’t notice it until you are using it!"
     ],
-    "tileImage": "/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
+    "fullTileImage": "/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
+    "tileImage": "/assets/images/tiles/rectratable-screen-doors.jpg",
     "thumbImages": [
       {
         "alt": "Retractable Screen Double Door",
@@ -3112,7 +3118,8 @@
     "subcategory": "Door",
     "type": "products",
     "tileText": "Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
-    "tileImage": "/assets/images/screens/pet-door/Pet-Door-Main-Page-Flipcard.jpg",
+    "fullTileImage": "/assets/images/screens/pet-door/Pet-Door-Main-Page-Flipcard.jpg",
+    "tileImage": "/assets/images/tiles/pet-doors.jpg",
     "thumbImages": [
       {
         "alt": "pet door main door",
@@ -3214,7 +3221,8 @@
     "slug": "chimney-inspections",
     "category": "Chimney Services",
     "type": "services",
-    "tileImage": "/assets/images/chimneys/inspections/inspections.jpg",
+    "fullTileImage": "/assets/images/chimneys/inspections/inspections.jpg",
+    "tileImage": "/assets/images/tiles/chimney-inspections.jpg",
     "tileText": "Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
     "textList": [
       {
@@ -3250,7 +3258,8 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "tileImage": "/assets/images/chimneys/cleaning/1.jpg",
+    "fullTileImage": "/assets/images/chimneys/cleaning/1.jpg",
+    "tileImage": "/assets/images/tiles/chimney-cleaning.jpg",
     "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
     "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
     "textList": [
@@ -3293,7 +3302,8 @@
     "slug": "chimney-repairs",
     "category": "Chimney Services",
     "type": "grid",
-    "tileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
+    "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
+    "tileImage": "/assets/images/tiles/chimney-repairs.jpg",
     "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
   },
   {
@@ -3569,7 +3579,8 @@
     "slug": "chimney-accessories",
     "category": "Chimney Services",
     "type": "grid",
-    "tileImage": "/assets/images/chimneys/fireplace-screen.jpg",
+    "fullTileImage": "/assets/images/chimneys/fireplace-screen.jpg",
+    "tileImage": "/assets/images/tiles/chimney-accessories.jpg",
     "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
   },
   {
@@ -3696,7 +3707,8 @@
     "slug": "masonry-services",
     "category": "Chimney Services",
     "type": "grid",
-    "tileImage": "/assets/images/chimneys/Masonry-services.jpg",
+    "fullTileImage": "/assets/images/chimneys/Masonry-services.jpg",
+    "tileImage": "/assets/images/tiles/masonry-services.jpg",
     "tileText": "Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
   },
   {
@@ -3832,7 +3844,8 @@
     "slug": "dryer-vent-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "tileImage": "/assets/images/home-improvement/dryer-vent.jpg",
+    "fullTileImage": "/assets/images/home-improvement/dryer-vent.jpg",
+    "tileImage": "/assets/images/tiles/dryer-vent.jpg",
     "tileText": "Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
     "textList": [
       {
@@ -3860,7 +3873,8 @@
       "Your security screen door will be the first point of protection for keeping your home safe and secure.",
       "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
-    "tileImage": "/assets/images/security/viewguard/main-display/Viewguard-Main.jpg",
+    "fullTileImage": "/assets/images/security/viewguard/main-display/Viewguard-Main.jpg",
+    "tileImage": "/assets/images/tiles/viewguard-security-screen-doors.jpg",
     "tileText": "Your security screen door will be the first point of protection for keeping your home safe and secure.",
     "thumbImages": [
       {
@@ -3978,7 +3992,8 @@
       "Installed and operates entirely from the interior of the garage",
       "Completely invisible when garage door is closed"
     ],
-    "tileImage": "/assets/images/screens/lifestyle/tile.jpg",
+    "fullTileImage": "/assets/images/screens/lifestyle/product_1.jpg",
+    "tileImage": "/assets/images/tiles/garage-screen-doors.jpg",
     "tileText": "The Lifestyle Garage Screen can turn your garage into an airy, pest-free space on demand!",
     "thumbImages": [
       {
@@ -4070,7 +4085,8 @@
       "Finally you can experience security without resorting to bars or unsightly steel grills.",
       "Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."
     ],
-    "tileImage": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+    "fullTileImage": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+    "tileImage": "/assets/images/tiles/truview-security-screen-doors.jpg",
     "tileText": "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
     "thumbImages": [
       {
@@ -4187,7 +4203,8 @@
       "Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!",
       "Available in the Stainless Steel Mesh style (Similar to Viewguard) in Single or Double door options."
     ],
-    "tileImage": "/assets/images/security/sliding/Sliding-Security-Door-Main.jpg",
+    "fullTileImage": "/assets/images/security/sliding/Sliding-Security-Door-Main.jpg",
+    "tileImage": "/assets/images/tiles/sliding-security-doors.jpg",
     "tileText": "Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
     "thumbImages": [
       {
@@ -4356,7 +4373,8 @@
       "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh called 'meshtec'.",
       "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
-    "tileImage": "/assets/images/security/guarda-escape/CRL-Guarda-Quick-Escape-Main.jpg",
+    "fullTileImage": "/assets/images/security/guarda-escape/CRL-Guarda-Quick-Escape-Main.jpg",
+    "tileImage": "/assets/images/tiles/crl-guarda-quick-escape.jpg",
     "tileText": "CRL Guarda™ Quick Escape Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
     "thumbImages": [
       {
@@ -4458,7 +4476,8 @@
       "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh called 'meshtec'.",
       "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
-    "tileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
+    "fullTileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
+    "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
     "tileText": "CRL Guarda™ Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
     "colorSet": ["quickEscapeColors", "stdColors"],
     "thumbImages": [
@@ -4518,7 +4537,8 @@
     "slug": "retractable-patio-awnings",
     "category": "Awnings",
     "type": "services",
-    "tileImage": "/assets/images/awnings/folding-arm-awning.jpg",
+    "fullTileImage": "/assets/images/awnings/folding-arm-awning.jpg",
+    "tileImage": "/assets/images/tiles/retractable-patio-awnings.jpg",
     "tileText": "Increase your home’s livable area and create the perfect day with Retractable Patio and Deck Awnings.",
     "textList": [
       {
@@ -4609,7 +4629,8 @@
     "category": "Awnings",
     "type": "services",
     "bullets": [],
-    "tileImage": "/assets/images/awnings/droproll.jpg",
+    "fullTileImage": "/assets/images/awnings/droproll.jpg",
+    "tileImage": "/assets/images/tiles/droproll-sunscreen.jpg",
     "tileText": "The Sunroll Drop Roll Sunscreen provides you with total vertical sun control of your covered outdoor space.",
     "textList": [
       {
@@ -4628,49 +4649,42 @@
     "recentInstallImages": [
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/1.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/1.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/1.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/2.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/2.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/2.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/3.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/3.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/3.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/4.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/4.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/4.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/5.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/5.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/5.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/6.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/6.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/6.jpg"
       },
       {
         "alt": "Drop Roll Sunscreens",
-        "badAlt": "",
         "small": "/assets/images/awnings/drop-roll-sunscreens/7.jpg",
         "medium": "/assets/images/awnings/drop-roll-sunscreens/7.jpg",
         "big": "/assets/images/awnings/drop-roll-sunscreens/7.jpg"

@@ -60,6 +60,9 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
             this.videoLink = this.sanitizer.bypassSecurityTrustUrl(
               this.service.video
             );
+            if (this.service.fullTileImage) {
+              this.service.tileImage = this.service.fullTileImage;
+            }
           }
         });
       });

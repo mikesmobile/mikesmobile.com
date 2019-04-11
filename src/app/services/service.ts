@@ -5,6 +5,7 @@ export class ServiceItem {
   subcategory?: string;
   type: string;
   tileImage?: string;
+  fullTileImage?: string;
   tileText?: string;
   images?: string[];
   recentInstallImages?: string[];
