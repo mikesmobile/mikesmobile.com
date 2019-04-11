@@ -24,7 +24,7 @@
                   <!--Card-->
                   <div class="card">
                     <!--Card image-->
-                    <a routerLink="/{{ item.type }}/{{ item.slug }}">
+                    <a [routerLink]="[item.type, item.slug]">
                       <div class="view overlay">
                         <img
                           src="{{ item.tileImage }}"
@@ -40,7 +40,7 @@
                       <!--Category & Title-->
                       <h4 class="card-title">
                         <strong
-                          ><a routerLink="/{{ item.type }}/{{ item.slug }}">{{
+                          ><a [routerLink]="[item.type, item.slug]">{{
                             item.title
                           }}</a></strong
                         >
@@ -156,7 +156,7 @@
                 *ngIf="item.category === 'Titan Security Screen Doors'"
               >
                 <div class="card col-6 col-md-4 col-lg-2">
-                  <a routerLink="/{{ item.type }}/{{ item.slug }}">
+                  <a [routerLink]="[item.type, item.slug]">
                     <div class="view overlay">
                       <img
                         src="{{ item.tileImage }}"
@@ -169,7 +169,7 @@
                   <div class="card-body text-center">
                     <h4 class="card-title">
                       <strong
-                        ><a routerLink="/{{ item.type }}/{{ item.slug }}">{{
+                        ><a [routerLink]="[item.type, item.slug]">{{
                           item.title
                         }}</a></strong
                       >
@@ -204,7 +204,10 @@
                 <div class="col-6 col-md-4 col-lg-3 mb-4">
                   <!-- Flip Card -->
                   <div class="flip-container">
-                    <div class="flipper">
+                    <a
+                      class="flipper d-block"
+                      [routerLink]="[item.type, item.slug]"
+                    >
                       <!-- front content -->
                       <div class="front">
                         <!--Card image-->
@@ -221,10 +224,7 @@
                       <!--/ front content -->
 
                       <!-- back content -->
-                      <div
-                        class="back"
-                        routerLink="/{{ item.type }}/{{ item.slug }}"
-                      >
+                      <div class="back">
                         <h4 class="text-center card-back-title">
                           {{ item.title }}
                         </h4>
@@ -232,7 +232,7 @@
                         <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
                       </div>
                       <!--/ back content -->
-                    </div>
+                    </a>
                   </div>
                   <!-- /Flip Card -->
                 </div>
@@ -266,7 +266,10 @@
                 <div class="col-6 col-md-4 col-lg-3 my-3">
                   <!-- Flip Card -->
                   <div class="flip-container">
-                    <div class="flipper">
+                    <a
+                      class="flipper d-block"
+                      [routerLink]="[item.type, item.slug]"
+                    >
                       <!-- front content -->
                       <div class="front">
                         <!--Card image-->
@@ -284,10 +287,7 @@
                       <!--/ front content -->
 
                       <!-- back content -->
-                      <div
-                        class="back"
-                        routerLink="/{{ item.type }}/{{ item.slug }}"
-                      >
+                      <div class="back">
                         <h4 class="text-center card-back-title">
                           {{ item.title }}
                         </h4>
@@ -295,7 +295,7 @@
                         <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
                       </div>
                       <!--/ back content -->
-                    </div>
+                    </a>
                   </div>
                   <!-- /Flip Card -->
                 </div>
@@ -329,7 +329,10 @@
                 <div class="col-6 col-md-4 col-lg-3 my-3">
                   <!-- Flip Card -->
                   <div class="flip-container">
-                    <div class="flipper">
+                    <a
+                      class="flipper d-block"
+                      [routerLink]="[item.type, item.slug]"
+                    >
                       <!-- front content -->
                       <div class="front">
                         <!--Card image-->
@@ -346,10 +349,7 @@
                       </div>
                       <!--/ front content -->
                       <!-- back content -->
-                      <div
-                        class="back"
-                        routerLink="/{{ item.type }}/{{ item.slug }}"
-                      >
+                      <div class="back">
                         <h4 class="text-center card-back-title">
                           {{ item.title }}
                         </h4>
@@ -357,7 +357,7 @@
                         <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
                       </div>
                       <!--/ back content -->
-                    </div>
+                    </a>
                   </div>
                   <!-- /Flip Card -->
                 </div>
@@ -372,67 +372,5 @@
       </div>
     </ng-container>
     <!-- Switch to next Grid -->
-
-    <!-- Switch to next Grid -->
-    <ng-container *ngSwitchCase="'chimney-resources'">
-      <div class="container">
-        <!--Projects section v.1-->
-        <section class="section pb-3">
-          <!--Section heading-->
-          <h1 class="section-heading h1 pt-md-4">{{ service.title }}</h1>
-          <hr />
-          <!--Section description-->
-          <p class="section-description">{{ service.description }}</p>
-          <!--Grid row-->
-          <div class="row text-center">
-            <!--Grid column-->
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container *ngIf="item.category === 'Resources'">
-                <!-- ServiceItem -->
-                <div class="col-6 col-md-4 col-lg-3 my-3">
-                  <!-- Flip Card -->
-                  <div class="flip-container">
-                    <div class="flipper">
-                      <!-- front content -->
-                      <div class="front">
-                        <!--Card image-->
-                        <div class="view waves-light" mdbRippleRadius>
-                          <img
-                            src="{{ item.tileImage }}"
-                            class="img-fluid"
-                            alt="{{ item.title }}"
-                            id="servicesImages"
-                          />
-                        </div>
-                        <!--Title-->
-                        <h5 class="card-title px-4 py-2">{{ item.title }}</h5>
-                      </div>
-                      <!--/ front content -->
-                      <!-- back content -->
-                      <a routerLink="">
-                        <div class="back">
-                          <h4 class="text-center">{{ item.title }}</h4>
-                          <div class="divider dropdown-divider pt-0 mt-0"></div>
-                          <p class="p-1 mb-0 text-center">
-                            {{ item.tileText }}
-                          </p>
-                        </div>
-                      </a>
-                      <!--/ back content -->
-                    </div>
-                  </div>
-                  <!-- /Flip Card -->
-                </div>
-                <!-- /ServiceItem -->
-              </ng-container>
-            </ng-container>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!--/Projects section v.1-->
-      </div>
-    </ng-container>
   </ng-container>
-  <ng-container> </ng-container
-></ng-container>
+</ng-container>

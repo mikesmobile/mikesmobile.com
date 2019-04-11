@@ -8,19 +8,17 @@
           class="text-center py-3"
           id="Door-and-Window-Screens"
         >
-          <a
-            class="orange-text"
-            [routerLink]="['/about/door-and-window-screens']"
-            >{{ category }}</a
-          >
+          <a class="orange-text" routerLink="/about/door-and-window-screens">{{
+            category
+          }}</a>
         </h1>
         <h1 *ngIf="category === 'Screen Doors'" class="text-center py-3">
-          <a class="orange-text" [routerLink]="['/about/door-screens']">{{
+          <a class="orange-text" routerLink="/about/door-screens">{{
             category
           }}</a>
         </h1>
         <h1 *ngIf="category === 'Window Screens'" class="text-center py-3">
-          <a class="orange-text" [routerLink]="['/about/window-screens']">{{
+          <a class="orange-text" routerLink="/about/window-screens">{{
             category
           }}</a>
         </h1>
@@ -29,7 +27,7 @@
           class="text-center py-3"
           id="chimney-services"
         >
-          <a class="orange-text" [routerLink]="['/about/chimney-services']">{{
+          <a class="orange-text" routerLink="/about/chimney-services">{{
             category
           }}</a>
         </h1>
@@ -40,7 +38,7 @@
         >
           <a
             class="orange-text"
-            [routerLink]="['/about/security-doors-and-windows']"
+            routerLink="/about/security-doors-and-windows"
             >{{ category }}</a
           >
         </h1>
@@ -48,7 +46,7 @@
           *ngIf="category === 'Security Screen Doors'"
           class="text-center py-3"
         >
-          <a class="orange-text" [routerLink]="['/about/security-doors']">{{
+          <a class="orange-text" routerLink="/about/security-doors">{{
             category
           }}</a>
         </h1>
@@ -56,7 +54,7 @@
           *ngIf="category === 'Security Window Screens'"
           class="text-center py-3"
         >
-          <a class="orange-text" [routerLink]="['/about/security-windows']">{{
+          <a class="orange-text" routerLink="/about/security-windows">{{
             category
           }}</a>
         </h1>
@@ -65,9 +63,7 @@
           class="text-center py-3"
           id="awnings"
         >
-          <a class="orange-text" [routerLink]="['/about/awnings']">{{
-            category
-          }}</a>
+          <a class="orange-text" routerLink="/about/awnings">{{ category }}</a>
         </h1>
       </div>
 
@@ -76,7 +72,10 @@
           <div class="col-6 col-md-4 col-lg-3">
             <!-- Flip Card -->
             <div class="flip-container">
-              <div class="flipper">
+              <a
+                class="d-block flipper"
+                [routerLink]="[service.type, service.slug]"
+              >
                 <!-- front content -->
                 <div class="front">
                   <div class="view waves-light" mdbRippleRadius>
@@ -89,17 +88,14 @@
                   <h4 class="card-title">{{ service.title }}</h4>
                 </div>
                 <!-- back content -->
-                <div
-                  class="back"
-                  routerLink="/{{ service.type }}/{{ service.slug }}"
-                >
+                <div class="back">
                   <h4 class="text-center card-back-title">
                     {{ service.title }}
                   </h4>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
                   <p class="mb-0 text-center">{{ service.tileText }}</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </ng-container>
