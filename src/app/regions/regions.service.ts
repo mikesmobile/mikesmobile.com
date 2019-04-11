@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, Optional, Inject } from '@angular/core';
 import { map, catchError } from 'rxjs/operators';
 
-let endpoint = '/assets/json/og_services.json';
+let endpoint = '/assets/json/og_services.json?227cb4a23ef6fc16bae8267466eb21a52987ff6e';
 
 @Injectable()
 export class RegionsService {

@@ -5,7 +5,7 @@ import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 // const endpoint = '/assets/json/services.json'
-let endpoint = 'assets/json/og_services.json';
+let endpoint = 'assets/json/og_services.json?227cb4a23ef6fc16bae8267466eb21a52987ff6e';
 
 @Injectable()
 export class ServicesService {
