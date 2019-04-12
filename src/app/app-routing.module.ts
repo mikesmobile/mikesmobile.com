@@ -14,7 +14,6 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
 import { ServiceListComponent } from './service-list/service-list.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
-import { SeoLocationLpComponent } from './seo-location-lp/seo-location-lp.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
@@ -155,7 +154,6 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'screens/:slug', component: LandingScreensComponent },
   { path: 'security/:slug', component: LandingSecurityComponent },
-  { path: 'sem/:slug', component: SeoLocationLpComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: '', pathMatch: 'full', component: HomeComponent },
 

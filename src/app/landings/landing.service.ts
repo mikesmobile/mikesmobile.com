@@ -4,10 +4,7 @@ import { Injectable, Optional, Inject } from '@angular/core';
 import { Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-// const seolocations = '/assets/json/seolocations.json'
-// const adwordsLandingPages = '/assets/json/adwordslps.json'
-let seolocations = 'assets/json/og_seolocations.json';
-let adwordsLandingPages = 'assets/json/og_adwordslps.json';
+let adwordsLandingPages = 'assets/json/adwordslps.json';
 
 @Injectable()
 export class LandingService {
@@ -16,15 +13,8 @@ export class LandingService {
     @Optional() @Inject(APP_BASE_HREF) origin: string
   ) {
     if (origin) {
-      seolocations = `${origin}${seolocations}`;
       adwordsLandingPages = `${origin}${adwordsLandingPages}`;
     }
-  }
-
-  listLocations(): Observable<any> {
-    return this.http
-      .get<any[]>(seolocations)
-      .pipe(catchError((error) => this.handleError(error, 'listLocations')));
   }
 
   listAdwordsLPs(): Observable<any> {

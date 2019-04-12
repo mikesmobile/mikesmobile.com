@@ -29,7 +29,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { SeoLocationLpComponent } from './seo-location-lp/seo-location-lp.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
@@ -92,7 +91,6 @@ if (isPlatformBrowser(PLATFORM_ID)) {
     PostDetailComponent,
     PostListComponent,
     ProductDetailComponent,
-    SeoLocationLpComponent,
     SearchComponent,
     SearchDetailComponent,
     ServiceListComponent,
