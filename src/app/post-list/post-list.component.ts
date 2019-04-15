@@ -10,7 +10,6 @@ import blogsJSON from '../../assets/json/blogposts.json';
 })
 export class PostListComponent implements OnInit {
   @ViewChild('item') nameInputRef: ElementRef;
-  private req: any;
   blogPostList = [];
   filterItems = [];
   category = [];
