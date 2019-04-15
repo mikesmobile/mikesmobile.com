@@ -1,43 +1,36 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-search-detail',
   templateUrl: './search-detail.component.html',
-  styleUrls: ['./search-detail.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./search-detail.component.sass']
 })
 export class SearchDetailComponent implements OnInit, OnDestroy {
   private routeSub: any;
-  private req: any;
   query: string;
-  searchList: [ServiceItem];
+  searchList = [];
 
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
       this.query = params['q'];
-      this.req = this._service.search(this.query).subscribe((data) => {
-        data = data.map((result) => {
-          if (result.type !== 'resource') {
-            result.slug = `${result.type}/${result.slug}`;
+      servicesJSON.forEach((data) => {
+        if (data.title.toLowerCase().indexOf(this.query.toLowerCase()) >= 0) {
+          let slug = data.slug;
+          if (data.type !== 'resource') {
+            slug = `${data.type}/${data.slug}`;
           }
-
-          return result;
-        });
-        this.searchList = data as [ServiceItem];
+          this.searchList.push({ ...data, slug });
+        }
       });
     });
   }
 
   ngOnDestroy() {
     this.routeSub.unsubscribe();
-    this.req.unsubscribe();
   }
 }

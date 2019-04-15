@@ -1,37 +1,29 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
-  styleUrls: ['./landing-page.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./landing-page.component.sass']
 })
 export class LandingPageComponent implements OnInit, OnDestroy {
-  private req: any;
   private routeSub: any;
 
-  slug: string;
-  landing: ServiceItem;
+  landing;
 
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug'];
-      this.req = this._service.list().subscribe((data) => {
-        data.filter((item) => {
-          if (item.slug == this.slug) {
-            this.landing = item as ServiceItem;
-          }
-        });
+      this.landing = servicesJSON.find((data) => {
+        return data.slug === params['slug'];
       });
     });
   }
-  ngOnDestroy() {}
+
+  ngOnDestroy() {
+    this.routeSub.unsubscribe();
+  }
 }

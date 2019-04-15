@@ -1,14 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
-import {
-  Component,
-  OnInit,
-  Inject,
-  Optional,
-  PLATFORM_ID
-} from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
-import { SESSION_STORAGE, WebStorageService } from 'angular-webstorage-service';
 import { Subscription } from 'rxjs';
 import { mergeMap, map, filter } from 'rxjs/operators';
 
@@ -27,9 +20,6 @@ export class AppComponent {
   subscription: Subscription;
 
   constructor(
-    @Optional()
-    @Inject(SESSION_STORAGE)
-    private storage: WebStorageService,
     @Inject(PLATFORM_ID) private platformId: Object,
     public router: Router,
     private activatedRoute: ActivatedRoute,
@@ -48,16 +38,6 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.activatedRoute.queryParams.subscribe((params) => {
-      if (params) {
-        for (let key in params) {
-          if (params.hasOwnProperty(key)) {
-            this.storage.set(key, params[key]);
-          }
-        }
-      }
-    });
-
     this.subscription = this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event) => {
@@ -77,7 +57,9 @@ export class AppComponent {
           };
 
           // Overwrite defaults with found data
-          const metaInfo = metaData.find((data) => data.page === this.router.url);
+          const metaInfo = metaData.find(
+            (data) => data.page === this.router.url
+          );
 
           if (metaInfo) {
             if (metaInfo.content) {

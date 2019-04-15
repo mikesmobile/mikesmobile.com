@@ -10,7 +10,10 @@
           <div class="col-6 col-md-4 col-lg-3">
             <!-- Flip Card -->
             <div class="flip-container">
-              <div class="flipper">
+              <a
+                class="flipper d-block"
+                [routerLink]="['/', service.type, service.slug]"
+              >
                 <!-- front content -->
                 <div class="front">
                   <!--Card image-->
@@ -35,10 +38,7 @@
                 </div>
                 <!--/ front content -->
                 <!-- back content -->
-                <div
-                  class="back"
-                  routerLink="/{{ service.type }}/{{ service.slug }}"
-                >
+                <div class="back">
                   <h4 class="text-center card-back-title">
                     {{ service.title }}
                   </h4>
@@ -46,7 +46,7 @@
                   <p class="mb-0 text-center">{{ CardTexts[service.title] }}</p>
                 </div>
                 <!--/ back content -->
-              </div>
+              </a>
             </div>
             <!-- /Flip Card -->
           </div>

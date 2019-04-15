@@ -1,19 +1,19 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
-  styleUrls: ['./navigation.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./navigation.component.sass']
 })
 export class NavigationComponent implements OnInit {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   toggleQuoteForm() {
     this.quoteForm.show();
   }
+
   categories = [
     'Screens',
     'Chimney',
@@ -30,19 +30,12 @@ export class NavigationComponent implements OnInit {
     'steel-security-doors'
   ];
 
-  private req: any;
-  serviceList: [ServiceItem];
-
-  constructor(private _service: ServicesService) {}
+  serviceList = [];
 
   ngOnInit() {
-    this.req = this._service.list().subscribe((data) => {
-      this.serviceList = data as [ServiceItem];
+    servicesJSON.forEach((data) => {
+      this.serviceList.push(data);
     });
-  }
-
-  ngOnDestroy() {
-    this.req.unsubscribe();
   }
 
   openDropdown() {

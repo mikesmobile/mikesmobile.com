@@ -1,27 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { ServiceItem } from '../services/service';
 import { ActivatedRoute } from '@angular/router';
-import { ServicesService } from '../services/service.service';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-landing-screens',
   templateUrl: './landing-screens.component.html',
-  styleUrls: ['./landing-screens.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./landing-screens.component.sass']
 })
 export class LandingScreensComponent implements OnInit {
-  private req: any;
-  serviceList: [ServiceItem];
   private routeSub: any;
-  slug: string;
+
   title = 'Door Screens, Window Screens and Awnings in ';
   cities: [string];
-  region: ServiceItem;
   images: {};
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  region;
+
+  constructor(private route: ActivatedRoute) {}
 
   regionList = {
     Sacramento: [
@@ -319,25 +314,20 @@ export class LandingScreensComponent implements OnInit {
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug'];
-      this.req = this._service.list().subscribe((data) => {
-        data.filter((item) => {
-          if (item.slug == this.slug && item.type == 'landing-screen') {
-            this.region = item as ServiceItem;
-
-            if (this.region.hasOwnProperty('images')) {
-              this.images = this.region['images'];
-            }
-
-            this.cities = this.regionList[this.region.region];
-            this.title += this.region.region;
-          }
-        });
+      this.region = servicesJSON.find((data) => {
+        return data.slug === params['slug'] && data.type === 'landing-screen';
       });
+
+      if (this.region.hasOwnProperty('images')) {
+        this.images = this.region['images'];
+      }
+
+      this.title += this.region.region;
+      this.cities = this.regionList[this.region.region];
     });
   }
 
   ngOnDestroy() {
-    this.req.unsubscribe();
+    this.routeSub.unsubscribe();
   }
 }

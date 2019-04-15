@@ -1,111 +1,55 @@
-<ng-container *ngIf="counter % 2 == 0; else odd">
-  <div class="container py-4" id="tab-section">
-    <div class="container">
-      <mdb-tabset
-        class="menu"
-        [buttonClass]="'md-tabs light-blue tabs-3'"
-        content-class="'card'"
-      >
-        <ng-container #navwrap *ngFor="let info of details; let i = index">
-          <mdb-tab *ngIf="info != ''" heading="{{ info.title }} ">
-            <div class="row content">
-              <div *ngIf="info.description">
-                <p class="p-4" [innerHTML]="info.description"></p>
-              </div>
-              <div *ngIf="info.links">
-                <ul class="p-4">
-                  <li *ngFor="let i of (info.links | keys)">
-                    <a [routerLink]="[i.value]">{{ i.key }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div *ngIf="info.questions" class="w-100">
-                <ul class="p-4">
-                  <li *ngFor="let i of (info.questions | keys)">
-                    <p class="question">Q: {{ i.key }}</p>
-                    <p class="shadowbox">A: {{ i.value }}</p>
-                  </li>
-                </ul>
-              </div>
-              <div *ngIf="info.video" class="w-100">
-                <div
-                  *ngFor="let i of (info.video | keys)"
-                  class="text-center py-4"
-                >
-                  <h3>{{ i.key }}</h3>
-                  <hr />
-                  <iframe
-                    *ngIf="info.video"
-                    width="100%"
-                    height="400px"
-                    [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+<div class="container py-4" id="tab-section">
+  <div class="container">
+    <mdb-tabset
+      class="menu"
+      [buttonClass]="'md-tabs light-blue tabs-3'"
+      content-class="'card'"
+    >
+      <ng-container #navwrap *ngFor="let info of details; let i = index">
+        <mdb-tab *ngIf="info != ''" heading="{{ info.title }} ">
+          <div class="row content">
+            <div *ngIf="info.description" class="shadowbox w-100">
+              <p class="p-4" [innerHTML]="info.description"></p>
+              <div *ngIf="info.image">
+                <img src="{{ info.image }}" class="img-fluid text-center" />
               </div>
             </div>
-          </mdb-tab>
-        </ng-container>
-      </mdb-tabset>
-    </div>
-  </div>
-</ng-container>
-<ng-template #odd>
-  <div class="container py-4" id="tab-section">
-    <div class="container">
-      <mdb-tabset
-        class="menu"
-        [buttonClass]="'md-tabs light-blue tabs-3'"
-        content-class="'card'"
-      >
-        <ng-container #navwrap *ngFor="let info of details; let i = index">
-          <mdb-tab *ngIf="info != ''" heading="{{ info.title }} ">
-            <div class="row content">
-              <div *ngIf="info.description" class="shadowbox w-100">
-                <p class="p-4" [innerHTML]="info.description"></p>
-                <div *ngIf="info.image">
-                  <img src="{{ info.image }}" class="img-fluid text-center" />
-                </div>
-              </div>
-              <div *ngIf="info.links" class="shadowbox w-100">
-                <ul class="p-4">
-                  <li *ngFor="let i of (info.links | keys)">
-                    <a [routerLink]="[i.value]">{{ i.key }}</a>
-                  </li>
-                </ul>
-              </div>
-              <div *ngIf="info.questions" class="w-100">
-                <ul class="p-4">
-                  <li *ngFor="let i of (info.questions | keys)">
-                    <p class="question">Q: {{ i.key }}</p>
-                    <p class="shadowbox">A: {{ i.value }}</p>
-                  </li>
-                </ul>
-              </div>
-              <div *ngIf="info.video" class="w-100">
-                <div
-                  *ngFor="let i of (info.video | keys)"
-                  class="text-center py-4"
-                >
-                  <h3>{{ i.key }}</h3>
-                  <hr />
-                  <iframe
-                    *ngIf="info.video"
-                    width="100%"
-                    height="400px"
-                    [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+            <div *ngIf="info.links" class="shadowbox w-100">
+              <ul class="p-4">
+                <li *ngFor="let i of (info.links | keys)">
+                  <a [routerLink]="[i.value]">{{ i.key }}</a>
+                </li>
+              </ul>
+            </div>
+            <div *ngIf="info.questions" class="w-100">
+              <ul class="p-4">
+                <li *ngFor="let i of (info.questions | keys)">
+                  <p class="question">Q: {{ i.key }}</p>
+                  <p class="shadowbox">A: {{ i.value }}</p>
+                </li>
+              </ul>
+            </div>
+            <div *ngIf="info.video" class="w-100">
+              <div
+                *ngFor="let i of (info.video | keys)"
+                class="text-center py-4"
+              >
+                <h3>{{ i.key }}</h3>
+                <hr />
+                <iframe
+                  *ngIf="info.video"
+                  width="100%"
+                  height="400px"
+                  [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
-          </mdb-tab>
-        </ng-container>
-      </mdb-tabset>
-    </div>
+          </div>
+        </mdb-tab>
+      </ng-container>
+    </mdb-tabset>
   </div>
-</ng-template>
+</div>

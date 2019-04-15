@@ -1,14 +1,13 @@
-import { Component, OnInit, OnDestroy, Input } from '@angular/core';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
+import { Component, OnInit, Input } from '@angular/core';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-service-list',
   templateUrl: './service-list.component.html',
-  styleUrls: ['./service-list.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./service-list.component.sass']
 })
-export class ServiceListComponent implements OnInit, OnDestroy {
+export class ServiceListComponent implements OnInit {
   @Input() categories = [
     'Chimney Services',
     'Door and Window Screens',
@@ -17,17 +16,11 @@ export class ServiceListComponent implements OnInit, OnDestroy {
   ];
 
   private req: any;
-  serviceList: [ServiceItem];
-
-  constructor(private _service: ServicesService) {}
+  serviceList = [];
 
   ngOnInit() {
-    this.req = this._service.list().subscribe((data) => {
-      this.serviceList = data as [ServiceItem];
+    servicesJSON.forEach((data) => {
+      this.serviceList.push(data);
     });
-  }
-
-  ngOnDestroy() {
-    this.req.unsubscribe();
   }
 }

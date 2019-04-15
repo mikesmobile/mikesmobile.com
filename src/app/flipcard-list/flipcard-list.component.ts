@@ -1,12 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-flipcard-list',
   templateUrl: './flipcard-list.component.html',
-  styleUrls: ['./flipcard-list.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./flipcard-list.component.sass']
 })
 export class FlipcardListComponent implements OnInit {
   @Input() CardTexts;
@@ -17,15 +15,11 @@ export class FlipcardListComponent implements OnInit {
     'Awnings'
   ];
   @Input() images?;
-  private req: any;
-  serviceList: [ServiceItem];
-
-  constructor(private _service: ServicesService) {}
+  serviceList = [];
 
   ngOnInit() {
-    //console.log("AAAAA" ,this.CardTexts)
-    this.req = this._service.list().subscribe((data) => {
-      this.serviceList = data as [ServiceItem];
+    servicesJSON.forEach((data) => {
+      this.serviceList.push(data);
     });
   }
 }

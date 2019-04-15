@@ -3,7 +3,6 @@ import {
   OnInit,
   ViewChild,
   Input,
-  OnDestroy,
   Inject,
   Optional,
   PLATFORM_ID
@@ -12,7 +11,6 @@ import { FormControl, FormGroup, Validators, NgForm } from '@angular/forms';
 import { ServicesService } from '../services/service.service';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SESSION_STORAGE, WebStorageService } from 'angular-webstorage-service';
 import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-quote-form',
@@ -20,7 +18,7 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrls: ['./quote-form.component.sass'],
   providers: [ServicesService]
 })
-export class QuoteFormComponent implements OnInit, OnDestroy {
+export class QuoteFormComponent implements OnInit {
   @Input() product: string;
   visible = false;
   @ViewChild('basicModal') public basicModal: ModalDirective;
@@ -33,7 +31,6 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    @Optional() @Inject(SESSION_STORAGE) private storage: WebStorageService,
     private route: ActivatedRoute,
     private router: Router,
     private _service: ServicesService
@@ -42,7 +39,6 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
   optionsSelect = [];
   emailForm: FormGroup;
   ngOnInit() {
-    //console.log(this.storage);
     this.emailForm = new FormGroup({
       name: new FormControl('', [
         Validators.required,
@@ -76,22 +72,27 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
   get name() {
     return this.emailForm.get('name');
   }
+
   get city() {
     return this.emailForm.get('city');
   }
+
   get phone() {
     return this.emailForm.get('phone');
   }
+
   get email() {
     return this.emailForm.get('email');
   }
+
   get message() {
     return this.emailForm.get('message');
   }
+
   get option() {
     return this.emailForm.get('option');
   }
-  ngOnDestroy() {}
+
   handleSubmit(event: any, emailDir: NgForm, emailForm: FormGroup) {
     event.preventDefault();
 
@@ -135,6 +136,7 @@ export class QuoteFormComponent implements OnInit, OnDestroy {
         });
     }
   }
+
   growActionBtns() {
     if (screen.width < 992) {
       var container = document.getElementById('action-buttons-container');

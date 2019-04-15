@@ -2,7 +2,6 @@
 
 <ng-container *ngIf="service">
   <ng-container [ngSwitch]="service.slug">
-    <!-- ngSwitch to display the correct grid -->
     <ng-container *ngSwitchCase="'swinging-screen-doors'">
       <div class="container">
         <!--Projects section v.1-->
@@ -68,7 +67,6 @@
         </div>
       </div>
     </ng-container>
-    <!-- TITAN GRID -->
     <ng-container *ngSwitchCase="'titan-security-doors'">
       <div class="container">
         <section class="section pb-3">
@@ -183,9 +181,6 @@
       </div>
       <app-quote-form></app-quote-form>
     </ng-container>
-    <!--/TITAN GRID-->
-
-    <!-- Switch to next Grid -->
     <ng-container *ngSwitchCase="'chimney-repairs'">
       <div class="container">
         <!--Projects section v.1-->
@@ -246,8 +241,6 @@
         <!--/Projects section v.1-->
       </div>
     </ng-container>
-
-    <!-- Switch to next Grid -->
     <ng-container *ngSwitchCase="'masonry-services'">
       <div class="container">
         <!--Projects section v.1-->
@@ -309,8 +302,6 @@
         <!--/Projects section v.1-->
       </div>
     </ng-container>
-
-    <!-- Switch to next Grid -->
     <ng-container *ngSwitchCase="'chimney-accessories'">
       <div class="container">
         <!--Projects section v.1-->
@@ -371,6 +362,5 @@
         <!--/Projects section v.1-->
       </div>
     </ng-container>
-    <!-- Switch to next Grid -->
   </ng-container>
 </ng-container>

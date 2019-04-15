@@ -1,28 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { ServiceItem } from '../services/service';
 import { ActivatedRoute } from '@angular/router';
-import { ServicesService } from '../services/service.service';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-landing-security',
   templateUrl: './landing-security.component.html',
-  styleUrls: ['./landing-security.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./landing-security.component.sass']
 })
 export class LandingSecurityComponent implements OnInit {
-  private req: any;
-  serviceList: [ServiceItem];
   private routeSub: any;
-  slug: string;
-  title = 'Security doors and window security for ';
-  images: {};
-  cities: [string];
-  region: ServiceItem;
 
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  title = 'Security doors and window security for ';
+  cities: [string];
+  images: {};
+  region;
+
+  constructor(private route: ActivatedRoute) {}
 
   regionList = {
     Sacramento: [
@@ -320,23 +314,20 @@ export class LandingSecurityComponent implements OnInit {
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug'];
-      this.req = this._service.list().subscribe((data) => {
-        data.filter((item) => {
-          if (item.slug == this.slug && item.type == 'landing-security') {
-            this.region = item as ServiceItem;
-            this.cities = this.regionList[this.region.region];
-            this.title += this.region.region;
-            if (this.region.hasOwnProperty('images')) {
-              this.images = this.region['images'];
-            }
-          }
-        });
+      this.region = servicesJSON.find((data) => {
+        return data.slug === params['slug'] && data.type === 'landing-security';
       });
+
+      if (this.region.hasOwnProperty('images')) {
+        this.images = this.region['images'];
+      }
+
+      this.title += this.region.region;
+      this.cities = this.regionList[this.region.region];
     });
   }
 
   ngOnDestroy() {
-    this.req.unsubscribe();
+    this.routeSub.unsubscribe();
   }
 }

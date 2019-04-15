@@ -1,38 +1,26 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import {
-  NgxGalleryAnimation,
-  NgxGalleryImage,
-  NgxGalleryImageSize,
-  NgxGalleryOptions
-} from 'ngx-gallery';
+import { ActivatedRoute, Router } from '@angular/router';
+import { NgxGalleryImage } from 'ngx-gallery';
 
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-grid',
   templateUrl: './grid.component.html',
-  styleUrls: ['./grid.component.sass'],
-  providers: [ServicesService]
+  styleUrls: ['./grid.component.sass']
 })
-export class GridComponent implements OnInit {
-  private getReq: any;
-  private listReq: any;
+export class GridComponent implements OnInit, OnDestroy {
   private routeSub: any;
 
-  slug: string;
-  service: ServiceItem;
-  serviceList: [ServiceItem];
+  service;
+  serviceList = [];
 
   gallery_images: NgxGalleryImage[];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   toggleQuoteForm() {
     this.quoteForm.show();
@@ -40,25 +28,22 @@ export class GridComponent implements OnInit {
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug'];
-      this.getReq = this._service.list().subscribe((data) => {
-        data.filter((item) => {
-          if (item.slug == this.slug) {
-            this.service = item as ServiceItem;
-            this.gallery_images = this.service.recentInstallImages;
-          }
-        });
+      this.service = servicesJSON.find((data) => {
+        return data.slug === params['slug'];
       });
+      if (!this.service) {
+        this.router.navigate(['/']);
+      } else {
+        this.gallery_images = this.service.recentInstallImages;
+      }
     });
 
-    this.listReq = this._service.list().subscribe((data) => {
-      this.serviceList = data as [ServiceItem];
+    servicesJSON.forEach((data) => {
+      this.serviceList.push(data);
     });
   }
 
   ngOnDestroy() {
     this.routeSub.unsubscribe();
-    this.listReq.unsubscribe();
-    this.getReq.unsubscribe();
   }
 }

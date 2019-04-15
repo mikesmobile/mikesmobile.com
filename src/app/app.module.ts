@@ -11,7 +11,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AgmCoreModule } from '@agm/core';
-import { StorageServiceModule } from 'angular-webstorage-service';
 import { MDBBootstrapModulesPro } from 'ng-uikit-pro-standard';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -56,23 +55,6 @@ import { RegionListComponent } from './region-list/region-list.component';
 import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
-let imports = [
-  MDBBootstrapModulesPro.forRoot(),
-  AppRoutingModule,
-  BrowserModule.withServerTransition({ appId: 'mikesmobile' }),
-  HttpClientModule,
-  FormsModule,
-  ReactiveFormsModule,
-  BrowserAnimationsModule,
-  AgmCoreModule.forRoot({
-    apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
-  })
-];
-
-if (isPlatformBrowser(PLATFORM_ID)) {
-  imports.push(StorageServiceModule);
-}
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -115,7 +97,18 @@ if (isPlatformBrowser(PLATFORM_ID)) {
     ContractComponent,
     FreeQuoteComponent
   ],
-  imports: imports,
+  imports: [
+    MDBBootstrapModulesPro.forRoot(),
+    AppRoutingModule,
+    BrowserModule.withServerTransition({ appId: 'mikesmobile' }),
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
+    })
+  ],
   providers: [Title],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA]

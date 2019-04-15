@@ -1,30 +1,20 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { ServiceItem } from '../services/service';
-import { ServicesService } from '../services/service.service';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+
+import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-landing-chimney',
   templateUrl: './landing-chimney.component.html',
-  styleUrls: ['./landing-chimney.component.sass'],
-  providers: [ServicesService],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./landing-chimney.component.sass']
 })
 export class LandingChimneyComponent implements OnInit {
-  private req: any;
-  title = 'Chimney Services in ';
-  serviceList: [ServiceItem];
   private routeSub: any;
-  slug: string;
-  cards: [{}];
+
+  title = 'Chimney Services in ';
   cities: [string];
   images: {};
-  region: ServiceItem;
-
-  constructor(
-    private route: ActivatedRoute,
-    private _service: ServicesService
-  ) {}
+  region;
 
   regionList = {
     Sacramento: [
@@ -319,29 +309,24 @@ export class LandingChimneyComponent implements OnInit {
     Napa: '(707) 812-1935',
     Vacaville: '(707) 542-0626'
   };
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
-      this.slug = params['slug'];
-      this.req = this._service.list().subscribe((data) => {
-        data.filter((item) => {
-          if (item.slug == this.slug && item.type == 'landing-chimney') {
-            this.region = item as ServiceItem;
-            this.cards = this.region['cards'];
-
-            if (this.region.hasOwnProperty('images')) {
-              this.images = this.region['images'];
-            }
-
-            this.title += this.region.region;
-            this.cities = this.regionList[this.region.region];
-          }
-        });
+      this.region = servicesJSON.find((data) => {
+        return data.slug === params['slug'] && data.type === 'landing-chimney';
       });
+
+      if (this.region.hasOwnProperty('images')) {
+        this.images = this.region['images'];
+      }
+
+      this.title += this.region.region;
+      this.cities = this.regionList[this.region.region];
     });
   }
 
   ngOnDestroy() {
-    this.req.unsubscribe();
+    this.routeSub.unsubscribe();
   }
 }
