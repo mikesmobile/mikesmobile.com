@@ -24,7 +24,7 @@
                   <!--Card-->
                   <div class="card">
                     <!--Card image-->
-                    <a [routerLink]="[item.type, item.slug]">
+                    <a [routerLink]="['/', item.type, item.slug]">
                       <div class="view overlay">
                         <img
                           src="{{ item.tileImage }}"
@@ -40,7 +40,7 @@
                       <!--Category & Title-->
                       <h4 class="card-title">
                         <strong
-                          ><a [routerLink]="[item.type, item.slug]">{{
+                          ><a [routerLink]="['/', item.type, item.slug]">{{
                             item.title
                           }}</a></strong
                         >
@@ -156,7 +156,7 @@
                 *ngIf="item.category === 'Titan Security Screen Doors'"
               >
                 <div class="card col-6 col-md-4 col-lg-2">
-                  <a [routerLink]="[item.type, item.slug]">
+                  <a [routerLink]="['/', item.type, item.slug]">
                     <div class="view overlay">
                       <img
                         src="{{ item.tileImage }}"
@@ -169,7 +169,7 @@
                   <div class="card-body text-center">
                     <h4 class="card-title">
                       <strong
-                        ><a [routerLink]="[item.type, item.slug]">{{
+                        ><a [routerLink]="['/', item.type, item.slug]">{{
                           item.title
                         }}</a></strong
                       >
@@ -206,7 +206,7 @@
                   <div class="flip-container">
                     <a
                       class="flipper d-block"
-                      [routerLink]="[item.type, item.slug]"
+                      [routerLink]="['/', item.type, item.slug]"
                     >
                       <!-- front content -->
                       <div class="front">
@@ -268,7 +268,7 @@
                   <div class="flip-container">
                     <a
                       class="flipper d-block"
-                      [routerLink]="[item.type, item.slug]"
+                      [routerLink]="['/', item.type, item.slug]"
                     >
                       <!-- front content -->
                       <div class="front">
@@ -331,7 +331,7 @@
                   <div class="flip-container">
                     <a
                       class="flipper d-block"
-                      [routerLink]="[item.type, item.slug]"
+                      [routerLink]="['/', item.type, item.slug]"
                     >
                       <!-- front content -->
                       <div class="front">
