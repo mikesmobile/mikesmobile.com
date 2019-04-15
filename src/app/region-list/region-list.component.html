@@ -15,19 +15,19 @@
         <div *ngIf="region && k.region.toLowerCase() === region.toLowerCase()">
           <a
             *ngIf="k.type === 'landing-chimney'"
-            [routerLink]="'/chimneys/' + k.slug"
+            [routerLink]="['/chimneys/', k.slug]"
           >
             <div>{{ k.title }}</div>
           </a>
           <a
             *ngIf="k.type === 'landing-screen'"
-            [routerLink]="'/screens/' + k.slug"
+            [routerLink]="['/screens/', k.slug]"
           >
             <div>{{ k.title }}</div>
           </a>
           <a
             *ngIf="k.type === 'landing-security'"
-            [routerLink]="'/security/' + k.slug"
+            [routerLink]="['/security/', k.slug]"
           >
             <div>{{ k.title }}</div>
           </a>
