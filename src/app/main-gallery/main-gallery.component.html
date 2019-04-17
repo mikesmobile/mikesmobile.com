@@ -8,15 +8,20 @@
   (activeSlideChange)="activeSlideChange($event)"
 >
   <mdb-slide *ngFor="let image of Images">
-    <img
-      type="image"
-      alt="{{ image.alt }}"
-      src="{{ image.big }}"
-      data-toggle="modal"
-      data-target="#mainModal"
-      (click)="show()"
-      mdbWavesEffect
-    />
+    <div class="view w-100">
+      <img
+        type="image"
+        alt="{{ image.alt }}"
+        src="{{ image.big }}"
+        data-toggle="modal"
+        data-target="#mainModal"
+        (click)="show()"
+        mdbWavesEffect
+      />
+    </div>
+    <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
+      <p>{{ image.title }}</p>
+    </div>
   </mdb-slide>
 </mdb-carousel>
 <div

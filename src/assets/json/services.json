@@ -5278,17 +5278,101 @@
   {
     "title": "Security Screen Doors and Windows",
     "slug": "security-doors-and-windows",
-    "type": "landing"
+    "type": "landing",
+    "images": {
+      "Security Screen Doors": [
+        {
+          "alt": "Titan Classic French Door",
+          "title": "Titan Classic French Door",
+          "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+          "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+          "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+        },
+        {
+          "alt": "Viewguard Security Screen Door",
+          "title": "Viewguard Security Screen Door",
+          "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+          "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+          "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+        },
+        {
+          "alt": "Tru-View Security Screen Door",
+          "title": "Tru-View Security Screen Door",
+          "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+          "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+          "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
+        }
+      ],
+      "Security Window Screens": [
+        {
+          "alt": "CRL Guarda Quick Escape",
+          "title": "CRL Guarda Quick Escape",
+          "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
+          "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
+          "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
+        },
+        {
+          "alt": "CRL Guarda Fixed",
+          "title": "CRL Guarda Fixed",
+          "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+          "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+          "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+        }
+      ]
+    }
   },
   {
     "title": "Security Screen Doors",
     "slug": "security-doors",
-    "type": "landing"
+    "type": "landing",
+    "images": {
+      "Security Screen Doors": [
+        {
+          "alt": "Titan Classic French Door",
+          "title": "Titan Classic French Door",
+          "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+          "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+          "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+        },
+        {
+          "alt": "Viewguard Security Screen Door",
+          "title": "Viewguard Security Screen Door",
+          "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+          "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+          "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+        },
+        {
+          "alt": "Tru-View Security Screen Door",
+          "title": "Tru-View Security Screen Door",
+          "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+          "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+          "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
+        }
+      ]
+    }
   },
   {
     "title": "Security Window Screens",
     "slug": "security-windows",
-    "type": "landing"
+    "type": "landing",
+    "images": {
+      "Security Window Screens": [
+        {
+          "alt": "CRL Guarda Quick Escape",
+          "title": "CRL Guarda Quick Escape",
+          "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
+          "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
+          "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
+        },
+        {
+          "alt": "CRL Guarda Fixed",
+          "title": "CRL Guarda Fixed",
+          "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+          "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+          "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+        }
+      ]
+    }
   },
   {
     "title": "Awnings",

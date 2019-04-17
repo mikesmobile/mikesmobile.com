@@ -10,8 +10,9 @@ import servicesJSON from '../../assets/json/services.json';
 })
 export class LandingPageComponent implements OnInit, OnDestroy {
   private routeSub: any;
-
   landing;
+  security_door_gallery;
+  security_window_gallery;
 
   constructor(private route: ActivatedRoute) {}
 
@@ -20,6 +21,14 @@ export class LandingPageComponent implements OnInit, OnDestroy {
       this.landing = servicesJSON.find((data) => {
         return data.slug === params['slug'];
       });
+
+      if (this.landing.images["Security Screen Doors"]) {
+        this.security_door_gallery = this.landing.images["Security Screen Doors"];
+      }
+
+      if (this.landing.images["Security Window Screens"]) {
+        this.security_window_gallery = this.landing.images["Security Window Screens"];
+      }
     });
   }
 
