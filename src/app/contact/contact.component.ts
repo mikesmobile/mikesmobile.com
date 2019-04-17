@@ -73,8 +73,6 @@ export class ContactComponent {
     this.clicked = label;
     this.state == 'normal' ? (this.state = 'clicked') : (this.state = 'normal');
   }
-
-  constructor() {}
 }
 
 interface marker {
