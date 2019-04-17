@@ -33,6 +33,7 @@ import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 
+import { HammerProvider } from './hammer/HammerProvider';
 import { KeysPipe } from './utility/keys.pipe';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
@@ -109,7 +110,10 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     })
   ],
-  providers: [Title],
+  providers: [
+    Title,
+    HammerProvider
+  ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })
