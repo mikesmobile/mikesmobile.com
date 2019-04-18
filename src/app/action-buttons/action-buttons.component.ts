@@ -11,12 +11,11 @@ export class ActionButtonsComponent {
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   toggleQuoteForm() {
-    console.log(this.quoteForm);
     this.quoteForm.show();
   }
 
   hideShowSearch() {
-    var searchInput = document.getElementById('search-input');
+    let searchInput = document.getElementById('search-input');
 
     document.getElementById('search-button').classList.toggle('orange');
 
@@ -30,7 +29,7 @@ export class ActionButtonsComponent {
 
   growActionBtns() {
     if (screen.width < 992) {
-      var container = document.getElementById('action-buttons-container');
+      let container = document.getElementById('action-buttons-container');
       container.classList.remove('container', 'mt-3');
       container.classList.add('row');
     }

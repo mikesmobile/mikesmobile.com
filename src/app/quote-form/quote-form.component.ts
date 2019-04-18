@@ -128,7 +128,6 @@ export class QuoteFormComponent implements OnInit {
           utm_campaign
         )
         .subscribe((data) => {
-          //console.log(data);
           this.hide();
           emailDir.resetForm({});
 
