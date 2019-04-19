@@ -5,7 +5,6 @@ import {
   PLATFORM_ID,
   Inject
 } from '@angular/core';
-import { turnState } from 'ng-uikit-pro-standard';
 import { isPlatformBrowser } from '@angular/common';
 
 @Component({
@@ -38,7 +37,6 @@ export class HomeComponent implements OnInit {
         this.slider = true;
       }
       this.growSlideshow();
-      stateManager.init();
     }
   }
 
@@ -50,45 +48,3 @@ export class HomeComponent implements OnInit {
     }
   }
 }
-
-/* TRYING OUT DIFFERENT WAYS TO HAVE RESPONSIVE JAVASCRIPT */
-
-var stateManager = (function() {
-  var state = null;
-
-  var resizePage = function() {
-    if (screen.width < 768) {
-      if (state !== 'mobile') {
-        displayMobile();
-      }
-      resizeMobile();
-    } else {
-      if (state !== 'desktop') {
-        displayDesktop();
-      }
-      resizeDesktop();
-    }
-  };
-  var displayMobile = function() {
-    state = 'mobile';
-    //console.log("enter mobile");
-  };
-  var displayDesktop = function() {
-    state = 'desktop';
-    //console.log("enter desktop");
-  };
-  var resizeMobile = function() {
-    //console.log("resizing mobile");
-  };
-  var resizeDesktop = function() {
-    //console.log("resizing desktop");
-  };
-  return {
-    init: function() {
-      resizePage();
-      window.onresize = () => {
-        resizePage;
-      };
-    }
-  };
-})();
