@@ -175,9 +175,9 @@
         <h1 class="text-left h5">{{ product.category }}</h1>
         <h2 class="text-left h3">{{ product.title }}</h2>
         <!-- Accordion wrapper -->
-        <div class="container my-4 shadowbox" *ngIf="product.textList">
+        <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-            <mdb-item *ngFor="let item of product.textList; index as i">
+            <mdb-item *ngFor="let item of product.textList; index as i" [collapsed]="i !== 0">
               <mdb-item-head>{{ item.title }}</mdb-item-head>
               <mdb-item-body>
                 <p [innerHTML]="item.description"></p>

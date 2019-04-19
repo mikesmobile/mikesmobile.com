@@ -22,6 +22,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   toggleQuoteForm() {
     this.quoteForm.show();
   }
+
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
@@ -29,6 +30,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
       this.service = servicesJSON.find((data) => {
         return data.slug === params['slug'];
       });
+
       if (!this.service) {
         this.router.navigate(['/']);
       } else {
