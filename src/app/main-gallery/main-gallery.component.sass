@@ -4,15 +4,26 @@
 .carousel.main-gallery
   .carousel-indicators
     img
+      height: 55px
       object-fit: contain
-      height: 70px
+      @include breakpoint(sm)
+        height: 70px
   .carousel-inner
     max-height: 550px
-    .carousel-item.active
+    .carousel-item
       img
-        height: 550px
+        height: 275px
+        max-height: 275px
+        margin-bottom: 10px
         object-fit: contain
         width: 100%
+        @include breakpoint(sm)
+          height: 450px
+          margin: 0
+          max-height: 450px
+        @include breakpoint(md)
+          height: 550px
+          max-height: 550px
 
 .modal-content
   background: #f2f2f2
