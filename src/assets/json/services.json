@@ -11,10 +11,16 @@
     "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
     "recentInstallImages": [
       {
-        "alt": "Titan Security Classic French Door",
-        "small": "/assets/images/security/titan/doors/classic-french_3.jpg",
-        "medium": "/assets/images/security/titan/doors/classic-french_3.jpg",
-        "big": "/assets/images/security/titan/doors/classic-french_3.jpg"
+        "alt": "Titan Security Trellis Door",
+        "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+      },
+      {
+        "alt": "Titan Security Manchester Door",
+        "small": "/assets/images/security/titan/doors/manchester_2.jpg",
+        "medium": "/assets/images/security/titan/doors/manchester_2.jpg",
+        "big": "/assets/images/security/titan/doors/manchester_2.jpg"
       },
       {
         "alt": "Titan Security Sunfire Door",
@@ -27,12 +33,6 @@
         "small": "/assets/images/security/titan/doors/playa_2.jpg",
         "medium": "/assets/images/security/titan/doors/playa_2.jpg",
         "big": "/assets/images/security/titan/doors/playa_2.jpg"
-      },
-      {
-        "alt": "Titan Security Trellis Door",
-        "small": "/assets/images/security/titan/doors/trellis_2.jpg",
-        "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
-        "big": "/assets/images/security/titan/doors/trellis_2.jpg"
       }
     ]
   },
