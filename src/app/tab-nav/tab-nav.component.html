@@ -29,10 +29,7 @@
             </ul>
           </div>
           <div *ngIf="info.video">
-            <div
-              *ngFor="let i of (info.video | keys)"
-              class="text-center py-4"
-            >
+            <div *ngFor="let i of (info.video | keys)" class="text-center py-4">
               <h3>{{ i.key }}</h3>
               <hr />
               <iframe
