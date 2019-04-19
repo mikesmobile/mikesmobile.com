@@ -23,12 +23,16 @@ export class LandingPageComponent implements OnInit, OnDestroy {
       });
 
       if (this.landing.images) {
-        if (this.landing.images["Security Screen Doors"]) {
-          this.security_door_gallery = this.landing.images["Security Screen Doors"];
+        if (this.landing.images['Security Screen Doors']) {
+          this.security_door_gallery = this.landing.images[
+            'Security Screen Doors'
+          ];
         }
 
-        if (this.landing.images["Security Window Screens"]) {
-          this.security_window_gallery = this.landing.images["Security Window Screens"];
+        if (this.landing.images['Security Window Screens']) {
+          this.security_window_gallery = this.landing.images[
+            'Security Window Screens'
+          ];
         }
       }
     });

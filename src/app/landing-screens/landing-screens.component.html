@@ -18,7 +18,10 @@
       [categories]="['Door and Window Screens', 'Awnings']"
     ></app-flipcard-list>
     <div class="m-3 row">
-      <div *ngFor="let city of cities" class="list-group col-6 col-lg-4 col-xl-3">
+      <div
+        *ngFor="let city of cities"
+        class="list-group col-6 col-lg-4 col-xl-3"
+      >
         <h3 class="list-group-item">{{ city }}</h3>
       </div>
     </div>

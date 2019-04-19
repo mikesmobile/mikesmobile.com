@@ -43,24 +43,23 @@ a
 .transparent-gray
   background: rgba(0, 0, 0, 0.6)
 
-#desktop-disappear
+.desktop-disappear
   @include breakpoint(md)
     display: none
 
-#tablet-disappear
+.tablet-disappear
   @include breakpoint(sm)
     display: none
+
+.mobile-disappear
+  display: none
+  @include breakpoint(xs)
+    display: inline
 
 #action-button
   display: none
   @include breakpoint(md)
     display: inline
-
-#mobile-disappear
-  display: none
-  @include breakpoint(xs)
-    display: inline
-
 
 @media (min-width: 1200px)
   .container

@@ -12,9 +12,7 @@ export class SeoAdwordsLpComponent implements OnInit, OnDestroy {
   slug: string;
   landingPage: any;
 
-  constructor(
-    private route: ActivatedRoute
-  ) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {

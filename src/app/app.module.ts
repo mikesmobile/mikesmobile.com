@@ -110,10 +110,7 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     })
   ],
-  providers: [
-    Title,
-    HammerProvider
-  ],
+  providers: [Title, HammerProvider],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })

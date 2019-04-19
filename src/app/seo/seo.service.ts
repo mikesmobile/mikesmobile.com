@@ -26,9 +26,7 @@ export class SEOService {
     };
 
     // Overwrite defaults with found data
-    const metaInfo = metaData.find(
-      (data) => data.page === url
-    );
+    const metaInfo = metaData.find((data) => data.page === url);
 
     if (metaInfo) {
       if (metaInfo.content) {

@@ -20,7 +20,7 @@ export class AppComponent {
     @Inject(PLATFORM_ID) private platformId: Object,
     public router: Router,
     private activatedRoute: ActivatedRoute,
-    private seoService: SEOService,
+    private seoService: SEOService
   ) {
     this.router.events.subscribe((event) => {
       if (isPlatformBrowser(PLATFORM_ID)) {
