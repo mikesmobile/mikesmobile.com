@@ -5,7 +5,6 @@ import {
   PLATFORM_ID,
   APP_ID
 } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, Title } from '@angular/platform-browser';
