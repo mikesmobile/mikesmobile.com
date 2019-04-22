@@ -17,10 +17,14 @@ export class ServiceListComponent implements OnInit {
 
   private req: any;
   serviceList = [];
+  categoryList = [];
 
   ngOnInit() {
     servicesJSON.forEach((data) => {
       this.serviceList.push(data);
+      if (data.type && data.type === "landing") {
+        this.categoryList.push(data);
+      }
     });
   }
 }
