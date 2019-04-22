@@ -3,25 +3,28 @@
     <div class="row">
       <!-- ServiceList Title -->
       <div class="col-12 pb-2">
-        <ng-container *ngFor="let service of categoryList | findByTitle:categories[i]">
-          <h1
-            class="text-center py-3"
-            [id]="service.slug"
-          >
-            <a class="orange-text" [routerLink]="['/about', service.slug]" [innerHTML]="category"></a>
+        <ng-container
+          *ngFor="let service of (categoryList | findByTitle: categories[i])"
+        >
+          <h1 class="text-center py-3" [id]="service.slug">
+            <a
+              class="orange-text"
+              [routerLink]="['/about', service.slug]"
+              [innerHTML]="category"
+            ></a>
           </h1>
         </ng-container>
       </div>
 
-      <ng-container *ngFor="let service of serviceList | findByCategory:categories[i]">
+      <ng-container
+        *ngFor="let service of (serviceList | findByCategory: categories[i])"
+      >
         <div class="col-6 col-md-4 col-lg-3">
-          <!-- Flip Card -->
           <div class="flip-container">
             <a
               class="d-block flipper"
               [routerLink]="['/', service.type, service.slug]"
             >
-              <!-- front content -->
               <div class="front">
                 <div class="view waves-light" mdbRippleRadius>
                   <img
@@ -32,9 +35,11 @@
                 </div>
                 <h4 class="card-title" [innerHTML]="service.title"></h4>
               </div>
-              <!-- back content -->
               <div class="back">
-                <h4 class="text-center card-back-title" [innerHTML]="service.title"></h4>
+                <h4
+                  class="text-center card-back-title"
+                  [innerHTML]="service.title"
+                ></h4>
                 <div class="divider dropdown-divider pt-0 mt-0"></div>
                 <p class="mb-0 text-center" [innerHTML]="service.tileText"></p>
               </div>

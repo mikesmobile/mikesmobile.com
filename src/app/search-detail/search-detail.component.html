@@ -2,7 +2,7 @@
 
 <div class="container">
   <h2 *ngIf="query" class="my-3 text-center">
-    Searched for <span class="blue-text">{{ query }}</span>
+    Searched for <span class="blue-text" [innerHTML]="query"></span>
   </h2>
 </div>
 <div class="container service-list mt-3" id="service-list">
@@ -21,12 +21,15 @@
                       alt="{{ result.title }}"
                     />
                   </div>
-                  <h4 class="card-title">{{ result.title }}</h4>
+                  <h4 class="card-title" [innerHTML]="result.title"></h4>
                 </div>
                 <div class="back">
-                  <h4 class="text-center">{{ result.title }}</h4>
+                  <h4 class="text-center" [innerHTML]="result.title"></h4>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <p class="p-1 mb-0 text-center">{{ result.tileText }}</p>
+                  <p
+                    class="p-1 mb-0 text-center"
+                    [innerHTML]="result.tileText"
+                  ></p>
                 </div>
               </div>
             </a>

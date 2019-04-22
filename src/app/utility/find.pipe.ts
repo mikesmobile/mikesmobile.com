@@ -9,7 +9,9 @@ export class FindByTitlePipe implements PipeTransform {
     if (!items || !filter) {
       return items;
     }
-    return items.filter((item) => item.title && item.title.indexOf(filter) !== -1);
+    return items.filter(
+      (item) => item.title && item.title.indexOf(filter) !== -1
+    );
   }
 }
 
@@ -22,6 +24,8 @@ export class FindByCategoryPipe implements PipeTransform {
     if (!items || !filter) {
       return items;
     }
-    return items.filter((item) => item.category && item.category.indexOf(filter) !== -1);
+    return items.filter(
+      (item) => item.category && item.category.indexOf(filter) !== -1
+    );
   }
 }

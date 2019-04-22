@@ -1,58 +1,48 @@
-<div class="container service-list mt-3" id="services">
+<div class="container service-list mt-3">
   <div class="row">
     <ng-container *ngFor="let category of categories; index as i">
-      <!-- ServiceItem row -->
-      <!-- ServiceList Title -->
-      <ng-container *ngFor="let service of serviceList">
-        <!-- Ensure only those in 'Screens' Category -->
-        <ng-container *ngIf="service.category === categories[i]">
-          <!-- ServiceItem -->
-          <div class="col-6 col-md-4 col-lg-3">
-            <!-- Flip Card -->
-            <div class="flip-container">
-              <a
-                class="flipper d-block"
-                [routerLink]="['/', service.type, service.slug]"
-              >
-                <!-- front content -->
-                <div class="front">
-                  <!--Card image-->
-                  <div class="view waves-light" mdbRippleRadius>
+      <ng-container
+        *ngFor="let service of (serviceList | findByCategory: categories[i])"
+      >
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="flip-container">
+            <a
+              class="flipper d-block"
+              [routerLink]="['/', service.type, service.slug]"
+            >
+              <div class="front">
+                <div class="view waves-light" mdbRippleRadius>
+                  <img
+                    *ngIf="
+                      images && images.hasOwnProperty(service.title);
+                      else Default
+                    "
+                    src="{{ images[service.title] }}"
+                  />
+                  <ng-template #Default>
                     <img
-                      *ngIf="
-                        images && images.hasOwnProperty(service.title);
-                        else Default
-                      "
-                      src="{{ images[service.title] }}"
+                      src="{{ service.tileImage }}"
+                      class="img-fluid"
+                      alt="{{ service.title }}"
                     />
-                    <ng-template #Default>
-                      <img
-                        src="{{ service.tileImage }}"
-                        class="img-fluid"
-                        alt="{{ service.title }}"
-                      />
-                    </ng-template>
-                  </div>
-                  <!--Title-->
-                  <h4 class="card-title">{{ service.title }}</h4>
+                  </ng-template>
                 </div>
-                <!--/ front content -->
-                <!-- back content -->
-                <div class="back">
-                  <h4 class="text-center card-back-title">
-                    {{ service.title }}
-                  </h4>
-                  <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <p class="mb-0 text-center">{{ CardTexts[service.title] }}</p>
-                </div>
-                <!--/ back content -->
-              </a>
-            </div>
-            <!-- /Flip Card -->
+                <h4 class="card-title" [innerHTML]="service.title"></h4>
+              </div>
+              <div class="back">
+                <h4
+                  class="text-center card-back-title"
+                  [innerHTML]="service.title"
+                ></h4>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+                <p
+                  class="mb-0 text-center"
+                  [innerHTML]="CardTexts[service.title]"
+                ></p>
+              </div>
+            </a>
           </div>
-          <!-- /ServiceItem -->
-        </ng-container>
-        <!-- /Ensure only those in 'Screens' Category -->
+        </div>
       </ng-container>
     </ng-container>
   </div>

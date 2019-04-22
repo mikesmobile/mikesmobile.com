@@ -1,25 +1,15 @@
-import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { Component, OnDestroy, ViewChild } from '@angular/core';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-
-import servicesJSON from '../../assets/json/services.json';
 
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.sass']
 })
-export class NavigationComponent implements OnInit {
+export class NavigationComponent {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   toggleQuoteForm() {
     this.quoteForm.show();
-  }
-
-  serviceList = [];
-
-  ngOnInit() {
-    servicesJSON.forEach((data) => {
-      this.serviceList.push(data);
-    });
   }
 
   openDropdown() {

@@ -22,7 +22,7 @@ export class ServiceListComponent implements OnInit {
   ngOnInit() {
     servicesJSON.forEach((data) => {
       this.serviceList.push(data);
-      if (data.type && data.type === "landing") {
+      if (data.type && data.type === 'landing') {
         this.categoryList.push(data);
       }
     });

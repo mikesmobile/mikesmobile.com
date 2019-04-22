@@ -1,366 +1,307 @@
 <app-action-buttons></app-action-buttons>
 
-<ng-container *ngIf="service">
-  <ng-container [ngSwitch]="service.slug">
-    <ng-container *ngSwitchCase="'swinging-screen-doors'">
-      <div class="container">
-        <!--Projects section v.1-->
-        <section class="section pb-3">
-          <!--Section heading-->
-          <h1 class="section-heading h1 pt-md-4">{{ service.title }}</h1>
+<ng-container [ngSwitch]="service.slug">
+  <ng-container *ngSwitchCase="'swinging-screen-doors'">
+    <div class="container">
+      <section class="section pb-3">
+        <h1 class="section-heading h1 pt-md-4" [innerHTML]="service.title"></h1>
+        <hr />
+        <p class="section-description" [innerHTML]="service.description"></p>
+        <div class="row text-center">
           <hr />
-          <!--Section description-->
-          <p class="section-description">{{ service.description }}</p>
-          <!--Grid row-->
-          <div class="row text-center">
-            <!--Grid column-->
-            <h2 class="text-md-left"></h2>
-            <hr />
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container *ngIf="item.category === 'Swinging Screen Door'">
-                <!-- ServiceItem -->
-                <div class="col-6 col-md-4 col-lg-3 my-3">
-                  <!--Card-->
-                  <div class="card">
-                    <!--Card image-->
-                    <a [routerLink]="['/', item.type, item.slug]">
-                      <div class="view overlay">
-                        <img
-                          src="{{ item.tileImage }}"
-                          class="img-fluid border-grey doorImages"
-                          alt="{{ item.title }}"
-                        />
-                        <div class="mask rgba-white-light"></div>
-                      </div>
-                    </a>
-                    <!--/.Card image-->
-                    <!--Card content-->
-                    <div class="card-body text-center">
-                      <!--Category & Title-->
-                      <h4 class="card-title">
-                        <strong
-                          ><a [routerLink]="['/', item.type, item.slug]">{{
-                            item.title
-                          }}</a></strong
-                        >
-                      </h4>
-                    </div>
-                    <!--/.Card content-->
+          <ng-container
+            *ngFor="
+              let item of (serviceList | findByCategory: 'Swinging Screen Door')
+            "
+          >
+            <div class="col-6 col-md-4 col-lg-3 my-3">
+              <div class="card">
+                <a [routerLink]="['/', item.type, item.slug]">
+                  <div class="view overlay">
+                    <img
+                      src="{{ item.tileImage }}"
+                      class="img-fluid border-grey doorImages"
+                      alt="{{ item.title }}"
+                    />
+                    <div class="mask rgba-white-light"></div>
                   </div>
-                  <!--/.Card-->
+                </a>
+                <div class="card-body text-center">
+                  <h4 class="card-title">
+                    <strong
+                      ><a
+                        [routerLink]="['/', item.type, item.slug]"
+                        [innerHTML]="item.title"
+                      ></a
+                    ></strong>
+                  </h4>
                 </div>
-                <!-- /ServiceItem -->
-              </ng-container>
-            </ng-container>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!--/Projects section v.1-->
-        <div class="container mt-4">
-          <section class="text-center section feature-box">
-            <app-footer-gallery
-              [options]="gallery_options"
-              [Images]="gallery_images"
-            ></app-footer-gallery>
-          </section>
-        </div>
-      </div>
-    </ng-container>
-    <ng-container *ngSwitchCase="'titan-security-doors'">
-      <div class="container">
-        <section class="section pb-3">
-          <!-- Breadcrumb Nav -->
-          <nav class="breadcrumb mt-2">
-            <a class="breadcrumb-item" routerLink="/">Home</a>
-            <a
-              class="breadcrumb-item"
-              routerLink="/about/security-doors-and-windows"
-              >Security Screen Doors and Windows</a
-            >
-            <span class="breadcrumb-item active"
-              >Titan Security Screen Doors</span
-            >
-          </nav>
-
-          <div class="row">
-            <!-- Gallery -->
-            <div class="col-12 col-md-7 pb-3">
-              <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-            </div>
-
-            <!-- Above-the-fold Text-->
-            <div class="col-12 col-md-5" id="productInfo">
-              <h1 class="text-left h5">Security Screen Doors</h1>
-              <h2 class="text-left h3">Titan Security Screen Doors</h2>
-              <div class="container">
-                <ul class="pb-3">
-                  <li id="l2">
-                    Available in 40 different designs.
-                    <a class="blue-text" mdbPageScroll href="#titanGallery"
-                      >Click or scroll here to see them all</a
-                    >
-                  </li>
-                  <li id="l2">
-                    Aluminum alloy construction is up to 6 times stronger than
-                    steel and cannot rust
-                  </li>
-                  <li id="l2">
-                    Welded hinges and mitered corners add strength, enhance
-                    appearance and increase security
-                  </li>
-                </ul>
               </div>
-              <div
-                class="flex-row d-none d-md-block my-4"
-                (click)="toggleQuoteForm()"
+            </div>
+          </ng-container>
+        </div>
+      </section>
+      <div class="container mt-4">
+        <section class="text-center section feature-box">
+          <app-footer-gallery
+            [options]="gallery_options"
+            [Images]="gallery_images"
+          ></app-footer-gallery>
+        </section>
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'titan-security-doors'">
+    <div class="container">
+      <section class="section pb-3">
+        <nav class="breadcrumb mt-2">
+          <a class="breadcrumb-item" routerLink="/">Home</a>
+          <a
+            class="breadcrumb-item"
+            routerLink="/about/security-doors-and-windows"
+            >Security Screen Doors and Windows</a
+          >
+          <span class="breadcrumb-item active"
+            >Titan Security Screen Doors</span
+          >
+        </nav>
+
+        <div class="row">
+          <div class="col-12 col-md-7 pb-3">
+            <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          </div>
+
+          <div class="col-12 col-md-5" id="productInfo">
+            <h1 class="text-left h5">Security Screen Doors</h1>
+            <h2 class="text-left h3">Titan Security Screen Doors</h2>
+            <div class="container">
+              <ul class="pb-3">
+                <li id="l2">
+                  Available in 40 different designs.
+                  <a class="blue-text" mdbPageScroll href="#titanGallery"
+                    >Click or scroll here to see them all</a
+                  >
+                </li>
+                <li id="l2">
+                  Aluminum alloy construction is up to 6 times stronger than
+                  steel and cannot rust
+                </li>
+                <li id="l2">
+                  Welded hinges and mitered corners add strength, enhance
+                  appearance and increase security
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex-row d-none d-md-block my-4"
+              (click)="toggleQuoteForm()"
+            >
+              <h4
+                class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
               >
-                <h4
-                  class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
-                >
-                  &nbsp; Get a Free Quote Now!
+                &nbsp; Get a Free Quote Now!
+              </h4>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <h4>
+                  Color Selection &nbsp;
+                  <span class="small">(click to zoom)</span>
+                </h4>
+                <app-color-swatch
+                  swatchType="titanSecurityColors"
+                ></app-color-swatch>
+                <app-color-swatch
+                  swatchType="titanAluminumColors"
+                ></app-color-swatch>
+                <app-color-swatch swatchType="meshtecColor"></app-color-swatch>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <p class="section-description" [innerHTML]="service.description"></p>
+        <br /><br />
+        <div id="titanGallery" class="row justify-content-center">
+          <ng-container
+            *ngFor="
+              let item of (serviceList
+                | findByCategory: 'Titan Security Screen Doors')
+            "
+          >
+            <div class="card col-6 col-md-4 col-lg-2">
+              <a [routerLink]="['/', item.type, item.slug]">
+                <div class="view overlay">
+                  <img
+                    src="{{ item.tileImage }}"
+                    class="img-fluid doorImages"
+                    alt="{{ item.title }}"
+                  />
+                  <div class="mask rgba-white-light"></div>
+                </div>
+              </a>
+              <div class="card-body text-center">
+                <h4 class="card-title">
+                  <strong
+                    ><a
+                      [routerLink]="['/', item.type, item.slug]"
+                      [innerHTML]="item.title"
+                    ></a
+                  ></strong>
                 </h4>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <h4>
-                    Color Selection &nbsp;
-                    <span class="small">(click to zoom)</span>
-                  </h4>
-                  <app-color-swatch
-                    swatchType="titanSecurityColors"
-                  ></app-color-swatch>
-                  <app-color-swatch
-                    swatchType="titanAluminumColors"
-                  ></app-color-swatch>
-                  <app-color-swatch
-                    swatchType="meshtecColor"
-                  ></app-color-swatch>
-                </div>
-              </div>
             </div>
-          </div>
-
-          <!-- Separator Text -->
-          <br />
-          <hr />
-          <p class="section-description">{{ service.description }}</p>
-          <br /><br />
-
-          <!-- Gallery of doors -->
-          <div id="titanGallery" class="row justify-content-center">
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container
-                *ngIf="item.category === 'Titan Security Screen Doors'"
-              >
-                <div class="card col-6 col-md-4 col-lg-2">
-                  <a [routerLink]="['/', item.type, item.slug]">
-                    <div class="view overlay">
+          </ng-container>
+        </div>
+      </section>
+    </div>
+    <app-quote-form></app-quote-form>
+  </ng-container>
+  <ng-container *ngSwitchCase="'chimney-repairs'">
+    <div class="container">
+      <section class="section pb-3">
+        <h1 class="section-heading h1 mt-md-4">Chimney Repair</h1>
+        <hr />
+        <p class="section-description" [innerHTML]="service.description"></p>
+        <div class="row text-center">
+          <ng-container
+            *ngFor="let item of (serviceList | findByCategory: 'Repair')"
+          >
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+              <div class="flip-container">
+                <a
+                  class="flipper d-block"
+                  [routerLink]="['/', item.type, item.slug]"
+                >
+                  <div class="front">
+                    <div class="view waves-light" mdbRippleRadius>
                       <img
                         src="{{ item.tileImage }}"
-                        class="img-fluid doorImages"
+                        class="img-fluid servicesImages"
                         alt="{{ item.title }}"
                       />
-                      <div class="mask rgba-white-light"></div>
                     </div>
-                  </a>
-                  <div class="card-body text-center">
-                    <h4 class="card-title">
-                      <strong
-                        ><a [routerLink]="['/', item.type, item.slug]">{{
-                          item.title
-                        }}</a></strong
-                      >
-                    </h4>
+                    <h5
+                      class="card-title px-4 py-2"
+                      [innerHTML]="item.title"
+                    ></h5>
                   </div>
-                </div>
-              </ng-container>
-            </ng-container>
-          </div>
-        </section>
-      </div>
-      <app-quote-form></app-quote-form>
-    </ng-container>
-    <ng-container *ngSwitchCase="'chimney-repairs'">
-      <div class="container">
-        <!--Projects section v.1-->
-        <section class="section pb-3">
-          <!--Section heading-->
-          <h1 class="section-heading h1 mt-md-4">Chimney Repair</h1>
-          <hr />
-          <!--Section description-->
-          <p class="section-description">{{ service.description }}</p>
-          <!--Grid row-->
-          <div class="row text-center">
-            <!--Grid column-->
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container *ngIf="item.category === 'Repair'">
-                <!-- ServiceItem -->
-                <div class="col-6 col-md-4 col-lg-3 mb-4">
-                  <!-- Flip Card -->
-                  <div class="flip-container">
-                    <a
-                      class="flipper d-block"
-                      [routerLink]="['/', item.type, item.slug]"
-                    >
-                      <!-- front content -->
-                      <div class="front">
-                        <!--Card image-->
-                        <div class="view waves-light" mdbRippleRadius>
-                          <img
-                            src="{{ item.tileImage }}"
-                            class="img-fluid servicesImages"
-                            alt="{{ item.title }}"
-                          />
-                        </div>
-                        <!--Title-->
-                        <h5 class="card-title px-4 py-2">{{ item.title }}</h5>
-                      </div>
-                      <!--/ front content -->
-
-                      <!-- back content -->
-                      <div class="back">
-                        <h4 class="text-center card-back-title">
-                          {{ item.title }}
-                        </h4>
-                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
-                      </div>
-                      <!--/ back content -->
-                    </a>
+                  <div class="back">
+                    <h4
+                      class="text-center card-back-title"
+                      [innerHTML]="item.title"
+                    ></h4>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <p
+                      class="p-1 mb-0 text-center"
+                      [innerHTML]="item.tileText"
+                    ></p>
                   </div>
-                  <!-- /Flip Card -->
-                </div>
-                <!-- /ServiceItem -->
-              </ng-container>
-            </ng-container>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!--/Projects section v.1-->
-      </div>
-    </ng-container>
-    <ng-container *ngSwitchCase="'masonry-services'">
-      <div class="container">
-        <!--Projects section v.1-->
-        <section class="section pb-3">
-          <!--Section heading-->
-          <h1 class="section-heading h1 pt-md-4">{{ service.title }}</h1>
-          <hr />
-          <!--Section description-->
-          <p class="section-description">{{ service.description }}</p>
-          <!--Grid row-->
-          <div class="row text-center">
-            <!--Grid column-->
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container *ngIf="item.category === 'Masonry'">
-                <!-- ServiceItem -->
-                <div class="col-6 col-md-4 col-lg-3 my-3">
-                  <!-- Flip Card -->
-                  <div class="flip-container">
-                    <a
-                      class="flipper d-block"
-                      [routerLink]="['/', item.type, item.slug]"
-                    >
-                      <!-- front content -->
-                      <div class="front">
-                        <!--Card image-->
-                        <div class="view waves-light" mdbRippleRadius>
-                          <img
-                            src="{{ item.tileImage }}"
-                            class="img-fluid"
-                            alt="{{ item.title }}"
-                            id="servicesImages"
-                          />
-                        </div>
-                        <!--Title-->
-                        <h5 class="card-title px-4 py-2">{{ item.title }}</h5>
-                      </div>
-                      <!--/ front content -->
-
-                      <!-- back content -->
-                      <div class="back">
-                        <h4 class="text-center card-back-title">
-                          {{ item.title }}
-                        </h4>
-                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
-                      </div>
-                      <!--/ back content -->
-                    </a>
+                </a>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </section>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'masonry-services'">
+    <div class="container">
+      <section class="section pb-3">
+        <h1 class="section-heading h1 pt-md-4" [innerHTML]="service.title"></h1>
+        <hr />
+        <p class="section-description" [innerHTML]="service.description"></p>
+        <div class="row text-center">
+          <ng-container
+            *ngFor="let item of (serviceList | findByCategory: 'Masonry')"
+          >
+            <div class="col-6 col-md-4 col-lg-3 my-3">
+              <div class="flip-container">
+                <a
+                  class="flipper d-block"
+                  [routerLink]="['/', item.type, item.slug]"
+                >
+                  <div class="front">
+                    <div class="view waves-light" mdbRippleRadius>
+                      <img
+                        src="{{ item.tileImage }}"
+                        class="img-fluid"
+                        alt="{{ item.title }}"
+                        id="servicesImages"
+                      />
+                    </div>
+                    <h5
+                      class="card-title px-4 py-2"
+                      [innerHTML]="item.title"
+                    ></h5>
                   </div>
-                  <!-- /Flip Card -->
-                </div>
-                <!-- /ServiceItem -->
-              </ng-container>
-            </ng-container>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!--/Projects section v.1-->
-      </div>
-    </ng-container>
-    <ng-container *ngSwitchCase="'chimney-accessories'">
-      <div class="container">
-        <!--Projects section v.1-->
-        <section class="section pb-3">
-          <!--Section heading-->
-          <h1 class="section-heading h1 pt-md-4">{{ service.title }}</h1>
-          <hr />
-          <!--Section description-->
-          <p class="section-description">{{ service.description }}</p>
-          <!--Grid row-->
-          <div class="row text-center">
-            <!--Grid column-->
-            <ng-container *ngFor="let item of serviceList">
-              <ng-container *ngIf="item.category === 'Accessories'">
-                <!-- ServiceItem -->
-                <div class="col-6 col-md-4 col-lg-3 my-3">
-                  <!-- Flip Card -->
-                  <div class="flip-container">
-                    <a
-                      class="flipper d-block"
-                      [routerLink]="['/', item.type, item.slug]"
-                    >
-                      <!-- front content -->
-                      <div class="front">
-                        <!--Card image-->
-                        <div class="view waves-light" mdbRippleRadius>
-                          <img
-                            src="{{ item.tileImage }}"
-                            class="img-fluid"
-                            alt="{{ item.title }}"
-                            id="servicesImages"
-                          />
-                        </div>
-                        <!--Title-->
-                        <h5 class="card-title px-4 py-2">{{ item.title }}</h5>
-                      </div>
-                      <!--/ front content -->
-                      <!-- back content -->
-                      <div class="back">
-                        <h4 class="text-center card-back-title">
-                          {{ item.title }}
-                        </h4>
-                        <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p class="p-1 mb-0 text-center">{{ item.tileText }}</p>
-                      </div>
-                      <!--/ back content -->
-                    </a>
+                  <div class="back">
+                    <h4
+                      class="text-center card-back-title"
+                      [innerHTML]="item.title"
+                    ></h4>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <p
+                      class="p-1 mb-0 text-center"
+                      [innerHTML]="item.tileText"
+                    ></p>
                   </div>
-                  <!-- /Flip Card -->
-                </div>
-                <!-- /ServiceItem -->
-              </ng-container>
-            </ng-container>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </section>
-        <!--/Projects section v.1-->
-      </div>
-    </ng-container>
+                </a>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </section>
+    </div>
+  </ng-container>
+  <ng-container *ngSwitchCase="'chimney-accessories'">
+    <div class="container">
+      <section class="section pb-3">
+        <h1 class="section-heading h1 pt-md-4" [innerHTML]="service.title"></h1>
+        <hr />
+        <p class="section-description" [innerHTML]="service.description"></p>
+        <div class="row text-center">
+          <ng-container
+            *ngFor="let item of (serviceList | findByCategory: 'Accessories')"
+          >
+            <div class="col-6 col-md-4 col-lg-3 my-3">
+              <div class="flip-container">
+                <a
+                  class="flipper d-block"
+                  [routerLink]="['/', item.type, item.slug]"
+                >
+                  <div class="front">
+                    <div class="view waves-light" mdbRippleRadius>
+                      <img
+                        src="{{ item.tileImage }}"
+                        class="img-fluid"
+                        alt="{{ item.title }}"
+                        id="servicesImages"
+                      />
+                    </div>
+                    <h5
+                      class="card-title px-4 py-2"
+                      [innerHTML]="item.title"
+                    ></h5>
+                  </div>
+                  <div class="back">
+                    <h4
+                      class="text-center card-back-title"
+                      [innerHTML]="item.title"
+                    ></h4>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <p
+                      class="p-1 mb-0 text-center"
+                      [innerHTML]="item.tileText"
+                    ></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </section>
+    </div>
   </ng-container>
 </ng-container>
