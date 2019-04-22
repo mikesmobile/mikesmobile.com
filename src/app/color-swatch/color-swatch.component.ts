@@ -176,8 +176,6 @@ export class ColorSwatchComponent implements OnInit {
     }
   };
 
-  constructor() {}
-
   ngOnInit() {
     switch (this.swatchType) {
       case 'stdColors':

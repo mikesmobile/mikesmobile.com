@@ -14,22 +14,6 @@ export class NavigationComponent implements OnInit {
     this.quoteForm.show();
   }
 
-  categories = [
-    'Screens',
-    'Chimney',
-    'Security',
-    'Awnings',
-    'Home Improvement'
-  ];
-  gridType = [
-    'swinging-screen-doors',
-    'accessories',
-    'repairs',
-    'resources',
-    'masonry-services',
-    'steel-security-doors'
-  ];
-
   serviceList = [];
 
   ngOnInit() {

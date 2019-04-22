@@ -7,8 +7,6 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
   styleUrls: ['./action-buttons.component.sass']
 })
 export class ActionButtonsComponent {
-  constructor() {}
-
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   toggleQuoteForm() {
     this.quoteForm.show();

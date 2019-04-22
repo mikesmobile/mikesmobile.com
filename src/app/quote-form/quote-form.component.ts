@@ -19,8 +19,6 @@ import { isPlatformBrowser } from '@angular/common';
   providers: [ServicesService]
 })
 export class QuoteFormComponent implements OnInit {
-  @Input() product: string;
-  visible = false;
   @ViewChild('basicModal') public basicModal: ModalDirective;
   show() {
     this.basicModal.show();
@@ -36,7 +34,6 @@ export class QuoteFormComponent implements OnInit {
     private _service: ServicesService
   ) {}
 
-  optionsSelect = [];
   emailForm: FormGroup;
   ngOnInit() {
     this.emailForm = new FormGroup({
@@ -133,14 +130,6 @@ export class QuoteFormComponent implements OnInit {
 
           this.router.navigate(['/thank-you']);
         });
-    }
-  }
-
-  growActionBtns() {
-    if (screen.width < 992) {
-      var container = document.getElementById('action-buttons-container');
-      container.classList.remove('container', 'mt-3');
-      container.classList.add('row');
     }
   }
 }

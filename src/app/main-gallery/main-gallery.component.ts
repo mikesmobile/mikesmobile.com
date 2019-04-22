@@ -24,8 +24,6 @@ export class MainGalleryComponent implements OnChanges {
   public source: string;
   public imagesSize;
 
-  constructor() {}
-
   ngOnChanges(changes: SimpleChanges) {
     this.imagesSize = this.Images.length;
   }

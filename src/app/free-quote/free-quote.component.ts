@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
