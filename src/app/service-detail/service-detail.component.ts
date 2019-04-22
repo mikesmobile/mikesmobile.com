@@ -47,32 +47,4 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.routeSub.unsubscribe();
   }
-
-  viewMoreColors() {
-    document.getElementById('more-colors').style.display = 'none';
-    document.getElementById('less-colors').style.display = 'block';
-
-    for (let i = 6; i < 19; i++) {
-      let el = document.getElementById('square-' + i);
-      el.style.display = 'block';
-      if (screen.width < 992) {
-        let ello = document.getElementById('square-p-' + i);
-        ello.style.display = 'block';
-      }
-    }
-  }
-
-  viewLessColors() {
-    document.getElementById('less-colors').style.display = 'none';
-    document.getElementById('more-colors').style.display = 'block';
-
-    for (let i = 6; i < 19; i++) {
-      let el = document.getElementById('square-' + i);
-      el.style.display = 'none';
-      if (screen.width < 992) {
-        let ello = document.getElementById('square-p-' + i);
-        ello.style.display = 'none';
-      }
-    }
-  }
 }

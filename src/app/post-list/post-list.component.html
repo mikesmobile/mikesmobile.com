@@ -1,8 +1,6 @@
 <app-action-buttons></app-action-buttons>
 <div class="container">
-  <!--Section heading-->
   <h1 class="text-center mt-md-4 pt-4 pb-md-4">Blog Posts</h1>
-  <!--Section description-->
   <p class="section-description px-4">
     Welcome to Mike's Mobile Blog! Here you will find some of our latest
     articles, and any other news.
@@ -18,9 +16,8 @@
           id="{{ item }}"
           class="list-group-item subcat"
           (click)="clickedItem(item)"
-        >
-          {{ item }}
-        </li>
+          [innerHTML]="item"
+        ></li>
       </a>
       <li class="list-group-item head">Location</li>
       <a>
@@ -29,16 +26,13 @@
           id="{{ item }}"
           class="list-group-item subcat"
           (click)="clickedItem(item)"
-        >
-          {{ item }}
-        </li>
+          [innerHTML]="item"
+        ></li>
       </a>
     </ul>
   </div>
   <div class="container col-12 col-md-9 col-lg-10 order-2 order-md-2">
-    <!--Section: Blog v.1-->
     <section class="section pb-3 text-center text-lg-left">
-      <!--Grid row-->
       <div *ngFor="let post of blogPostList">
         <div
           class="row"
@@ -49,10 +43,8 @@
             clicked == 'all'
           "
         >
-          <!--Grid column-->
           <div class="col-md-4">
             <div class="view overlay">
-              <!--Featured image-->
               <img
                 class="post-img"
                 src="{{ post.images[0] }}"
@@ -63,15 +55,12 @@
               </a>
             </div>
           </div>
-          <!--/Grid column-->
 
-          <!--Grid column-->
           <div class="col-md-8">
             <div class="blog-text">
-              <!--Excerpt-->
               <a [routerLink]="[post.slug]">
                 <h4 class="mb-4">
-                  <strong>{{ post.title }}</strong>
+                  <strong [innerHTML]="post.title"></strong>
                 </h4>
               </a>
               <div class="row">
@@ -109,12 +98,9 @@
               </div>
             </div>
           </div>
-          <!--Grid column-->
           <hr class="hr-width mb-5 mt-5 pb-3" />
         </div>
       </div>
-      <!--Grid row-->
     </section>
-    <!--Section: Blog v.1-->
   </div>
 </div>

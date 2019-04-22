@@ -1,13 +1,10 @@
 <app-action-buttons></app-action-buttons>
 
 <div class="container my-4">
-  <!--Author box-->
   <div class="author-box" *ngIf="post">
-    <!--Name-->
-    <h3 class="h3-responsive text-center">{{ post.title }}</h3>
+    <h3 class="h3-responsive text-center" [innerHTML]="post.title"></h3>
     <hr />
     <div class="row">
-      <!--Avatar-->
       <div class="col-12 col-sm-2">
         <img
           src="{{ post.images[0] }}"
@@ -34,9 +31,7 @@
                 >
                   <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title w-100" id="myModalLabel">
-                  {{ post.title }}
-                </h4>
+                <h4 class="modal-title w-100" [innerHTML]="post.title"></h4>
               </div>
               <div class="modal-body">
                 <img
@@ -49,10 +44,9 @@
           </div>
         </div>
       </div>
-      <!--Author Data-->
       <div class=" col-12 col-sm-10">
         <p>
-          <strong>{{ post.user }}</strong>
+          <strong [innerHTML]="post.user"></strong>
         </p>
         <div class="personal-sm">
           <a
@@ -77,10 +71,6 @@
             ><i class="fas fa-envelope-open"></i
           ></a>
         </div>
-        <!-- <div *ngIf="post.video">
-          <iframe *ngIf="post.video" width="100%" height="400px" [src]="sanitizer.bypassSecurityTrustResourceUrl(post.video)"
-            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> -->
         <ng-container *ngFor="let p of post.content">
           <p class="p-4" [innerHTML]="p"></p>
         </ng-container>
@@ -106,5 +96,4 @@
       </mdb-carousel>
     </div>
   </div>
-  <!--/.Author box-->
 </div>

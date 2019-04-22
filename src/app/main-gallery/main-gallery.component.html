@@ -20,7 +20,7 @@
       />
     </div>
     <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
-      <p>{{ image.title }}</p>
+      <p [innerHTML]="image.title"></p>
     </div>
   </mdb-slide>
 </mdb-carousel>

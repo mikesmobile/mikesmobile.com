@@ -8,55 +8,50 @@
     to give us a call if you need any more assistance!
   </h4>
   <div *ngFor="let faq of faqs" class="m-4">
-    <h5 class="font-weight-bold">{{ faq.question }}</h5>
+    <h5 class="font-weight-bold" [innerHTML]="faq.question"></h5>
     <div [ngSwitch]="faq.type">
       <div *ngSwitchCase="'p'">
-        <p *ngFor="let p of faq.body">
-          {{ p }}
-        </p>
+        <p *ngFor="let p of faq.body" [innerHTML]="p"></p>
       </div>
       <div *ngSwitchCase="'list'">
         <ul class="list-group mb-5">
-          <li *ngFor="let l of faq.bullets" class="list-group-item">
-            {{ l }}
-          </li>
+          <li
+            *ngFor="let l of faq.bullets"
+            class="list-group-item"
+            [innerHTML]="l"
+          ></li>
         </ul>
       </div>
       <div *ngSwitchCase="'image-list'" class="service-list">
-        <p>{{ faq.body }}</p>
+        <p [innerHTML]="faq.body"></p>
         <div class="row">
           <div
             *ngFor="let i of faq.images"
             class="col-6 col-md-4 col-lg-3 flip-container"
           >
             <div class="flipper">
-              <!-- front content -->
               <div class="front">
-                <!--Card image-->
                 <div class="view waves-light" mdbRippleRadius>
                   <img src="{{ i.src }}" class="img-fluid" alt="{{ i.alt }}" />
                 </div>
-                <!--Title-->
               </div>
-              <!--/ front content -->
-
-              <!-- back content -->
-
               <div class="back">
-                <h4 class="text-center card-back-title">{{ i.title }}</h4>
+                <h4
+                  class="text-center card-back-title"
+                  [innerHTML]="i.title"
+                ></h4>
               </div>
-
-              <!--/ back content -->
             </div>
           </div>
         </div>
         <ul class="list-group mb-5">
-          <li *ngFor="let l of faq.bullets" class="list-group-item">
-            {{ l }}
-          </li>
+          <li
+            *ngFor="let bullet of faq.bullets"
+            class="list-group-item"
+            [innerHTML]="bullet"
+          ></li>
         </ul>
       </div>
-      <div *ngSwitchCase=""></div>
     </div>
   </div>
 </div>

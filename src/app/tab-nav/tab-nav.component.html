@@ -16,7 +16,7 @@
           <div *ngIf="info.links">
             <ul class="p-4">
               <li *ngFor="let i of (info.links | keys)">
-                <a [routerLink]="[i.value]">{{ i.key }}</a>
+                <a [routerLink]="[i.value]" [innerHTML]="i.key"></a>
               </li>
             </ul>
           </div>
@@ -30,7 +30,7 @@
           </div>
           <div *ngIf="info.video">
             <div *ngFor="let i of (info.video | keys)" class="text-center py-4">
-              <h3>{{ i.key }}</h3>
+              <h3 [innerHTML]="i.key"></h3>
               <hr />
               <iframe
                 *ngIf="info.video"

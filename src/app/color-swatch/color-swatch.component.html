@@ -1,6 +1,10 @@
 <ng-container>
   <ng-container *ngIf="colors != null">
-    <p class="mb-0 mt-2 ml-1" style="font-weight:bold">{{ colors.name }}</p>
+    <p
+      class="mb-0 mt-2 ml-1"
+      style="font-weight:bold"
+      [innerHTML]="colors.name"
+    ></p>
     <div class="row no-gutters">
       <div
         class="col-3 col-md-2"
@@ -15,7 +19,6 @@
           placement="bottom"
           (click)="ColorModal.show()"
         ></div>
-        <!--edge case for picture backgrounds-->
         <div
           *ngIf="color.value[0] === '/'"
           class="square"
@@ -27,22 +30,27 @@
           placement="bottom"
           (click)="ColorModal.show()"
         ></div>
-        <p id="square-p-{{ i }}" class="pl-2 p-colors">{{ color.key }}</p>
+        <p
+          id="square-p-{{ i }}"
+          class="pl-2 p-colors"
+          [innerHTML]="color.key"
+        ></p>
         <div
           mdbModal
           #ColorModal="mdb-modal"
           class="modal fade"
           tabindex="-1"
           role="dialog"
-          aria-labelledby="myBasicModalLabel"
+          aria-labelledby="Color Modal"
           aria-hidden="true"
         >
           <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title w-100 text-center" id="myModalLabel">
-                  {{ color.key }}
-                </h4>
+                <h4
+                  class="modal-title w-100 text-center"
+                  [innerHTML]="color.key"
+                ></h4>
                 <button
                   type="button"
                   class="close"
@@ -79,7 +87,6 @@
     </div>
   </ng-container>
 
-  <!-- Edge Case For Colors with more than 1 row of colors, provides a toggleable interface -->
   <ng-container
     *ngIf="
       swatchType === 'swingingDoorColors' ||

@@ -245,8 +245,4 @@ export class ColorSwatchComponent implements OnInit {
       }
     }
   }
-
-  moreSteelToggle() {
-    document.getElementById('collapseSteelColors').classList.toggle('collapse');
-  }
 }

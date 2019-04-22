@@ -65,7 +65,7 @@
         routerLink="/about/awnings"
         >Awnings</a
       >
-      <span class="breadcrumb-item active">{{ product.title }}</span>
+      <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
     <!-- /Breadcrumb Navigation -->
     <div class="row">
@@ -144,8 +144,7 @@
                   >
                     <span aria-hidden="true">×</span>
                   </button>
-                  <h4 class="modal-title w-100 text-center" id="myModalLabel">
-                    {{ product.title }}
+                  <h4 class="modal-title w-100 text-center" [innerHTML]="product.title">
                   </h4>
                 </div>
                 <div class="modal-body">
@@ -172,8 +171,8 @@
       <!-- /GALLERY SECTION -->
 
       <div class="col-12 col-md-5" id="productInfo">
-        <h1 class="text-left h5">{{ product.category }}</h1>
-        <h2 class="text-left h3">{{ product.title }}</h2>
+        <h1 class="text-left h5" [innerHTML]="product.category"></h1>
+        <h2 class="text-left h3" [innerHTML]="product.title"></h2>
         <!-- Accordion wrapper -->
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
@@ -196,7 +195,7 @@
         <!-- /.Accordion wrapper -->
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
-            <li *ngFor="let bullet of product.bullets" id="l2">{{ bullet }}</li>
+            <li *ngFor="let bullet of product.bullets" id="l2" [innerHTML]="bullet"></li>
           </ul>
         </div>
         <div

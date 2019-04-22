@@ -18,8 +18,8 @@
           class="col-12 question and answer"
         >
           <div *ngIf="section"></div>
-          <h3>{{ question.key }}</h3>
-          <p>{{ question.value }}</p>
+          <h3 [innerHTML]="question.key"></h3>
+          <p [innerHTML]="question.value"></p>
         </div>
       </div>
     </mdb-tab>

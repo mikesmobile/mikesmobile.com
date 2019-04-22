@@ -7,7 +7,7 @@
       We offer our services to all these areas!.
     </p>
     <div *ngFor="let region of regions">
-      <u>{{ region }}</u>
+      <u [innerHTML]="region"></u>
       <div *ngFor="let k of regionList">
         <div *ngIf="region && k.region.toLowerCase() === region.toLowerCase()">
           <a

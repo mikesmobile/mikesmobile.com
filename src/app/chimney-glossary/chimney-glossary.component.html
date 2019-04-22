@@ -8,20 +8,20 @@
         mdbPageScroll
         href="#{{ section.section }}"
         class="btn-floating btn-sm blue-gradient"
-        >{{ section.section }}</a
-      >
+        [innerHTML]="section.section"
+      ></a>
     </div>
   </div>
   <div class="clearfix mb-5"></div>
   <div *ngFor="let section of glossarySections">
-    <h2 class="font-weight-bold" id="{{ section.section }}">
+    <h2 class="font-weight-bold" [id]="section.section">
       Section {{ section.section }} |
       <a class="text-warning" mdbPageScroll href="#top">Back to top</a>
       <hr />
     </h2>
     <div *ngFor="let term of (section.terms | keys)">
-      <h4 class="font-weight-bold">{{ term.key }}</h4>
-      <p>{{ term.value }}</p>
+      <h4 class="font-weight-bold" [innerHTML]="term.key"></h4>
+      <p [innerHTML]="term.value"></p>
     </div>
   </div>
 </div>
