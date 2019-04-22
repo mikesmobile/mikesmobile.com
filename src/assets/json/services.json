@@ -568,7 +568,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Guardsman",
@@ -622,7 +622,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Halcyon",
@@ -940,7 +940,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Longfellow",
@@ -1426,7 +1426,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Playa",
@@ -1576,7 +1576,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Queen Mary",
@@ -1720,7 +1720,7 @@
       }
     ],
     "tileText": "Call us today and get great pricing on window screen replacements. We specialize in all kinds of window screens and Solar Screens.",
-    "colorSet": ["titanSecurityColors", "titanAluminumColors", "meshtecColor"]
+    "colorSet": ["titanSecurityColors", "titanAluminumColors"]
   },
   {
     "title": "Sheraton",
