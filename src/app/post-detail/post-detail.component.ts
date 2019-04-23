@@ -17,6 +17,7 @@ export class PostDetailComponent implements OnInit {
   private routeSub: any;
 
   post;
+  fullURIEncoded: string;
   blogGallery: boolean;
   constructor(private route: ActivatedRoute) {}
 
@@ -25,6 +26,8 @@ export class PostDetailComponent implements OnInit {
       this.post = blogsJSON.find((data) => {
         return data.slug === params['slug'];
       });
+
+      this.fullURIEncoded = encodeURIComponent(location.href);
 
       if (this.post.images.length > 1) {
         this.blogGallery = true;
