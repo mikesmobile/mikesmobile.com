@@ -4,10 +4,10 @@
     <hr />
     <img
       *ngFor="let image of Images; let i = index"
-      alt="{{ image.alt }}"
+      [alt]="image.alt"
       type="image"
       class="footerThumb"
-      src="{{ image.big }}"
+      [src]="image.big"
       data-toggle="modal"
       data-target="#footerModal"
       (click)="show(i)"
@@ -38,7 +38,7 @@
             </button>
           </div>
           <div class="text-center galleryImg">
-            <img #footerModalImage src="{{ name }}" alt="{{ name }}" />
+            <img #footerModalImage [src]="name" [alt]="name" />
           </div>
           <div class="gallery-footer">
             <button

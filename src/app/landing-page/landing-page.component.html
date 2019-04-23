@@ -1,7 +1,6 @@
 <app-action-buttons></app-action-buttons>
 
 <ng-container *ngIf="landing">
-  <!-- door Screens -->
   <ng-container *ngIf="landing.slug === 'door-screens'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -72,9 +71,6 @@
       </p>
     </div>
   </ng-container>
-  <!-- /door-screens -->
-
-  <!-- Window-Screens -->
   <ng-container *ngIf="landing.slug === 'window-screens'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -124,9 +120,6 @@
       </p>
     </div>
   </ng-container>
-  <!-- /window-screens -->
-
-  <!-- door-and-window-screens -->
   <ng-container *ngIf="landing.slug === 'door-and-window-screens'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -214,9 +207,6 @@
       </p>
     </div>
   </ng-container>
-  <!-- /door-and-window-screens -->
-
-  <!-- Chimney Services -->
   <ng-container *ngIf="landing.slug === 'chimney-services'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -291,9 +281,6 @@
       <hr />
     </div>
   </ng-container>
-  <!-- /Chimney Services -->
-
-  <!-- security-doors -->
   <ng-container *ngIf="landing.slug === 'security-doors'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -354,11 +341,9 @@
           </div>
         </div>
       </div>
-
       <br />
       <hr />
       <br />
-
       <div class="row">
         <div class="col-12 col-md-5">
           <h3 class="text-left">Patio Doors</h3>
@@ -381,7 +366,6 @@
             </div>
           </div>
         </div>
-        <!-- Gallery -->
         <div class="col-12 col-md-7 pb-3">
           <a routerLink="/products/sliding-security-doors"
             ><img
@@ -393,9 +377,6 @@
       </div>
     </div>
   </ng-container>
-  <!-- /security-doors -->
-
-  <!-- security-windows -->
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -440,9 +421,6 @@
       </div>
     </div>
   </ng-container>
-  <!-- /security-windows -->
-
-  <!-- security-doors-and-windows -->
   <ng-container *ngIf="landing.slug === 'security-doors-and-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -454,12 +432,9 @@
         Mike’s Mobile Screens has plenty of options for you.
       </p>
       <div class="row">
-        <!-- Gallery -->
         <div class="col-12 col-md-7 pb-3">
           <app-main-gallery [Images]="security_door_gallery"></app-main-gallery>
         </div>
-
-        <!-- Above-the-fold Text -->
         <div class="col-12 col-md-5">
           <h3 class="text-left">Front Security Screen Doors</h3>
           <div class="container">
@@ -503,11 +478,9 @@
           </div>
         </div>
       </div>
-
       <br />
       <hr />
       <br />
-
       <div class="row">
         <div class="col-12 col-md-5">
           <h3 class="text-left">Patio Doors</h3>
@@ -530,7 +503,6 @@
             </div>
           </div>
         </div>
-        <!-- Gallery -->
         <div class="col-12 col-md-7 pb-3">
           <a routerLink="/products/sliding-security-doors"
             ><img
@@ -540,19 +512,15 @@
           /></a>
         </div>
       </div>
-
       <br />
       <hr />
       <br />
-
       <div class="row">
-        <!-- Gallery -->
         <div class="col-12 col-md-7 pb-3">
           <app-main-gallery
             [Images]="security_window_gallery"
           ></app-main-gallery>
         </div>
-
         <div class="col-12 col-md-5">
           <h3 class="text-left">Security Window Screens</h3>
           <div class="container">
@@ -584,9 +552,6 @@
       </div>
     </div>
   </ng-container>
-  <!-- security-doors-and-windows -->
-
-  <!-- Awnings -->
   <ng-container *ngIf="landing.slug === 'awnings'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -628,5 +593,4 @@
       <hr />
     </div>
   </ng-container>
-  <!-- /Awnings -->
 </ng-container>

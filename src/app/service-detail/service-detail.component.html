@@ -84,7 +84,7 @@
           </h2>
           <img
             *ngIf="service.tileImage"
-            src="{{ service.tileImage }}"
+            [src]="service.tileImage"
             alt="project image"
             class="img-fluid z-depth-2 main-image"
           />
@@ -194,9 +194,9 @@
             <div class="row" *ngIf="service.extraImages">
               <div class="col-12" *ngFor="let img of (extra_images | keys)">
                 <img
-                  src="{{ img.value }}"
+                  [src]="img.value"
                   class="img-fluid"
-                  alt="{{ img.value }}"
+                  [alt]="img.value"
                   (click)="infoGraphicsModal.show()"
                 />
 
@@ -230,9 +230,9 @@
                       </div>
                       <div class="modal-body">
                         <img
-                          src="{{ img.value }}"
+                          [src]="img.value"
                           class="img-fluid"
-                          alt="{{ img.value }}"
+                          [alt]="img.value"
                         />
                       </div>
                     </div>

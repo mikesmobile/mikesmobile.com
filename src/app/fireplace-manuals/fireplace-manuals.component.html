@@ -11,7 +11,7 @@
   >
     <mdb-tab
       *ngFor="let section of manualsSections; let i = index"
-      heading="{{ section.category }}"
+      [heading]="section.category"
     >
       <div *ngFor="let manuals of section.manuals" class="container">
         <h4 class="pt-4" [innerHTML]="manuals.subcategory"></h4>

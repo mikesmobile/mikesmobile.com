@@ -13,7 +13,7 @@
       <a>
         <li
           *ngFor="let item of category; let i = index"
-          id="{{ item }}"
+          [id]="item"
           class="list-group-item subcat"
           (click)="clickedItem(item)"
           [innerHTML]="item"
@@ -23,7 +23,7 @@
       <a>
         <li
           *ngFor="let item of location; let i = index"
-          id="{{ item }}"
+          [id]="item"
           class="list-group-item subcat"
           (click)="clickedItem(item)"
           [innerHTML]="item"
@@ -47,10 +47,10 @@
             <div class="view overlay">
               <img
                 class="post-img"
-                src="{{ post.images[0] }}"
-                alt="{{ post.slug }}"
+                [src]="post.images[0]"
+                [alt]="post.slug"
               />
-              <a [routerLink]="[post.slug]">
+              <a [routerLink]="post.slug">
                 <div class="mask rgba-orange-light"></div>
               </a>
             </div>
@@ -58,7 +58,7 @@
 
           <div class="col-md-8">
             <div class="blog-text">
-              <a [routerLink]="[post.slug]">
+              <a [routerLink]="post.slug">
                 <h4 class="mb-4">
                   <strong [innerHTML]="post.title"></strong>
                 </h4>
@@ -73,25 +73,26 @@
                     "
                   ></p>
                   <p class="my-0">
-                    <span class="font-weight-bold">by:</span> {{ post.user }}
+                    <span class="font-weight-bold">By: </span>
+                    <span [innerHTML]="post.user"></span>
                   </p>
                   <p class="my-0">
-                    <span class="font-weight-bold">Date:</span>
-                    {{ post.filter.Postdate }}
+                    <span class="font-weight-bold">Date: </span>
+                    <span [innerHTML]="post.filter.Postdate"></span>
                   </p>
                   <p class="my-0">
-                    <span class="font-weight-bold">Category:</span>
-                    {{ post.filter.Category }}
+                    <span class="font-weight-bold">Category: </span>
+                    <span [innerHTML]="post.filter.Category"></span>
                   </p>
                   <p class="my-0">
-                    <span class="font-weight-bold">Location:</span>
-                    {{ post.filter.Location }}
+                    <span class="font-weight-bold">Location: </span>
+                    <span [innerHTML]="post.filter.Location"></span>
                   </p>
                 </div>
                 <div class="col-md-2">
                   <a
                     class="btn-floating blue-gradient"
-                    [routerLink]="[post.slug]"
+                    [routerLink]="post.slug"
                     ><i class="fas fa-arrow-right"></i
                   ></a>
                 </div>

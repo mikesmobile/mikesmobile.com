@@ -14,7 +14,7 @@
           *ngIf="color.value[0] === '#'"
           class="square"
           id="square-{{ j }}"
-          mdbTooltip="{{ color.key }}"
+          [mdbTooltip]="color.key"
           [ngStyle]="{ background: color.value }"
           placement="bottom"
           (click)="ColorModal.show()"
@@ -22,7 +22,7 @@
         <div
           *ngIf="color.value[0] === '/'"
           class="square"
-          mdbTooltip="{{ color.key }}"
+          [mdbTooltip]="color.key"
           [ngStyle]="{
             'background-image': 'url(' + color.value + ')',
             'background-size': 'cover'
@@ -65,14 +65,14 @@
                 <div
                   *ngIf="color.value[0] === '#'"
                   class="square-lg centered-sq"
-                  mdbTooltip="{{ color.key }}"
+                  [mdbTooltip]="color.key"
                   [ngStyle]="{ background: color.value }"
                   placement="bottom"
                 ></div>
                 <div
                   *ngIf="color.value[0] === '/'"
                   class="square-lg centered-sq"
-                  mdbTooltip="{{ color.key }}"
+                  [mdbTooltip]="color.key"
                   [ngStyle]="{
                     'background-image': 'url(' + color.value + ')',
                     'background-size': 'cover'

@@ -2,7 +2,6 @@
 
 <ng-container *ngIf="product">
   <div class="container pb-4">
-    <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
       <a
@@ -67,21 +66,15 @@
       >
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
-    <!-- /Breadcrumb Navigation -->
     <div class="row">
-      <!-- GALLERY SECTION -->
       <div class="col-12 col-md-7 pb-3">
-        <!-- Gallery for sliding security door -->
         <ng-container *ngIf="product.slug === 'sliding-security-doors'">
           <div class="col-12">
             <div class="lower-zindex">
-              <!-- Nav tabs -->
               <mdb-tabset
                 #staticTabs
-                [buttonClass]="'md-tabs light-blue tabs-3'"
-                [contentClass]="''"
+                buttonClass="md-tabs light-blue tabs-3"
               >
-                <!-- Panel 1 -->
                 <mdb-tab heading="Single Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
@@ -92,7 +85,6 @@
                     </div>
                   </div>
                 </mdb-tab>
-                <!-- Panel 2 -->
                 <mdb-tab heading="Double Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
@@ -108,9 +100,6 @@
           </div>
         </ng-container>
 
-        <!--
-          Modal Image for Swinging Screen Doors and Titan Security Screen Doors
-        -->
         <ng-container
           *ngIf="
             product.category === 'Swinging Screen Door' ||
@@ -120,7 +109,7 @@
         >
           <img
             class="img-fluid z-depth-2 main-image"
-            src="{{ product.tileImage }}"
+            [src]="product.tileImage"
             (click)="doorModal.show()"
           />
           <p class="text-center p-2">(Click Image to Enlarge)</p>
@@ -150,7 +139,7 @@
                 <div class="modal-body">
                   <img
                     class="img-fluid z-depth-2 main-image-modal"
-                    src="{{ product.tileImage }}"
+                    [src]="product.tileImage"
                     mdbRippleRadius
                   />
                 </div>
@@ -159,21 +148,16 @@
           </div>
         </ng-container>
 
-        <!-- Normal Gallery for most Product Pages -->
         <ng-container
           *ngIf="product.slug !== 'sliding-security-doors' && gallery_images"
         >
-          <!-- Carousel Wrapper -->
           <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-          <!-- /.Carousel Wrapper -->
         </ng-container>
       </div>
-      <!-- /GALLERY SECTION -->
 
       <div class="col-12 col-md-5" id="productInfo">
         <h1 class="text-left h5" [innerHTML]="product.category"></h1>
         <h2 class="text-left h3" [innerHTML]="product.title"></h2>
-        <!-- Accordion wrapper -->
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
             <mdb-item
@@ -192,7 +176,6 @@
             </mdb-item>
           </mdb-squeezebox>
         </div>
-        <!-- /.Accordion wrapper -->
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
             <li *ngFor="let bullet of product.bullets" id="l2" [innerHTML]="bullet"></li>
@@ -222,9 +205,6 @@
             <h4>
               Color Selection &nbsp; <span class="small">(click to zoom)</span>
             </h4>
-            <!--
-              See color-swatch.component.ts, this iterates over all colors in services.json and builds a color-swatch component for it
-            -->
             <ng-container *ngFor="let i of product.colorSet">
               <app-color-swatch [swatchType]="i"></app-color-swatch>
             </ng-container>

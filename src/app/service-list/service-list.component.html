@@ -28,9 +28,9 @@
               <div class="front">
                 <div class="view waves-light" mdbRippleRadius>
                   <img
-                    src="{{ service.tileImage }}"
+                    [src]="service.tileImage"
                     class="img-fluid"
-                    alt="{{ service.title }}"
+                    [alt]="service.title"
                   />
                 </div>
                 <h4 class="card-title" [innerHTML]="service.title"></h4>

@@ -19,9 +19,9 @@
                 <a [routerLink]="['/', item.type, item.slug]">
                   <div class="view overlay">
                     <img
-                      src="{{ item.tileImage }}"
+                      [src]="item.tileImage"
                       class="img-fluid border-grey doorImages"
-                      alt="{{ item.title }}"
+                      [alt]="item.title"
                     />
                     <div class="mask rgba-white-light"></div>
                   </div>
@@ -119,10 +119,8 @@
             </div>
           </div>
         </div>
-        <br />
-        <hr />
-        <p class="section-description" [innerHTML]="service.description"></p>
-        <br /><br />
+        <hr class="mt-4" />
+        <p class="my-5 section-description" [innerHTML]="service.description"></p>
         <div id="titanGallery" class="row justify-content-center">
           <ng-container
             *ngFor="
@@ -134,9 +132,9 @@
               <a [routerLink]="['/', item.type, item.slug]">
                 <div class="view overlay">
                   <img
-                    src="{{ item.tileImage }}"
+                    [src]="item.tileImage"
                     class="img-fluid doorImages"
-                    alt="{{ item.title }}"
+                    [alt]="item.title"
                   />
                   <div class="mask rgba-white-light"></div>
                 </div>
@@ -177,9 +175,9 @@
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
                       <img
-                        src="{{ item.tileImage }}"
+                        [src]="item.tileImage"
                         class="img-fluid servicesImages"
-                        alt="{{ item.title }}"
+                        [alt]="item.title"
                       />
                     </div>
                     <h5
@@ -225,10 +223,9 @@
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
                       <img
-                        src="{{ item.tileImage }}"
-                        class="img-fluid"
-                        alt="{{ item.title }}"
-                        id="servicesImages"
+                        [src]="item.tileImage"
+                        class="img-fluid servicesImages"
+                        [alt]="item.title"
                       />
                     </div>
                     <h5
@@ -274,10 +271,9 @@
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
                       <img
-                        src="{{ item.tileImage }}"
-                        class="img-fluid"
-                        alt="{{ item.title }}"
-                        id="servicesImages"
+                        [src]="item.tileImage"
+                        class="img-fluid servicesImages"
+                        [alt]="item.title"
                       />
                     </div>
                     <h5

@@ -11,8 +11,8 @@
     <div class="view">
       <img
         type="image"
-        alt="{{ image.alt }}"
-        src="{{ image.big }}"
+        [alt]="image.alt"
+        [src]="image.big"
         data-toggle="modal"
         data-target="#mainModal"
         (click)="show()"
@@ -49,7 +49,7 @@
         </button>
       </div>
       <div class="text-center galleryImg">
-        <img #mainModalImage src="{{ name }}" />
+        <img #mainModalImage [src]="name" />
       </div>
       <div class="gallery-footer">
         <button

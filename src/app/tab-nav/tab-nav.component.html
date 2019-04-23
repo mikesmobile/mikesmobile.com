@@ -2,15 +2,15 @@
   <div class="container">
     <mdb-tabset
       class="menu"
-      [buttonClass]="'md-tabs light-blue tabs-3'"
-      [contentClass]="'card'"
+      buttonClass="md-tabs light-blue tabs-3"
+      contentClass="card"
     >
       <ng-container #navwrap *ngFor="let info of details; let i = index">
-        <mdb-tab *ngIf="info != ''" heading="{{ info.title }}">
+        <mdb-tab *ngIf="info != ''" [heading]="info.title">
           <div *ngIf="info.description">
             <p class="p-4" [innerHTML]="info.description"></p>
             <div *ngIf="info.image">
-              <img src="{{ info.image }}" class="img-fluid text-center" />
+              <img [src]="info.image" class="img-fluid text-center" />
             </div>
           </div>
           <div *ngIf="info.links">

@@ -6,9 +6,9 @@
       <div class="card card-cascade wider reverse my-4">
         <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
           <img
-            src="{{ landingPage.image }}"
+            [src]="landingPage.image"
             class="img-fluid w-100"
-            alt="{{ landingPage.title }}"
+            [alt]="landingPage.title"
           />
           <a>
             <div class="mask"></div>
@@ -75,9 +75,7 @@
       </form>
     </div>
   </div>
-
   <hr class="my-4" />
-
   <div class="row">
     <div class="col-md-3">
       <h5>What We Offer</h5>

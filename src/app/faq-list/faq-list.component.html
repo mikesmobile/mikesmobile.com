@@ -10,7 +10,7 @@
   >
     <mdb-tab
       *ngFor="let section of faqSections; let i = index"
-      heading="{{ section.category }}"
+      [heading]="section.category"
     >
       <div class="row content">
         <div
