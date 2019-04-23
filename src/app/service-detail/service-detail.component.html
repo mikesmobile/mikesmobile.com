@@ -91,7 +91,7 @@
           <h4
             *ngIf="service.serviceImgCaption"
             class="p-2 text-center light-gray-text"
-            innerHTML="service.serviceImgCaption"
+            [innerHTML]="service.serviceImgCaption"
           ></h4>
           <div *ngIf="service.video" class="row">
             <iframe
