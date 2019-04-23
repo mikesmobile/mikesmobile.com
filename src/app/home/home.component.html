@@ -1,24 +1,24 @@
-<div class="slideshow" id="slideshow">
+<div class="slideshow">
   <mdb-carousel
     #carousel
     [isControls]="true"
     class="carousel slide"
-    [animation]="'slide'"
-    [interval]="4000"
+    animation="slide"
+    interval="4000"
   >
     <mdb-slide>
       <div class="view w-100 hm-bluegrey-light">
         <img
           class="d-block w-100 modal-image"
-          src="assets/images/main/three-sliding-security-doors.jpg"
-          alt="First slide"
+          src="assets/images/main/security-doors.jpg"
+          alt="Security Screen Doors"
         />
         <div class="mask waves-light" mdbRippleRadius></div>
       </div>
       <div
         class="carousel-caption text-md-center animate-box fadeInUp animated"
       >
-        <div class="transparent-gray pt-4 pb-1">
+        <div class="transparent-gray pt-4 pb-1 w-100 m-auto">
           <h2 class="h2-responsive px-4">Custom Security Screen Doors</h2>
           <p class="px-4">Traditional Steel or Contemporary</p>
         </div>
@@ -26,7 +26,7 @@
           type="button"
           class="btn blue waves-light"
           mdbRippleRadius
-          [pageScrollOffset]="55"
+          pageScrollOffset="55"
           mdbPageScroll
           href="#security-doors-and-windows"
         >
@@ -39,7 +39,7 @@
         <img
           class="d-block w-100 modal-image"
           src="assets/images/main/single-chimney.jpg"
-          alt="Second slide"
+          alt="Chimney Services"
         />
         <div class="mask waves-light" mdbRippleRadius></div>
       </div>
@@ -53,7 +53,7 @@
         <button
           type="button"
           class="btn blue waves-light"
-          [pageScrollOffset]="55"
+          pageScrollOffset="55"
           mdbPageScroll
           href="#chimney-services"
           mdbRippleRadius
@@ -67,7 +67,7 @@
         <img
           class="d-block w-100 modal-image"
           src="assets/images/awnings/awning2.jpg"
-          alt="Third slide"
+          alt="Retractable Awnings"
         />
         <div class="mask waves-light" mdbRippleRadius></div>
       </div>
@@ -81,7 +81,7 @@
         <button
           type="button"
           class="btn blue waves-light"
-          [pageScrollOffset]="55"
+          pageScrollOffset="55"
           mdbPageScroll
           href="#awnings"
           mdbRippleRadius

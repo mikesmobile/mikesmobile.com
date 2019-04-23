@@ -71,10 +71,7 @@
         <ng-container *ngIf="product.slug === 'sliding-security-doors'">
           <div class="col-12">
             <div class="lower-zindex">
-              <mdb-tabset
-                #staticTabs
-                buttonClass="md-tabs light-blue tabs-3"
-              >
+              <mdb-tabset #staticTabs buttonClass="md-tabs light-blue tabs-3">
                 <mdb-tab heading="Single Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
@@ -133,8 +130,10 @@
                   >
                     <span aria-hidden="true">×</span>
                   </button>
-                  <h4 class="modal-title w-100 text-center" [innerHTML]="product.title">
-                  </h4>
+                  <h4
+                    class="modal-title w-100 text-center"
+                    [innerHTML]="product.title"
+                  ></h4>
                 </div>
                 <div class="modal-body">
                   <img
@@ -178,7 +177,11 @@
         </div>
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
-            <li *ngFor="let bullet of product.bullets" id="l2" [innerHTML]="bullet"></li>
+            <li
+              *ngFor="let bullet of product.bullets"
+              id="l2"
+              [innerHTML]="bullet"
+            ></li>
           </ul>
         </div>
         <div

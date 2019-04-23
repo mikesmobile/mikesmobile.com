@@ -25,15 +25,9 @@
       <div *ngSwitchCase="'image-list'" class="service-list">
         <p [innerHTML]="faq.body"></p>
         <div class="row">
-          <div
-            *ngFor="let i of faq.images"
-            class="col-6 col-md-4 col-lg-3"
-          >
+          <div *ngFor="let i of faq.images" class="col-6 col-md-4 col-lg-3">
             <img [src]="i.src" class="img-fluid" [alt]="i.title" />
-            <h5
-              class="px-4 py-2"
-              [innerHTML]="i.title"
-            ></h5>
+            <h5 class="px-4 py-2" [innerHTML]="i.title"></h5>
           </div>
         </div>
         <ul class="list-group mb-5">
