@@ -38,7 +38,6 @@
     </div>
   </div>
 </div>
-<!--/info box above the map-->
 <agm-map
   [latitude]="lat"
   [longitude]="lng"
@@ -55,15 +54,11 @@
   ></agm-marker>
 </agm-map>
 <div class="container pt-md-4">
-  <!--Jumbotron-->
   <div class="jumbotron text-center mb-0">
-    <!--Title-->
-    <h1 class="card-title h2-responsive mt-2">
+    <h1 class="h2-responsive mt-2 mb-3">
       <strong>Contact Us</strong>
     </h1>
-    <!--Subtitle-->
 
-    <!--Text-->
     <div class="d-flex justify-content-center">
       <p class="card-text mb-3" style="max-width: 43rem;">
         Mike’s Mobile Screen & Chimney Service is the premier home service
@@ -75,12 +70,10 @@
 
     <hr class="my-4" />
 
-    <!-- Nav tabs -->
     <mdb-tabset
       #staticTabs
       buttonClass="md-tabs light-blue tabs-3"
     >
-      <!--Panel 1-->
       <mdb-tab heading="<i class='fa fa-map'></i> Address">
         <div class="row">
           <div class="col-12">
@@ -101,7 +94,6 @@
           </div>
         </div>
       </mdb-tab>
-      <!--Panel 2-->
       <mdb-tab heading="<i class='fa fa-phone'></i> Phone">
         <div class="row">
           <div class="col-12">
@@ -123,7 +115,6 @@
           </div>
         </div>
       </mdb-tab>
-      <!--Panel 3-->
       <mdb-tab heading="<i class='fa fa-envelope'></i> E-Mail">
         <div class="row">
           <div class="col-12">
@@ -373,6 +364,5 @@
     </mdb-tabset>
   </div>
 </div>
-<!--Jumbotron-->
 
 <app-quote-form></app-quote-form>

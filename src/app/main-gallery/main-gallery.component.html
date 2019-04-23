@@ -31,7 +31,6 @@
   id="mainModal"
   tabindex="-1"
   role="dialog"
-  aria-labelledby="exampleModalLabel"
   aria-hidden="true"
   (onHidden)="hideCheck($event)"
 >
@@ -49,7 +48,7 @@
         </button>
       </div>
       <div class="text-center galleryImg">
-        <img #mainModalImage [src]="name" />
+        <img #mainModalImage *ngIf="name" [src]="name" />
       </div>
       <div class="gallery-footer">
         <button

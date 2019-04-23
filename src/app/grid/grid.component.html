@@ -14,13 +14,13 @@
               let item of (serviceList | findByCategory: 'Swinging Screen Door')
             "
           >
-            <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="card">
                 <a [routerLink]="['/', item.type, item.slug]">
                   <div class="view overlay">
                     <img
                       [src]="item.tileImage"
-                      class="img-fluid border-grey doorImages"
+                      class="img-fluid doorImages"
                       [alt]="item.title"
                     />
                     <div class="mask rgba-white-light"></div>
@@ -70,7 +70,6 @@
           <div class="col-12 col-md-7 pb-3">
             <app-main-gallery [Images]="gallery_images"></app-main-gallery>
           </div>
-
           <div class="col-12 col-md-5" id="productInfo">
             <h1 class="text-left h5">Security Screen Doors</h1>
             <h2 class="text-left h3">Titan Security Screen Doors</h2>
@@ -133,7 +132,7 @@
                 <div class="view overlay">
                   <img
                     [src]="item.tileImage"
-                    class="img-fluid doorImages"
+                    class="img-fluid"
                     [alt]="item.title"
                   />
                   <div class="mask rgba-white-light"></div>
@@ -166,7 +165,7 @@
           <ng-container
             *ngFor="let item of (serviceList | findByCategory: 'Repair')"
           >
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <div class="col-6 col-md-4 col-lg-3 mb-4 service-list">
               <div class="flip-container">
                 <a
                   class="flipper d-block"
@@ -176,7 +175,7 @@
                     <div class="view waves-light" mdbRippleRadius>
                       <img
                         [src]="item.tileImage"
-                        class="img-fluid servicesImages"
+                        class="img-fluid"
                         [alt]="item.title"
                       />
                     </div>
@@ -214,7 +213,7 @@
           <ng-container
             *ngFor="let item of (serviceList | findByCategory: 'Masonry')"
           >
-            <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="flip-container">
                 <a
                   class="flipper d-block"
@@ -224,7 +223,7 @@
                     <div class="view waves-light" mdbRippleRadius>
                       <img
                         [src]="item.tileImage"
-                        class="img-fluid servicesImages"
+                        class="img-fluid"
                         [alt]="item.title"
                       />
                     </div>
@@ -262,7 +261,7 @@
           <ng-container
             *ngFor="let item of (serviceList | findByCategory: 'Accessories')"
           >
-            <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="flip-container">
                 <a
                   class="flipper d-block"
@@ -272,7 +271,7 @@
                     <div class="view waves-light" mdbRippleRadius>
                       <img
                         [src]="item.tileImage"
-                        class="img-fluid servicesImages"
+                        class="img-fluid"
                         [alt]="item.title"
                       />
                     </div>

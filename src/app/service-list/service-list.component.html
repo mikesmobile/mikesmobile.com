@@ -1,7 +1,6 @@
 <ng-container *ngFor="let category of categories; index as i">
   <div class="container service-list mt-3">
     <div class="row">
-      <!-- ServiceList Title -->
       <div class="col-12 pb-2">
         <ng-container
           *ngFor="let service of (categoryList | findByTitle: categories[i])"
@@ -15,7 +14,6 @@
           </h1>
         </ng-container>
       </div>
-
       <ng-container
         *ngFor="let service of (serviceList | findByCategory: categories[i])"
       >
