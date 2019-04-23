@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-12 col-sm-2">
         <img
-          src="{{ post.images[0] }}"
+          [src]="post.images[0]"
           class="img-fluid rounded-circle z-depth-2"
           (click)="blogImgModal.show()"
         />
@@ -35,7 +35,7 @@
               </div>
               <div class="modal-body">
                 <img
-                  src="{{ post.images[0] }}"
+                  [src]="post.images[0]"
                   class="img-fluid z-depth-2"
                   (click)="blogImgModal.show()"
                 />
@@ -50,24 +50,17 @@
         </p>
         <div class="personal-sm">
           <a
-            class="fb-ic"
-            href="https://www.facebook.com/MikesMobileScreenAndChimneyService"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A//mikesmobile.com/blog/{{ post.slug }}"
             ><i class="fab fa-facebook-square"></i
           ></a>
-          <a class="tw-ic" href="https://twitter.com/home?status="
+          <a href="https://twitter.com/home?status=Check%20out%20%40mikesmobile_!"
             ><i class="fab fa-twitter-square"></i
           ></a>
           <a
-            class="gplus-ic"
-            href="https://plus.google.com/+MikesMobileScreenChimneyServiceSacramento"
-            ><i class="fab fa-google-plus-square"></i
-          ></a>
-          <a
-            class="gplus-ic"
             href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"
             ><i class="fab fa-yelp"></i
           ></a>
-          <a class="email-ic" href="mailto:office@mikesmobile.com"
+          <a href="mailto:office@mikesmobile.com"
             ><i class="fas fa-envelope-open"></i
           ></a>
         </div>
@@ -81,8 +74,8 @@
       <mdb-carousel
         [isControls]="true"
         class="carousel slide carousel-slide"
-        [type]="'carousel-thumbnails'"
-        [animation]="'slide'"
+        type="carousel-thumbnails"
+        animation="slide"
       >
         <ng-container *ngFor="let img of post.images">
           <mdb-slide>
