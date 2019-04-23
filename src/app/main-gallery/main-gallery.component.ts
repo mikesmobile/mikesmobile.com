@@ -1,10 +1,4 @@
-import {
-  Component,
-  Input,
-  ViewChild,
-  OnChanges,
-  SimpleChanges
-} from '@angular/core';
+import { Component, Input, ViewChild } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
 
 @Component({
@@ -13,24 +7,12 @@ import { ViewEncapsulation } from '@angular/core';
   templateUrl: './main-gallery.component.html',
   styleUrls: ['./main-gallery.component.sass']
 })
-export class MainGalleryComponent implements OnChanges {
+export class MainGalleryComponent {
   @Input() Images;
   @ViewChild('mainContent') public contentModal: any;
   @ViewChild('mainCarousel') public contentCarousel;
   @ViewChild('mainModalImage') public modalImage;
   public name: string;
-  public reload: boolean = false;
-  public index: number = 0;
-  public source: string;
-  public imagesSize;
-
-  ngOnChanges(changes: SimpleChanges) {
-    this.imagesSize = this.Images.length;
-  }
-
-  activeSlideChange(event: any) {}
-
-  hideCheck(event) {}
 
   show() {
     this.name = this.Images[this.contentCarousel.getCurrentSlideIndex()].big;

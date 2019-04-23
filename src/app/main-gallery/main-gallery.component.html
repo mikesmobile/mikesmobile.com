@@ -1,11 +1,10 @@
 <mdb-carousel
   #mainCarousel
-  [isControls]="true"
+  isControls="true"
   class="carousel main-gallery slide carousel-fade"
-  [interval]="0"
-  [type]="'carousel-thumbnails'"
-  [animation]="'fade'"
-  (activeSlideChange)="activeSlideChange($event)"
+  interval="0"
+  type="carousel-thumbnails"
+  animation="fade"
 >
   <mdb-slide *ngFor="let image of Images">
     <div class="view">
@@ -32,7 +31,6 @@
   tabindex="-1"
   role="dialog"
   aria-hidden="true"
-  (onHidden)="hideCheck($event)"
 >
   <div class=" modal-dialog gallery-dialog" role="img">
     <div class="modal-content gallery-content">
