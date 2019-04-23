@@ -38,7 +38,7 @@
             </button>
           </div>
           <div class="text-center galleryImg">
-            <img #footerModalImage [src]="name" [alt]="name" />
+            <img #footerModalImage *ngIf="name" [src]="name" [alt]="name" />
           </div>
           <div class="gallery-footer">
             <button
