@@ -12,35 +12,34 @@
       <li class="list-group-item head">Category</li>
       <a>
         <li
-          *ngFor="let item of category; let i = index"
-          [id]="item"
+          *ngFor="let category of uniqueCategories; let i = index"
+          [id]="category"
           class="list-group-item subcat"
-          (click)="clickedItem(item)"
-          [innerHTML]="item"
+          (click)="filterBy(category)"
+          [innerHTML]="category"
         ></li>
       </a>
       <li class="list-group-item head">Location</li>
       <a>
         <li
-          *ngFor="let item of location; let i = index"
-          [id]="item"
+          *ngFor="let location of uniqueLocations; let i = index"
+          [id]="location"
           class="list-group-item subcat"
-          (click)="clickedItem(item)"
-          [innerHTML]="item"
+          (click)="filterBy(location)"
+          [innerHTML]="location"
         ></li>
       </a>
     </ul>
   </div>
   <div class="container col-12 col-md-9 col-lg-10 order-2 order-md-2">
     <section class="section pb-3 text-center text-lg-left">
-      <div *ngFor="let post of blogPostList">
+      <div *ngFor="let post of blogList">
         <div
           class="row"
           *ngIf="
-            post.filter.Category == clicked ||
-            post.filter.Location == clicked ||
-            post.filter.Postdate == clicked ||
-            clicked == 'all'
+            post.filter.Category === filter ||
+            post.filter.Location === filter ||
+            filter === ''
           "
         >
           <div class="col-md-4">

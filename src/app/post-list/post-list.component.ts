@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ViewChild, ElementRef } from '@angular/core';
 
 import blogsJSON from '../../assets/json/blogposts.json';
 
@@ -9,43 +8,44 @@ import blogsJSON from '../../assets/json/blogposts.json';
   styleUrls: ['./post-list.component.sass']
 })
 export class PostListComponent implements OnInit {
-  @ViewChild('item') nameInputRef: ElementRef;
-  blogPostList = [];
-  filterItems = [];
-  category = [];
-  location = [];
-  clicked: string = 'all';
-  selected = [];
+  blogList = [];
+  uniqueCategories = [];
+  uniqueLocations = [];
+  filter: string = '';
 
   ngOnInit() {
     blogsJSON.forEach((data) => {
-      this.blogPostList.push(data);
-      this.filterItems.push(data.filter);
+      this.blogList.push(data);
 
-      if (this.category.indexOf(data.filter.Category) < 0) {
-        this.category.push(data.filter.Category);
+      if (this.uniqueCategories.indexOf(data.filter.Category) < 0) {
+        this.uniqueCategories.push(data.filter.Category);
       }
 
-      if (this.location.indexOf(data.filter.Location) < 0) {
-        this.location.push(data.filter.Location);
+      if (this.uniqueLocations.indexOf(data.filter.Location) < 0) {
+        this.uniqueLocations.push(data.filter.Location);
       }
     });
   }
 
-  clickedItem(post) {
-    this.clicked = post;
-    let x = document.getElementsByClassName('subcat');
+  // TODO: Rewrite more efficiently to clear filter if same item is clicked
+  filterBy(filter): void {
+    const filterElement = document.getElementById(filter);
 
-    for (let i = 0; i < x.length; i++) {
-      x[i].classList.remove('selected');
+    this.clearPreviouslySelectedFilters();
+
+    if (filterElement.id === this.filter) {
+      this.filter = '';
+      return;
     }
 
-    document.getElementById(post).classList.toggle('selected');
-    this.selected = [this.clicked];
+    this.filter = filter;
+    filterElement.classList.add('selected');
   }
 
-  removeButton() {
-    this.clicked = 'all';
-    this.selected.splice(this.selected.indexOf(this.clicked), 1);
+  clearPreviouslySelectedFilters(): void {
+    const previouslySelected = document.querySelectorAll('.subcat.selected');
+    previouslySelected.forEach((element) => {
+      element.classList.remove('selected');
+    });
   }
 }

@@ -45,7 +45,7 @@ export class SEOService {
         title = pageInfo.title;
       }
 
-    // Overwrite defaults with page NOT found data
+      // Overwrite defaults with page NOT found data
     } else {
       robotsTag.content = 'noindex';
       // Send 404 from prerendering service
