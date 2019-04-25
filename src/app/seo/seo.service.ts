@@ -14,10 +14,11 @@ export class SEOService {
     private titleService: Title
   ) {}
 
+  // TODO: Run as Asynchronous
   updatePage(url: string) {
     this.updateCanonicalURL();
 
-    // Set up defaults
+    // Set up defaults for page found
     let descriptionTag = {
       name: 'description',
       content:
@@ -29,6 +30,7 @@ export class SEOService {
     };
     let title = "Mike's Mobile Screen and Chimney Service";
 
+    // Search for page specific data in meta.json
     const pageInfo = metaData.find((data) => data.page === url);
 
     // Overwrite defaults with found data
@@ -42,6 +44,14 @@ export class SEOService {
       if (pageInfo.title) {
         title = pageInfo.title;
       }
+
+    // Overwrite defaults with page NOT found data
+    } else {
+      robotsTag.content = 'noindex';
+      // Send 404 from prerendering service
+      // This code is ONLY resected by the rendertron service and therefore doesn't need to be removed as a new DOM will be generated without the code for a found page
+      this.metaService.addTag({ name: 'render:status_code', content: '404' });
+      // TODO: Send 404 if possible from Apache/Nginx
     }
 
     this.metaService.updateTag(descriptionTag);
