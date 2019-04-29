@@ -44,15 +44,15 @@
       </div>
     </div>
     <div class="col mt-3">
-      <h1 class="h3">{{ service.title }} in {{ region.region }}</h1>
+      <h1 class="h3 text-center">{{ service.title }} in {{ region.region }}</h1>
       <app-flipcard-list [cards]="service.cards"></app-flipcard-list>
-      <h3>Other Services we offer in {{ region.region }}</h3>
+      <h3 class="text-center">Other Services we offer in {{ region.region }}</h3>
       <app-flipcard-list [cards]="otherServiceCards"></app-flipcard-list>
     </div>
   </div>
   <hr />
   <div class="row">
-    <h2 class="w-100 text-center">
+    <h2 class="w-100 text-center my-4">
       {{ region.region }} loves Mike's Mobile <i class="fas fa-heart"></i>
     </h2>
     <blockquote class="blockquote" *ngFor="let review of region.reviews">

@@ -4695,8 +4695,7 @@
     "title": "Door and Window Screens",
     "slug": "door-and-window-screens",
     "type": "landing",
-    "tileImage": "/assets/images/tiles/sliding-screen-doors.jpg",
-    "tileText": "TODO"
+    "tileImage": "/assets/images/tiles/sliding-screen-doors.jpg"
   },
   {
     "title": "Screen Doors",
@@ -4712,15 +4711,13 @@
     "title": "Chimney Services",
     "slug": "chimney-services",
     "type": "landing",
-    "tileImage": "/assets/images/tiles/chimney-cleaning.jpg",
-    "tileText": "TODO"
+    "tileImage": "/assets/images/tiles/chimney-cleaning.jpg"
   },
   {
     "title": "Security Screen Doors and Windows",
     "slug": "security-doors-and-windows",
     "type": "landing",
     "tileImage": "/assets/images/tiles/titan-security-screen-doors.jpg",
-    "tileText": "TODO",
     "images": {
       "Security Screen Doors": [
         {
