@@ -7,19 +7,26 @@ import servicesJSON from '../../assets/json/services.json';
   styleUrls: ['./flipcard-list.component.sass']
 })
 export class FlipcardListComponent implements OnInit {
-  @Input() CardTexts;
-  @Input() categories = [
-    'Door and Window Screens',
-    'Chimney Services',
-    'Security Screen Doors and Windows',
-    'Awnings'
-  ];
-  @Input() images?;
+  @Input() cards;
+
+  cardData = [];
   serviceList = [];
 
   ngOnInit() {
-    servicesJSON.forEach((data) => {
-      this.serviceList.push(data);
+    this.cardData = this.cards.map((card) => {
+      const serviceInfo = servicesJSON.find(
+        (data) => data.title === card.title
+      );
+      const link = `/${
+        serviceInfo.type === 'landing' ? 'about' : serviceInfo.type
+      }/${serviceInfo.slug}`;
+
+      return {
+        title: card.title,
+        image: card.image ? card.image : serviceInfo.tileImage,
+        link,
+        text: card.text ? card.text : serviceInfo.tileText
+      };
     });
   }
 }

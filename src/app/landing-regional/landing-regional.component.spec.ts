@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingChimneyComponent } from './landing-chimney.component';
+import { LandingRegionalComponent } from './landing-regional.component';
 
-describe('LandingChimneyComponent', () => {
-  let component: LandingChimneyComponent;
-  let fixture: ComponentFixture<LandingChimneyComponent>;
+describe('LandingRegionalComponent', () => {
+  let component: LandingRegionalComponent;
+  let fixture: ComponentFixture<LandingRegionalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [LandingChimneyComponent]
+      declarations: [LandingRegionalComponent]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LandingChimneyComponent);
+    fixture = TestBed.createComponent(LandingRegionalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

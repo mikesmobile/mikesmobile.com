@@ -1,49 +1,30 @@
 <div class="container service-list mt-3">
   <div class="row">
-    <ng-container *ngFor="let category of categories; index as i">
-      <ng-container
-        *ngFor="let service of (serviceList | findByCategory: categories[i])"
-      >
-        <div class="col-6 col-md-4 col-lg-3">
-          <div class="flip-container">
-            <a
-              class="flipper d-block"
-              [routerLink]="['/', service.type, service.slug]"
-            >
-              <div class="front">
-                <div class="view waves-light" mdbRippleRadius>
-                  <img
-                    *ngIf="
-                      images && images.hasOwnProperty(service.title);
-                      else Default
-                    "
-                    [src]="images[service.title]"
-                  />
-                  <ng-template #Default>
-                    <img
-                      [src]="service.tileImage"
-                      class="img-fluid"
-                      [alt]="service.title"
-                    />
-                  </ng-template>
-                </div>
-                <h4 class="card-title" [innerHTML]="service.title"></h4>
+    <ng-container *ngFor="let card of cardData">
+      <div class="col-6">
+        <div class="flip-container">
+          <a class="flipper d-block" [routerLink]="card.link">
+            <div class="front">
+              <div class="view waves-light" mdbRippleRadius>
+                <img
+                  [src]="card.image"
+                  [alt]="card.title"
+                  [title]="card.title"
+                />
               </div>
-              <div class="back">
-                <h4
-                  class="text-center card-back-title"
-                  [innerHTML]="service.title"
-                ></h4>
-                <div class="divider dropdown-divider pt-0 mt-0"></div>
-                <p
-                  class="mb-0 text-center"
-                  [innerHTML]="CardTexts[service.title]"
-                ></p>
-              </div>
-            </a>
-          </div>
+              <h4 class="card-title" [innerHTML]="card.title"></h4>
+            </div>
+            <div class="back">
+              <h4
+                class="text-center card-back-title"
+                [innerHTML]="card.title"
+              ></h4>
+              <div class="divider dropdown-divider pt-0 mt-0"></div>
+              <p class="mb-0 text-center" [innerHTML]="card.text"></p>
+            </div>
+          </a>
         </div>
-      </ng-container>
+      </div>
     </ng-container>
   </div>
 </div>

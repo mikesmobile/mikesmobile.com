@@ -1,0 +1,36 @@
+@import '../../sass/modules/_mixins.sass'
+@import '../../sass/modules/_variables.sass'
+
+.summary p
+  font-size: 1.2rem
+
+.office-hours
+  background: #f2f2f2
+
+  .title
+    border-left: 4px solid #00aeef
+    font-size: 1.2rem
+    text-transform: uppercase
+
+  li
+    border-bottom: 1px solid #333
+    font-size: 1rem
+    line-height: 1.8rem
+    &:last-child
+      border-bottom: none
+
+.area-list
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    border-bottom: 1px solid #333
+    display: inline-block
+    width: 50%
+    @include breakpoint(md)
+      width: 33%
+
+blockquote
+  background: #ffffff
+  border-left-color: #c5c5c5

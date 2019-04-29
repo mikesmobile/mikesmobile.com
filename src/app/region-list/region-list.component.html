@@ -7,28 +7,11 @@
       We offer our services to all these areas!.
     </p>
     <div *ngFor="let region of regions">
-      <u [innerHTML]="region"></u>
-      <div *ngFor="let k of regionList">
-        <div *ngIf="region && k.region.toLowerCase() === region.toLowerCase()">
-          <a
-            *ngIf="k.type === 'landing-chimney'"
-            [routerLink]="['/chimneys/', k.slug]"
-          >
-            <div [innerHTML]="k.title"></div>
-          </a>
-          <a
-            *ngIf="k.type === 'landing-screen'"
-            [routerLink]="['/screens/', k.slug]"
-          >
-            <div [innerHTML]="k.title"></div>
-          </a>
-          <a
-            *ngIf="k.type === 'landing-security'"
-            [routerLink]="['/security/', k.slug]"
-          >
-            <div [innerHTML]="k.title"></div>
-          </a>
-        </div>
+      <u [innerHTML]="region.region"></u>
+      <div *ngFor="let service of region.services">
+        <a [routerLink]="['/', service.slug, region.slug]">
+          <div innerHTML="{{ service.title }} in {{ region.region }}"></div>
+        </a>
       </div>
     </div>
   </section>

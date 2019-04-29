@@ -16,9 +16,7 @@ import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
-import { LandingChimneyComponent } from './landing-chimney/landing-chimney.component';
-import { LandingScreensComponent } from './landing-screens/landing-screens.component';
-import { LandingSecurityComponent } from './landing-security/landing-security.component';
+import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 
@@ -146,17 +144,18 @@ const appRoutes: Routes = [
   { path: 'regions', component: RegionListComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
+
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
-  { path: 'chimneys/:slug', component: LandingChimneyComponent },
+  { path: 'chimneys/:slug', component: LandingRegionalComponent },
   { path: 'grid/:slug', component: GridComponent },
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
-  { path: 'screens/:slug', component: LandingScreensComponent },
-  { path: 'security/:slug', component: LandingSecurityComponent },
+  { path: 'screens/:slug', component: LandingRegionalComponent },
+  { path: 'security/:slug', component: LandingRegionalComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
-  { path: '', pathMatch: 'full', component: HomeComponent },
 
+  { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent }
 ];
 

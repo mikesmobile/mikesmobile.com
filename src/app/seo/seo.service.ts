@@ -62,7 +62,10 @@ export class SEOService {
     // Opinionated canonical links:
     // - Strip off www subdomain if present
     // - Require https protocol
-    const canonicalURL = this.dom.URL.replace(/(https?:\/\/)?(www\.)?/, 'https://');
+    const canonicalURL = this.dom.URL.replace(
+      /(https?:\/\/)?(www\.)?/,
+      'https://'
+    );
 
     let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector(
       "link[rel='canonical']"
