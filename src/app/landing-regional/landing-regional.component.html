@@ -37,7 +37,7 @@
               <li>Sunday <span class="float-right">Closed</span></li>
             </ul>
           </div>
-          <ul class="area-list w-100">
+          <ul class="area-list w-100 d-none d-lg-block">
             <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
           </ul>
         </div>
@@ -64,5 +64,10 @@
         ></footer
       ></a>
     </blockquote>
+  </div>
+  <div class="row d-block d-lg-none">
+    <ul class="area-list w-100">
+      <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+    </ul>
   </div>
 </div>
