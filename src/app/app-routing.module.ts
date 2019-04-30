@@ -27,22 +27,52 @@ import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
 const appRoutes: Routes = [
-  //SEO Hidden locations doc
+  //SEO Search Artifacts
   {
     path: 'grid/steel-security-doors',
     redirectTo: '/grid/titan-security-doors'
   },
+  { path: 'steel-security-doors', redirectTo: '/grid/titan-security-doors' },
   {
     path: 'about/chimney-services/chimney-service-in-sacramento',
     redirectTo: '/chimneys/sacramento'
   },
   {
+    path: 'about/awnings/awnings-in-sacramento',
+    redirectTo: '/screens/sacramento'
+  },
+  {
+    path:
+      'about/window-and-door-coverings/window-and-door-screens-in-sacramento',
+    redirectTo: '/screens/sacramento'
+  },
+  {
     path: 'about/chimney-services/chimney-services-in-antioch',
-    redirectTo: '/chimneys/antioch-east-bay-region'
+    redirectTo: '/chimneys/antioch-east-bay'
+  },
+  {
+    path: 'about/chimney-services/chimney-services-in-pleasanton',
+    redirectTo: '/chimneys/antioch-east-bay'
+  },
+  {
+    path: 'about/chimney-services/chimney-services-in-san-ramon',
+    redirectTo: '/chimneys/antioch-east-bay'
+  },
+  {
+    path: 'chimneys/antioch-east-bay-region',
+    redirectTo: '/chimneys/antioch-east-bay'
+  },
+  {
+    path: 'screens/antioch-east-bay-region',
+    redirectTo: '/screens/antioch-east-bay'
+  },
+  {
+    path: 'security/antioch-east-bay-region',
+    redirectTo: '/security/antioch-east-bay'
   },
   {
     path: 'about/awnings/awnings-in-antioch',
-    redirectTo: '/screens/antioch-east-bay-region'
+    redirectTo: '/screens/antioch-east-bay'
   },
   {
     path: 'about/awnings/awnings-in-danville',
@@ -57,10 +87,6 @@ const appRoutes: Routes = [
     redirectTo: '/screens/napa-vallejo'
   },
   {
-    path: 'about/awnings/awnings-in-sacramento',
-    redirectTo: '/screens/sacramento'
-  },
-  {
     path: 'about/awnings/awnings-in-stockton',
     redirectTo: '/screens/stockton'
   },
@@ -71,14 +97,6 @@ const appRoutes: Routes = [
   {
     path: 'about/chimney-services/chimney-services-in-hayward-and-oakland',
     redirectTo: '/chimneys/oakland-north-bay'
-  },
-  {
-    path: 'about/chimney-services/chimney-services-in-pleasanton',
-    redirectTo: '/chimneys/antioch-east-bay-region'
-  },
-  {
-    path: 'about/chimney-services/chimney-services-in-san-ramon',
-    redirectTo: '/chimneys/antioch-east-bay-region'
   },
   {
     path: 'about/chimney-services/chimney-services-in-stockton',
@@ -108,11 +126,6 @@ const appRoutes: Routes = [
     redirectTo: '/screens/oakland-north-bay'
   },
   {
-    path:
-      'about/window-and-door-coverings/window-and-door-screens-in-sacramento',
-    redirectTo: '/screens/sacramento'
-  },
-  {
     path: 'about/window-and-door-coverings/window-and-door-screens-in-stockton',
     redirectTo: '/screens/stockton'
   },
@@ -123,13 +136,10 @@ const appRoutes: Routes = [
   },
   { path: 'window-door-screens-modesto', redirectTo: '/screens/modesto' },
   { path: 'clean-or-dirty', redirectTo: '/blog/clean-or-dirty' },
-
-  //Google search artifacts
   {
     path: 'walnut-creek-screen-doors-windows',
     redirectTo: '/screens/danville-and-walnut-creek-south-bay'
   },
-  { path: 'steel-security-doors', redirectTo: '/about/security-doors' },
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },

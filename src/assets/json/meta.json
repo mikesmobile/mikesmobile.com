@@ -82,7 +82,7 @@
     "description": "Browse through our exhaustive chimney glossary. We service chimneys in the Sacramento, Stockton, Modesto and The Bay areas."
   },
   {
-    "page": "/chimneys/antioch-east-bay-region",
+    "page": "/chimneys/antioch-east-bay",
     "title": "Chimney Services in the Bay Area | Mike's Mobile",
     "description": "Mike's Mobile chimney services has you covered. Have you had your East Bay chimney cleaned in the last year? If not, call us today!"
   },
@@ -419,7 +419,7 @@
     "title": "Our Service Areas | Mike's Mobile Screen and Chimney Service"
   },
   {
-    "page": "/screens/antioch-east-bay-region",
+    "page": "/screens/antioch-east-bay",
     "title": "Screens and Awnings near Antioch, CA | Mike's Mobile",
     "description": "Our mobile installation technicians can outfit your patio with the screens and awnings of your dreams. We are a premier dealer and installer in Antioch and the East Bay areas. Call or request a quote today!"
   },
@@ -464,7 +464,7 @@
     "description": "Mike's Mobile has been providing new window screens and awnings to residential and commercial clients here in the Stockton region since 2002. We have the perfect solution to repair or replace that damaged screen or awning."
   },
   {
-    "page": "/security/antioch-east-bay-region",
+    "page": "/security/antioch-east-bay",
     "title": "Security Window Screens and Security Screen Doors near Antioch | Mike's Mobile",
     "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. We also offer garage screen doors and awnings. Call for a free quote!"
   },
@@ -601,6 +601,10 @@
     "page": "/services/retractable-patio-awnings",
     "title": "Retractable Patio Awnings for Sacramento, Stockton & The Bay | Mike's Mobile",
     "description": "Transform your home’s outdoor areas easily with motorized retractable patio awnings for your patio, deck or porch."
+  },
+  {
+    "page": "/services/solar-screens",
+    "title": "Solar Screens | Mike's Mobile"
   },
   {
     "page": "/services/tuckpointing",
