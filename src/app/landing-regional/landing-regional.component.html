@@ -2,8 +2,12 @@
 
 <div class="container">
   <div class="row">
+    <div class="col mt-3 d-lg-none">
+      <h1 class="h3 text-center">{{ service.title }} in {{ region.region }}</h1>
+      <app-flipcard-list [cards]="service.cards"></app-flipcard-list>
+    </div>
     <div class="col-xl-6 col-lg-5 mt-3 summary">
-      <div class="card mb-3">
+      <div class="card mb-3 d-none d-lg-block">
         <div class="card-body">
           <p class="card-text" [innerHTML]="service.description"></p>
         </div>
@@ -42,10 +46,15 @@
           </ul>
         </div>
       </div>
+      <div class="card mt-3 d-lg-none">
+        <div class="card-body">
+          <p class="card-text" [innerHTML]="service.description"></p>
+        </div>
+      </div>
     </div>
     <div class="col mt-3">
-      <h1 class="h3 text-center">{{ service.title }} in {{ region.region }}</h1>
-      <app-flipcard-list [cards]="service.cards"></app-flipcard-list>
+      <h1 class="h3 text-center d-none d-lg-block">{{ service.title }} in {{ region.region }}</h1>
+      <app-flipcard-list [cards]="service.cards" class="d-none d-lg-block"></app-flipcard-list>
       <h3 class="text-center">
         Other Services we offer in {{ region.region }}
       </h3>
