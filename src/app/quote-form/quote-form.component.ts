@@ -27,14 +27,8 @@ export class QuoteFormComponent {
   ) {}
 
   quoteFormGroup = new FormGroup({
-    name: new FormControl('', [
-      Validators.required,
-      Validators.maxLength(100)
-    ]),
-    city: new FormControl('', [
-      Validators.required,
-      Validators.maxLength(100)
-    ]),
+    name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
+    city: new FormControl('', [Validators.required, Validators.maxLength(100)]),
     phone: new FormControl('', [
       Validators.required,
       Validators.minLength(10),
