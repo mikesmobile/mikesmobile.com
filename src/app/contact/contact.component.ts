@@ -38,7 +38,7 @@ import {
 })
 export class ContactComponent {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 

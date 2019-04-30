@@ -19,7 +19,7 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   gallery_images: NgxGalleryImage[];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 

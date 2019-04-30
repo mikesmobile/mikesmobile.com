@@ -8,11 +8,11 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
 })
 export class FreeQuoteComponent {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 
   ngAfterViewInit() {
-    this.toggleQuoteForm();
+    this.openQuoteForm();
   }
 }

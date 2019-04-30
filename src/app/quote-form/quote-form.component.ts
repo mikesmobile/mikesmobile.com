@@ -1,110 +1,99 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  Input,
-  Inject,
-  Optional,
-  PLATFORM_ID
-} from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, Validators, NgForm } from '@angular/forms';
-import { ServicesService } from '../services/service.service';
-import { ModalDirective } from 'ng-uikit-pro-standard';
 import { ActivatedRoute, Router } from '@angular/router';
-import { isPlatformBrowser } from '@angular/common';
+import { ModalDirective } from 'ng-uikit-pro-standard';
+
+import { ServicesService } from '../services/service.service';
+
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
   styleUrls: ['./quote-form.component.sass'],
   providers: [ServicesService]
 })
-export class QuoteFormComponent implements OnInit {
-  @ViewChild('basicModal') public basicModal: ModalDirective;
+export class QuoteFormComponent {
+  @ViewChild('quoteModal') public quoteModal: ModalDirective;
   show() {
-    this.basicModal.show();
+    this.quoteModal.show();
   }
   hide() {
-    this.basicModal.hide();
+    this.quoteModal.hide();
   }
 
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
     private route: ActivatedRoute,
     private router: Router,
     private _service: ServicesService
   ) {}
 
-  emailForm: FormGroup;
-  ngOnInit() {
-    this.emailForm = new FormGroup({
-      name: new FormControl('', [
-        Validators.required,
-        Validators.maxLength(100)
-      ]),
-      city: new FormControl('', [
-        Validators.required,
-        Validators.maxLength(100)
-      ]),
-      phone: new FormControl('', [
-        Validators.required,
-        Validators.minLength(10),
-        Validators.maxLength(15)
-      ]),
-      email: new FormControl('', [
-        Validators.required,
-        Validators.maxLength(150)
-      ]),
+  quoteFormGroup = new FormGroup({
+    name: new FormControl('', [
+      Validators.required,
+      Validators.maxLength(100)
+    ]),
+    city: new FormControl('', [
+      Validators.required,
+      Validators.maxLength(100)
+    ]),
+    phone: new FormControl('', [
+      Validators.required,
+      Validators.minLength(10),
+      Validators.maxLength(15)
+    ]),
+    email: new FormControl('', [
+      Validators.required,
+      Validators.maxLength(150)
+    ]),
 
-      utm_source: new FormControl('', []),
-      utm_medium: new FormControl('', []),
-      utm_campaign: new FormControl('', []),
+    utm_source: new FormControl('', []),
+    utm_medium: new FormControl('', []),
+    utm_campaign: new FormControl('', []),
 
-      message: new FormControl('', [
-        Validators.required,
-        Validators.maxLength(280)
-      ])
-    });
-  }
+    message: new FormControl('', [
+      Validators.required,
+      Validators.maxLength(280)
+    ])
+  });
 
   get name() {
-    return this.emailForm.get('name');
+    return this.quoteFormGroup.get('name');
   }
 
   get city() {
-    return this.emailForm.get('city');
+    return this.quoteFormGroup.get('city');
   }
 
   get phone() {
-    return this.emailForm.get('phone');
+    return this.quoteFormGroup.get('phone');
   }
 
   get email() {
-    return this.emailForm.get('email');
+    return this.quoteFormGroup.get('email');
   }
 
   get message() {
-    return this.emailForm.get('message');
+    return this.quoteFormGroup.get('message');
   }
 
   get option() {
-    return this.emailForm.get('option');
+    return this.quoteFormGroup.get('option');
   }
 
-  handleSubmit(event: any, emailDir: NgForm, emailForm: FormGroup) {
+  handleSubmit(event: any, quoteForm: NgForm, quoteFormGroup: FormGroup) {
     event.preventDefault();
 
-    if (emailDir.submitted) {
+    if (quoteForm.submitted) {
       let url = this.route.snapshot.url.pop();
       let option;
 
-      let name = emailForm.value['name'];
-      let city = emailForm.value['city'];
-      let phone = emailForm.value['phone'];
-      let email = emailForm.value['email'];
-      let message = emailForm.value['message'];
-      let utm_source = emailForm.value['utm_source'];
-      let utm_medium = emailForm.value['utm_medium'];
-      let utm_campaign = emailForm.value['utm_campaign'];
+      let name = quoteFormGroup.value['name'];
+      let city = quoteFormGroup.value['city'];
+      let phone = quoteFormGroup.value['phone'];
+      let email = quoteFormGroup.value['email'];
+      let message = quoteFormGroup.value['message'];
+      let utm_source = quoteFormGroup.value['utm_source'];
+      let utm_medium = quoteFormGroup.value['utm_medium'];
+      let utm_campaign = quoteFormGroup.value['utm_campaign'];
 
       if (url === undefined) {
         option = 'Homepage';
@@ -126,7 +115,7 @@ export class QuoteFormComponent implements OnInit {
         )
         .subscribe((data) => {
           this.hide();
-          emailDir.resetForm({});
+          quoteForm.resetForm({});
 
           this.router.navigate(['/thank-you']);
         });

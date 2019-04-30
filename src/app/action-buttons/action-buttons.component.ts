@@ -8,7 +8,7 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
 })
 export class ActionButtonsComponent {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 

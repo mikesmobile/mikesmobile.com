@@ -30,7 +30,7 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
   videoLink = null;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 

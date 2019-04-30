@@ -22,7 +22,7 @@ export class GridComponent implements OnInit, OnDestroy {
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(private route: ActivatedRoute, private router: Router) {}
 
-  toggleQuoteForm() {
+  openQuoteForm() {
     this.quoteForm.show();
   }
 
