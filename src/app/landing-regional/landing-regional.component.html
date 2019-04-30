@@ -53,8 +53,13 @@
       </div>
     </div>
     <div class="col mt-3">
-      <h1 class="h3 text-center d-none d-lg-block">{{ service.title }} in {{ region.region }}</h1>
-      <app-flipcard-list [cards]="service.cards" class="d-none d-lg-block"></app-flipcard-list>
+      <h1 class="h3 text-center d-none d-lg-block">
+        {{ service.title }} in {{ region.region }}
+      </h1>
+      <app-flipcard-list
+        [cards]="service.cards"
+        class="d-none d-lg-block"
+      ></app-flipcard-list>
       <h3 class="text-center">
         Other Services we offer in {{ region.region }}
       </h3>

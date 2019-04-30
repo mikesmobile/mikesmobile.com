@@ -31,7 +31,10 @@ export class SEOService {
     let title = "Mike's Mobile Screen and Chimney Service";
 
     // Search for page specific data in meta.json
-    const pageInfo = metaData.find((data) => data.page === url);
+    const pageInfo = metaData.find(
+      (data) =>
+        data.page === url || (data.aliases && data.aliases.includes(url))
+    );
 
     // Overwrite defaults with found data
     if (pageInfo) {
