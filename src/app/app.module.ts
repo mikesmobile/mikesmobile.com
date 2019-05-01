@@ -1,9 +1,4 @@
-import {
-  Inject,
-  NgModule,
-  PLATFORM_ID,
-  APP_ID
-} from '@angular/core';
+import { Inject, NgModule, PLATFORM_ID, APP_ID } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, Title } from '@angular/platform-browser';
@@ -14,44 +9,43 @@ import { MDBBootstrapModulesPro } from 'ng-uikit-pro-standard';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HammerProvider } from './hammer/HammerProvider';
+import { FindByCategoryPipe, FindByTitlePipe } from './utility/find.pipe';
+import { KeysPipe } from './utility/keys.pipe';
+
 import { AboutComponent } from './about/about.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
+import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
+import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
+import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { ContactComponent } from './contact/contact.component';
+import { ContractComponent } from './contract/contract.component';
+import { FaqListComponent } from './faq-list/faq-list.component';
+import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
+import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
 import { FooterComponent } from './footer/footer.component';
+import { FooterGalleryComponent } from './footer-gallery/footer-gallery.component';
+import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
+import { MainGalleryComponent } from './main-gallery/main-gallery.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { PostListComponent } from './post-list/post-list.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { RegionListComponent } from './region-list/region-list.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
-import { ServiceListComponent } from './service-list/service-list.component';
-import { ServiceDetailComponent } from './service-detail/service-detail.component';
-
-import { HammerProvider } from './hammer/HammerProvider';
-import { FindByCategoryPipe, FindByTitlePipe } from './utility/find.pipe';
-import { KeysPipe } from './utility/keys.pipe';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
-import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { FaqListComponent } from './faq-list/faq-list.component';
-import { ThankYouComponent } from './thank-you/thank-you.component';
-import { FooterGalleryComponent } from './footer-gallery/footer-gallery.component';
-import { MainGalleryComponent } from './main-gallery/main-gallery.component';
-import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
-import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
-import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
-import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
-
-import { PrivacyComponent } from './privacy/privacy.component';
+import { ServiceDetailComponent } from './service-detail/service-detail.component';
+import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
-import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
-import { RegionListComponent } from './region-list/region-list.component';
-import { ContractComponent } from './contract/contract.component';
-import { FreeQuoteComponent } from './free-quote/free-quote.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
