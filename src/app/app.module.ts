@@ -1,7 +1,6 @@
 import {
   Inject,
   NgModule,
-  NO_ERRORS_SCHEMA,
   PLATFORM_ID,
   APP_ID
 } from '@angular/core';
@@ -109,8 +108,7 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
     })
   ],
   providers: [Title, HammerProvider],
-  bootstrap: [AppComponent],
-  schemas: [NO_ERRORS_SCHEMA]
+  bootstrap: [AppComponent]
 })
 export class AppModule {
   constructor(

@@ -8,7 +8,10 @@ import servicesJSON from '../../assets/json/services.json';
 @Component({
   selector: 'app-service-detail',
   templateUrl: './service-detail.component.html',
-  styleUrls: ['./service-detail.component.sass']
+  styleUrls: [
+    './service-detail.component.sass',
+    '../flipcard-list/flipcard-list.component.sass'
+  ]
 })
 export class ServiceDetailComponent implements OnInit, OnDestroy {
   private routeSub: any;

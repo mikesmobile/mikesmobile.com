@@ -5,7 +5,10 @@ import servicesJSON from '../../assets/json/services.json';
 @Component({
   selector: 'app-service-list',
   templateUrl: './service-list.component.html',
-  styleUrls: ['./service-list.component.sass']
+  styleUrls: [
+    './service-list.component.sass',
+    '../flipcard-list/flipcard-list.component.sass'
+  ]
 })
 export class ServiceListComponent implements OnInit {
   @Input() categories = [

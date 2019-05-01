@@ -9,7 +9,10 @@ import servicesJSON from '../../assets/json/services.json';
 @Component({
   selector: 'app-grid',
   templateUrl: './grid.component.html',
-  styleUrls: ['./grid.component.sass']
+  styleUrls: [
+    './grid.component.sass',
+    '../flipcard-list/flipcard-list.component.sass'
+  ]
 })
 export class GridComponent implements OnInit, OnDestroy {
   private routeSub: any;
