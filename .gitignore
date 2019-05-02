@@ -2,23 +2,10 @@
 
 # compiled output
 /dist
-/dist-server
-/tmp
-/out-tsc
-dist.*.tar.gz
+zdist.*.tar.gz
 
 # dependencies
 /node_modules
-/bower_components
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
 
 # IDE - VSCode
 .vscode/*
@@ -28,17 +15,12 @@ dist.*.tar.gz
 !.vscode/extensions.json
 
 # misc
-/.sass-cache
-/connect.lock
 /coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
 # System Files
 .DS_Store
 Thumbs.db
-.htaccess.bak
-.htaccess
