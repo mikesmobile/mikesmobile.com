@@ -10,20 +10,20 @@
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" aria-label="Close" (click)="hide()">
-          <span aria-hidden="true">×</span>
-        </button>
         <h4 class="modal-title" id="quoteFormTitle">
           Get a Free Quote Now! <br /><span class="orange-text"
             >1-877-520-3595</span
           >
         </h4>
+        <button type="button" class="close" aria-label="Close" (click)="hide()">
+          <span aria-hidden="true">×</span>
+        </button>
       </div>
       <div class="modal-body">
         <form
           [formGroup]="quoteFormGroup"
           #quoteForm="ngForm"
-          (submit)="handleSubmit($event, quoteForm, quoteFormGroup)"
+          (submit)="handleSubmit($event)"
         >
           <div class="md-form">
             <input
@@ -160,6 +160,7 @@
           class="btn blue relative waves-light w-100"
           mdbRippleRadius
           [disabled]="quoteFormGroup.invalid"
+          (click)="handleSubmit($event)"
         >
           Submit
         </button>

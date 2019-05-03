@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { FormControl, FormGroup, Validators, NgForm } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
@@ -13,13 +13,6 @@ import { ServicesService } from '../services/service.service';
 })
 export class QuoteFormComponent {
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
-  show() {
-    this.quoteModal.show();
-  }
-  hide() {
-    this.quoteModal.hide();
-  }
-
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -38,15 +31,13 @@ export class QuoteFormComponent {
       Validators.required,
       Validators.maxLength(150)
     ]),
-
-    utm_source: new FormControl('', []),
-    utm_medium: new FormControl('', []),
-    utm_campaign: new FormControl('', []),
-
     message: new FormControl('', [
       Validators.required,
       Validators.maxLength(280)
-    ])
+    ]),
+    utm_source: new FormControl('', []),
+    utm_medium: new FormControl('', []),
+    utm_campaign: new FormControl('', [])
   });
 
   get name() {
@@ -69,50 +60,49 @@ export class QuoteFormComponent {
     return this.quoteFormGroup.get('message');
   }
 
-  get option() {
-    return this.quoteFormGroup.get('option');
+  public show() {
+    this.quoteModal.show();
   }
 
-  handleSubmit(event: any, quoteForm: NgForm, quoteFormGroup: FormGroup) {
+  hide() {
+    this.quoteModal.hide();
+  }
+
+  handleSubmit(event: any) {
     event.preventDefault();
 
-    if (quoteForm.submitted) {
-      let url = this.route.snapshot.url.pop();
-      let option;
+    const {
+      name,
+      city,
+      phone,
+      email,
+      message,
+      utm_source,
+      utm_medium,
+      utm_campaign
+    } = this.quoteFormGroup.value;
 
-      let name = quoteFormGroup.value['name'];
-      let city = quoteFormGroup.value['city'];
-      let phone = quoteFormGroup.value['phone'];
-      let email = quoteFormGroup.value['email'];
-      let message = quoteFormGroup.value['message'];
-      let utm_source = quoteFormGroup.value['utm_source'];
-      let utm_medium = quoteFormGroup.value['utm_medium'];
-      let utm_campaign = quoteFormGroup.value['utm_campaign'];
-
-      if (url === undefined) {
-        option = 'Homepage';
-      } else {
-        option = url.toString();
-      }
-
-      this._service
-        .create(
-          name,
-          city,
-          phone,
-          email,
-          message,
-          option,
-          utm_source,
-          utm_medium,
-          utm_campaign
-        )
-        .subscribe((data) => {
-          this.hide();
-          quoteForm.resetForm({});
-
-          this.router.navigate(['/thank-you']);
-        });
+    const url = this.route.snapshot.url.pop();
+    let option = 'Homepage';
+    if (url !== undefined) {
+      option = url.toString();
     }
+
+    this._service
+      .create(
+        name,
+        city,
+        phone,
+        email,
+        message,
+        option,
+        utm_source,
+        utm_medium,
+        utm_campaign
+      )
+      .subscribe((data) => {
+        this.hide();
+        this.router.navigate(['/thank-you']);
+      });
   }
 }
