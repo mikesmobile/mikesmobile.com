@@ -13,7 +13,7 @@ export class ColorSwatchComponent implements OnInit {
     name: 'Standard Colors',
     values: {
       'Anodized Bronze': '#2D3017',
-      White: '#ffffff'
+      White: '#fafbfb'
     }
   };
 
@@ -56,8 +56,8 @@ export class ColorSwatchComponent implements OnInit {
   slidingSecurityDoorColors = {
     name: 'Custom Colors',
     values: {
-      Alabaster: '#FAF9ED',
-      Almond: '#F4EDCA',
+      Alabaster: '#fbf8ec',
+      'Almond Cream': '#f3eacc',
       'Autumn Brown': '#3F2823',
       'Bear Green': '#103427',
       'Champagne Beige': '#928A6F',
