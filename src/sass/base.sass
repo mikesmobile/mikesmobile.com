@@ -1,12 +1,11 @@
 @import 'modules/_mixins.sass'
 @import 'modules/_variables.sass'
 
-html, body
-  overflow-x: hidden !important
-  font-family: 'Didact Gothic', sans-serif
-
 body
   background: #f2f2f2
+  font-family: 'Didact Gothic', sans-serif
+  &.modal-open
+    overflow: hidden
 
 a
   color: #000
