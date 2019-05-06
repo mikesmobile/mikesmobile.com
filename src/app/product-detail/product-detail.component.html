@@ -154,7 +154,7 @@
         </ng-container>
       </div>
 
-      <div class="col-12 col-md-5" id="productInfo">
+      <div class="col-12 col-md-5 productInfo">
         <h1 class="text-left h5" [innerHTML]="product.category"></h1>
         <h2 class="text-left h3" [innerHTML]="product.title"></h2>
         <div class="container my-4" *ngIf="product.textList">
@@ -179,14 +179,13 @@
           <ul class="pb-3">
             <li
               *ngFor="let bullet of product.bullets"
-              id="l2"
               [innerHTML]="bullet"
             ></li>
           </ul>
         </div>
-        <div class="flex-row d-none d-md-block my-4" (click)="openQuoteForm()">
+        <div class="flex-row d-none d-md-block my-4 cursor-pointer" (click)="openQuoteForm()">
           <h4
-            class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
+            class="animated pulse infinite orange-text pl-4 pb-3"
           >
             &nbsp; Get a Free Quote Now!
           </h4>

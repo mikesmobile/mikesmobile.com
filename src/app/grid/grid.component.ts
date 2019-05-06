@@ -16,10 +16,8 @@ import servicesJSON from '../../assets/json/services.json';
 })
 export class GridComponent implements OnInit, OnDestroy {
   private routeSub: any;
-
   service;
   serviceList = [];
-
   gallery_images: NgxGalleryImage[];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
