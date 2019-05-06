@@ -1,104 +1,79 @@
-<ng-container>
-  <ng-container *ngIf="colors != null">
-    <p
-      class="mb-0 mt-2 ml-1"
-      style="font-weight:bold"
-      [innerHTML]="colors.name"
-    ></p>
-    <div class="row no-gutters">
+<ng-container *ngIf="colors != null">
+  <p
+    class="mb-0 mt-2 ml-1 font-weight-bold"
+    [innerHTML]="colors.name"
+  ></p>
+  <div class="row no-gutters">
+    <div
+      class="col-3 col-md-2"
+      *ngFor="let color of (colors.values | keys); index as j"
+    >
       <div
-        class="col-3 col-md-2"
-        *ngFor="let color of (colors.values | keys); index as j"
+        *ngIf="color.value[0] === '#'"
+        class="square"
+        [mdbTooltip]="color.key"
+        [ngStyle]="{ background: color.value }"
+        placement="bottom"
+        (click)="ColorModal.show()"
+      ></div>
+      <div
+        *ngIf="color.value[0] === '/'"
+        class="square"
+        [mdbTooltip]="color.key"
+        [ngStyle]="{
+          'background-image': 'url(' + color.value + ')',
+          'background-size': 'cover'
+        }"
+        placement="bottom"
+        (click)="ColorModal.show()"
+      ></div>
+      <div
+        mdbModal
+        #ColorModal="mdb-modal"
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
       >
-        <div
-          *ngIf="color.value[0] === '#'"
-          class="square"
-          id="square-{{ j }}"
-          [mdbTooltip]="color.key"
-          [ngStyle]="{ background: color.value }"
-          placement="bottom"
-          (click)="ColorModal.show()"
-        ></div>
-        <div
-          *ngIf="color.value[0] === '/'"
-          class="square"
-          [mdbTooltip]="color.key"
-          [ngStyle]="{
-            'background-image': 'url(' + color.value + ')',
-            'background-size': 'cover'
-          }"
-          placement="bottom"
-          (click)="ColorModal.show()"
-        ></div>
-        <p
-          id="square-p-{{ i }}"
-          class="pl-2 p-colors"
-          [innerHTML]="color.key"
-        ></p>
-        <div
-          mdbModal
-          #ColorModal="mdb-modal"
-          class="modal fade"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="Color Modal"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4
-                  class="modal-title w-100 text-center"
-                  [innerHTML]="color.key"
-                ></h4>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                  (click)="ColorModal.hide()"
-                >
-                  <span aria-hidden="true">×</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div
-                  *ngIf="color.value[0] === '#'"
-                  class="square-lg centered-sq"
-                  [mdbTooltip]="color.key"
-                  [ngStyle]="{ background: color.value }"
-                  placement="bottom"
-                ></div>
-                <div
-                  *ngIf="color.value[0] === '/'"
-                  class="square-lg centered-sq"
-                  [mdbTooltip]="color.key"
-                  [ngStyle]="{
-                    'background-image': 'url(' + color.value + ')',
-                    'background-size': 'cover'
-                  }"
-                  placement="bottom"
-                ></div>
-              </div>
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4
+                class="modal-title w-100 text-center"
+                [innerHTML]="color.key"
+              ></h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                (click)="ColorModal.hide()"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div
+                *ngIf="color.value[0] === '#'"
+                class="square-lg"
+                [mdbTooltip]="color.key"
+                [ngStyle]="{ background: color.value }"
+                placement="bottom"
+              ></div>
+              <div
+                *ngIf="color.value[0] === '/'"
+                class="square-lg"
+                [mdbTooltip]="color.key"
+                [ngStyle]="{
+                  'background-image': 'url(' + color.value + ')',
+                  'background-size': 'cover'
+                }"
+                placement="bottom"
+              ></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </ng-container>
-
-  <ng-container
-    *ngIf="
-      swatchType === 'swingingDoorColors' ||
-      swatchType === 'slidingSecurityDoorColors'
-    "
-  >
-    <p class="orange-text" id="more-colors" (click)="viewMoreColors()">
-      Click to view more colors &nbsp;
-      <i class="fa fa-angle-down" aria-hidden="true"></i>
-    </p>
-    <p id="less-colors" (click)="viewLessColors()">
-      Less Colors &nbsp; <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </p>
-  </ng-container>
+  </div>
 </ng-container>

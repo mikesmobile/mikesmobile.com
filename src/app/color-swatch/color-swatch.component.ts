@@ -69,7 +69,6 @@ export class ColorSwatchComponent implements OnInit {
       'Post Office Blue': '#182F4D',
       'Terra Cotta': '#671218',
       'Evening Blue': '#1F4769',
-      Chrome: '#EFEFEF',
       'Green Patina': '#435E57',
       'New Bronze': '#40372D',
       'Pacific Granite': '#707070',
@@ -220,29 +219,6 @@ export class ColorSwatchComponent implements OnInit {
       default:
         this.colors = null;
         break;
-    }
-  }
-
-  viewMoreColors() {
-    document.getElementById('more-colors').style.display = 'none';
-    document.getElementById('less-colors').style.display = 'block';
-    for (let i = 6; i < 19; i++) {
-      let el = document.getElementById(`square-${i}`);
-      if (el) {
-        el.style.display = 'block';
-      }
-    }
-  }
-
-  viewLessColors() {
-    document.getElementById('less-colors').style.display = 'none';
-    document.getElementById('more-colors').style.display = 'block';
-
-    for (let i = 6; i < 19; i++) {
-      let el = document.getElementById(`square-${i}`);
-      if (el) {
-        el.style.display = 'none';
-      }
     }
   }
 }
