@@ -6,7 +6,8 @@ import servicesJSON from '../../assets/json/services.json';
 @Component({
   selector: 'app-search-detail',
   templateUrl: './search-detail.component.html',
-  styleUrls: ['./search-detail.component.sass']
+  styleUrls: ['./search-detail.component.sass',
+  '../flipcard-list/flipcard-list.component.sass']
 })
 export class SearchDetailComponent implements OnInit, OnDestroy {
   private routeSub: any;
