@@ -28,6 +28,7 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
+  { path: 'screens/screen-hardware-parts', redirectTo: '/about/door-screens' },
   {
     path: 'grid/steel-security-doors',
     redirectTo: '/grid/titan-security-doors'
