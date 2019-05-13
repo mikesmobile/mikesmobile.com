@@ -80,6 +80,7 @@ export class ColorSwatchComponent implements OnInit {
   screenFrameColors = {
     name: 'Screen Colors',
     values: {
+      Beige: '/assets/images/colors/suntex-beige.jpg',
       Black: '/assets/images/colors/suntex-black.png',
       Brown: '/assets/images/colors/suntex-brown.png',
       Gray: '/assets/images/colors/suntex-grey.png',
