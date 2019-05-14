@@ -71,13 +71,11 @@
     <h2 class="w-100 text-center my-4">
       {{ region.region }} loves Mike's Mobile <i class="fas fa-heart"></i>
     </h2>
-    <blockquote class="blockquote" *ngFor="let review of region.reviews">
+    <blockquote class="blockquote" *ngFor="let review of service.reviews">
       <p class="mb-0" [innerHTML]="review.review"></p>
       <a [href]="review.link"
-        ><footer
-          class="blockquote-footer mb-3"
-          [innerHTML]="review.author"
-        ></footer
+        ><footer class="blockquote-footer mb-3">
+          {{ review.author }} <i class="fas fa-external-link-alt"></i></footer
       ></a>
     </blockquote>
   </div>
