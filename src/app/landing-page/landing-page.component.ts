@@ -1,5 +1,7 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
 
@@ -14,7 +16,12 @@ export class LandingPageComponent implements OnInit, OnDestroy {
   security_door_gallery;
   security_window_gallery;
 
+  @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(private route: ActivatedRoute) {}
+
+  openQuoteForm() {
+    this.quoteForm.show();
+  }
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params) => {
