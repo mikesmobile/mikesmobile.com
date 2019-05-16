@@ -12,10 +12,10 @@ import servicesJSON from '../../assets/json/services.json';
 })
 export class ServiceListComponent implements OnInit {
   @Input() categories = [
-    'Chimney Services',
-    'Door and Window Screens',
     'Security Screen Doors and Windows',
-    'Awnings'
+    'Door and Window Screens',
+    'Awnings',
+    'Chimney Services'
   ];
 
   private req: any;
