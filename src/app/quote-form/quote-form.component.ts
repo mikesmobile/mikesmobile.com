@@ -34,10 +34,7 @@ export class QuoteFormComponent {
     message: new FormControl('', [
       Validators.required,
       Validators.maxLength(280)
-    ]),
-    utm_source: new FormControl('', []),
-    utm_medium: new FormControl('', []),
-    utm_campaign: new FormControl('', [])
+    ])
   });
 
   get name() {
@@ -76,11 +73,17 @@ export class QuoteFormComponent {
       city,
       phone,
       email,
-      message,
-      utm_source,
-      utm_medium,
-      utm_campaign
+      message
     } = this.quoteFormGroup.value;
+
+    // Read UTM Cookie
+    const utm_cookie = document.cookie.match('(^|;) ?utm=([^;]*)(;|$)');
+    let utm_source = "";
+    let utm_medium = "";
+    let utm_campaign = "";
+    if (utm_cookie) {
+      [ utm_source, utm_medium, utm_campaign ] = utm_cookie[2].split(':');
+    }
 
     const url = this.route.snapshot.url.pop();
     let option = 'Homepage';

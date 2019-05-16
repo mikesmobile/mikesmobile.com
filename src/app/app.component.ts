@@ -1,6 +1,6 @@
 import { isPlatformBrowser } from '@angular/common';
-import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { filter } from 'rxjs/operators';
 
@@ -19,9 +19,9 @@ export class AppComponent {
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     public router: Router,
-    private activatedRoute: ActivatedRoute,
     private seoService: SEOService
   ) {
+    this.checkForUTMs();
     this.router.events.subscribe((event) => {
       if (isPlatformBrowser(PLATFORM_ID)) {
         if (event instanceof NavigationEnd) {
@@ -32,10 +32,31 @@ export class AppComponent {
     });
   }
 
+  private checkForUTMs() {
+    const source = this.getParameterByName('utm_source');
+    const medium = this.getParameterByName('utm_medium');
+    const campaign = this.getParameterByName('utm_campaign');
+    let expires = new Date();
+    // Store for 30 days
+    expires.setTime(expires.getTime() + (30*24*60*60*1000));
+
+    // Only write cookie if there is any new utm data
+    if (source + medium + campaign !== "") {
+      document.cookie = `utm=${source}:${medium}:${campaign};expires=${expires.toUTCString()}`;
+    }
+  }
+
+  private getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    const regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+    const results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
   ngOnInit() {
     this.subscription = this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
-      .subscribe((event) => {
+      .subscribe(() => {
         if (isPlatformBrowser(this.platformId)) {
           // Scroll to top of page on router events
           window.scrollTo(0, 0);
