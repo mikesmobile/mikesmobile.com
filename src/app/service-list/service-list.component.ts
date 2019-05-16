@@ -18,7 +18,6 @@ export class ServiceListComponent implements OnInit {
     'Chimney Services'
   ];
 
-  private req: any;
   serviceList = [];
   categoryList = [];
 
