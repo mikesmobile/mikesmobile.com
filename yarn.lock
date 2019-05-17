@@ -169,6 +169,13 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/core@>=2.0.0":
+  version "7.2.15"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-7.2.15.tgz#c00d4be0ebe95b70f7631154169509cc97934e9a"
+  integrity sha512-XsuYm0jEU/mOqwDOk2utThv8J9kESkAerfuCHClE9rB2TtHUOGCfekF7lJWqjjypu6/J9ygoPFo7hdAE058ZGg==
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/forms@7.2.8":
   version "7.2.8"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-7.2.8.tgz#adf194088495822d55dcf3e5bf69196dcf19465d"
@@ -300,6 +307,16 @@
     rxjs "6.3.3"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@nguniversal/express-engine@^7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-7.1.1.tgz#9445ccb374dabdadccc8de98ca8a79b536ae14de"
+  integrity sha512-RJ2VATA6s48bYNrAfjnkjUCohpR7ehiOySwGA2vuUIWCWXKDIIPxgmET5ffVHy1a2XdMsOgrQ9Whth7+CxnUgw==
+
+"@ngx-utils/cookies@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ngx-utils/cookies/-/cookies-3.0.2.tgz#e187e67d1e40dafe0c4fa7f08cbf377cd9393d9f"
+  integrity sha512-fhN2B+L45LKdQmfnXHNRq7cub7nMAIwqpFbUU/dD0h8uEf4CnsegI/gd9LyVXwPT6GHnMcE+DO061cJPsi2MTQ==
 
 "@schematics/angular@7.3.8":
   version "7.3.8"
@@ -632,6 +649,16 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+
+angular-ab-tests@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/angular-ab-tests/-/angular-ab-tests-1.3.1.tgz#8a828458f63da22f73124a41b246d9084b272563"
+  integrity sha512-Uli64zeuO8UL0lafSb2PSXtFzyKkynVU7X7l4DqVnY1UlS93f7Y3wk0QOrAeCPAO2yTbiyVPycOL4KlE+z4L/w==
+  dependencies:
+    "@angular/core" ">=2.0.0"
+    "@nguniversal/express-engine" "^7.1.1"
+    "@ngx-utils/cookies" "^3.0.2"
+    tslib "^1.9.0"
 
 ansi-colors@^3.0.0:
   version "3.2.4"
