@@ -43,6 +43,10 @@ const appRoutes: Routes = [
     redirectTo: '/screens/sacramento'
   },
   {
+    path: 'blog/another-custom-creation',
+    redirectTo: '/blog/another-custom-creation-custom-security-doors'
+  },
+  {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-sacramento',
     redirectTo: '/screens/sacramento'

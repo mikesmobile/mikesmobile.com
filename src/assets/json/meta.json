@@ -57,7 +57,7 @@
     "title": "10 Tips For The Heating Season | Mike's Mobile"
   },
   {
-    "page": "/blog/another-custom-creation",
+    "page": "/blog/another-custom-creation-custom-security-doors",
     "title": "Sliding Security Doors - Sunburst Style | Mike's Mobile",
     "description": "Looking for a custom sliding security door? We love working with our customers to create working art for their home. Please give Mike's Mobile a call today!"
   },
@@ -447,6 +447,10 @@
     "description": "Chimney service experts for the greater Sacramento region since 2002. If you're coming home from the Sacramento river, the beach or the mountains; rest assured the chimney you come home to will be safe and ready to burn. Call Mike's Mobile!"
   },
   {
+    "page": "/chimneys/san-jose",
+    "title": "Chimney Services near San Jose, CA | Mike's Mobile"
+  },
+  {
     "page": "/chimneys/stockton",
     "title": "Chimney Service near Stockton, CA | Mike's Mobile",
     "description": "Mike's Mobile has become the premier chimney service and repair company here in Stockton. We also service San Joaquin county and surrounding areas. Give us a call today for all of your chimney and fireplace needs!"
@@ -784,6 +788,10 @@
     "description": "Mike's Mobile specializes in door screens, window screens and awnings for the Sacramento region and beyond. Most screens are built on-site for that perfect fit! Call or write for a free quote."
   },
   {
+    "page": "/screens/san-jose",
+    "title": "Screens and Awnings near San Jose | Mike's Mobile"
+  },
+  {
     "page": "/screens/stockton",
     "title": "Screens and Awnings near Stockton & Tracy | Mike's Mobile",
     "description": "Mike's Mobile has been providing new window screens and awnings to residential and commercial clients here in the Stockton region since 2002. We have the perfect solution to repair or replace that damaged screen or awning."
@@ -827,6 +835,10 @@
     "page": "/security/sacramento",
     "title": "Security Screen Doors and Security Window Screens near Sacramento | Mike's Mobile",
     "description": "Mike's Mobile is your one-stop shop in the greater Sacramento area for all your security screen doors and security window screens needs. Visit our showroom to see all of our security products in person!"
+  },
+  {
+    "page": "/security/san-jose",
+    "title": "Security Screen Doors and Security Window Screens near San Jose | Mike's Mobile"
   },
   {
     "page": "/security/stockton",
