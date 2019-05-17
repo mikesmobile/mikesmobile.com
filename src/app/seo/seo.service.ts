@@ -14,8 +14,7 @@ export class SEOService {
     private titleService: Title
   ) {}
 
-  // TODO: Run as Asynchronous
-  updatePage(url: string) {
+  async updatePage(url: string, redirected: boolean) {
     // Set up defaults for page found
     let descriptionTag = {
       name: 'description',
@@ -34,11 +33,12 @@ export class SEOService {
         data.page === url || (data.aliases && data.aliases.includes(url))
     );
 
-    // Overwrite defaults with found data
-    if (pageInfo) {
-      // Update canonical URL
-      this._updateCanonicalURL(pageInfo.page);
-
+    const canonical = this._updateCanonicalURL(pageInfo.page);
+    if (redirected) {
+      this.metaService.addTag({ name: 'prerender-status-code', content: '301' });
+      this.metaService.addTag({ name: 'prerender-header', content: 'Location ' + canonical });
+    } else if (pageInfo) {
+      // Overwrite defaults with found data
       if (pageInfo.description) {
         descriptionTag.content = pageInfo.description;
       }
@@ -86,5 +86,6 @@ export class SEOService {
     newCanonicalLink.setAttribute('rel', 'canonical');
     newCanonicalLink.setAttribute('href', canonicalURL);
     this.dom.head.appendChild(newCanonicalLink);
+    return canonicalURL;
   }
 }

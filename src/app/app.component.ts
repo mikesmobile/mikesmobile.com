@@ -1,7 +1,6 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { Subscription } from 'rxjs';
 import { filter } from 'rxjs/operators';
 
 import { SEOService } from './seo/seo.service';
@@ -14,20 +13,25 @@ declare let ga: Function;
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  subscription: Subscription;
-
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    public router: Router,
-    private seoService: SEOService
+    router: Router,
+    seoService: SEOService
   ) {
     this.checkForUTMs();
-    this.router.events.subscribe((event) => {
-      if (isPlatformBrowser(PLATFORM_ID)) {
-        if (event instanceof NavigationEnd) {
-          ga('set', 'page', event.urlAfterRedirects);
-          ga('send', 'pageview');
-        }
+    router.events.pipe(
+      filter((e) => e instanceof NavigationEnd)
+    ).subscribe((event: NavigationEnd) => {
+      if (isPlatformBrowser(this.platformId)) {
+        // Send to analytics
+        ga('set', 'page', event.urlAfterRedirects);
+        ga('send', 'pageview');
+
+        // Scroll to top of page on router events
+        window.scrollTo(0, 0);
+
+        // Set <link rel="canonical">, <title>, and <meta name="description">
+        seoService.updatePage(event.urlAfterRedirects, event.url !== event.urlAfterRedirects);
       }
     });
   }
@@ -51,23 +55,5 @@ export class AppComponent {
     const regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
     const results = regex.exec(location.search);
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-  }
-
-  ngOnInit() {
-    this.subscription = this.router.events
-      .pipe(filter((event) => event instanceof NavigationEnd))
-      .subscribe(() => {
-        if (isPlatformBrowser(this.platformId)) {
-          // Scroll to top of page on router events
-          window.scrollTo(0, 0);
-
-          // Set <link rel="canonical">, <title>, and <meta name="description">
-          this.seoService.updatePage(this.router.url);
-        }
-      });
-  }
-
-  ngOnDestroy() {
-    this.subscription.unsubscribe();
   }
 }
