@@ -16,8 +16,6 @@ export class SEOService {
 
   // TODO: Run as Asynchronous
   updatePage(url: string) {
-    this._updateCanonicalURL();
-
     // Set up defaults for page found
     let descriptionTag = {
       name: 'description',
@@ -38,6 +36,9 @@ export class SEOService {
 
     // Overwrite defaults with found data
     if (pageInfo) {
+      // Update canonical URL
+      this._updateCanonicalURL(pageInfo.page);
+
       if (pageInfo.description) {
         descriptionTag.content = pageInfo.description;
       }
@@ -51,8 +52,8 @@ export class SEOService {
       // Assume 404 page if info not found in meta.json
       robotsTag.content = 'noindex';
       // Send 404 from prerendering service
-      // This code is ONLY resected by the rendertron service and therefore doesn't need to be removed as a new DOM will be generated without the code for a found page
-      this.metaService.addTag({ name: 'render:status_code', content: '404' });
+      // This code is ONLY respected by the prerender service and therefore doesn't need to be removed as a new DOM will be generated without the code for a found page
+      this.metaService.addTag({ name: 'prerender-status-code', content: '404' });
       // TODO: Send 404 if possible from Apache/Nginx
     }
 
@@ -61,14 +62,14 @@ export class SEOService {
     this.titleService.setTitle(title);
   }
 
-  private _updateCanonicalURL() {
+  private _updateCanonicalURL(relativeLink: string) {
     // Opinionated canonical links:
     // - Strip off www subdomain if present
     // - Require https protocol
-    const canonicalURL = this.dom.URL.replace(
+    const canonicalURL = document.domain.replace(
       /(https?:\/\/)?(www\.)?/,
       'https://'
-    );
+    ) + relativeLink;
 
     let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector(
       "link[rel='canonical']"
