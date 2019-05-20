@@ -27,6 +27,9 @@ export class SEOService {
     };
     let title = "Mike's Mobile Screen and Chimney Service";
 
+    // Remove any URL encoded paramaters
+    url = url.split('?')[0];
+
     // Search for page specific data in meta.json
     const pageInfo = metaData.find(
       (data) =>
@@ -35,8 +38,14 @@ export class SEOService {
 
     const canonical = this._updateCanonicalURL(pageInfo.page);
     if (redirected) {
-      this.metaService.addTag({ name: 'prerender-status-code', content: '301' });
-      this.metaService.addTag({ name: 'prerender-header', content: 'Location: ' + canonical });
+      this.metaService.addTag({
+        name: 'prerender-status-code',
+        content: '301'
+      });
+      this.metaService.addTag({
+        name: 'prerender-header',
+        content: 'Location: ' + canonical
+      });
     } else if (pageInfo) {
       // Overwrite defaults with found data
       if (pageInfo.description) {
@@ -53,7 +62,10 @@ export class SEOService {
       robotsTag.content = 'noindex';
       // Send 404 from prerendering service
       // This code is ONLY respected by the prerender service and therefore doesn't need to be removed as a new DOM will be generated without the code for a found page
-      this.metaService.addTag({ name: 'prerender-status-code', content: '404' });
+      this.metaService.addTag({
+        name: 'prerender-status-code',
+        content: '404'
+      });
       // TODO: Send 404 if possible from Apache/Nginx
     }
 
@@ -66,10 +78,9 @@ export class SEOService {
     // Opinionated canonical links:
     // - Strip off www subdomain if present
     // - Require https protocol
-    const canonicalURL = document.domain.replace(
-      /(https?:\/\/)?(www\.)?/,
-      'https://'
-    ) + relativeLink;
+    const canonicalURL =
+      document.domain.replace(/(https?:\/\/)?(www\.)?/, 'https://') +
+      relativeLink;
 
     let existingCanonicalLink: HTMLLinkElement = this.dom.head.querySelector(
       "link[rel='canonical']"
