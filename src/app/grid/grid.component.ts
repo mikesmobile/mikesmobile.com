@@ -1,6 +1,5 @@
-import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgxGalleryImage } from 'ngx-gallery';
 
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
@@ -14,11 +13,9 @@ import servicesJSON from '../../assets/json/services.json';
     '../flipcard-list/flipcard-list.component.sass'
   ]
 })
-export class GridComponent implements OnInit, OnDestroy {
-  private routeSub: any;
+export class GridComponent implements OnInit {
   service;
   serviceList = [];
-  gallery_images: NgxGalleryImage[];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(private route: ActivatedRoute, private router: Router) {}
@@ -28,23 +25,19 @@ export class GridComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe((params) => {
+    this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         return data.slug === params['slug'];
       });
+
       if (!this.service) {
         this.router.navigate(['/']);
-      } else {
-        this.gallery_images = this.service.recentInstallImages;
+        return;
       }
     });
 
     servicesJSON.forEach((data) => {
       this.serviceList.push(data);
     });
-  }
-
-  ngOnDestroy() {
-    this.routeSub.unsubscribe();
   }
 }

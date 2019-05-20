@@ -1,5 +1,5 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import adwordsJSON from '../../assets/json/adwordslps.json';
 
 @Component({
@@ -7,22 +7,22 @@ import adwordsJSON from '../../assets/json/adwordslps.json';
   templateUrl: './seo-adwords-lp.component.html',
   styleUrls: ['./seo-adwords-lp.component.sass']
 })
-export class SeoAdwordsLpComponent implements OnInit, OnDestroy {
-  private routeSub: any;
+export class SeoAdwordsLpComponent implements OnInit {
   slug: string;
   landingPage: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe((params) => {
+    this.route.params.subscribe((params) => {
       this.landingPage = adwordsJSON.find((data) => {
         return data.slug === params['slug'];
       });
-    });
-  }
 
-  ngOnDestroy() {
-    this.routeSub.unsubscribe();
+      if (!this.landingPage) {
+        this.router.navigate(['/']);
+        return;
+      }
+    });
   }
 }

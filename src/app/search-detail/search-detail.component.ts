@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import servicesJSON from '../../assets/json/services.json';
@@ -11,15 +11,14 @@ import servicesJSON from '../../assets/json/services.json';
     '../flipcard-list/flipcard-list.component.sass'
   ]
 })
-export class SearchDetailComponent implements OnInit, OnDestroy {
-  private routeSub: any;
+export class SearchDetailComponent implements OnInit {
   query: string;
   searchList = [];
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe((params) => {
+    this.route.params.subscribe((params) => {
       this.query = params['q'];
       servicesJSON.forEach((data) => {
         if (data.title.toLowerCase().indexOf(this.query.toLowerCase()) >= 0) {
@@ -31,9 +30,5 @@ export class SearchDetailComponent implements OnInit, OnDestroy {
         }
       });
     });
-  }
-
-  ngOnDestroy() {
-    this.routeSub.unsubscribe();
   }
 }

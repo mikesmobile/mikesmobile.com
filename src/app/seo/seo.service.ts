@@ -9,7 +9,7 @@ import metaData from '../../assets/json/meta.json';
 })
 export class SEOService {
   constructor(
-    @Inject(DOCUMENT) private dom,
+    @Inject(DOCUMENT) private dom: Document,
     private metaService: Meta,
     private titleService: Title
   ) {}

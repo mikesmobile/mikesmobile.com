@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import regionalJSON from '../../assets/json/regional_services.json';
 
@@ -9,16 +9,14 @@ import regionalJSON from '../../assets/json/regional_services.json';
   styleUrls: ['./landing-regional.component.sass']
 })
 export class LandingRegionalComponent implements OnInit {
-  private routeSub: any;
-
   region;
   service;
   otherServiceCards;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
-    this.routeSub = this.route.url.subscribe((params) => {
+    this.route.url.subscribe((params) => {
       const serviceSlug = params[0].path;
       const regionalSlug = params[1].path;
 
@@ -26,10 +24,21 @@ export class LandingRegionalComponent implements OnInit {
         return data.slug === regionalSlug;
       });
 
+      // No region found
+      if (!this.region) {
+        this.router.navigate(['/regions']);
+        return;
+      }
+
       this.service = this.region.services.find((data) => {
         return data.slug === serviceSlug;
       });
-      // TODO: Redirect to /regions if no services found
+
+      // Region found, services not found
+      if (!this.service) {
+        this.router.navigate(['/regions']);
+        return;
+      }
 
       this.otherServiceCards = this.region.services
         .filter((data) => {
@@ -42,9 +51,5 @@ export class LandingRegionalComponent implements OnInit {
           };
         });
     });
-  }
-
-  ngOnDestroy() {
-    this.routeSub.unsubscribe();
   }
 }

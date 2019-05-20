@@ -192,7 +192,7 @@
               ><h4 class="p-2">Informational Graphics</h4></ng-template
             >
             <div class="row" *ngIf="service.extraImages">
-              <div class="col-12" *ngFor="let img of (extra_images | keys)">
+              <div class="col-12" *ngFor="let img of (service.extraImages | keys)">
                 <img
                   [src]="img.value"
                   class="img-fluid"
@@ -312,7 +312,7 @@
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">
-        <app-footer-gallery [Images]="gallery_images"></app-footer-gallery>
+        <app-footer-gallery [Images]="service.recentInstallImages"></app-footer-gallery>
       </section>
     </div>
   </div>

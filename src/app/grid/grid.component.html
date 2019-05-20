@@ -43,7 +43,7 @@
       </section>
       <div class="container mt-4">
         <section class="text-center section feature-box">
-          <app-footer-gallery [Images]="gallery_images"></app-footer-gallery>
+          <app-footer-gallery [Images]="service.recentInstallImages"></app-footer-gallery>
         </section>
       </div>
     </div>
@@ -65,7 +65,7 @@
 
         <div class="row">
           <div class="col-12 col-md-7 pb-3">
-            <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+            <app-main-gallery [Images]="service.recentInstallImages"></app-main-gallery>
           </div>
           <div class="col-12 col-md-5 productInfo">
             <h1 class="text-left h5">Security Screen Doors</h1>

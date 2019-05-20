@@ -68,21 +68,15 @@ export class QuoteFormComponent {
   handleSubmit(event: any) {
     event.preventDefault();
 
-    const {
-      name,
-      city,
-      phone,
-      email,
-      message
-    } = this.quoteFormGroup.value;
+    const { name, city, phone, email, message } = this.quoteFormGroup.value;
 
     // Read UTM Cookie
     const utm_cookie = document.cookie.match('(^|;) ?utm=([^;]*)(;|$)');
-    let utm_source = "";
-    let utm_medium = "";
-    let utm_campaign = "";
+    let utm_source = '';
+    let utm_medium = '';
+    let utm_campaign = '';
     if (utm_cookie) {
-      [ utm_source, utm_medium, utm_campaign ] = utm_cookie[2].split(':');
+      [utm_source, utm_medium, utm_campaign] = utm_cookie[2].split(':');
     }
 
     const url = this.route.snapshot.url.pop();
@@ -103,7 +97,7 @@ export class QuoteFormComponent {
         utm_medium,
         utm_campaign
       )
-      .subscribe((data) => {
+      .subscribe(() => {
         this.hide();
         this.router.navigate(['/thank-you']);
       });

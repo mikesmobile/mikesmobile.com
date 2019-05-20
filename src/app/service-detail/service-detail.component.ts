@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxGalleryImage } from 'ngx-gallery';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
@@ -13,13 +13,8 @@ import servicesJSON from '../../assets/json/services.json';
     '../flipcard-list/flipcard-list.component.sass'
   ]
 })
-export class ServiceDetailComponent implements OnInit, OnDestroy {
-  private routeSub: any;
-
-  service;
-  extra_images = [];
-  petImages = {};
-  gallery_images: NgxGalleryImage[];
+export class ServiceDetailComponent implements OnInit {
+  service: any;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -29,25 +24,19 @@ export class ServiceDetailComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe((params) => {
+    this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         return data.slug === params['slug'];
       });
 
       if (!this.service) {
         this.router.navigate(['/']);
-      } else {
-        this.extra_images = this.service.extraImages;
-        this.petImages = this.service.images;
-        this.gallery_images = this.service.recentInstallImages;
-        if (this.service.fullTileImage) {
-          this.service.tileImage = this.service.fullTileImage;
-        }
+        return;
+      }
+
+      if (this.service.fullTileImage) {
+        this.service.tileImage = this.service.fullTileImage;
       }
     });
-  }
-
-  ngOnDestroy() {
-    this.routeSub.unsubscribe();
   }
 }
