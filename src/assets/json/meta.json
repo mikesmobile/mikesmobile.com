@@ -2,7 +2,7 @@
   {
     "page": "/",
     "aliases": ["/index.html.var"],
-    "title": "Security Screen Doors, Security Window Screens & Chimney Services | Mike's Mobile",
+    "title": "Mike's Mobile Screen & Chimney Service",
     "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
   },
   {
@@ -12,7 +12,7 @@
   },
   {
     "page": "/about/awnings",
-    "title": "Awnings for Sacramento, Stockton, Modesto, Napa & the Bay Area | Mike's Mobile",
+    "title": "Awnings for California | Mike's Mobile",
     "description": "Mike's Mobile provides Sunesta retractable awnings and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "page": "/blog/awning-installation",
-    "title": "Once an order is placed for an awning, how long will it take for the awning to be installed? | Mike's Mobile"
+    "title": "How long will it take for the awning to be installed? | Mike's Mobile"
   },
   {
     "page": "/blog/b-vent-natural-gas-fireplace",
@@ -192,7 +192,7 @@
   },
   {
     "page": "/blog/hardware-store-screen-doors",
-    "title": "What Are The Differences Between Our Doors and Hardware Store Doors? | Mike's Mobile"
+    "title": "Why Not Hardware Store Screen Doors? | Mike's Mobile"
   },
   {
     "page": "/blog/how-can-i-get-an-exemption-from-no-burn-days",
@@ -220,7 +220,7 @@
   },
   {
     "page": "/blog/kind-handle-set-security-doors-come",
-    "title": "What kind of a handle sets do your security doors come with? | Mike's Mobile"
+    "title": "What Kind of Handlesets For Security Screen Doors? | Mike's Mobile"
   },
   {
     "page": "/blog/kind-inspection-need",
@@ -240,7 +240,7 @@
   },
   {
     "page": "/blog/measure-solar-screens",
-    "title": "How do I measure screens to get a quote over the phone? | Mike's Mobile"
+    "title": "How Do I Measure My Windows For A Quote? | Mike's Mobile"
   },
   {
     "page": "/blog/meet-code",
@@ -248,15 +248,15 @@
   },
   {
     "page": "/blog/mounting-awnings",
-    "title": "What mounting options are available with a retractable awning? | Mike's Mobile"
-  },
-  {
-    "page": "/blog/napa-vallejo-areas-yellow-and-red-tags-explained",
-    "title": "Napa and Vallejo areas, Yellow and Red Tags Explained | Mike's Mobile"
+    "title": "Where Can I Mount My Awning? | Mike's Mobile"
   },
   {
     "page": "/blog/napa-vallejo-masonry-repair",
     "title": "Napa and Vallejo Masonry Repair | Mike's Mobile"
+  },
+  {
+    "page": "/blog/napa-yellow-tags-explained",
+    "title": "Napa and Vallejo areas, Yellow and Red Tags Explained | Mike's Mobile"
   },
   {
     "page": "/blog/natural-gas-safety-three-things-know",
@@ -291,28 +291,28 @@
     "title": "How do retractable awnings save on energy costs? | Mike's Mobile"
   },
   {
+    "page": "/blog/rollaway-disappearing-double-doors",
+    "title": "What About Double Rollaway Screen Doors? | Mike's Mobile"
+  },
+  {
     "page": "/blog/rollaway-disappearing-screen-doors",
     "title": "Disappearing in Stockton | Mike's Mobile"
   },
   {
-    "page": "/blog/rollaway-disappearing-screen-doors-also-work-double-doors",
-    "title": "Do the Rollaway disappearing screen doors also work with double doors? | Mike's Mobile"
-  },
-  {
     "page": "/blog/screen-doors-outswing-doors",
-    "title": "Are there screens that work with doors that open outward (outswing doors)? | Mike's Mobile"
+    "title": "Screen Doors On An Outward Swinging Door? | Mike's Mobile"
   },
   {
     "page": "/blog/screens-security-doors",
-    "title": "Prepare Your Home for Spring with Screens and Security Doors | Mike's Mobile"
+    "title": "Prepare For Spring with Screens and Security | Mike's Mobile"
   },
   {
     "page": "/blog/seasoned-firewood",
     "title": "Seasoned Firewood? | Mike's Mobile"
   },
   {
-    "page": "/blog/secure-your-home-in-style-with-a-viewguard-security-door",
-    "title": "Secure Your Home in Style with a Viewguard Security Door | Mike's Mobile"
+    "page": "/blog/secure-in-style-with-viewguard",
+    "title": "Security With Style - Viewguard Doors | Mike's Mobile"
   },
   {
     "page": "/blog/security-doors-sliding-patio-door",
@@ -320,11 +320,11 @@
   },
   {
     "page": "/blog/see-tuv-rating-awning-information-tuv-mean",
-    "title": "I see the TÜV rating on your awning information. What does TÜV mean? | Mike's Mobile"
+    "title": "What Is A TÜV Rating? | Mike's Mobile"
   },
   {
     "page": "/blog/sliding-screen-door-keeps-falling-track-can",
-    "title": "My sliding screen door keeps falling off the track, what can I do? | Mike's Mobile"
+    "title": "Why Does My Sliding Screen Door Fall Off Its Track? | Mike's Mobile"
   },
   {
     "page": "/blog/smoke-wind-blows",
@@ -340,8 +340,8 @@
     "title": "How are Solar Screens installed? | Mike's Mobile"
   },
   {
-    "page": "/blog/steel-security-doors-ive-seen-big-gaps-let-bugs-anything-can-prevent",
-    "title": "The steel security doors I’ve seen have big gaps and let in bugs. Is there anything you can do to prevent this? | Mike's Mobile"
+    "page": "/blog/steel-security-doors-gaps",
+    "title": "Steel Security Doors Without Big Gaps? | Mike's Mobile"
   },
   {
     "page": "/blog/time-to-think-about-gutter-cleaning",
@@ -357,7 +357,7 @@
   },
   {
     "page": "/blog/viewguard-doors-in-sacramento",
-    "title": "Viewguard Security Doors are Becoming Popular in Sacramento | Mike's Mobile"
+    "title": "Viewguard Security Screen Doors in Sacramento | Mike's Mobile"
   },
   {
     "page": "/blog/viewguard-security-door-and-slider-in-modesto",
@@ -373,8 +373,8 @@
     "description": "Mike's Mobile specializes in 100% custom security doors. Our Vineyard and all other steel security doors can be changed to your liking. We are experts in custom security doors for Sacramento, Stockton, Modesto and the East Bay regions!"
   },
   {
-    "page": "/blog/want-security-door-dont-want-house-look-like-jail-bars-options",
-    "title": "I want a security door, but I don’t want my house to look like it has jail bars.  What options do I have? | Mike's Mobile"
+    "page": "/blog/security-without-jail-bars",
+    "title": "How Do I Secure My Home Without Looking Like A Jail? | Mike's Mobile"
   },
   {
     "page": "/blog/waterproofing-avoid-efflorescence",
@@ -524,12 +524,12 @@
   },
   {
     "page": "/products/crl-guarda-quick-escape",
-    "title": "Vista Quick Escape Window Screens - Security Window Screens | Mike's Mobile",
+    "title": "Vista Quick Escape - Security Window Screens | Mike's Mobile",
     "description": "Buy Vista Quick Escape security window screens in Sacramento, Stockton. Modesto and the East Bay Area. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
     "page": "/products/crl-guarda-fixed",
-    "title": "Vista Fixed Window Screens - Security Window Screens | Mike's Mobile",
+    "title": "Vista Fixed - Security Window Screens | Mike's Mobile",
     "description": "Buy Vista Fixed security window screens in Sacramento, Stockton. Modesto and the East Bay Area. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
@@ -798,51 +798,51 @@
   },
   {
     "page": "/security/antioch-east-bay",
-    "title": "Security Window Screens and Security Screen Doors near Antioch | Mike's Mobile",
+    "title": "Security Screen Doors and Windows near Antioch | Mike's Mobile",
     "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. We also offer garage screen doors and awnings. Call for a free quote!"
   },
   {
     "page": "/security/auburn",
-    "title": "Security Window Screens and Security Screen Doors near Auburn | Mike's Mobile",
-    "description": "Mike's Mobile is Auburn's premier supplier of security window screens and security screen doors. From our completely customizable Titan Security Screen Doors to our contemporary Viewguard and stainless mesh products; we now even have sliding security doors to secure your patio door. Call today for a free estimate!"
+    "title": "Security Screen Doors and Windows near Auburn | Mike's Mobile",
+    "description": "Mike's Mobile is Auburn's premier supplier of security window screens and security screen doors. From our completely customizable Titan Security Screen Doors to our contemporary Viewguard and stainless mesh products. Call today for a free estimate!"
   },
   {
     "page": "/security/danville-and-walnut-creek-south-bay",
-    "title": "Security Screen Doors and Security Window Screens near Walnut Creek | Mike's Mobile",
+    "title": "Security Screen Doors and Windows near Walnut Creek | Mike's Mobile",
     "description": "Mike's Mobile is the premier contractor for security screen doors and security window screens in the South Bay! Check out our stainless mesh products like Tru-View, Viewguard, sliding security doors and Vista security window screens."
   },
   {
     "page": "/security/fairfield-vacaville",
-    "title": "Security Screen Doors and Security Window Screens near Vacaville | Mike's Mobile",
+    "title": "Security Screen Doors and Windows near Vacaville | Mike's Mobile",
     "description": "We have you covered for premium security screen doors and security window screens for the Fairfield and Vacaville regions. Mike's Mobile Screen and Chimney Service also offers chimney services and awnings for your area."
   },
   {
     "page": "/security/modesto",
-    "title": "Security Window Screens and Security Screen Doors near Modesto | Mike's Mobile",
+    "title": "Security Screen Doors and Windows near Modesto | Mike's Mobile",
     "description": "If you're looking for security window screens or security screen doors in the Modesto area, you've come to the right place! Mike's Mobile has a full line of security products including our stainless steel mesh products that offer security without the bars! Call today for a free estimate."
   },
   {
     "page": "/security/napa-vallejo",
-    "title": "Security Screen Doors and Security Window Screens in Napa | Mike's Mobile",
+    "title": "Security Screen Doors and Windows in Napa | Mike's Mobile",
     "description": "Mike's Mobile has been the premier contractor for security screen doors and security window screens in the Napa and Vallejo areas since 2002. Our steel security doors are fully customizable. View our line of stainless mesh products that offer security without the bars. Stop the bugs and thugs today!"
   },
   {
     "page": "/security/oakland-north-bay",
-    "title": "Security Screen Doors and Security Window Screens in Oakland | Mike's Mobile",
+    "title": "Security Screen Doors and Windows in Oakland | Mike's Mobile",
     "description": "We are Oakland and the North Bay's premier company for high quality security screen doors and security window screens. Check out our steel security doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
   },
   {
     "page": "/security/sacramento",
-    "title": "Security Screen Doors and Security Window Screens near Sacramento | Mike's Mobile",
+    "title": "Security Screen Doors and Windows near Sacramento | Mike's Mobile",
     "description": "Mike's Mobile is your one-stop shop in the greater Sacramento area for all your security screen doors and security window screens needs. Visit our showroom to see all of our security products in person!"
   },
   {
     "page": "/security/san-jose",
-    "title": "Security Screen Doors and Security Window Screens near San Jose | Mike's Mobile"
+    "title": "Security Screen Doors and Windows near San Jose | Mike's Mobile"
   },
   {
     "page": "/security/stockton",
-    "title": "Security Screen Doors and Security Window Screens - Stockton | Mike's Mobile",
+    "title": "Security Screen Doors and Windows in Stockton | Mike's Mobile",
     "description": "Count on Mike's Mobile for all of your security screen doors and security window needs in the greater Stockton area. Did you know we also offer chimney and awning services? Call us now for a free estimate!"
   },
   {
@@ -887,7 +887,7 @@
   },
   {
     "page": "/services/drop-roll-sunscreens",
-    "title": "Drop Roll Sunscreens for Sacramento, Stockton & The Bay | Mike's Mobile",
+    "title": "Drop Roll Sunscreens for California | Mike's Mobile",
     "description": "Sunroll retractable drop roll sunscreens provide you with total vertical sun control of your covered outdoor space."
   },
   {
@@ -936,7 +936,7 @@
   },
   {
     "page": "/services/retractable-patio-awnings",
-    "title": "Retractable Patio Awnings for Sacramento, Stockton & The Bay | Mike's Mobile",
+    "title": "Retractable Patio Awnings for California | Mike's Mobile",
     "description": "Transform your home’s outdoor areas easily with motorized retractable patio awnings for your patio, deck or porch."
   },
   {

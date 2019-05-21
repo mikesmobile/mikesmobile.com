@@ -35,6 +35,27 @@ const appRoutes: Routes = [
   },
   { path: 'steel-security-doors', redirectTo: '/grid/titan-security-doors' },
   {
+    path: 'blog/napa-vallejo-areas-yellow-and-red-tags-explained',
+    redirectTo: '/blog/napa-yellow-tags-explained'
+  },
+  {
+    path: 'blog/rollaway-disappearing-screen-doors-also-work-double-doors',
+    redirectTo: '/blog/rollaway-disappearing-double-doors'
+  },
+  {
+    path: 'blog/secure-your-home-in-style-with-a-viewguard-security-door',
+    redirectTo: '/blog/secure-in-style-with-viewguard'
+  },
+  {
+    path:
+      'blog/steel-security-doors-ive-seen-big-gaps-let-bugs-anything-can-prevent',
+    redirectTo: '/blog/steel-security-doors-gaps'
+  },
+  {
+    path: 'blog/want-security-door-dont-want-house-look-like-jail-bars-options',
+    redirectTo: '/blog/security-without-jail-bars'
+  },
+  {
     path: 'about/chimney-services/chimney-service-in-sacramento',
     redirectTo: '/chimneys/sacramento'
   },

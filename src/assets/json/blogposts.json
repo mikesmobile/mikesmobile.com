@@ -111,10 +111,7 @@
     "content": [
       "Robert S. and Joyce F. of Sacramento (link to another blog) must have had a talk. Between the two of them, they ordered 4 View guard and 2 Tru-Frame Sliding Security doors. Check out the Sliding Security Doors here(link).<br><br> Robert went a step further to customize his slider security doors. He decided to swamp out the regular screen for Beige 80% Solar Screen. Solar Screen offers added privacy. During the day it is harder to see into the home from the outside while still being able to see outside from inside the home. Did you know that Solar Screen is also pet resistant? A common trick is to get Solar Screen on your regular sliding door to prevent future damage from pets!"
     ],
-    "images": [
-      "/assets/images/blogposts/9-18/viewguard-door.png",
-      "/assets/images/blogposts/9-18/tru-frame-slider1-before.png"
-    ]
+    "images": ["/assets/images/blogposts/9-18/viewguard-door.png"]
   },
   {
     "user": "Mikes Mobile",
@@ -878,7 +875,7 @@
   {
     "user": "Mikes Mobile",
     "title": "Secure Your Home in Style with a Viewguard Security Door",
-    "slug": "secure-your-home-in-style-with-a-viewguard-security-door",
+    "slug": "secure-in-style-with-viewguard",
     "filter": {
       "Category": "Security Doors",
       "Sub Category": [],
@@ -1141,7 +1138,7 @@
   {
     "user": "Mikes Mobile",
     "title": "Do the Rollaway disappearing screen doors also work with double doors?",
-    "slug": "rollaway-disappearing-screen-doors-also-work-double-doors",
+    "slug": "rollaway-disappearing-double-doors",
     "filter": {
       "Category": "Screen Doors",
       "Sub Category": [],
@@ -1156,7 +1153,7 @@
   {
     "user": "Mikes Mobile",
     "title": "The steel security doors I’ve seen have big gaps and let in bugs. Is there anything you can do to prevent this?",
-    "slug": "steel-security-doors-ive-seen-big-gaps-let-bugs-anything-can-prevent",
+    "slug": "steel-security-doors-gaps",
     "filter": {
       "Category": "Security Doors",
       "Sub Category": [],
@@ -1170,8 +1167,8 @@
   },
   {
     "user": "Mikes Mobile",
-    "title": "I want a security door, but I don’t want my house to look like it has jail bars.  What options do I have?",
-    "slug": "want-security-door-dont-want-house-look-like-jail-bars-options",
+    "title": "I want a security door, but I don’t want my house to look like it has jail bars. What options do I have?",
+    "slug": "security-without-jail-bars",
     "filter": {
       "Category": "Security Doors",
       "Sub Category": [],
@@ -1179,7 +1176,7 @@
       "Postdate": "8/30/17"
     },
     "content": [
-      "Our Aluminum security doors are made specifically to address your security needs without having the “jail bar” look most security doors are known for. The Tru-View and Viewguard have a unique stainless mesh (painted black) that offers security at its highest level without unsightly bars. If those doors aren't what you are looking for we have steel security door options that can blow away our competition. Check out our Vino Welcome (Vineyard) steel security door in two-tone colors."
+      "Our Aluminum security doors are made specifically to address your security needs without having the “jail bar” look most security doors are known for. The Tru-View and Viewguard have a unique stainless mesh (painted black) that offers security at its highest level without unsightly bars. If those doors aren't what you are looking for we have steel security door options that can blow away our competition."
     ],
     "images": ["/assets/images/blogposts/8-17/viewgaurd-install.jpg"]
   },
@@ -1299,7 +1296,7 @@
   {
     "user": "Mikes Mobile",
     "title": "Napa and Vallejo areas, Yellow and Red Tags Explained",
-    "slug": "napa-vallejo-areas-yellow-and-red-tags-explained",
+    "slug": "napa-yellow-tags-explained",
     "filter": {
       "Category": "General",
       "Sub Category": [],
