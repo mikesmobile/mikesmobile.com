@@ -92,6 +92,7 @@ export class QuoteFormComponent {
     });
 
     this.hide();
+    this.quoteFormGroup.reset({});
     this.router.navigate(['/thank-you']);
   }
 }
