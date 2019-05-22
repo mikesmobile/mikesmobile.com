@@ -3,20 +3,20 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
-import { ServicesService } from '../services/service.service';
+import { MailService } from '../services/mail.service';
 
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
   styleUrls: ['./quote-form.component.sass'],
-  providers: [ServicesService]
+  providers: [MailService]
 })
 export class QuoteFormComponent {
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private _service: ServicesService
+    private mailService: MailService
   ) {}
 
   quoteFormGroup = new FormGroup({
@@ -68,8 +68,6 @@ export class QuoteFormComponent {
   handleSubmit(event: any) {
     event.preventDefault();
 
-    const { name, city, phone, email, message } = this.quoteFormGroup.value;
-
     // Read UTM Cookie
     const utm_cookie = document.cookie.match('(^|;) ?utm=([^;]*)(;|$)');
     let utm_source = '';
@@ -85,21 +83,15 @@ export class QuoteFormComponent {
       option = url.toString();
     }
 
-    this._service
-      .create(
-        name,
-        city,
-        phone,
-        email,
-        message,
-        option,
-        utm_source,
-        utm_medium,
-        utm_campaign
-      )
-      .subscribe(() => {
-        this.hide();
-        this.router.navigate(['/thank-you']);
-      });
+    this.mailService.send({
+      ...this.quoteFormGroup.value,
+      option,
+      utm_source,
+      utm_medium,
+      utm_campaign
+    });
+
+    this.hide();
+    this.router.navigate(['/thank-you']);
   }
 }
