@@ -10,6 +10,6 @@ export class MailService {
       cache: 'no-cache',
       body: JSON.stringify(data)
     });
-    // No promises. No error handling.
+    // No error handling.
   }
 }

@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class UTMService {
   checkForUTMs() {
     const source = this.getParameterByName('utm_source');
