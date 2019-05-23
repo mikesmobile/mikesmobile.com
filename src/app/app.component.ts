@@ -3,7 +3,8 @@ import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
-import { SEOService } from './seo/seo.service';
+import { SEOService } from './services/seo.service';
+import { UTMService } from './services/utm.service';
 
 declare let ga: Function;
 
@@ -16,9 +17,12 @@ export class AppComponent {
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     router: Router,
-    seoService: SEOService
+    seoService: SEOService,
+    utmService: UTMService
   ) {
-    this.checkForUTMs();
+    // Tracks UTMs into a cookie so we can attach that information to quote forms
+    utmService.checkForUTMs();
+
     router.events
       .pipe(filter((e) => e instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
@@ -37,28 +41,5 @@ export class AppComponent {
           );
         }
       });
-  }
-
-  private checkForUTMs() {
-    const source = this.getParameterByName('utm_source');
-    const medium = this.getParameterByName('utm_medium');
-    const campaign = this.getParameterByName('utm_campaign');
-    let expires = new Date();
-    // Store for 30 days
-    expires.setTime(expires.getTime() + 30 * 24 * 60 * 60 * 1000);
-
-    // Only write cookie if there is any new utm data
-    if (source + medium + campaign !== '') {
-      document.cookie = `utm=${source}:${medium}:${campaign};expires=${expires.toUTCString()}`;
-    }
-  }
-
-  private getParameterByName(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    const results = regex.exec(location.search);
-    return results === null
-      ? ''
-      : decodeURIComponent(results[1].replace(/\+/g, ' '));
   }
 }
