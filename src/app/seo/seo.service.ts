@@ -36,7 +36,12 @@ export class SEOService {
         data.page === url || (data.aliases && data.aliases.includes(url))
     );
 
-    const canonical = this._updateCanonicalURL(pageInfo.page);
+    let canonical: String;
+    if (pageInfo) {
+      // This string is used as a Location header if redirected
+      canonical = this._updateCanonicalURL(pageInfo.page);
+    }
+
     if (redirected) {
       this.metaService.addTag({
         name: 'prerender-status-code',
