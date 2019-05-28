@@ -4360,7 +4360,7 @@
   },
   {
     "title": "Vista Quick Escape Security Window Screens",
-    "slug": "crl-guarda-quick-escape",
+    "slug": "vista-quick-escape",
     "category": "Security Screen Doors and Windows",
     "subcategory": "Window",
     "type": "products",
@@ -4418,7 +4418,7 @@
       {
         "title": "Related Products",
         "links": {
-          "Fixed Security Window Screens": "/products/crl-guarda-fixed",
+          "Fixed Security Window Screens": "/products/vista-fixed",
           "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
         }
       },
@@ -4463,7 +4463,7 @@
   },
   {
     "title": "Vista Fixed Security Window Screens",
-    "slug": "crl-guarda-fixed",
+    "slug": "vista-fixed",
     "category": "Security Screen Doors and Windows",
     "subcategory": "Window",
     "type": "products",
@@ -4522,7 +4522,7 @@
       {
         "title": "Related Products",
         "links": {
-          "Vista Quick Escape Security Window Screens": "/products/crl-guarda-quick-escape",
+          "Vista Quick Escape Security Window Screens": "/products/vista-quick-escape",
           "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
         }
       },

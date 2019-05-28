@@ -6,12 +6,10 @@ import { ContactComponent } from './contact/contact.component';
 import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
-import { ServiceListComponent } from './service-list/service-list.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
@@ -28,6 +26,11 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
+  { path: 'products/crl-guarda-fixed', redirectTo: '/products/vista-fixed' },
+  {
+    path: 'products/crl-guarda-quick-escape',
+    redirectTo: '/products/vista-quick-escape'
+  },
   { path: 'services/solar-screens', redirectTo: '/products/solar-screens' },
   { path: 'screens/screen-hardware-parts', redirectTo: '/about/door-screens' },
   {

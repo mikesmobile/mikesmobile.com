@@ -523,16 +523,6 @@
     "description": "The Craftsman swinging screen door offers three vertical grids and two horizontal grids on the bottom half. Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto and The Bay areas. Call us today!"
   },
   {
-    "page": "/products/crl-guarda-quick-escape",
-    "title": "Vista Quick Escape - Security Window Screens | Mike's Mobile",
-    "description": "Buy Vista Quick Escape security window screens in Sacramento, Stockton. Modesto and the East Bay Area. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
-  },
-  {
-    "page": "/products/crl-guarda-fixed",
-    "title": "Vista Fixed - Security Window Screens | Mike's Mobile",
-    "description": "Buy Vista Fixed security window screens in Sacramento, Stockton. Modesto and the East Bay Area. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
-  },
-  {
     "page": "/products/el-dorado-swinging-screen-door",
     "title": "El Dorado - Swinging Screen Doors | Mike's Mobile"
   },
@@ -742,6 +732,16 @@
   {
     "page": "/products/viewguard-security-doors",
     "title": "Viewguard - Security Screen Doors | Mike's Mobile"
+  },
+  {
+    "page": "/products/vista-fixed",
+    "title": "Vista Fixed - Security Window Screens | Mike's Mobile",
+    "description": "Buy Vista Fixed Security Window Screens. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
+  },
+  {
+    "page": "/products/vista-quick-escape",
+    "title": "Vista Quick Escape - Security Window Screens | Mike's Mobile",
+    "description": "Buy Vista Quick Escape Security Window Screens. These premiere security window screens provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
     "page": "/regions",
