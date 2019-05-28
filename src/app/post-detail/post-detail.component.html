@@ -78,11 +78,7 @@
       >
         <ng-container *ngFor="let img of post.images">
           <mdb-slide>
-            <img
-              class="d-block w-100 blogpostimg"
-              [src]="img"
-              alt="Blog Post Image"
-            />
+            <img class="d-block m-auto" [src]="img" alt="Blog Post Image" />
           </mdb-slide>
         </ng-container>
       </mdb-carousel>
