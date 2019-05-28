@@ -7,9 +7,10 @@
   animation="fade"
 >
   <mdb-slide *ngFor="let image of Images">
-    <div class="view">
+    <div class="view w-100">
       <img
         type="image"
+        class="m-auto"
         [alt]="image.alt"
         [src]="image.big"
         data-toggle="modal"
