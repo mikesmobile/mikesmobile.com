@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgxGalleryImage } from 'ngx-gallery';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
+
+import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
 
@@ -21,12 +22,25 @@ export class ServiceDetailComponent implements OnInit {
     this.quoteForm.show();
   }
 
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private jsonService: JSONLDService
+  ) {}
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
-        return data.slug === params['slug'];
+        if (data.slug === params['slug']) {
+          this.jsonService.updateJSONLD({
+            name: data.title,
+            description: data.tileText,
+            image: data.tileImage
+          });
+          return true;
+        }
+
+        return false;
       });
 
       if (!this.service) {

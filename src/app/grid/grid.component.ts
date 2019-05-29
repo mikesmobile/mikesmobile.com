@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
+import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
@@ -18,7 +19,11 @@ export class GridComponent implements OnInit {
   serviceList = [];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private jsonService: JSONLDService
+  ) {}
 
   openQuoteForm() {
     this.quoteForm.show();
@@ -27,7 +32,16 @@ export class GridComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
-        return data.slug === params['slug'];
+        if (data.slug === params['slug']) {
+          this.jsonService.updateJSONLD({
+            name: data.title,
+            description: data.tileText,
+            image: data.tileImage
+          });
+          return true;
+        }
+
+        return false;
       });
 
       if (!this.service) {
