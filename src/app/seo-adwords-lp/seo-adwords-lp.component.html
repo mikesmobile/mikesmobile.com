@@ -5,11 +5,14 @@
     <div class="col-md-7">
       <div class="card card-cascade wider reverse my-4">
         <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
-          <img
-            [src]="landingPage.image"
-            class="img-fluid w-100"
-            [alt]="landingPage.title"
-          />
+          <picture>
+            <source srcset="{{ landingPage.image }}.webp" type="image/webp" />
+            <img
+              [src]="landingPage.image"
+              class="img-fluid w-100"
+              [alt]="landingPage.title"
+            />
+          </picture>
           <a>
             <div class="mask"></div>
           </a>

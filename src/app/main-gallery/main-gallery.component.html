@@ -8,16 +8,15 @@
 >
   <mdb-slide *ngFor="let image of Images">
     <div class="view w-100">
-      <img
-        type="image"
-        class="m-auto"
-        [alt]="image.alt"
-        [src]="image.big"
+      <picture
         data-toggle="modal"
         data-target="#mainModal"
         (click)="show()"
         mdbWavesEffect
-      />
+      >
+        <source srcset="{{ image.big }}.webp" type="image/webp" />
+        <img [src]="image.big" class="m-auto" [alt]="image.alt" />
+      </picture>
     </div>
     <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
       <p [innerHTML]="image.title"></p>
@@ -47,7 +46,14 @@
         </button>
       </div>
       <div class="text-center galleryImg">
-        <img #mainModalImage *ngIf="name" [src]="name" />
+        <picture *ngIf="modalImgPath">
+          <source
+            #mainModalPicture
+            srcset="{{ modalImgPath }}.webp"
+            type="image/webp"
+          />
+          <img #mainModalImg [src]="modalImgPath" />
+        </picture>
       </div>
       <div class="gallery-footer">
         <button

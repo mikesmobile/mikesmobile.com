@@ -11,18 +11,24 @@
           <hr />
           <ng-container
             *ngFor="
-              let item of (serviceList | findByCategory: 'Swinging Screen Door')
+              let item of serviceList | findByCategory: 'Swinging Screen Door'
             "
           >
             <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="card">
                 <a [routerLink]="['/', item.type, item.slug]">
                   <div class="view overlay">
-                    <img
-                      [src]="item.tileImage"
-                      class="img-fluid doorImages"
-                      [alt]="item.title"
-                    />
+                    <picture>
+                      <source
+                        srcset="{{ item.tileImage }}.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        [src]="item.tileImage"
+                        class="img-fluid doorImages"
+                        [alt]="item.title"
+                      />
+                    </picture>
                     <div class="mask rgba-white-light"></div>
                   </div>
                 </a>
@@ -124,18 +130,24 @@
         <div id="titanGallery" class="row justify-content-center">
           <ng-container
             *ngFor="
-              let item of (serviceList
-                | findByCategory: 'Titan Security Screen Doors')
+              let item of serviceList
+                | findByCategory: 'Titan Security Screen Doors'
             "
           >
             <div class="card col-6 col-md-4 col-lg-2">
               <a [routerLink]="['/', item.type, item.slug]">
                 <div class="view overlay">
-                  <img
-                    [src]="item.tileImage"
-                    class="img-fluid"
-                    [alt]="item.title"
-                  />
+                  <picture>
+                    <source
+                      srcset="{{ item.tileImage }}.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      [src]="item.tileImage"
+                      class="img-fluid"
+                      [alt]="item.title"
+                    />
+                  </picture>
                   <div class="mask rgba-white-light"></div>
                 </div>
               </a>
@@ -164,7 +176,7 @@
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
           <ng-container
-            *ngFor="let item of (serviceList | findByCategory: 'Repair')"
+            *ngFor="let item of serviceList | findByCategory: 'Repair'"
           >
             <div class="col-6 col-md-4 col-lg-3 mb-4 service-list">
               <div class="flip-container">
@@ -174,11 +186,17 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <img
-                        [src]="item.tileImage"
-                        class="img-fluid"
-                        [alt]="item.title"
-                      />
+                      <picture>
+                        <source
+                          srcset="{{ item.tileImage }}.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          [src]="item.tileImage"
+                          class="img-fluid"
+                          [alt]="item.title"
+                        />
+                      </picture>
                     </div>
                     <h5
                       class="card-title px-4 py-2"
@@ -212,7 +230,7 @@
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
           <ng-container
-            *ngFor="let item of (serviceList | findByCategory: 'Masonry')"
+            *ngFor="let item of serviceList | findByCategory: 'Masonry'"
           >
             <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="flip-container">
@@ -222,11 +240,17 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <img
-                        [src]="item.tileImage"
-                        class="img-fluid"
-                        [alt]="item.title"
-                      />
+                      <picture>
+                        <source
+                          srcset="{{ item.tileImage }}.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          [src]="item.tileImage"
+                          class="img-fluid"
+                          [alt]="item.title"
+                        />
+                      </picture>
                     </div>
                     <h5
                       class="card-title px-4 py-2"
@@ -260,7 +284,7 @@
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
           <ng-container
-            *ngFor="let item of (serviceList | findByCategory: 'Accessories')"
+            *ngFor="let item of serviceList | findByCategory: 'Accessories'"
           >
             <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
               <div class="flip-container">
@@ -270,11 +294,17 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <img
-                        [src]="item.tileImage"
-                        class="img-fluid"
-                        [alt]="item.title"
-                      />
+                      <picture>
+                        <source
+                          srcset="{{ item.tileImage }}.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          [src]="item.tileImage"
+                          class="img-fluid"
+                          [alt]="item.title"
+                        />
+                      </picture>
                     </div>
                     <h5
                       class="card-title px-4 py-2"

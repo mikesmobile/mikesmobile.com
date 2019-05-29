@@ -82,12 +82,13 @@
           >
             Get started today!
           </h2>
-          <img
-            *ngIf="service.tileImage"
-            [src]="service.tileImage"
-            alt="project image"
-            class="img-fluid z-depth-2 main-image"
-          />
+          <picture *ngIf="service.tileImage">
+            <source srcset="{{ service.tileImage }}.webp" type="image/webp" />
+            <img
+              [src]="service.tileImage"
+              class="img-fluid z-depth-2 main-image"
+            />
+          </picture>
           <h4
             *ngIf="service.serviceImgCaption"
             class="p-2 text-center light-gray-text"
@@ -128,43 +129,73 @@
             </h3>
             <div class="row">
               <div class="col-md-4">
-                <img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png"
-                  class="img-fluid"
-                  alt="fireplace-glass-doors"
-                />
+                <picture>
+                  <source
+                    srcset="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png"
+                    class="img-fluid"
+                    alt="Black Fireplace Glass Doors"
+                  />
+                </picture>
                 <p class="text-center">Black</p>
               </div>
               <div class="col-md-4">
-                <img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
-                  class="img-fluid"
-                  alt="fireplace-glass-doors"
-                />
+                <picture>
+                  <source
+                    srcset="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
+                    class="img-fluid"
+                    alt="Black Nickel Fireplace Glass Doors"
+                  />
+                </picture>
                 <p class="text-center">Black Nickel</p>
               </div>
               <div class="col-md-4">
-                <img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png"
-                  class="img-fluid"
-                  alt="fireplace-glass-doors"
-                />
+                <picture>
+                  <source
+                    srcset="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png"
+                    class="img-fluid"
+                    alt="Brass Fireplace Glass Doors"
+                  />
+                </picture>
                 <p class="text-center">Brass</p>
               </div>
               <div class="col-md-4">
-                <img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png"
-                  class="img-fluid"
-                  alt="fireplace-glass-doors"
-                />
+                <picture>
+                  <source
+                    srcset="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png"
+                    class="img-fluid"
+                    alt="Gun Metal Fireplace Glass Doors"
+                  />
+                </picture>
                 <p class="text-center">Gun Metal</p>
               </div>
               <div class="col-md-4">
-                <img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png"
-                  class="img-fluid"
-                  alt="fireplace-glass-doors"
-                />
+                <picture>
+                  <source
+                    srcset="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png"
+                    class="img-fluid"
+                    alt="Nickel Fireplace Glass Doors"
+                  />
+                </picture>
                 <p class="text-center">Nickel</p>
               </div>
             </div>
@@ -181,69 +212,6 @@
               </ng-container>
             </div>
           </div>
-
-          <ng-container *ngIf="service.extraImages">
-            <h4
-              class="p-2"
-              *ngIf="service.extraImagesTitle; else defaultImageTitle"
-              [innerHTML]="service.extraImagesTitle"
-            ></h4>
-            <ng-template #defaultImageTitle
-              ><h4 class="p-2">Informational Graphics</h4></ng-template
-            >
-            <div class="row" *ngIf="service.extraImages">
-              <div
-                class="col-12"
-                *ngFor="let img of (service.extraImages | keys)"
-              >
-                <img
-                  [src]="img.value"
-                  class="img-fluid"
-                  [alt]="img.value"
-                  (click)="infoGraphicsModal.show()"
-                />
-
-                <div
-                  mdbModal
-                  #infoGraphicsModal="mdb-modal"
-                  class="modal fade"
-                  tabindex="-1"
-                  role="dialog"
-                  aria-labelledby="infoGraphicsModal"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4
-                          class="modal-title w-100 text-center"
-                          id="myModalLabel"
-                        >
-                          Beat the Heat!
-                        </h4>
-                        <button
-                          type="button"
-                          class="close"
-                          data-dismiss="modal"
-                          aria-label="Close"
-                          (click)="infoGraphicsModal.hide()"
-                        >
-                          <span aria-hidden="true">×</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <img
-                          [src]="img.value"
-                          class="img-fluid"
-                          [alt]="img.value"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </ng-container>
         </div>
       </div>
     </section>
@@ -255,10 +223,16 @@
         </h1>
         <div class="row features-big">
           <div class="col-md-3 mb-r">
-            <img
-              src="/assets/images/chimneys/accessories/chimney-cap/1.png"
-              class="img-fluid"
-            />
+            <picture>
+              <source
+                srcset="/assets/images/chimneys/accessories/chimney-cap/1.png.webp"
+                type="image/webp"
+              />
+              <img
+                src="/assets/images/chimneys/accessories/chimney-cap/1.png"
+                class="img-fluid"
+              />
+            </picture>
             <h5 class="feature-title">Masonry Chimney Caps</h5>
             <p class="light-gray-text p-2">
               Masonry Chimney caps connect to the top of your brick/masonry
@@ -270,10 +244,16 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <img
-              src="/assets/images/chimneys/accessories/chimney-cap/2.png"
-              class="img-fluid"
-            />
+            <picture>
+              <source
+                srcset="/assets/images/chimneys/accessories/chimney-cap/2.png.webp"
+                type="image/webp"
+              />
+              <img
+                src="/assets/images/chimneys/accessories/chimney-cap/2.png"
+                class="img-fluid"
+              />
+            </picture>
             <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
             <p class="light-gray-text p-2">
               We offer prefab or Zero Clearance chimney caps for sizes: 6", 8",
@@ -282,10 +262,16 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <img
-              src="/assets/images/chimneys/accessories/chimney-cap/3.png"
-              class="img-fluid"
-            />
+            <picture>
+              <source
+                srcset="/assets/images/chimneys/accessories/chimney-cap/3.png.webp"
+                type="image/webp"
+              />
+              <img
+                src="/assets/images/chimneys/accessories/chimney-cap/3.png"
+                class="img-fluid"
+              />
+            </picture>
             <h5 class="feature-title">Lock Top Damper</h5>
             <p class="light-gray-text p-2">
               If you are tired of that old masonry throat damper or you are
@@ -296,10 +282,16 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <img
-              src="/assets/images/chimneys/accessories/chimney-cap/4.png"
-              class="img-fluid"
-            />
+            <picture>
+              <source
+                srcset="/assets/images/chimneys/accessories/chimney-cap/4.png.webp"
+                type="image/webp"
+              />
+              <img
+                src="/assets/images/chimneys/accessories/chimney-cap/4.png"
+                class="img-fluid"
+              />
+            </picture>
             <h5 class="feature-title">Flue Extender Caps</h5>
             <p class="light-gray-text p-2">
               Many masonry chimneys do not meet minimum code-height requirements

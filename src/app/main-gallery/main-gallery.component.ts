@@ -11,11 +11,14 @@ export class MainGalleryComponent {
   @Input() Images;
   @ViewChild('mainContent') public contentModal: any;
   @ViewChild('mainCarousel') public contentCarousel;
-  @ViewChild('mainModalImage') public modalImage;
-  public name: string;
+  @ViewChild('mainModalImg') public modalImg;
+  @ViewChild('mainModalPicture') public modalPicture;
+  public modalImgPath: string;
 
   show() {
-    this.name = this.Images[this.contentCarousel.getCurrentSlideIndex()].big;
+    this.modalImgPath = this.Images[
+      this.contentCarousel.getCurrentSlideIndex()
+    ].big;
     this.contentModal.show();
   }
 
@@ -25,7 +28,11 @@ export class MainGalleryComponent {
       ? 0
       : currentIndex + 1;
     this.contentCarousel.selectSlide(toIndex);
-    this.modalImage.nativeElement.setAttribute('src', this.Images[toIndex].big);
+    this.modalImg.nativeElement.setAttribute('src', this.Images[toIndex].big);
+    this.modalPicture.nativeElement.setAttribute(
+      'srcset',
+      this.Images[toIndex].big
+    );
   }
 
   previous() {
@@ -33,6 +40,10 @@ export class MainGalleryComponent {
     const toIndex =
       currentIndex === 0 ? this.Images.length - 1 : currentIndex - 1;
     this.contentCarousel.selectSlide(toIndex);
-    this.modalImage.nativeElement.setAttribute('src', this.Images[toIndex].big);
+    this.modalImg.nativeElement.setAttribute('src', this.Images[toIndex].big);
+    this.modalPicture.nativeElement.setAttribute(
+      'srcset',
+      this.Images[toIndex].big
+    );
   }
 }

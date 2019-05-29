@@ -75,20 +75,32 @@
                 <mdb-tab heading="Single Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
-                      <img
-                        src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"
-                      />
+                      <picture>
+                        <source
+                          srcset="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
+                          class="img-fluid centered-sq"
+                        />
+                      </picture>
                     </div>
                   </div>
                 </mdb-tab>
                 <mdb-tab heading="Double Stainless Steel Mesh">
                   <div class="row">
                     <div class="col-12">
-                      <img
-                        src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"
-                      />
+                      <picture>
+                        <source
+                          srcset="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
+                          class="img-fluid centered-sq"
+                        />
+                      </picture>
                     </div>
                   </div>
                 </mdb-tab>
@@ -104,11 +116,13 @@
               !gallery_images)
           "
         >
-          <img
-            class="img-fluid z-depth-2 main-image"
-            [src]="product.tileImage"
-            (click)="doorModal.show()"
-          />
+          <picture (click)="doorModal.show()">
+            <source srcset="{{ product.tileImage }}.webp" type="image/webp" />
+            <img
+              [src]="product.tileImage"
+              class="img-fluid z-depth-2 main-image"
+            />
+          </picture>
           <p class="text-center p-2">(Click Image to Enlarge)</p>
           <div
             mdbModal
@@ -136,11 +150,13 @@
                   ></h4>
                 </div>
                 <div class="modal-body">
-                  <img
-                    class="img-fluid z-depth-2 main-image-modal"
-                    [src]="product.tileImage"
-                    mdbRippleRadius
-                  />
+                  <picture mdbRippleRadius>
+                    <source
+                      srcset="{{ product.tileImage }}.webp"
+                      type="image/webp"
+                    />
+                    <img src="" [src]="product.tileImage" />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -166,11 +182,16 @@
               <mdb-item-head>{{ item.title }}</mdb-item-head>
               <mdb-item-body>
                 <p [innerHTML]="item.description"></p>
-                <img
-                  *ngIf="item.image"
-                  src="/assets/images/screens/pet-door/measuring-guide.png"
-                  class="img-fluid centered-sq"
-                />
+                <picture *ngIf="item.image">
+                  <source
+                    srcset="/assets/images/screens/pet-door/measuring-guide.png.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/images/screens/pet-door/measuring-guide.png"
+                    class="img-fluid centered-sq"
+                  />
+                </picture>
               </mdb-item-body>
             </mdb-item>
           </mdb-squeezebox>

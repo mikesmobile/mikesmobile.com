@@ -25,14 +25,19 @@
     SideClass="navbar scrolling-navbar fixed white navbar-expand-lg navbar-light"
     id="backToTop"
   >
-    <logo>
+    <logo style="max-height: 45px;">
       <a routerLink="/"
-        ><img
-          title="Mike’s Mobile Screen & Chimney Service"
-          alt="Mike’s Mobile Screen & Chimney Service"
-          src="assets/images/main/logo-black.jpg"
-          style="max-height: 45px;"
-      /></a>
+        ><picture>
+          <source
+            srcset="/assets/images/main/logo-black.jpg.webp"
+            type="image/webp"
+          />
+          <img
+            style="max-height: 45px;"
+            src="/assets/images/main/logo-black.jpg"
+            alt="Mike’s Mobile Screen & Chimney Service"
+          /> </picture
+      ></a>
       <p class="lic">Lic. 939154</p>
     </logo>
     <links>

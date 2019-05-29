@@ -26,7 +26,10 @@
         <p [innerHTML]="faq.body"></p>
         <div class="row">
           <div *ngFor="let i of faq.images" class="col-6 col-md-4 col-lg-3">
-            <img [src]="i.src" class="img-fluid" [alt]="i.title" />
+            <picture>
+              <source srcset="{{ i.src }}.webp" type="image/webp" />
+              <img [src]="i.src" class="img-fluid" [alt]="i.title" />
+            </picture>
             <h5 class="px-4 py-2" [innerHTML]="i.title"></h5>
           </div>
         </div>
