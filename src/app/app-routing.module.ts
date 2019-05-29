@@ -26,6 +26,8 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
+  { path: 'contact/make-an-appointment', redirectTo: '/free-quote' },
+  { path: 'monthly-special', redirectTo: '/' },
   { path: 'products/crl-guarda-fixed', redirectTo: '/products/vista-fixed' },
   {
     path: 'products/crl-guarda-quick-escape',

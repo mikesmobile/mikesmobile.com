@@ -2,7 +2,7 @@
 
 # compiled output
 /dist
-zdist.*.tar.gz
+dist.*.tar.gz
 
 # dependencies
 /node_modules
