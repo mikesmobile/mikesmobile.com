@@ -1,6 +1,24 @@
 [
   {
     "user": "Mikes Mobile",
+    "title": "Why Hire A Certfied Chimney Sweep?",
+    "slug": "why-hire-certified-chimney-sweep",
+    "filter": {
+      "Category": "Chimney",
+      "Sub Category": [],
+      "Location": "Sacramento",
+      "Postdate": "5/30/19"
+    },
+    "content": [
+      "Hiring a chimney sweep can be daunting, how can you tell if the person you're interested in hiring is the professional that you need? Local and state governments nationwide have all agreed on the gold standard, the <strong>CSIA Certified Chimney Sweep</strong> credential. They all agree that this standard meets their high expectations that everyone should hold when ensuring the safety and health of their chimneys.",
+      "A CSIA Certified chimney sweep is required to have a strong understanding of the principles of Chimney Safety, Building Codes, Regulations, and more. The scope of the certification keeps you safe and makes sure that you will always receive the quality of service you expect and need.",
+      "Mike's Mobile is dedicated to providing our customers with the professionals they need to maintain their chimneys. Every technician goes through the CSIA certification process to ensure we can provide the best service for our customers.",
+      "<a href=\"/about/chimney-services\"><u>Click here to check out all of the chimney services we provide.</u></a>"
+    ],
+    "images": ["/assets/images/blogposts/5-30/1.jpg"]
+  },
+  {
+    "user": "Mikes Mobile",
     "title": "Gilbert: Linden man chops wood, warms hearts",
     "slug": "gilbert-linden-man-chops-wood-warms-hearts",
     "filter": {
