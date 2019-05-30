@@ -25,7 +25,7 @@ export class SEOService {
       name: 'robots',
       content: 'index, follow'
     };
-    let title = "Mike's Mobile Screen and Chimney Service";
+    let title = "Mike's Mobile Screen & Chimney Service";
 
     // Remove any URL encoded paramaters
     url = url.split('?')[0];
