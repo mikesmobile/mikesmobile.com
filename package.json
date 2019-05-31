@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot --optimization=true --source-map",
+    "build": "ng build --prod --aot --optimization=true",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -27,6 +27,7 @@
     "ngx-gallery": "5.9.1",
     "rxjs": "6.4.0",
     "web-animations-js": "2.3.1",
+    "whatwg-fetch": "^3.0.0",
     "zone.js": "0.8.29"
   },
   "devDependencies": {
