@@ -22,7 +22,7 @@ export class LazyLoadSourceDirective implements AfterViewInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes.srcset) {
+    if (changes.srcset && !changes.srcset.firstChange) {
       this.srcset = changes.srcset.currentValue;
       this.srcAttr = changes.srcset.currentValue;
     }

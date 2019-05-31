@@ -22,7 +22,7 @@ export class LazyLoadImgDirective implements AfterViewInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes.src) {
+    if (changes.src && !changes.src.firstChange) {
       this.src = changes.src.currentValue;
       this.srcAttr = changes.src.currentValue;
     }
