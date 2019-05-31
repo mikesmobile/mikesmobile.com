@@ -45,7 +45,6 @@ export class LazyLoadImgDirective implements AfterViewInit, OnChanges {
   }
 
   private loadImage() {
-    console.log(this.src);
     this.srcAttr = this.src;
   }
 }
