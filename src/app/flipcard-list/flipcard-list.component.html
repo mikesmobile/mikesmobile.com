@@ -6,14 +6,11 @@
           <a class="flipper d-block" [routerLink]="card.link">
             <div class="front">
               <div class="view waves-light" mdbRippleRadius>
-                <picture>
-                  <source srcset="{{ card.image }}.webp" type="image/webp" />
-                  <img
-                    [src]="card.image"
-                    [alt]="card.title"
-                    [title]="card.title"
-                  />
-                </picture>
+                <app-img
+                  [src]="card.image"
+                  [alt]="card.title"
+                  [title]="card.title"
+                ></app-img>
               </div>
               <h4 class="card-title" [innerHTML]="card.title"></h4>
             </div>

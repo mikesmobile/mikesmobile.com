@@ -27,7 +27,6 @@ export class PostListComponent implements OnInit {
     });
   }
 
-  // TODO: Rewrite more efficiently to clear filter if same item is clicked
   filterBy(filter): void {
     const filterElement = document.getElementById(filter);
 

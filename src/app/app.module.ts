@@ -28,6 +28,7 @@ import { FooterGalleryComponent } from './footer-gallery/footer-gallery.componen
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { GridComponent } from './grid/grid.component';
 import { HomeComponent } from './home/home.component';
+import { ImageComponent } from './image/image.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
@@ -46,10 +47,15 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
 import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { LazyLoadImgDirective } from './lazy-load/lazy-load-img.directive';
+import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
+    // Directives
+    LazyLoadImgDirective,
+    LazyLoadSourceDirective,
     // Pipes
     FindByCategoryPipe,
     FindByTitlePipe,
@@ -61,6 +67,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     FooterComponent,
     GridComponent,
     HomeComponent,
+    ImageComponent,
     LandingPageComponent,
     NavigationComponent,
     PageNotFoundComponent,

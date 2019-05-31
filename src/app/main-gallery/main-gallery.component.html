@@ -8,15 +8,12 @@
 >
   <mdb-slide *ngFor="let image of Images">
     <div class="view w-100">
-      <picture
-        data-toggle="modal"
-        data-target="#mainModal"
+      <app-img
+        [src]="image.big"
+        class="m-auto"
+        [alt]="image.alt"
         (click)="show()"
-        mdbWavesEffect
-      >
-        <source srcset="{{ image.big }}.webp" type="image/webp" />
-        <img [src]="image.big" class="m-auto" [alt]="image.alt" />
-      </picture>
+      ></app-img>
     </div>
     <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
       <p [innerHTML]="image.title"></p>
@@ -25,7 +22,7 @@
 </mdb-carousel>
 <div
   mdbModal
-  #mainContent="mdb-modal"
+  #mainModal="mdb-modal"
   class="modal fade"
   id="mainModal"
   tabindex="-1"
@@ -39,21 +36,18 @@
           type="button"
           class="btn btn-danger waves-light"
           data-dismiss="modal"
-          (click)="mainContent.hide()"
+          (click)="mainModal.hide()"
           mdbWavesEffect
         >
           X
         </button>
       </div>
       <div class="text-center galleryImg">
-        <picture *ngIf="modalImgPath">
-          <source
-            #mainModalPicture
-            srcset="{{ modalImgPath }}.webp"
-            type="image/webp"
-          />
-          <img #mainModalImg [src]="modalImgPath" />
-        </picture>
+        <app-img
+          *ngIf="modalImgPath"
+          [src]="modalImgPath"
+          class="galleryImg"
+        ></app-img>
       </div>
       <div class="gallery-footer">
         <button

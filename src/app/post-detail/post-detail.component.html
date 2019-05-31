@@ -6,14 +6,11 @@
     <hr />
     <div class="row">
       <div class="col-12 col-sm-2">
-        <picture>
-          <source srcset="{{ post.images[0] }}.webp" type="image/webp" />
-          <img
-            [src]="post.images[0]"
-            class="img-fluid rounded-circle z-depth-2"
-            (click)="blogImgModal.show()"
-          />
-        </picture>
+        <app-img
+          [src]="post.images[0]"
+          class="img-fluid rounded-circle z-depth-2"
+          (click)="blogImgModal.show()"
+        ></app-img>
         <div
           mdbModal
           #blogImgModal="mdb-modal"
@@ -37,16 +34,10 @@
                 <h4 class="modal-title w-100" [innerHTML]="post.title"></h4>
               </div>
               <div class="modal-body">
-                <picture
-                  ><source
-                    srcset="{{ post.images[0] }}.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    [src]="post.images[0]"
-                    class="img-fluid w-100 z-depth-2"
-                  />
-                </picture>
+                <app-img
+                  [src]="post.images[0]"
+                  class="img-fluid w-100 z-depth-2"
+                ></app-img>
               </div>
             </div>
           </div>
@@ -86,10 +77,11 @@
       >
         <ng-container *ngFor="let img of post.images">
           <mdb-slide>
-            <picture>
-              <source srcset="{{ img }}.webp" type="image/webp" />
-              <img [src]="img" class="d-block m-auto" alt="Blog Post Picture" />
-            </picture>
+            <app-img
+              [src]="img"
+              class="d-block m-auto"
+              alt="Blog Post Picture"
+            ></app-img>
           </mdb-slide>
         </ng-container>
       </mdb-carousel>

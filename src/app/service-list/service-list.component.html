@@ -25,17 +25,11 @@
             >
               <div class="front">
                 <div class="view waves-light" mdbRippleRadius>
-                  <picture>
-                    <source
-                      srcset="{{ service.tileImage }}.webp"
-                      type="image/webp"
-                    />
-                    <img
-                      [src]="service.tileImage"
-                      class="img-fluid"
-                      [alt]="service.title"
-                    />
-                  </picture>
+                  <app-img
+                    [src]="service.tileImage"
+                    class="img-fluid"
+                    [alt]="service.title"
+                  ></app-img>
                 </div>
                 <h4 class="card-title" [innerHTML]="service.title"></h4>
               </div>

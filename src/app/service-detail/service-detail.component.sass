@@ -16,53 +16,14 @@
     &:hover
       color: $orange
 
-.thumbnails img, .main-image img
-  max-width: 100%
-  padding: 5px
-  height: auto
-  // border: 1px solid #ccc
-  // background: #fff
-  // box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
-
 .main-image
   width: 100%
   margin-bottom: 0.75em
-  img
-    position: relative
-    max-height: 400px
-    left: 50%
-    transform: translate(-50%,0)
-    @include breakpoint(sm)
-      max-height: 500px
-
-.thumbnails li
-    display: inline
-    margin: 5px 0
-    width: 100%
-
-.thumbnails li img
-  width: 100%
-  height: 100px
-
-.thumbnails
-
-
-.square
-  height: 75px
-  width: 75px
-  background: $light-gray
-  margin: 5px
-  img
-    background-size: cover
-
 
 #centered-gallery
   position: relative
   left: 50%
   transform: translate(-50%, 0)
-
-#p-colors
-  font-size: .75em
 
 ngx-gallery /deep/ .ngx-gallery-arrow
   color: #000000
@@ -100,11 +61,6 @@ ngx-gallery /deep/ .ngx-gallery-arrow
   #square-#{$i}
     display: none
   #square-p-#{$i}
-    display: none
-
-.p-colors
-  font-size: .75em
-  @include breakpoint(md)
     display: none
 
 #centered-gallery

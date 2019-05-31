@@ -1,0 +1,61 @@
+@import '../../sass/modules/_mixins.sass'
+
+.footerThumb
+  max-width: 130px
+  cursor: pointer
+  padding: 0px
+  margin: 5px
+  border: 2px solid
+  border-radius: 3px
+
+.doorImages, .titanImage
+  height: 400px !important
+
+.titanImage
+  object-fit: cover
+
+.doorImages
+  object-fit: contain !important
+
+.serviceImage
+  height: 175px
+  left: 50%
+  object-fit: cover
+  position: relative
+  transform: translate(-50%, 0)
+  width: 100%
+
+.galleryImg
+  display: block
+  margin: 0 auto
+  max-height: 70vh
+  object-fit: contain
+  width: 100%
+
+.carouselImg
+  height: 60vh
+  object-fit: cover
+  width: 100%
+
+.logoImg
+  max-height: 45px
+
+.main-image
+  height: 550px
+  width: 250px
+  margin-bottom: 0.75em
+  position: relative
+  left: 50%
+  transform: translate(-50%, 0)
+  &:hover
+    cursor: pointer
+
+.serviceDetailImage
+  max-width: 100%
+  height: auto
+  position: relative
+  max-height: 400px
+  left: 50%
+  transform: translate(-50%,0)
+  @include breakpoint(sm)
+    max-height: 500px

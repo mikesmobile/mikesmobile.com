@@ -2,16 +2,18 @@
   <div class="container">
     <h2>View some of our recent installs</h2>
     <hr />
-    <picture
+    <app-img
       *ngFor="let image of Images; let i = index"
+      [alt]="image.alt"
+      type="image"
+      class="footerThumb"
+      [src]="image.big"
       data-toggle="modal"
       data-target="#footerModal"
       (click)="show(i)"
       mdbWavesEffect
-    >
-      <source srcset="{{ image.big }}.webp" type="image/webp" />
-      <img [alt]="image.alt" class="footerThumb" [src]="image.big" />
-    </picture>
+    ></app-img>
+
     <div
       mdbModal
       #footerContent="mdb-modal"
@@ -19,7 +21,6 @@
       id="footerModal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
       <div class=" modal-dialog gallery-dialog" role="img">
@@ -35,15 +36,8 @@
               X
             </button>
           </div>
-          <div class="text-center galleryImg">
-            <picture *ngIf="modalImgPath">
-              <source
-                #footerModalPicture
-                srcset="{{ modalImgPath }}.webp"
-                type="image/webp"
-              />
-              <img #footerModalImg [src]="modalImgPath" />
-            </picture>
+          <div class="text-center">
+            <app-img [src]="modalImagePath" class="galleryImg"></app-img>
           </div>
           <div class="gallery-footer">
             <button

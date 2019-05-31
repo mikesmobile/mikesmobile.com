@@ -18,17 +18,11 @@
               <div class="card">
                 <a [routerLink]="['/', item.type, item.slug]">
                   <div class="view overlay">
-                    <picture>
-                      <source
-                        srcset="{{ item.tileImage }}.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        [src]="item.tileImage"
-                        class="img-fluid doorImages"
-                        [alt]="item.title"
-                      />
-                    </picture>
+                    <app-img
+                      [src]="item.tileImage"
+                      class="img-fluid doorImages serviceImage"
+                      [alt]="item.title"
+                    ></app-img>
                     <div class="mask rgba-white-light"></div>
                   </div>
                 </a>
@@ -137,17 +131,11 @@
             <div class="card col-6 col-md-4 col-lg-2">
               <a [routerLink]="['/', item.type, item.slug]">
                 <div class="view overlay">
-                  <picture>
-                    <source
-                      srcset="{{ item.tileImage }}.webp"
-                      type="image/webp"
-                    />
-                    <img
-                      [src]="item.tileImage"
-                      class="img-fluid"
-                      [alt]="item.title"
-                    />
-                  </picture>
+                  <app-img
+                    [src]="item.tileImage"
+                    class="img-fluid serviceImage titanImage"
+                    [alt]="item.title"
+                  ></app-img>
                   <div class="mask rgba-white-light"></div>
                 </div>
               </a>
@@ -186,17 +174,11 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <picture>
-                        <source
-                          srcset="{{ item.tileImage }}.webp"
-                          type="image/webp"
-                        />
-                        <img
-                          [src]="item.tileImage"
-                          class="img-fluid"
-                          [alt]="item.title"
-                        />
-                      </picture>
+                      <app-img
+                        [src]="item.tileImage"
+                        class="img-fluid serviceImage"
+                        [alt]="item.title"
+                      ></app-img>
                     </div>
                     <h5
                       class="card-title px-4 py-2"
@@ -240,17 +222,11 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <picture>
-                        <source
-                          srcset="{{ item.tileImage }}.webp"
-                          type="image/webp"
-                        />
-                        <img
-                          [src]="item.tileImage"
-                          class="img-fluid"
-                          [alt]="item.title"
-                        />
-                      </picture>
+                      <app-img
+                        [src]="item.tileImage"
+                        class="img-fluid serviceImage"
+                        [alt]="item.title"
+                      ></app-img>
                     </div>
                     <h5
                       class="card-title px-4 py-2"
@@ -294,17 +270,11 @@
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
-                      <picture>
-                        <source
-                          srcset="{{ item.tileImage }}.webp"
-                          type="image/webp"
-                        />
-                        <img
-                          [src]="item.tileImage"
-                          class="img-fluid"
-                          [alt]="item.title"
-                        />
-                      </picture>
+                      <app-img
+                        [src]="item.tileImage"
+                        class="img-fluid serviceImage"
+                        [alt]="item.title"
+                      ></app-img>
                     </div>
                     <h5
                       class="card-title px-4 py-2"

@@ -1,5 +1,4 @@
-import { Component, Input, ViewChild } from '@angular/core';
-import { ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewChild, ViewEncapsulation } from '@angular/core';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
@@ -9,10 +8,8 @@ import { ViewEncapsulation } from '@angular/core';
 })
 export class MainGalleryComponent {
   @Input() Images;
-  @ViewChild('mainContent') public contentModal: any;
+  @ViewChild('mainModal') public contentModal: any;
   @ViewChild('mainCarousel') public contentCarousel;
-  @ViewChild('mainModalImg') public modalImg;
-  @ViewChild('mainModalPicture') public modalPicture;
   public modalImgPath: string;
 
   show() {
@@ -28,11 +25,7 @@ export class MainGalleryComponent {
       ? 0
       : currentIndex + 1;
     this.contentCarousel.selectSlide(toIndex);
-    this.modalImg.nativeElement.setAttribute('src', this.Images[toIndex].big);
-    this.modalPicture.nativeElement.setAttribute(
-      'srcset',
-      this.Images[toIndex].big
-    );
+    this.modalImgPath = this.Images[toIndex].big;
   }
 
   previous() {
@@ -40,10 +33,6 @@ export class MainGalleryComponent {
     const toIndex =
       currentIndex === 0 ? this.Images.length - 1 : currentIndex - 1;
     this.contentCarousel.selectSlide(toIndex);
-    this.modalImg.nativeElement.setAttribute('src', this.Images[toIndex].big);
-    this.modalPicture.nativeElement.setAttribute(
-      'srcset',
-      this.Images[toIndex].big
-    );
+    this.modalImgPath = this.Images[toIndex].big;
   }
 }

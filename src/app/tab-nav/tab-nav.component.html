@@ -10,10 +10,7 @@
           <div *ngIf="info.description">
             <p class="p-4" [innerHTML]="info.description"></p>
             <div *ngIf="info.image">
-              <picture>
-                <source srcset="{{ info.image }}.webp" type="image/webp" />
-                <img [src]="info.image" class="img-fluid text-center" />
-              </picture>
+              <app-img [src]="info.image" class="img-fluid"></app-img>
             </div>
           </div>
           <div *ngIf="info.links">

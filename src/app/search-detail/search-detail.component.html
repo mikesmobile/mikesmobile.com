@@ -17,17 +17,11 @@
             <a class="d-block flipper" routerLink="/{{ result.slug }}">
               <div class="front">
                 <div class="view waves-light" mdbRippleRadius>
-                  <picture>
-                    <source
-                      srcset="{{ result.tileImage }}.webp"
-                      type="image/webp"
-                    />
-                    <img
-                      [src]="result.tileImage"
-                      class="img-fluid"
-                      [alt]="result.title"
-                    />
-                  </picture>
+                  <app-img
+                    [src]="result.tileImage"
+                    class="img-fluid serviceImage"
+                    [alt]="result.title"
+                  ></app-img>
                 </div>
                 <h4 class="card-title" [innerHTML]="result.title"></h4>
               </div>
