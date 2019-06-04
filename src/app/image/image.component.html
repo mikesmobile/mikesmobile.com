@@ -1,4 +1,13 @@
-<picture>
-  <source appLazyLoad [srcset]="webp_src" type="image/webp" />
-  <img appLazyLoad [alt]="alt" [class]="class" [src]="src" />
-</picture>
+<div *ngIf="lazyLoad !== 'true'; then loadBlock; else lazyBlock"></div>
+<ng-template #lazyBlock>
+  <picture>
+    <source appLazyLoad [srcset]="webp_src" type="image/webp" />
+    <img appLazyLoad [alt]="alt" [class]="class" [src]="src" />
+  </picture>
+</ng-template>
+<ng-template #loadBlock>
+  <picture>
+    <source [srcset]="webp_src" type="image/webp" />
+    <img [alt]="alt" [class]="class" [src]="src" />
+  </picture>
+</ng-template>

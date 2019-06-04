@@ -9,10 +9,11 @@
   <mdb-slide *ngFor="let image of Images">
     <div class="view w-100">
       <app-img
-        [src]="image.big"
-        class="m-auto"
         [alt]="image.alt"
+        class="m-auto"
         (click)="show()"
+        lazyLoad="false"
+        [src]="image.big"
       ></app-img>
     </div>
     <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">

@@ -17,6 +17,7 @@ export class ImageComponent implements OnChanges {
   @Input() alt: string = '';
   @Input() class: string = '';
   @Input() src: string = '';
+  @Input() lazyLoad: string = 'true';
 
   // Set webp location dynamically. Requires converting before hand
   // File name must maintain {file.jpg.webp}
