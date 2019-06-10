@@ -162,11 +162,6 @@
               <mdb-item-head>{{ item.title }}</mdb-item-head>
               <mdb-item-body>
                 <p [innerHTML]="item.description"></p>
-                <app-img
-                  *ngIf="item.image"
-                  [src]="item.image"
-                  class="img-fluid centered-sq"
-                ></app-img>
               </mdb-item-body>
             </mdb-item>
           </mdb-squeezebox>

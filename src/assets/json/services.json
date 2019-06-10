@@ -3138,6 +3138,12 @@
         "small": "/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg",
         "medium": "/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg",
         "big": "/assets/images/screens/pet-door/recent-installs/Pet-Door.jpg"
+      },
+      {
+        "alt": "Pet Door Measuring Guide",
+        "small": "/assets/images/screens/pet-door/measuring-guide.png",
+        "medium": "/assets/images/screens/pet-door/measuring-guide.png",
+        "big": "/assets/images/screens/pet-door/measuring-guide.png"
       }
     ],
     "details": [
@@ -3211,8 +3217,7 @@
       },
       {
         "title": "Measuring Guide",
-        "description": "Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability, Do Not Buy Larger than Necessary",
-        "image": "/assets/images/screens/pet-door/measuring-guide.png"
+        "description": "Check out the Measuring Guide in the image gallery. Open sliding glass door to the opening measurement of the pet door model nearest to your breed. If the dog can pass through the opening, that’s your size. For pet Safety and Door Durability. Do Not Buy Larger than Necessary!"
       }
     ]
   },
