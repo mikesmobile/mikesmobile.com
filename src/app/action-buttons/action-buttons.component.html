@@ -37,22 +37,22 @@
   </div>
   <div class="col-sm col-6 nopadding">
     <a
+      id="search-button"
       class="btn blue waves-light w-100 nomargin"
-      (click)="openQuoteForm()"
-      id="quoteBtn"
+      (click)="hideShowSearch()"
       mdbRippleRadius
     >
-      Free Quote!
+      <i class="fa fa-search" aria-hidden="true"></i>
     </a>
   </div>
   <div class="col-sm col-6 nopadding">
     <a
-      id="search-button"
+      id="quoteBtn"
       class="btn orange waves-light w-100 nomargin"
-      (click)="hideShowSearch()"
+      (click)="openQuoteForm()"
       mdbRippleRadius
     >
-      <i style="font-size:25px" class="fa fa-search" aria-hidden="true"></i>
+      Free Quote!
     </a>
   </div>
 </div>

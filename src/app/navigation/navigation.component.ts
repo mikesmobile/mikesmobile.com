@@ -1,4 +1,4 @@
-import { Component, OnDestroy, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
@@ -14,9 +14,7 @@ export class NavigationComponent {
 
   openDropdown() {
     let dropdown = document.getElementById('dropdown');
-    if (screen.width > 992) {
-      dropdown.classList.add('show');
-    }
+    dropdown.classList.add('show');
   }
 
   closeDropdown() {
@@ -24,10 +22,8 @@ export class NavigationComponent {
     dropdown.classList.remove('show');
   }
 
-  openDropdownMobile() {
+  toggleDropdownMobile() {
     let dropdown = document.getElementById('DropdownMobile');
-    if (screen.width < 992) {
-      dropdown.classList.toggle('show');
-    }
+    dropdown.classList.toggle('show');
   }
 }
