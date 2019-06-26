@@ -6,7 +6,7 @@ import { filter } from 'rxjs/operators';
 import { SEOService } from './services/seo.service';
 import { UTMService } from './services/utm.service';
 
-declare let ga: Function;
+declare const gtag: Function;
 
 @Component({
   selector: 'app-root',
@@ -28,8 +28,11 @@ export class AppComponent {
       .subscribe((event: NavigationEnd) => {
         if (isPlatformBrowser(this.platformId)) {
           // Send to analytics
-          ga('set', 'page', event.urlAfterRedirects);
-          ga('send', 'pageview');
+          if (typeof gtag === 'function') {
+            gtag('config', 'UA-31532667-1', {
+              page_path: event.urlAfterRedirects
+            });
+          }
 
           // Scroll to top of page on router events
           window.scrollTo(0, 0);
