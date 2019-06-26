@@ -5,6 +5,13 @@ import { ModalDirective } from 'ng-uikit-pro-standard';
 
 import { MailService } from '../services/mail.service';
 
+// Property declared by Google Tag Manager
+declare global {
+  interface Window {
+    dataLayer: any;
+  }
+}
+
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
@@ -67,6 +74,12 @@ export class QuoteFormComponent {
 
   handleSubmit(event: any) {
     event.preventDefault();
+
+    // Trigger GTM Event
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'quoteFormSubmission' // Unique string tracked on GTM
+    });
 
     // Read UTM Cookie
     const utm_cookie = document.cookie.match('(^|;) ?utm=([^;]*)(;|$)');
