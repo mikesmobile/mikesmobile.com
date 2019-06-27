@@ -1,115 +1,69 @@
 @import '../../sass/modules/_mixins.sass'
 @import '../../sass/modules/_variables.sass'
 
-.carousel.main-gallery
-  .carousel-indicators
-    img
-      height: 55px
-      object-fit: contain
-      @include breakpoint(sm)
-        height: 70px
+.carousel
   .carousel-inner
-    max-height: 550px
-    .carousel-item
+    img
+      height: 275px
+      margin-bottom: 10px
+      max-height: 275px
+      object-fit: contain
+      width: 100%
+      @include breakpoint(sm)
+        height: 450px
+        max-height: 450px
+      @include breakpoint(md)
+        height: 550px
+        max-height: 550px
+
+  .carousel-control-prev, .carousel-control-next
+    background-color: rgba(0, 0, 0, 0.15)
+
+  .carousel-control-prev:hover, .carousel-control-next:hover
+    background-color: rgba(0, 0, 0, 0.5)
+
+  .carousel-indicators
+    li
+      border: 2px solid
+      border-radius: 2px
+      background-color: transparent !important
       img
-        height: 275px
-        max-height: 275px
-        margin-bottom: 10px
+        height: 55px
         object-fit: contain
-        width: 100%
-        @include breakpoint(sm)
-          height: 450px
-          margin: 0
-          max-height: 450px
         @include breakpoint(md)
-          height: 550px
-          max-height: 550px
+          height: 70px
 
-.modal-content
-  background: #f2f2f2
-
-.modal-open .modal
+#mainModal
   overflow-x: hidden
   overflow-y: auto
 
-.gallery-dialog
-  max-width: 100%
-  top: 50px
-  @include breakpoint(md)
-    max-width: 60%
+  .modal-dialog
+    max-width: 100%
+    top: 50px
+    @include breakpoint(md)
+      max-width: 60%
 
-.galleryImg
-  float: left
+    .modal-content
+      background: #f2f2f2
 
-.gallery-content .close
-  position: relative
-  right: 0px
-  color: white
+      .modal-header
+        justify-content: flex-end
+        display: flex
+        border: none
+        padding: 0
 
-.galleryImg .btn-secondary
-  background-color:  !important
-  color: #fff !important
+        .btn-danger
+          padding: 0.50rem 0.90rem
 
-.carousel-control-prev:hover , .carousel-control-next:hover
-  background-color: rgba(0, 0, 0, 0.5)
+      .modal-footer
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0
+        border: none
 
-.carousel-control-prev, .carousel-control-next
-  width: 8%
+        > :not(:first-child)
+          padding: 1rem
 
-.carousel-thumbnails .carousel-indicators li
-  border: 2px solid
-  border-radius: 2px
-  opacity: 0.5
-  background-color: rgba(255, 255, 255, 0) !important
-  margin-bottom: -10px
-  @include breakpoint(md)
-    border: 2px solid
-    border-radius: 2px
-    opacity: 0.5
-    background-color: rgba(255, 255, 255, 0) !important
-    margin-bottom: -30px
-
-.btn-danger
-  padding: 0.50rem 0.90rem
-
-.carousel-thumbnails .carousel-indicators .active
-  opacity: 1
-  border: 2px solid
-
-.gallery-header
-  justify-content: flex-end
-  display: -webkit-box
-  display: -ms-flexbox
-  display: flex
-  -webkit-box-align: end
-  -ms-flex-align: end
-  -webkit-box-pack: justify
-  -ms-flex-pack: justify
-  border: none
-  padding: 0
-
-.gallery-footer
-  display: -webkit-box
-  display: -ms-flexbox
-  display: flex
-  -webkit-box-align: center
-  -ms-flex-align: center
-  align-items: center
-  -webkit-box-pack: start
-  -ms-flex-pack: start
-  justify-content: flex-start
-  padding: 0
-  border: none
-
-.gallery-footer > :not(:first-child)
-  position: absolute
-  right: 0
-  margin: 2px
-  padding: 1rem
-
-.gallery-footer > :not(:last-child)
-  padding: 1rem
-
-.carousel-control-prev-icon, .carousel-control-next-icon
-  width: 10px
-  height: 10px
+        > :not(:last-child)
+          padding: 1rem

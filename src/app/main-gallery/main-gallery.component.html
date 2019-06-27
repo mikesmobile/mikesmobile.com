@@ -1,25 +1,24 @@
 <mdb-carousel
   #mainCarousel
   isControls="true"
-  class="carousel main-gallery slide carousel-fade"
+  class="carousel slide carousel-fade"
   interval="0"
   type="carousel-thumbnails"
   animation="fade"
 >
-  <mdb-slide *ngFor="let image of Images">
+  <mdb-carousel-item *ngFor="let image of Images">
     <div class="view w-100">
-      <app-img
+      <img
         [alt]="image.alt"
-        class="m-auto"
+        class="m-auto w-100"
         (click)="show()"
-        lazyLoad="false"
         [src]="image.big"
-      ></app-img>
+      />
     </div>
     <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
       <p [innerHTML]="image.title"></p>
     </div>
-  </mdb-slide>
+  </mdb-carousel-item>
 </mdb-carousel>
 <div
   mdbModal
@@ -30,9 +29,9 @@
   role="dialog"
   aria-hidden="true"
 >
-  <div class=" modal-dialog gallery-dialog" role="img">
-    <div class="modal-content gallery-content">
-      <div class="gallery-header">
+  <div class=" modal-dialog" role="img">
+    <div class="modal-content">
+      <div class="modal-header">
         <button
           type="button"
           class="btn btn-danger waves-light"
@@ -43,14 +42,14 @@
           X
         </button>
       </div>
-      <div class="text-center galleryImg">
+      <div class="text-center">
         <app-img
           *ngIf="modalImgPath"
           [src]="modalImgPath"
           class="galleryImg"
         ></app-img>
       </div>
-      <div class="gallery-footer">
+      <div class="modal-footer">
         <button
           type="button"
           class="btn btn-primary waves-light"
