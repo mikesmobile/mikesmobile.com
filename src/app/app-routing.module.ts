@@ -41,6 +41,10 @@ const appRoutes: Routes = [
   },
   { path: 'steel-security-doors', redirectTo: '/grid/titan-security-doors' },
   {
+    path: 'blog/waterproofing-avoid-efflorescence',
+    redirectTo: '/services/waterproofing'
+  },
+  {
     path: 'blog/napa-vallejo-areas-yellow-and-red-tags-explained',
     redirectTo: '/blog/napa-yellow-tags-explained'
   },
