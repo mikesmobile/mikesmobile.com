@@ -37,7 +37,10 @@
       }
       gtag('js', new Date());
 
-      gtag('config', 'UA-31532667-1', { optimize_id: 'GTM-K2TLFCX' });
+      gtag('config', 'UA-31532667-1', {
+        optimize_id: 'GTM-K2TLFCX',
+        send_page_view: false // All page views are handled in AppComponent
+      });
     </script>
     <!-- End Google Analytics -->
     <!-- Google Tag Manager -->
