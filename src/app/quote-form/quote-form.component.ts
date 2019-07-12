@@ -20,6 +20,8 @@ declare global {
 })
 export class QuoteFormComponent {
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
+  public submitFailed = false;
+
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -96,16 +98,25 @@ export class QuoteFormComponent {
       option = url.toString();
     }
 
-    this.mailService.send({
-      ...this.quoteFormGroup.value,
-      option,
-      utm_source,
-      utm_medium,
-      utm_campaign
-    });
+    this.mailService
+      .send({
+        ...this.quoteFormGroup.value,
+        option,
+        utm_source,
+        utm_medium,
+        utm_campaign
+      })
+      .then((res) => {
+        if (!res.ok) {
+          throw Error(res.statusText);
+        }
 
-    this.hide();
-    this.quoteFormGroup.reset({});
-    this.router.navigate(['/thank-you']);
+        this.hide();
+        this.quoteFormGroup.reset({});
+        this.router.navigate(['/thank-you']);
+      })
+      .catch(() => {
+        this.submitFailed = true;
+      });
   }
 }

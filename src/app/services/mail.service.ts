@@ -14,7 +14,7 @@ export class MailService {
 
     formBody = formBody.join('&');
 
-    fetch(apiEndpoint, {
+    return fetch(apiEndpoint, {
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
@@ -23,6 +23,5 @@ export class MailService {
       cache: 'no-cache',
       body: formBody
     });
-    // No error handling.
   }
 }

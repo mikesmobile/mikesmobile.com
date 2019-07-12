@@ -128,10 +128,29 @@
           </div>
         </form>
       </div>
-      <div class="modal-footer d-flex flex-row">
+      <div class="modal-footer d-flex flex-row flex-wrap">
+        <div *ngIf="submitFailed" class="quote-form__submit--error flex-fill">
+          Sorry! We are having a technical issue submitting this form right now.
+          You can reach us by email directly at
+          <a
+            href="mailto:office@mikesmobile.com?subject=Customer%20Contact%20-%20{{
+              name.value
+            }}&body=My%20name%20is%20{{ name.value }}.%20I%20live%20in%20{{
+              city.value
+            }}.%20I%20can%20be%20contacted%20by%20phone%20at%20{{
+              phone.value
+            }}%20or%20by%20email%20at%20{{ email.value }}.%20{{
+              message.value
+            }}"
+            class="white-text"
+            >office@mikesmobile.com</a
+          >
+          or by calling us at
+          <a href="tel:18009929938" class="white-text">1 (800) 992-9938</a>!
+        </div>
         <button
           type="reset"
-          class="btn gray waves-light w-100"
+          class="btn gray waves-light flex-fill"
           mdbRippleRadius
           (click)="quoteForm.resetForm({})"
         >
@@ -139,9 +158,9 @@
         </button>
         <button
           type="submit"
-          class="btn blue relative waves-light w-100"
+          class="btn blue relative waves-light flex-fill"
           mdbRippleRadius
-          [disabled]="quoteFormGroup.invalid"
+          [disabled]="quoteFormGroup.invalid || submitFailed"
           (click)="handleSubmit($event)"
         >
           Submit
