@@ -20,7 +20,11 @@ declare global {
 })
 export class QuoteFormComponent {
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
-  public submitFailed = false;
+  public submitFailed: boolean = false;
+  public methodSelect: Array<any> = [
+    { value: 'email', label: 'Contact me via Email' },
+    { value: 'phone', label: 'Contact me via Phone' }
+  ];
 
   constructor(
     private route: ActivatedRoute,
@@ -43,7 +47,8 @@ export class QuoteFormComponent {
     message: new FormControl('', [
       Validators.required,
       Validators.maxLength(280)
-    ])
+    ]),
+    contactMethod: new FormControl('')
   });
 
   get name() {
@@ -64,6 +69,10 @@ export class QuoteFormComponent {
 
   get message() {
     return this.quoteFormGroup.get('message');
+  }
+
+  get contactMethod() {
+    return this.quoteFormGroup.get('contactMethod');
   }
 
   public show() {
