@@ -74,6 +74,11 @@ export class QuoteFormComponent {
     this.quoteModal.hide();
   }
 
+  handleReset() {
+    this.submitFailed = false;
+    this.quoteFormGroup.reset({});
+  }
+
   handleSubmit(event: any) {
     event.preventDefault();
 
