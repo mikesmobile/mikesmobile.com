@@ -95,6 +95,10 @@ const appRoutes: Routes = [
     redirectTo: '/chimneys/antioch-east-bay'
   },
   {
+    path: 'awnings',
+    redirectTo: '/services/retractable-patio-awnings'
+  },
+  {
     path: 'chimneys/antioch-east-bay-region',
     redirectTo: '/chimneys/antioch-east-bay'
   },
