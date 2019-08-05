@@ -8,7 +8,7 @@
       <div class="col-12 col-sm-2">
         <app-img
           [src]="post.images[0]"
-          class="img-fluid rounded-circle z-depth-2"
+          class="img-fluid rounded z-depth-2"
           (click)="blogImgModal.show()"
         ></app-img>
         <div
@@ -62,8 +62,8 @@
             ><i class="fas fa-envelope-open"></i
           ></a>
         </div>
-        <ng-container *ngFor="let p of post.content">
-          <p class="px-4 py-2" [innerHTML]="p"></p>
+        <ng-container *ngFor="let content of post.content">
+          <p class="px-4 py-2" [innerHTML]="content | safeHtml"></p>
         </ng-container>
       </div>
     </div>

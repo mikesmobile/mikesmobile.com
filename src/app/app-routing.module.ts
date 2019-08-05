@@ -23,6 +23,7 @@ import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals
 import { RegionListComponent } from './region-list/region-list.component';
 import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
+import { FinancingComponent } from './financing/financing.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
@@ -188,6 +189,7 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'faq', component: FaqListComponent },
+  { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
   { path: 'privacy', component: PrivacyComponent },

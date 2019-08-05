@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { HammerProvider } from './hammer/HammerProvider';
 import { FindByCategoryPipe, FindByTitlePipe } from './utility/find.pipe';
 import { KeysPipe } from './utility/keys.pipe';
+import { SafeHTMLPipe } from './utility/safe.pipe';
 
 import { AboutComponent } from './about/about.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
@@ -21,6 +22,7 @@ import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContractComponent } from './contract/contract.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
+import { FinancingComponent } from './financing/financing.component';
 import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
 import { FlipcardListComponent } from './flipcard-list/flipcard-list.component';
 import { FooterComponent } from './footer/footer.component';
@@ -47,6 +49,7 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
 import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+
 import { LazyLoadImgDirective } from './lazy-load/lazy-load-img.directive';
 import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive';
 
@@ -60,6 +63,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     FindByCategoryPipe,
     FindByTitlePipe,
     KeysPipe,
+    SafeHTMLPipe,
     // Components
     AboutComponent,
     ActionButtonsComponent,
@@ -82,6 +86,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     ColorSwatchComponent,
     QuoteFormComponent,
     FaqListComponent,
+    FinancingComponent,
     ThankYouComponent,
     FooterGalleryComponent,
     MainGalleryComponent,
