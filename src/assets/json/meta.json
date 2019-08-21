@@ -446,6 +446,11 @@
     "description": "Count on Mike's Mobile for all of your chimney service needs in the Oakland and the North Bay areas. Whether coming home from the stadium or watching the game in your Oakland home; know that the fire in your chimney is safe and hot."
   },
   {
+    "page": "/chimneys/richmond",
+    "title": "Chimney Services near Richmond, CA | Mike's Mobile",
+    "description": "Chimney service experts for the Bay Area since 2002. Rest assured the chimney you come home to will be safe and ready to burn. Call Mike's Mobile!"
+  },
+  {
     "page": "/chimneys/sacramento",
     "title": "Chimney Services near Sacramento, CA | Mike's Mobile",
     "description": "Chimney service experts for the greater Sacramento region since 2002. If you're coming home from the Sacramento river, the beach or the mountains; rest assured the chimney you come home to will be safe and ready to burn. Call Mike's Mobile!"
@@ -792,6 +797,11 @@
     "description": "Mike's Mobile screen and awning company is the North Bay and Oakland's premier window and door screen contractor. We do screen repair, solar screens, sliding screen doors, retractable patio awnings, drop roll sunscreens and more. Call for a quote today!"
   },
   {
+    "page": "/screens/richmond",
+    "title": "Screens and Awnings near Richmond, CA | Mike's Mobile",
+    "description": "Mike's Mobile specializes in door screens, window screens and awnings for Richmond and beyond. Most screens are built on-site for that perfect fit! Call or write for a free quote."
+  },
+  {
     "page": "/screens/sacramento",
     "title": "Screens and Awnings near Sacramento | Mike's Mobile",
     "description": "Mike's Mobile specializes in door screens, window screens and awnings for the Sacramento region and beyond. Most screens are built on-site for that perfect fit! Call or write for a free quote."
@@ -833,12 +843,17 @@
   {
     "page": "/security/napa-vallejo",
     "title": "Security Screen Doors and Windows in Napa | Mike's Mobile",
-    "description": "Mike's Mobile has been the premier contractor for security screen doors and security window screens in the Napa and Vallejo areas since 2002. Our steel security doors are fully customizable. View our line of stainless mesh products that offer security without the bars. Stop the bugs and thugs today!"
+    "description": "Mike's Mobile has been the premier contractor for security screen doors and security window screens in the Napa and Vallejo areas since 2002. Our security screen doors are fully customizable. View our line of stainless mesh products that offer security without the bars. Stop the bugs and thugs today!"
   },
   {
     "page": "/security/oakland-north-bay",
     "title": "Security Screen Doors and Windows in Oakland | Mike's Mobile",
-    "description": "We are Oakland and the North Bay's premier company for high quality security screen doors and security window screens. Check out our steel security doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
+    "description": "We are Oakland and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
+  },
+  {
+    "page": "/security/richmond",
+    "title": "Security Screen Doors and Windows in Richmond, CA | Mike's Mobile",
+    "description": "We are Richmond and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
   },
   {
     "page": "/security/sacramento",
