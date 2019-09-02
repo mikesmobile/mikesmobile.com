@@ -69,9 +69,7 @@ export class ColorSwatchComponent implements OnInit {
       'Post Office Blue': '#182F4D',
       'Terra Cotta': '#671218',
       'Evening Blue': '#1F4769',
-      'Green Patina': '#435E57',
       'New Bronze': '#40372D',
-      'Pacific Granite': '#707070',
       'Forest Green': '#0E251B',
       'Statuary Bronze': '#42372F'
     }
