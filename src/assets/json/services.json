@@ -3263,8 +3263,8 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "fullTileImage": "/assets/images/chimneys/cleaning/1.jpg",
-    "tileImage": "/assets/images/tiles/chimney-cleaning.jpg",
+    "fullTileImage": "/assets/images/chimneys/cleaning/chimney_cleaning.jpg",
+    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg",
     "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
     "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
     "textList": [
@@ -4716,7 +4716,7 @@
     "title": "Chimney Services",
     "slug": "chimney-services",
     "type": "landing",
-    "tileImage": "/assets/images/tiles/chimney-cleaning.jpg"
+    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg"
   },
   {
     "title": "Security Screen Doors and Windows",
