@@ -44,6 +44,25 @@
             ><img
               src="https://enerbank.com/online-app-integration/images/banner6.png"
           /></a>
+          <div>
+            <p>Calculate Your Monthly Payment:</p>
+            <label class="sr-only" for="totalCostInput">Total Cost</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">$</div>
+              </div>
+              <input
+                mdbInput
+                type="number"
+                [ngModel]="totalCostInput"
+                (ngModelChange)="updateMonthly($event)"
+                class="form-control py-0"
+                id="totalCostInput"
+                placeholder="Total Cost"
+              />
+            </div>
+            <p>Monthly Payment: {{ monthlyPayment }}</p>
+          </div>
           <p
             style="font-size:10px;line-height:10px;color:#000; text-align: justify;-moz-text-align-last: center; text-align-last: center; margin:10px 0;font-weight:400;"
           >
