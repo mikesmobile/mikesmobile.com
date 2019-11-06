@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./financing.component.sass']
 })
 export class FinancingComponent {
-  totalCostInput: number = 0;
+  totalCostInput: number;
   monthlyPayment: string = '';
 
   updateMonthly(event) {
