@@ -12,7 +12,6 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
-import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
@@ -188,7 +187,7 @@ const appRoutes: Routes = [
   { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
-  { path: 'faq', component: FaqListComponent },
+  { path: 'faq', component: AboutComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
