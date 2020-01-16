@@ -1,8 +1,14 @@
 @import '../../sass/modules/_mixins.sass'
 @import '../../sass/modules/_variables.sass'
 
+
+//background color options for nav bar: grey #f4f4f4
+// second option: white #ffffff
+
+
 nav
-  background: #ffffff !important
+  background-color: #f4f4f4 !important
+  box-shadow: none !important
   @include breakpoint(md)
   .megamenu
     position: relative
@@ -14,9 +20,16 @@ nav
     @include breakpoint(lg)
       left: -800px
     h5
-      padding: 5px 0
+      padding: 0px 0px
     a
-      padding: 5px
+      padding: 0px
+
+
+
+@media only screen and (min-width: 768px)
+  .nav-text
+    font-size: 30px !important
+
 
 h5
   font-weight: 900
@@ -26,8 +39,12 @@ h6
   @include breakpoint(md)
     color: $orange
 
+
 .nav-text
-  font-weight: 400
+  font-weight: 200
+  font-size: 1rem 
+  @breakpoint(md)
+    font-size: 30px 
 
 li.nav-item .nav-link:hover
   color: white !important
@@ -63,20 +80,20 @@ li.nav-item .nav-link:hover
     display: block !important
 
 .quote
-  background-color: $mmblue
+  background-color: $orange
   color: white
-  padding: 6px
-  margin: -5px
   @include breakpoint(md)
-    background-color: $mmblue
+    background-color: $orange
     color: white
-    padding: 10px
-    margin: -15px 0px -15px 10px
+    padding: 18px 16px 10px 16px
+    
 
 .quote-text
   display: inline
   @include breakpoint(md)
-    display: block
+    display: inline
+    font-size: 40px
+    
 
 .lic
   margin-bottom: 0
@@ -88,4 +105,32 @@ li.nav-item .nav-link:hover
   border-left: 1px solid #ffffff
 
 .fs
-  font-size: 0.9em
+  font-size: 1em
+
+.fsMobile
+  font-size: 0.8em
+
+.faSymbol
+  font-size: 1.5em
+  color: $mmblue
+
+.faSymbolMobile
+  color: $mmblue
+
+.hideSmall
+  display: none
+  @include breakpoint(md)
+    display: inline
+
+.showSmall
+  display: block
+  background-color: #ffffff !important
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  @include breakpoint(md)
+    display: none
+
+.nav-link
+  padding: 1px
+
+.contItem
+  display: block
