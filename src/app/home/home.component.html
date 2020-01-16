@@ -1,120 +1,71 @@
-<div class="slideshow">
-  <mdb-carousel
-    #carousel
-    [isControls]="true"
-    class="carousel slide"
-    animation="slide"
-    interval="4000"
-  >
-    <mdb-slide>
-      <div class="view w-100 hm-bluegrey-light">
-        <app-img
-          class="d-block w-100 modal-image carouselImg"
-          src="/assets/images/main/security-doors.jpg"
-          alt="Security Screen Doors"
-        ></app-img>
-        <div class="mask waves-light" mdbRippleRadius></div>
-      </div>
-      <div class="carousel-caption fadeInUp animated">
-        <div class="transparent-gray pt-4 pb-1 w-100 m-auto">
-          <h2 class="h2-responsive px-4">Custom Security Screen Doors</h2>
-          <p class="px-4">No Rust · No Clanging · Built to Last</p>
-        </div>
-        <button
-          type="button"
-          class="btn blue waves-light"
-          mdbRippleRadius
-          pageScrollOffset="55"
-          mdbPageScroll
-          href="#security-doors-and-windows"
+<!--this is the side by side tiles-->
+<div class="container-fluid justify-content-center m-1 px-0 " id="backToTop">
+  <div class="row text-center m-1 justify-content-center">
+    <div class="col-md-3 m-0 p-1">
+      <a mdbPageScroll href="#chimney-services" mdbRippleRadius>
+        <div
+          class="card tile bg-dark text-white text-center"
+          style="background-image: url('/assets/images/front-page/chimney.jpg'); background-position: 50% 30%; background-size:cover; background-repeat: no-repeat;"
         >
-          Learn More
-        </button>
-      </div>
-    </mdb-slide>
-    <mdb-slide>
-      <div class="view w-100">
-        <app-img
-          class="d-block w-100 modal-image carouselImg"
-          src="/assets/images/main/single-chimney.jpg"
-          alt="Chimney Services"
-        ></app-img>
-        <div class="mask waves-light" mdbRippleRadius></div>
-      </div>
-      <div class="carousel-caption fadeInUp animated">
-        <div class="transparent-gray pt-4 pb-3">
-          <h2 class="h2-responsive px-4">Full Service Chimney Maintenance</h2>
-          <p class="px-4">Inspections · Cleaning · Repairs · Accessories</p>
+          <div class="card-img-overlay fadeInDown animated">
+            <h2 class="card-title transparent-gray">
+              <strong>Chimney Services</strong>
+            </h2>
+            <h5 class="tileInfo transparent-gray m-0">
+              Inspections · Cleaning · Repairs · Accessories
+            </h5>
+          </div>
         </div>
-        <button
-          type="button"
-          class="btn blue waves-light"
-          pageScrollOffset="55"
-          mdbPageScroll
-          href="#chimney-services"
-          mdbRippleRadius
+      </a>
+    </div>
+    <div class="col-md-3 m-0 p-1">
+      <a mdbPageScroll href="#security-doors-and-windows" mdbRippleRadius>
+        <div
+          class="card tile bg-dark text-white text-center"
+          style="background-image: url('/assets/images/front-page/door.jpg'); background-position: center; background-size: cover; background-repeat:no-repeat; "
         >
-          Learn More
-        </button>
-      </div>
-    </mdb-slide>
-    <mdb-slide>
-      <div class="view w-100">
-        <app-img
-          class="d-block w-100 modal-image carouselImg"
-          src="/assets/images/awnings/awning2.jpg"
-          alt="Retractable Awnings"
-        ></app-img>
-        <div class="mask waves-light" mdbRippleRadius></div>
-      </div>
-      <div class="carousel-caption fadeInUp animated">
-        <div class="transparent-gray pt-4 pb-1">
-          <h2 class="h2-responsive px-4">Awnings</h2>
-          <p class="px-4">Awnings · Drop Rolls · Fixed Shades</p>
+          <div class="card-img-overlay fadeInDown animated">
+            <h2 class="card-title transparent-gray">
+              Door and Window Security
+            </h2>
+            <h5 class="tileInfo transparent-gray m-0">
+              No Rust · No Clanging · Built to last
+            </h5>
+          </div>
         </div>
-        <button
-          type="button"
-          class="btn blue waves-light"
-          pageScrollOffset="55"
-          mdbPageScroll
-          href="#awnings"
-          mdbRippleRadius
+      </a>
+    </div>
+    <div class="col-md-3 m-0 p-1">
+      <a mdbPageScroll href="#door-and-window-screens" mdbRippleRadius>
+        <div
+          class="card bg-dark tile text-white text-center"
+          style="background-image: url('/assets/images/front-page/screens.jpg'); background-position: center; background-size:cover; background-repeat:no-repeat;"
         >
-          Learn More
-        </button>
-      </div>
-    </mdb-slide>
-    <mdb-slide>
-      <div class="view w-100">
-        <app-img
-          class="d-block w-100 modal-image carouselImg"
-          src="/assets/images/main/car-logo-3.jpg"
-          alt="Door and Window Screens"
-        ></app-img>
-        <div class="mask waves-light" mdbRippleRadius></div>
-      </div>
-      <div class="carousel-caption fadeInUp animated">
-        <div class="transparent-gray pt-4 pb-3">
-          <h2 class="h2-responsive px-4">Door and Window Screens</h2>
-          <p class="px-4">
-            Built on Site · Window Screen Repair · Solar Screens
-          </p>
+          <div class="card-img-overlay fadeInDown animated">
+            <h2 class="card-title transparent-gray">Door and Window Screens</h2>
+            <h5 class="tileInfo animated slideInUp transparent-gray m-0">
+              Built on Site · Window Screen Repair · Solar Screens
+            </h5>
+          </div>
         </div>
-        <button
-          type="button"
-          class="btn blue waves-light"
-          pageScrollOffset="55"
-          mdbPageScroll
-          href="#door-and-window-screens"
-          mdbRippleRadius
+      </a>
+    </div>
+    <div class="col-md-3 m-0  p-1">
+      <a mdbPageScroll href="#awnings" mdbRippleRadius>
+        <div
+          class="card bg-dark tile text-white text-center"
+          style="background-image: url('/assets/images/front-page/awnings.jpg'); background-position: center; background-size:cover; background-repeat:no-repeat;"
         >
-          Learn More
-        </button>
-      </div>
-    </mdb-slide>
-  </mdb-carousel>
+          <div class="card-img-overlay fadeInDown animated">
+            <h2 class="card-title transparent-gray">Awnings</h2>
+            <h5 class="tileInfo transparent-gray">
+              Awnings · Drop Rolls · Fixed Shades
+            </h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
-
-<app-action-buttons></app-action-buttons>
 
 <app-service-list></app-service-list>
