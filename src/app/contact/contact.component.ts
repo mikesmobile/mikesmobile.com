@@ -8,6 +8,7 @@ import {
   transition,
   animate
 } from '@angular/animations';
+import { LatLng, LatLngLiteral, PolyMouseEvent } from '@agm/core';
 
 @Component({
   selector: 'app-contact',
@@ -61,8 +62,19 @@ export class ContactComponent {
       draggable: false
     }
   ];
-  zoom: number = 9.7;
+  // 9.7 was old setting, smaller number is more out!
+  zoom: number = 9;
   scrollwheel = false;
+
+  paths: Array<LatLngLiteral> = [
+    { lat: 40, lng: -121 },
+    { lat: 41, lng: -122 },
+    { lat: 42, lng: -123 },
+    { lat: 42, lng: -121 },
+    { lat: 40, lng: -121 }
+  ];
+
+  color: 'blue';
 
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
