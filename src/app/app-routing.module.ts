@@ -187,7 +187,6 @@ const appRoutes: Routes = [
   { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
-  { path: 'faq', component: AboutComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
@@ -195,7 +194,6 @@ const appRoutes: Routes = [
   { path: 'regions', component: RegionListComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
-
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'chimneys/:slug', component: LandingRegionalComponent },
