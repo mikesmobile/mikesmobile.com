@@ -8,7 +8,7 @@ import {
   transition,
   animate
 } from '@angular/animations';
-import { LatLng, LatLngLiteral, PolyMouseEvent } from '@agm/core';
+import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
 
 @Component({
   selector: 'app-contact',
@@ -74,7 +74,7 @@ export class ContactComponent {
     { lat: 40, lng: -121 }
   ];
 
-  color: 'blue';
+  color: string = 'blue';
 
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
