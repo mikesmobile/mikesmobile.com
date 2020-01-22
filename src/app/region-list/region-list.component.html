@@ -1,23 +1,18 @@
-<app-action-buttons></app-action-buttons>
-
 <div class="container">
   <section class="section pb-3 text-center">
     <h1 class="mt-md-4 pt-4 pb-md-4">Regions</h1>
     <p class="section-description px-4">
       We offer our services to all these areas!.
     </p>
-    <div class="row">
+    <div class="row text-center justify-content-center">
       <div *ngFor="let region of regions" class="col-6 col-lg-4 py-4">
-        <h3 [innerHTML]="region.region"></h3>
-        <div class="list-group text-lg-left">
-          <a
-            *ngFor="let service of region.services"
-            [routerLink]="['/', service.slug, region.slug]"
-            class="list-group-item list-group-item-action"
-            innerHTML="{{ service.title }} in {{ region.region }}"
-          >
+        <h3>
+          <a [routerLink]="['/regions/', region.slug]">
+            <button class="btn btn-lg orange btn-rounded waves-light">
+              {{ region.region }}
+            </button>
           </a>
-        </div>
+        </h3>
       </div>
     </div>
   </section>
