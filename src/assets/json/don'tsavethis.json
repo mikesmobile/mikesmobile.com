@@ -1,0 +1,199 @@
+{
+  "region": "Fresno",
+  "slug": "fresno",
+  "phone": "(559) 558-5379",
+  "truckImg": "/assets/images/regional/genTruck.png",
+  "description": "Mike’s Mobile Screen & Chimney Service is your all in one chimney service provider. We offer a full range of chimney services including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! Our technicains are trained to handle any problems your chimney may have.",
+  "reviews": [
+    {
+      "name": "Cheena A.",
+      "dataReviewId": "cVbi4EcTi86pCtVcrGdeaQ",
+      "data-hostname": "www.yelp.com",
+      "link1": "https://www.yelp.com/user_details?userid=IFa11o38HIk9nsA-0qy5Pg",
+      "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=cVbi4EcTi86pCtVcrGdeaQ",
+      "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+    },
+    {
+      "name": "Judith F.",
+      "dataReviewId": "m5qZ8K4MU2xTLZ35WjT4sg",
+      "data-hostname": "www.yelp.com",
+      "link1": "https://www.yelp.com/user_details?userid=IL4HWMYkXhWVwAnc67qbqA",
+      "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=m5qZ8K4MU2xTLZ35WjT4sg",
+      "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+    },
+    {
+      "name": "Global T.",
+      "dataReviewId": "9kR9HIaCjB1a7aTY5InFiA",
+      "data-hostname": "www.yelp.com",
+      "link1": "https://www.yelp.com/user_details?userid=P-6XcpKJHntgroeP62MRGg",
+      "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=9kR9HIaCjB1a7aTY5InFiA",
+      "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+    }
+  ],
+  "map": [
+    {
+      "latitude": 37.95532,
+      "longitude": -122.21892,
+      "zoom": 9.5,
+      "regions": [
+        {
+          "paths": [
+            { "lat": 38.05803, "lng": -122.24525 },
+            { "lat": 38.05773, "lng": -122.21826 },
+            { "lat": 38.03304, "lng": -122.07659 },
+            { "lat": 37.9345, "lng": -121.98438 },
+            { "lat": 37.92297, "lng": -121.97999 },
+            { "lat": 37.87197, "lng": -122.01031 },
+            { "lat": 37.84242, "lng": -122.04969 },
+            { "lat": 37.84716, "lng": -122.30082 },
+            { "lat": 37.85951, "lng": -122.32725 },
+            { "lat": 37.92942, "lng": -122.4324 },
+            { "lat": 38.01176, "lng": -122.40349 },
+            { "lat": 38.05803, "lng": -122.24525 }
+          ],
+          "fillColor": "blue",
+          "visible": true,
+          "label": "SanJoseRegion"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "chimneys",
+      "title": "Chimney Services",
+      "cards": [
+        {
+          "title": "Titan Security Screen Doors",
+          "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+          "text": "Mike's Mobile offers completely customizable security screen doors in Fresno. Our security doors offer top of the line security. Our premium Titan security screen doors keep your home looking elegant while keeping you safe."
+        },
+        {
+          "title": "Viewguard Security Screen Doors",
+          "text": "Viewguard Security Screen Doors from Mike's Mobile offer premium security with great visability and airflow. Keep the bugs and thugs out and enjoy the nice breeze."
+        },
+        {
+          "title": "TRU-View Security Screen Doors",
+          "text": "Tru-View security screen doors are the perfect option for someone looking for an upgrade from their old school swining screen door. Tru-view doors offer the same airflow but with a stainless steel mesh and keyway to offer security for your home."
+        },
+        {
+          "title": "Sliding Security Doors",
+          "text": "Sliding security doors from Mike's Mobile offer premium sliding screen doors with stainless steel mesh. The stainless steel mesh looks and acts like a regular screen but can't be cut or torn."
+        },
+        {
+          "title": "Vista Quick Escape Security Window Screens",
+          "image": "/assets/images/security/guarda-escape/3.png",
+          "text": "Vista quick release security window screens provide optimal security for you home while at the same time providing an exit in case of an emergency."
+        },
+        {
+          "title": "Vista Fixed Security Window Screens",
+          "text": "Vista fixed security window screens offer 60% UV blockage, good airflow and the best security on the market. Our security window screens keep your home looking nice and clean with premium security."
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "title": "Security Screen Doors and Windows",
+      "cards": [
+        {
+          "title": "Titan Security Screen Doors",
+          "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+          "text": "Mike's Mobile offers completely customizable security screen doors in Fresno. Our security doors offer top of the line security. Our premium Titan security screen doors keep your home looking elegant while keeping you safe."
+        },
+        {
+          "title": "Viewguard Security Screen Doors",
+          "text": "Viewguard Security Screen Doors from Mike's Mobile offer premium security with great visability and airflow. Keep the bugs and thugs out and enjoy the nice breeze."
+        },
+        {
+          "title": "TRU-View Security Screen Doors",
+          "text": "Tru-View security screen doors are the perfect option for someone looking for an upgrade from their old school swining screen door. Tru-view doors offer the same airflow but with a stainless steel mesh and keyway to offer security for your home."
+        },
+        {
+          "title": "Sliding Security Doors",
+          "text": "Sliding security doors from Mike's Mobile offer premium sliding screen doors with stainless steel mesh. The stainless steel mesh looks and acts like a regular screen but can't be cut or torn."
+        },
+        {
+          "title": "Vista Quick Escape Security Window Screens",
+          "image": "/assets/images/security/guarda-escape/3.png",
+          "text": "Vista quick release security window screens provide optimal security for you home while at the same time providing an exit in case of an emergency."
+        },
+        {
+          "title": "Vista Fixed Security Window Screens",
+          "text": "Vista fixed security window screens offer 60% UV blockage, good airflow and the best security on the market. Our security window screens keep your home looking nice and clean with premium security."
+        }
+      ]
+    },
+    {
+      "slug": "screens",
+      "title": "Door and Window Screens",
+      "cards": [
+        {
+          "title": "Window Screen Repair",
+          "image": "/assets/images/landing/web-windowscreen.jpg",
+          "text": "Mike's Mobile Screen and Chimney Service offers rescreening on any window screens with usuable frames. Why replace the entire thing if the screen is just torn and the frame is in good shape?  "
+        },
+        {
+          "title": "Solar Screens",
+          "text": "Mike's Mobile Screen and Chimney Service supplies Suntex Solar Screens which, block up to 90% of UV rays and are totally pet proof!  "
+        },
+        {
+          "title": "Sliding Screen Doors",
+          "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+          "text": "Sliding Screen Doors from Mike's Mobile Screen and Chimney are custom built to be a perfect fit for your home. Upgrade to our solar screen to ensure your sliding screen door is pet proof and cut your energy spendings."
+        },
+        {
+          "title": "Swinging Screen Doors",
+          "text": "Keep out the bugs and let in the cool breeze with swingin screen doors from Mike's Mobile. We offer several style options, so finding the right door for your home is easy!"
+        },
+        {
+          "title": "Retractable Screen Doors",
+          "text": "Want the benefits of a screen door, but not all the time? Then a retracable screen door is perfect for you. It's there when you want it and hides away when you don't!"
+        },
+        {
+          "title": "Pet Doors",
+          "text": "Pride pet doors are top of the line and when combined with our solar screen or security screen doors its the perfect combination for pets of all sizes!"
+        },
+        {
+          "title": "Garage Screen Doors",
+          "text": "Lifestyle Garage screen doors turn your dark stuffy garage into a liveable work or playspace!"
+        }
+      ]
+    },
+    {
+      "slug": "awnings",
+      "title": "Awnings",
+      "cards": [
+        {
+          "title": "Retractable Patio Awnings",
+          "image": "/assets/images/landing/awning-vacaville.jpg",
+          "text": "Sunesta retractalbe patio awnings are designed to be hurricane proof. They will keep you cool all summer long! Upgrade to our motorized model and operate your retractable awning with remote control!"
+        },
+        {
+          "title": "Drop Roll Sunscreens",
+          "text": "The Sunroll drop shades come with a variety of screen options, custom sizes and are even motorized for easy use!"
+        }
+      ]
+    }
+  ],
+  "areas": [
+    "Allendale",
+    "Bahia",
+    "Birds Landing",
+    "Bucktown",
+    "Collinsville",
+    "Cordelia",
+    "Dixon",
+    "Elmira",
+    "Fairfield",
+    "Green Valley",
+    "Hartley",
+    "Maine Prairie",
+    "Rio Vista",
+    "Rockville",
+    "Terminous",
+    "Suisun City",
+    "Vacaville",
+    "Scandia Family Center",
+    "Winters"
+  ]
+},
