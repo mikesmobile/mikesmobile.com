@@ -25,6 +25,18 @@
           ></p>
         </div>
       </div>
+      <div class="card mt-3 d-lg-none">
+        <img
+          [src]="region.truckImg"
+          class="card-img"
+          alt="Mike's Mobile in Sacramento"
+        />
+        <div class="card-img-overlay text-center">
+          <h1 class="mainTitle card-title text-white transparent-gray">
+            Mike's Mobile {{ region.region }}
+          </h1>
+        </div>
+      </div>
       <div class="card">
         <div class="card-body">
           <div class="w-100 text-center">
@@ -59,6 +71,7 @@
           </ul>
         </div>
       </div>
+      <!-- blurb on mobile -->
       <div class="card mt-3 d-lg-none">
         <div class="card-body">
           <p class="card-text" [innerHTML]="region.description"></p>
