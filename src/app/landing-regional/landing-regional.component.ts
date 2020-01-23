@@ -43,6 +43,7 @@ import regionalJSON from '../../assets/json/regional_services.json';
 export class LandingRegionalComponent implements OnInit {
   region;
   service;
+  cleanReviews;
   url: SafeResourceUrl;
   safePipe;
   otherServiceCards;
@@ -81,33 +82,7 @@ export class LandingRegionalComponent implements OnInit {
         return;
       }
 
-      // this.maplink = this.domSanitizer.bypassSecurityTrustResourceUrl(
-      //   this.region.map
-      // );
       this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.region.map);
-
-      console.log(this.maplink);
-
-      // this.service = this.region.services.find((data) => {
-      //   return data.slug === serviceSlug;
-      // });
-
-      // // Region found, services not found
-      // if (!this.service) {
-      //   this.router.navigate(['/regions']);
-      //   return;
-      // }
-
-      // this.otherServiceCards = this.region.services
-      //   .filter((data) => {
-      //     return data.slug !== serviceSlug;
-      //   })
-      //   .map((data) => {
-      //     return {
-      //       title: data.title,
-      //       text: data.description
-      //     };
-      //   });
     });
   }
 }

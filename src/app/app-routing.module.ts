@@ -192,18 +192,21 @@ const appRoutes: Routes = [
     path: 'security/:slug',
     redirectTo: 'regions/:slug'
   },
+  {
+    path: 'contact',
+    redirectTo: 'service-area'
+  },
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   { path: 'chimney-faq', component: ChimneyFaqComponent },
   { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'service-area', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
   { path: 'privacy', component: PrivacyComponent },
-  { path: 'regions', component: RegionListComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
   { path: 'about/:slug', component: LandingPageComponent },
