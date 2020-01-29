@@ -190,10 +190,16 @@
           </div>
         </div>
       </div>
-      <div class="row d-block d-lg-none">
-        <ul class="area-list w-100">
-          <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
-        </ul>
+    </div>
+    <div class="container text-center justify-content-center">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="row d-block d-lg-none">
+            <ul class="area-list w-100">
+              <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <!-- this is the flip cards -->
