@@ -43,6 +43,10 @@ import regionalJSON from '../../assets/json/regional_services.json';
 export class LandingRegionalComponent implements OnInit {
   region;
   service;
+  review1;
+  review2;
+  review3;
+  _reload = true;
   cleanReviews;
   url: SafeResourceUrl;
   safePipe;
@@ -81,7 +85,19 @@ export class LandingRegionalComponent implements OnInit {
         this.router.navigate(['/regions']);
         return;
       }
+      this.review1 = 'bASTk8xVt-yEmQHXVcX1dQ';
+      this.review2 = this.region.reviews[1].dataReviewId;
+      this.review3 = this.region.reviews[2].dataReviewId;
+      console.log(this.review1);
 
+      setTimeout(() => {
+        this._reload = false;
+        console.log('reload');
+      }, 2000);
+      setTimeout(() => {
+        this._reload = true;
+        console.log('reload');
+      }, 3000);
       this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.region.map);
     });
   }
