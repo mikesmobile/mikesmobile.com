@@ -1,23 +1,75 @@
 import { Component, OnInit } from '@angular/core';
+import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
-
+import { MouseEvent } from '@agm/core';
+import {
+  trigger,
+  state,
+  style,
+  transition,
+  animate
+} from '@angular/animations';
+import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
 import regionalJSON from '../../assets/json/regional_services.json';
 
 @Component({
   selector: 'app-landing-regional',
   templateUrl: './landing-regional.component.html',
-  styleUrls: ['./landing-regional.component.sass']
+  styleUrls: ['./landing-regional.component.sass'],
+
+  animations: [
+    trigger('infobox', [
+      state(
+        'normal',
+        style({
+          backgroundColor: 'red',
+          transform: 'translateX(0)'
+        })
+      ),
+      state(
+        'clicked',
+        style({
+          backgroundColor: 'black',
+          transition: 'opacity 3s ease-in-out',
+          opacity: '0',
+          transform: 'translateX(100px)'
+        })
+      ),
+      transition('normal <=> clicked', animate(300))
+      // transition('clicked => normal', animate(800))
+    ])
+  ]
 })
 export class LandingRegionalComponent implements OnInit {
   region;
   service;
+  cleanReviews;
+  url: SafeResourceUrl;
+  safePipe;
   otherServiceCards;
+  state = 'clicked';
+  maplink;
+  clicked: string = 'none';
+  scrollwheel = false;
 
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    public sanitizer: DomSanitizer
+  ) {}
+
+  mapClicked($event: MouseEvent) {
+    this.scrollwheel = true;
+    this.clicked = 'none';
+  }
+
+  clickedMarker(label: string) {
+    this.clicked = label;
+    this.state == 'normal' ? (this.state = 'clicked') : (this.state = 'normal');
+  }
 
   ngOnInit() {
     this.route.url.subscribe((params) => {
-      const serviceSlug = params[0].path;
       const regionalSlug = params[1].path;
 
       this.region = regionalJSON.find((data) => {
@@ -30,26 +82,21 @@ export class LandingRegionalComponent implements OnInit {
         return;
       }
 
-      this.service = this.region.services.find((data) => {
-        return data.slug === serviceSlug;
-      });
-
-      // Region found, services not found
-      if (!this.service) {
-        this.router.navigate(['/regions']);
-        return;
-      }
-
-      this.otherServiceCards = this.region.services
-        .filter((data) => {
-          return data.slug !== serviceSlug;
-        })
-        .map((data) => {
-          return {
-            title: data.title,
-            text: data.description
-          };
-        });
+      this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.region.map);
     });
   }
+}
+
+interface marker {
+  lat: number;
+  lng: number;
+  label?: string;
+  draggable: boolean;
+}
+
+interface region {
+  paths: Array<LatLngLiteral>;
+  fillColor: string;
+  visible: boolean;
+  label?: string;
 }

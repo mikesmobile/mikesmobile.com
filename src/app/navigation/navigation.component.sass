@@ -14,11 +14,13 @@ nav
     position: relative
     z-index: 9999 !important
     min-width: 960px
+    
     left: -700px
     @include breakpoint(md)
       left: -625px
     @include breakpoint(lg)
       left: -800px
+      top: 45px !important
     h5
       padding: 0px 0px
     a
@@ -29,7 +31,7 @@ nav
 @media only screen and (min-width: 768px)
   .nav-text
     font-size: 30px !important
-
+    font-weight: 200 !important
 
 h5
   font-weight: 900
@@ -39,12 +41,16 @@ h6
   @include breakpoint(md)
     color: $orange
 
+.mobileDrop
+  font-weight: 600 !important
 
 .nav-text
-  font-weight: 200
+  font-weight: 600
   font-size: 1rem 
   @breakpoint(md)
-    font-size: 30px 
+    font-weight: 200
+    font-size: 30px
+    
 
 li.nav-item .nav-link:hover
   color: white !important

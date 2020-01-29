@@ -3,11 +3,72 @@
     "region": "Sacramento",
     "slug": "sacramento",
     "phone": "(916) 823-3388",
+    "truckImg": "/assets/images/regional/sacramentoTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg"
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg"
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.57683,
+        "longitude": -121.32426,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.57683,
+            "lng": -121.32426,
+            "label": "Sacramento",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.71199, "lng": -122.0499 },
+              { "lat": 38.8761, "lng": -120.64066 },
+              { "lat": 38.87619, "lng": -120.59957 },
+              { "lat": 38.77872, "lng": -120.54196 },
+              { "lat": 38.63662, "lng": -120.49121 },
+              { "lat": 38.32017, "lng": -120.7632 },
+              { "lat": 38.37992, "lng": -121.88619 },
+              { "lat": 38.58493, "lng": -121.97075 },
+              { "lat": 38.71199, "lng": -122.0499 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "SacramentoRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Sacramento. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
+
         "cards": [
           {
             "title": "Inspections",
@@ -32,23 +93,6 @@
           {
             "title": "Dryer Vent Cleaning",
             "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Ilsa H. from Sacramento, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=JOEiTRp3ELbOxTi1C7XS8Q",
-            "review": "We were very impressed with Mike's Mobile. They came out right away and did a stellar job cleaning our fireplace. The tech was friendly, helpful and very knowledgeable. He was very honest about what didn't need to be done so we trusted him that we weren't charged for things we didn't need. We will be referring Mike's Mobile to our friends and family and neighbors! Thank you!"
-          },
-          {
-            "author": "Mike F.",
-            "link": "https://goo.gl/maps/AcGPebbJsKFrbZNo7",
-            "review": "Your staff cleaned my chimney and during the process explained what was being done. Once completed, even explained the conditions of chimney and reported no problems. Once completed, I asked if he had time to fix my Sliding Screen Door. Screen needed to be rebuilt and proper fit was awesome. Screen Door works better than the original screen. Thank you for your service and professionalism. I would be glad to recommend your company. Thanks again. Mike Faughn"
-          },
-          {
-            "author": "Denise G.",
-            "link": "https://goo.gl/maps/dg3XNd2mjKfndXVdA",
-            "review": "Outstanding service. Chimney service. Inspect and clean. Chris and Anthony showed up on time. Explained the status of the chimney and recommended some services based on questions we asked. Look forward to working with them again. Very happy with their services. We highly recommend this company to anyone needing chimney inspections and service."
           }
         ]
       },
@@ -81,29 +125,12 @@
             "title": "Vista Fixed Security Window Screens",
             "text": "Vista Fixed Security Screens are an ideal solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a concealed fastening system and blends with any architecture. Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Crystal C. from Citrus Heights, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=0XIBdkoHvzIC-olyNVMSYA",
-            "review": "I love our viewguard security door from Mike's Mobile! The process was very simple though it did take a little over a month to get the door. That makes sense though because it's custom sized to my extra tall doorway and it's also a custom green color to match trim around my home. Love it! It doesn't BANG closed like the old school security doors I've had in the past and honestly it doesn't look like a \"security\" door at all. I'm very comfortable leaving my door wide open and getting a breeze without worrying about randos wandering in. I'm considering ordering one of the sliding security doors for my backyard next to get a nice crossbreeze. Also, thanks to the installers for staying late and dealing with a defective lockset!"
-          },
-          {
-            "author": "Sarah W. from Sacramento, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=N0S52yq9V93f68TzzN4iug",
-            "review": "My husband and I had been looking to replace the old screen door that came with our house when we bought it. We also figured a security door would be a nice extra piece of mind. When we saw the Viewguard doors online they looked so clean and weren't like the standard \"home improvement store\" security doors that everyone else in the neighborhood had. We've been really happy with the look and quality of these doors. We had a minor issue with the weather stripping not being secured, Mike's sent an installer the next day to properly set them into place. Visitors have asked about the screens and we've happily referred them to Mike's."
-          },
-          {
-            "author": "Thomas R.",
-            "link": "https://goo.gl/maps/uRBNhRsDFsdNfFaz7",
-            "review": "Mike Mobile is the best!! Quality all the way!! We called Mikes and Mike personally came out and we felt he was completely honest with us and gave us great options! No rush and no pressure. We wanted an upscale quality security door that looked good with great curb appeal!! We wanted the color of the door to match the decor of our home! We got exactly what we wanted. It took about 4 weeks to arrive but thats expected because it’s custom made!! This is a heavy duty heavy screen mesh door that makes no noise!! Lock and key installed as well. This is not a light weight clanging screen door for a couple hundred dollars and if that’s what your looking for? Then I’m certain these are not the guys you want. This is a quality made door that is quiet and constructed very well. The installation techs of Roderick and Brent were great!! They made the final cuts on site!! This door is very impressive. I am completely sold on these guys and we have additional projects we will be reaching out to Mike to help us with. We are beyond happy and 5 stars is not enough for the job from start to finish."
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Mike's Mobile is Sacramento's premier window and door screen contractor! Most screens are built on-site for that perfect fit!",
+
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -135,7 +162,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifstyle Garage Screen Doors converts your garage into a cool, bright, pest-free living space!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "text": "There is nothing like the relaxation and comfort a motorized retractable awning brings to your deck or patio."
@@ -143,28 +176,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll Retractacble Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Noelle F.",
-            "link": "https://goo.gl/maps/qNaviYnXm241op3Y9",
-            "review": "Just had my sliding screen door and front screen door taken care of by Tyler... he was on time, courteous and completed the job in a timely manner! I was so impressed with Tyler, I will be scheduling a chimney cleaning and service appointment next! I am a return customer and will definitely use Mike's Mobile for my future screening needs!"
-          },
-          {
-            "author": "Laurie H. from Sacramento, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=4JYpoDdXtEYDoMzvqEskhg",
-            "review": "Mike's Mobile is my new GO TO screen company! I am SO IMPRESSED with the level of customer service I received and the quality of the work that was completed. Tyler was the impressive employee that performed the work for the screens I needed repaired/replaced. He was professional, informative, helpful and bent over backwards to make sure he exceeded my expectations. This was an incredible experience and I have no hesitation in recommending this company to you!"
-          },
-          {
-            "author": "Robin S. from Rancho Cordova, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=az5a3go1fRb3EYMeVJIJXA",
-            "review": "Tyler did an outstanding job! Screens look great and he arrived on time and finished before his estimated time. Thanks Tyler and Mike's Mobile Screen & Chimney."
-          },
-          {
-            "author": "Lori A. from Sacramento, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=gWVFqQj0EO-hpauUa4v21w",
-            "review": "Had our screen door repaired. Lance was friendly, efficient, and did a great job. He was done in 15 minutes and our screen door looks good as new! Highly recommend!"
           }
         ]
       }
@@ -212,6 +223,66 @@
     "region": "Stockton",
     "slug": "stockton",
     "phone": "(209) 815-6085",
+    "truckImg": "/assets/images/regional/stocktonTruck.png",
+    "description": "Now, with over 16 years in the fireplace business, Mike's Mobile has become the premier chimney sweep and repair company here in Stockton. We also service San Joaquin county and surrounding areas. Give us a call today for all of your chimney and fireplace needs!",
+    "reviews": [
+      {
+        "name": "Evelyn M.",
+        "dataReviewId": "wPCLKYgtcmd3-uAzKptejA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Do24lhHDP3IMO4LrAZqXnw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=wPCLKYgtcmd3-uAzKptejA",
+        "link3": "https://www.yelp.com/biz/ADvweMOkls0hNznpuWs78g"
+      },
+      {
+        "name": "Paljor S.",
+        "dataReviewId": "7XYHMxamizepusVNrsrt6w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=4lslL6G6n95t5xlw6zFxQQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=7XYHMxamizepusVNrsrt6w",
+        "link3": "https://www.yelp.com/biz/ADvweMOkls0hNznpuWs78g"
+      },
+      {
+        "name": "Jessie F.",
+        "dataReviewId": "k6_BYB6t6d58nhXg32792Q",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=EHm2g96CTopwplk_h6Op8Q",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=k6_BYB6t6d58nhXg32792Q",
+        "link3": "https://www.yelp.com/biz/ADvweMOkls0hNznpuWs78g"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.07723,
+        "longitude": -121.04408,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.023689,
+            "lng": -121.280342,
+            "label": "Stockton",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.33442, "lng": -121.5689 },
+              { "lat": 38.35618, "lng": -120.58375 },
+              { "lat": 37.86775, "lng": -120.42942 },
+              { "lat": 37.85695, "lng": -120.45217 },
+              { "lat": 37.66342, "lng": -121.47227 },
+              { "lat": 37.70065, "lng": -121.50179 },
+              { "lat": 38.32683, "lng": -121.57616 },
+              { "lat": 38.33442, "lng": -121.5689 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "StoctonRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
@@ -246,23 +317,6 @@
             "title": "Dryer Vent Cleaning",
             "text": "Appliance manufacturers recommend that dryer vents are cleaned annually to prevent fire and other hazards to your health and property. Mike's Mobile's dryer vent cleaning services not only benefit your safety, but can also make a world of difference for your clothing, utility use, and laundry routine."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Lauren F.",
-            "link": "https://goo.gl/maps/g9eJxxHDpBrMsw2r8",
-            "review": "Great expierence, highly recommend! Chris and Tyler were very through and professional. Gave us a detailed quote, explained the whole process and offered different options about our fireplace. Also got information about a screen door, win/win!"
-          },
-          {
-            "author": "TindurboxFPV",
-            "link": "https://goo.gl/maps/d9LSveCUBeYTyshKA",
-            "review": "Tyler and Chris were great! They arrived right on time and made quick work of cleaning my chimney and insert. They also did an inspection and alerted me of some issues with my fireplace. Very pleased with the service, would recommend!"
-          },
-          {
-            "author": "Grant B.",
-            "link": "https://goo.gl/maps/vJB1BDNxqz7mVRaP8",
-            "review": "Not a review guy but thought I should do this. I had Chris form Mike's out to inspect my chimney for any issues. Chris took the time to measure and inspect any possible problems. I wanted it capped for good, so he gave me options. Very patient guy and offered me solutions for this question. Great staff good people. Spent time with me. I will definitely contact them when I'm ready!!"
-          }
         ]
       },
       {
@@ -296,23 +350,6 @@
           {
             "title": "Vista Fixed Security Window Screens",
             "text": "Vista Fixed Security Screens are the perfect solution to cover and protect your windows. Our security screens come in a variety of color options and feature a hidden fastening system. Applications include: Day care centers, psychiatric and detox centers, government buildings, military installations, schools, adult care facilities and residential homes."
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Joyce W. from Stockton, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=6A_OdMlGViUljExFMdPOcg",
-            "review": "Excellent job from a Mikes Mobile. Daniel installed a security sliding screen door. He arrived on time, made sure everything worked and cleaned up. Thank you Daniel. I would highly recommend Mikes mobile screen."
-          },
-          {
-            "author": "Melanie T. from Tracy, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=tU7thh8F8AuYJdthR6SXng",
-            "review": "Outstanding service at every step of the way. My online request for a quote was handled quickly as well as the on site visit. Follow up emails and reminders were timely and helpful. The installation went quickly and perfectly and the installers were fantastic. Very pleased with the new security door. I highly recommend this company and their product."
-          },
-          {
-            "author": "Sally S. from Lodi, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=8p_qgCdbwQoAfdhJZxDCkg",
-            "review": "I had a custom security screen door made for my over-sized front door and 3 security sliders for my patio doors, and could not be happier! Their customer service was excellent from the beginning clear through to the end. Daniel and Estafan (sorry if I spelled wrong)  called when they were on their way, and arrived on time. They had some challenges with my front door, but were persistent and professional about it till they got it done. They also put 3 sliding security screen doors on my patios. I am extremely happy with the work that they did. They were super friendly and cleaned up everything before leaving. I would certainly recommend Mikes' Mobile to any one needing any of their services. I know I will call them in the future for any of my needs."
           }
         ]
       },
@@ -350,7 +387,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifestyle Garage Screen Door allows you to go from garage to an airy and pest-free space in a snap!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/stockton-awning.jpg",
@@ -360,310 +403,96 @@
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll drop shade comes with a variety of screen options, custom sizes and comes motorized for ease of use!"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Mike L. from Tracy, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=xJpnpPUKGfmSy0k3DmAURw",
-            "review": "Great Job! Nice and friendly people. ordered our screen door. It was a custom size. took 3 weeks from order to install. Other companies said they could not do it or were a ridiculous amount. Very Happy Thank you!"
-          },
-          {
-            "author": "Melanie W.",
-            "link": "https://goo.gl/maps/sZSSdHTmFDm2zRM87",
-            "review": "Highly recommend! Prompt, professional, and does excellent work. Mike suggested a small change that I've already been extremely grateful for after just a couple of weeks. After using the new sliding screen door that Mike built for us, we're planning on having him come out and replace our other two. Better craftsmanship, delivered straight to your home."
-          },
-          {
-            "author": "Linda I.",
-            "link": "https://goo.gl/maps/XquF6FgzYVZKqiBE8",
-            "review": "What an asset you have in your employee Tyler. He was early for our appointment, he was informative, and represented your business splendidly. He was concerned with providing quality workmanship and incredible customer service. He absolutely exceeded our expectations. We happily increased our order by five window screens. Due to the increase Tyler's schedule did not allow him to finish all of the work but what he did next was impressive. He called the shop and asked them make the additional screens. After he finished his work for the day he returned to our home with the screens it was 8:00 pm. It was important to Tyler to get the work done. He left our home on or around 9:00 pm. Who provides that level of customer service; Tyler does! I will strongly urge people to use Mike's Mobile Screens and Chimney Service. 👍👍"
-          }
         ]
       }
     ],
     "areas": [
-      "Acampo",
-      "Adela",
-      "Airport",
-      "Allen",
-      "Atlanta",
-      "August",
-      "Banta",
-      "Barton",
-      "Bonnefoy",
-      "Buena Vista",
-      "North Shore Lake Camanche",
-      "Camanche Village",
-      "Claribel",
-      "Clarsona",
-      "Claus",
-      "Clay",
-      "Clinton",
-      "Collierville",
-      "Courtland",
-      "Dagon",
-      "Del Rio",
-      "Dogtown",
-      "East Oakdale",
-      "Edwin",
-      "Electra",
-      "Escalon",
-      "Eugene",
-      "Farmington",
-      "Firebrick",
-      "French Camp",
-      "Garden Acres",
-      "Goodmans Corner",
-      "Kennedy",
-      "Kirkwood",
-      "Kit Carson",
-      "Knights Ferry",
-      "Langworth",
-      "Lathrop",
-      "Lincoln Village",
-      "Linden",
+      "Galt",
       "Lockeford",
       "Lodi",
-      "Manteca",
-      "McHenry",
       "Morada",
-      "Mormon",
-      "Mountain House",
-      "Oakdale",
-      "Peters",
-      "Pine Acres",
-      "Pine Grove",
-      "Pioneer",
-      "Plasse",
-      "Red Corral",
-      "Ripon",
-      "Riverbank",
-      "Salida",
-      "Scottsville",
-      "Stockton",
-      "Taft Mosswood",
-      "Thornton",
+      "San Andreas",
+      "Angels Camp",
+      "Copperopolis",
+      "Menteca",
       "Tracy",
-      "Valley Home",
-      "Victor",
-      "Volcano",
-      "Waterloo",
-      "Woodbridge"
-    ]
-  },
-  {
-    "region": "Auburn",
-    "slug": "auburn",
-    "phone": "(530) 692-5680",
-    "services": [
-      {
-        "slug": "chimneys",
-        "title": "Chimney Services",
-        "description": "Did you know that chimneys need to be cleaned and inspected regularly in order for them to burn safely? Sooty buildup can lead to chimney fires that spread into the home. Even if you do not use your fireplace often, general deterioration or even animal nests can make it unsafe to use. Let Mike’s Mobile Chimney Service help you keep your fireplace safe and your home cozy.",
-        "cards": [
-          {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
-            "text": "We offer Level I, II, and III inspections for your home. All of our technicians have been tested and certified using the CSIA guidelines for cleaning and inspecting. For more information about the levels of inspections, click here."
-          },
-          {
-            "title": "Cleaning",
-            "text": "Maintain the health of your fireplace and chimney annually. According to the NFPA, chimney sweeps should be performed after each cord of wood or annually. We include a free level 1 inspection with all of our chimney cleanings."
-          },
-          {
-            "title": "Repairs",
-            "image": "/assets/images/landing/firebox.jpg",
-            "text": "If there are issues regarding your chimney or fireplace we can also do repairs! Mike’s Mobile is a full service chimney company. We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind."
-          },
-          {
-            "title": "Accessories",
-            "image": "/assets/images/landing/damper.png",
-            "text": "Mike’s Mobile Screen & Chimney Service offers a full line of chimney and fireplace related products. Please ask our trained techs any questions you have and they can recommend what will work best for your home."
-          },
-          {
-            "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
-            "text": "Mike's Mobile is a full service masonry contractor offering new masonry work and repairs."
-          },
-          {
-            "title": "Dryer Vent Cleaning",
-            "text": "Is your dryer taking too long to dry your clothes? Schedule a dryer vent cleaning today!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Ilsa H.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=JOEiTRp3ELbOxTi1C7XS8Q",
-            "review": "We were very impressed with Mike's Mobile. They came out right away and did a stellar job cleaning our fireplace. The tech was friendly, helpful and very knowledgeable. He was very honest about what didn't need to be done so we trusted him that we weren't charged for things we didn't need. We will be referring Mike's Mobile to our friends and family and neighbors! Thank you!"
-          },
-          {
-            "author": "Mike F.",
-            "link": "https://goo.gl/maps/AcGPebbJsKFrbZNo7",
-            "review": "Your staff cleaned my chimney and during the process explained what was being done. Once completed, even explained the conditions of chimney and reported no problems. Once completed, I asked if he had time to fix my Sliding Screen Door. Screen needed to be rebuilt and proper fit was awesome. Screen Door works better than the original screen. Thank you for your service and professionalism. I would be glad to recommend your company. Thanks again. Mike Faughn"
-          },
-          {
-            "author": "Denise G.",
-            "link": "https://goo.gl/maps/dg3XNd2mjKfndXVdA",
-            "review": "Outstanding service. Chimney service. Inspect and clean. Chris and Anthony showed up on time. Explained the status of the chimney and recommended some services based on questions we asked. Look forward to working with them again. Very happy with their services. We highly recommend this company to anyone needing chimney inspections and service."
-          }
-        ]
-      },
-      {
-        "slug": "security",
-        "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile is Auburn's premier supplier of window and door security products. From our completely customizable security doors to our contemporary Viewguard and stainless mesh products; we now even have sliding security doors to secure your patio door.",
-        "cards": [
-          {
-            "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/classic-french_2.jpg",
-            "text": "Mike's Mobile's security doors are made of an aluminum alloy construction which is up to 6 times stronger than steel and cannot rust."
-          },
-          {
-            "title": "Viewguard Security Screen Doors",
-            "image": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
-            "text": "The viewguard security door is always a handsome focal point for the front of a home. It's large frame, simple yet contemporary design and timeless stainless mesh offer premium security that doesn't compromise in the looks department."
-          },
-          {
-            "title": "TRU-View Security Screen Doors",
-            "text": "Tru-View Security doors offer the same handsome stainless mesh as it's older brother, the Viewguard security door, but with a smaller frame and a reduced price point."
-          },
-          {
-            "title": "Sliding Security Doors",
-            "text": "Your patio sliding glass door is an easy entry point for a burglar. Our sliding security doors solve this problem without making your home look like a jail. Good looks, ease of use and legitimate security really make our sliding security doors stand apart."
-          },
-          {
-            "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
-            "text": "CRL Security Screen Quick Escape Window Screens have an easy release push mechanism that also act as a secure, temper resistant device locking the screen closed for a peace of mind. Our windows features a certified, internationally patented framing system and passes international testing for knife shear, dynamic impact, and salt spray."
-          },
-          {
-            "title": "Vista Fixed Security Window Screens",
-            "image": "/assets/images/security/guarda-casement/1.png",
-            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our Vista security screens offer the ultimate in window protection but offer the simple look of a screen."
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Crystal C.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=0XIBdkoHvzIC-olyNVMSYA",
-            "review": "I love our viewguard security door from Mike's Mobile! The process was very simple though it did take a little over a month to get the door. That makes sense though because it's custom sized to my extra tall doorway and it's also a custom green color to match trim around my home. Love it! It doesn't BANG closed like the old school security doors I've had in the past and honestly it doesn't look like a \"security\" door at all. I'm very comfortable leaving my door wide open and getting a breeze without worrying about randos wandering in. I'm considering ordering one of the sliding security doors for my backyard next to get a nice crossbreeze. Also, thanks to the installers for staying late and dealing with a defective lockset!"
-          },
-          {
-            "author": "Sarah W.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=N0S52yq9V93f68TzzN4iug",
-            "review": "My husband and I had been looking to replace the old screen door that came with our house when we bought it. We also figured a security door would be a nice extra piece of mind. When we saw the Viewguard doors online they looked so clean and weren't like the standard \"home improvement store\" security doors that everyone else in the neighborhood had. We've been really happy with the look and quality of these doors. We had a minor issue with the weather stripping not being secured, Mike's sent an installer the next day to properly set them into place. Visitors have asked about the screens and we've happily referred them to Mike's."
-          },
-          {
-            "author": "Thomas R.",
-            "link": "https://goo.gl/maps/uRBNhRsDFsdNfFaz7",
-            "review": "Mike Mobile is the best!! Quality all the way!! We called Mikes and Mike personally came out and we felt he was completely honest with us and gave us great options! No rush and no pressure. We wanted an upscale quality security door that looked good with great curb appeal!! We wanted the color of the door to match the decor of our home! We got exactly what we wanted. It took about 4 weeks to arrive but thats expected because it’s custom made!! This is a heavy duty heavy screen mesh door that makes no noise!! Lock and key installed as well. This is not a light weight clanging screen door for a couple hundred dollars and if that’s what your looking for? Then I’m certain these are not the guys you want. This is a quality made door that is quiet and constructed very well. The installation techs of Roderick and Brent were great!! They made the final cuts on site!! This door is very impressive. I am completely sold on these guys and we have additional projects we will be reaching out to Mike to help us with. We are beyond happy and 5 stars is not enough for the job from start to finish."
-          }
-        ]
-      },
-      {
-        "slug": "screens",
-        "title": "Door and Window Screens",
-        "description": "Mike's Mobile is unique in that we offer on-site screen services to your home or office in the Auburn area. Call us today for a FREE quote!",
-        "cards": [
-          {
-            "title": "Window Screen Repair",
-            "image": "/assets/images/landing/hayward-oakland-sunscreens.jpg",
-            "text": "Need window screen repair or replacement in the Auburn area? Mike's Mobile has you covered. We measure, build and install window screens on-site for a perfect fit, every time!"
-          },
-          {
-            "title": "Solar Screens",
-            "text": "Get your existing window screens repaired/replaced or upgraded to Solar Screens! Solar Screens are a great way to block out harmful UV rays and keep your home cool."
-          },
-          {
-            "title": "Sliding Screen Doors",
-            "text": "Mike's Mobile Screen and Chimney Service can build custom sliding screen doors that fit your home!"
-          },
-          {
-            "title": "Swinging Screen Doors",
-            "image": "/assets/images/landing/hayward-oakland-screen-doors.jpg",
-            "text": "Mike's Mobile has the best selection of swinging screen doors. Custom colors, custom size and custom screen material will allow us to get you the perfect door for your home."
-          },
-          {
-            "title": "Retractable Screen Doors",
-            "text": "After we install your new, custom disappearing screen door you will be wondering why you didn’t call us sooner!"
-          },
-          {
-            "title": "Pet Doors",
-            "text": "Get a high quality Pride pet door that's made to last. Your pet will thank you!"
-          },
-          {
-            "title": "Garage Screen Doors",
-            "text": "Turn your garage into a cool, bright, pest-free living space with a Lifestyle Garage Screen Door!"
-          },
-          {
-            "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
-            "text": "Mike’s Mobile offers a full line of retractable awnings that are fully customizable to fit your home!"
-          },
-          {
-            "title": "Drop Roll Sunscreens",
-            "text": "Mike's Mobile offers fully customizable retractable drop roll sunshades to fit your home."
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Julanna M. from Roseville, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=TYge07kZTv0Q_PqBoQRW3A",
-            "review": "My husband and I recently purchased a home in the Morgan Creek area. Most of the screens were missing from the windows. I searched Yelp and found Mike's Mobile Screens. When I called the representative was extremely nice, patient and helpful. He answered all my questions and gave me pricing over the phone. The technician showed up with everything to make the screens on the spot. He was very polite, efficient and fast. My screens fit perfect and he even adjusted the rollers on my sliding door screen and adjusted the locking mechanism. We were ecstatic! We also felt that the price was very fair. We definitely highly recommend this company!"
-          },
-          {
-            "author": "Linda S. from Auburn, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=iWQC9PDdHTbzgQoGkHuHSQ",
-            "review": "I had an awning installed by Mike's Mobile a while back. The installer Dan completed the job with perfection and professionalism. Because Dan is such a perfectionist that I called them again. Today Dan installed the disappearing screen door. Again perfect, also Dan is so polite and cleans up his mess. I would definitely recommend Mike's Mobile. Be sure to ask for Dan. Thank you ~"
-          },
-          {
-            "author": "Dana H.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=D0T7XwmbJJHVWKxXFdBnmQ",
-            "review": "Technicians arrived on time and completed the work fast! Eric & Ryan were so friendly and helpful! Really pleased that I decided on Mike's Mobile!"
-          }
-        ]
-      }
-    ],
-    "areas": [
-      "Amador City",
-      "Applegate",
-      "Auburn",
-      "Brooks",
-      "Bunker Hill",
-      "Cameron Park",
-      "Coloma",
-      "Cool",
-      "Drytown",
-      "Dunnigan",
-      "Fiddletown",
-      "Guinda",
-      "Ione",
+      "Stockton",
+      "Linden",
+      "Farmington",
+      "Valley Springs",
+      "Walnut Grove",
       "Jackson",
-      "Martell",
-      "Meadow Vista",
-      "New Chicago",
-      "North Auburn",
-      "Pilot Hill",
-      "Placerville",
-      "Plymouth",
-      "Rio Oso",
-      "River Pines",
-      "Rumsey",
-      "Sheridan",
-      "Sunnybrook",
-      "Sutter Creek",
-      "Sutter Hill",
-      "Wheatland"
+      "Eagle Tree",
+      "Terminous",
+      "Holt",
+      "Lincoln Village",
+      "Garden Acres",
+      "Kennedy",
+      "Taft Mosswood"
     ]
   },
   {
     "region": "Antioch",
     "slug": "antioch-east-bay",
     "phone": "(925) 350-0501",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "At Mike's Mobile, we take pride in successfully solving your chimney needs in a cost effective and timely manner. Our goal is to make sure that your trust in us develops into a lifelong working relationship. From the office to the field, our employees have been trained by CSIA and NFI standards to give you superior customer service and high-quality workmanship. Chimney maintenance is important as chimneys vent hazardous gasses out of your home. Chimneys that are not annually swept and or inspected can potentially be a hazard to you, your family and your home. Maintaining the interior and exterior of your chimney will not only help protect you, your family and your home, but annual maintenance will aid in finding smaller problems before they develop into costly, more extensive repairs.",
+    "reviews": [
+      {
+        "name": "Lilyth M.",
+        "dataReviewId": "zM-3DpGuO16wDolaSfGcUQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=6hHM7nj614I0JVDx4JGGmA",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=zM-3DpGuO16wDolaSfGcUQ",
+        "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A"
+      },
+      {
+        "name": "Mary J.",
+        "dataReviewId": "44-P-bMPqs61_XhLWihK9g",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=IIdi4pqZp3a8FxQkkWybug",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=44-P-bMPqs61_XhLWihK9g",
+        "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A"
+      },
+      {
+        "name": "Kimba E.",
+        "dataReviewId": "5ZT3dO1JdIW95PH6F53f3Q",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=rKC_kbkW6LMiu1d-RG7jUA",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=5ZT3dO1JdIW95PH6F53f3Q",
+        "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.94714,
+        "longitude": -121.78569,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.04613, "lng": -122.01951 },
+              { "lat": 38.0468, "lng": -121.64386 },
+              { "lat": 37.89633, "lng": -121.27582 },
+              { "lat": 37.88718, "lng": -121.26741 },
+              { "lat": 37.85581, "lng": -121.26414 },
+              { "lat": 37.83943, "lng": -121.99219 },
+              { "lat": 37.8432, "lng": -122.06203 },
+              { "lat": 37.86882, "lng": -122.08984 },
+              { "lat": 37.91675, "lng": -122.09999 },
+              { "lat": 38.04613, "lng": -122.01951 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "AntiochRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "At Mike's Mobile, we take pride in successfully solving your chimney needs in a cost effective and timely manner. Our goal is to make sure that your trust in us develops into a lifelong working relationship. From the office to the field, our employees have been trained by CSIA and NFI standards to give you superior customer service and high-quality workmanship. Chimney maintenance is important as chimneys vent hazardous gasses out of your home. Chimneys that are not annually swept and or inspected can potentially be a hazard to you, your family and your home. Maintaining the interior and exterior of your chimney will not only help protect you, your family and your home, but annual maintenance will aid in finding smaller problems before they develop into costly, more extensive repairs.",
         "cards": [
           {
             "title": "Inspections",
@@ -693,29 +522,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Mike's Mobile offers dryer vent cleaning services in Antioch, Ca. Call today for an appointment!"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Meghan S.",
-            "link": "https://goo.gl/maps/odrmoSGgTxhuuDTq9",
-            "review": "Appointment was for chimney cleaning at 1:30 today. I will definately use them again. Daniel was great. So the company and the specific person (Daniel) get 5 stars! He was timely, called me to tell me he was on away, and professional but friendly. He answered all my questions and listened...a skill that is often lacking in people in general. I knew I would probably need to make other appointment to get my chimney caps on top done, but luckily he had 2 on his truck and we were able to kill 2 birds with 1 stone. He left no mess and did a great job at cross selling. Cross selling is a fine line to walk and I have had to do it. You want to assess whether their may be other services the person wants (like doors, screens) but you dont want to be pushy. He did a great job an mentioning things that I might be interested in which Mike's Mobile Service provides without making it a sales pitch or awkward. It takes a personalanle personality to accomplish this! Also, the ladies who answer the phones and schedule spoke with me multiple times because I rescheduled and they are great...so kudos should go their way! Thanks for your service! Meghan"
-          },
-          {
-            "author": "Mike F.",
-            "link": "https://goo.gl/maps/AcGPebbJsKFrbZNo7",
-            "review": "Your staff cleaned my chimney and during the process explained what was being done. Once completed, even explained the conditions of chimney and reported no problems. Once completed, I asked if he had time to fix my Sliding Screen Door. Screen needed to be rebuilt and proper fit was awesome. Screen Door works better than the original screen. Thank you for your service and professionalism. I would be glad to recommend your company. Thanks again. Mike Faughn"
-          },
-          {
-            "author": "Denise G.",
-            "link": "https://goo.gl/maps/dg3XNd2mjKfndXVdA",
-            "review": "Outstanding service. Chimney service. Inspect and clean. Chris and Anthony showed up on time. Explained the status of the chimney and recommended some services based on questions we asked. Look forward to working with them again. Very happy with their services. We highly recommend this company to anyone needing chimney inspections and service."
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile has been offering premium window and door security products to Antioch for over 16 years. If you want something truly cusomizable check out our steel doors. For something contemporary that offers premium protection that doesn't have the bars of a traditional security door, check out our Viewguard. We also have aluminum and stainless mesh security products to cover your windows and back patio slider.",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -744,24 +555,12 @@
             "image": "/assets/images/security/guarda-casement/1.png",
             "text": "Vista Fixed Security Screens are the perrfect solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a hidden fastening system. With many frame options to choose from they blend in with any architecture. Applications include: Day care centers, psychiatric and detox centers, government buildings, military installations, schools, adult care facilities and residential homes."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Rich P.",
-            "link": "https://goo.gl/maps/FZQi38vaMYvZeg1z8",
-            "review": "Daniel and Marco did a great job installing my two front security doors and the back slider screen. They were on time, personable, and worked efficiently. They were also courteous and cleaned up after themselves. I highly recommend Mike's Mobile"
-          },
-          {
-            "author": "Lindsey P.",
-            "link": "https://goo.gl/maps/Kpm9Mk3CDF4jhgEd6",
-            "review": "I've used Mike's Mobile a few times now and they have always been great! They measured and built window screens right there at my house and most recently installed a beautiful security door. Love it!"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Most of us don’t give much thought to window screens, unless we need to use one and it is damaged or missing. When it’s time to replace your screens, you may be surprised by the many different and handy options that are currently available. Did you know that window screens can help keep out unwanted light and protect against the sun's harmful UV rays too? Solar screens can even help keep energy costs down and make your living space more comfortable. Try the shade design that rolls up like a typical window shade. Discover how Mike's Mobile can help make your home in Antioch more comfortable and efficient!",
+
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -792,7 +591,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "Going from garage to an airy, pest–free space is a snap and takes just seconds with a Lifestyle Garage Screen Door!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/stockton-awning.jpg",
@@ -801,28 +606,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll drop roll sunshade is there when you need it and gone when you don't!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Wendy K.",
-            "link": "https://goo.gl/maps/xcphN2dAGfR9k1vb6",
-            "review": "We just moved in to a house that had several windows with screens that were missing, and some that needed repairs. Tyler was able to fit me into his schedule earlier than expected, and was very professional, efficient, and quick. Highly recommend!!"
-          },
-          {
-            "author": "Valerie E.",
-            "link": "https://goo.gl/maps/PXeDXY56HuSTkyCdA",
-            "review": "Tyler came out and did my 4 windows upstairs. After my experience with with feeling cooler temperatures upstairs, I wanted to have my whole house done with the screens. He came out today on time and finished the job really fast!! I am very happy with the way it looks and I know my electricity bill will reflect it. Thank you so much Tyler and Mike's Mobile."
-          },
-          {
-            "author": "Sonya W.",
-            "link": "https://goo.gl/maps/ygCzY3uketcsxubX8",
-            "review": "I am very happy with my new sun screens. Tyler is a true professional who took the time to explain the installation process including timeliness along with the care of the screens. Eric and his trainee (I can’t remember his name) were great at providing the estimate and recommendations based on our needs. Thank you guys!!!!"
-          },
-          {
-            "author": "Thereasa G",
-            "link": "https://goo.gl/maps/G73hcPbKYfLhByqj8",
-            "review": "My screen door is awesome and Mike's Mobile Screen & Chimney Service was incredible. They were both professional and personable and I love my door."
           }
         ]
       }
@@ -845,11 +628,64 @@
     "region": "San Jose",
     "slug": "san-jose",
     "phone": "(408) 495-3728",
+    "truckImg": "/assets/images/regional/sanjoseTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in San Jose. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
+    "reviews": [
+      {
+        "name": "Arthur M.",
+        "dataReviewId": "qemNJxTwYHThfzVDRIHEhw",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=AVZrp33aeKPdrHxqYe4faw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-san-jose-2?hrid=qemNJxTwYHThfzVDRIHEhw",
+        "link3": "https://www.yelp.com/biz/8p9Dnj30_s-ldPIONkj64A"
+      },
+      {
+        "name": "Virginia C.",
+        "dataReviewId": "YSHt4WKUls_t2rPXCDqSsw",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=1ta0_Rt4-LnQzaylYawvIg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-san-jose-2?hrid=YSHt4WKUls_t2rPXCDqSsw",
+        "link3": "https://www.yelp.com/biz/8p9Dnj30_s-ldPIONkj64A"
+      },
+      {
+        "name": "Mike R.",
+        "dataReviewId": "_TiClMOdx06HJ6IFlZzF5g",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=oQFYSx_rodqdTIxDoDxvqA",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-san-jose-2?hrid=_TiClMOdx06HJ6IFlZzF5g",
+        "link3": "https://www.yelp.com/biz/8p9Dnj30_s-ldPIONkj64A"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.34243,
+        "longitude": -121.93249,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 37.5523, "lng": -122.23861 },
+              { "lat": 37.45989, "lng": -121.85751 },
+              { "lat": 37.40809, "lng": -121.74559 },
+              { "lat": 37.21285, "lng": -121.58834 },
+              { "lat": 37.07419, "lng": -121.54553 },
+              { "lat": 37.03966, "lng": -121.63343 },
+              { "lat": 37.29658, "lng": -122.16322 },
+              { "lat": 37.46846, "lng": -122.29277 },
+              { "lat": 37.53052, "lng": -122.2702 },
+              { "lat": 37.5523, "lng": -122.23861 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "SanJoseRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in San Jose. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
         "cards": [
           {
             "title": "Inspections",
@@ -875,29 +711,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Alison B. from Berkeley, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=Akfa01AE_5Y3fxNEgSn0Zg",
-            "review": "William and Daniel were superb! Efficient, informative and impeccably professional. We had an inspection done and came out knowing a lot more about the condition of our chimney. The company also provides a report with pictures and an itemized estimate for repairs."
-          },
-          {
-            "author": "Luis R. from Belmont, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=IB7s_HrZ9DyylMdeK3bGxQ",
-            "review": "Mike mobile did an amazing job checking my chimney and providing me details on what they were going to do. Not only was he on time, but he answered all my questions. The tech gave me an overview of what will need to get done in the near future. I recommend them no doubt. Stop looking at other companies, they are the best and well profession."
-          },
-          {
-            "author": "H L. from Union City, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=5m20Dys0rFhlm5L8Uyw5gg",
-            "review": "Just had Mike's mobile screen & Chimney service install a gas fireplace log set.  These guys did a great job.  Enjoying our fireplace now after 17 years in this house for the first time.  If I known it was this easy, I should have call them 17 years ago.  Thanks guys! Client from Union City. PS.  Would highly recommend them to my family and friends"
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile is your one-stop shop in the Bay Area for all your home window and door security needs.",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -923,29 +741,11 @@
             "title": "Vista Fixed Security Window Screens",
             "text": "Vista Fixed Security Screens are an ideal solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a concealed fastening system and blends with any architecture. Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          },
-          {
-            "author": "Jane C. from Hayward, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=qWe4y5_toI-0fqWIKqifpQ",
-            "review": "My new security screen door was installed yesterday and I am SO PLEASED with it.   It's neat that I can see out and people outside can't see in.   Now I'll have a cooler house because I can open the front door (and the cat won't get out) and I'll feel a lot more secure.  I was a bit skeptical at first, however the company was so highly recommended I through I would give it a try.   The wait for the door was a tad long I originally thought, then I reminded myself it was a custom door, virtually hand made just for me!!     The color matched perfectly!   Customer service was top notch.  I highly recommend!!   Now for the chimney!!"
-          },
-          {
-            "author": "Thomas R.",
-            "link": "https://goo.gl/maps/uRBNhRsDFsdNfFaz7",
-            "review": "Mike Mobile is the best!! Quality all the way!! We called Mikes and Mike personally came out and we felt he was completely honest with us and gave us great options! No rush and no pressure. We wanted an upscale quality security door that looked good with great curb appeal!! We wanted the color of the door to match the decor of our home! We got exactly what we wanted. It took about 4 weeks to arrive but thats expected because it’s custom made!! This is a heavy duty heavy screen mesh door that makes no noise!! Lock and key installed as well. This is not a light weight clanging screen door for a couple hundred dollars and if that’s what your looking for? Then I’m certain these are not the guys you want. This is a quality made door that is quiet and constructed very well. The installation techs of Roderick and Brent were great!! They made the final cuts on site!! This door is very impressive. I am completely sold on these guys and we have additional projects we will be reaching out to Mike to help us with. We are beyond happy and 5 stars is not enough for the job from start to finish."
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Mike's Mobile is San Jose's premier window and door screen contractor! Most screens are built on-site for that perfect fit!",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -977,7 +777,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifstyle Garage Screen Doors converts your garage into a cool, bright, pest-free living space!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "text": "There is nothing like the relaxation and comfort a motorized retractable awning brings to your deck or patio."
@@ -986,66 +792,87 @@
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll Retractacble Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Ai C. from Standford, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=wp-GBvKDi0QEhhtcXjv4iw",
-            "review": "I called up 5 difference screen services for quotes, and Mike's was the best! First of all, I love their flat rate, which turned out to be the most competitive of all. It was also the least hassle, because I got the quote immediately over the phone without having to schedule a consultation visit. Finally, Mike's team was courteous, professional, and finished the job early. We love our new screens so much, and are so happy to recommend Mike's service anytime. Thanks Mike's!"
-          },
-          {
-            "author": "Jay J.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=lpm5tcThpyCsiXXwtyiABw",
-            "review": "This company is great and Hank who came out to install my screen was amazing and provided excellent customer service. The quality and professionalism installation is worth spending the money."
-          },
-          {
-            "author": "Melanie W.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=HcDuCWctMwFZuosPj0dOqw",
-            "review": "Highly recommended! Mike was prompt, professional, and did an excellent job. My other screen doors are jealous of the new one Mike built for me!!"
-          }
         ]
       }
     ],
     "areas": [
-      "Alamitos",
-      "Alum Rock",
-      "Alviso",
-      "Atherton",
-      "Cambrian Park",
-      "Campbell",
-      "Coyote",
-      "Cupertino",
-      "Emerald Hills",
-      "Evergreen",
-      "Los Altos Hills",
-      "Los Gatos",
-      "Loyola",
-      "Madrone",
-      "Menlo Park",
-      "Milpitas",
-      "Morgan Hill",
-      "Mountain View",
-      "Palo Alto",
-      "Permanente",
-      "Redwood City",
-      "Robertsville",
-      "San Martin",
-      "Santa Clara",
-      "Saratoga",
-      "Stanford",
-      "Sunnyvale",
-      "Woodside"
+      "Bay Point",
+      "Bethel Island",
+      "Brentwood",
+      "Byron",
+      "Clayton",
+      "Contra Costa Centre",
+      "Discovery Bay",
+      "Knightsen",
+      "Oakley",
+      "Pittsburg",
+      "Shell Ridge"
     ]
   },
   {
     "region": "Richmond",
     "slug": "richmond",
     "phone": "(510) 230-2555",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Richmond. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
+    "reviews": [
+      {
+        "name": "Cheena A.",
+        "dataReviewId": "cVbi4EcTi86pCtVcrGdeaQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=IFa11o38HIk9nsA-0qy5Pg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=cVbi4EcTi86pCtVcrGdeaQ",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      },
+      {
+        "name": "Judith F.",
+        "dataReviewId": "m5qZ8K4MU2xTLZ35WjT4sg",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=IL4HWMYkXhWVwAnc67qbqA",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=m5qZ8K4MU2xTLZ35WjT4sg",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      },
+      {
+        "name": "Global T.",
+        "dataReviewId": "9kR9HIaCjB1a7aTY5InFiA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=P-6XcpKJHntgroeP62MRGg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=9kR9HIaCjB1a7aTY5InFiA",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.95532,
+        "longitude": -122.21892,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.05803, "lng": -122.24525 },
+              { "lat": 38.05773, "lng": -122.21826 },
+              { "lat": 38.03304, "lng": -122.07659 },
+              { "lat": 37.9345, "lng": -121.98438 },
+              { "lat": 37.92297, "lng": -121.97999 },
+              { "lat": 37.87197, "lng": -122.01031 },
+              { "lat": 37.84242, "lng": -122.04969 },
+              { "lat": 37.84716, "lng": -122.30082 },
+              { "lat": 37.85951, "lng": -122.32725 },
+              { "lat": 37.92942, "lng": -122.4324 },
+              { "lat": 38.01176, "lng": -122.40349 },
+              { "lat": 38.05803, "lng": -122.24525 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "SanJoseRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike’s Mobile Screen & Chimney Service is the premier chimney sweep company in Richmond. We offer a full range of chimney services to our customers including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! According to the National Fire Protection Agency (Source: NFPA), a yearly inspection and cleaning should be done to maintain the fireplace in your home. A popular rule is that a cleaning is needed for every cord of wood burned or at least on an annual basis.",
         "cards": [
           {
             "title": "Inspections",
@@ -1071,39 +898,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Michael T. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=yMkPWqLvpQSsWSadgdm8ug",
-            "review": "Today I had my dryer vent cleaned out for the first time in years! Mike's came out to do the service, and did one hell of a job ! While here I had them measure and quote on two of their beautiful screen doors..and a remote awning for the sun side of the house..over the sliding door. With that...They will be returning on Friday..to sweep and inspect the chimney...I had a recent complaint from Santa!"
-          },
-          {
-            "author": "Proberta G. from San Francisco, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7LklQbdN30LJYPH_UZlBtw",
-            "review": "Outstanding customer service. They scheduled a service even though it was short notice, they showed up on time, the protected the area around the fireplace and left absolutely no mess behind. They were extremely courteous and knowledgeable, and the price for a chimney cleaning and inspection was very reasonable. Highly recommend."
-          },
-          {
-            "author": "Daniel B. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=HwyERC_MdKYZWQsLsZp6yg",
-            "review": "Prompt and very efficient. Tim was very friendly. I had needed a dead squirrel pulled out of my chimney and a new screen put on the top of the chimney."
-          },
-          {
-            "author": "J.T. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=M-hIMdq7wU3cyyqKFBGsTw",
-            "review": "If you're looking for someone to assess and clean out your chimney, look no further! Mike's Mobile Screen and Chimney Service was quick to respond to my inquiries ( we have a Sweedish fireplace, not your typical layout) and they were the most reasonably priced for the service provided (which included a free level 1 inspection). During the booking process, Mike's Mobile Screen and Chimney Service was on top of communication and on the day of service, Ryan kindly called me to let me know he was running late. Ryan was quick and efficient, he got the job done not leaving a trace of dirt in my place! I highly recommend this service, you won't regret it and you'll get every penny's worth."
-          },
-          {
-            "author": "Jason A. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7s2PQOjuovJnQQM-XeceYA",
-            "review": "Mike and team responded quickly via Yelp for a price quote and to schedule and appointment. His guys showed up early and were diligent in their work cleaning my old chimney. Would definitely use them again."
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile is your one-stop shop in the East Bay for all your home window and door security needs. Whether it's our security doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -1129,34 +928,11 @@
             "title": "Vista Fixed Security Window Screens",
             "text": "Vista Fixed Security Screens are an ideal solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a concealed fastening system and blends with any architecture. Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Kim S. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=uU48yyn0UcSSSaKPeBv8RQ",
-            "review": "Super efficient, polite and knowledgeable in their field! Brought in their own expert for our special windows, and made the screens onsite. Thanks, Daniel!"
-          },
-          {
-            "author": "Jane C. from Hayward, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=qWe4y5_toI-0fqWIKqifpQ",
-            "review": "My new security screen door was installed yesterday and I am SO PLEASED with it. It's neat that I can see out and people outside can't see in. Now I'll have a cooler house because I can open the front door (and the cat won't get out) and I'll feel a lot more secure. I was a bit skeptical at first, however the company was so highly recommended I through I would give it a try. The wait for the door was a tad long I originally thought, then I reminded myself it was a custom door, virtually hand made just for me!! The color matched perfectly! Customer service was top notch. I highly recommend!! Now for the chimney!!"
-          },
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          },
-          {
-            "author": "J.F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=ZnXGO7Je2iNBd4RYo-gMeg",
-            "review": "This company is top-notch. Tyler and Eric came out to measure to calculate a quote. They were professional and knew their products. After I received the quote, I was surprised at the cost for the Tru View front door and True-Frame sliding doors. So I drove out to the showroom in Sacramento to see the product. The doors are high quality and nice looking. Dameon and Juan installed the doors efficiently and they look perfect. Every employee I dealt with were professional and seems to like their job. I hope Mike is taking care of them because your employees take care of your customers!"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Mike's Mobile is Richmond's premier window and door screen contractor! Most screens are built on-site for that perfect fit!",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -1185,7 +961,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifstyle Garage Screen Doors converts your garage into a cool, bright, pest-free living space!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "text": "There is nothing like the relaxation and comfort a motorized retractable awning brings to your deck or patio."
@@ -1193,28 +975,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll Retractacble Screen provides you with total vertical sun control of your covered outdoor space. Available in motorized or manual options, the Sunroll can be customized to fit your unique space with widths up to 24′ and heights up to 12′."
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Rachel K. from Fremont, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=9LrlLQluBK1NwgQ5Cbgsrw",
-            "review": "Lance and Luis were AMAZING! They attached a screen that I ordered on amazon and were SUPER professional, and easily figured it out. It really was the best service! Thank you!"
-          },
-          {
-            "author": "Roger F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=2UEQJj7gBXgM8IoA31gdww",
-            "review": "Chris H from Mike's Mobile is now a new friend! Chris came to my home to work on a couple of screens. He introduced himself and he started working right away. It was like 105F in Pittsburg on Saturday, but he was fast and did high quality work. He suggested different ways to help me save money:  I wanted a new screen because the frame was so mangled, but he said no, let me try to repair your current screen first to save you money. His repair made the frame look better than the other ones I had on the house. He also helped me re-orientate the screws on the sliding door so it could be adjusted on the outside because the installer had installed it incorrectly. Definitely get Chris H to come to your house to do the screen. You won't regret it. In addition, the rest of Mike's Mobile team is also top notch. They responded to my request for quote even on July 4th. Who has time for customers on July 4th?  Mike's Mobile does! I couldn't be happier!"
-          },
-          {
-            "author": "Sharon K. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=Sd3QiIG1A7cEdruibK_BVA",
-            "review": "I love my retractable screen door! You can barely see it, so that you can have a great unobstructed view out. It is really a great minimalist design. The workmanship was great, and because I referred another person who purchased a screen door, they threw in a free lock on the door."
-          },
-          {
-            "author": "David R. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=MPXp-elrLvaXQg855GlGjg",
-            "review": "A+, truly, for sliding balcony screen door re-screen & repair. There was an issue w/ the first visit but I'm still giving these guys five stars. Candy for her kindness w/ the initial scheduling of service. Apologies, but I don't remember the 2nd woman I spoke w/ who promptly scheduled a follow up visit. And Tyler, the technician who expertly resolved the issue mentioned earlier. Outstanding customer service/communication, skilled technicians, and affordable/honest pricing. Thank you."
           }
         ]
       }
@@ -1247,11 +1007,63 @@
     "region": "Walnut Creek",
     "slug": "danville-and-walnut-creek-south-bay",
     "phone": "(925) 443-0700",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is a full service chimney sweep company in Walnut Creek, California. We service the entire Counties of Contra Costa as well as Alameda. You will get top-notch service no matter the size of the job. Chimney cleanings, inspections, repairs and accessories are no problem!",
+    "reviews": [
+      {
+        "name": "Carol L.",
+        "dataReviewId": "TO03vhX-tLG04L5WvYrItw",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QtDtXLWiTlHDUPRSmWDN1g",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-walnut-creek?hrid=TO03vhX-tLG04L5WvYrItw",
+        "link3": "https://www.yelp.com/biz/XT7b3XE4yNBwv9ZDJLVm4Q"
+      },
+      {
+        "name": "Proberta G.",
+        "dataReviewId": "7LklQbdN30LJYPH_UZlBtw",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=cUYKP-nsN6o7Qww-u9awHg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7LklQbdN30LJYPH_UZlBtw",
+        "link3": "https://www.yelp.com/biz/JB6L1DF0e8FVgHvPUf9RfA"
+      },
+      {
+        "name": "H L.",
+        "dataReviewId": "5m20Dys0rFhlm5L8Uyw5gg",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=d-2F9NLNWdrzA32pdR5H6Q",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=5m20Dys0rFhlm5L8Uyw5gg",
+        "link3": "https://www.yelp.com/biz/JB6L1DF0e8FVgHvPUf9RfA"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.93534,
+        "longitude": -122.04634,
+        "zoom": 10,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.04086, "lng": -122.09712 },
+              { "lat": 38.04613, "lng": -122.01951 },
+              { "lat": 37.89362, "lng": -121.85268 },
+              { "lat": 37.84104, "lng": -121.91928 },
+              { "lat": 37.80741, "lng": -122.03704 },
+              { "lat": 37.8714, "lng": -122.15755 },
+              { "lat": 37.88495, "lng": -122.16853 },
+              { "lat": 38.02517, "lng": -122.16441 },
+              { "lat": 38.04086, "lng": -122.09712 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "walnutcreekRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike’s Mobile Screen & Chimney Service is a full service chimney sweep company in Walnut Creek, California. We service the entire Counties of Contra Costa as well as Alameda. You will get top-notch service no matter the size of the job. Chimney cleanings, inspections, repairs and accessories are no problem!",
         "cards": [
           {
             "title": "Inspections",
@@ -1281,39 +1093,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Mike's Mobile can help with your annual dryer vent cleaning in the Danville / Walnut Creek area."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Michael T. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=yMkPWqLvpQSsWSadgdm8ug",
-            "review": "Today I had my dryer vent cleaned out for the first time in years! Mike's came out to do the service, and did one hell of a job ! While here I had them measure and quote on two of their beautiful screen doors..and a remote awning for the sun side of the house..over the sliding door. With that...They will be returning on Friday..to sweep and inspect the chimney...I had a recent complaint from Santa!"
-          },
-          {
-            "author": "Proberta G. from San Francisco, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7LklQbdN30LJYPH_UZlBtw",
-            "review": "Outstanding customer service. They scheduled a service even though it was short notice, they showed up on time, the protected the area around the fireplace and left absolutely no mess behind. They were extremely courteous and knowledgeable, and the price for a chimney cleaning and inspection was very reasonable. Highly recommend."
-          },
-          {
-            "author": "Daniel B. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=HwyERC_MdKYZWQsLsZp6yg",
-            "review": "Prompt and very efficient. Tim was very friendly. I had needed a dead squirrel pulled out of my chimney and a new screen put on the top of the chimney."
-          },
-          {
-            "author": "J.T. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=M-hIMdq7wU3cyyqKFBGsTw",
-            "review": "If you're looking for someone to assess and clean out your chimney, look no further! Mike's Mobile Screen and Chimney Service was quick to respond to my inquiries ( we have a Sweedish fireplace, not your typical layout) and they were the most reasonably priced for the service provided (which included a free level 1 inspection). During the booking process, Mike's Mobile Screen and Chimney Service was on top of communication and on the day of service, Ryan kindly called me to let me know he was running late. Ryan was quick and efficient, he got the job done not leaving a trace of dirt in my place! I highly recommend this service, you won't regret it and you'll get every penny's worth."
-          },
-          {
-            "author": "Jason A. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7s2PQOjuovJnQQM-XeceYA",
-            "review": "Mike and team responded quickly via Yelp for a price quote and to schedule and appointment. His guys showed up early and were diligent in their work cleaning my old chimney. Would definitely use them again."
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile has been the premier contractor for security doors and window security products in the Danville and Walnut Creek area for over 16 years! Check out our stainless mesh products- tru-view, viewguard, sliding security doors and Vista security window screens for premium protection without the bars!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -1342,34 +1126,11 @@
             "image": "/assets/images/security/guarda-casement/1.png",
             "text": "Mike's Mobile fixed security screens look like regular screens but offer premium security, good looks and 60% UV blockage"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Kim S. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=uU48yyn0UcSSSaKPeBv8RQ",
-            "review": "Super efficient, polite and knowledgeable in their field! Brought in their own expert for our special windows, and made the screens onsite. Thanks, Daniel!"
-          },
-          {
-            "author": "Jane C. from Hayward, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=qWe4y5_toI-0fqWIKqifpQ",
-            "review": "My new security screen door was installed yesterday and I am SO PLEASED with it. It's neat that I can see out and people outside can't see in. Now I'll have a cooler house because I can open the front door (and the cat won't get out) and I'll feel a lot more secure. I was a bit skeptical at first, however the company was so highly recommended I through I would give it a try. The wait for the door was a tad long I originally thought, then I reminded myself it was a custom door, virtually hand made just for me!! The color matched perfectly! Customer service was top notch. I highly recommend!! Now for the chimney!!"
-          },
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          },
-          {
-            "author": "J.F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=ZnXGO7Je2iNBd4RYo-gMeg",
-            "review": "This company is top-notch. Tyler and Eric came out to measure to calculate a quote. They were professional and knew their products. After I received the quote, I was surprised at the cost for the Tru View front door and True-Frame sliding doors. So I drove out to the showroom in Sacramento to see the product. The doors are high quality and nice looking. Dameon and Juan installed the doors efficiently and they look perfect. Every employee I dealt with were professional and seems to like their job. I hope Mike is taking care of them because your employees take care of your customers!"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Our licensed and insured team of professionals at Mike's Mobile can construct and install new screen doors, window screens, retractable awnings or drop rolls to help your home or commercial property look its best. We use only the best products along with the most trusted brand names in the industry. Adding new window and door screens not only helps improve the look of your property, it also improves its value.",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -1400,7 +1161,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifestyle Garage Screen Door turns your garage into an airy and pest-free space in a snap!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/walnut-creek-awnings.jpg",
@@ -1409,28 +1176,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "With the press of a button your new motorized drop roll sunscreen can add comfort and class to your home!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Rachel K. from Fremont, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=9LrlLQluBK1NwgQ5Cbgsrw",
-            "review": "Lance and Luis were AMAZING! They attached a screen that I ordered on amazon and were SUPER professional, and easily figured it out. It really was the best service! Thank you!"
-          },
-          {
-            "author": "Roger F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=2UEQJj7gBXgM8IoA31gdww",
-            "review": "Chris H from Mike's Mobile is now a new friend! Chris came to my home to work on a couple of screens. He introduced himself and he started working right away. It was like 105F in Pittsburg on Saturday, but he was fast and did high quality work. He suggested different ways to help me save money:  I wanted a new screen because the frame was so mangled, but he said no, let me try to repair your current screen first to save you money. His repair made the frame look better than the other ones I had on the house. He also helped me re-orientate the screws on the sliding door so it could be adjusted on the outside because the installer had installed it incorrectly. Definitely get Chris H to come to your house to do the screen. You won't regret it. In addition, the rest of Mike's Mobile team is also top notch. They responded to my request for quote even on July 4th. Who has time for customers on July 4th?  Mike's Mobile does! I couldn't be happier!"
-          },
-          {
-            "author": "Sharon K. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=Sd3QiIG1A7cEdruibK_BVA",
-            "review": "I love my retractable screen door! You can barely see it, so that you can have a great unobstructed view out. It is really a great minimalist design. The workmanship was great, and because I referred another person who purchased a screen door, they threw in a free lock on the door."
-          },
-          {
-            "author": "David R. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=MPXp-elrLvaXQg855GlGjg",
-            "review": "A+, truly, for sliding balcony screen door re-screen & repair. There was an issue w/ the first visit but I'm still giving these guys five stars. Candy for her kindness w/ the initial scheduling of service. Apologies, but I don't remember the 2nd woman I spoke w/ who promptly scheduled a follow up visit. And Tyler, the technician who expertly resolved the issue mentioned earlier. Outstanding customer service/communication, skilled technicians, and affordable/honest pricing. Thank you."
           }
         ]
       }
@@ -1464,11 +1209,64 @@
     "region": "Oakland",
     "slug": "oakland-north-bay",
     "phone": "(510) 277-5694",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike's Mobile is Oakland's premier, full service chimney company. If there are issues regarding your chimney or fireplace we can also do any repairs! We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
+    "reviews": [
+      {
+        "name": "Judith F.",
+        "dataReviewId": "m5qZ8K4MU2xTLZ35WjT4sg",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=IL4HWMYkXhWVwAnc67qbqA",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=m5qZ8K4MU2xTLZ35WjT4sg",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      },
+      {
+        "name": "Cheena A.",
+        "dataReviewId": "cVbi4EcTi86pCtVcrGdeaQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=IFa11o38HIk9nsA-0qy5Pg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=cVbi4EcTi86pCtVcrGdeaQ",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      },
+      {
+        "name": "Global T.",
+        "dataReviewId": "9kR9HIaCjB1a7aTY5InFiA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=P-6XcpKJHntgroeP62MRGg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-oakland?hrid=9kR9HIaCjB1a7aTY5InFiA",
+        "link3": "https://www.yelp.com/biz/_goKcTmOo6hePBa7SE_-HQ"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.8244,
+        "longitude": -122.21558,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 37.90663, "lng": -122.27159 },
+              { "lat": 37.93932, "lng": -122.10135 },
+              { "lat": 37.90583, "lng": -122.08067 },
+              { "lat": 37.85789, "lng": -122.07935 },
+              { "lat": 37.73458, "lng": -122.11648 },
+              { "lat": 37.69887, "lng": -122.21544 },
+              { "lat": 37.78001, "lng": -122.32367 },
+              { "lat": 37.80548, "lng": -122.34273 },
+              { "lat": 37.87431, "lng": -122.32431 },
+              { "lat": 37.90663, "lng": -122.27159 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "OaklandRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike's Mobile is Oakland's premier, full service chimney company. If there are issues regarding your chimney or fireplace we can also do any repairs! We can take any size job from start to finish. We are licensed, bonded and insured to provide peace of mind.",
         "cards": [
           {
             "title": "Inspections",
@@ -1498,39 +1296,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "You probably clean your dryer’s lint trap, but did you know lint and other debris get past that screen and clogs the dryer vent itself? Clogged dryer vents can cause many issues including fire, carbon monoxide accumulation, extra wear to clothing, excessive energy use, and mold growth."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Michael T. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=yMkPWqLvpQSsWSadgdm8ug",
-            "review": "Today I had my dryer vent cleaned out for the first time in years! Mike's came out to do the service, and did one hell of a job ! While here I had them measure and quote on two of their beautiful screen doors..and a remote awning for the sun side of the house..over the sliding door. With that...They will be returning on Friday..to sweep and inspect the chimney...I had a recent complaint from Santa!"
-          },
-          {
-            "author": "Proberta G. from San Francisco, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7LklQbdN30LJYPH_UZlBtw",
-            "review": "Outstanding customer service. They scheduled a service even though it was short notice, they showed up on time, the protected the area around the fireplace and left absolutely no mess behind. They were extremely courteous and knowledgeable, and the price for a chimney cleaning and inspection was very reasonable. Highly recommend."
-          },
-          {
-            "author": "Daniel B. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=HwyERC_MdKYZWQsLsZp6yg",
-            "review": "Prompt and very efficient. Tim was very friendly. I had needed a dead squirrel pulled out of my chimney and a new screen put on the top of the chimney."
-          },
-          {
-            "author": "J.T. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=M-hIMdq7wU3cyyqKFBGsTw",
-            "review": "If you're looking for someone to assess and clean out your chimney, look no further! Mike's Mobile Screen and Chimney Service was quick to respond to my inquiries ( we have a Sweedish fireplace, not your typical layout) and they were the most reasonably priced for the service provided (which included a free level 1 inspection). During the booking process, Mike's Mobile Screen and Chimney Service was on top of communication and on the day of service, Ryan kindly called me to let me know he was running late. Ryan was quick and efficient, he got the job done not leaving a trace of dirt in my place! I highly recommend this service, you won't regret it and you'll get every penny's worth."
-          },
-          {
-            "author": "Jason A. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=7s2PQOjuovJnQQM-XeceYA",
-            "review": "Mike and team responded quickly via Yelp for a price quote and to schedule and appointment. His guys showed up early and were diligent in their work cleaning my old chimney. Would definitely use them again."
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile is Oakland's premier door and window security expert. Whether it's our security doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products for the ultimate in clean looks and contemporary security, we have you covered! Call us today for a FREE security door quote!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -1559,34 +1329,11 @@
             "image": "/assets/images/security/guarda-casement/1.png",
             "text": "Mike's Mobile fixed Vista security screens feature a high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Kim S. from Walnut Creek, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=uU48yyn0UcSSSaKPeBv8RQ",
-            "review": "Super efficient, polite and knowledgeable in their field! Brought in their own expert for our special windows, and made the screens onsite. Thanks, Daniel!"
-          },
-          {
-            "author": "Jane C. from Hayward, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=qWe4y5_toI-0fqWIKqifpQ",
-            "review": "My new security screen door was installed yesterday and I am SO PLEASED with it. It's neat that I can see out and people outside can't see in. Now I'll have a cooler house because I can open the front door (and the cat won't get out) and I'll feel a lot more secure. I was a bit skeptical at first, however the company was so highly recommended I through I would give it a try. The wait for the door was a tad long I originally thought, then I reminded myself it was a custom door, virtually hand made just for me!! The color matched perfectly! Customer service was top notch. I highly recommend!! Now for the chimney!!"
-          },
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          },
-          {
-            "author": "J.F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=ZnXGO7Je2iNBd4RYo-gMeg",
-            "review": "This company is top-notch. Tyler and Eric came out to measure to calculate a quote. They were professional and knew their products. After I received the quote, I was surprised at the cost for the Tru View front door and True-Frame sliding doors. So I drove out to the showroom in Sacramento to see the product. The doors are high quality and nice looking. Dameon and Juan installed the doors efficiently and they look perfect. Every employee I dealt with were professional and seems to like their job. I hope Mike is taking care of them because your employees take care of your customers!"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Mike's Mobile Screen and Chimney Service is Oakland's premier window and door screen contractor. Whether it's screen repair, solar screens, sliding screen doors, swinging screen doors, retractable screen doors, pet doors, retractable patio awnings or drop roll sunscreens, Mike's Mobile has you covered!",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -1617,7 +1364,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "Need more living area in your home? Turn your garage into a cool and bright room with a Lifestyle Garage Screen Door"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/stockton-awning.jpg",
@@ -1626,28 +1379,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "There when you need it and gone when you don't, our Sunroll sunscreens offer the perfect solution to beat the heat!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Rachel K. from Fremont, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=9LrlLQluBK1NwgQ5Cbgsrw",
-            "review": "Lance and Luis were AMAZING! They attached a screen that I ordered on amazon and were SUPER professional, and easily figured it out. It really was the best service! Thank you!"
-          },
-          {
-            "author": "Roger F. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=2UEQJj7gBXgM8IoA31gdww",
-            "review": "Chris H from Mike's Mobile is now a new friend! Chris came to my home to work on a couple of screens. He introduced himself and he started working right away. It was like 105F in Pittsburg on Saturday, but he was fast and did high quality work. He suggested different ways to help me save money:  I wanted a new screen because the frame was so mangled, but he said no, let me try to repair your current screen first to save you money. His repair made the frame look better than the other ones I had on the house. He also helped me re-orientate the screws on the sliding door so it could be adjusted on the outside because the installer had installed it incorrectly. Definitely get Chris H to come to your house to do the screen. You won't regret it. In addition, the rest of Mike's Mobile team is also top notch. They responded to my request for quote even on July 4th. Who has time for customers on July 4th?  Mike's Mobile does! I couldn't be happier!"
-          },
-          {
-            "author": "Sharon K. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=Sd3QiIG1A7cEdruibK_BVA",
-            "review": "I love my retractable screen door! You can barely see it, so that you can have a great unobstructed view out. It is really a great minimalist design. The workmanship was great, and because I referred another person who purchased a screen door, they threw in a free lock on the door."
-          },
-          {
-            "author": "David R. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=MPXp-elrLvaXQg855GlGjg",
-            "review": "A+, truly, for sliding balcony screen door re-screen & repair. There was an issue w/ the first visit but I'm still giving these guys five stars. Candy for her kindness w/ the initial scheduling of service. Apologies, but I don't remember the 2nd woman I spoke w/ who promptly scheduled a follow up visit. And Tyler, the technician who expertly resolved the issue mentioned earlier. Outstanding customer service/communication, skilled technicians, and affordable/honest pricing. Thank you."
           }
         ]
       }
@@ -1691,11 +1422,62 @@
     "region": "Modesto",
     "slug": "modesto",
     "phone": "(209) 957-9700",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Whether you're a real estate agent, prospective homebuyer, property manager or new homeowner, Mike's Mobile Chimney Service can give you peace of mind when it comes to your fireplace.",
+    "reviews": [
+      {
+        "name": "Lisa S.",
+        "dataReviewId": "KuMR8lJ1KHDR1cdox-rptg",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=3o22U_AyOOvKRDkPO8DLvw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=KuMR8lJ1KHDR1cdox-rptg",
+        "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw"
+      },
+      {
+        "name": "Dennis H.",
+        "dataReviewId": "hMWmvMU6OF7rfVlqft5ZlQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=9Vj6fmAKk65QOytEIB5_ZQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=hMWmvMU6OF7rfVlqft5ZlQ",
+        "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw"
+      },
+      {
+        "name": "Terry P.",
+        "dataReviewId": "32ewxErKK7CeN9Jx0aceiw",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=B6zUIbBdvurCdVTAwwwaiw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=32ewxErKK7CeN9Jx0aceiw",
+        "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.6665,
+        "longitude": -120.95559,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 37.89651, "lng": -121.19078 },
+              { "lat": 37.81987, "lng": -120.67588 },
+              { "lat": 37.66369, "lng": -120.4667 },
+              { "lat": 37.46593, "lng": -120.83067 },
+              { "lat": 37.40185, "lng": -121.25943 },
+              { "lat": 37.76767, "lng": -121.31531 },
+              { "lat": 37.88073, "lng": -121.26614 },
+              { "lat": 37.89651, "lng": -121.19078 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "SanJoseRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Whether you're a real estate agent, prospective homebuyer, property manager or new homeowner, Mike's Mobile Chimney Service can give you peace of mind when it comes to your fireplace.",
         "cards": [
           {
             "title": "Inspections",
@@ -1725,34 +1507,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Our dryer vent cleaning removes lint, clogs and debris to ensure proper airflow. Mike's Mobile's cleaning services not only protect you from hazards such as fire and carbon monoxide buildup, but also provide many added benefits such as energy savings, shorter drying cycles and less damage to clothing."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Dennis H. from Gustine, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=hMWmvMU6OF7rfVlqft5ZlQ",
-            "review": "Very professional, they did the work first time and on time. Our tech Chris completed a minor repair inspected and completed his work in clean and professional manor. I would highly recommend Chris for retention and promotion and highly recommend Mikes Mobile should you need your chimney cleaned."
-          },
-          {
-            "author": "Michelle V.",
-            "link": "https://goo.gl/maps/KfT3KAiWoiTkHXAf6",
-            "review": "I was very impressed with Damian, of Mike's Mobile Screen and Chimney Service (I had their chimney sweep service). Damian was very polite and conscientious of my floors and furniture (he wore shoe coverings and used tarps around the fireplace). Damian explained the cleaning and inspection process prior to starting his work, and then he followed up with an email explaining the results of the inspection (the report included pictures). Damian found one needed repair, but was in no way pushy to have his company complete that repair. He simply provided me with an estimate should I decide to have Mike's Mobile do the repair. The price of the chimney sweep service seemed about average, and I was able to schedule an appointment with Mike's Mobile much sooner than I could with other Chimney Sweeps in the area. I would highly recommend Mikes Mobile Screen and Chimney Service."
-          },
-          {
-            "author": "Laura W.",
-            "link": "https://goo.gl/maps/Q2df2qux93BRdQ2C8",
-            "review": "Very happy that I chose Mike's Mobile Screen & Chimney Service to clean my chimney. Ryan, the technician, was professional and friendly, thorough, and very helpful with advice for smart wood burning. He even provided me a brochure about safe burning in my wood stove. Thanks so much! I highly recommend using Mike's Mobile Screen & Chimney Service!"
-          },
-          {
-            "author": "Genevieve O.",
-            "link": "https://goo.gl/maps/ZetwYfKaVqXXwfj6A",
-            "review": "Daniel came to our house today to inspect and clean our chimney and it was a great experience. He was professional and thorough and explained everything that we need to keep our fireplace in top shape. I will definitely be using Mike's Mobile Screen & Chimney in the future and highly recommend!”"
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "If you're looking for security doors or window security products in the Modesto area, you've come to the right place! Mike's Mobile has a full line of security products including our NEW stainless steel mesh products that offer security without the bars! Call today for a FREE quote!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -1780,34 +1539,11 @@
             "title": "Vista Fixed Security Window Screens",
             "text": "Say no to the old school jail-bar iron bars over windows for security. The Vista fixed security screens offer better looks, better security and will never rust. On top of all that he stainless mesh cuts out 60% of UV rays to help your home stay cool for those hot Modesto summers."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Lisa S. from Manteca, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=KuMR8lJ1KHDR1cdox-rptg",
-            "review": "Our 2nd experience with Mike's Mobile today. Several months ago they installed a security screen door for us. It's been such a terrific addition to our home. Today, they installed a security sliding screen door after our puppy had pretty much destroyed the existing screen. The stainless steel mesh is definitely puppy proof! Thank you to Daniel and Jacob for being on time, friendly, professional, quick workers, and thorough. They even moved patio furniture out of the way and then back in place for me. Great job, quality materials and work, and a fair price. Don't hesitate to use them!"
-          },
-          {
-            "author": "Joyce W. from Stockton, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=6A_OdMlGViUljExFMdPOcg",
-            "review": "Excellent job from a Mikes Mobile. Daniel installed a security sliding screen door. He arrived on time, made sure everything worked and cleaned up. Thank you Daniel. I would highly recommend Mikes mobile screen."
-          },
-          {
-            "author": "Sally S. from Lodi, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=8p_qgCdbwQoAfdhJZxDCkg",
-            "review": "I had a custom security screen door made for my over-sized front door and 3 security sliders for my patio doors, and could not be happier! Their customer service was excellent from the beginning clear through to the end. Daniel and Estafan (sorry if I spelled wrong)  called when they were on their way, and arrived on time. They had some challenges with my front door, but were persistent and professional about it till they got it done. They also put 3 sliding security screen doors on my patios. I am extremely happy with the work that they did. They were super friendly and cleaned up everything before leaving. I would certainly recommend Mikes' Mobile to any one needing any of their services. I know I will call them in the future for any of my needs."
-          },
-          {
-            "author": "Linda I.",
-            "link": "https://goo.gl/maps/Hw25niUwKYaCRQrm9",
-            "review": "What a pleasure it was dealing with the employees at Mike's Mobile Screens. They were on time, knowledgeable, courteous, and passionate about our project. In a time when customer service is to say the least lacking. It was a pleasant surprise to deal with a company who made my opinion a priority! I sincerely encourage anyone to call Mike's Mobile Screens👍"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Most of the time, Modesto residents don’t think about the condition of their window and door screens. When they are in good repair, your screens keep problematic flying insects outside homes and offices when we have windows and doors open to catch a cool breeze. But when those screens fall into disrepair, you need the services of experts like Mike's Mobile Screens to come quickly to your aid!",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -1838,7 +1574,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "The Lifestyle Garage Screen Door will turn your garage into an airy and pest-free space in a snap!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/stockton-awning.jpg",
@@ -1847,33 +1589,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll Retractacble Screen provides you with sun protection, privacy and ease of use. A press of a button can transform your living space. "
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Mike L. from Tracy, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=xJpnpPUKGfmSy0k3DmAURw",
-            "review": "Great Job!, Nice and friendly people. Ordered our screen door. It was a custom size. took 3 weeks from order to install. Other companies said they could not do it or were a ridiculous amount. Very Happy Thank you!"
-          },
-          {
-            "author": "L T. from Modesto, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=QjpwuLaiVfwAUhFf__Pe7Q",
-            "review": "Several months ago I had them install security screen on one slider. They did a great job and I love the screen. I had them back to install security screens on two more sliders. Today they installed security screen on one back window. The screens all look great and the installers were very professional and did a great job."
-          },
-          {
-            "author": "Neva H.",
-            "link": "https://goo.gl/maps/XT8Kr2qfVqb4aQTi7",
-            "review": "Mike's Mobile Screen & Chimney Service is great! They provide detailed customer service and when something is wrong they make it right. We have had several screen and security doors put in our home. Daniel there is awesome and I would highly recommend you ask for him to do the installations!"
-          },
-          {
-            "author": "Laurie D",
-            "link": "https://goo.gl/maps/fYSbB9frdWyo2NzU9",
-            "review": "My tech, Daniel, was very pleasant. Was running early, so called ahead to see if it was OK to come early. He did a great job on the screens and even did a little repair work on the roller for the sliding door. Really appreciated his help - very courteous service. I've used Mike's Mobile a few times for different homes and have been pleased with service as well as quality of the work."
-          },
-          {
-            "author": "Paul P.",
-            "link": "https://goo.gl/maps/RB6isW781iZbz3v67",
-            "review": "Terrific from start to finish...setting up an appointment, getting an estimate, and installation were all a breeze. Thanks to Daniel for an efficient and friendly install - we love our new screen! Highly recommended."
           }
         ]
       }
@@ -1917,11 +1632,65 @@
     "region": "Napa",
     "slug": "napa-vallejo",
     "phone": "(707) 812-1935",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike's Mobile Chimney Service serves the areas of Vallejo and Napa. We are a full service company providing chimney sweeps, chimney inspections and chimney repairs. Our chimney repair service covers everything from small repairs to complete rebuilds.",
+    "reviews": [
+      {
+        "name": "Carol F.",
+        "dataReviewId": "ZKueonGJts8fc2NwqHiTzQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=8eo9QExFk3P30tBw364GzQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=ZKueonGJts8fc2NwqHiTzQ",
+        "link3": "https://www.yelp.com/biz/8BAJNBZxxfJJpORG-aCJ1w"
+      },
+      {
+        "name": "Bobby M.",
+        "dataReviewId": "3BnRNqW2uRthesW91NqM_g",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=lBIbRTRURdeUMUW4CTj8iw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=3BnRNqW2uRthesW91NqM_g",
+        "link3": "https://www.yelp.com/biz/8BAJNBZxxfJJpORG-aCJ1w"
+      },
+      {
+        "name": "Linda S.",
+        "dataReviewId": "iWQC9PDdHTbzgQoGkHuHSQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=egilqJ8n8rfUDSr964yFMw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=iWQC9PDdHTbzgQoGkHuHSQ",
+        "link3": "https://www.yelp.com/biz/8BAJNBZxxfJJpORG-aCJ1w"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.28057,
+        "longitude": -121.99462,
+        "zoom": 9.5,
+        "regions": [
+          {
+            "paths": [
+              { "lat": 38.55387, "lng": -121.99325 },
+              { "lat": 38.49827, "lng": -121.7968 },
+              { "lat": 38.36864, "lng": -121.50223 },
+              { "lat": 38.11333, "lng": -121.49443 },
+              { "lat": 38.08026, "lng": -121.73211 },
+              { "lat": 38.06037, "lng": -122.195 },
+              { "lat": 38.06625, "lng": -122.27572 },
+              { "lat": 38.12976, "lng": -122.35857 },
+              { "lat": 38.29828, "lng": -122.48216 },
+              { "lat": 38.41639, "lng": -122.36364 },
+              { "lat": 38.55387, "lng": -121.99325 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "napaRegion"
+          }
+        ]
+      }
+    ],
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike's Mobile Chimney Service serves the areas of Vallejo and Napa. We are a full service company providing chimney sweeps, chimney inspections and chimney repairs. Our chimney repair service covers everything from small repairs to complete rebuilds.",
         "cards": [
           {
             "title": "Inspections",
@@ -1951,29 +1720,11 @@
             "title": "Dryer Vent Cleaning",
             "text": "Need that dryer vent cleaning crossed off your honey-do list? Mike's Mobile can help! Call us today!"
           }
-        ],
-        "reviews": [
-          {
-            "author": "Gabriel O. from Vacaville, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=mK5NnsbtRzt9LAhpvokGPw",
-            "review": "5 Stars for Amber! I got my chimney cleaned and was very happy with the professional service she provided. She arrived on time, always a plus, and explained the cleaning process inside and on the roof and answered all of my questions. The area inside was kept clean throughout the entire process. She reviewed a detailed report with pictures at the end of the service and repair recommendations without being pushy. I won't hesitate to have Mike's clean my chimney in the future."
-          },
-          {
-            "author": "Ray A.",
-            "link": "https://goo.gl/maps/QKMrAMVcQt2obaDT8",
-            "review": "I highly recommend Mike's Mobile Screen & Chimney service if you're looking to have your chimney cleaned anytime soon. I called to make an appointment and they were able to come out in a couple of weeks after calling. They were booked up for prior dates, so that's a good sign of a company in my opinion. The technician, Daniel, arrived at 8:00 AM sharp! He greeted me with his name and a good handshake. He was very professional, explained what he was doing and was very clean and meticulous. The whole job took him approximately an hour and half to complete. I will definitely utilize Mike's Mobile Screen & Chimney services in the future."
-          },
-          {
-            "author": "Sandy G. from Suisun City, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=7IdrEJi7TC_qj2EB6WSCHQ",
-            "review": "I highly recommend Matt from Mike's Mobile for chimney & fireplace cleaning. Matt arrived promptly and did an excellent job cleaning my gas fireplace & left NO mess. I will definitely recommend them to my family & friends!"
-          }
         ]
       },
       {
         "slug": "security",
         "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile has been the premier contractor for security doors and window security products in the Napa and Vallejo area for over 16 years! We have full customizable security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -2002,29 +1753,11 @@
             "image": "/assets/images/security/guarda-casement/1.png",
             "text": "Mike's Mobile can help put your mind at ease by providing real security against burglars, vandals and forces of nature with our stainless steel security screens. The 'screen' is actually a high strength stainless steel mesh that offers the ultimate in protection while stopping bugs and cutting UV rays by 60%."
           }
-        ],
-        "reviews": [
-          {
-            "author": "Lacy B. from Santa Rosa, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=vzy5foiNq12zh6-ZGRL7sQ",
-            "review": "I had Mike's Mobile come out to install a security screen door a few months ago and I LOVE it! I just had them back out to install some solar screens for summer. They came out, showed me colors and built them right then! It hasn't been especially hot yet but I can already tell the difference. Excited to see how much I save on my energy bill this summer!"
-          },
-          {
-            "author": "Barry B. from Fairfield, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=zv7lXbqKM0fxVM9ij-K5fw",
-            "review": "Just had Tyler and Tim put in our new screen door! Very happy! It looks great! My wife wanted a security screen that did not look like a security screen and she loves it! It closes quiet too!"
-          },
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "At Mike's Mobile Screen & Chimney Service, your happiness comes first. We’ve provided premium window and door screens to the residents of Napa and Vallejo for more than 16 years. As screen experts, we have extensive experience in all facets of screen repair as well as the highest quality screen products on the market.",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -2055,7 +1788,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "Call Mike's Mobile today for the Lifestyle Garage Screen Door!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/awning-vacaville.jpg",
@@ -2064,28 +1803,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "Call Mike's Mobile today for a FREE quote on a retractable motorized drop roll sunscreen!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Meridith B.",
-            "link": "https://goo.gl/maps/4n3j4FgrNKhqtNA77",
-            "review": "Excellent service.It was easy to schedule the appointment, the technician called when he was on his way, he arrived on time, and he replaced my screen in about 20 minutes. I'd highly recommend this company."
-          },
-          {
-            "author": "Robin S.",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=lWFitBe1LC184YwoBLBHSA",
-            "review": "Tyler did an outstanding job! Screens look great and he arrived on time and finished before his estimated time. Thanks Tyler and Mike's Mobile Screen & Chimney."
-          },
-          {
-            "author": "Kris M. from Alameda, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=J3MNmEYnxL8a7j_up0D8hw",
-            "review": "I had been searching for a reliable company to redo all 5 of my sliding screen doors. My neighbor was thrilled with the work Mike's Mobile did on  her sliding screen doors so she passed on the contact information. The office staffer was polite, knowledgeable, and professional. Ryan kept me up to date on his arrival time and, while he finished within the expected time allotted, I never felt rushed or that he was cutting corners. I am now the proud owner of 5 spanking new sliding screen doors all with long-lasting metal wheels. Custom made and adjusted to a perfect fit! I highly recommend Mike's Mobile Screen. They are an impressive company."
-          },
-          {
-            "author": "Fern B.",
-            "link": "https://goo.gl/maps/jGsVm8QxMVnWiLuf9",
-            "review": "We have used Mike' s Mobile before for a screen for our sliding door. It was beautiful. And slides like a dream. So  this time we got another screen for our other sliding door. Manificent. And so much easier for my husband who has medical issues. And can now open with a touch. Thank you again."
           }
         ]
       }
@@ -2107,279 +1824,64 @@
     ]
   },
   {
-    "region": "Vacaville",
-    "slug": "fairfield-vacaville",
-    "phone": "(707) 542-0626",
-    "services": [
+    "region": "Fresno",
+    "slug": "fresno",
+    "phone": "(559) 558-5379",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is your all in one chimney service provider. We offer a full range of chimney services including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! Our technicains are trained to handle any problems your chimney may have.",
+    "reviews": [
       {
-        "slug": "chimneys",
-        "title": "Chimney Services",
-        "description": "Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. Utilizing a full video scan, Mike's Mobile is the only company that offers same-day digital inspections reports. Contact Mike's Mobile today for any of you fireplace or chimney needs!",
-        "cards": [
-          {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
-            "text": "Whether you are a realtor, property manager new homeowner or just someone that wants a safe fireplace for the holidays, Mike's Mobile is here to help! We are the only chimney service company that offers same-day digital reports."
-          },
-          {
-            "title": "Cleaning",
-            "text": "Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. We offer FREE level 1 inspetion reports with every chimney sweep and we are the only company to offer same-day digital reports."
-          },
-          {
-            "title": "Repairs",
-            "image": "/assets/images/landing/napa-chimney-service.jpg",
-            "text": "Mike's Mobile is the premier chimney service company in the Fairfield / Vacaville area. We offer before and after pictures of any issues and repairs. We are equipped to handle any chimney issue from a minor crown seal to a full masonry chimney rebuild."
-          },
-          {
-            "title": "Accessories",
-            "image": "/assets/images/landing/standard-caps.jpg",
-            "text": "Mike's Mobile is the premier fireplace resource for the Vacaville / Fairfield area. Call today for any fireplace or chimney related accessories!"
-          },
-          {
-            "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
-            "text": "Mike's Mobile is a full service masonry repair contractor for the Vacaville / Vallejo area. Brick, block, stone, we can do it all!"
-          },
-          {
-            "title": "Dryer Vent Cleaning",
-            "text": "Clogged dryer vents are a leading cause of residential house fires. Mike's Mobile can get your dryer vent back in tip top shape and get your clothes dryer back to working efficiently!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Gabriel O. from Vacaville, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=mK5NnsbtRzt9LAhpvokGPw",
-            "review": "5 Stars for Amber! I got my chimney cleaned and was very happy with the professional service she provided. She arrived on time, always a plus, and explained the cleaning process inside and on the roof and answered all of my questions. The area inside was kept clean throughout the entire process. She reviewed a detailed report with pictures at the end of the service and repair recommendations without being pushy. I won't hesitate to have Mike's clean my chimney in the future."
-          },
-          {
-            "author": "Manda L.",
-            "link": "https://goo.gl/maps/MZey84SRosDfc2Y18",
-            "review": "Ryan was amazing. He was informative and fast. He knew a lot about our old brick chimney. He gave great feedback, and was extremely competent. I would definitely recommend them. We will be using them for our yearly inspection and cleaning services."
-          },
-          {
-            "author": "Melinda P.",
-            "link": "https://goo.gl/maps/c1nqtG3x2LLmW8hE9",
-            "review": "I found this company through a Google search. I hired them for a Level 2 inspection, cleaning, and a cap/flue installation. To my delight, the reps were on time with each appointment and provided excellent service. When finished, they cleaned everything up and showed me how to use the newly installed flue. They take pictures along the way to give you examples of the before and after (a helpful feature since I have no intention of personally climbing up the chimney or going on the roof top). Very nice guys and very good service. Will use them for my future masonry needs. The staff working in the office are also always really helpful."
-          },
-          {
-            "author": "Eric M.",
-            "link": "https://goo.gl/maps/ALCbHTMsD9AauTMU8",
-            "review": "Just had Mike's out to clean our chimney before the winter rains- our tech, Demiel was courteous, professional, and on time. Got everything done with zero mess. I definitely recommend these folks."
-          }
-        ]
+        "name": "Nick K.",
+        "dataReviewId": "3MfYZNmT7WLAsPl-oMJz4w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=agYoN0HOl6KBkAkIZaJmFg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-madera-2?hrid=3MfYZNmT7WLAsPl-oMJz4w",
+        "link3": "https://www.yelp.com/biz/IWdY7FgQMiawYiqJn5C0Ww"
       },
       {
-        "slug": "security",
-        "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile has you covered for premium security doors and window security products in the Fairfield / Vacaville area. Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!",
-        "cards": [
-          {
-            "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
-            "text": "Looking for something truly custom and unique for your home? Mike's Mobile security doors are computer designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other steel security door."
-          },
-          {
-            "title": "Viewguard Security Screen Doors",
-            "text": "The Viewguard security screen doors incorporate the latest advances in high tensile strength materials and construction. The Stainless steel marine grade mesh screen optimizes airflow while maximizing security. Strength and beauty in perfect harmony."
-          },
-          {
-            "title": "TRU-View Security Screen Doors",
-            "text": "Tru-View security screen doors feature a stainless steel mesh that is both visually appealing as well as protective to keep your home safe. With many color options to choose from you can't go wrong with a Tru-View security screen door."
-          },
-          {
-            "title": "Sliding Security Doors",
-            "text": "Mike's mobile sliding security doors offer a no-bar design, smooth operation and premium security. Sleep with your door open and get the breeze all night!"
-          },
-          {
-            "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
-            "text": "Mike's Mobile can help put your mind at ease by providing real security against burglars, vandals and forces of nature with our stainless steel security screens. Our full length release allows for easy escape, even for children and senior adults, in case of emergency."
-          },
-          {
-            "title": "Vista Fixed Security Window Screens",
-            "text": "Mike's Mobile security screens offer real protection against burglars, vandals and even bugs. Our Vista security screens excell where other home protection systems fail. Real protection against real threats and good looks to match!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "DoctorWhoFTW",
-            "link": "https://goo.gl/maps/vJCxVf3ytLvzn9Zb7",
-            "review": "I originally called Mike’s Mobile to sweep my chimney in October and had a very pleasant experience. My real review, though, is about a sliding security door I just had installed by them. The chimney guy left some literature behind and I happened to be looking at it about a week later and I found a solution to secure our sliding patio door. Our backyard backs up to a levee and we have been looking for a security door for this thing for about a year now and almost bought a giant ugly steel thing to cover it. This door is perfect! Thank you Mike’s Mobile- I couldn’t be happier!"
-          },
-          {
-            "author": "Lacy B. from Santa Rosa, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=vzy5foiNq12zh6-ZGRL7sQ",
-            "review": "I had Mike's Mobile come out to install a security screen door a few months ago and I LOVE it! I just had them back out to install some solar screens for summer. They came out, showed me colors and built them right then! It hasn't been especially hot yet but I can already tell the difference. Excited to see how much I save on my energy bill this summer!"
-          },
-          {
-            "author": "Barry B. from Fairfield, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=zv7lXbqKM0fxVM9ij-K5fw",
-            "review": "Just had Tyler and Tim put in our new screen door! Very happy! It looks great! My wife wanted a security screen that did not look like a security screen and she loves it! It closes quiet too!"
-          },
-          {
-            "author": "Wally W. from Oakland, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=F0N864zBg1y-6VDwWZN7Sg",
-            "review": "Really organized, professional, and courteous service. We had a security screen door and some custom screens installed for tricky old-school windows and both were done beautifully. Highly recommended!"
-          }
-        ]
+        "name": "Donna D.",
+        "dataReviewId": "kLceU9dmxVZNIm03X1CV5Q",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=iIk7TdpPcrFOQF_iH9JpTw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=kLceU9dmxVZNIm03X1CV5Q",
+        "link3": "https://www.yelp.com/biz/ADvweMOkls0hNznpuWs78g"
       },
       {
-        "slug": "screens",
-        "title": "Door and Window Screens",
-        "description": "Established in 2002, Mike's Mobile Screen and Chimney Service is dedicated to exceeding the expectations of home and business owners throughout the Fairfield and Vacaville area. Our licensed and insured team of professionals can construct and install new screen doors, window screens, retractable awnings or drop rolls to help your home or commercial property look its best.",
-        "cards": [
+        "name": "Lindsay E.",
+        "dataReviewId": "S-vr7S-og3C9qrTiYO5I3w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=G8uD8tO_sx_Nfd_YanI3MQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-stockton?hrid=S-vr7S-og3C9qrTiYO5I3w",
+        "link3": "https://www.yelp.com/biz/ADvweMOkls0hNznpuWs78g"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 36.76813,
+        "longitude": -120.17548,
+        "zoom": 9,
+        "regions": [
           {
-            "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
-            "text": "Mike's Mobile is the Vacaville / Fairfield leader in screen doors, windows, porches and screen repair. Call for a FREE estimate today!"
-          },
-          {
-            "title": "Solar Screens",
-            "text": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors."
-          },
-          {
-            "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
-            "text": "Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway. Mike's Mobile can build you a custom sliding screen door on-site."
-          },
-          {
-            "title": "Swinging Screen Doors",
-            "text": "Need a swinging screen door in the Vacaville / Fairfield area? Call today and we'll get you a door that's custom fit to your home!"
-          },
-          {
-            "title": "Retractable Screen Doors",
-            "text": "Want the best disappearing screen door on the market? We don't work for the manufacturer so we only sell the best products we can find! Call today for a disappearing screen door!"
-          },
-          {
-            "title": "Pet Doors",
-            "text": "Want a pet door that's made to last? Our Pride pet doors are the best on the market!"
-          },
-          {
-            "title": "Garage Screen Doors",
-            "text": "The Lifestyle Garage Screen Door turns your garage into an cool, bright, and pest-free space in a snap!"
-          },
-          {
-            "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
-            "text": "With the click of a button you can have a motorized retractable awning shade your outdoor space! Mike's Mobile offers the highest quality Sunesta retractable awnings."
-          },
-          {
-            "title": "Drop Roll Sunscreens",
-            "text": "With the press of a remote your new motorized drop roll sunscreen can add comfort and class to your home!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Heather C. from Vacaville, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=ySEMJZ2YoBS9tnfTTgWPWg",
-            "review": "Great work. I had them come out to install solar screens on a couple windows when other companies wouldn't. Fast services and great value. Thank you!"
-          },
-          {
-            "author": "Jessica S.",
-            "link": "https://goo.gl/maps/jvA9NuAmvUix15TTA",
-            "review": "Justin was polite and professional. My new screen looks great, I would definitely use Mike's mobile screen and chimney service again."
-          },
-          {
-            "author": "John J. from Dixon, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-sacramento?hrid=C9ba77Fv5W9XBvBp9QHhUQ",
-            "review": "Just had 10 screens repaired and a VERY reasonable price and the job was done quickly. Setting up an appointment was easy and the call taker assisted with all our questions. On the day of the service, the tech called and advised he was running EARLY, who has ever heard that. That was great and let me get back to my day ahead of time. When the tech arrived we went through and checked all the screens and I felt very comfortable with his recommendations. Job was completed in about an hour. I would highly recommend this company and will be contacting them next year for our chimney inspection/cleaning."
-          },
-          {
-            "author": "Barry B. from Fairfield, CA",
-            "link": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-napa?hrid=zv7lXbqKM0fxVM9ij-K5fw",
-            "review": "Just had Tyler and Tim put in our new screen door! Very happy! It looks great! My wife wanted a security screen that did not look like a security screen and she loves it! It closes quiet too!"
+            "paths": [
+              { "lat": 36.87935, "lng": -120.76417 },
+              { "lat": 36.85209, "lng": -120.44969 },
+              { "lat": 36.95559, "lng": -119.74931 },
+              { "lat": 36.75711, "lng": -119.53805 },
+              { "lat": 36.67072, "lng": -119.73715 },
+              { "lat": 36.49586, "lng": -120.39489 },
+              { "lat": 36.87935, "lng": -120.76417 }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "fresnoRegion"
           }
         ]
       }
     ],
-    "areas": [
-      "Allendale",
-      "Bahia",
-      "Birds Landing",
-      "Bucktown",
-      "Collinsville",
-      "Cordelia",
-      "Dixon",
-      "Elmira",
-      "Fairfield",
-      "Green Valley",
-      "Hartley",
-      "Maine Prairie",
-      "Rio Vista",
-      "Rockville",
-      "Terminous",
-      "Suisun City",
-      "Vacaville",
-      "Scandia Family Center",
-      "Winters"
-    ]
-  },
-  {
-    "region": "Fresno",
-    "slug": "fresno",
-    "phone": "(559) 558-5379",
     "services": [
       {
         "slug": "chimneys",
         "title": "Chimney Services",
-        "description": "Mike’s Mobile Screen & Chimney Service is your all in one chimney service provider. We offer a full range of chimney services including: chimney cleanings, inspections, repairs, rebuilds, masonry work and much more! Our technicains are trained to handle any problems your chimney may have.",
-        "cards": [
-          {
-            "title": "Inspections",
-
-            "text": "Mike's Mobile is the premier chimney service company in the Fresno area. We offer same-day digital inspections reports. Contact us today for a level 1, 2 or 3 chimney inspection!"
-          },
-          {
-            "title": "Cleaning",
-            "text": "NFPA 211 states that residential properties should have your chimney annually inspected and cleaned. Mike's Mobile includes a free level 1 inspection with every sweep!"
-          },
-          {
-            "title": "Repairs",
-            "image": "/assets/images/landing/napa-chimney-service.jpg",
-            "text": "Mike's Mobile is Fresno's premier chimney service company. We can handle all chimney issues from start to finish including: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
-          },
-          {
-            "title": "Accessories",
-
-            "text": "If you need fireplace or chimney related parts or accessories in Fresno, call Mike's Mobile Screen and Chimney Service today! We offer a wide variety of custom chimney accessories and also provide installation services."
-          },
-          {
-            "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
-            "text": "For all of your masonry repairs and services call Mike's Mobile. We do all kinds of brick stone and block masonry work in the Fresno area"
-          },
-          {
-            "title": "Dryer Vent Cleaning",
-            "text": "Dryer vents are one of the leading causes of residential fires. A clogged dryer vent will lead to inneficient drying. So why waste money and risk your home's safety?"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Heidi V. from Fresno, CA",
-            "link": "https://goo.gl/maps/5sdnkkFD1rzVf6m66",
-            "review": "Wonderful job! Kevin was very knowledgeable technician, gave good and honest recommendations of what was needed and what was optional repair. He cleaned up the chimney and area around it so well."
-          },
-          {
-            "author": "Eric Jackson",
-            "link": "https://goo.gl/maps/EEt4mvzaJGGgJVpEA",
-            "review": "Mike's Mobile saved the day! We were selling our home and the buyer's chimney inspector gave us a soot-smudged hand-written report that had over $10,000 of repairs needed to our chimney. The explanation for the repairs was confusing and no one really understood what was going on. On top of that, I thought it was a little bit funny since our home inspector hadn't found anything wrong. I called Mike's Mobile for a second opinion and they were able to come out the next day (we were in a time crunch for escrow) and gave us a digital report with pictures and detailed explanation of everything on the spot!! Wow! The technician answered all of our questions in great detail and backed everything up with pictures on the report. I felt bad for the other realtor for recommending that other company but I'm happy we got a fair and honest report in the end."
-          },
-          {
-            "author": "Eric M.",
-            "link": "https://goo.gl/maps/ALCbHTMsD9AauTMU8",
-            "review": "Just had Mike's out to clean our chimney before the winter rains- our tech, Demiel was courteous, professional, and on time. Got everything done with zero mess. I definitely recommend these folks."
-          },
-          {
-            "author": "Melinda P.",
-            "link": "https://goo.gl/maps/c1nqtG3x2LLmW8hE9",
-            "review": "I found this company through a Google search. I hired them for a Level 2 inspection, cleaning, and a cap/flue installation. To my delight, the reps were on time with each appointment and provided excellent service. When finished, they cleaned everything up and showed me how to use the newly installed flue. They take pictures along the way to give you examples of the before and after (a helpful feature since I have no intention of personally climbing up the chimney or going on the roof top). Very nice guys and very good service. Will use them for my future masonry needs. The staff working in the office are also always really helpful."
-          }
-        ]
-      },
-      {
-        "slug": "security",
-        "title": "Security Screen Doors and Windows",
-        "description": "Mike's Mobile Screen and Chimney service offer top of the line security doors with multiple custimization options. Our security screen doors will keep the bugs and thugs out. Call today for a FREE estimate!",
         "cards": [
           {
             "title": "Titan Security Screen Doors",
@@ -2407,29 +1909,43 @@
             "title": "Vista Fixed Security Window Screens",
             "text": "Vista fixed security window screens offer 60% UV blockage, good airflow and the best security on the market. Our security window screens keep your home looking nice and clean with premium security."
           }
-        ],
-        "reviews": [
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
           {
-            "author": "Tom W",
-            "link": "https://goo.gl/maps/7e8GZhhdtcGSPvjg7",
-            "review": "CALL MIKES MOBILE! We heard a noise in our backyard a couple of months ago and ended up finding boot prints and a bent screen in our yard the next day. Someone had hopped our fence and was in our yard!!! I haven’t been comfortable being home by myself since. After a little bit of waiting Mikes mobile was able to come out and install 4 security window screens, a security door over our patio slider and a front security door. I thought we were going to have to get bars but these are SO much better. They are not cheap but worth every penny. They look so much better than bars would have! Thanks Mikes Mobile for helping me sleep again!!"
+            "title": "Titan Security Screen Doors",
+            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+            "text": "Mike's Mobile offers completely customizable security screen doors in Fresno. Our security doors offer top of the line security. Our premium Titan security screen doors keep your home looking elegant while keeping you safe."
           },
           {
-            "author": "Carlos Vega",
-            "link": "https://goo.gl/maps/yQYiTpZbEzNPdsZz7",
-            "review": "They seemed a bit pricey at first but after a thorough comparison they were actually a pretty good deal. My wife and I were struggling with the idea of getting a security door but didn’t want one that would rust. I wasted a few months getting a quote from a big box store (I won’t name) only for them to tell me they couldn’t mount the door on the trim I had. That whole ordeal was just a giant headache. I saw Mike’s Mobile from a facebook post. They had a better door and were super knowledgeable about mounting options. With everything factored in: custom measuring appointment, a better quality door, some tweaks (extending our threshold for no gap) and most importantly, professional installation, I think we ended up saving money with Mike’s Mobile. The technician even answered some questions about my chimney after he installed the door. I’ll be calling them back for chimney cleaning in a few months!"
+            "title": "Viewguard Security Screen Doors",
+            "text": "Viewguard Security Screen Doors from Mike's Mobile offer premium security with great visability and airflow. Keep the bugs and thugs out and enjoy the nice breeze."
           },
           {
-            "author": "Michelle B",
-            "link": "https://goo.gl/maps/rmQJKTs6T8t79WQF8",
-            "review": "The guy was very knowledgeable and honest. He did a great job and was a great help. The prices are reasonable also."
+            "title": "TRU-View Security Screen Doors",
+            "text": "Tru-View security screen doors are the perfect option for someone looking for an upgrade from their old school swining screen door. Tru-view doors offer the same airflow but with a stainless steel mesh and keyway to offer security for your home."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Sliding security doors from Mike's Mobile offer premium sliding screen doors with stainless steel mesh. The stainless steel mesh looks and acts like a regular screen but can't be cut or torn."
+          },
+          {
+            "title": "Vista Quick Escape Security Window Screens",
+            "image": "/assets/images/security/guarda-escape/3.png",
+            "text": "Vista quick release security window screens provide optimal security for you home while at the same time providing an exit in case of an emergency."
+          },
+          {
+            "title": "Vista Fixed Security Window Screens",
+            "text": "Vista fixed security window screens offer 60% UV blockage, good airflow and the best security on the market. Our security window screens keep your home looking nice and clean with premium security."
           }
         ]
       },
       {
         "slug": "screens",
         "title": "Door and Window Screens",
-        "description": "Our trucks are screen shops on wheels. Our tecchnicians come to you and can repair or install new screen on site! We offer standard bug screen, 80% UV blocking solar screen or 90% UV blocking solar screen with all installations and rescreens.",
         "cards": [
           {
             "title": "Window Screen Repair",
@@ -2460,7 +1976,13 @@
           {
             "title": "Garage Screen Doors",
             "text": "Lifestyle Garage screen doors turn your dark stuffy garage into a liveable work or playspace!"
-          },
+          }
+        ]
+      },
+      {
+        "slug": "awnings",
+        "title": "Awnings",
+        "cards": [
           {
             "title": "Retractable Patio Awnings",
             "image": "/assets/images/landing/awning-vacaville.jpg",
@@ -2469,23 +1991,6 @@
           {
             "title": "Drop Roll Sunscreens",
             "text": "The Sunroll drop shades come with a variety of screen options, custom sizes and are even motorized for easy use!"
-          }
-        ],
-        "reviews": [
-          {
-            "author": "Nancy Walker",
-            "link": "https://goo.gl/maps/kaqZenmNXrBxs2yN8",
-            "review": "Very happy with my service from Mike's Mobile Screen & Chimney.  Joseph P arrived on time, was very efficient and friendly. He took care of two windows that needed new screens, and inspected and cleaned the chimney.  Job well done."
-          },
-          {
-            "author": "Michelle Berggren",
-            "link": "https://goo.gl/maps/4nnwmyC2WPoLRGg46",
-            "review": "The guy was very knowledgeable and honest. He did a great job and was a great help. The prices are reasonable also."
-          },
-          {
-            "author": "Brenan G",
-            "link": "https://goo.gl/maps/awdYPhH1YXGGBwGE9",
-            "review": "The guys were early to our appointment and incredibly professional. Highly recommend Mike's Mobile Screen & Chimney Service. We are going to call back for some retractable screen doors in the future. Thanks guys!"
           }
         ]
       }

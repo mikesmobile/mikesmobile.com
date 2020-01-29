@@ -12,7 +12,6 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component';
-import { FaqListComponent } from './faq-list/faq-list.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
@@ -68,11 +67,11 @@ const appRoutes: Routes = [
   },
   {
     path: 'about/chimney-services/chimney-service-in-sacramento',
-    redirectTo: '/chimneys/sacramento'
+    redirectTo: '/regions/sacramento'
   },
   {
     path: 'about/awnings/awnings-in-sacramento',
-    redirectTo: '/screens/sacramento'
+    redirectTo: '/regions/sacramento'
   },
   {
     path: 'blog/another-custom-creation',
@@ -81,19 +80,19 @@ const appRoutes: Routes = [
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-sacramento',
-    redirectTo: '/screens/sacramento'
+    redirectTo: '/regions/sacramento'
   },
   {
     path: 'about/chimney-services/chimney-services-in-antioch',
-    redirectTo: '/chimneys/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'about/chimney-services/chimney-services-in-pleasanton',
-    redirectTo: '/chimneys/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'about/chimney-services/chimney-services-in-san-ramon',
-    redirectTo: '/chimneys/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'awnings',
@@ -101,110 +100,121 @@ const appRoutes: Routes = [
   },
   {
     path: 'chimneys/antioch-east-bay-region',
-    redirectTo: '/chimneys/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'screens/antioch-east-bay-region',
-    redirectTo: '/screens/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'security/antioch-east-bay-region',
-    redirectTo: '/security/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'about/awnings/awnings-in-antioch',
-    redirectTo: '/screens/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay'
   },
   {
     path: 'about/awnings/awnings-in-danville',
-    redirectTo: '/screens/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
   },
   {
     path: 'about/awnings/awnings-in-hayward',
-    redirectTo: '/screens/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay'
   },
   {
     path: 'about/awnings/awnings-in-napa',
-    redirectTo: '/screens/napa-vallejo'
+    redirectTo: '/regions/napa-vallejo'
   },
   {
     path: 'about/awnings/awnings-in-stockton',
-    redirectTo: '/screens/stockton'
+    redirectTo: '/regions/stockton'
   },
   {
     path: 'about/chimney-services/chimney-services-in-auburn',
-    redirectTo: '/chimneys/auburn'
+    redirectTo: '/regions/sacramento'
   },
   {
     path: 'about/chimney-services/chimney-services-in-hayward-and-oakland',
-    redirectTo: '/chimneys/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay'
   },
   {
     path: 'about/chimney-services/chimney-services-in-stockton',
-    redirectTo: '/chimneys/stockton'
+    redirectTo: '/regions/stockton'
   },
   {
     path:
       'about/chimney-services/chimney-services-in-vacaville-vallejo-and-napa',
-    redirectTo: '/chimneys/napa-vallejo'
+    redirectTo: '/regions/napa-vallejo'
   },
   {
     path: 'about/chimney-services/chimney-services-in-walnut-creek',
-    redirectTo: '/chimneys/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-danville-walnut-creek',
-    redirectTo: '/screens/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
   },
   {
     path: 'about/window-and-door-coverings/window-and-door-screens-in-auburn',
-    redirectTo: '/screens/auburn'
+    redirectTo: '/regions/auburn'
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-hayward-and-oakland',
-    redirectTo: '/screens/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay'
   },
   {
     path: 'about/window-and-door-coverings/window-and-door-screens-in-stockton',
-    redirectTo: '/screens/stockton'
+    redirectTo: '/regions/stockton'
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa',
-    redirectTo: '/screens/fairfield-vacaville'
+    redirectTo: '/regions/fairfield-vacaville'
   },
-  { path: 'window-door-screens-modesto', redirectTo: '/screens/modesto' },
+  { path: 'window-door-screens-modesto', redirectTo: '/regions/modesto' },
   { path: 'clean-or-dirty', redirectTo: '/blog/clean-or-dirty' },
   {
     path: 'walnut-creek-screen-doors-windows',
-    redirectTo: '/screens/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
+  },
+  {
+    path: 'chimneys/sacramento',
+    redirectTo: '/regions/sacramento'
+  },
+  {
+    path: 'screens/:slug',
+    redirectTo: 'regions/:slug'
+  },
+  {
+    path: 'security/:slug',
+    redirectTo: 'regions/:slug'
+  },
+  {
+    path: 'contact',
+    redirectTo: 'service-area'
   },
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   { path: 'chimney-faq', component: ChimneyFaqComponent },
   { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'service-area', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
-  { path: 'faq', component: FaqListComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
   { path: 'privacy', component: PrivacyComponent },
-  { path: 'regions', component: RegionListComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
-
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
-  { path: 'chimneys/:slug', component: LandingRegionalComponent },
+  { path: 'regions/:slug', component: LandingRegionalComponent },
   { path: 'grid/:slug', component: GridComponent },
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
-  { path: 'screens/:slug', component: LandingRegionalComponent },
-  { path: 'security/:slug', component: LandingRegionalComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },

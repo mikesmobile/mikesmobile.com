@@ -13,6 +13,7 @@ import { HammerProvider } from './hammer/HammerProvider';
 import { FindByCategoryPipe, FindByTitlePipe } from './utility/find.pipe';
 import { KeysPipe } from './utility/keys.pipe';
 import { SafeHTMLPipe } from './utility/safe.pipe';
+import { SafePipe } from './utility/safeUrl.pipe';
 
 import { AboutComponent } from './about/about.component';
 import { ActionButtonsComponent } from './action-buttons/action-buttons.component';
@@ -49,6 +50,7 @@ import { ServiceDetailComponent } from './service-detail/service-detail.componen
 import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { TileNavComponent } from './tile-nav/tile-nav.component';
 
 import { LazyLoadImgDirective } from './lazy-load/lazy-load-img.directive';
 import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive';
@@ -64,6 +66,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     FindByTitlePipe,
     KeysPipe,
     SafeHTMLPipe,
+    SafePipe,
     // Components
     AboutComponent,
     ActionButtonsComponent,
@@ -96,6 +99,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     FlipcardListComponent,
     PrivacyComponent,
     TabNavComponent,
+    TileNavComponent,
     FireplaceManualsComponent,
     RegionListComponent,
     ContractComponent,
