@@ -16,6 +16,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
+import { PromoComponent } from './promo/promo.component';
 
 import { PrivacyComponent } from './privacy/privacy.component';
 import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
@@ -216,6 +217,7 @@ const appRoutes: Routes = [
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
+  { path: 'promo', component: PromoComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent }

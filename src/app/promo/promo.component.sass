@@ -1,0 +1,41 @@
+@import '../../sass/modules/_mixins.sass'
+@import '../../sass/modules/_variables.sass'
+
+
+//changes word height on card tiles, 100px, 200px, 350px,
+
+@include breakpoint(md)
+  .card-title
+    margin-top: 325px
+
+.titleTop
+  
+
+.tile
+  height: 100px
+  @include breakpoint(sm)
+    height: 500px
+
+.tileImg
+  display: block
+
+.tileInfo
+  display: none
+
+.tile:hover
+  .tileInfo
+    display: inline
+
+.carousel
+  h2
+    text-transform: uppercase
+    font-weight: 400
+    letter-spacing: 1px
+  button
+    padding: 10px 20px
+    border-radius: 2.5px
+    margin: 5px 0
+  .carousel-inner
+    .carousel-item
+      app-img
+        object-fit: cover

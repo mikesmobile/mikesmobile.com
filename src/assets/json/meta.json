@@ -981,5 +981,10 @@
     "page": "/thank-you",
     "title": "Thank You! | Mike's Mobile Screen and Chimney Service",
     "robots": "noindex"
+  },
+  {
+    "page": "/promo",
+    "title": "$25 off Chimney Cleaning | Mike's Mobile",
+    "robots": "noindex"
   }
 ]

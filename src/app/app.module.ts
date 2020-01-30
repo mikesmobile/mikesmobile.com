@@ -51,9 +51,10 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { TileNavComponent } from './tile-nav/tile-nav.component';
-
+import { PromoComponent } from './promo/promo.component';
 import { LazyLoadImgDirective } from './lazy-load/lazy-load-img.directive';
 import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive';
+import { QuoteFormPromoComponent } from './quote-form-promo/quote-form-promo.component';
 
 @NgModule({
   declarations: [
@@ -81,6 +82,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     PostDetailComponent,
     PostListComponent,
     ProductDetailComponent,
+    PromoComponent,
     SearchComponent,
     SearchDetailComponent,
     ServiceListComponent,
@@ -103,7 +105,8 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
     FireplaceManualsComponent,
     RegionListComponent,
     ContractComponent,
-    FreeQuoteComponent
+    FreeQuoteComponent,
+    QuoteFormPromoComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
