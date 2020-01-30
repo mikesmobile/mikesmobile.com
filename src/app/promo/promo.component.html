@@ -1,5 +1,5 @@
-<div class="container pt-md-4">
-  <div class="jumbotron text-center mb-4">
+<div class="container">
+  <div class="container text-center justify-content-center">
     <h1 class="h2-responsive mt-2 mb-3">
       <strong>$25 Off Chimney Cleaning </strong>
       <h2
@@ -10,184 +10,186 @@
       </h2>
     </h1>
   </div>
-</div>
-
-<ng-container *ngIf="service">
-  <div class="container pb-4">
-    <section class="section extra-margins">
-      <div class="row">
-        <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
-          <div class="main-image">
-            <app-img
-              *ngIf="service.tileImage"
-              [src]="service.tileImage"
-              class="img-fluid z-depth-2 serviceDetailImage"
-            ></app-img>
+  <ng-container *ngIf="service">
+    <div class="container pb-4">
+      <section class="section extra-margins">
+        <div class="row">
+          <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
+            <div class="main-image">
+              <app-img
+                *ngIf="service.tileImage"
+                [src]="service.tileImage"
+                class="img-fluid z-depth-2 serviceDetailImage"
+              ></app-img>
+            </div>
+            <h4
+              *ngIf="service.serviceImgCaption"
+              class="p-2 text-center light-gray-text"
+              [innerHTML]="service.serviceImgCaption"
+            ></h4>
+            <div class="container text-center">
+              <h6>Open Fireplace: $249</h6>
+              <h6>Freestanding Stove: $269</h6>
+              <h6>Insert: $349</h6>
+              <h6>Pellet Stove: $349</h6>
+            </div>
           </div>
-          <h4
-            *ngIf="service.serviceImgCaption"
-            class="p-2 text-center light-gray-text"
-            [innerHTML]="service.serviceImgCaption"
-          ></h4>
-          <div class="container text-center">
-            <h6>Open Fireplace: $249</h6>
-            <h6>Freestanding Stove: $269</h6>
-            <h6>Insert: $349</h6>
-            <h6>Pellet Stove: $349</h6>
+          <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
+            <div class="row mb-4" id="serviceInfo">
+              <div class="col-12">
+                <h1 class="text-center h5" [innerHTML]="service.category"></h1>
+                <h2 class="text-center h3" [innerHTML]="service.title"></h2>
+                <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+                  <mdb-item
+                    *ngFor="let item of service.textList; index as i"
+                    [collapsed]="i !== 0"
+                  >
+                    <mdb-item-head>{{ item.title }}</mdb-item-head>
+                    <mdb-item-body>{{ item.description }}</mdb-item-body>
+                  </mdb-item>
+                </mdb-squeezebox>
+              </div>
+            </div>
+
+            <ng-container *ngIf="service.slug === 'fireplace-glass-doors'">
+              <h3 class="py-2 light-gray-text">
+                Here are some of the colors we offer
+              </h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <app-img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png"
+                    class="img-fluid"
+                    alt="Black Fireplace Glass Doors"
+                  ></app-img>
+                  <p class="text-center">Black</p>
+                </div>
+                <div class="col-md-4">
+                  <app-img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
+                    class="img-fluid"
+                    alt="Black Nickel Fireplace Glass Doors"
+                  ></app-img>
+                  <p class="text-center">Black Nickel</p>
+                </div>
+                <div class="col-md-4">
+                  <app-img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png"
+                    class="img-fluid"
+                    alt="Brass Fireplace Glass Doors"
+                  ></app-img>
+                  <p class="text-center">Brass</p>
+                </div>
+                <div class="col-md-4">
+                  <app-img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png"
+                    class="img-fluid"
+                    alt="Gun Metal Fireplace Glass Doors"
+                  ></app-img>
+                  <p class="text-center">Gun Metal</p>
+                </div>
+                <div class="col-md-4">
+                  <app-img
+                    src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png"
+                    class="img-fluid"
+                    alt="Nickel Fireplace Glass Doors"
+                  ></app-img>
+                  <p class="text-center">Nickel</p>
+                </div>
+              </div>
+            </ng-container>
+
+            <div class="row" *ngIf="service.colorSet">
+              <div class="col-12">
+                <h4>
+                  Color Selection &nbsp;
+                  <span class="small">(click to zoom)</span>
+                </h4>
+                <ng-container *ngFor="let colorSet of service.colorSet">
+                  <app-color-swatch [swatchType]="colorSet"></app-color-swatch>
+                </ng-container>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
-          <div class="row mb-4" id="serviceInfo">
-            <div class="col-12">
-              <h1 class="text-center h5" [innerHTML]="service.category"></h1>
-              <h2 class="text-center h3" [innerHTML]="service.title"></h2>
-              <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-                <mdb-item
-                  *ngFor="let item of service.textList; index as i"
-                  [collapsed]="i !== 0"
-                >
-                  <mdb-item-head>{{ item.title }}</mdb-item-head>
-                  <mdb-item-body>{{ item.description }}</mdb-item-body>
-                </mdb-item>
-              </mdb-squeezebox>
+      </section>
+
+      <div
+        class="row"
+        *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'"
+      >
+        <section class="section feature-box">
+          <h1 class="section-heading h1 light-gray-text">
+            We offer these types of caps
+          </h1>
+          <div class="row features-big">
+            <div class="col-md-3 mb-r">
+              <app-img
+                src="/assets/images/chimneys/accessories/chimney-cap/1.png"
+                class="img-fluid"
+              ></app-img>
+              <h5 class="feature-title">Masonry Chimney Caps</h5>
+              <p class="light-gray-text p-2">
+                Masonry Chimney caps connect to the top of your brick/masonry
+                chimney. We sell black galvanized chimney caps that have a spark
+                arrestor build in. You'll get 2 for the price of one with this
+                cap. Fits all standard chimney flue sizes: 8" x 8", 8" x 13", 8"
+                x 17", 13" x 13", 13" x 17" - We can also order custom size
+                chimney caps. Contact us today and find out how!
+              </p>
+            </div>
+            <div class="col-md-3 mb-r">
+              <app-img
+                src="/assets/images/chimneys/accessories/chimney-cap/2.png"
+                class="img-fluid"
+              ></app-img>
+              <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
+              <p class="light-gray-text p-2">
+                We offer prefab or Zero Clearance chimney caps for sizes: 6",
+                8", and 10". All sizes are available in Solid pack and Air
+                Cooled options. Contact us today for custom sizes. We can do it!
+              </p>
+            </div>
+            <div class="col-md-3 mb-r">
+              <app-img
+                src="/assets/images/chimneys/accessories/chimney-cap/3.png"
+                class="img-fluid"
+              ></app-img>
+              <h5 class="feature-title">Lock Top Damper</h5>
+              <p class="light-gray-text p-2">
+                If you are tired of that old masonry throat damper or you are
+                looking to become more efficient and save some money on your
+                energy bill, you can invest in a Lock Top Damper. This top mount
+                damper seals shut with a rubber seal and keeps the cold air out
+                of your chimney and out of your home.
+              </p>
+            </div>
+            <div class="col-md-3 mb-r">
+              <app-img
+                src="/assets/images/chimneys/accessories/chimney-cap/4.png"
+                class="img-fluid"
+              ></app-img>
+              <h5 class="feature-title">Flue Extender Caps</h5>
+              <p class="light-gray-text p-2">
+                Many masonry chimneys do not meet minimum code-height
+                requirements and have the potential to be a serious fire hazard.
+                Also, many draft issues can be attributed to a chimney being too
+                short. These caps keep sparks off your roof and assist in a
+                strong chimney draft.
+              </p>
             </div>
           </div>
-
-          <ng-container *ngIf="service.slug === 'fireplace-glass-doors'">
-            <h3 class="py-2 light-gray-text">
-              Here are some of the colors we offer
-            </h3>
-            <div class="row">
-              <div class="col-md-4">
-                <app-img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png"
-                  class="img-fluid"
-                  alt="Black Fireplace Glass Doors"
-                ></app-img>
-                <p class="text-center">Black</p>
-              </div>
-              <div class="col-md-4">
-                <app-img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
-                  class="img-fluid"
-                  alt="Black Nickel Fireplace Glass Doors"
-                ></app-img>
-                <p class="text-center">Black Nickel</p>
-              </div>
-              <div class="col-md-4">
-                <app-img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png"
-                  class="img-fluid"
-                  alt="Brass Fireplace Glass Doors"
-                ></app-img>
-                <p class="text-center">Brass</p>
-              </div>
-              <div class="col-md-4">
-                <app-img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png"
-                  class="img-fluid"
-                  alt="Gun Metal Fireplace Glass Doors"
-                ></app-img>
-                <p class="text-center">Gun Metal</p>
-              </div>
-              <div class="col-md-4">
-                <app-img
-                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png"
-                  class="img-fluid"
-                  alt="Nickel Fireplace Glass Doors"
-                ></app-img>
-                <p class="text-center">Nickel</p>
-              </div>
-            </div>
-          </ng-container>
-
-          <div class="row" *ngIf="service.colorSet">
-            <div class="col-12">
-              <h4>
-                Color Selection &nbsp;
-                <span class="small">(click to zoom)</span>
-              </h4>
-              <ng-container *ngFor="let colorSet of service.colorSet">
-                <app-color-swatch [swatchType]="colorSet"></app-color-swatch>
-              </ng-container>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
-    </section>
 
-    <div class="row" *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'">
-      <section class="section feature-box">
-        <h1 class="section-heading h1 light-gray-text">
-          We offer these types of caps
-        </h1>
-        <div class="row features-big">
-          <div class="col-md-3 mb-r">
-            <app-img
-              src="/assets/images/chimneys/accessories/chimney-cap/1.png"
-              class="img-fluid"
-            ></app-img>
-            <h5 class="feature-title">Masonry Chimney Caps</h5>
-            <p class="light-gray-text p-2">
-              Masonry Chimney caps connect to the top of your brick/masonry
-              chimney. We sell black galvanized chimney caps that have a spark
-              arrestor build in. You'll get 2 for the price of one with this
-              cap. Fits all standard chimney flue sizes: 8" x 8", 8" x 13", 8" x
-              17", 13" x 13", 13" x 17" - We can also order custom size chimney
-              caps. Contact us today and find out how!
-            </p>
-          </div>
-          <div class="col-md-3 mb-r">
-            <app-img
-              src="/assets/images/chimneys/accessories/chimney-cap/2.png"
-              class="img-fluid"
-            ></app-img>
-            <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
-            <p class="light-gray-text p-2">
-              We offer prefab or Zero Clearance chimney caps for sizes: 6", 8",
-              and 10". All sizes are available in Solid pack and Air Cooled
-              options. Contact us today for custom sizes. We can do it!
-            </p>
-          </div>
-          <div class="col-md-3 mb-r">
-            <app-img
-              src="/assets/images/chimneys/accessories/chimney-cap/3.png"
-              class="img-fluid"
-            ></app-img>
-            <h5 class="feature-title">Lock Top Damper</h5>
-            <p class="light-gray-text p-2">
-              If you are tired of that old masonry throat damper or you are
-              looking to become more efficient and save some money on your
-              energy bill, you can invest in a Lock Top Damper. This top mount
-              damper seals shut with a rubber seal and keeps the cold air out of
-              your chimney and out of your home.
-            </p>
-          </div>
-          <div class="col-md-3 mb-r">
-            <app-img
-              src="/assets/images/chimneys/accessories/chimney-cap/4.png"
-              class="img-fluid"
-            ></app-img>
-            <h5 class="feature-title">Flue Extender Caps</h5>
-            <p class="light-gray-text p-2">
-              Many masonry chimneys do not meet minimum code-height requirements
-              and have the potential to be a serious fire hazard. Also, many
-              draft issues can be attributed to a chimney being too short. These
-              caps keep sparks off your roof and assist in a strong chimney
-              draft.
-            </p>
-          </div>
-        </div>
-      </section>
+      <div class="container" *ngIf="service.recentInstallImages">
+        <section class="text-center section feature-box">
+          <app-footer-gallery
+            [Images]="service.recentInstallImages"
+          ></app-footer-gallery>
+        </section>
+      </div>
     </div>
-
-    <div class="container" *ngIf="service.recentInstallImages">
-      <section class="text-center section feature-box">
-        <app-footer-gallery
-          [Images]="service.recentInstallImages"
-        ></app-footer-gallery>
-      </section>
-    </div>
-  </div>
-</ng-container>
+  </ng-container>
+</div>
 <app-quote-form-promo></app-quote-form-promo>
