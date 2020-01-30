@@ -26,5 +26,76 @@
   .tileInfo
     display: inline
 
+.main-image
+  width: 100%
+  margin-bottom: 0.75em
+
+#centered-gallery
+  position: relative
+  left: 50%
+  transform: translate(-50%, 0)
+
+ngx-gallery /deep/ .ngx-gallery-arrow
+  color: #000000
+
+.square
+  height: 100px
+  width: 100%
+  background: $light-gray
+  margin: 5px
+  @include breakpoint(md)
+    width: 75px
+    height: 75px
+
+.square-lg
+  height: 250px
+  width: 250px
+
+.centered-sq
+  position: relative
+  left: 50%
+  transform: translate(-50%, 0)
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.1)
+
+#more-colors
+  &:hover
+    color: $mmblue !important
+    cursor: pointer
+
+#less-colors
+  display: none
+  &:hover
+    cursor: pointer
+
+@for $i from 6 through 18
+  #square-#{$i}
+    display: none
+  #square-p-#{$i}
+    display: none
+
+#centered-gallery
+  position: relative
+  left: 50%
+  transform: translate(-50%, 0)
+
+ngx-gallery /deep/ .ngx-gallery-arrow
+  color: #000000
+
+.nav-tabs
+  z-index: 0
+  .nav-link
+    z-index: 0 !important
+
+.modal-content
+  background: #f2f2f2 !important
+
 .cursor-pointer
   cursor: pointer
+  
+#serviceInfo
+  h1
+    font-family: 'Open Sans', sans-serif
+    font-weight: bold
+  h2
+    font-family: 'Open Sans', sans-serif
+    font-weight: lighter
