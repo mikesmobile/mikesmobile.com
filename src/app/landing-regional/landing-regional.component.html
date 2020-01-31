@@ -164,28 +164,40 @@
   <hr />
   <div class="row text-center justify-content-center">
     <h2 class="w-100 text-center my-4">
-      {{ region.region }} loves Mike's Mobile <i class="fas fa-heart"></i>
+      {{ region.region }} loves Mike's Mobile <i class="fas fab fa-heart"></i>
     </h2>
-    <div class="row text-center">
-      <div class="col-md-12">
+    <div class="row text-center px-0 mx-0">
+      <div class="col-md-12 px-0 mx-0">
         <div class="card-deck text-center">
           <div class="card yelpCard " *ngFor="let review of region.reviews">
             <span
               class="yelp-review"
               [attr.data-review-id]="review.dataReviewId"
               data-hostname="www.yelp.com"
-              >Read
-              <a [href]="review.link1" rel="nofollow noopener">{{
-                review.name
-              }}</a
-              >'s
-              <a [href]="review.link2" rel="nofollow noopener">review</a>
-              of
-              <a [href]="review.link3" rel="nofollow noopener"
-                >Mike's Mobile Screen & Chimney Service</a
+              ><div class="card-header">
+                <a [href]="review.link1" rel="nofollow noopener">{{
+                  review.name
+                }}</a
+                >'s
+                <a [href]="review.link2" rel="nofollow noopener">review</a>
+                of
+                <a [href]="review.link3" rel="nofollow noopener"
+                  >Mike's Mobile Screen & Chimney Service
+                </a>
+                <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i
+                ><i class="fas star fa-star"></i><i class="fas star fa-star"></i
+                ><i class="fas star fa-star"></i
+                ><i class="fas  star fa-star"></i>
+              </div>
+              <div class="card-body">
+                <p>
+                  {{ review.content }}
+                </p>
+              </div>
+              Read more on
+              <a href="https://www.yelp.com" rel="nofollow noopener"
+                ><i class="fab fa-yelp"></i>Yelp</a
               >
-              on
-              <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
             </span>
           </div>
         </div>
@@ -261,3 +273,8 @@
     </div>
   </div>
 </div>
+<script
+  async="async"
+  src="https://www.yelp.com/embed/widgets.js"
+  type="text/javascript"
+></script>

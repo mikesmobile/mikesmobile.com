@@ -55,6 +55,7 @@ import { PromoComponent } from './promo/promo.component';
 import { LazyLoadImgDirective } from './lazy-load/lazy-load-img.directive';
 import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive';
 import { QuoteFormPromoComponent } from './quote-form-promo/quote-form-promo.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +107,8 @@ import { QuoteFormPromoComponent } from './quote-form-promo/quote-form-promo.com
     RegionListComponent,
     ContractComponent,
     FreeQuoteComponent,
-    QuoteFormPromoComponent
+    QuoteFormPromoComponent,
+    ReviewsComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

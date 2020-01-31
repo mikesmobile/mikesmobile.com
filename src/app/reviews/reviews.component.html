@@ -1,0 +1,33 @@
+<div id="googleReviews"></div>
+<section id="reviews" class="container">
+  <div id="title">
+    <h4>Google Reviews</h4>
+  </div>
+  <div id="reviews" class="row">
+    <div *ngFor="let review of reviews" class="col-md-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="avatar">
+            <img
+              src="{{ review.profile_photo_url }}"
+              alt="Avatar"
+              height="50"
+              width="50"
+            />
+          </div>
+          <div class="card-title">{{ review.author_name }}</div>
+          <h6>{{ review.relative_time_description }}</h6>
+          <div class="stars">
+            <div *ngFor="let item of createRange(review.rating)">grade</div>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>{{ review.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rowButton">
+    <a href="test" target="_blank">View all reviews</a>
+  </div>
+</section>
