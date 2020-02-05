@@ -5,6 +5,7 @@ import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
+import { SlideShowModalComponent } from '../slideShowModal/slideShowModal.component';
 
 @Component({
   selector: 'app-grid',
@@ -24,6 +25,14 @@ export class GridComponent implements OnInit {
     private router: Router,
     private jsonService: JSONLDService
   ) {}
+
+  @ViewChild(SlideShowModalComponent)
+  private slideShowModal: SlideShowModalComponent;
+
+  openSlideShowModal(title) {
+    this.slideShowModal.show();
+    this.slideShowModal.setSlide(title);
+  }
 
   openQuoteForm() {
     this.quoteForm.show();

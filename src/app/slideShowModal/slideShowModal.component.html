@@ -1,0 +1,31 @@
+<div
+  mdbModal
+  #slideShowModal="mdb-modal"
+  class="modal fade p-0"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+          <mdb-carousel-item *ngFor="let image of carouselItems">
+            <div class="view w-100">
+              <img
+                class="d-block w-100 modal-image"
+                [src]="image"
+                [alt]="doorObj[0].slug"
+              />
+            </div>
+            <!-- this can be used to add text to the door carousel -->
+            <!-- <div class="carousel-caption d-none d-lg-block">
+              <h3 class="h3-responsive transparent-gray">{{ door }}</h3>
+              <p class="transparent-gray">{{ doorObj[0].bullets[0] }}</p>
+            </div> -->
+          </mdb-carousel-item>
+        </mdb-carousel>
+      </div>
+    </div>
+  </div>
+</div>
