@@ -128,22 +128,24 @@
                 | findByCategory: 'Titan Security Screen Doors'
             "
           >
-            <div class="card col-6 col-md-4 col-lg-2">
-              <a [routerLink]="['/', item.type, item.slug]">
-                <div class="view overlay">
-                  <app-img
-                    [src]="item.tileImage"
-                    class="img-fluid serviceImage titanImage"
-                    [alt]="item.title"
-                  ></app-img>
-                  <div class="mask rgba-white-light"></div>
-                </div>
-              </a>
+            <div
+              class="card col-6 col-md-4 col-lg-2"
+              (click)="openSlideShowModal(item.title)"
+            >
+              <div class="view overlay">
+                <app-img
+                  [src]="item.tileImage"
+                  class="img-fluid serviceImage titanImage"
+                  [alt]="item.title"
+                ></app-img>
+                <div class="mask rgba-white-light"></div>
+              </div>
+
               <div class="card-body text-center">
                 <h4 class="card-title">
                   <strong
                     ><a
-                      [routerLink]="['/', item.type, item.slug]"
+                      (click)="openSlideShowModal(item.title)"
                       [innerHTML]="item.title"
                     ></a
                   ></strong>
@@ -154,6 +156,7 @@
         </div>
       </section>
     </div>
+    <app-slideShowModal></app-slideShowModal>
     <app-quote-form></app-quote-form>
   </ng-container>
   <ng-container *ngSwitchCase="'chimney-repairs'">
