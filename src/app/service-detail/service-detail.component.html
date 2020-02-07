@@ -109,6 +109,7 @@
             <div class="col-12">
               <h1 class="text-center h5" [innerHTML]="service.category"></h1>
               <h2 class="text-center h3" [innerHTML]="service.title"></h2>
+
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
                 <mdb-item
                   *ngFor="let item of service.textList; index as i"
