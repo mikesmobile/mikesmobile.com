@@ -163,9 +163,11 @@
           href="#disclaimer"
           mdbRippleRadius
           [pageScrollDuration]="400"
+          [pageScrollOffset]="110"
         >
-          <h2 class="text-left h3" *ngIf="price">
-            - <span class="price">{{ price.price }}</span> Installed*
+          <h2 class="text-left h3" *ngFor="let item of price.price">
+            - {{ item.type }}
+            <span class="price">{{ item.price }}</span> Installed*
           </h2>
         </a>
         <!-- <img *ngIf="price.priceTag" [src]="price.priceTag" /> -->
@@ -207,7 +209,7 @@
             </h4></a
           >
         </div>
-        <div class="row" id="disclaimer" *ngIf="product.colorSet">
+        <div class="row" *ngIf="product.colorSet">
           <div class="col-12">
             <h4>
               Color Selection &nbsp; <span class="small">(click to zoom)</span>
@@ -221,7 +223,7 @@
     </div>
     <div class="row justify-content-center text-center">
       <div class="col-12">
-        <p *ngIf="price">{{ price.disclaimer }}</p>
+        <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
       </div>
     </div>
   </div>

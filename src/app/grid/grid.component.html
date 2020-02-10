@@ -80,9 +80,11 @@
               href="#disclaimer"
               mdbRippleRadius
               [pageScrollDuration]="400"
+              [pageScrollOffset]="110"
             >
-              <h2 class="text-left h3" *ngIf="price">
-                - <span class="price">{{ price.price }}</span> Installed*
+              <h2 class="text-left h3" *ngFor="let item of price.price">
+                - {{ item.type }}
+                <span class="price">{{ item.price }}</span> Installed*
               </h2>
             </a>
             <div class="container">
@@ -123,16 +125,13 @@
                 <app-color-swatch
                   swatchType="titanAluminumColors"
                 ></app-color-swatch>
-                <app-color-swatch
-                  id="disclaimer"
-                  swatchType="meshtecColor"
-                ></app-color-swatch>
+                <app-color-swatch swatchType="meshtecColor"></app-color-swatch>
               </div>
             </div>
           </div>
         </div>
         <div class="row justify-content-center text-center">
-          <p *ngIf="price">{{ price.disclaimer }}</p>
+          <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
         </div>
         <hr class="mt-4" />
         <p
