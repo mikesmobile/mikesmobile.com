@@ -111,12 +111,27 @@
               <h2 class="text-center h3" [innerHTML]="service.title"></h2>
 
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-                <mdb-item
-                  *ngFor="let item of service.textList; index as i"
-                  [collapsed]="i !== 0"
-                >
+                <mdb-item *ngFor="let item of service.textList; index as i">
                   <mdb-item-head>{{ item.title }}</mdb-item-head>
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
+                </mdb-item>
+              </mdb-squeezebox>
+              <mdb-squeezebox *ngIf="price" class="pricesTag">
+                <mdb-item>
+                  <mdb-item-head class="pricesTag rounded text-white"
+                    >Prices</mdb-item-head
+                  >
+                  <mdb-item-body>
+                    <table mdbTable borderless="true">
+                      <tbody>
+                        <tr mdbTableCol *ngFor="let item of price.price">
+                          <td>{{ item.name }}</td>
+                          <td>{{ item.price }}*</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p clasee="text-center">*{{ price.disclaimer }}</p>
+                  </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
             </div>

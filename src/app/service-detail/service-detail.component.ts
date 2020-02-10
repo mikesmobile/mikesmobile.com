@@ -5,6 +5,7 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
+import priceJSON from '../../assets/json/prices.json';
 
 @Component({
   selector: 'app-service-detail',
@@ -16,6 +17,7 @@ import servicesJSON from '../../assets/json/services.json';
 })
 export class ServiceDetailComponent implements OnInit {
   service: any;
+  price;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -37,6 +39,14 @@ export class ServiceDetailComponent implements OnInit {
             description: data.tileText,
             image: data.tileImage
           });
+          return true;
+        }
+
+        return false;
+      });
+
+      this.price = priceJSON.find((data) => {
+        if (data.title === params['slug']) {
           return true;
         }
 

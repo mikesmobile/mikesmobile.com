@@ -6,6 +6,7 @@ import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
+import priceJSON from '../../assets/json/prices.json';
 
 @Component({
   selector: 'app-product-detail',
@@ -15,6 +16,7 @@ import servicesJSON from '../../assets/json/services.json';
 })
 export class ProductDetailComponent implements OnInit {
   product: any;
+  price;
   gallery_images: NgxGalleryImage[];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
@@ -37,6 +39,14 @@ export class ProductDetailComponent implements OnInit {
             description: data.tileText,
             image: data.tileImage
           });
+          return true;
+        }
+
+        return false;
+      });
+
+      this.price = priceJSON.find((data) => {
+        if (data.title === params['slug']) {
           return true;
         }
 

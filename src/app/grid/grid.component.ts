@@ -5,6 +5,7 @@ import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
+import priceJSON from '../../assets/json/prices.json';
 import { SlideShowModalComponent } from '../slideShowModal/slideShowModal.component';
 
 @Component({
@@ -18,6 +19,7 @@ import { SlideShowModalComponent } from '../slideShowModal/slideShowModal.compon
 export class GridComponent implements OnInit {
   service;
   serviceList = [];
+  price;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(
@@ -47,6 +49,14 @@ export class GridComponent implements OnInit {
             description: data.tileText,
             image: data.tileImage
           });
+          return true;
+        }
+
+        return false;
+      });
+
+      this.price = priceJSON.find((data) => {
+        if (data.title === params['slug']) {
           return true;
         }
 

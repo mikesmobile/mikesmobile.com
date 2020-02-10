@@ -1,0 +1,80 @@
+[
+  {
+    "title": "tru-view-security-doors",
+    "type": "products",
+    "name": "TRU-View Security Screen Doods",
+    "price": "$1,595",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "titan-security-doors",
+    "type": "products",
+    "name": "Titan Security Doors",
+    "priceTag": "/assets/images/priceTags/titanPriceTag.png",
+    "price": "$1,995",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "viewguard-security-doors",
+    "type": "products",
+    "name": "Viewguard Security Doors",
+    "priceTag": "/assets/images/priceTags/titanPriceTag.png",
+    "price": "$1,795",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "sliding-security-doors",
+    "type": "products",
+    "name": "Sliding Security Doors",
+    "price": "$1,995",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "sliding-screen-doors",
+    "type": "products",
+    "name": "Sliding Screen Doors",
+    "price": "$295",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "sliding-security-doors",
+    "type": "products",
+    "name": "Sliding Security Doors",
+    "price": "$1,995",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "retractable-screen-doors",
+    "type": "products",
+    "name": "Retractable Screen Doors",
+    "price": "$749",
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "chimney-cleaning",
+    "type": "services",
+    "price": [
+      {
+        "name": "Open Fireplace",
+        "price": "$249"
+      },
+      {
+        "name": "Freestanding Stove",
+        "price": "$269"
+      },
+      {
+        "name": "Insert",
+        "price": "$349"
+      },
+      {
+        "name": "Pellet Stove",
+        "price": "$349"
+      },
+      {
+        "name": "Gas Fireplace (Includes Diagnostics)",
+        "price": "$399"
+      }
+    ],
+    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+  }
+]
