@@ -76,6 +76,7 @@ export class LandingRegionalComponent implements OnInit {
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
 
+      console.log(params);
       this.region = regionalJSON.find((data) => {
         return data.slug === regionalSlug;
       });
@@ -85,20 +86,6 @@ export class LandingRegionalComponent implements OnInit {
         this.router.navigate(['/regions']);
         return;
       }
-      this.review1 = 'bASTk8xVt-yEmQHXVcX1dQ';
-      this.review2 = this.region.reviews[1].dataReviewId;
-      this.review3 = this.region.reviews[2].dataReviewId;
-      console.log(this.review1);
-
-      setTimeout(() => {
-        this._reload = false;
-        console.log('reload');
-      }, 2000);
-      setTimeout(() => {
-        this._reload = true;
-        console.log('reload');
-      }, 3000);
-      this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.region.map);
     });
   }
 }

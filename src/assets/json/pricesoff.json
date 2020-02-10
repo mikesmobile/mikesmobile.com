@@ -3,7 +3,7 @@
     "title": "tru-view-security-doors",
     "type": "products",
     "name": "TRU-View Security Screen Doods",
-    "price": "$1,595",
+    "price": [{ "price": "$1,595", "type": "" }],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
@@ -11,7 +11,12 @@
     "type": "products",
     "name": "Titan Security Doors",
     "priceTag": "/assets/images/priceTags/titanPriceTag.png",
-    "price": "$1,995",
+    "price": [
+      {
+        "price": "$1,995",
+        "type": ""
+      }
+    ],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
@@ -19,35 +24,182 @@
     "type": "products",
     "name": "Viewguard Security Doors",
     "priceTag": "/assets/images/priceTags/titanPriceTag.png",
-    "price": "$1,795",
+    "price": [
+      {
+        "price": "$1,795",
+        "type": ""
+      }
+    ],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "sliding-security-doors",
     "type": "products",
     "name": "Sliding Security Doors",
-    "price": "$1,995",
+
+    "price": [
+      {
+        "price": "$1,995",
+        "type": "Single"
+      },
+      {
+        "price": "$2,995",
+        "type": "Double"
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "pet-doors",
+    "type": "products",
+    "name": "Sliding Security Doors",
+
+    "price": [
+      {
+        "price": "$195",
+        "type": "Sm-Med"
+      },
+      {
+        "price": "$285",
+        "type": "Lg-Xl"
+      }
+    ],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "sliding-screen-doors",
     "type": "products",
     "name": "Sliding Screen Doors",
-    "price": "$295",
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "sliding-security-doors",
-    "type": "products",
-    "name": "Sliding Security Doors",
-    "price": "$1,995",
+    "price": [
+      {
+        "price": "$295",
+        "type": ""
+      }
+    ],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "retractable-screen-doors",
     "type": "products",
     "name": "Retractable Screen Doors",
-    "price": "$749",
+    "price": [
+      {
+        "price": "$749",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "el-dorado-swinging-screen-door",
+    "type": "products",
+    "name": "El Dorado",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "fiesta-swinging-screen-door",
+    "type": "products",
+    "name": "Fiesta",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "safeguard-swinging-screen-door",
+    "type": "products",
+    "name": "Safegaurd",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "santa-cruz-swinging-screen-door",
+    "type": "products",
+    "name": "Santa Cruz",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "brighton-swinging-screen-door",
+    "type": "products",
+    "name": "Brighton",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "clearview-swinging-screen-door",
+    "type": "products",
+    "name": "Clearview",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "colonade-swinging-screen-door",
+    "type": "products",
+    "name": "Colonade",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "craftsman-swinging-screen-door",
+    "type": "products",
+    "name": "Craftsman",
+    "price": [
+      {
+        "price": "$549",
+        "type": ""
+      }
+    ],
+    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "lifestyle-garage-screen",
+    "type": "products",
+    "name": "Lifestyle Garage Screen Door",
+    "price": [
+      {
+        "price": "$1,595",
+        "type": ""
+      },
+      {
+        "price": "$1,992",
+        "type": "/w Door "
+      }
+    ],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
@@ -73,6 +225,36 @@
       {
         "name": "Gas Fireplace (Includes Diagnostics)",
         "price": "$399"
+      }
+    ],
+    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+  },
+  {
+    "title": "chimney-inspections",
+    "type": "services",
+    "price": [
+      {
+        "name": "Level - 1",
+        "price": "Free With Cleaning"
+      },
+      {
+        "name": "level - 2: Open, Freestanding, Gas",
+        "price": "$373.50"
+      },
+      {
+        "name": "level - 2: Insert, Pellet",
+        "price": "$423.50"
+      }
+    ],
+    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+  },
+  {
+    "title": "dryer-vent-cleaning",
+    "type": "services",
+    "price": [
+      {
+        "name": "Dryer Vent Cleaning",
+        "price": "$249"
       }
     ],
     "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
