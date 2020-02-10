@@ -215,13 +215,10 @@
       </div>
     </div>
     <!-- this is the flip cards -->
-    <div id="chimney-services">
-      <h2 class="text-white">Chimney Services</h2>
-    </div>
     <div class="row w-100 text-center justify-content-center mt-5">
       <div class="col-md-12">
         <!-- <app-service-list></app-service-list> -->
-        <h2 class="h3 text-center">
+        <h2 class="h3 text-center" id="chimney-services">
           {{ region.services[0].title }} in {{ region.region }}
         </h2>
         <app-flipcard-list
@@ -229,13 +226,10 @@
         ></app-flipcard-list>
       </div>
     </div>
-    <div id="security-doors-and-windows">
-      <h2 class="text-white">Security doors and windows</h2>
-    </div>
     <div class="row w-100 mt-5">
       <div class="col-md-12">
         <!-- <app-service-list></app-service-list> -->
-        <h2 class="h3 text-center">
+        <h2 class="h3 text-center" id="security-doors-and-windows">
           {{ region.services[1].title }} in {{ region.region }}
         </h2>
         <app-flipcard-list
@@ -243,13 +237,10 @@
         ></app-flipcard-list>
       </div>
     </div>
-    <div id="door-and-window-screens">
-      <h2 class="text-white">Door and Windo Screens</h2>
-    </div>
     <div class="row w-100 mt-5">
       <div class="col-md-12">
         <!-- <app-service-list></app-service-list> -->
-        <h2 class="h3 text-center">
+        <h2 class="h3 text-center" id="door-and-window-screens">
           {{ region.services[2].title }} in {{ region.region }}
         </h2>
         <app-flipcard-list
@@ -257,13 +248,10 @@
         ></app-flipcard-list>
       </div>
     </div>
-    <div id="awnings">
-      <h2 class="text-white">Awnings</h2>
-    </div>
     <div class="row w-100 mt-5">
       <div class="col-md-12">
         <!-- <app-service-list></app-service-list> -->
-        <h2 class="h3 text-center">
+        <h2 class="h3 text-center" id="awnings">
           {{ region.services[3].title }} in {{ region.region }}
         </h2>
         <app-flipcard-list
@@ -273,8 +261,3 @@
     </div>
   </div>
 </div>
-<script
-  async="async"
-  src="https://www.yelp.com/embed/widgets.js"
-  type="text/javascript"
-></script>
