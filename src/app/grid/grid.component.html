@@ -1,54 +1,114 @@
-<app-action-buttons></app-action-buttons>
-
 <ng-container [ngSwitch]="service.slug">
   <ng-container *ngSwitchCase="'swinging-screen-doors'">
     <div class="container">
       <section class="section pb-3">
-        <h1 class="section-heading h1 pt-md-4" [innerHTML]="service.title"></h1>
+        <nav class="breadcrumb mt-2">
+          <a class="breadcrumb-item" routerLink="/">Home</a>
+          <a class="breadcrumb-item" routerLink="/about/door-and-window-screens"
+            >Door and Window Screens</a
+          >
+          <span class="breadcrumb-item active">Swinging Screen Doors</span>
+        </nav>
+        <div class="row">
+          <div class="col-12 col-md-7 pb-3 swingingScreenDoorImg">
+            <app-main-gallery
+              [Images]="service.recentInstallImages"
+            ></app-main-gallery>
+          </div>
+          <div class="col-12 col-md-5 productInfo">
+            <h1 class="text-left h5">Screen Doors</h1>
+            <h2 class="text-left h3">Swinging Screen Doors</h2>
+            <a
+              *ngIf="price"
+              mdbPageScroll
+              href="#disclaimer"
+              mdbRippleRadius
+              [pageScrollDuration]="400"
+              [pageScrollOffset]="110"
+            >
+              <h2 class="text-left h3" *ngFor="let item of price.price">
+                - {{ item.type }}
+                <span class="price">{{ item.price }}</span> Installed*
+              </h2>
+            </a>
+            <div class="container">
+              <ul class="pb-3">
+                <li class="l2">
+                  Available in 8 different designs.
+                  <a
+                    class="blue-text"
+                    mdbPageScroll
+                    [pageScrollOffset]="100"
+                    href="#screenDoorGallery"
+                    >Click or Scroll here to see them all</a
+                  >
+                </li>
+                <li class="l2">
+                  Available in Standard and custom sizes!
+                </li>
+                <li class="l2">
+                  Customize your Door and add a Solor Screen today!
+                </li>
+              </ul>
+            </div>
+            <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
+              <h4
+                class="animated pulse infinite orange-text pb-3 cursor-pointer"
+              >
+                &nbsp; Get a Free Quote Now!
+              </h4>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <h4>
+                  Color Selection &nbsp;
+                  <span class="small">(click to zoom)</span>
+                </h4>
+                <ng-container *ngFor="let i of service.colorSet">
+                  <app-color-swatch [swatchType]="i"></app-color-swatch>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
-        <div class="row text-center">
-          <hr />
+        <div class="row text-center" id="screenDoorGallery">
           <ng-container
             *ngFor="
               let item of serviceList | findByCategory: 'Swinging Screen Door'
             "
           >
-            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
+            <div
+              class="col-6 col-md-4 col-lg-3 my-3 service-list"
+              (click)="openSlideShowModal(item.title)"
+            >
               <div class="card">
-                <a [routerLink]="['/', item.type, item.slug]">
-                  <div class="view overlay">
-                    <app-img
-                      [src]="item.tileImage"
-                      class="img-fluid doorImages serviceImage"
-                      [alt]="item.title"
-                    ></app-img>
-                    <div class="mask rgba-white-light"></div>
-                  </div>
-                </a>
+                <div class="view overlay">
+                  <app-img
+                    [src]="item.tileImage"
+                    class="img-fluid doorImages serviceImage"
+                    [alt]="item.title"
+                  ></app-img>
+                  <div class="mask rgba-white-light"></div>
+                </div>
                 <div class="card-body text-center">
                   <h4 class="card-title">
-                    <strong
-                      ><a
-                        [routerLink]="['/', item.type, item.slug]"
-                        [innerHTML]="item.title"
-                      ></a
-                    ></strong>
+                    <strong>
+                      {{ item.title }}
+                    </strong>
                   </h4>
                 </div>
               </div>
             </div>
           </ng-container>
         </div>
+        <app-tab-nav [details]="service.details"></app-tab-nav>
       </section>
-      <div class="container mt-4">
-        <section class="text-center section feature-box">
-          <app-footer-gallery
-            [Images]="service.recentInstallImages"
-          ></app-footer-gallery>
-        </section>
-      </div>
     </div>
+
+    <app-slideShowModal></app-slideShowModal>
+    <app-quote-form></app-quote-form>
   </ng-container>
   <ng-container *ngSwitchCase="'titan-security-doors'">
     <div class="container">
