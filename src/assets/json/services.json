@@ -2584,7 +2584,40 @@
         "medium": "/assets/images/screens/swinging-screen-doors/recent-installs/White-Craftsman-Swinging-Screen-Door-2.jpg",
         "big": "/assets/images/screens/swinging-screen-doors/recent-installs/White-Craftsman-Swinging-Screen-Door-2.jpg"
       }
-    ]
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "Mike's Mobile Screen & Chimney Service offers high quality Swinging Screen doors. The Santa Cruz Swinging Screen Door is another option for customers searching for the perfect screen door. The screen door comes Standard with a charcoal fiberglass bug mesh. Try adding a Pet Door or Solar Screen!"
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>2-1/8in. x 3/4in. .050 Extruded Aluminum Frame</li><li>Standard 12in. Embossed .024 Aluminum Kickplate</li><li>Available in Standard Sizes</li><li>2ft 6in. x 6ft 8in. (29-1/4in. x 79-1/4in.)</li><li>2ft 8in. x 6ft 8in. (31-1/4in. x 79-1/4in.)</li><li>3ft 0in. x 6ft 8in. (35-1/4in. x 79-1/4in.)</li><li>Custom Widths 24in. - 42in., Heights up to 96in.</li><li>Charcoal Fiberglass Insect Screening</li><li>Standard Push Button Handle</li><li>1-7/8in. Side Adjustable .050 Channel with 3 Hinges</li><li>1-7/8in. Bottom Adjustment .050 Channel</li><li>Precision SAFEGUARD Packaging - Complete with Hardware.</li><li>Extruded Amplimesh 3/16in. Aluminum Grille</li><li>NOTE: Grille Turned Sideways on Doors</li><li>Over 35-1/4in. Wide</li>"
+      },
+      {
+        "title": "Options",
+        "description": "<li>Double Door Option</li><li>Hinge Expander or Pre Hung Frame</li><li>Solar Screen</li><li>Pet Door</li><li>Kick Plate</li>"
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Sliding Screen Doors": "/products/sliding-screen-doors",
+          "Retractable Screen Doors": "/products/retractable-screen-doors",
+          "Door and Window Screens": "/about/door-and-window-screens",
+          "Screen Doors": "/about/door-screens",
+          "Window Screens": "/about/window-screens",
+          "Swinging Screen Doors": "/grid/swinging-screen-doors",
+          "Security Door and Windows": "/about/security-doors-and-windows",
+          "Security Door": "/about/security-doors",
+          "Security Window Screens": "/about/security-windows"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "Warranty covers workmanship of door. This includes hardware not working properly, corners coming apart, handle not functioning, and any other workmanship issues not listed here that are determined to be the fault of the manufacturer. Not covered under the warranty is any damage to the screen (Solar Screen has a warranty, Bugscreen does not.) or intentional damage including tampering with the door, damaged caused by brute, or intentional, force, damage from a pet or any other intentional act not deemed a workmanship flaw."
+      }
+    ],
+    "colorSet": ["swingingDoorColors"]
   },
   {
     "title": "El Dorado",

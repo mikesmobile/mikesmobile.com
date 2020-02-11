@@ -1,5 +1,5 @@
-<div class="container py-4" id="tab-section">
-  <div class="container">
+<div class="container py-4 mx-0 px-0" id="tab-section">
+  <div class="container ">
     <mdb-tabset
       class="menu"
       buttonClass="md-tabs light-blue tabs-3"
@@ -7,8 +7,8 @@
     >
       <ng-container #navwrap *ngFor="let info of details; let i = index">
         <mdb-tab *ngIf="info != ''" [heading]="info.title">
-          <div *ngIf="info.description">
-            <p class="p-4" [innerHTML]="info.description"></p>
+          <div *ngIf="info.description" class="px-0 m-0 mobileGrow">
+            <p class="py-4 px-0 m-0" [innerHTML]="info.description"></p>
             <div *ngIf="info.image">
               <app-img [src]="info.image" class="img-fluid"></app-img>
             </div>
