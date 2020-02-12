@@ -76,7 +76,6 @@ export class LandingRegionalComponent implements OnInit {
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
 
-      console.log(params);
       this.region = regionalJSON.find((data) => {
         return data.slug === regionalSlug;
       });
