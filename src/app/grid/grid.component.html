@@ -133,8 +133,23 @@
           </div>
           <div class="col-12 col-md-5 productInfo">
             <h1 class="text-left h5">Security Screen Doors</h1>
-            <h2 class="text-left h3">Titan Security Screen Doors</h2>
-            <a
+            <h2 class="text-left h3 makeNewLine">
+              Titan Security Screen Doors
+              <a
+                *ngIf="price"
+                mdbPageScroll
+                href="#disclaimer"
+                mdbRippleRadius
+                [pageScrollDuration]="400"
+                [pageScrollOffset]="110"
+              >
+                <span class="text-left h3" *ngFor="let item of price.price">
+                  - {{ item.type }}
+                  <span class="price">{{ item.price }}</span> Installed*
+                </span>
+              </a>
+            </h2>
+            <!-- <a
               *ngIf="price"
               mdbPageScroll
               href="#disclaimer"
@@ -146,7 +161,7 @@
                 - {{ item.type }}
                 <span class="price">{{ item.price }}</span> Installed*
               </h2>
-            </a>
+            </a> -->
             <div class="container">
               <ul class="pb-3">
                 <li class="l2">
@@ -299,7 +314,7 @@
               <div class="flip-container">
                 <a
                   class="flipper d-block"
-                  [routerLink]="['/', item.type, item.slug]"
+                  [routerLink]="['/', item.type, 'masonry', item.slug]"
                 >
                   <div class="front">
                     <div class="view waves-light" mdbRippleRadius>
