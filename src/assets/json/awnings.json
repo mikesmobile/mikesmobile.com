@@ -1,6 +1,50 @@
 [
   {
     "type": "sunlight",
-    "sizes": [{}]
+    "sizeOptions": ["5 feet", "6 feet"],
+    "sizes": {
+      "5 feet": {
+        "width": "5 feet",
+        "projection": [
+          {
+            "size": "8 feet 8 inches",
+            "price": "1876"
+          }
+        ],
+        "arms": "2",
+        "MtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "WallBrkts": "88",
+        "ceilingsBrkts": "96",
+        "motorStandard": "596",
+        "motorMO": "724",
+        "handcrank": "38",
+        "hood": "316",
+        "smart tilt": "186"
+      },
+      "6 feet": {
+        "width": "6 feet",
+        "projection": [
+          {
+            "size": "6 feet 8 inches",
+            "price": "1910"
+          },
+          {
+            "size": "8 feet 3 inches",
+            "price": "2020"
+          }
+        ],
+        "arms": "2",
+        "MtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "WallBrkts": "88",
+        "ceilingsBrkts": "96",
+        "motorStandard": "596",
+        "motorMO": "724",
+        "handcrank": "38",
+        "hood": "348",
+        "smart tilt": "186"
+      }
+    }
   }
 ]

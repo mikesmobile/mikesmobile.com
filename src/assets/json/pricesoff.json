@@ -91,7 +91,7 @@
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
-    "title": "el-dorado-swinging-screen-door",
+    "title": "swinging-screen-doors",
     "type": "products",
     "name": "El Dorado",
     "price": [
@@ -216,7 +216,7 @@
       },
       {
         "name": "Insert",
-        "price": "$349"
+        "price": "$349*"
       },
       {
         "name": "Pellet Stove",
@@ -227,7 +227,7 @@
         "price": "$399"
       }
     ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    "disclaimer": "additional charges may apply"
   },
   {
     "title": "chimney-inspections",

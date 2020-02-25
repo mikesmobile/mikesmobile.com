@@ -7,13 +7,14 @@ import { Injectable, Inject } from '@angular/core';
 export class JSONLDService {
   constructor(@Inject(DOCUMENT) private dom: Document) {}
 
-  async updateJSONLD({ name, image, description }) {
+  async updateJSONLD({ name, image, description, offers }) {
     const json: any = {
       '@context': 'http://schema.org',
       '@type': 'Product',
       name,
       description,
-      image: `https://mikesmobile.com/${image}`
+      image: `https://mikesmobile.com/${image}`,
+      offers
     };
 
     let existingTag = this.dom.head.querySelector(
