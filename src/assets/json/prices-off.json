@@ -244,8 +244,7 @@
         "name": "level - 2: Insert, Pellet",
         "price": "$423.50"
       }
-    ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    ]
   },
   {
     "title": "dryer-vent-cleaning",
@@ -255,7 +254,6 @@
         "name": "Dryer Vent Cleaning",
         "price": "$249"
       }
-    ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    ]
   }
 ]
