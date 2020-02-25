@@ -291,48 +291,128 @@
   </ng-container>
   <ng-container *ngSwitchCase="'masonry-services'">
     <div class="container">
-      <section class="section pb-3">
+      <section class="section text-center pb-3">
         <h1 class="section-heading h1 pt-md-4" [innerHTML]="service.title"></h1>
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
-          <ng-container
-            *ngFor="let item of serviceList | findByCategory: 'Masonry'"
+          <div
+            class="container"
+            *ngFor="
+              let item of serviceList | findByCategory: 'Masonry';
+              let isOdd = odd;
+              let isEven = even
+            "
           >
-            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
-              <div class="flip-container">
-                <a
-                  class="flipper d-block"
-                  [routerLink]="['/', item.type, 'masonry', item.slug]"
-                >
-                  <div class="front">
-                    <div class="view waves-light" mdbRippleRadius>
-                      <app-img
-                        [src]="item.tileImage"
-                        class="img-fluid serviceImage"
-                        [alt]="item.title"
-                      ></app-img>
+            <div class="row d-none d-md-block" *ngIf="isOdd">
+              <div class="jumbotron py-1">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="container py-5">
+                      <a
+                        class="my-3 d-block"
+                        [routerLink]="['/', item.type, 'masonry', item.slug]"
+                      >
+                        <h4 class="text-center" [innerHTML]="item.title"></h4>
+                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                        <p
+                          class="p-1 mb-0 text-center"
+                          [innerHTML]="item.tileText"
+                        ></p>
+                        <button class="btn card-back-title">Learn More!</button>
+                      </a>
                     </div>
-                    <h5
-                      class="card-title px-4 py-2"
-                      [innerHTML]="item.title"
-                    ></h5>
                   </div>
-                  <div class="back">
-                    <h4
-                      class="text-center card-back-title"
-                      [innerHTML]="item.title"
-                    ></h4>
-                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                    <p
-                      class="p-1 mb-0 text-center"
-                      [innerHTML]="item.tileText"
-                    ></p>
+                  <div class="col-md-7">
+                    <a
+                      class=" d-block"
+                      [routerLink]="['/', item.type, 'masonry', item.slug]"
+                    >
+                      <div class="view waves-light" mdbRippleRadius>
+                        <app-img
+                          [src]="item.tileImage"
+                          class="img-fluid masonryImg"
+                          [alt]="item.title"
+                        ></app-img>
+                      </div>
+                    </a>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
-          </ng-container>
+            <div class="row d-md-none" *ngIf="isOdd">
+              <div class="jumbotron py-1">
+                <div class="row">
+                  <div class="col-md-7">
+                    <a
+                      class=" d-block"
+                      [routerLink]="['/', item.type, 'masonry', item.slug]"
+                    >
+                      <div class="view waves-light" mdbRippleRadius>
+                        <app-img
+                          [src]="item.tileImage"
+                          class="img-fluid masonryImg"
+                          [alt]="item.title"
+                        ></app-img>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="container py-5">
+                      <a
+                        class="my-3 d-block"
+                        [routerLink]="['/', item.type, 'masonry', item.slug]"
+                      >
+                        <h4 class="text-center" [innerHTML]="item.title"></h4>
+                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                        <p
+                          class="p-1 mb-0 text-center"
+                          [innerHTML]="item.tileText"
+                        ></p>
+                        <button class="btn card-back-title">Learn More!</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" *ngIf="isEven">
+              <div class="jumbotron py-1">
+                <div class="row">
+                  <div class="col-md-7">
+                    <a
+                      class="d-block"
+                      [routerLink]="['/', item.type, 'masonry', item.slug]"
+                    >
+                      <div class="view waves-light" mdbRippleRadius>
+                        <app-img
+                          [src]="item.tileImage"
+                          class="img-fluid masonryImg"
+                          [alt]="item.title"
+                        ></app-img>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="container py-5">
+                      <a
+                        class=" d-block"
+                        [routerLink]="['/', item.type, 'masonry', item.slug]"
+                      >
+                        <h4 class="text-center" [innerHTML]="item.title"></h4>
+                        <div class="divider dropdown-divider pt-0 mt-0"></div>
+                        <p
+                          class="p-1 mb-0 text-center"
+                          [innerHTML]="item.tileText"
+                        ></p>
+                        <button class="btn card-back-title">Learn More!</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
