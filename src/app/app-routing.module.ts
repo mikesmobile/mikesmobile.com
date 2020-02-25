@@ -24,6 +24,7 @@ import { RegionListComponent } from './region-list/region-list.component';
 import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { FinancingComponent } from './financing/financing.component';
+import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
@@ -217,7 +218,9 @@ const appRoutes: Routes = [
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
+  { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'promo', component: PromoComponent },
+  { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent }
