@@ -91,7 +91,7 @@
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
-    "title": "el-dorado-swinging-screen-door",
+    "title": "swinging-screen-doors",
     "type": "products",
     "name": "El Dorado",
     "price": [
@@ -223,11 +223,10 @@
         "price": "$349"
       },
       {
-        "name": "Gas Fireplace (Includes Diagnostics)",
-        "price": "$399"
+        "name": "Gas Fireplace",
+        "price": "$249"
       }
-    ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    ]
   },
   {
     "title": "chimney-inspections",
@@ -245,8 +244,7 @@
         "name": "level - 2: Insert, Pellet",
         "price": "$423.50"
       }
-    ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    ]
   },
   {
     "title": "dryer-vent-cleaning",
@@ -256,7 +254,6 @@
         "name": "Dryer Vent Cleaning",
         "price": "$249"
       }
-    ],
-    "disclaimer": "Base Price does not include tax's and fees, additional charges may apply"
+    ]
   }
 ]

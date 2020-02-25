@@ -34,12 +34,23 @@ export class ProductDetailComponent implements OnInit {
     this.route.params.subscribe((params) => {
       this.product = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
-          this.jsonService.updateJSONLD({
-            name: data.title,
-            description: data.tileText,
-            image: data.tileImage
-          });
-          return true;
+          if (data.offers) {
+            this.jsonService.updateJSONLD({
+              name: data.title,
+              description: data.tileText,
+              image: data.tileImage,
+              offers: data.offers
+            });
+            return true;
+          } else {
+            this.jsonService.updateJSONLD({
+              name: data.title,
+              description: data.tileText,
+              image: data.tileImage,
+              offers: ''
+            });
+            return true;
+          }
         }
 
         return false;

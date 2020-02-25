@@ -57,6 +57,7 @@ import { LazyLoadSourceDirective } from './lazy-load/lazy-load-source.directive'
 import { QuoteFormPromoComponent } from './quote-form-promo/quote-form-promo.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { SlideShowModalComponent } from './slideShowModal/slideShowModal.component';
+import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +111,8 @@ import { SlideShowModalComponent } from './slideShowModal/slideShowModal.compone
     FreeQuoteComponent,
     QuoteFormPromoComponent,
     ReviewsComponent,
-    SlideShowModalComponent
+    SlideShowModalComponent,
+    AwningPriceCalcComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

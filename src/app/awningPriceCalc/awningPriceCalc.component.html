@@ -1,0 +1,69 @@
+<div class="container text-center">
+  <div class="card my-4">
+    <div class="card-body">
+      <h5 class="card-title">
+        Get an Awning quote!
+      </h5>
+      <form class="my-4">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="awnType">Choose Awning type</label>
+            <select
+              class="browser-default custom-select"
+              [(ngModel)]="awnType"
+              name="awnType"
+              (click)="setAwnType()"
+            >
+              <option value="sunlight">Sunlight (good)</option>
+              <option value="sunstyle">Sunstyle (better)</option>
+              <option value="sunsesta">Sunsesta (best)</option>
+            </select>
+          </div>
+        </div>
+        <p>{{ awnType }}</p>
+        <div class="form-row" *ngIf="awnType">
+          <div class="form-group col-md-6">
+            <label for="widthInput">Width</label>
+            <div class="input-group">
+              <select
+                name="width"
+                [(ngModel)]="width"
+                class="browser-default custom-select"
+                id="widthInput"
+                (click)="setProjectionOptions()"
+              >
+                <option selected>choose the width!</option>
+                <option *ngFor="let size of selectedAwn.sizeOptions">{{
+                  size
+                }}</option>
+              </select>
+              <div class="input-group-append">
+                <span class="input-group-text">Feet</span>
+              </div>
+            </div>
+            <p>Width: {{ width }}</p>
+          </div>
+          <div class="form-group col-md-6" *ngIf="width">
+            <label for="projection">Projection (how far it goes out)</label>
+            <div class="input-group">
+              <select
+                name="projection"
+                [(ngModel)]="projection"
+                class="form-control"
+                id="projection"
+              >
+                <option *ngFor="let proj of projectionOptions.projection">
+                  {{ proj.size }}
+                </option>
+              </select>
+              <div class="input-group-append">
+                <span class="input-group-text">Feet</span>
+              </div>
+            </div>
+            <p>Projection: {{ projection }}</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

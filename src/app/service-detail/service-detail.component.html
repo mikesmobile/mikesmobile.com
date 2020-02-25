@@ -125,12 +125,14 @@
                     <table mdbTable borderless="true">
                       <tbody>
                         <tr mdbTableCol *ngFor="let item of price.price">
-                          <td>{{ item.name }}</td>
-                          <td>{{ item.price }}*</td>
+                          <td class="py-0">{{ item.name }}</td>
+                          <td class="price py-0">{{ item.price }}</td>
                         </tr>
                       </tbody>
                     </table>
-                    <p clasee="text-center">*{{ price.disclaimer }}</p>
+                    <p *ngIf="price.disclaimer" class="text-center">
+                      *{{ price.disclaimer }}
+                    </p>
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>

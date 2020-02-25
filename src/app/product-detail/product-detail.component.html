@@ -156,21 +156,22 @@
 
       <div class="col-12 col-md-5 productInfo">
         <h1 class="text-left h5" [innerHTML]="product.category"></h1>
-        <h2 class="text-left h3" [innerHTML]="product.title"></h2>
-        <a
-          *ngIf="price"
-          mdbPageScroll
-          href="#disclaimer"
-          mdbRippleRadius
-          [pageScrollDuration]="400"
-          [pageScrollOffset]="110"
-        >
-          <h2 class="text-left h3" *ngFor="let item of price.price">
-            - {{ item.type }}
-            <span class="price">{{ item.price }}</span> Installed*
-          </h2>
-        </a>
-        <!-- <img *ngIf="price.priceTag" [src]="price.priceTag" /> -->
+        <h2 class="text-left h3 makeNewLine">
+          {{ product.title }}
+          <a
+            *ngIf="price"
+            mdbPageScroll
+            href="#disclaimer"
+            mdbRippleRadius
+            [pageScrollDuration]="400"
+            [pageScrollOffset]="110"
+          >
+            <span class="text-left h3" *ngFor="let item of price.price">
+              - {{ item.type }}
+              <span class="price">{{ item.price }}</span> Installed*
+            </span>
+          </a>
+        </h2>
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
             <mdb-item
