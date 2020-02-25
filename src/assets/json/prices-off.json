@@ -216,18 +216,17 @@
       },
       {
         "name": "Insert",
-        "price": "$349*"
+        "price": "$349"
       },
       {
         "name": "Pellet Stove",
         "price": "$349"
       },
       {
-        "name": "Gas Fireplace (Includes Diagnostics)",
-        "price": "$399"
+        "name": "Gas Fireplace",
+        "price": "$249"
       }
-    ],
-    "disclaimer": "additional charges may apply"
+    ]
   },
   {
     "title": "chimney-inspections",

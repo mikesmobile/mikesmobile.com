@@ -130,7 +130,9 @@
                         </tr>
                       </tbody>
                     </table>
-                    <p clasee="text-center">*{{ price.disclaimer }}</p>
+                    <p *ngIf="price.disclaimer" class="text-center">
+                      *{{ price.disclaimer }}
+                    </p>
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
