@@ -33,7 +33,7 @@ export class QuoteFormDropRollComponent {
     laborPrice: string;
     shippingPrice: string;
     wirelessMotor: string;
-    totalPrice: string;
+    totalPrice: number;
   };
 
   constructor(
