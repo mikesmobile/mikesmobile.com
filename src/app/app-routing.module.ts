@@ -25,6 +25,7 @@ import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { FinancingComponent } from './financing/financing.component';
 import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
+import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
@@ -221,6 +222,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'promo', component: PromoComponent },
   { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
+  { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent }
