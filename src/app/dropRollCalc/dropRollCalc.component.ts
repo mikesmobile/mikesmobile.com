@@ -1,5 +1,6 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit, OnChanges, ViewChild } from '@angular/core';
 import droprollJSON from '../../assets/json/dropRoll.json';
+import { QuoteFormDropRollComponent } from '../quote-form-droproll/quote-form-droproll.component';
 
 @Component({
   selector: 'dropRoll-price-calc',
@@ -9,8 +10,17 @@ import droprollJSON from '../../assets/json/dropRoll.json';
 export class DropRollCalcComponent implements OnInit, OnChanges {
   width: string;
   drop: string;
+  quote: {
+    width: string;
+    drop: string;
+    dropRollPrice: string;
+    laborPrice: string;
+    shippingPrice: string;
+    wirelessMotor: string;
+    totalPrice: string;
+  };
   alreadyLoaded: boolean;
-  widthLess10: boolean;
+  widthLess10: boolean = true;
   widthLess19: boolean;
   width19: boolean;
   widthLess23: boolean;
@@ -64,6 +74,13 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
   laborPrice: string;
   shippingPrice: string;
   totalPrice: number;
+
+  @ViewChild(QuoteFormDropRollComponent)
+  private quoteForm: QuoteFormDropRollComponent;
+
+  openQuoteForm() {
+    this.quoteForm.show();
+  }
 
   setPossibleDrops() {
     if (parseInt(this.width) <= parseInt("9'")) {
@@ -156,6 +173,16 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       parseInt(this.laborPrice) +
       parseInt(this.shippingPrice) +
       parseInt(this.wirelessMotorPrice);
+
+    this.quote = {
+      width: this.width,
+      drop: this.drop,
+      dropRollPrice: this.dropRollPrice,
+      laborPrice: this.laborPrice,
+      shippingPrice: this.shippingPrice,
+      wirelessMotor: this.wirelessMotorPrice,
+      totalPrice: this.totalPrice
+    };
   }
 
   ngOnChanges() {}

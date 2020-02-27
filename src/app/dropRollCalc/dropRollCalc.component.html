@@ -147,6 +147,16 @@
                     </h6>
                   </div>
                 </div>
+                <div
+                  class="flew-row my-4 text-center"
+                  (click)="openQuoteForm()"
+                >
+                  <h4
+                    class="animated pulse infinite orange-text pb-3 cursor-pointer"
+                  >
+                    &nbsp; Schedule a Tech Out Now!
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
@@ -155,3 +165,4 @@
     </div>
   </div>
 </div>
+<app-quote-form-droproll [quote]="quote"></app-quote-form-droproll>

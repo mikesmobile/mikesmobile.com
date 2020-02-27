@@ -1,9 +1,9 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, Input } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
-import { MailService } from '../services/mail.service';
+import { MailDropRollService } from '../services/mailDropRoll.service';
 
 // Property declared by Google Tag Manager
 declare global {
@@ -16,7 +16,7 @@ declare global {
   selector: 'app-quote-form-droproll',
   templateUrl: './quote-form-droproll.component.html',
   styleUrls: ['./quote-form-droproll.component.sass'],
-  providers: [MailService]
+  providers: [MailDropRollService]
 })
 export class QuoteFormDropRollComponent {
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
@@ -26,10 +26,20 @@ export class QuoteFormDropRollComponent {
     { value: 'phone', label: 'Contact me via Phone' }
   ];
 
+  @Input() quote: {
+    width: string;
+    drop: string;
+    dropRollPrice: string;
+    laborPrice: string;
+    shippingPrice: string;
+    wirelessMotor: string;
+    totalPrice: string;
+  };
+
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private mailService: MailService
+    private mailDropRollService: MailDropRollService
   ) {}
 
   quoteFormGroup = new FormGroup({
@@ -49,6 +59,13 @@ export class QuoteFormDropRollComponent {
       Validators.maxLength(280)
     ]),
     contactMethod: new FormControl('')
+    // width: new FormControl(''),
+    // drop: new FormControl(''),
+    // dropRollPrice: new FormControl(''),
+    // laborPrice: new FormControl(''),
+    // shippingPrice: new FormControl(''),
+    // wirelessMotor: new FormControl(''),
+    // totalPrice: new FormControl('')
   });
 
   get name() {
@@ -74,6 +91,14 @@ export class QuoteFormDropRollComponent {
   get contactMethod() {
     return this.quoteFormGroup.get('contactMethod');
   }
+
+  // get width() {
+  //   return this.quote.width
+  // }
+
+  // get drop() {
+  //   return this.quote.drop
+  // }
 
   public show() {
     this.quoteModal.show();
@@ -112,13 +137,14 @@ export class QuoteFormDropRollComponent {
       option = url.toString();
     }
 
-    this.mailService
+    this.mailDropRollService
       .send({
         ...this.quoteFormGroup.value,
         option,
         utm_source,
         utm_medium,
-        utm_campaign
+        utm_campaign,
+        ...this.quote
       })
       .then((res) => {
         if (!res.ok) {
