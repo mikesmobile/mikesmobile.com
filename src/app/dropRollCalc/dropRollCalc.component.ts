@@ -17,7 +17,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
     laborPrice: string;
     shippingPrice: string;
     wirelessMotor: string;
-    totalPrice: number;
+    totalPrice: string;
   };
   alreadyLoaded: boolean;
   widthLess10: boolean = true;
@@ -181,7 +181,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       laborPrice: this.laborPrice,
       shippingPrice: this.shippingPrice,
       wirelessMotor: this.wirelessMotorPrice,
-      totalPrice: this.totalPrice
+      totalPrice: this.totalPrice.toString()
     };
   }
 

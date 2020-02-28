@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MailDropRollService {
   async send(data: any) {
-    const apiEndpoint = 'https://api.mikesmobile.com/droproll';
+    const apiEndpoint = 'https://api.mikesmobile.com/droproll/';
 
     let formBody: any = [];
     for (let property in data) {

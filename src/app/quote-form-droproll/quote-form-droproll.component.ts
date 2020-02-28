@@ -33,7 +33,7 @@ export class QuoteFormDropRollComponent {
     laborPrice: string;
     shippingPrice: string;
     wirelessMotor: string;
-    totalPrice: number;
+    totalPrice: string;
   };
 
   constructor(
@@ -136,6 +136,15 @@ export class QuoteFormDropRollComponent {
     if (url !== undefined) {
       option = url.toString();
     }
+
+    console.log({
+      ...this.quoteFormGroup.value,
+      option,
+      utm_source,
+      utm_medium,
+      utm_campaign,
+      ...this.quote
+    });
 
     this.mailDropRollService
       .send({
