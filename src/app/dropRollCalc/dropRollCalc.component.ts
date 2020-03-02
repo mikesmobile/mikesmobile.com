@@ -16,6 +16,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
     dropRollPrice: string;
     laborPrice: string;
     shippingPrice: string;
+    shipLab: string;
     wirelessMotor: string;
     totalPrice: string;
   };
@@ -35,6 +36,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
   shipSm: string = '400';
   shipMd: string = '600';
   shipLg: string = '800';
+  shipLab: number;
   dropOptionsLess10 = [
     "2'",
     "3'",
@@ -73,7 +75,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
   dropRollPrice: string;
   laborPrice: string;
   shippingPrice: string;
-  totalPrice: number;
+  totalPrice: string;
 
   @ViewChild(QuoteFormDropRollComponent)
   private quoteForm: QuoteFormDropRollComponent;
@@ -132,6 +134,11 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
     }
   }
 
+  addTax(string) {
+    const sumTax = parseInt(string) * 1.09;
+    return sumTax.toFixed(2).toString();
+  }
+
   handleQuoteSubmit() {
     const selectedWidth = this.width;
     const selectedDrop = this.drop;
@@ -154,25 +161,28 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       ) {
         this.laborPrice = this.laborSm;
         this.shippingPrice = this.shipSm;
-        this.wirelessMotorPrice = this.wirelessMotorSM;
+        this.wirelessMotorPrice = this.addTax(this.wirelessMotorSM);
       } else {
         this.laborPrice = this.laborMd;
         this.shippingPrice = this.shipMd;
-        this.wirelessMotorPrice = this.wirelessMotorSM;
+        this.wirelessMotorPrice = this.addTax(this.wirelessMotorSM);
       }
     } else {
       this.laborPrice = this.laborLg;
       this.shippingPrice = this.shipLg;
-      this.wirelessMotorPrice = this.wirelessMortorLG;
+      this.wirelessMotorPrice = this.addTax(this.wirelessMortorLG);
     }
 
     this.alreadyLoaded = true;
-    this.dropRollPrice = dropPrice.cost;
-    this.totalPrice =
-      parseInt(this.dropRollPrice) +
-      parseInt(this.laborPrice) +
-      parseInt(this.shippingPrice) +
-      parseInt(this.wirelessMotorPrice);
+    this.dropRollPrice = this.addTax(dropPrice.cost);
+    this.totalPrice = (
+      parseFloat(this.dropRollPrice) +
+      parseFloat(this.laborPrice) +
+      parseFloat(this.shippingPrice) +
+      parseFloat(this.wirelessMotorPrice)
+    ).toFixed(2);
+
+    this.shipLab = parseInt(this.laborPrice) + parseInt(this.shippingPrice);
 
     this.quote = {
       width: this.width,
@@ -180,6 +190,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       dropRollPrice: this.dropRollPrice,
       laborPrice: this.laborPrice,
       shippingPrice: this.shippingPrice,
+      shipLab: this.shipLab.toString(),
       wirelessMotor: this.wirelessMotorPrice,
       totalPrice: this.totalPrice.toString()
     };

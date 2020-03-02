@@ -89,7 +89,7 @@
               class="btn orange"
               (click)="handleQuoteSubmit()"
             >
-              Submit
+              Get Quote!
             </button>
           </form>
           <div class="card" *ngIf="dropRollPrice">
@@ -107,24 +107,19 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Drop Roll</th>
+                    <th scope="row">Drop Roll:</th>
                     <td>Width: {{ width }}, Drop: {{ drop }}</td>
                     <td>${{ dropRollPrice }}*</td>
                   </tr>
                   <tr>
-                    <th scope="row">Wireless Motor</th>
-                    <td></td>
+                    <th scope="row">Wireless Motor:</th>
+                    <td>includes remote!</td>
                     <td>${{ wirelessMotorPrice }}**</td>
                   </tr>
                   <tr>
-                    <th scope="row">Labor</th>
+                    <th scope="row">Shipping & Labor:</th>
                     <td></td>
-                    <td>${{ laborPrice }}</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">shipping</th>
-                    <td></td>
-                    <td>${{ shippingPrice }}</td>
+                    <td>${{ shipLab }}</td>
                   </tr>
                   <tr class="border-top border-dark">
                     <th scope="row">Your Total:</th>

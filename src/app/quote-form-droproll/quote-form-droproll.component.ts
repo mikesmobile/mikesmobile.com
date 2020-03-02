@@ -32,6 +32,7 @@ export class QuoteFormDropRollComponent {
     dropRollPrice: string;
     laborPrice: string;
     shippingPrice: string;
+    shipLab: string;
     wirelessMotor: string;
     totalPrice: string;
   };
@@ -59,13 +60,6 @@ export class QuoteFormDropRollComponent {
       Validators.maxLength(280)
     ]),
     contactMethod: new FormControl('')
-    // width: new FormControl(''),
-    // drop: new FormControl(''),
-    // dropRollPrice: new FormControl(''),
-    // laborPrice: new FormControl(''),
-    // shippingPrice: new FormControl(''),
-    // wirelessMotor: new FormControl(''),
-    // totalPrice: new FormControl('')
   });
 
   get name() {
@@ -91,14 +85,6 @@ export class QuoteFormDropRollComponent {
   get contactMethod() {
     return this.quoteFormGroup.get('contactMethod');
   }
-
-  // get width() {
-  //   return this.quote.width
-  // }
-
-  // get drop() {
-  //   return this.quote.drop
-  // }
 
   public show() {
     this.quoteModal.show();
@@ -136,15 +122,6 @@ export class QuoteFormDropRollComponent {
     if (url !== undefined) {
       option = url.toString();
     }
-
-    console.log({
-      ...this.quoteFormGroup.value,
-      option,
-      utm_source,
-      utm_medium,
-      utm_campaign,
-      ...this.quote
-    });
 
     this.mailDropRollService
       .send({
