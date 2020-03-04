@@ -132,12 +132,14 @@
             <tbody>
               <tr>
                 <th scope="row">Awning:</th>
-                <td>{{ awnType }}: {{ width }} x {{ projection }}</td>
+                <td>
+                  {{ awnType }}(base model): {{ width }} x {{ projection }}
+                </td>
                 <td>${{ awnPrice }}*</td>
                 <td></td>
               </tr>
               <tr>
-                <th scope="row">Wall brackets</th>
+                <th scope="row">Wall Brackets</th>
                 <td>{{ awnAcc.mtgBrkts }}</td>
                 <td>${{ wallBrktPrice }}</td>
                 <td></td>
@@ -149,7 +151,13 @@
                 <td></td>
               </tr>
               <tr>
-                <th scope="row" *ngIf="optMR">Motorized w/ remote</th>
+                <th scope="row">Shipping & Labor:</th>
+                <td></td>
+                <td>${{ labShipPrice }}</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" *ngIf="optMR">Motorized w/ Remote</th>
                 <th scope="row" *ngIf="!optMR">
                   <span style="text-decoration: line-through;"
                     >Motorized w/ remote</span
@@ -234,12 +242,6 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row">Shipping & Labor:</th>
-                <td></td>
-                <td>${{ labShipPrice }}</td>
-                <td></td>
-              </tr>
-              <tr>
                 <th scope="row">Total:</th>
                 <td></td>
                 <td *ngIf="shakeIt" class="text-white orange price shake">
@@ -261,8 +263,8 @@
             <div class="row">
               <div class="col-md-12">
                 <h6>
-                  **includes 24' power cord. Electrical service available if no
-                  outlet within 24'
+                  **Includes 24 ft power cord. Electrical service available if
+                  no outlet within 24 ft of Awning
                 </h6>
               </div>
             </div>

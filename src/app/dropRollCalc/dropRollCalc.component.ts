@@ -37,6 +37,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
   shipMd: string = '600';
   shipLg: string = '800';
   shipLab: number;
+  shakeIt: boolean = true;
   dropOptionsLess10 = [
     "2'",
     "3'",
@@ -142,6 +143,7 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
   handleQuoteSubmit() {
     const selectedWidth = this.width;
     const selectedDrop = this.drop;
+    const oldCost = this.totalPrice;
 
     const dropOptions = droprollJSON.find((data) => {
       return data.width === selectedWidth;
@@ -151,26 +153,26 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       return data.drop === selectedDrop;
     });
 
+    if (parseInt(this.width) <= parseInt("20'")) {
+      this.shippingPrice = this.shipSm;
+      this.laborPrice = this.laborSm;
+    } else {
+      if (parseInt(this.width) <= parseInt("30'")) {
+        this.shippingPrice = this.shipMd;
+        this.laborPrice = this.laborMd;
+      } else {
+        this.shippingPrice = this.shipLg;
+        this.laborPrice = this.laborLg;
+      }
+    }
+
     if (
       parseInt(this.width) <= parseInt("18'") &&
       parseInt(this.drop) <= parseInt("12'")
     ) {
-      if (
-        parseInt(this.width) <= parseInt("10'") &&
-        parseInt(this.drop) <= parseInt("8'")
-      ) {
-        this.laborPrice = this.laborSm;
-        this.shippingPrice = this.shipSm;
-        this.wirelessMotorPrice = this.addTax(this.wirelessMotorSM);
-      } else {
-        this.laborPrice = this.laborMd;
-        this.shippingPrice = this.shipMd;
-        this.wirelessMotorPrice = this.addTax(this.wirelessMotorSM);
-      }
+      this.wirelessMotorPrice = this.wirelessMotorSM;
     } else {
-      this.laborPrice = this.laborLg;
-      this.shippingPrice = this.shipLg;
-      this.wirelessMotorPrice = this.addTax(this.wirelessMortorLG);
+      this.wirelessMotorPrice = this.wirelessMortorLG;
     }
 
     this.alreadyLoaded = true;
@@ -194,6 +196,9 @@ export class DropRollCalcComponent implements OnInit, OnChanges {
       wirelessMotor: this.wirelessMotorPrice,
       totalPrice: this.totalPrice.toString()
     };
+    if (oldCost !== this.totalPrice) {
+      this.shakeIt = this.shakeIt === true ? false : true;
+    }
   }
 
   ngOnChanges() {}

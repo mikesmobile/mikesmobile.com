@@ -102,7 +102,7 @@
                   <tr>
                     <th scope="col">Service / Product</th>
                     <th scope="col">Description</th>
-                    <th scope="col">cost</th>
+                    <th scope="col">Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -113,7 +113,7 @@
                   </tr>
                   <tr>
                     <th scope="row">Wireless Motor:</th>
-                    <td>includes remote!</td>
+                    <td>Includes remote!</td>
                     <td>${{ wirelessMotorPrice }}**</td>
                   </tr>
                   <tr>
@@ -121,10 +121,16 @@
                     <td></td>
                     <td>${{ shipLab }}</td>
                   </tr>
+
                   <tr class="border-top border-dark">
                     <th scope="row">Your Total:</th>
                     <td></td>
-                    <td class="orange price">${{ totalPrice }}</td>
+                    <td *ngIf="shakeIt" class="orange shake price">
+                      ${{ totalPrice }}
+                    </td>
+                    <td *ngIf="!shakeIt" class="orange shake price">
+                      ${{ totalPrice }}
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -137,8 +143,8 @@
                 <div class="row">
                   <div class="col-md-12">
                     <h6>
-                      **must have outlet within 23', does not include electrical
-                      work
+                      **Must have outlet within 23 ft of awning. Does not
+                      include electrical work.
                     </h6>
                   </div>
                 </div>
