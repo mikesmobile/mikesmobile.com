@@ -1,0 +1,169 @@
+<div class="container text-center">
+  <div class="row ">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          Drop Roll Price Calculator
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="dropWidth">Choose the Drop Roll Width</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="width"
+                  name="dropWidth"
+                  (click)="setPossibleDrops()"
+                >
+                  <option *ngFor="let size of dropRollSizes">{{
+                    size.width
+                  }}</option>
+                </select>
+              </div>
+              <div *ngIf="widthLess10" class="form-group col-md-6">
+                <label for="drop">Choose the Drop</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="drop"
+                  name="drop"
+                  (click)="checkAlreadySubmit()"
+                >
+                  <option *ngFor="let size of dropOptionsLess10">{{
+                    size
+                  }}</option>
+                </select>
+              </div>
+              <div *ngIf="widthLess19" class="form-group col-md-6">
+                <label for="drop">Choose the Drop</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="drop"
+                  name="drop"
+                  (click)="checkAlreadySubmit()"
+                >
+                  <option *ngFor="let size of dropOptions10to18">{{
+                    size
+                  }}</option>
+                </select>
+              </div>
+              <div *ngIf="width19" class="form-group col-md-6">
+                <label for="drop">Choose the Drop</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="drop"
+                  name="drop"
+                  (click)="checkAlreadySubmit()"
+                >
+                  <option *ngFor="let size of dropOptions19">{{ size }}</option>
+                </select>
+              </div>
+              <div *ngIf="widthLess23" class="form-group col-md-6">
+                <label for="drop">Choose the Drop</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="drop"
+                  name="drop"
+                  (click)="checkAlreadySubmit()"
+                >
+                  <option *ngFor="let size of dropOptions20to23">{{
+                    size
+                  }}</option>
+                </select>
+              </div>
+              <div *ngIf="widthLess26" class="form-group col-md-6">
+                <label for="drop">Choose the Drop</label>
+                <select
+                  class="browser-default custom-select"
+                  [(ngModel)]="drop"
+                  name="drop"
+                >
+                  <option *ngFor="let size of dropOptions24to26">{{
+                    size
+                  }}</option>
+                </select>
+              </div>
+            </div>
+            <button
+              *ngIf="width && drop"
+              class="btn orange"
+              (click)="handleQuoteSubmit()"
+            >
+              Get Quote!
+            </button>
+          </form>
+          <div class="card" *ngIf="dropRollPrice">
+            <div class="card-header">
+              Your Quote
+            </div>
+            <div class="card-body">
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Service / Product</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Drop Roll:</th>
+                    <td>Width: {{ width }}, Drop: {{ drop }}</td>
+                    <td>${{ dropRollPrice }}*</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Wireless Motor:</th>
+                    <td>Includes remote!</td>
+                    <td>${{ wirelessMotorPrice }}**</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Shipping & Labor:</th>
+                    <td></td>
+                    <td>${{ shipLab }}</td>
+                  </tr>
+
+                  <tr class="border-top border-dark">
+                    <th scope="row">Your Total:</th>
+                    <td></td>
+                    <td *ngIf="shakeIt" class="orange shake price">
+                      ${{ totalPrice }}
+                    </td>
+                    <td *ngIf="!shakeIt" class="orange shake price">
+                      ${{ totalPrice }}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h6>*Base Model Quote</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <h6>
+                      **Must have outlet within 23 ft of awning. Does not
+                      include electrical work.
+                    </h6>
+                  </div>
+                </div>
+                <div
+                  class="flew-row my-4 text-center"
+                  (click)="openQuoteForm()"
+                >
+                  <h4
+                    class="animated pulse infinite orange-text pb-3 cursor-pointer"
+                  >
+                    &nbsp; Schedule a Tech Out Now!
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-quote-form-droproll [quote]="quote"></app-quote-form-droproll>
