@@ -7,7 +7,7 @@
       <form>
         <div class="row">
           <div class="form-group col-md-6">
-            <label for="awnWidth">Choose the Awning Width</label>
+            <label for="awnWidth">Choose the Awning Width </label>
             <select
               class="browser-default custom-select"
               [(ngModel)]="width"
@@ -83,7 +83,9 @@
             </select>
           </div>
           <div *ngIf="projOpt10" class="form-group col-md-6">
-            <label for="projection">Choose the Projection</label>
+            <label for="projection"
+              >Choose the Projection (how far you want it to go out!)</label
+            >
             <select
               class="browser-default custom-select"
               [(ngModel)]="projection"
@@ -92,6 +94,14 @@
             >
               <option *ngFor="let size of projOptions10up">{{ size }}</option>
             </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h6>
+              Try a few different sizes! depending on model a few extra feet of
+              shade is only a few more dollars!
+            </h6>
           </div>
         </div>
         <button
@@ -142,8 +152,10 @@
                     >Motorized w/ remote</span
                   >
                 </th>
-                <td>*optional</td>
-                <td *ngIf="optMR">${{ motorRemotePrice }}</td>
+                <td>
+                  *optional
+                </td>
+                <td *ngIf="optMR">${{ motorRemotePrice }}**</td>
                 <td *ngIf="!optMR">
                   <span style="text-decoration: line-through;"
                     >${{ motorRemotePrice }}</span
@@ -200,7 +212,7 @@
                 <th *ngIf="!optHood" scope="row">
                   <span style="text-decoration: line-through;">Hood</span>
                 </th>
-                <td>*Optional (Usually unnecessary if mounted under eave</td>
+                <td>*Optional (Usually unnecessary if mounted under eave)</td>
                 <td *ngIf="optHood">${{ hoodPrice }}</td>
                 <td *ngIf="!optHood">
                   <span style="text-decoration: line-through;"
@@ -227,10 +239,10 @@
               <tr>
                 <th scope="row">Total:</th>
                 <td></td>
-                <td *ngIf="shakeIt" class="text-white orange shake">
+                <td *ngIf="shakeIt" class="text-white orange price shake">
                   ${{ totalCost }}
                 </td>
-                <td *ngIf="!shakeIt" class="text-white orange shake">
+                <td *ngIf="!shakeIt" class="text-white orange price shake">
                   ${{ totalCost }}
                 </td>
                 <td></td>
@@ -243,9 +255,32 @@
                 <h6>*Base Model Quote</h6>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h6>
+                  **includes 24' power cord. Electrical service available if no
+                  outlet within 24'
+                </h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="flew-row my-4 text-center"
+                  (click)="openQuoteForm()"
+                >
+                  <h4
+                    class="animated pulse infinite orange-text pb-3 cursor-pointer"
+                  >
+                    &nbsp; Schedule a Tech Out Now!
+                  </h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<app-quote-form-awning [quote]="quote"></app-quote-form-awning>

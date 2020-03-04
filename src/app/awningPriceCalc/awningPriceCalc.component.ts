@@ -1,36 +1,12 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit, OnChanges, ViewChild } from '@angular/core';
 import awningJSON from '../../assets/json/awnings.json';
-import {
-  trigger,
-  state,
-  style,
-  transition,
-  animate
-} from '@angular/animations';
-import { parseTimelineCommand } from '@angular/animations/browser/src/render/shared';
+
+import { QuoteFormAwningComponent } from '../quote-form-awning/quote-form-awning.component';
 
 @Component({
   selector: 'awning-price-calc',
   templateUrl: './awningPriceCalc.component.html',
-  styleUrls: ['./awningPriceCalc.component.sass'],
-  animations: [
-    trigger('shake', [
-      state(
-        'initial',
-        style({
-          animation: 'shake .1s'
-        })
-      ),
-      state(
-        'final',
-        style({
-          animation: 'shake .1s'
-        })
-      ),
-      transition('initial=>final', animate('1500ms')),
-      transition('final=>initial', animate('1500ms'))
-    ])
-  ]
+  styleUrls: ['./awningPriceCalc.component.sass']
 })
 export class AwningPriceCalcComponent implements OnInit, OnChanges {
   width: string;
@@ -85,6 +61,30 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
   totalCost: string;
   shakeIt: boolean = true;
   currentState = 'initial';
+  quote: {
+    awnType: string;
+    awnWidth: string;
+    awnProj: string;
+    awnWallBrkt: string;
+    awnCrank: string;
+    awnMotor: string;
+    awnPitchAdjust: string;
+    awnHood: string;
+    awnPrice: string;
+    awnWallBrktPrice: string;
+    awnMotorPrice: string;
+    awnPitchAdjustPrice: string;
+    awnHoodPrice: string;
+    shipLabPrice: string;
+    awnTotalPrice: string;
+  };
+
+  @ViewChild(QuoteFormAwningComponent)
+  private quoteForm: QuoteFormAwningComponent;
+
+  openQuoteForm() {
+    this.quoteForm.show();
+  }
 
   handleSelectWidth() {
     if (this.width === "5'") {
@@ -181,15 +181,15 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
       parseInt(selectedWidth) <= parseInt("24'") &&
       parseInt(selectedProj) <= parseInt("10'")
     ) {
-      this.awnType = 'sunlight';
+      this.awnType = 'Sunlight';
     } else {
       if (
         parseInt(selectedWidth) <= parseInt("40'") &&
         parseInt(selectedProj) <= parseInt("11'6")
       ) {
-        this.awnType = 'sunstyle';
+        this.awnType = 'Sunstyle';
       } else {
-        this.awnType = 'sunesta';
+        this.awnType = 'Sunesta';
       }
     }
 
@@ -275,6 +275,7 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
     if (oldCost !== this.totalCost) {
       this.shakeIt = this.shakeIt === true ? false : true;
     }
+    this.buildQuote();
   }
 
   addTax(string) {
@@ -285,6 +286,59 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
     if (this.alreadySubmit === true) {
       this.handleQuoteSubmit();
     }
+  }
+
+  buildQuote() {
+    let newMr;
+    let newMrPrice;
+    let newPitchAdjust;
+    let newPitchAdjustPrice;
+    let newHood;
+    let newHoodPrice;
+
+    if (this.optMR) {
+      newMr = 'yes';
+      newMrPrice = this.motorRemotePrice;
+    } else {
+      newMr = 'no';
+      newMrPrice = '0';
+    }
+
+    if (this.optPA && !this.paNotAvil) {
+      newPitchAdjust = 'yes';
+      newPitchAdjustPrice = this.pitchAdjusterPrice;
+    } else {
+      newPitchAdjust = 'no';
+      newPitchAdjustPrice = '0';
+    }
+
+    if (this.optHood) {
+      newHood = 'yes';
+      newHoodPrice = this.hoodPrice;
+    } else {
+      newHood = 'no';
+      newHoodPrice = '0';
+    }
+
+    const newQuote = {
+      awnType: this.awnType,
+      awnWidth: this.width,
+      awnProj: this.projection,
+      awnWallBrkt: this.awnAcc.mtgBrkts,
+      awnCrank: this.handCrankPrice,
+      awnMotor: newMr,
+      awnPitchAdjust: newPitchAdjust,
+      awnHood: newHood,
+      awnPrice: this.awnPrice,
+      awnWallBrktPrice: this.wallBrktPrice,
+      awnMotorPrice: newMrPrice,
+      awnPitchAdjustPrice: newPitchAdjustPrice,
+      awnHoodPrice: newHoodPrice,
+      shipLabPrice: this.labShipPrice,
+      awnTotalPrice: this.totalCost
+    };
+
+    this.quote = newQuote;
   }
 
   ngOnChanges() {}

@@ -60,6 +60,7 @@ import { SlideShowModalComponent } from './slideShowModal/slideShowModal.compone
 import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { QuoteFormDropRollComponent } from './quote-form-droproll/quote-form-droproll.component';
+import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.component';
 
 @NgModule({
   declarations: [
@@ -116,7 +117,8 @@ import { QuoteFormDropRollComponent } from './quote-form-droproll/quote-form-dro
     SlideShowModalComponent,
     AwningPriceCalcComponent,
     DropRollCalcComponent,
-    QuoteFormDropRollComponent
+    QuoteFormDropRollComponent,
+    QuoteFormAwningComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
