@@ -1,50 +1,2163 @@
 [
   {
-    "type": "sunlight",
-    "sizeOptions": ["5 feet", "6 feet"],
-    "sizes": {
-      "5 feet": {
-        "width": "5 feet",
-        "projection": [
-          {
-            "size": "8 feet 8 inches",
-            "price": "1876"
-          }
-        ],
+    "width": "5'",
+    "types": [
+      {
+        "type": "sunlight",
         "arms": "2",
-        "MtgBrkts": "2",
+        "mtgBrkts": "2",
         "centerSeamSupport": "0",
-        "WallBrkts": "88",
-        "ceilingsBrkts": "96",
-        "motorStandard": "596",
-        "motorMO": "724",
-        "handcrank": "38",
-        "hood": "316",
-        "smart tilt": "186"
-      },
-      "6 feet": {
-        "width": "6 feet",
-        "projection": [
-          {
-            "size": "6 feet 8 inches",
-            "price": "1910"
-          },
-          {
-            "size": "8 feet 3 inches",
-            "price": "2020"
-          }
-        ],
-        "arms": "2",
-        "MtgBrkts": "2",
-        "centerSeamSupport": "0",
-        "WallBrkts": "88",
-        "ceilingsBrkts": "96",
-        "motorStandard": "596",
-        "motorMO": "724",
-        "handcrank": "38",
-        "hood": "348",
-        "smart tilt": "186"
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "316",
+        "pitchAdjust": "186"
       }
-    }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "1876"
+      }
+    ]
+  },
+  {
+    "width": "6'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "348",
+        "pitchAdjust": "186"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "1910"
+      },
+      {
+        "proj": "8'3",
+        "price": "2020"
+      }
+    ]
+  },
+  {
+    "width": "7'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "380",
+        "pitchAdjust": "186"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "1950"
+      },
+      {
+        "proj": "8'3",
+        "price": "2058"
+      },
+      {
+        "proj": "10'",
+        "price": "2436"
+      }
+    ]
+  },
+  {
+    "width": "8'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "412",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "412",
+        "pitchAdjust": "212"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2004"
+      },
+      {
+        "proj": "8'3",
+        "price": "2328"
+      },
+      {
+        "proj": "10'",
+        "price": "2472"
+      },
+      {
+        "proj": "11'6",
+        "price": "3360"
+      }
+    ]
+  },
+  {
+    "width": "9'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "444",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "444",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "104",
+        "ceilingBrkts": "142",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "444",
+        "pitchAdjust": "684"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2058"
+      },
+      {
+        "proj": "8'3",
+        "price": "2370"
+      },
+      {
+        "proj": "10'",
+        "price": "2512"
+      },
+      {
+        "proj": "11'6",
+        "price": "3414"
+      },
+      {
+        "proj": "13'",
+        "price": "4354"
+      }
+    ]
+  },
+  {
+    "width": "10'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "476",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "88",
+        "ceilingBrkts": "96",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "476",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "2",
+        "centerSeamSupport": "0",
+        "wallBrackets": "104",
+        "ceilingBrkts": "142",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "476",
+        "pitchAdjust": "760"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2078"
+      },
+      {
+        "proj": "8'3",
+        "price": "2250"
+      },
+      {
+        "proj": "10'",
+        "price": "2554"
+      },
+      {
+        "proj": "11'6",
+        "price": "3466"
+      },
+      {
+        "proj": "13'",
+        "price": "4418"
+      },
+      {
+        "proj": "14'8",
+        "price": "4908"
+      }
+    ]
+  },
+  {
+    "width": "11'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "544",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "544",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "540",
+        "pitchAdjust": "836"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2120"
+      },
+      {
+        "proj": "8'3",
+        "price": "2288"
+      },
+      {
+        "proj": "10'",
+        "price": "2592"
+      },
+      {
+        "proj": "11'6",
+        "price": "3518"
+      },
+      {
+        "proj": "13'",
+        "price": "4476"
+      },
+      {
+        "proj": "14'8",
+        "price": "4968"
+      }
+    ]
+  },
+  {
+    "width": "12'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "576",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "576",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "572",
+        "pitchAdjust": "912"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2328"
+      },
+      {
+        "proj": "8'3",
+        "price": "2554"
+      },
+      {
+        "proj": "10'",
+        "price": "2696"
+      },
+      {
+        "proj": "11'6",
+        "price": "3988"
+      },
+      {
+        "proj": "13'",
+        "price": "4900"
+      },
+      {
+        "proj": "14'8",
+        "price": "5532"
+      }
+    ]
+  },
+  {
+    "width": "13'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "608",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "608",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "604",
+        "pitchAdjust": "988"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2370"
+      },
+      {
+        "proj": "8'3",
+        "price": "2596"
+      },
+      {
+        "proj": "10'",
+        "price": "2740"
+      },
+      {
+        "proj": "11'6",
+        "price": "3658"
+      },
+      {
+        "proj": "13'",
+        "price": "4960"
+      },
+      {
+        "proj": "14'8",
+        "price": "5598"
+      }
+    ]
+  },
+  {
+    "width": "14'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "640",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "640",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "636",
+        "pitchAdjust": "1064"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2410"
+      },
+      {
+        "proj": "8'3",
+        "price": "2632"
+      },
+      {
+        "proj": "10'",
+        "price": "2776"
+      },
+      {
+        "proj": "11'6",
+        "price": "3708"
+      },
+      {
+        "proj": "13'",
+        "price": "5020"
+      },
+      {
+        "proj": "14'8",
+        "price": "5650"
+      }
+    ]
+  },
+  {
+    "width": "15'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "672",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "672",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "668",
+        "pitchAdjust": "1140"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2450"
+      },
+      {
+        "proj": "8'3",
+        "price": "2674"
+      },
+      {
+        "proj": "10'",
+        "price": "2818"
+      },
+      {
+        "proj": "11'6",
+        "price": "3758"
+      },
+      {
+        "proj": "13'",
+        "price": "4588"
+      },
+      {
+        "proj": "14'8",
+        "price": "5716"
+      }
+    ]
+  },
+  {
+    "width": "16'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "704",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "132",
+        "ceilingBrkts": "144",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "704",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "3",
+        "centerSeamSupport": "0",
+        "wallBrackets": "156",
+        "ceilingBrkts": "182",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "700",
+        "pitchAdjust": "1216"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2660"
+      },
+      {
+        "proj": "8'3",
+        "price": "2944"
+      },
+      {
+        "proj": "10'",
+        "price": "3086"
+      },
+      {
+        "proj": "11'6",
+        "price": "4134"
+      },
+      {
+        "proj": "13'",
+        "price": "5000"
+      },
+      {
+        "proj": "14'8",
+        "price": "6278"
+      }
+    ]
+  },
+  {
+    "width": "17'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "772",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "772",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "208",
+        "ceilingBrkts": "232",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "764",
+        "pitchAdjust": "1292"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2700"
+      },
+      {
+        "proj": "8'3",
+        "price": "2980"
+      },
+      {
+        "proj": "10'",
+        "price": "3126"
+      },
+      {
+        "proj": "11'6",
+        "price": "4182"
+      },
+      {
+        "proj": "13'",
+        "price": "5064"
+      },
+      {
+        "proj": "14'8",
+        "price": "5886"
+      }
+    ]
+  },
+  {
+    "width": "18'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "804",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "804",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "208",
+        "ceilingBrkts": "232",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "796",
+        "pitchAdjust": "1368"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2740"
+      },
+      {
+        "proj": "8'3",
+        "price": "3022"
+      },
+      {
+        "proj": "10'",
+        "price": "3160"
+      },
+      {
+        "proj": "11'6",
+        "price": "4234"
+      },
+      {
+        "proj": "13'",
+        "price": "5128"
+      },
+      {
+        "proj": "14'8",
+        "price": "5950"
+      }
+    ]
+  },
+  {
+    "width": "19'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "1",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "836",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "836",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "208",
+        "ceilingBrkts": "232",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "828",
+        "pitchAdjust": "1444"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "2888"
+      },
+      {
+        "proj": "8'3",
+        "price": "3164"
+      },
+      {
+        "proj": "10'",
+        "price": "3310"
+      },
+      {
+        "proj": "11'6",
+        "price": "4426"
+      },
+      {
+        "proj": "13'",
+        "price": "5354"
+      },
+      {
+        "proj": "14'8",
+        "price": "6176"
+      }
+    ]
+  },
+  {
+    "width": "20'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "1",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "868",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "868",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "208",
+        "ceilingBrkts": "232",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "860",
+        "pitchAdjust": "1520"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "3096"
+      },
+      {
+        "proj": "8'3",
+        "price": "3376"
+      },
+      {
+        "proj": "10'",
+        "price": "3576"
+      },
+      {
+        "proj": "11'6",
+        "price": "4738"
+      },
+      {
+        "proj": "13'",
+        "price": "5700"
+      },
+      {
+        "proj": "13'",
+        "price": "6740"
+      }
+    ]
+  },
+  {
+    "width": "21'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "1",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "900",
+        "pitchAdjust": "186"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "176",
+        "ceilingBrkts": "192",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "900",
+        "pitchAdjust": "212"
+      },
+      {
+        "type": "sunesta",
+        "arms": "2",
+        "mtgBrkts": "4",
+        "centerSeamSupport": "0",
+        "wallBrackets": "208",
+        "ceilingBrkts": "232",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "892",
+        "pitchAdjust": "1596"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "3134"
+      },
+      {
+        "proj": "8'3",
+        "price": "3418"
+      },
+      {
+        "proj": "10'",
+        "price": "3618"
+      },
+      {
+        "proj": "11'6",
+        "price": "4790"
+      },
+      {
+        "proj": "13'",
+        "price": "5764"
+      },
+      {
+        "proj": "14'8",
+        "price": "6804"
+      }
+    ]
+  },
+  {
+    "width": "22'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "1",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "968",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "968",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "260",
+        "ceilingBrkts": "284",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "956",
+        "pitchAdjust": "1672"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "3596"
+      },
+      {
+        "proj": "8'3",
+        "price": "3898"
+      },
+      {
+        "proj": "10'",
+        "price": "4148"
+      },
+      {
+        "proj": "11'6",
+        "price": "5488"
+      },
+      {
+        "proj": "13'",
+        "price": "6712"
+      },
+      {
+        "proj": "14'8",
+        "price": "7290"
+      }
+    ]
+  },
+  {
+    "width": "23'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "1",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "1000",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1000",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "260",
+        "ceilingBrkts": "284",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "988",
+        "pitchAdjust": "1748"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "3632"
+      },
+      {
+        "proj": "8'3",
+        "price": "3940"
+      },
+      {
+        "proj": "10'",
+        "price": "4184"
+      },
+      {
+        "proj": "11'6",
+        "price": "5542"
+      },
+      {
+        "proj": "13'",
+        "price": "6776"
+      },
+      {
+        "proj": "14'8",
+        "price": "7350"
+      }
+    ]
+  },
+  {
+    "width": "24'",
+    "types": [
+      {
+        "type": "sunlight",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "1",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "596",
+        "manualOverridde": "724",
+        "handCrank": "38",
+        "endBrackets": "1032",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunstyle",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1032",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "260",
+        "ceilingBrkts": "284",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1020",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "3842"
+      },
+      {
+        "proj": "8'3",
+        "price": "4174"
+      },
+      {
+        "proj": "10'",
+        "price": "4452"
+      },
+      {
+        "proj": "11'6",
+        "price": "5914"
+      },
+      {
+        "proj": "13'",
+        "price": "7264"
+      },
+      {
+        "proj": "14'8",
+        "price": "8432"
+      }
+    ]
+  },
+  {
+    "width": "25'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1096",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "260",
+        "ceilingBrkts": "284",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1084",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "5260"
+      },
+      {
+        "proj": "8'3",
+        "price": "5654"
+      },
+      {
+        "proj": "10'",
+        "price": "5902"
+      },
+      {
+        "proj": "11'6",
+        "price": "6278"
+      },
+      {
+        "proj": "13'",
+        "price": "7730"
+      },
+      {
+        "proj": "14'8",
+        "price": "8490"
+      }
+    ]
+  },
+  {
+    "width": "26'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "220",
+        "ceilingBrkts": "240",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1128",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "3",
+        "mtgBrkts": "5",
+        "centerSeamSupport": "0",
+        "wallBrackets": "260",
+        "ceilingBrkts": "284",
+        "wirelessRemote": "652",
+        "manualOverridde": "808",
+        "handCrank": "38",
+        "endBrackets": "1116",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "5312"
+      },
+      {
+        "proj": "8'3",
+        "price": "5708"
+      },
+      {
+        "proj": "10'",
+        "price": "5952"
+      },
+      {
+        "proj": "11'6",
+        "price": "6334"
+      },
+      {
+        "proj": "13'",
+        "price": "7788"
+      },
+      {
+        "proj": "14'8",
+        "price": "8552"
+      }
+    ]
+  },
+  {
+    "width": "27'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1196",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1180",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6084"
+      },
+      {
+        "proj": "8'3",
+        "price": "6512"
+      },
+      {
+        "proj": "10'",
+        "price": "6792"
+      },
+      {
+        "proj": "11'6",
+        "price": "7200"
+      },
+      {
+        "proj": "13'",
+        "price": "8824"
+      },
+      {
+        "proj": "14'8",
+        "price": "9412"
+      }
+    ]
+  },
+  {
+    "width": "28'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1228",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1212",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6318"
+      },
+      {
+        "proj": "8'3",
+        "price": "6806"
+      },
+      {
+        "proj": "10'",
+        "price": "7094"
+      },
+      {
+        "proj": "11'6",
+        "price": "7558"
+      },
+      {
+        "proj": "13'",
+        "price": "9246"
+      },
+      {
+        "proj": "14'8",
+        "price": "9970"
+      }
+    ]
+  },
+  {
+    "width": "29'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1260",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1244",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6374"
+      },
+      {
+        "proj": "8'3",
+        "price": "6856"
+      },
+      {
+        "proj": "10'",
+        "price": "7142"
+      },
+      {
+        "proj": "11'6",
+        "price": "7606"
+      },
+      {
+        "proj": "13'",
+        "price": "9312"
+      },
+      {
+        "proj": "14'8",
+        "price": "10034"
+      }
+    ]
+  },
+  {
+    "width": "30'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1292",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1276",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6422"
+      },
+      {
+        "proj": "8'3",
+        "price": "6906"
+      },
+      {
+        "proj": "10'",
+        "price": "7196"
+      },
+      {
+        "proj": "11'6",
+        "price": "7666"
+      },
+      {
+        "proj": "13'",
+        "price": "9372"
+      },
+      {
+        "proj": "14'8",
+        "price": "10100"
+      }
+    ]
+  },
+  {
+    "width": "31'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1352",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1308",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6474"
+      },
+      {
+        "proj": "8'3",
+        "price": "6962"
+      },
+      {
+        "proj": "10'",
+        "price": "7250"
+      },
+      {
+        "proj": "11'6",
+        "price": "7712"
+      },
+      {
+        "proj": "13'",
+        "price": "9436"
+      },
+      {
+        "proj": "14'8",
+        "price": "10160"
+      }
+    ]
+  },
+  {
+    "width": "32'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "264",
+        "ceilingBrkts": "288",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1424",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "6",
+        "centerSeamSupport": "2",
+        "wallBrackets": "312",
+        "ceilingBrkts": "516",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1340",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6708"
+      },
+      {
+        "proj": "8'3",
+        "price": "7196"
+      },
+      {
+        "proj": "10'",
+        "price": "7544"
+      },
+      {
+        "proj": "11'6",
+        "price": "8008"
+      },
+      {
+        "proj": "13'",
+        "price": "9850"
+      },
+      {
+        "proj": "14'8",
+        "price": "10722"
+      }
+    ]
+  },
+  {
+    "width": "33'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1424",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1404",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6764"
+      },
+      {
+        "proj": "8'3",
+        "price": "7252"
+      },
+      {
+        "proj": "10'",
+        "price": "7596"
+      },
+      {
+        "proj": "11'6",
+        "price": "8060"
+      },
+      {
+        "proj": "13'",
+        "price": "9914"
+      },
+      {
+        "proj": "14'8",
+        "price": "11300"
+      }
+    ]
+  },
+  {
+    "width": "34'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1456",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1436",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6816"
+      },
+      {
+        "proj": "8'3",
+        "price": "7304"
+      },
+      {
+        "proj": "10'",
+        "price": "7648"
+      },
+      {
+        "proj": "11'6",
+        "price": "8112"
+      },
+      {
+        "proj": "13'",
+        "price": "9970"
+      },
+      {
+        "proj": "14'8",
+        "price": "11360"
+      }
+    ]
+  },
+  {
+    "width": "35'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1488",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1468",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "6872"
+      },
+      {
+        "proj": "8'3",
+        "price": "7354"
+      },
+      {
+        "proj": "10'",
+        "price": "7702"
+      },
+      {
+        "proj": "11'6",
+        "price": "8164"
+      },
+      {
+        "proj": "13'",
+        "price": "10034"
+      },
+      {
+        "proj": "14'8",
+        "price": "11422"
+      }
+    ]
+  },
+  {
+    "width": "36'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1520",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1500",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "7100"
+      },
+      {
+        "proj": "8'3",
+        "price": "7650"
+      },
+      {
+        "proj": "10'",
+        "price": "7994"
+      },
+      {
+        "proj": "11'6",
+        "price": "8524"
+      },
+      {
+        "proj": "13'",
+        "price": "10460"
+      },
+      {
+        "proj": "14'8",
+        "price": "111984"
+      }
+    ]
+  },
+  {
+    "width": "37'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1552",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1532",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "7156"
+      },
+      {
+        "proj": "8'3",
+        "price": "7706"
+      },
+      {
+        "proj": "10'",
+        "price": "8046"
+      },
+      {
+        "proj": "11'6",
+        "price": "8574"
+      },
+      {
+        "proj": "13'",
+        "price": "10516"
+      },
+      {
+        "proj": "14'8",
+        "price": "12044"
+      }
+    ]
+  },
+  {
+    "width": "38'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1584",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1564",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "7204"
+      },
+      {
+        "proj": "8'3",
+        "price": "7756"
+      },
+      {
+        "proj": "10'",
+        "price": "8102"
+      },
+      {
+        "proj": "11'6",
+        "price": "8626"
+      },
+      {
+        "proj": "13'",
+        "price": "10580"
+      },
+      {
+        "proj": "14'8",
+        "price": "12108"
+      }
+    ]
+  },
+  {
+    "width": "39'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1616",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1596",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "7260"
+      },
+      {
+        "proj": "8'3",
+        "price": "7810"
+      },
+      {
+        "proj": "10'",
+        "price": "8154"
+      },
+      {
+        "proj": "11'6",
+        "price": "8676"
+      },
+      {
+        "proj": "13'",
+        "price": "10638"
+      },
+      {
+        "proj": "14'8",
+        "price": "12166"
+      }
+    ]
+  },
+  {
+    "width": "40'",
+    "types": [
+      {
+        "type": "sunstyle",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "308",
+        "ceilingBrkts": "336",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1648",
+        "pitchAdjust": "n/a"
+      },
+      {
+        "type": "sunesta",
+        "arms": "4",
+        "mtgBrkts": "7",
+        "centerSeamSupport": "2",
+        "wallBrackets": "364",
+        "ceilingBrkts": "602",
+        "wirelessRemote": "768",
+        "manualOverridde": "936",
+        "handCrank": "38",
+        "endBrackets": "1628",
+        "pitchAdjust": "n/a"
+      }
+    ],
+    "projections": [
+      {
+        "proj": "6'8",
+        "price": "7492"
+      },
+      {
+        "proj": "8'3",
+        "price": "8106"
+      },
+      {
+        "proj": "10'",
+        "price": "8448"
+      },
+      {
+        "proj": "11'6",
+        "price": "9038"
+      },
+      {
+        "proj": "13'",
+        "price": "11060"
+      },
+      {
+        "proj": "14'8",
+        "price": "12732"
+      }
+    ]
   }
 ]
