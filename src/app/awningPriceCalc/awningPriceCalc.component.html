@@ -1,4 +1,12 @@
 <div class="container text-center">
+  <nav class="breadcrumb mt-2">
+    <a class="breadcrumb-item" routerLink="/">Home</a>
+    <a class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
+    <a class="breadcrumb-item" routerLink="/services/retractable-patio-awnings"
+      >Retractable Patio Awnings</a
+    >
+    <span class="breadcrumb-item active">Awning Price Calculator</span>
+  </nav>
   <div class="card my-4">
     <div class="card-body">
       <h5 class="card-title">
@@ -99,8 +107,8 @@
         <div class="row">
           <div class="col-md-12">
             <h6>
-              Try a few different sizes! depending on model a few extra feet of
-              shade is only a few more dollars!
+              Try a few different sizes! Depending on the model a few extra feet
+              of shade is only a few more dollars!
             </h6>
           </div>
         </div>
@@ -169,7 +177,7 @@
                 <td *ngIf="optMR">${{ motorRemotePrice }}**</td>
                 <td *ngIf="!optMR">
                   <span style="text-decoration: line-through;"
-                    >${{ motorRemotePrice }}</span
+                    >${{ motorRemotePrice }}**</span
                   >
                 </td>
                 <td (click)="handleSelectWR()">
@@ -263,8 +271,8 @@
             <div class="row">
               <div class="col-md-12">
                 <h6>
-                  **Includes 24 ft power cord. Electrical service available if
-                  no outlet within 24 ft of Awning
+                  **Includes 24 ft power cord. Electrical service (fees may
+                  apply) available if no outlet within 24 ft of Awning
                 </h6>
               </div>
             </div>

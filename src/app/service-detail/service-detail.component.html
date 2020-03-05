@@ -136,6 +136,24 @@
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
+              <div class="row text-center">
+                <div class="col-md-12">
+                  <a
+                    *ngIf="service.slug === 'retractable-patio-awnings'"
+                    routerLink="/awningPriceCalc"
+                    ><h4 class="m-3 orange-text">
+                      Check Out Our Awning Price Calculator
+                    </h4></a
+                  >
+                  <a
+                    *ngIf="service.slug === 'drop-roll-sunscreens'"
+                    routerLink="/dropRollPriceCalc"
+                    ><h4 class="m-3 orange-text">
+                      Check Out Our Drop Roll Price Calculator
+                    </h4></a
+                  >
+                </div>
+              </div>
             </div>
           </div>
 
