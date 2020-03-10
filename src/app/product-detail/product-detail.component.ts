@@ -16,6 +16,7 @@ import priceJSON from '../../assets/json/prices.json';
 })
 export class ProductDetailComponent implements OnInit {
   product: any;
+  video: string = 'https://www.facebook.com/watch/?v=1264548423571761';
   price;
   gallery_images: NgxGalleryImage[];
 
