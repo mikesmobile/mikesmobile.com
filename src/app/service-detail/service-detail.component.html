@@ -284,6 +284,27 @@
         </div>
       </section>
     </div>
+    <div class="container" *ngIf="service.slug === 'chimney-inspections'">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h3>Featuring Bear Hands Pro Digital Reports</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <app-img
+            src="/assets/images/chimneyInspection/checkList.png"
+            class="img-fluid"
+          ></app-img>
+        </div>
+        <div class="col-md-6">
+          <app-img
+            src="/assets/images/chimneyInspection/checkList.png"
+            class="img-fluid"
+          ></app-img>
+        </div>
+      </div>
+    </div>
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">
