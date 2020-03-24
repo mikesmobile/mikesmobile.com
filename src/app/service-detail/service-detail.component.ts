@@ -18,6 +18,7 @@ import priceJSON from '../../assets/json/prices.json';
 export class ServiceDetailComponent implements OnInit {
   service: any;
   price;
+  img;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -70,7 +71,9 @@ export class ServiceDetailComponent implements OnInit {
       }
 
       if (this.service.fullTileImage) {
-        this.service.tileImage = this.service.fullTileImage;
+        this.img = this.service.fullTileImage;
+      } else {
+        this.img = this.service.tileImage;
       }
     });
   }
