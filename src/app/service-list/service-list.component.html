@@ -18,38 +18,28 @@
         *ngFor="let service of serviceList | findByCategory: categories[i]"
       >
         <div class="col-6 col-md-4 col-lg-3">
-          <div class="flip-container">
-            <a
-              class="d-block flipper"
-              [routerLink]="['/', service.type, service.slug]"
+          <a
+            class="d-block border rounded"
+            [routerLink]="['/', service.type, service.slug]"
+          >
+            <div
+              class="container d-table tileTitle text-center align-center w-100 mx-0"
             >
-              <div class="front w-100">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img
-                    [src]="service.tileImage"
-                    class="img-fluid rounded-top"
-                    [alt]="service.title"
-                  ></app-img>
-                </div>
-                <div
-                  class="container d-table tileTitle text-center align-center rounded-bottom w-100 mx-0"
-                >
-                  <h4
-                    class="card-title d-table-cell text-center w-100 align-middle m-0 rounded-bottom"
-                    [innerHTML]="service.title"
-                  ></h4>
-                </div>
-              </div>
-              <div class="back">
-                <h4
-                  class="text-center card-back-title rounded-top"
-                  [innerHTML]="service.title"
-                ></h4>
-                <div class="divider dropdown-divider pt-0 mt-0"></div>
-                <p class="mb-0 text-center" [innerHTML]="service.tileText"></p>
-              </div>
-            </a>
-          </div>
+              <h4
+                class="card-title d-table-cell text-center w-100 align-middle m-0 "
+                [innerHTML]="service.title"
+              ></h4>
+            </div>
+            <div class="view waves-light" mdbRippleRadius>
+              <app-img
+                [src]="service.tileImage"
+                class="img-fluid "
+                [alt]="service.title"
+              ></app-img>
+            </div>
+            <div class="divider dropdown-divider pt-0 mt-0"></div>
+            <p class="mb-0 text-center" [innerHTML]="service.tileText"></p>
+          </a>
         </div>
       </ng-container>
     </div>
