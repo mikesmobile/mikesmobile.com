@@ -61,6 +61,7 @@ import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.comp
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { QuoteFormDropRollComponent } from './quote-form-droproll/quote-form-droproll.component';
 import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.component';
+import { AnnouncementMessageComponent } from './announcementMessage/announcementMessage.component';
 
 @NgModule({
   declarations: [
@@ -118,7 +119,8 @@ import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.
     AwningPriceCalcComponent,
     DropRollCalcComponent,
     QuoteFormDropRollComponent,
-    QuoteFormAwningComponent
+    QuoteFormAwningComponent,
+    AnnouncementMessageComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
@@ -139,5 +141,5 @@ export class AppModule {
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
     @Inject(APP_ID) private appId: string
-  ) {}
+  ) { }
 }
