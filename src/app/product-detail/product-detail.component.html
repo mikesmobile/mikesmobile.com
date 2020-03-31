@@ -2,66 +2,24 @@
   <div class="container pb-4">
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
-      <a
-        *ngIf="product.category === 'Swinging Screen Door'"
-        class="breadcrumb-item"
-        routerLink="/grid/swinging-screen-doors"
-        >Swinging Screen Doors</a
-      >
-      <a
-        *ngIf="product.category === 'Titan Security Screen Doors'"
-        class="breadcrumb-item"
-        routerLink="/grid/titan-security-doors"
-        >Titan Security Screen Doors</a
-      >
-      <a
-        *ngIf="product.category === 'Door and Window Screens'"
-        class="breadcrumb-item"
-        routerLink="/about/door-and-window-screens"
-        >Doors and Window Screens</a
-      >
-      <a
-        *ngIf="product.category === 'Screen Doors'"
-        class="breadcrumb-item"
-        routerLink="/about/door"
-        >Screen Doors</a
-      >
-      <a
-        *ngIf="product.category === 'Window Screens'"
-        class="breadcrumb-item"
-        routerLink="/about/window-screens"
-        >Window Screens</a
-      >
-      <a
-        *ngIf="product.category === 'Chimney Services'"
-        class="breadcrumb-item"
-        routerLink="/about/chimney-services"
-        >Chimney Services</a
-      >
-      <a
-        *ngIf="product.category === 'Security Screen Doors and Windows'"
-        class="breadcrumb-item"
-        routerLink="/about/security-doors-and-windows"
-        >Security Screen Doors and Windows</a
-      >
-      <a
-        *ngIf="product.category === 'Security Screen Doors'"
-        class="breadcrumb-item"
-        routerLink="/about/security-doors"
-        >Security Screen Doors</a
-      >
-      <a
-        *ngIf="product.category === 'Security Window Screens'"
-        class="breadcrumb-item"
-        routerLink="/about/security-windows"
-        >Security Window Screens</a
-      >
-      <a
-        *ngIf="product.category === 'Awnings'"
-        class="breadcrumb-item"
-        routerLink="/about/awnings"
-        >Awnings</a
-      >
+      <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
+        routerLink="/grid/swinging-screen-doors">Swinging Screen Doors</a>
+      <a *ngIf="product.category === 'Titan Security Screen Doors'" class="breadcrumb-item"
+        routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
+      <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item"
+        routerLink="/about/door-and-window-screens">Doors and Window Screens</a>
+      <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" routerLink="/about/door">Screen Doors</a>
+      <a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" routerLink="/about/window-screens">Window
+        Screens</a>
+      <a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item"
+        routerLink="/about/chimney-services">Chimney Services</a>
+      <a *ngIf="product.category === 'Security Screen Doors and Windows'" class="breadcrumb-item"
+        routerLink="/about/security-doors-and-windows">Security Screen Doors and Windows</a>
+      <a *ngIf="product.category === 'Security Screen Doors'" class="breadcrumb-item"
+        routerLink="/about/security-doors">Security Screen Doors</a>
+      <a *ngIf="product.category === 'Security Window Screens'" class="breadcrumb-item"
+        routerLink="/about/security-windows">Security Window Screens</a>
+      <a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
     <div class="row">
@@ -75,8 +33,7 @@
                     <div class="col-12">
                       <app-img
                         src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"
-                      ></app-img>
+                        class="img-fluid centered-sq"></app-img>
                     </div>
                   </div>
                 </mdb-tab>
@@ -85,8 +42,7 @@
                     <div class="col-12">
                       <app-img
                         src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"
-                      ></app-img>
+                        class="img-fluid centered-sq"></app-img>
                     </div>
                   </div>
                 </mdb-tab>
@@ -95,77 +51,44 @@
           </div>
         </ng-container>
 
-        <ng-container
-          *ngIf="
+        <ng-container *ngIf="
             product.category === 'Swinging Screen Door' ||
             (product.category === 'Titan Security Screen Doors' &&
               !gallery_images)
-          "
-        >
-          <app-img
-            (click)="doorModal.show()"
-            [src]="product.tileImage"
-            class="img-fluid z-depth-2 main-image"
-          ></app-img>
+          ">
+          <app-img (click)="doorModal.show()" [src]="product.tileImage" class="img-fluid z-depth-2 main-image">
+          </app-img>
           <p class="text-center p-2">(Click Image to Enlarge)</p>
-          <div
-            mdbModal
-            #doorModal="mdb-modal"
-            class="modal fade"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="doorModal"
-            aria-hidden="true"
-          >
+          <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+            aria-labelledby="doorModal" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <button
-                    type="button"
-                    class="close pull-right"
-                    aria-label="Close"
-                    (click)="doorModal.hide()"
-                  >
+                  <button type="button" class="close pull-right" aria-label="Close" (click)="doorModal.hide()">
                     <span aria-hidden="true">×</span>
                   </button>
-                  <h4
-                    class="modal-title w-100 text-center"
-                    [innerHTML]="product.title"
-                  ></h4>
+                  <h4 class="modal-title w-100 text-center" [innerHTML]="product.title"></h4>
                 </div>
                 <div class="modal-body">
-                  <app-img
-                    mdbRippleRadius
-                    class="galleryImg"
-                    [src]="product.tileImage"
-                  ></app-img>
+                  <app-img mdbRippleRadius class="galleryImg" [src]="product.tileImage"></app-img>
                 </div>
               </div>
             </div>
           </div>
         </ng-container>
 
-        <ng-container
-          *ngIf="product.slug !== 'sliding-security-doors' && gallery_images"
-        >
+        <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
           <app-main-gallery [Images]="gallery_images"></app-main-gallery>
         </ng-container>
 
-        <div
-          *ngIf="product.slug === 'viewguard-security-doors'"
-          class="container-fluid text-center justify-content-center"
-        >
+        <div *ngIf="product.slug === 'viewguard-security-doors'"
+          class="container-fluid text-center justify-content-center">
           <div class="row text-center">
             <div class="col-12 text-center justify-content-center">
-              <div
-                class="embed-responsive mx-auto video embed-responsive-16by9"
-              >
-                <iframe
-                  class="embed-responsive-item"
+              <div class="embed-responsive mx-auto video embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
                   src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen
-                ></iframe>
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
               <h6>These things are seriously tough!</h6>
             </div>
@@ -177,14 +100,8 @@
         <h1 class="text-left h5" [innerHTML]="product.category"></h1>
         <h2 class="text-left h3 makeNewLine">
           {{ product.title }}
-          <a
-            *ngIf="price"
-            mdbPageScroll
-            href="#disclaimer"
-            mdbRippleRadius
-            [pageScrollDuration]="400"
-            [pageScrollOffset]="110"
-          >
+          <a *ngIf="price" mdbPageScroll href="#disclaimer" mdbRippleRadius [pageScrollDuration]="400"
+            [pageScrollOffset]="110">
             <span class="text-left h3" *ngFor="let item of price.price">
               - {{ item.type }}
               <span class="price">{{ item.price }}</span> Installed*
@@ -203,28 +120,25 @@
         </div>
         <div class="container" *ngIf="product.bullets">
           <ul class="pb-3">
-            <li
-              *ngFor="let bullet of product.bullets"
-              [innerHTML]="bullet"
-            ></li>
+            <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
           </ul>
         </div>
-        <div
-          class="flex-row d-none d-md-block my-4 cursor-pointer"
-          (click)="openQuoteForm()"
-        >
-          <h4 class="animated pulse infinite orange-text pl-4 pb-3">
+        <div class="flex-row d-none d-md-block my-4 cursor-pointer text-center" (click)="openQuoteForm()">
+          <h4 class="animated pulse infinite orange-text  pb-1">
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
+        <div class="flex-row text-center mb-3">
+          <a routerLink="/financing">
+            <h4 class="orange-text">We Also Offer Financing!</h4>
+          </a>
+        </div>
         <div class="flex-row  d-md-none">
-          <a class="white-text" href="tel:+18009929938"
-            ><h4
-              class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
-            >
+          <a class="white-text" href="tel:+18009929938">
+            <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
               <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-            </h4></a
-          >
+            </h4>
+          </a>
         </div>
         <div class="row" *ngIf="product.colorSet">
           <div class="col-12">
@@ -245,9 +159,7 @@
     </div>
   </div>
   <app-tab-nav [details]="product.details"></app-tab-nav>
-  <app-footer-gallery
-    [Images]="product.recentInstallImages"
-  ></app-footer-gallery>
+  <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
 </ng-container>
 
 <app-quote-form></app-quote-form>
