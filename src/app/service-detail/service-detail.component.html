@@ -238,6 +238,9 @@
         </div>
       </div>
     </div>
+    <div *ngIf="service.slug === 'gas-log-sets'">
+      <app-tab-nav [details]="service.details"></app-tab-nav>
+    </div>
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">

@@ -3462,6 +3462,60 @@
     ]
   },
   {
+    "title": "Gas Log Sets",
+    "slug": "gas-log-sets",
+    "category": "Chimney Services",
+    "type": "services",
+    "fullTileImage": "/assets/images/gasLogSet/gasLogSetBurningMain.png",
+    "tileImage": "/assets/images/tiles/gasLogTile.png",
+    "tileText": "Tired of having to buy wood? We sell and install gas log sets!",
+    "textList": [
+      {
+        "title": "How do gas log sets work?",
+        "description": "Gas log sets offer all the ambience and warmth of a real, wood-burning fire without the mess and maintenance. Although they look like real wood, our gas log sets are made of refractory cement, which enables them to withstand high temperatures. Per California state law, all of the gas log sets we supply are vented, so they produce realistic large, yellow flames. Our Chimney Sweep Institute of America (CSIA) certified technicians can install them in both traditional masonry fireplaces, as well as prefabricated fireplaces."
+      },
+      {
+        "title": "What are the benefits of having a gas log set?",
+        "description": "Gas log sets offer both convenience and safety benefits, including- but not limited to- the following: -Gas log sets are less messy than traditional wood burning fires because they burn cleaner, producing much less soot -In California, with a gas log set, you can typically use your fireplace even on “No Burn” days -Gas log sets produce and retain more heat than a traditional wood fire -With a safety pilot kit, which Mike’s Mobile supplies, you can control your gas log set through a remote, which makes starting a fire far more convenient than lighting wood logs"
+      },
+      {
+        "title": "Are gas log sets safe?",
+        "description": "One thing that Mike’s Mobile’s CSIA certified technicians strongly suggest you can do to make your gas log set safer, is to use a safety pilot kit with a remote control. Though California does not currently mandate the addition of a remote kit with your gas log set, the alternative- a manual valve- typically requires the use of a key to turn on the gas, and then the use of a match or long lighter, inserted into the wall, to light the gas. Not only is this process cumbersome, but it is also dangerous. Children can find the keys to turn on the manual valve and the gas can be left on, filling your home, without you ever knowing. "
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "a gas log fire set!",
+        "small": "/assets/images/gasLogSet/gasLogSetExample.jpg",
+        "medium": "/assets/images/gasLogSet/gasLogSetExample.jpg",
+        "big": "/assets/images/gasLogSet/gasLogSetExample.jpg"
+      },
+      {
+        "alt": "gas log set example",
+        "small": "/assets/images/gasLogSet/gasLogSetInstall.jpg",
+        "medium": "/assets/images/gasLogSet/gasLogSetInstall.jpg",
+        "big": "/assets/images/gasLogSet/gasLogSetInstall.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "<p>-California mandates that all gas log sets sold in the state must be vented. Mike’s Mobile supplies vented natural gas (NG) log sets and gas valve sets that allow for use of a flame modulating remote.</p> "
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<ul><li>-Eight Hand Painted Refractory Cement Logs</li> <li>-Equipped With a U-Shaped Dual Burner </li> <li>-Minimum Dimensions of 32 inch Front Width; 15 inch Depth and 24 inch Back Width </li> <li>-Realistic Appearing Flame Patterns </li> <li>-60,000 BTU’s </li> </ul>"
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Gas Fireplace Annual Service": "/services/gas-fireplace-annual-service",
+          "Gas Fireplace Repair": "/services/gas-fireplace-repair"
+        }
+      }
+    ]
+  },
+  {
     "title": "Chimney Inspections",
     "slug": "chimney-inspections",
     "category": "Chimney Services",
@@ -3547,7 +3601,6 @@
     "slug": "gas-fireplace-repair-and-service",
     "category": "Chimney Services",
     "type": "about",
-    "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
     "tileImage": "/assets/images/tiles/gasFirePlaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!"
   },
@@ -3705,6 +3758,43 @@
     ]
   },
   {
+    "title": "Chimney Flashing",
+    "slug": "flashing",
+    "category": "Repair",
+    "type": "services",
+    "fullTileImage": "assets/images/flashing/flashingInstallUpright.jpg",
+    "tileImage": "assets/images/tiles/flasSealTile.jpg",
+    "tileText": "Protect your chimney from water damage.",
+    "textList": [
+      {
+        "title": "What is chimney flashing?",
+        "description": "Your chimney was built with extra protection at all its vulnerable points — the places where water can potentially get in and cause damage. The chimney’s flashing adds a much-needed layer of protection where the roof line and chimney meet. It’s usually made of overlapping layers of stainless steel, aluminum or copper, and is fitted specifically for your chimney."
+      },
+      {
+        "title": "Why repair chimney flashing?",
+        "description": "Small problems with your flashing, if not addressed, can lead to big, expensive issues later on.If your chimney flashing has separated from the brick, it can allow rainwater to leak into your house. Leaks around the chimney are not always evident right away but they can cause serious structural damage. Moisture enters the roofing, the attic, and possibly the ceiling areas causing wood rot, roof damage, attic damage, and drywall damage in the ceilings. Our CSIA certified technicians inspect your flashing and find any issues that may be contributing to current or potential leaks, and do the right repairs the right way."
+      },
+      {
+        "title": "What are the repair options for flashing?",
+        "description": "Mike’s Mobile offers the following two options for flashing: Flash Seal Flashing Repair- We would consider flash seal a minimum repair option when there is damage to or issues with your flashing. Mike’s Mobile’s certified technicians brush this flexible sealant on and around your existing flashing, to create a waterproof barrier, similar to a band aid. This option is great for temporarily sealing off leaks. New Metal Flashing- A more permanent solution to prevent leaks, if your existing flashing is not in good condition, is to have our certified technicians install new metal base and counter flashing. New metal flashing will provide your home with long-term, high quality protection and will hold up against rain and wind for many years to come."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "chimney flashing",
+        "small": "/assets/images/flashing/flashSeal1.jpg",
+        "medium": "/assets/images/flashing/flashSeal1.jpg",
+        "big": "/assets/images/flashing/flashSeal1.jpg"
+      },
+      {
+        "alt": "another example of flash sealing",
+        "small": "/assets/images/flashing/Travis_Flash_Seal_3.jpg",
+        "medium": "/assets/images/flashing/Travis_Flash_Seal_3.jpg",
+        "big": "/assets/images/flashing/Travis_Flash_Seal_3.jpg"
+      }
+    ]
+  },
+  {
     "title": "Rear Firewall Heat Damage",
     "slug": "rear-firewall-heat-damage",
     "category": "Repair",
@@ -3781,18 +3871,6 @@
         "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
         "medium": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
         "big": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg"
-      },
-      {
-        "alt": "Brushing Chimney Clean",
-        "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg",
-        "medium": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg",
-        "big": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-3.jpg"
-      },
-      {
-        "alt": "Brushing Chimney Clean",
-        "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg",
-        "medium": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg",
-        "big": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-4.jpg"
       }
     ]
   },
