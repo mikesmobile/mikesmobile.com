@@ -4,29 +4,19 @@
       <section class="section pb-3">
         <nav class="breadcrumb mt-2">
           <a class="breadcrumb-item" routerLink="/">Home</a>
-          <a class="breadcrumb-item" routerLink="/about/door-and-window-screens"
-            >Door and Window Screens</a
-          >
+          <a class="breadcrumb-item" routerLink="/about/door-and-window-screens">Door and Window Screens</a>
           <span class="breadcrumb-item active">Swinging Screen Doors</span>
         </nav>
         <div class="row">
           <div class="col-12 col-md-7 pb-3 swingingScreenDoorImg">
-            <app-main-gallery
-              [Images]="service.recentInstallImages"
-            ></app-main-gallery>
+            <app-main-gallery [Images]="service.recentInstallImages"></app-main-gallery>
           </div>
           <div class="col-12 col-md-5 productInfo">
             <h1 class="text-left h5">Screen Doors</h1>
             <h2 class="text-left h3 makeNewLine">
               Swinging Screen Doors
-              <a
-                *ngIf="price"
-                mdbPageScroll
-                href="#disclaimer"
-                mdbRippleRadius
-                [pageScrollDuration]="400"
-                [pageScrollOffset]="110"
-              >
+              <a *ngIf="price" mdbPageScroll href="#disclaimer" mdbRippleRadius [pageScrollDuration]="400"
+                [pageScrollOffset]="110">
                 <span class="text-left h3" *ngFor="let item of price.price">
                   - {{ item.type }}
                   <span class="price">{{ item.price }}</span> Installed*
@@ -37,13 +27,8 @@
               <ul class="pb-3">
                 <li class="l2">
                   Available in 8 different designs.
-                  <a
-                    class="blue-text"
-                    mdbPageScroll
-                    [pageScrollOffset]="100"
-                    href="#screenDoorGallery"
-                    >Click or Scroll here to see them all</a
-                  >
+                  <a class="blue-text" mdbPageScroll [pageScrollOffset]="100" href="#screenDoorGallery">Click or Scroll
+                    here to see them all</a>
                 </li>
                 <li class="l2">
                   Available in Standard and custom sizes!
@@ -54,9 +39,7 @@
               </ul>
             </div>
             <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
-              <h4
-                class="animated pulse infinite orange-text pb-3 cursor-pointer"
-              >
+              <h4 class="animated pulse infinite orange-text pb-3 cursor-pointer">
                 &nbsp; Get a Free Quote Now!
               </h4>
             </div>
@@ -76,22 +59,14 @@
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center" id="screenDoorGallery">
-          <ng-container
-            *ngFor="
+          <ng-container *ngFor="
               let item of serviceList | findByCategory: 'Swinging Screen Door'
-            "
-          >
-            <div
-              class="col-6 col-md-4 col-lg-3 my-3 service-list"
-              (click)="openSlideShowModal(item.title)"
-            >
+            ">
+            <div class="col-6 col-md-4 col-lg-3 my-3 service-list" (click)="openSlideShowModal(item.title)">
               <div class="card">
                 <div class="view overlay">
-                  <app-img
-                    [src]="item.tileImage"
-                    class="img-fluid doorImages serviceImage"
-                    [alt]="item.title"
-                  ></app-img>
+                  <app-img [src]="item.tileImage" class="img-fluid doorImages serviceImage" [alt]="item.title">
+                  </app-img>
                   <div class="mask rgba-white-light"></div>
                 </div>
                 <div class="card-body text-center">
@@ -117,34 +92,21 @@
       <section class="section pb-3">
         <nav class="breadcrumb mt-2">
           <a class="breadcrumb-item" routerLink="/">Home</a>
-          <a
-            class="breadcrumb-item"
-            routerLink="/about/security-doors-and-windows"
-            >Security Screen Doors and Windows</a
-          >
-          <span class="breadcrumb-item active"
-            >Titan Security Screen Doors</span
-          >
+          <a class="breadcrumb-item" routerLink="/about/security-doors-and-windows">Security Screen Doors and
+            Windows</a>
+          <span class="breadcrumb-item active">Titan Security Screen Doors</span>
         </nav>
 
         <div class="row">
           <div class="col-12 col-md-7 pb-3">
-            <app-main-gallery
-              [Images]="service.recentInstallImages"
-            ></app-main-gallery>
+            <app-main-gallery [Images]="service.recentInstallImages"></app-main-gallery>
           </div>
           <div class="col-12 col-md-5 productInfo">
             <h1 class="text-left h5">Security Screen Doors</h1>
             <h2 class="text-left h3 makeNewLine">
               Titan Security Screen Doors
-              <a
-                *ngIf="price"
-                mdbPageScroll
-                href="#disclaimer"
-                mdbRippleRadius
-                [pageScrollDuration]="400"
-                [pageScrollOffset]="110"
-              >
+              <a *ngIf="price" mdbPageScroll href="#disclaimer" mdbRippleRadius [pageScrollDuration]="400"
+                [pageScrollOffset]="110">
                 <span class="text-left h3" *ngFor="let item of price.price">
                   - {{ item.type }}
                   <span class="price">{{ item.price }}</span> Installed*
@@ -155,9 +117,7 @@
               <ul class="pb-3">
                 <li class="l2">
                   Available in 40 different designs.
-                  <a class="blue-text" mdbPageScroll href="#titanGallery"
-                    >Click or scroll here to see them all</a
-                  >
+                  <a class="blue-text" mdbPageScroll href="#titanGallery">Click or scroll here to see them all</a>
                 </li>
                 <li class="l2">
                   Aluminum alloy construction is up to 6 times stronger than
@@ -171,9 +131,7 @@
             </div>
 
             <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
-              <h4
-                class="animated pulse infinite orange-text pb-3 cursor-pointer"
-              >
+              <h4 class="animated pulse infinite orange-text pb-3 cursor-pointer">
                 &nbsp; Get a Free Quote Now!
               </h4>
             </div>
@@ -183,12 +141,8 @@
                   Color Selection &nbsp;
                   <span class="small">(click to zoom)</span>
                 </h4>
-                <app-color-swatch
-                  swatchType="titanSecurityColors"
-                ></app-color-swatch>
-                <app-color-swatch
-                  swatchType="titanAluminumColors"
-                ></app-color-swatch>
+                <app-color-swatch swatchType="titanSecurityColors"></app-color-swatch>
+                <app-color-swatch swatchType="titanAluminumColors"></app-color-swatch>
                 <app-color-swatch swatchType="meshtecColor"></app-color-swatch>
               </div>
             </div>
@@ -198,38 +152,21 @@
           <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
         </div>
         <hr class="mt-4" />
-        <p
-          class="my-5 section-description"
-          [innerHTML]="service.description"
-        ></p>
+        <p class="my-5 section-description" [innerHTML]="service.description"></p>
         <div id="titanGallery" class="row justify-content-center">
-          <ng-container
-            *ngFor="
+          <ng-container *ngFor="
               let item of serviceList
                 | findByCategory: 'Titan Security Screen Doors'
-            "
-          >
-            <div
-              class="card col-6 col-md-4 col-lg-2"
-              (click)="openSlideShowModal(item.title)"
-            >
+            ">
+            <div class="card col-6 col-md-4 col-lg-2" (click)="openSlideShowModal(item.title)">
               <div class="view overlay">
-                <app-img
-                  [src]="item.tileImage"
-                  class="img-fluid serviceImage titanImage"
-                  [alt]="item.title"
-                ></app-img>
+                <app-img [src]="item.tileImage" class="img-fluid serviceImage titanImage" [alt]="item.title"></app-img>
                 <div class="mask rgba-white-light"></div>
               </div>
 
               <div class="card-body text-center">
                 <h4 class="card-title">
-                  <strong
-                    ><a
-                      (click)="openSlideShowModal(item.title)"
-                      [innerHTML]="item.title"
-                    ></a
-                  ></strong>
+                  <strong><a (click)="openSlideShowModal(item.title)" [innerHTML]="item.title"></a></strong>
                 </h4>
               </div>
             </div>
@@ -248,38 +185,19 @@
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
-          <ng-container
-            *ngFor="let item of serviceList | findByCategory: 'Repair'"
-          >
-            <div class="col-6 col-md-4 col-lg-3 mb-4 service-list">
-              <div class="flip-container">
-                <a
-                  class="flipper d-block"
-                  [routerLink]="['/', item.type, item.slug]"
-                >
-                  <div class="front">
-                    <div class="view waves-light" mdbRippleRadius>
-                      <app-img
-                        [src]="item.tileImage"
-                        class="img-fluid serviceImage"
-                        [alt]="item.title"
-                      ></app-img>
-                    </div>
-                    <h5
-                      class="card-title px-4 py-2"
-                      [innerHTML]="item.title"
-                    ></h5>
+          <ng-container *ngFor="let item of serviceList | findByCategory: 'Repair'">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card tile my-2 rounded">
+                <a class="d-block" [routerLink]="['/', item.type, item.slug]">
+                  <div class="view waves-light" mdbRippleRadius>
+                    <app-img [src]="item.tileImage" class="img-fluid serviceImage" [alt]="item.title"></app-img>
                   </div>
-                  <div class="back">
-                    <h4
-                      class="text-center card-back-title"
-                      [innerHTML]="item.title"
-                    ></h4>
-                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                    <p
-                      class="p-1 mb-0 text-center"
-                      [innerHTML]="item.tileText"
-                    ></p>
+                  <div class="card-img-overlay tileInfo">
+                    <p class="mb-0 text-center text-white transparent-gray" [innerHTML]="item.tileText"></p>
+                  </div>
+                  <div class="container d-table tileTitle text-center align-center  w-100 mx-0">
+                    <h4 class="card-title d-table-cell text-center w-100 align-middle m-0 " [innerHTML]="item.title">
+                    </h4>
                   </div>
                 </a>
               </div>
@@ -296,44 +214,28 @@
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
-          <div
-            class="container"
-            *ngFor="
+          <div class="container" *ngFor="
               let item of serviceList | findByCategory: 'Masonry';
               let isOdd = odd;
               let isEven = even
-            "
-          >
+            ">
             <div class="row d-none d-md-block" *ngIf="isOdd">
               <div class="jumbotron py-1">
                 <div class="row">
                   <div class="col-md-5">
                     <div class="container py-5">
-                      <a
-                        class="my-3 d-block"
-                        [routerLink]="['/', item.type, 'masonry', item.slug]"
-                      >
+                      <a class="my-3 d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                         <h4 class="text-center" [innerHTML]="item.title"></h4>
                         <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p
-                          class="p-1 mb-0 text-center"
-                          [innerHTML]="item.tileText"
-                        ></p>
+                        <p class="p-1 mb-0 text-center" [innerHTML]="item.tileText"></p>
                         <button class="btn card-back-title">Learn More!</button>
                       </a>
                     </div>
                   </div>
                   <div class="col-md-7">
-                    <a
-                      class=" d-block"
-                      [routerLink]="['/', item.type, 'masonry', item.slug]"
-                    >
+                    <a class=" d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                       <div class="view waves-light" mdbRippleRadius>
-                        <app-img
-                          [src]="item.tileImage"
-                          class="img-fluid masonryImg"
-                          [alt]="item.title"
-                        ></app-img>
+                        <app-img [src]="item.tileImage" class="img-fluid masonryImg" [alt]="item.title"></app-img>
                       </div>
                     </a>
                   </div>
@@ -344,31 +246,18 @@
               <div class="jumbotron py-1">
                 <div class="row">
                   <div class="col-md-7">
-                    <a
-                      class=" d-block"
-                      [routerLink]="['/', item.type, 'masonry', item.slug]"
-                    >
+                    <a class=" d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                       <div class="view waves-light" mdbRippleRadius>
-                        <app-img
-                          [src]="item.tileImage"
-                          class="img-fluid masonryImg"
-                          [alt]="item.title"
-                        ></app-img>
+                        <app-img [src]="item.tileImage" class="img-fluid masonryImg" [alt]="item.title"></app-img>
                       </div>
                     </a>
                   </div>
                   <div class="col-md-5">
                     <div class="container py-5">
-                      <a
-                        class="my-3 d-block"
-                        [routerLink]="['/', item.type, 'masonry', item.slug]"
-                      >
+                      <a class="my-3 d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                         <h4 class="text-center" [innerHTML]="item.title"></h4>
                         <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p
-                          class="p-1 mb-0 text-center"
-                          [innerHTML]="item.tileText"
-                        ></p>
+                        <p class="p-1 mb-0 text-center" [innerHTML]="item.tileText"></p>
                         <button class="btn card-back-title">Learn More!</button>
                       </a>
                     </div>
@@ -380,31 +269,18 @@
               <div class="jumbotron py-1">
                 <div class="row">
                   <div class="col-md-7">
-                    <a
-                      class="d-block"
-                      [routerLink]="['/', item.type, 'masonry', item.slug]"
-                    >
+                    <a class="d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                       <div class="view waves-light" mdbRippleRadius>
-                        <app-img
-                          [src]="item.tileImage"
-                          class="img-fluid masonryImg"
-                          [alt]="item.title"
-                        ></app-img>
+                        <app-img [src]="item.tileImage" class="img-fluid masonryImg" [alt]="item.title"></app-img>
                       </div>
                     </a>
                   </div>
                   <div class="col-md-5">
                     <div class="container py-5">
-                      <a
-                        class=" d-block"
-                        [routerLink]="['/', item.type, 'masonry', item.slug]"
-                      >
+                      <a class=" d-block" [routerLink]="['/', item.type, 'masonry', item.slug]">
                         <h4 class="text-center" [innerHTML]="item.title"></h4>
                         <div class="divider dropdown-divider pt-0 mt-0"></div>
-                        <p
-                          class="p-1 mb-0 text-center"
-                          [innerHTML]="item.tileText"
-                        ></p>
+                        <p class="p-1 mb-0 text-center" [innerHTML]="item.tileText"></p>
                         <button class="btn card-back-title">Learn More!</button>
                       </a>
                     </div>
@@ -424,38 +300,19 @@
         <hr />
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
-          <ng-container
-            *ngFor="let item of serviceList | findByCategory: 'Accessories'"
-          >
-            <div class="col-6 col-md-4 col-lg-3 my-3 service-list">
-              <div class="flip-container">
-                <a
-                  class="flipper d-block"
-                  [routerLink]="['/', item.type, item.slug]"
-                >
-                  <div class="front">
-                    <div class="view waves-light" mdbRippleRadius>
-                      <app-img
-                        [src]="item.tileImage"
-                        class="img-fluid serviceImage"
-                        [alt]="item.title"
-                      ></app-img>
-                    </div>
-                    <h5
-                      class="card-title px-4 py-2"
-                      [innerHTML]="item.title"
-                    ></h5>
+          <ng-container *ngFor="let item of serviceList | findByCategory: 'Accessories'">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card tile my-2 rounded">
+                <a class="d-block" [routerLink]="['/', item.type, item.slug]">
+                  <div class="view waves-light" mdbRippleRadius>
+                    <app-img [src]="item.tileImage" class="img-fluid serviceImage" [alt]="item.title"></app-img>
                   </div>
-                  <div class="back">
-                    <h4
-                      class="text-center card-back-title"
-                      [innerHTML]="item.title"
-                    ></h4>
-                    <div class="divider dropdown-divider pt-0 mt-0"></div>
-                    <p
-                      class="p-1 mb-0 text-center"
-                      [innerHTML]="item.tileText"
-                    ></p>
+                  <div class="card-img-overlay tileInfo">
+                    <p class="mb-0 text-center text-white transparent-gray" [innerHTML]="item.tileText"></p>
+                  </div>
+                  <div class="container d-table tileTitle text-center align-center  w-100 mx-0">
+                    <h4 class="card-title d-table-cell text-center w-100 align-middle m-0 " [innerHTML]="item.title">
+                    </h4>
                   </div>
                 </a>
               </div>

@@ -39,3 +39,10 @@
     max-width: 360px
 
 
+.tileInfo
+  display: none
+
+.tile:hover
+  .tileInfo
+    @include breakpoint(md)
+      display: inline

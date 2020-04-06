@@ -3464,7 +3464,7 @@
   {
     "title": "Gas Log Sets",
     "slug": "gas-log-sets",
-    "category": "Chimney Services",
+    "category": "Accessories",
     "type": "services",
     "fullTileImage": "/assets/images/gasLogSet/gasLogSetBurningMain.png",
     "tileImage": "/assets/images/tiles/gasLogTile.png",
@@ -3616,7 +3616,7 @@
   {
     "title": "Gas Fireplace Repair",
     "slug": "gas-fireplace-repair",
-    "category": "gasRepair",
+    "category": "gasServices",
     "type": "services",
     "tileImage": "assets/images/gas-fire/gasFireBurningExposedCircuit.jpg",
     "tileText": "Get your Gas Fireplace serviced today!",
@@ -3664,7 +3664,7 @@
   {
     "title": "Gas Fireplace Annual Clean & Service",
     "slug": "gas-fireplace-annual-service",
-    "category": "gasRepair",
+    "category": "gasServices",
     "type": "services",
     "tileImage": "assets/images/gas-fire/gasFireCleanAndService.jpg",
     "tileText": "Get your Gas Fireplace serviced today!",
