@@ -8,7 +8,7 @@
   <div class="card my-4">
     <div class="card-body">
       <h5 class="card-title">
-        Get an Awning Quote!
+        Get an Awning Estimate!
       </h5>
       <form>
         <div class="row">
@@ -97,7 +97,7 @@
                 <td>
                   {{ awnType }}: {{ width }} x {{ projection }}
                 </td>
-                <td>${{ awnPrice }}*</td>
+                <td>${{ awnPrice }}**</td>
                 <td></td>
               </tr>
               <tr>
@@ -126,9 +126,9 @@
                 <td>
                   *Optional
                 </td>
-                <td *ngIf="optMR">${{ motorRemotePrice }}**</td>
+                <td *ngIf="optMR">${{ motorRemotePrice }}*</td>
                 <td *ngIf="!optMR">
-                  <span style="text-decoration: line-through;">${{ motorRemotePrice }}**</span>
+                  <span style="text-decoration: line-through;">${{ motorRemotePrice }}*</span>
                 </td>
                 <td (click)="handleSelectWR()">
                   <i class="fas fa-check mx-1 p-1" [style.background-color]="optMR ? 'orange' : ''"></i>
@@ -178,10 +178,10 @@
                 <th scope="row">Total:</th>
                 <td></td>
                 <td *ngIf="shakeIt" class="text-white orange price shake">
-                  ${{ totalCost }}
+                  ${{ totalCost }}**
                 </td>
                 <td *ngIf="!shakeIt" class="text-white orange price shake">
-                  ${{ totalCost }}
+                  ${{ totalCost }}**
                 </td>
                 <td></td>
               </tr>
@@ -206,7 +206,7 @@
               <div class="col-md-12">
                 <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
                   <h4 class="animated pulse infinite orange-text pb-3 cursor-pointer">
-                    &nbsp; Schedule a Tech Out Now!
+                    &nbsp; Schedule a Free In-Home Quote!
                   </h4>
                 </div>
               </div>
