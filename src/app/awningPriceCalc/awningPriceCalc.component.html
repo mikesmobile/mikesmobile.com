@@ -8,54 +8,54 @@
   <div class="card my-4">
     <div class="card-body">
       <h5 class="card-title">
-        Get an Awning Estimate!
+        Get an Awning Quote!
       </h5>
       <form>
         <div class="row">
           <div class="form-group col-md-6">
-            <label for="awnWidth">Choose the Awning Width </label>
+            <label for="awnWidth">Choose the Awning Width</label>
             <select class="browser-default custom-select" [(ngModel)]="width" name="awnWidth"
               (click)="handleSelectWidth()">
               <option *ngFor="let size of awnings">{{ size.width }}</option>
             </select>
           </div>
           <div *ngIf="projOpt5" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions5">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt6" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions6">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt7" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions7">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt8" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions8">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt9" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions9">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt10" class="form-group col-md-6">
-            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <label for="projection">Choose the Projection (How Far You Want It to Go Out!)</label>
             <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
               (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions10up">{{ size }}</option>
@@ -71,14 +71,14 @@
           </div>
         </div>
         <button *ngIf="width && projection" class="btn orange" (click)="handleQuoteSubmit()">
-          Get Quote!
+          Get an Estimate!
         </button>
       </form>
       <div class="container p-0" *ngIf="awnPrice">
         <hr />
         <div class="row text-center justify-content-center">
           <div class="col-md-12">
-            <h2>Your Quote</h2>
+            <h2>Your Estimate</h2>
           </div>
         </div>
         <div class="row">
@@ -124,7 +124,7 @@
                   <span style="text-decoration: line-through;">Motorized w/ remote</span>
                 </th>
                 <td>
-                  *optional
+                  *Optional
                 </td>
                 <td *ngIf="optMR">${{ motorRemotePrice }}**</td>
                 <td *ngIf="!optMR">
@@ -149,7 +149,7 @@
                 <th *ngIf="!optHood" scope="row">
                   <span style="text-decoration: line-through;">Hood</span>
                 </th>
-                <td>*Optional (Usually unnecessary if mounted under eave)</td>
+                <td>*Optional (Usually Unnecessary If Mounted Under an Eave)</td>
                 <td *ngIf="optHood">${{ hoodPrice }}</td>
                 <td *ngIf="!optHood">
                   <span style="text-decoration: line-through;">${{ hoodPrice }}</span>
@@ -164,7 +164,7 @@
                 <th *ngIf="!electricalPick" scope="row">
                   <span style="text-decoration: line-through;">Electrical - Add Outlet</span>
                 </th>
-                <td>*Optional (Unnecessary if outlet is within 20' of awning)</td>
+                <td>*Optional (Unnecessary If Outlet Is Within 20’ of Awning)</td>
                 <td *ngIf="electricalPick">${{ electrical}}</td>
                 <td *ngIf="!electricalPick">
                   <span style="text-decoration: line-through;">${{ electrical }}</span>
@@ -190,14 +190,15 @@
           <div class="container text-center">
             <div class="row">
               <div class="col-md-12">
-                <h6>*Base Model Estimate</h6>
+                <h6>*Includes a 24 ft power cord. Electrical services (additional fees may apply) are available if there
+                  is no outlet within 24 ft of the awning.</h6>
               </div>
             </div>
             <div class="row">
               <div class="col-md-12">
                 <h6>
-                  **Includes 24 ft power cord. Electrical service (fees may
-                  apply) available if no outlet within 24 ft of Awning
+                  **Prices shown are estimates based off of a standard model, but every home is unique. To get an exact
+                  price quote please schedule a free measurement appointment with a technician below!
                 </h6>
               </div>
             </div>
