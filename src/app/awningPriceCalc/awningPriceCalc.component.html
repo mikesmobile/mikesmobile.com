@@ -2,104 +2,62 @@
   <nav class="breadcrumb mt-2">
     <a class="breadcrumb-item" routerLink="/">Home</a>
     <a class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
-    <a class="breadcrumb-item" routerLink="/services/retractable-patio-awnings"
-      >Retractable Patio Awnings</a
-    >
+    <a class="breadcrumb-item" routerLink="/services/retractable-patio-awnings">Retractable Patio Awnings</a>
     <span class="breadcrumb-item active">Awning Price Calculator</span>
   </nav>
   <div class="card my-4">
     <div class="card-body">
       <h5 class="card-title">
-        Get an Awning quote!
+        Get an Awning Estimate!
       </h5>
       <form>
         <div class="row">
           <div class="form-group col-md-6">
             <label for="awnWidth">Choose the Awning Width </label>
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="width"
-              name="awnWidth"
-              (click)="handleSelectWidth()"
-            >
+            <select class="browser-default custom-select" [(ngModel)]="width" name="awnWidth"
+              (click)="handleSelectWidth()">
               <option *ngFor="let size of awnings">{{ size.width }}</option>
             </select>
           </div>
           <div *ngIf="projOpt5" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions5">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt6" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions6">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt7" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions7">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt8" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions8">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt9" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions9">{{ size }}</option>
             </select>
           </div>
           <div *ngIf="projOpt10" class="form-group col-md-6">
-            <label for="projection"
-              >Choose the Projection (how far you want it to go out!)</label
-            >
-            <select
-              class="browser-default custom-select"
-              [(ngModel)]="projection"
-              name="projection"
-              (click)="checkAlreadySubmit()"
-            >
+            <label for="projection">Choose the Projection (how far you want it to go out!)</label>
+            <select class="browser-default custom-select" [(ngModel)]="projection" name="projection"
+              (click)="checkAlreadySubmit()">
               <option *ngFor="let size of projOptions10up">{{ size }}</option>
             </select>
           </div>
@@ -112,11 +70,7 @@
             </h6>
           </div>
         </div>
-        <button
-          *ngIf="width && projection"
-          class="btn orange"
-          (click)="handleQuoteSubmit()"
-        >
+        <button *ngIf="width && projection" class="btn orange" (click)="handleQuoteSubmit()">
           Get Quote!
         </button>
       </form>
@@ -141,7 +95,7 @@
               <tr>
                 <th scope="row">Awning:</th>
                 <td>
-                  {{ awnType }}(base model): {{ width }} x {{ projection }}
+                  {{ awnType }}: {{ width }} x {{ projection }}
                 </td>
                 <td>${{ awnPrice }}*</td>
                 <td></td>
@@ -167,60 +121,24 @@
               <tr>
                 <th scope="row" *ngIf="optMR">Motorized w/ Remote</th>
                 <th scope="row" *ngIf="!optMR">
-                  <span style="text-decoration: line-through;"
-                    >Motorized w/ remote</span
-                  >
+                  <span style="text-decoration: line-through;">Motorized w/ remote</span>
                 </th>
                 <td>
                   *optional
                 </td>
                 <td *ngIf="optMR">${{ motorRemotePrice }}**</td>
                 <td *ngIf="!optMR">
-                  <span style="text-decoration: line-through;"
-                    >${{ motorRemotePrice }}**</span
-                  >
+                  <span style="text-decoration: line-through;">${{ motorRemotePrice }}**</span>
                 </td>
                 <td (click)="handleSelectWR()">
-                  <i
-                    class="fas fa-check mx-1 p-1"
-                    [style.background-color]="optMR ? 'orange' : ''"
-                  ></i>
-                  <i
-                    class="fas fa-times mx-1 p-1"
-                    [style.background-color]="optMR ? '' : 'orange'"
-                  ></i>
+                  <i class="fas fa-check mx-1 p-1" [style.background-color]="optMR ? 'orange' : ''"></i>
+                  <i class="fas fa-times mx-1 p-1" [style.background-color]="optMR ? '' : 'orange'"></i>
                 </td>
               </tr>
-              <tr *ngIf="!paNotAvil">
-                <th scope="row" *ngIf="optPA">Pitch Adjuster</th>
-                <th scope="row" *ngIf="!optPA">
-                  <span style="text-decoration: line-through;"
-                    >Pitch Adjuster</span
-                  >
-                </th>
-                <td>*Optional</td>
-                <td *ngIf="optPA">${{ pitchAdjusterPrice }}</td>
-                <td *ngIf="!optPA">
-                  <span style="text-decoration: line-through;"
-                    >${{ pitchAdjusterPrice }}</span
-                  >
-                </td>
-                <td (click)="handleSelectPa()">
-                  <i
-                    class="fas fa-check mx-1 p-1"
-                    [style.background-color]="optPA ? 'orange' : ''"
-                  ></i>
-                  <i
-                    class="fas fa-times mx-1 p-1"
-                    [style.background-color]="optPA ? '' : 'orange'"
-                  ></i>
-                </td>
-              </tr>
+
               <tr *ngIf="paNotAvil">
                 <th scope="row">
-                  <span style="text-decoration: line-through;"
-                    >Pitch Adjuster</span
-                  >
+                  <span style="text-decoration: line-through;">Pitch Adjuster</span>
                 </th>
                 <td>Not Available for this size</td>
                 <td>N/A</td>
@@ -234,19 +152,26 @@
                 <td>*Optional (Usually unnecessary if mounted under eave)</td>
                 <td *ngIf="optHood">${{ hoodPrice }}</td>
                 <td *ngIf="!optHood">
-                  <span style="text-decoration: line-through;"
-                    >${{ hoodPrice }}</span
-                  >
+                  <span style="text-decoration: line-through;">${{ hoodPrice }}</span>
                 </td>
                 <td (click)="handleSelectHood()">
-                  <i
-                    class="fas fa-check mx-1 p-1"
-                    [style.background-color]="optHood ? 'orange' : ''"
-                  ></i>
-                  <i
-                    class="fas fa-times mx-1 p-1"
-                    [style.background-color]="optHood ? '' : 'orange'"
-                  ></i>
+                  <i class="fas fa-check mx-1 p-1" [style.background-color]="optHood ? 'orange' : ''"></i>
+                  <i class="fas fa-times mx-1 p-1" [style.background-color]="optHood ? '' : 'orange'"></i>
+                </td>
+              </tr>
+              <tr>
+                <th *ngIf="electricalPick" scope="row">Electrical - Add Outlet</th>
+                <th *ngIf="!electricalPick" scope="row">
+                  <span style="text-decoration: line-through;">Electrical - Add Outlet</span>
+                </th>
+                <td>*Optional (Unnecessary if outlet is within 20' of awning)</td>
+                <td *ngIf="electricalPick">${{ electrical}}</td>
+                <td *ngIf="!electricalPick">
+                  <span style="text-decoration: line-through;">${{ electrical }}</span>
+                </td>
+                <td (click)="handleSelectElectrical()">
+                  <i class="fas fa-check mx-1 p-1" [style.background-color]="electricalPick ? 'orange' : ''"></i>
+                  <i class="fas fa-times mx-1 p-1" [style.background-color]="electricalPick ? '' : 'orange'"></i>
                 </td>
               </tr>
               <tr>
@@ -265,7 +190,7 @@
           <div class="container text-center">
             <div class="row">
               <div class="col-md-12">
-                <h6>*Base Model Quote</h6>
+                <h6>*Base Model Estimate</h6>
               </div>
             </div>
             <div class="row">
@@ -278,13 +203,8 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-                <div
-                  class="flew-row my-4 text-center"
-                  (click)="openQuoteForm()"
-                >
-                  <h4
-                    class="animated pulse infinite orange-text pb-3 cursor-pointer"
-                  >
+                <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
+                  <h4 class="animated pulse infinite orange-text pb-3 cursor-pointer">
                     &nbsp; Schedule a Tech Out Now!
                   </h4>
                 </div>

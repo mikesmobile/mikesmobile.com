@@ -52,6 +52,8 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
   laborSm: string = '400';
   laborMd: string = '500';
   laborLg: string = '800';
+  electrical: string = '450';
+  electricalPick: boolean = false;
   shippingSm: string = '400';
   shippingMd: string = '600';
   shippingLg: string = '800';
@@ -73,7 +75,6 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
     awnPrice: string;
     awnWallBrktPrice: string;
     awnMotorPrice: string;
-    awnPitchAdjustPrice: string;
     awnHoodPrice: string;
     shipLabPrice: string;
     awnTotalPrice: string;
@@ -168,6 +169,15 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
     this.calcTotal();
   }
 
+  handleSelectElectrical() {
+    if (this.electricalPick) {
+      this.electricalPick = false;
+    } else {
+      this.electricalPick = true;
+    }
+    this.calcTotal();
+  }
+
   handleQuoteSubmit() {
     this.paNotAvil = false;
     const selectedWidth = this.width;
@@ -221,12 +231,6 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
 
     this.awnAcc = style;
 
-    if (this.awnAcc.pitchAdjust === 'n/a') {
-      this.pitchAdjusterPrice = '0';
-      this.paNotAvil = true;
-    } else {
-      this.pitchAdjusterPrice = this.addTax(this.awnAcc.pitchAdjust);
-    }
 
     this.wallBrktPrice = this.addTax(this.awnAcc.wallBrackets);
     this.handCrankPrice = this.addTax(this.awnAcc.handCrank);
@@ -258,16 +262,15 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
         .toString();
     }
 
-    if (this.optPA) {
-      sum = (parseFloat(sum) + parseFloat(this.pitchAdjusterPrice))
-        .toFixed(2)
-        .toString();
-    }
 
     if (this.optHood) {
       sum = (parseFloat(sum) + parseFloat(this.hoodPrice))
         .toFixed(2)
         .toString();
+    }
+
+    if (this.electricalPick) {
+      sum = (parseFloat(sum) + parseFloat(this.electrical)).toFixed(2).toString();
     }
 
     this.totalCost = sum;
@@ -332,7 +335,6 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
       awnPrice: this.awnPrice,
       awnWallBrktPrice: this.wallBrktPrice,
       awnMotorPrice: newMrPrice,
-      awnPitchAdjustPrice: newPitchAdjustPrice,
       awnHoodPrice: newHoodPrice,
       shipLabPrice: this.labShipPrice,
       awnTotalPrice: this.totalCost
@@ -341,7 +343,7 @@ export class AwningPriceCalcComponent implements OnInit, OnChanges {
     this.quote = newQuote;
   }
 
-  ngOnChanges() {}
+  ngOnChanges() { }
 
   ngOnInit() {
     this.projOpt10 = true;
