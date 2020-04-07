@@ -18,35 +18,28 @@
         *ngFor="let service of serviceList | findByCategory: categories[i]"
       >
         <div class="col-6 col-md-4 col-lg-3">
-          <div class="flip-container">
-            <a
-              class="d-block flipper"
-              [routerLink]="['/', service.type, service.slug]"
-            >
-              <div class="front w-100">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img
-                    [src]="service.tileImage"
-                    class="img-fluid rounded-top"
-                    [alt]="service.title"
-                  ></app-img>
-                </div>
-                <div
-                  class="container d-table tileTitle text-center align-center rounded-bottom w-100 mx-0"
-                >
-                  <h4
-                    class="card-title d-table-cell text-center w-100 align-middle m-0 rounded-bottom"
-                    [innerHTML]="service.title"
-                  ></h4>
-                </div>
+          <div class="card tile my-2 rounded">
+            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="view waves-light" mdbRippleRadius>
+                <app-img
+                  [src]="service.tileImage"
+                  class="img-fluid card-img"
+                  [alt]="service.title"
+                ></app-img>
               </div>
-              <div class="back">
+              <div class="card-img-overlay tileInfo mt-0">
+                <p
+                  class="mb-0 text-center tileBlurb text-white transparent-gray"
+                  [innerHTML]="service.tileText"
+                ></p>
+              </div>
+              <div
+                class="container d-table tileTitle text-center align-center w-100 mx-0"
+              >
                 <h4
-                  class="text-center card-back-title rounded-top"
+                  class="card-title d-table-cell text-center w-100 align-middle m-0"
                   [innerHTML]="service.title"
                 ></h4>
-                <div class="divider dropdown-divider pt-0 mt-0"></div>
-                <p class="mb-0 text-center" [innerHTML]="service.tileText"></p>
               </div>
             </a>
           </div>

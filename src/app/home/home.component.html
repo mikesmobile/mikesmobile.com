@@ -1,42 +1,21 @@
 <!--this is the side by side tiles-->
 <h1 class="title-bar">Mike's Mobile: Screen and Chimney Service</h1>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-12 border alert rounded mt-3 p-1">
+      <h4>We're Still Open!</h4>
+      <button class="btn orange" (click)="openAnnouncementMessage()"><strong>Covid-19 Precations &
+          Updates</strong></button>
+    </div>
+  </div>
+</div>
 <div class="container-fluid justify-content-center my-1 mx-0 px-0 ">
   <div class="row text-center m-1 justify-content-center">
     <div class="col-md-3 m-0 p-1 smooth-scroll">
-      <a
-        mdbPageScroll
-        href="#chimney-services"
-        mdbRippleRadius
-        [pageScrollDuration]="400"
-        [pageScrollOffset]="100"
-      >
-        <div
-          class="card tile bg-dark text-white text-center"
-          style="background-image: url('/assets/images/front-page/chimney.webp'); background-position: 50% 30%; background-size:cover; background-repeat: no-repeat;"
-        >
-          <div class="card-img-overlay">
-            <h2 class="card-title transparent-gray">
-              <strong>Chimney Services</strong>
-            </h2>
-            <h5 class="tileInfo transparent-gray m-0">
-              Inspections · Cleaning · Repairs · Accessories
-            </h5>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-3 m-0 p-1 smooth-scroll">
-      <a
-        mdbPageScroll
-        href="#security-doors-and-windows"
-        mdbRippleRadius
-        [pageScrollDuration]="200"
-        [pageScrollOffset]="100"
-      >
-        <div
-          class="card tile bg-dark text-white text-center"
-          style="background-image: url('/assets/images/front-page/door.webp'); background-position: center; background-size: cover; background-repeat:no-repeat; "
-        >
+      <a mdbPageScroll href="#security-doors-and-windows" mdbRippleRadius [pageScrollDuration]="200"
+        [pageScrollOffset]="100">
+        <div class="card tile bg-dark text-white text-center"
+          style="background-image: url('/assets/images/front-page/door.webp'); background-position: center; background-size: cover; background-repeat:no-repeat; ">
           <div class="card-img-overlay ">
             <h2 class="card-title transparent-gray">
               Door and Window Security
@@ -49,17 +28,10 @@
       </a>
     </div>
     <div class="col-md-3 m-0 p-1 smooth-scroll">
-      <a
-        mdbPageScroll
-        href="#door-and-window-screens"
-        mdbRippleRadius
-        [pageScrollDuration]="400"
-        [pageScrollOffset]="100"
-      >
-        <div
-          class="card bg-dark tile text-white text-center"
-          style="background-image: url('/assets/images/front-page/screens.webp'); background-position: center; background-size:cover; background-repeat:no-repeat;"
-        >
+      <a mdbPageScroll href="#door-and-window-screens" mdbRippleRadius [pageScrollDuration]="400"
+        [pageScrollOffset]="100">
+        <div class="card bg-dark tile text-white text-center"
+          style="background-image: url('/assets/images/front-page/screens.webp'); background-position: center; background-size:cover; background-repeat:no-repeat;">
           <div class="card-img-overlay ">
             <h2 class="card-title transparent-gray">Door and Window Screens</h2>
             <h5 class="tileInfo animated slideInUp transparent-gray m-0">
@@ -70,17 +42,9 @@
       </a>
     </div>
     <div class="col-md-3 m-0  p-1 smooth-scroll">
-      <a
-        mdbPageScroll
-        href="#awnings"
-        mdbRippleRadius
-        [pageScrollDuration]="400"
-        [pageScrollOffset]="100"
-      >
-        <div
-          class="card bg-dark tile text-white text-center"
-          style="background-image: url('/assets/images/front-page/awnings.webp'); background-position: center; background-size:cover; background-repeat:no-repeat;"
-        >
+      <a mdbPageScroll href="#awnings" mdbRippleRadius [pageScrollDuration]="400" [pageScrollOffset]="100">
+        <div class="card bg-dark tile text-white text-center"
+          style="background-image: url('/assets/images/front-page/awnings.webp'); background-position: center; background-size:cover; background-repeat:no-repeat;">
           <div class="card-img-overlay ">
             <h2 class="card-title transparent-gray">Awnings</h2>
             <h5 class="tileInfo transparent-gray">
@@ -90,7 +54,24 @@
         </div>
       </a>
     </div>
+    <div class="col-md-3 m-0 p-1 smooth-scroll">
+      <a mdbPageScroll href="#chimney-services" mdbRippleRadius [pageScrollDuration]="400" [pageScrollOffset]="100">
+        <div class="card tile bg-dark text-white text-center"
+          style="background-image: url('/assets/images/front-page/chimney.webp'); background-position: 50% 30%; background-size:cover; background-repeat: no-repeat;">
+          <div class="card-img-overlay">
+            <h2 class="card-title transparent-gray">
+              <strong>Chimney Services</strong>
+            </h2>
+            <h5 class="tileInfo transparent-gray m-0">
+              Inspections · Cleaning · Repairs · Accessories
+            </h5>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 
 <app-service-list></app-service-list>
+
+<app-announcementMessage></app-announcementMessage>

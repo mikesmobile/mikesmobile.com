@@ -74,15 +74,19 @@
 
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
           },
           {
@@ -137,7 +141,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/sacramento-sunscreens.jpg",
+
             "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
           },
           {
@@ -146,7 +150,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
           },
           {
@@ -155,7 +159,7 @@
           },
           {
             "title": "Retractable Screen Doors",
-            "image": "/assets/images/landing/sacramento-awning.jpg",
+
             "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
           },
           {
@@ -296,27 +300,31 @@
         "description": "Now, with over 16 years in the fireplace business, Mike's Mobile has become the premier chimney sweep and repair company here in Stockton. We also service San Joaquin county and surrounding areas. Give us a call today for all of your chimney and fireplace needs!",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Mike's Mobile fully trained chimney technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). We offer same-day digital reports for level I, II and III chimney inspections."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "With every chimney cleaning, we include a same-day, digital Level 1 Inspection report."
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/creosote.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "Mike's Mobile is Stockton's premier chimney service company. We can handle all chimney issues from start to finish including: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/firebox.jpg",
+
             "text": "Need fireplace or chimney related products in Stockton? Mike's Mobile has you covered - call today!"
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
+
             "text": "Because of our exceptional quality, attention to detail and competitive pricing, our masonry services are in very high demand. Mike's Mobile is Stockton's premier masonry contractor."
           },
           {
@@ -332,12 +340,10 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/plain-bar_3.jpg",
             "text": "Mike's Mobile has been Stockton's premier security door dealer for over 16 years. Please come in and check out our doors on display to see for yourself!"
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "image": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
             "text": "Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills."
           },
           {
@@ -350,7 +356,6 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
             "text": "Say no to the old school wrought iron bars over windows for security. The Vista quick escape offers better security, way better looks and most importantly an escape route in case of emergency. On top of all that he stainless mesh cuts out 60% of UV rays to help your home stay cool for those hot Stockton summers."
           },
           {
@@ -366,7 +371,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/stockton-screen.jpg",
+
             "text": "If you are in Stockton, you can use our mobile service or come in to our screen shop! Whether you are getting your screens repaired or replaced Mike’s Mobile is at your service."
           },
           {
@@ -375,7 +380,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/stockton-screen-door.jpg",
+
             "text": "Want a sliding screen door that stays on the track, rolls smooth, with all metal construction, and a pet proof screen? Call Mike's Mobile today, we have you covered!"
           },
           {
@@ -402,7 +407,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/stockton-awning.jpg",
+
             "text": "Keep your windows and doors shaded effortlessly! Mike’s Mobile installs motorized, retractable awnings with tons of options to fit your home!"
           },
           {
@@ -504,27 +509,31 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Mike's Mobile offers level I, II, and III chimney inspections for your home. All of our technicians have been tested using CSIA and NFI guidelines for cleaning and inspecting. For more information about the levels of inspections, click here."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Chimney sweeps and inspections should be done annually, that is according to the NFPA. They are the leading authority on all chimney safety and regulations in the United States. We include a free level 1 inspection report with all of our chimney sweeps."
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/chimney-repairs-crown-seal.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "We are a full service, chimney repair company in Antioch, California. Whether it's crown repair, a firebox rebuild or a full re-line, Mike's Mobile can tackle your chimney issues."
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/chimney-accessories-mesh-cap.png",
+
             "text": "If you need chimney or fireplace related products in Antioch, Mike's Mobile has you covered!"
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
+
             "text": "Mike's Mobile is a full service masonry contractor in the Antioch area. Call us for a FREE quote today!"
           },
           {
@@ -539,12 +548,12 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/elegante_3.jpg",
+
             "text": "Mike's Mobile has been offering 100% customizable security doors in Antioch for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers."
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "image": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+
             "text": "The Viewguard is our best selling security door for a reason. The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home. It is a security screen door that no bars and no busy designs; it offers quiet operation and will never rust."
           },
           {
@@ -561,7 +570,7 @@
           },
           {
             "title": "Vista Fixed Security Window Screens",
-            "image": "/assets/images/security/guarda-casement/1.png",
+
             "text": "Vista Fixed Security Screens are the perrfect solution to cover and protect non-opening windows. Our security screens can be installed on the interior or exterior and feature a hidden fastening system. With many frame options to choose from they blend in with any architecture. Applications include: Day care centers, psychiatric and detox centers, government buildings, military installations, schools, adult care facilities and residential homes."
           }
         ]
@@ -573,7 +582,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/hayward-oakland-sunscreens.jpg",
+
             "text": "With more than 16 years in service, Mike's Mobile is Antioch's premier window screen repair and replacement contractor!"
           },
           {
@@ -586,7 +595,7 @@
           },
           {
             "title": "Swinging Screen Doors",
-            "image": "/assets/images/landing/hayward-oakland-screen-doors.jpg",
+
             "text": "Want a swinging screen door but can't find one that fits? No problem? At Mike's Mobile Screens all of our swinging screen doors are custom sized and installed for you!"
           },
           {
@@ -609,7 +618,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/stockton-awning.jpg",
+
             "text": "Need a retractable awning in the Antioch area? Call Mike's mobile today!"
           },
           {
@@ -700,15 +709,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Mike's Mobile is San Jose's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "We bring top-notch service to your home. We are a full service chimney company in San Jose that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
           },
           {
@@ -761,7 +774,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/sacramento-sunscreens.jpg",
+
             "text": "Mike's Mobile is San Jose's premier window screen service! We offer same-day, on-site service!"
           },
           {
@@ -770,7 +783,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
           },
           {
@@ -779,7 +792,7 @@
           },
           {
             "title": "Retractable Screen Doors",
-            "image": "/assets/images/landing/sacramento-awning.jpg",
+
             "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
           },
           {
@@ -890,15 +903,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Mike's Mobile is Richmond's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "We bring top-notch service to your home. We are a full service chimney company in Richmond that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
           },
           {
@@ -1084,27 +1101,31 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Obstructions or blockages in your chimney can cause toxic fumes such as carbon monoxide to enter your home. Regular chimney inspections can greatly reduce the risk of chimney fires and carbon monoxide poisoning in your home. Every Mike's Mobile chimney inspection meet level 2 NFPA requirements and are performed by our csia and nfi trained technicians."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "NFPA 211 standards dictate that residential properties should have an annual chimney cleaning and inspection. Mike's Mobile includes a free level 1 inspection with every sweep!"
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/chimney-accessories.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "Mike's Mobile is the premier chimney service company in the Danville / Walnut creek area. We are fully licensed, bonded and insured to tackle any chimney repair you may need."
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/standard-caps.jpg",
+
             "text": "Mike’s Mobile Screen & Chimney Service offers damper chimney caps, replacement fireplace screens, hearth rugs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
+
             "text": "Mike’s Mobile Screen & Chimney Service offers masonry services of any scale. Please call us today for a quote! From tuck-pointing to full chimney rebuilds and more, we are able to help you for any masonry job."
           },
           {
@@ -1119,7 +1140,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/yale_2.jpg",
+
             "text": "Looking for a security door in the Danville or Walnut Creek area? Mike's Mobile offers the best security doors around, hands-down. Call today for a FREE quote!"
           },
           {
@@ -1136,12 +1157,12 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile quick escape security screens feature a high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home."
           },
           {
             "title": "Vista Fixed Security Window Screens",
-            "image": "/assets/images/security/guarda-casement/1.png",
+
             "text": "Mike's Mobile fixed security screens look like regular screens but offer premium security, good looks and 60% UV blockage"
           }
         ]
@@ -1152,7 +1173,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/walnut-creek-screens.jpg",
+
             "text": "Mike's Mobile is dedicated to providing our customers with a fast and affordable way to have their screens replaced. If you're in the Danville or Walnut Creek area call today and we can fix your screens on-site!"
           },
           {
@@ -1165,7 +1186,7 @@
           },
           {
             "title": "Swinging Screen Doors",
-            "image": "/assets/images/landing/walnut-screen-doors.jpg",
+
             "text": "Longing for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from and each of our doors are custom-sized for a perfect fit on your home."
           },
           {
@@ -1188,7 +1209,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/walnut-creek-awnings.jpg",
+
             "text": "A retractable awning for your patio or deck not only offers shade, but also adds beauty and value to your home."
           },
           {
@@ -1290,27 +1311,31 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Click here to learn more about the different levels of chimney inspections. The internal portion of the inspection includes a video scan of the chimney, which includes the firebox, smoke chamber, smoke shelf, chimney flue and damper assembly. Our technicians are extermely meticulous, looking for obstructions, cracks in the clay tile liner, absence of liner, signs of moisture or anything else that would make the chimney unsafe for use."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "According to the NFPA, your chimney should have an annual cleaning and safety inspection. This is vital to your chimney and your home’s health. All of our technicians are certified and use the CSIA standards for chimney cleaning and inspections."
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/hayward-oakland-chimney-service.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "Mike’s Mobile Screen & Chimney offers chimney repairs on any scale. From minor repairs to major overhauls, you can count on us! Often times minor repairs can be done on-site after the inspection / cleaning and sometimes it requires a scheduled appointment."
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/radiant-fireback.jpg",
+
             "text": "Mike’s Mobile Screen & Chimney Service can take care of any custom chimney or fireplace accessories you may need. We can supply the parts and also install them for you!"
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/brick-fireplace.jpg",
+
             "text": "Mike's Mobile is Oakland's premier masonry contractor. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
           },
           {
@@ -1329,7 +1354,7 @@
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "image": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+
             "text": "There is a reason the Viewguard Security Screen Door is our best selling security screen door. WIth it's heavy-duty extruded aluminum framing and stainless steel woven security mesh, you get the airflow and exellent visibility. The wide frame and stainless steel security mesh provides top of the line security protection."
           },
           {
@@ -1342,12 +1367,12 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Vista quick escape security screens are an ideal solution to cover and protect your windows. Our security screens come in a variety of colors and feature a concealed fastening system and blends with any architecture."
           },
           {
             "title": "Vista Fixed Security Window Screens",
-            "image": "/assets/images/security/guarda-casement/1.png",
+
             "text": "Mike's Mobile fixed Vista security screens feature a high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home."
           }
         ]
@@ -1358,7 +1383,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/hayward-oakland-sunscreens.jpg",
+
             "text": "Mike's Mobile offers a fulle service mobile screen shop in the Oakland area. Call today to keep the bugs out and let the breeze in!"
           },
           {
@@ -1371,7 +1396,7 @@
           },
           {
             "title": "Swinging Screen Doors",
-            "image": "/assets/images/landing/hayward-oakland-screen-doors.jpg",
+
             "text": "Longing for that old-fashioned simplicity of a swinging screen door but don't have the time to deal with it? Call Mike's Mobile to measure and install your custom swinging screen door today!"
           },
           {
@@ -1394,7 +1419,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/stockton-awning.jpg",
+
             "text": "Need an awning in the Oakland area? Mike's Mobile offers the highest quality Sunesta retractable awnings!"
           },
           {
@@ -1504,27 +1529,31 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Mike's Mobile is the premier chimney service company in the Modesto area. We are the only company that offers same-day digital inspections reports. Contact us today for a level 1, 2 or 3 chimney inspection!"
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Mike's Mobile is the leading chimney service company in the Modesto area. We offer same-day digital inspection reports and can quote for any repairs needed."
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/chimney-accessories.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "Mike's Mobile is Modesto's premier chimney service company. We offer competitive rates with industry leading repairs. We are fully licensed, bonded and insured for peace of mind."
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/standard-caps.jpg",
+
             "text": "If you need fireplace or chimney related parts or accessories in Modesto, call Mike's Mobile today! We offer custom accessories and also installation services."
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
+
             "text": "Mike's Mobile is Modesto's premier masonry contractor. Whether it's new construction or masonry repair, call us today for a FREE quote!"
           },
           {
@@ -1539,12 +1568,12 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/sunfire_4.jpg",
+
             "text": "Want something truly custom and unique for your home? Mike's Mobile security doors are auto-cad designed for tight tolerances but are ultimately hand-made which means a 100% customizable door with a fit and finish that exceeds any other security door."
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "image": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+
             "text": "Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. You can experience total security without resorting to bars or unsightly steel grills of traditional security doors. The Viewguard security screen door offers quiet operation and will never rust. Strength and beauty in perfect harmony."
           },
           {
@@ -1571,7 +1600,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/stockton-screen.jpg",
+
             "text": "Mike's Mobile measures, builds and installs your screens at your ​home or business​. Most screens can be ​fixed​ in one ​visit​, ​sav​ing​​ ​you valuable time. Call Mike's Mobile for Modesto screen repair!"
           },
           {
@@ -1580,7 +1609,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/stockton-screen-door.jpg",
+
             "text": "Mike's Mobile Screen and Chimney Service builds custom sliding screen doors in the modesto area. Have pets? No problem, we can build a sliding screen door with pet proof screen that's covered with a warranty!"
           },
           {
@@ -1607,7 +1636,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/stockton-awning.jpg",
+
             "text": "Increase your home’s livable area and create the perfect day with Retractable Patio Awnings. An overhead retractable awning for your patio or decks not only offers shade, but also beauty and value to your home."
           },
           {
@@ -1720,27 +1749,31 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
-            "image": "/assets/images/chimneys/inspections/chimney_inspections.jpg",
+            "title": "Chimney Inspections",
+
             "text": "Mike's Mobile is the premier chimney service company in the Napa / Vallejo area. Utilizing a full video scan, Mike's Mobile is the only company that offers same-day digital inspections reports. Contact us today for a professional chimney inspection!"
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Our chimney sweeps always include a free Level I inspection. This will ensure a complete service and inform you of anything that needs attention. The NFPA (National Fire Protection Agency) recommends an annual cleaning and safety inspection."
           },
           {
-            "title": "Repairs",
-            "image": "/assets/images/landing/napa-chimney-service.jpg",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
+
             "text": "Call Mike’s Mobile for Chimney Sweep services today! We are a full service chimney company in Vacaville, Vallejo, and Napa that can handle any repair your chimney may need. From minor repairs to full rebuilds, we have you covered."
           },
           {
             "title": "Accessories",
-            "image": "/assets/images/landing/standard-caps.jpg",
+
             "text": "Mike’s Mobile Screen & Chimney Service offers a full line of custom chimney accessories to fit your needs! Need ti installed? We can do that too!"
           },
           {
             "title": "Masonry Services",
-            "image": "/assets/images/landing/masonry-repair.jpg",
+
             "text": "Mike’s Mobile Screen & Chimney Service offers masonry services of any scale. Call us today for a quote! From tuck-pointing to full chimney rebuilds, we are able to help."
           },
           {
@@ -1755,7 +1788,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/sunfire_2.jpg",
+
             "text": "Heavy Duty Security Doors have a heavy gauge steel frame with a galvanized, perforated steel backing. Computer designed but hand-made, these doors offer tight tolerances to keep the bugs out but are fully customizable for a look to make your home unique."
           },
           {
@@ -1772,12 +1805,12 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile security window screens provide superior protection against intruders, UV rays and other unwanted pests. The screens are custom made to match your existing window style, color, and type so they add to the curb appeal of your home. They are mounted directly to your window for a seamless look and most importantly give offer easy access through the window in case of an emergency."
           },
           {
             "title": "Vista Fixed Security Window Screens",
-            "image": "/assets/images/security/guarda-casement/1.png",
+
             "text": "Mike's Mobile can help put your mind at ease by providing real security against burglars, vandals and forces of nature with our stainless steel security screens. The 'screen' is actually a high strength stainless steel mesh that offers the ultimate in protection while stopping bugs and cutting UV rays by 60%."
           }
         ]
@@ -1788,7 +1821,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile is the premier window and door screen service in the Napa / Vallejo area. Because there​'​s no such thing as a standard size in the screening world, almost all screens are custom​-​sized and need to be built to tight tolerances. With our mobile service, we can customize hard​-​to​-​fit screens on-site."
           },
           {
@@ -1797,7 +1830,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Want a patio sliding screen door that simply just works without falling off the track? Call Mike's Mobile today for a custom built, all-metal, sliding screen door."
           },
           {
@@ -1824,7 +1857,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Like spending time on your patio but the sun is just too much? Get a FREE quote on a retractable patio awning today!"
           },
           {
@@ -1914,30 +1947,36 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
-            "text": "Mike's Mobile offers completely customizable security screen doors in Fresno. Our security doors offer top of the line security. Our premium Titan security screen doors keep your home looking elegant while keeping you safe."
+            "title": "Chimney Inspections",
+
+            "text": "Mike's Mobile is the premier chimney service company in the Napa / Vallejo area. Utilizing a full video scan, Mike's Mobile is the only company that offers same-day digital inspections reports. Contact us today for a professional chimney inspection!"
           },
           {
-            "title": "Viewguard Security Screen Doors",
-            "text": "Viewguard Security Screen Doors from Mike's Mobile offer premium security with great visability and airflow. Keep the bugs and thugs out and enjoy the nice breeze."
+            "title": "Chimney Cleaning",
+            "text": "Our chimney sweeps always include a free Level I inspection. This will ensure a complete service and inform you of anything that needs attention. The NFPA (National Fire Protection Agency) recommends an annual cleaning and safety inspection."
           },
           {
-            "title": "TRU-View Security Screen Doors",
-            "text": "Tru-View security screen doors are the perfect option for someone looking for an upgrade from their old school swining screen door. Tru-view doors offer the same airflow but with a stainless steel mesh and keyway to offer security for your home."
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
           },
           {
-            "title": "Sliding Security Doors",
-            "text": "Sliding security doors from Mike's Mobile offer premium sliding screen doors with stainless steel mesh. The stainless steel mesh looks and acts like a regular screen but can't be cut or torn."
+            "title": "Chimney Repairs",
+
+            "text": "Call Mike’s Mobile for Chimney Sweep services today! We are a full service chimney company in Vacaville, Vallejo, and Napa that can handle any repair your chimney may need. From minor repairs to full rebuilds, we have you covered."
           },
           {
-            "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
-            "text": "Vista quick release security window screens provide optimal security for you home while at the same time providing an exit in case of an emergency."
+            "title": "Accessories",
+
+            "text": "Mike’s Mobile Screen & Chimney Service offers a full line of custom chimney accessories to fit your needs! Need ti installed? We can do that too!"
           },
           {
-            "title": "Vista Fixed Security Window Screens",
-            "text": "Vista fixed security window screens offer 60% UV blockage, good airflow and the best security on the market. Our security window screens keep your home looking nice and clean with premium security."
+            "title": "Masonry Services",
+
+            "text": "Mike’s Mobile Screen & Chimney Service offers masonry services of any scale. Call us today for a quote! From tuck-pointing to full chimney rebuilds, we are able to help."
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Need that dryer vent cleaning crossed off your honey-do list? Mike's Mobile can help! Call us today!"
           }
         ]
       },
@@ -1947,7 +1986,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Mike's Mobile offers completely customizable security screen doors in Fresno. Our security doors offer top of the line security. Our premium Titan security screen doors keep your home looking elegant while keeping you safe."
           },
           {
@@ -1964,7 +2003,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Vista quick release security window screens provide optimal security for you home while at the same time providing an exit in case of an emergency."
           },
           {
@@ -1979,7 +2018,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile Screen and Chimney Service offers rescreening on any window screens with usuable frames. Why replace the entire thing if the screen is just torn and the frame is in good shape?  "
           },
           {
@@ -1988,7 +2027,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Sliding Screen Doors from Mike's Mobile Screen and Chimney are custom built to be a perfect fit for your home. Upgrade to our solar screen to ensure your sliding screen door is pet proof and cut your energy spendings."
           },
           {
@@ -2015,7 +2054,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Sunesta retractalbe patio awnings are designed to be hurricane proof. They will keep you cool all summer long! Upgrade to our motorized model and operate your retractable awning with remote control!"
           },
           {
@@ -2109,15 +2148,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Mike's Mobile offers the best same day digital inspection reports. A level 1 inspection comes free with every chimney sweep. "
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Maintain the health of your fireplace and chimney annually. According to the NFPA, chimney sweeps should be performed after each cord of wood or annually. We include a free level 1 inspection with all of our chimney cleanings."
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "Call Mike’s Mobile for Chimney Sweep services today! We are a full service chimney company in the greater Sacramento area and Yuba City. From minor repairs to full rebuilds, we have you covered."
           },
           {
@@ -2140,7 +2183,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Elegant Titan security screen doors offer stunning designs and top of the line safety for your home. with optional MeshTec upgrade for added air flow, Titan's will keep you cool, safe and classy."
           },
           {
@@ -2157,7 +2200,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Vista quick release security window screens provide great security for your home. They keep your home looking stylish while keeping you and your family safe. With our quick release option your security window screens keep you protected and act as an emergency exit in case of a fire."
           },
           {
@@ -2172,7 +2215,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile has you covered for premium security doors and window security products in Yuba City. Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -2181,7 +2224,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor for security doors and window security products we provide security doors that are the best all around Yuba City. Fully customizable our security doors come in a full range for every price point or home type.So whenever you need any of these services . Remember We are just a call away."
           },
           {
@@ -2208,7 +2251,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Mike's Mobile is Yuba City's premier supplier of shade. Impress your friends this summer with our hurricane grade retractable awnings. "
           },
           {
@@ -2301,15 +2344,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "If you are buying or selling a home in the Tracy area then you need a level 2 inspection from Mike's Mobile. We offer same day digital inspection reports to ensure you know the exact condition of your fireplace."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "If you are buying or selling a home in the Tracy area then you need a level 2 inspection from Mike's Mobile. We offer same day digital inspection reports to ensure you know the exact condition of your fireplace. "
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "For Chimney repairs in Tracy look no further. Mike's Mobile is a full chimney servicing company and can handle entire chimney rebuilds if necessary"
           },
           {
@@ -2332,7 +2379,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Mike's Mobile is your premier security screen door supplier in Tracy. Our doors are measured to fit your home perfectly unlike those big box store doors. "
           },
           {
@@ -2349,7 +2396,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile installs top of the line security window screens manufactured by Vista. With our quick release models the security screens can be opened with ease from the inside while remaining completely secure from the outside. "
           },
           {
@@ -2364,7 +2411,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile is your one-stop shop in the Tracy area for all your home window and door security needs. Check out our doors in person at 8130 Lorraine Ave., Suite 312, Tracy, Ca, 95210. See our steel doors for something ultimately customizable or our stainless mesh products for security without the bars!"
           },
           {
@@ -2373,7 +2420,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in Tracy for over 16 years! We have full customizable security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!"
           },
           {
@@ -2400,7 +2447,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor for security doors and window security products we provide security doors that are the best all around the Tracy. Fully customizable our security doors come in a full range for every price point or home type.So whenever you need any of these services . Remember We are just a call away."
           },
           {
@@ -2483,15 +2530,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Mike's mobile screen and chimney service is certified with 16 year experience ! We provide services for all sorts of chimneys in Mandera. Further to this we cover jobs from cleaning and inspections to rebuilds and masonry works even. So maintain your chimneys and fireplaces secure with us !"
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "The standards proposed by NFPA suggests that residential properties should have their chimney cleaned and inspected annually Mike's Mobile is providing services all across Hayward's Residential area , with a free level 1 digital inspection report with every sweep."
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "Mike's Mobile is the premier chimney service company in the Madera area. We are fully licensed, bonded with quality services. We provide services from minor repairs to full rebuilds. So call us today to get a free quote!"
           },
           {
@@ -2514,7 +2565,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Mike's Mobile has been Madera's premier security door dealer for 16 years and counting. Our Titan security screen doors are hand-made ,fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice .Call us today and get a free quote!"
           },
           {
@@ -2531,7 +2582,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Are you looking for Vista Quick Escape security window Screens and security products for your home or business place in Madera?Then you've come to the right place! Mike's Mobile provides a full line of security products at best possible costs. Mike's Mobile security doors are auto-cad designed for tight tolerances but are ultimately hand-made with 100% customization that fits all your security needs."
           },
           {
@@ -2546,7 +2597,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile has been Madera's premier security door dealer for 16 years and counting. Our steel doors are hand-made ,fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice. Call us today and get a free quote!"
           },
           {
@@ -2555,7 +2606,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile has been Madera's premier security door dealer for 16 years and counting. Our steel doors are hand-made ,fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice .Call us today and get a free quote!"
           },
           {
@@ -2582,7 +2633,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in the Madera for over 16 years! We have security screen doors with stunning designs and top of the line safety for your home. with optional MeshTec upgrade for added air flow. Call us right now to get a free quote."
           },
           {
@@ -2676,15 +2727,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Maintaining the health and cleanliness of your fireplace and chimney annually is essential. According to the NFPA, chimney sweeps should be performed after each cord of wood or annually. We provide services all across Merced with a free level 1 inspection with all of our chimney cleanings."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Maintaining the health and cleanliness of your fireplace and chimney annually is essential. According to the NFPA, chimney sweeps should be performed after each cord of wood or annually. We provide services all across Merced with a free level 1 inspection with all of our chimney cleanings."
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "We are a full service chimney company in the Greater Merced Area. From minor repairs to full rebuilds, we have you covered.So Call Mike’s Mobile for Chimney Sweep services today!"
           },
           {
@@ -2707,7 +2762,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in the Merced for over 16 years! Elegant Titan security screen doors offer stunning designs and top of the line safety for your home. with optional MeshTec upgrade for added air flow, Titan's will keep you cool, safe and classy.So what are you waiting for? Call us right now to get a free quote."
           },
           {
@@ -2724,7 +2779,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile has 16 years of experience and has been providing100% customizable Vista Quick Escape security window Screens to the Residents of Merced . The fit and finish on these doors is unparalleled by other manufacturers.Check out our Vista Quick Escape security window Screens for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -2739,7 +2794,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in the Merced for over 16 years! We have security screen doors with stunning designs and top of the line safety for your home. with optional MeshTec upgrade for added air flow. Call us right now to get a free quote."
           },
           {
@@ -2748,7 +2803,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in the Merced for over 16 years! We have full customizable security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!"
           },
           {
@@ -2775,7 +2830,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Mike's Mobile has been Merced's premier security door dealer for 16 years and counting. Our steel doors are hand-made ,fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice .Call us today and get a free quote!"
           },
           {
@@ -2870,15 +2925,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "If your chimney performance, appliance or venting system has not changed for very long then you must need cleaning services. So what are you waiting for! Call Mike's Mobile right now and book us for your services all across Fremont."
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "If your chimney performance, appliance or venting system has not changed for very long then you must need cleaning services. So what are you waiting for! Call Mike's Mobile right now and book us for your services all across Fremont."
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "If there are issues regarding your chimney or fireplace we are here for all types of repairs! Mike’s Mobile is a full service chimney company. We can take any sizeof job from start to finish. We are licensed, bonded and truthful to provide quality jobs .Glad to be at your service in Fremont."
           },
           {
@@ -2901,7 +2960,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Are you looking for security doors, especially titan security screen doors or window security products for your home or business place in Fremont ?Then you've come to the right place! Mike's Mobile provides a full line of security products at best possible costs. Mike's Mobile security doors are auto-cad designed for tight tolerances but are ultimately hand-made with 100% customization that fits all your security needs."
           },
           {
@@ -2918,7 +2977,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile is Fremont premier supplier of Vista Quick Escape security window Screens and security products. From our completely customizable security doors to our contemporary Viewguard and stainless mesh products; we now even have sliding security doors to secure your patio door.security doors are the best around. We are offering premium window and door security products to Fremont.Fully customizable our security doors come in a full range for every price point or home type."
           },
           {
@@ -2933,7 +2992,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile has 16 years of experience and has been providing100% customizable security doors to the Residents of Fremont . The fit and finish on these doors is unparalleled by other manufacturers.Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -2942,7 +3001,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile has been Fremont premier security door dealer for 16 years and counting. Our steel doors are hand-made, fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice .Call us today and get a free quote!"
           },
           {
@@ -2969,7 +3028,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor for security doors and window security products we provide security doors that are the best all around the Fremont. Fully customizable our security doors come in a full range for every price point or home type.So whenever you need any of these services . Remember We are just a call away."
           },
           {
@@ -3056,15 +3115,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "NFPA 211 standards dictate that residential properties should have their chimney cleaned and inspected annually. Because clogged chimneys or vents can cause fires. Mike's Mobile is providing services in Hayward with a free level 1 digital inspection report with every sweep!"
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "NFPA 211 standards dictate that residential properties should have their chimney cleaned and inspected annually. Because clogged chimneys or vents can cause fires. Mike's Mobile is providing services in Hayward with a free level 1 digital inspection report with every sweep!"
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "For any kind of Chimney repairs in Hayward you don’t have to look further. Mike's Mobile is a full chimney servicing company able to entire chimney rebuilds if necessary!"
           },
           {
@@ -3087,7 +3150,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor forTitan security screen doors and window security products we provide security doors that are the best all around Hayward. Fully customizable our security doors come in a full range for every price point or home type. So whenever you need any of these services. Remember We are just a call away."
           },
           {
@@ -3104,7 +3167,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile has been a Hayward premier Vista Quick Escape security window Screens dealer for 16 years and counting. Our steel doors are hand-made ,fully-customizable with best possible pricing for adding security but also a personal touch to make your home unique and look nice .Call us today and get a free quote!"
           },
           {
@@ -3119,7 +3182,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor for security doors and window security products we provide security doors that are the best all around the Hayward. Fully customizable our security doors come in a full range for every price point or home type. So whenever you need any of these services. Remember We are just a call away."
           },
           {
@@ -3128,7 +3191,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Looking for something truly custom and unique for your home? Mike's Mobile being the premier contractor for security doors and window security products we provide security doors that are the best all around the Hayward. Fully customizable our security doors come in a full range for every price point or home type. So whenever you need any of these services, Remember We are just a call away."
           },
           {
@@ -3155,7 +3218,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Are you' looking for security doors or window security products for your home or business place in Hayward?Then you've come to the right place! Mike's Mobile provides full line of security products at best possible costs. Mike's Mobile security doors are auto-cad designed for tight tolerances but are ultimately hand-made with 100% customization that fits all your security needs."
           },
           {
@@ -3247,15 +3310,19 @@
         "title": "Chimney Services",
         "cards": [
           {
-            "title": "Inspections",
+            "title": "Chimney Inspections",
             "text": "Mike's Mobile is the only one that offers chimney sweeps with a free Level inspection. The NFPA (National Fire Protection Agency) recommends an annual cleaning and safety inspection. We're covering the whole Danville with our services. So call today to book our services!"
           },
           {
-            "title": "Cleaning",
+            "title": "Chimney Cleaning",
             "text": "Mike's Mobile is the only one that offers chimney sweeps with a free Level inspection. The NFPA (National Fire Protection Agency) recommends an annual cleaning and safety inspection. We're covering the whole Danville with our services. So call today to book our services!"
           },
           {
-            "title": "Repairs",
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Chimney Repairs",
             "text": "Mike's Mobile provides you with the best quality repair services . We provide services ranging from minor repairs to full rebuilds. We’re working all across Danville. So call us now and get a free quote!"
           },
           {
@@ -3278,7 +3345,7 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "image": "/assets/images/security/titan/doors/manchester_3.jpg",
+
             "text": "Mike's Mobile has 16 years of experience and has been providing100% customizable Titan security screen doors to the Residents of Danville . The fit and finish on these doors is unparalleled by other manufacturers.Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -3295,7 +3362,7 @@
           },
           {
             "title": "Vista Quick Escape Security Window Screens",
-            "image": "/assets/images/security/guarda-escape/3.png",
+
             "text": "Mike's Mobile has been the premier contractor for Vista Quick Escape security window Screens and security products in the Danville for over 16 years! We have security screen doors with stunning designs and top of the line safety for your home. with optional MeshTec upgrade for added air flow. Call us right now to get a free quote."
           },
           {
@@ -3310,7 +3377,7 @@
         "cards": [
           {
             "title": "Window Screen Repair",
-            "image": "/assets/images/landing/web-windowscreen.jpg",
+
             "text": "Mike's Mobile has 16 years of experience and has been providing100% customizable security doors to the Residents of Danville . The fit and finish on these doors is unparalleled by other manufacturers.Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -3319,7 +3386,7 @@
           },
           {
             "title": "Sliding Screen Doors",
-            "image": "/assets/images/landing/sacramento-screen-doors.jpg",
+
             "text": "Mike's Mobile has 16 years of experience and has been providing100% customizable security doors to the Residents of Danville . The fit and finish on these doors is unparalleled by other manufacturers.Check out our security screen doors for the ultimate in customization. See our stainless mesh products for premium security without the bars. Call today for a FREE quote!"
           },
           {
@@ -3346,7 +3413,7 @@
         "cards": [
           {
             "title": "Retractable Patio Awnings",
-            "image": "/assets/images/landing/awning-vacaville.jpg",
+
             "text": "Mike's Mobile has been the premier contractor for security doors and window security products in Danville for over 16 years! We have full customizable security doors and also a line of stainless mesh products that offer security without the bars! Stop the bugs and the thugs today!"
           },
           {

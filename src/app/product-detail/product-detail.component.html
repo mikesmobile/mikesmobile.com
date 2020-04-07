@@ -106,7 +106,8 @@
             (click)="doorModal.show()"
             [src]="product.tileImage"
             class="img-fluid z-depth-2 main-image"
-          ></app-img>
+          >
+          </app-img>
           <p class="text-center p-2">(Click Image to Enlarge)</p>
           <div
             mdbModal
@@ -173,9 +174,8 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-5 productInfo">
-        <h1 class="text-left h5" [innerHTML]="product.category"></h1>
-        <h2 class="text-left h3 makeNewLine">
+      <div class="col-12 col-md-5">
+        <h1 class="text-left h1 pageTitle makeNewLine">
           {{ product.title }}
           <a
             *ngIf="price"
@@ -190,13 +190,15 @@
               <span class="price">{{ item.price }}</span> Installed*
             </span>
           </a>
-        </h2>
+        </h1>
+        <h5 *ngIf="product.slug === 'solar-screens'" class="text-left">
+          What is the benefit of solar screens? We help block out UV rays with
+          solar screen!
+        </h5>
+        <hr />
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-            <mdb-item
-              *ngFor="let item of product.textList; index as i"
-              [collapsed]="i !== 0"
-            >
+            <mdb-item *ngFor="let item of product.textList; index as i">
               <mdb-item-head>{{ item.title }}</mdb-item-head>
               <mdb-item-body>
                 <p [innerHTML]="item.description"></p>
@@ -213,21 +215,26 @@
           </ul>
         </div>
         <div
-          class="flex-row d-none d-md-block my-4 cursor-pointer"
+          class="flex-row d-none d-md-block my-4 cursor-pointer text-center"
           (click)="openQuoteForm()"
         >
-          <h4 class="animated pulse infinite orange-text pl-4 pb-3">
+          <h4 class="animated pulse infinite orange-text pb-1">
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
-        <div class="flex-row  d-md-none">
-          <a class="white-text" href="tel:+18009929938"
-            ><h4
+        <div class="flex-row text-center mb-3">
+          <a routerLink="/financing">
+            <h4 class="orange-text">We Also Offer Financing!</h4>
+          </a>
+        </div>
+        <div class="flex-row d-md-none">
+          <a class="white-text" href="tel:+18009929938">
+            <h4
               class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
             >
               <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-            </h4></a
-          >
+            </h4>
+          </a>
         </div>
         <div class="row" *ngIf="product.colorSet">
           <div class="col-12">

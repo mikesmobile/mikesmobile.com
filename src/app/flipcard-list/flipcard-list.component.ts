@@ -4,7 +4,7 @@ import servicesJSON from '../../assets/json/services.json';
 @Component({
   selector: 'app-flipcard-list',
   templateUrl: './flipcard-list.component.html',
-  styleUrls: ['./flipcard-list.component.sass']
+  styleUrls: ['./flipcard-list.component.sass'],
 })
 export class FlipcardListComponent implements OnInit {
   @Input() cards;
@@ -17,6 +17,8 @@ export class FlipcardListComponent implements OnInit {
       const serviceInfo = servicesJSON.find(
         (data) => data.title === card.title
       );
+      console.log(card.title);
+      console.log(serviceInfo);
       const link = `/${
         serviceInfo.type === 'landing' ? 'about' : serviceInfo.type
       }/${serviceInfo.slug}`;
@@ -25,7 +27,7 @@ export class FlipcardListComponent implements OnInit {
         title: card.title,
         image: card.image ? card.image : serviceInfo.tileImage,
         link,
-        text: card.text ? card.text : serviceInfo.tileText
+        text: card.text ? card.text : serviceInfo.tileText,
       };
     });
   }
