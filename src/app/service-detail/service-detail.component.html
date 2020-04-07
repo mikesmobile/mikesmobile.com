@@ -2,60 +2,180 @@
   <div class="container pb-4">
     <nav class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
-      <a *ngIf="service.category === 'Door and Window Screens'" class="breadcrumb-item"
-        routerLink="/about/door-and-window-screens">Door and Window Screens</a>
-      <a *ngIf="service.category === 'Screen Doors'" class="breadcrumb-item" routerLink="/about/door-screens">Screen
-        Doors</a>
-      <a *ngIf="service.category === 'Window Screens'" class="breadcrumb-item" routerLink="/about/window-screens">Window
-        Screens</a>
-      <a *ngIf="service.category === 'Chimney Services'" class="breadcrumb-item"
-        routerLink="/about/chimney-services">Chimney Services</a>
-      <a *ngIf="service.category === 'Repair'" class="breadcrumb-item" routerLink="/grid/chimney-repairs">Chimney
-        Repair</a>
-      <a *ngIf="service.category === 'gasServices'" class="breadcrumb-item"
-        routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplace repair & Service</a>
-      <a *ngIf="service.category === 'Accessories'" class="breadcrumb-item"
-        routerLink="/grid/chimney-accessories">Chimney Accessories</a>
-      <a *ngIf="service.category === 'Masonry'" class="breadcrumb-item" routerLink="/grid/masonry-services">Masonry
-        Services</a>
-      <a *ngIf="service.category === 'Security Screen Doors and Windows'" class="breadcrumb-item"
-        routerLink="/about/security-doors-and-windows">Security Screen Doors and Windows</a>
-      <a *ngIf="service.category === 'Security Screen Doors'" class="breadcrumb-item"
-        routerLink="/about/security-doors">Security Screen Doors</a>
-      <a *ngIf="service.category === 'Security Window Screens'" class="breadcrumb-item"
-        routerLink="/about/security-windows">Security Window Screens</a>
-      <a *ngIf="service.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
+      <a
+        *ngIf="service.category === 'Door and Window Screens'"
+        class="breadcrumb-item"
+        routerLink="/about/door-and-window-screens"
+        >Door and Window Screens</a
+      >
+      <a
+        *ngIf="service.category === 'Screen Doors'"
+        class="breadcrumb-item"
+        routerLink="/about/door-screens"
+        >Screen Doors</a
+      >
+      <a
+        *ngIf="service.category === 'Window Screens'"
+        class="breadcrumb-item"
+        routerLink="/about/window-screens"
+        >Window Screens</a
+      >
+      <a
+        *ngIf="service.category === 'Chimney Services'"
+        class="breadcrumb-item"
+        routerLink="/about/chimney-services"
+        >Chimney Services</a
+      >
+      <a
+        *ngIf="service.category === 'Repair'"
+        class="breadcrumb-item"
+        routerLink="/grid/chimney-repairs"
+        >Chimney Repair</a
+      >
+      <a
+        *ngIf="service.category === 'gasServices'"
+        class="breadcrumb-item"
+        routerLink="/about/gas-fireplace-repair-and-service"
+        >Gas Fireplace repair & Service</a
+      >
+      <a
+        *ngIf="service.category === 'Accessories'"
+        class="breadcrumb-item"
+        routerLink="/grid/chimney-accessories"
+        >Chimney Accessories</a
+      >
+      <a
+        *ngIf="service.category === 'Masonry'"
+        class="breadcrumb-item"
+        routerLink="/grid/masonry-services"
+        >Masonry Services</a
+      >
+      <a
+        *ngIf="service.category === 'Security Screen Doors and Windows'"
+        class="breadcrumb-item"
+        routerLink="/about/security-doors-and-windows"
+        >Security Screen Doors and Windows</a
+      >
+      <a
+        *ngIf="service.category === 'Security Screen Doors'"
+        class="breadcrumb-item"
+        routerLink="/about/security-doors"
+        >Security Screen Doors</a
+      >
+      <a
+        *ngIf="service.category === 'Security Window Screens'"
+        class="breadcrumb-item"
+        routerLink="/about/security-windows"
+        >Security Window Screens</a
+      >
+      <a
+        *ngIf="service.category === 'Awnings'"
+        class="breadcrumb-item"
+        routerLink="/about/awnings"
+        >Awnings</a
+      >
       <span class="breadcrumb-item active" [innerHTML]="service.title"></span>
     </nav>
 
     <section class="section extra-margins">
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
-
           <div class="main-image">
-            <app-img *ngIf="service.tileImage" [src]="img" class="img-fluid z-depth-2 serviceDetailImage"></app-img>
+            <app-img
+              *ngIf="service.tileImage"
+              [src]="img"
+              class="img-fluid z-depth-2 serviceDetailImage"
+            ></app-img>
           </div>
-          <h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text"
-            [innerHTML]="service.serviceImgCaption"></h4>
+          <h4
+            *ngIf="service.serviceImgCaption"
+            class="p-2 text-center light-gray-text"
+            [innerHTML]="service.serviceImgCaption"
+          ></h4>
           <div *ngIf="service.video" class="row">
-            <iframe *ngIf="service.video" width="100%" height="400px"
-              [src]="sanitizer.bypassSecurityTrustResourceUrl(service.video)" frameborder="0"
-              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe
+              *ngIf="service.video"
+              width="100%"
+              height="400px"
+              [src]="sanitizer.bypassSecurityTrustResourceUrl(service.video)"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
           <div class="row mb-4" id="serviceInfo">
             <div class="col-12">
-              <h1 class="text-left h2 pageTitle" [innerHTML]="service.title"></h1>
-              <hr>
+              <h1
+                class="text-left h2 mb-2 pageTitle"
+                [innerHTML]="service.title"
+              ></h1>
+
+              <h5
+                *ngIf="service.slug === 'window-screen-repair'"
+                class="text-left"
+              >
+                Bugs in your space? We fix torn screens!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'dryer-vent-cleaning'"
+                class="text-left"
+              >
+                Clothes taking too long to dry? We prevent dryer vent fires!
+              </h5>
+              <h5 *ngIf="service.slug === 'chimney-cleaning'" class="text-left">
+                Should I clean my chimney annually? We'll keep you chimney clean
+                year after year!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-inspections'"
+                class="text-left"
+              >
+                Is there an issue with my fireplace? We provide detailed
+                inspection reports!
+              </h5>
+              <h5 *ngIf="service.slug === 'chimney-liner'" class="text-left">
+                Do I need to replace my chimney liner? We replace cracked
+                chimney liners!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'refractory-panels'"
+                class="text-left"
+              >
+                Cracks in your refractory panel? We replace cracked refractory
+                panels!
+              </h5>
+              <h5 *ngIf="service.slug === 'masonry-repair'" class="text-left">
+                Broken bricks? Loose bricks? We work with brick and stone to
+                complete your masonry projects!
+              </h5>
+              <h5 *ngIf="service.slug === 'fireplace-hearth'" class="text-left">
+                Who repairs fireplace hearths? We restore fireplace hearths!
+              </h5>
+              <h5 *ngIf="service.slug === 'hardscape'" class="text-left">
+                What is hardscaping? We repair brick patios, stone walls, and
+                other hardscaping!
+              </h5>
+              <h5 *ngIf="service.slug === 'tuckpointing'" class="text-left">
+                What is tuckpointing? We tuckpoint brickwork by filling the
+                joints with fresh mortar!
+              </h5>
+              <h5 *ngIf="service.slug === 'waterproofing'" class="text-left">
+                Is my chimney leaking? We waterproof chimneys!
+              </h5>
+
+              <hr />
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
                 <mdb-item *ngFor="let item of service.textList; index as i">
                   <mdb-item-head>{{ item.title }}</mdb-item-head>
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
-              <h2 class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
-                (click)="openQuoteForm()">
+              <h2
+                class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
+                (click)="openQuoteForm()"
+              >
                 Get started today!
               </h2>
               <div class="flex-row text-center mb-3">
@@ -65,7 +185,9 @@
               </div>
               <mdb-squeezebox *ngIf="price" class="pricesTag">
                 <mdb-item>
-                  <mdb-item-head class="pricesTag rounded text-white">Prices</mdb-item-head>
+                  <mdb-item-head class="pricesTag rounded text-white"
+                    >Prices</mdb-item-head
+                  >
                   <mdb-item-body>
                     <table mdbTable borderless="true">
                       <tbody>
@@ -83,12 +205,18 @@
               </mdb-squeezebox>
               <div class="row text-center">
                 <div class="col-md-12">
-                  <a *ngIf="service.slug === 'retractable-patio-awnings'" routerLink="/awningPriceCalc">
+                  <a
+                    *ngIf="service.slug === 'retractable-patio-awnings'"
+                    routerLink="/awningPriceCalc"
+                  >
                     <h4 class="m-3 orange-text">
                       Check Out Our Awning Price Calculator
                     </h4>
                   </a>
-                  <a *ngIf="service.slug === 'drop-roll-sunscreens'" routerLink="/dropRollPriceCalc">
+                  <a
+                    *ngIf="service.slug === 'drop-roll-sunscreens'"
+                    routerLink="/dropRollPriceCalc"
+                  >
                     <h4 class="m-3 orange-text">
                       Check Out Our Drop Roll Price Calculator
                     </h4>
@@ -104,28 +232,43 @@
             </h3>
             <div class="row">
               <div class="col-md-4">
-                <app-img src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png" class="img-fluid"
-                  alt="Black Fireplace Glass Doors"></app-img>
+                <app-img
+                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black.png"
+                  class="img-fluid"
+                  alt="Black Fireplace Glass Doors"
+                ></app-img>
                 <p class="text-center">Black</p>
               </div>
               <div class="col-md-4">
-                <app-img src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
-                  class="img-fluid" alt="Black Nickel Fireplace Glass Doors"></app-img>
+                <app-img
+                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/black-nickel.png"
+                  class="img-fluid"
+                  alt="Black Nickel Fireplace Glass Doors"
+                ></app-img>
                 <p class="text-center">Black Nickel</p>
               </div>
               <div class="col-md-4">
-                <app-img src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png" class="img-fluid"
-                  alt="Brass Fireplace Glass Doors"></app-img>
+                <app-img
+                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/brass.png"
+                  class="img-fluid"
+                  alt="Brass Fireplace Glass Doors"
+                ></app-img>
                 <p class="text-center">Brass</p>
               </div>
               <div class="col-md-4">
-                <app-img src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png" class="img-fluid"
-                  alt="Gun Metal Fireplace Glass Doors"></app-img>
+                <app-img
+                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/gun-metal.png"
+                  class="img-fluid"
+                  alt="Gun Metal Fireplace Glass Doors"
+                ></app-img>
                 <p class="text-center">Gun Metal</p>
               </div>
               <div class="col-md-4">
-                <app-img src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png" class="img-fluid"
-                  alt="Nickel Fireplace Glass Doors"></app-img>
+                <app-img
+                  src="/assets/images/chimneys/accessories/fireplace-glass-doors/nickel.png"
+                  class="img-fluid"
+                  alt="Nickel Fireplace Glass Doors"
+                ></app-img>
                 <p class="text-center">Nickel</p>
               </div>
             </div>
@@ -153,7 +296,10 @@
         </h1>
         <div class="row features-big">
           <div class="col-md-3 mb-r">
-            <app-img src="/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid"></app-img>
+            <app-img
+              src="/assets/images/chimneys/accessories/chimney-cap/1.png"
+              class="img-fluid"
+            ></app-img>
             <h5 class="feature-title">Masonry Chimney Caps</h5>
             <p class="light-gray-text p-2">
               Masonry Chimney caps connect to the top of your brick/masonry
@@ -165,7 +311,10 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <app-img src="/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid"></app-img>
+            <app-img
+              src="/assets/images/chimneys/accessories/chimney-cap/2.png"
+              class="img-fluid"
+            ></app-img>
             <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
             <p class="light-gray-text p-2">
               We offer prefab or Zero Clearance chimney caps for sizes: 6", 8",
@@ -174,7 +323,10 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <app-img src="/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid"></app-img>
+            <app-img
+              src="/assets/images/chimneys/accessories/chimney-cap/3.png"
+              class="img-fluid"
+            ></app-img>
             <h5 class="feature-title">Lock Top Damper</h5>
             <p class="light-gray-text p-2">
               If you are tired of that old masonry throat damper or you are
@@ -185,7 +337,10 @@
             </p>
           </div>
           <div class="col-md-3 mb-r">
-            <app-img src="/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid"></app-img>
+            <app-img
+              src="/assets/images/chimneys/accessories/chimney-cap/4.png"
+              class="img-fluid"
+            ></app-img>
             <h5 class="feature-title">Flue Extender Caps</h5>
             <p class="light-gray-text p-2">
               Many masonry chimneys do not meet minimum code-height requirements
@@ -198,7 +353,13 @@
         </div>
       </section>
     </div>
-    <div class="container" *ngIf="service.slug === 'chimney-inspections' || service.slug === 'chimney-cleaning'">
+    <div
+      class="container"
+      *ngIf="
+        service.slug === 'chimney-inspections' ||
+        service.slug === 'chimney-cleaning'
+      "
+    >
       <div class="row">
         <div class="col-md-5 pt-4">
           <div class="container text-center blue text-white">
@@ -234,7 +395,10 @@
           </div>
         </div>
         <div class="col-md-7">
-          <app-img src="/assets/images/chimneyInspection/report.png" class="img-fluid"></app-img>
+          <app-img
+            src="/assets/images/chimneyInspection/report.png"
+            class="img-fluid"
+          ></app-img>
         </div>
       </div>
     </div>
@@ -244,7 +408,9 @@
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">
-        <app-footer-gallery [Images]="service.recentInstallImages"></app-footer-gallery>
+        <app-footer-gallery
+          [Images]="service.recentInstallImages"
+        ></app-footer-gallery>
       </section>
     </div>
   </div>
