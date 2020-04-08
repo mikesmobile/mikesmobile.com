@@ -164,6 +164,37 @@
               <h5 *ngIf="service.slug === 'waterproofing'" class="text-left">
                 Is my chimney leaking? We waterproof chimneys!
               </h5>
+              <h5 *ngIf="service.slug === 'crown-seal'" class="text-left">
+                Is my chimney crown causing a leak? We keep water out and stop
+                leaks!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'rear-firewall-heat-damage'"
+                class="text-left"
+              >
+                Cracks in the back of my fireplace? We fix cracks in your
+                fireplace!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-de-glazing'"
+                class="text-left"
+              >
+                My chimney is smoking? Chimney is filled with hard soot? We
+                remove glazed creosote!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'retractable-patio-awnings'"
+                class="text-left"
+              >
+                Patio getting too much sun? We can block it for you!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'drop-roll-sunscreens'"
+                class="text-left"
+              >
+                Sun too strong to enjoy your deck or patio? Enjoy the summer
+                without the sunburn!
+              </h5>
 
               <hr />
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">

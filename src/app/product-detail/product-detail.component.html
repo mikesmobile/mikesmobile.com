@@ -195,6 +195,32 @@
           What is the benefit of solar screens? We help block out UV rays with
           solar screen!
         </h5>
+        <h5 *ngIf="product.slug === 'pet-doors'" class="text-left">
+          Tired of getting up to let the dog out? We install Pet Doors so you
+          don't have too!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'lifestyle-garage-screen'"
+          class="text-left"
+        >
+          Need extra space? Our garage screen doors will turn any garage into an
+          extra room!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'retractable-screen-doors'"
+          class="text-left"
+        >
+          Tired of your screen door getting in the way? A perfect screen when
+          you need it, disappears when you don't!
+        </h5>
+        <h5 *ngIf="product.slug === 'vista-fixed'" class="text-left">
+          Don't want your house to look like a prison? Security without the
+          bars!
+        </h5>
+        <h5 *ngIf="product.slug === 'vista-quick-escape'" class="text-left">
+          Don't want your house to look like a prison? Security without the
+          bars!
+        </h5>
         <hr />
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
