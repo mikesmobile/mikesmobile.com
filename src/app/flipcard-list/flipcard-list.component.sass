@@ -67,6 +67,9 @@
   .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper
     transform: rotateY(180deg)
 
+.tile
+  max-height: 248px !important
+
 .tileTitle
   height: 79px
   width: 100% !important
@@ -76,4 +79,16 @@
     height: 57.5px
     background-color: #ff9800
 
+.tileInfo
+  display: none
 
+.tile:hover
+  .tileInfo
+    @include breakpoint(md)
+      display: inline
+
+.tileBlurb
+  line-height: 1.4 !important
+
+.card-img
+  max-height: 175px !important
