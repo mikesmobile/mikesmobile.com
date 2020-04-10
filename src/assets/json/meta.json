@@ -1,7 +1,9 @@
 [
   {
     "page": "/",
-    "aliases": ["/index.html.var"],
+    "aliases": [
+      "/index.html.var"
+    ],
     "title": "Mike's Mobile Screen & Chimney Service",
     "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
   },
@@ -19,6 +21,26 @@
     "page": "/about/chimney-services",
     "title": "Chimney Service | Mike's Mobile",
     "description": "An annual chimney service is the best way to maintain your chimney. Keep your Sacramento, Stockton or East Bay home safe. Get chimney inspections, repairs and accessories from Mike's Mobile!"
+  },
+  {
+    "page": "/about/gas-fireplace-repair-and-service",
+    "title": "Gas Fireplace Repair & Service | Mike's Mobile",
+    "description": "Mike's Mobile repairs and Services gas Fireplaces!"
+  },
+  {
+    "page": "/services/gas-fireplace-repair",
+    "title": "Gas Fireplace Repair | Mike's Mobile",
+    "description": "Gas Fireplace not working? We can get it back to new no problem!"
+  },
+  {
+    "page": "/services/gas-fireplace-annual-service",
+    "title": "Gas Fireplace Annual Service | Mike's Mobile",
+    "description": "We can clean and inspect your gas fireplace, make sure everything is working great!"
+  },
+  {
+    "page": "/services/gas-log-sets",
+    "title": "Gas Log Sets | Mike's Mobile",
+    "description": "Tired of dealing with wood fuel? Replace it with a clean burning gas log set!"
   },
   {
     "page": "/about/door-and-window-screens",
