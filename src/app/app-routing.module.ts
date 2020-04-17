@@ -34,176 +34,176 @@ const appRoutes: Routes = [
   { path: 'products/crl-guarda-fixed', redirectTo: '/products/vista-fixed' },
   {
     path: 'products/crl-guarda-quick-escape',
-    redirectTo: '/products/vista-quick-escape'
+    redirectTo: '/products/vista-quick-escape',
   },
   { path: 'services/solar-screens', redirectTo: '/products/solar-screens' },
   { path: 'screens/screen-hardware-parts', redirectTo: '/about/door-screens' },
   {
     path: 'grid/steel-security-doors',
-    redirectTo: '/grid/titan-security-doors'
+    redirectTo: '/grid/titan-security-doors',
   },
   { path: 'steel-security-doors', redirectTo: '/grid/titan-security-doors' },
   {
     path: 'blog/waterproofing-avoid-efflorescence',
-    redirectTo: '/services/waterproofing'
+    redirectTo: '/services/waterproofing',
   },
   {
     path: 'blog/napa-vallejo-areas-yellow-and-red-tags-explained',
-    redirectTo: '/blog/napa-yellow-tags-explained'
+    redirectTo: '/blog/napa-yellow-tags-explained',
   },
   {
     path: 'blog/rollaway-disappearing-screen-doors-also-work-double-doors',
-    redirectTo: '/blog/rollaway-disappearing-double-doors'
+    redirectTo: '/blog/rollaway-disappearing-double-doors',
   },
   {
     path: 'blog/secure-your-home-in-style-with-a-viewguard-security-door',
-    redirectTo: '/blog/secure-in-style-with-viewguard'
+    redirectTo: '/blog/secure-in-style-with-viewguard',
   },
   {
     path:
       'blog/steel-security-doors-ive-seen-big-gaps-let-bugs-anything-can-prevent',
-    redirectTo: '/blog/steel-security-doors-gaps'
+    redirectTo: '/blog/steel-security-doors-gaps',
   },
   {
     path: 'blog/want-security-door-dont-want-house-look-like-jail-bars-options',
-    redirectTo: '/blog/security-without-jail-bars'
+    redirectTo: '/blog/security-without-jail-bars',
   },
   {
     path: 'about/chimney-services/chimney-service-in-sacramento',
-    redirectTo: '/regions/sacramento'
+    redirectTo: '/regions/sacramento',
   },
   {
     path: 'about/awnings/awnings-in-sacramento',
-    redirectTo: '/regions/sacramento'
+    redirectTo: '/regions/sacramento',
   },
   {
     path: 'blog/another-custom-creation',
-    redirectTo: '/blog/another-custom-creation-custom-security-doors'
+    redirectTo: '/blog/another-custom-creation-custom-security-doors',
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-sacramento',
-    redirectTo: '/regions/sacramento'
+    redirectTo: '/regions/sacramento',
   },
   {
     path: 'about/chimney-services/chimney-services-in-antioch',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'about/chimney-services/chimney-services-in-pleasanton',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'about/chimney-services/chimney-services-in-san-ramon',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'awnings',
-    redirectTo: '/services/retractable-patio-awnings'
+    redirectTo: '/services/retractable-patio-awnings',
   },
   {
     path: 'chimneys/antioch-east-bay-region',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'screens/antioch-east-bay-region',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'security/antioch-east-bay-region',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'about/awnings/awnings-in-antioch',
-    redirectTo: '/regions/antioch-east-bay'
+    redirectTo: '/regions/antioch-east-bay',
   },
   {
     path: 'about/awnings/awnings-in-danville',
-    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay',
   },
   {
     path: 'about/awnings/awnings-in-hayward',
-    redirectTo: '/regions/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay',
   },
   {
     path: 'about/awnings/awnings-in-napa',
-    redirectTo: '/regions/napa-vallejo'
+    redirectTo: '/regions/napa-vallejo',
   },
   {
     path: 'about/awnings/awnings-in-stockton',
-    redirectTo: '/regions/stockton'
+    redirectTo: '/regions/stockton',
   },
   {
     path: 'about/chimney-services/chimney-services-in-auburn',
-    redirectTo: '/regions/sacramento'
+    redirectTo: '/regions/sacramento',
   },
   {
     path: 'about/chimney-services/chimney-services-in-hayward-and-oakland',
-    redirectTo: '/regions/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay',
   },
   {
     path: 'about/chimney-services/chimney-services-in-stockton',
-    redirectTo: '/regions/stockton'
+    redirectTo: '/regions/stockton',
   },
   {
     path:
       'about/chimney-services/chimney-services-in-vacaville-vallejo-and-napa',
-    redirectTo: '/regions/napa-vallejo'
+    redirectTo: '/regions/napa-vallejo',
   },
   {
     path: 'about/chimney-services/chimney-services-in-walnut-creek',
-    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay',
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-danville-walnut-creek',
-    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay',
   },
   {
     path: 'about/window-and-door-coverings/window-and-door-screens-in-auburn',
-    redirectTo: '/regions/auburn'
+    redirectTo: '/regions/auburn',
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-hayward-and-oakland',
-    redirectTo: '/regions/oakland-north-bay'
+    redirectTo: '/regions/oakland-north-bay',
   },
   {
     path: 'about/window-and-door-coverings/window-and-door-screens-in-stockton',
-    redirectTo: '/regions/stockton'
+    redirectTo: '/regions/stockton',
   },
   {
     path:
       'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa',
-    redirectTo: '/regions/fairfield-vacaville'
+    redirectTo: '/regions/fairfield-vacaville',
   },
   { path: 'window-door-screens-modesto', redirectTo: '/regions/modesto' },
   { path: 'clean-or-dirty', redirectTo: '/blog/clean-or-dirty' },
   {
     path: 'walnut-creek-screen-doors-windows',
-    redirectTo: '/regions/danville-and-walnut-creek-south-bay'
+    redirectTo: '/regions/danville-and-walnut-creek-south-bay',
   },
   {
     path: 'chimneys/sacramento',
-    redirectTo: '/regions/sacramento'
+    redirectTo: '/regions/sacramento',
   },
   {
     path: 'screens/:slug',
-    redirectTo: 'regions/:slug'
+    redirectTo: 'regions/:slug',
   },
   {
     path: 'security/:slug',
-    redirectTo: 'regions/:slug'
+    redirectTo: 'regions/:slug',
   },
   {
     path: 'contact',
-    redirectTo: 'service-area'
+    redirectTo: 'service-area',
   },
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   { path: 'chimney-faq', component: ChimneyFaqComponent },
-  { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
+  // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'service-area', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
@@ -225,11 +225,11 @@ const appRoutes: Routes = [
   { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: '**', component: HomeComponent }
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

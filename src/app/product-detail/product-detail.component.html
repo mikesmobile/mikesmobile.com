@@ -241,19 +241,14 @@
           </ul>
         </div>
         <div
-          class="flex-row d-none d-md-block my-4 cursor-pointer text-center"
+          class="flex-row d-none d-md-block cursor-pointer text-center"
           (click)="openQuoteForm()"
         >
           <h4 class="animated pulse infinite orange-text pb-1">
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
-        <div class="flex-row text-center mb-3">
-          <a routerLink="/financing">
-            <h4 class="orange-text">We Also Offer Financing!</h4>
-          </a>
-        </div>
-        <div class="flex-row d-md-none">
+        <div class="flex-row d-md-none ml-5 pl-5">
           <a class="white-text" href="tel:+18009929938">
             <h4
               class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
@@ -262,6 +257,21 @@
             </h4>
           </a>
         </div>
+        <div class="row text-center mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <a routerLink="/financing">
+                  <img
+                    src="/assets/images/main/financingButton.png"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="row" *ngIf="product.colorSet">
           <div class="col-12">
             <h4>
