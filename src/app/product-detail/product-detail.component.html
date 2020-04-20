@@ -65,6 +65,27 @@
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
     <div class="row">
+      <div class="col-12">
+        <h1 class="text-left h1 pageTitle makeNewLine">
+          {{ product.title }}
+          <a
+            *ngIf="price"
+            mdbPageScroll
+            href="#disclaimer"
+            mdbRippleRadius
+            [pageScrollDuration]="400"
+            [pageScrollOffset]="110"
+          >
+            <span class="text-left h3" *ngFor="let item of price.price">
+              - {{ item.type }}
+              <span class="price">{{ item.price }}</span> Installed*
+            </span>
+          </a>
+        </h1>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
       <div class="col-12 col-md-7 pb-3">
         <ng-container *ngIf="product.slug === 'sliding-security-doors'">
           <div class="col-12">
@@ -175,51 +196,45 @@
       </div>
 
       <div class="col-12 col-md-5">
-        <h1 class="text-left h1 pageTitle makeNewLine">
-          {{ product.title }}
-          <a
-            *ngIf="price"
-            mdbPageScroll
-            href="#disclaimer"
-            mdbRippleRadius
-            [pageScrollDuration]="400"
-            [pageScrollOffset]="110"
-          >
-            <span class="text-left h3" *ngFor="let item of price.price">
-              - {{ item.type }}
-              <span class="price">{{ item.price }}</span> Installed*
-            </span>
-          </a>
-        </h1>
-        <h5 *ngIf="product.slug === 'solar-screens'" class="text-left">
-          What is the benefit of solar screens? We help block out UV rays with
-          solar screen!
+        <h5
+          *ngIf="product.slug === 'solar-screens'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Our solar screens block out UV rays so that you can keep your home
+          cool!
         </h5>
-        <h5 *ngIf="product.slug === 'pet-doors'" class="text-left">
-          Tired of getting up to let the dog out? We install Pet Doors so you
-          don't have too!
+        <h5
+          *ngIf="product.slug === 'pet-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Tired of getting up to let the dog out? Let us install a pet door so
+          that you don't have to!
         </h5>
         <h5
           *ngIf="product.slug === 'lifestyle-garage-screen'"
-          class="text-left"
+          class="text-left font-weight-bold font-italic"
         >
-          Need extra space? Our garage screen doors will turn any garage into an
-          extra room!
+          Our garage screen doors will turn any garage into an extra room!
         </h5>
         <h5
           *ngIf="product.slug === 'retractable-screen-doors'"
-          class="text-left"
+          class="text-left font-weight-bold font-italic"
         >
-          Tired of your screen door getting in the way? A perfect screen when
-          you need it, disappears when you don't!
+          The perfect screen when you need it, disappears when you don't!
         </h5>
-        <h5 *ngIf="product.slug === 'vista-fixed'" class="text-left">
-          Don't want your house to look like a prison? Security without the
-          bars!
+        <h5
+          *ngIf="product.slug === 'vista-fixed'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Don't make your house look like a prison! We provide window security
+          without the bars!
         </h5>
-        <h5 *ngIf="product.slug === 'vista-quick-escape'" class="text-left">
-          Don't want your house to look like a prison? Security without the
-          bars!
+        <h5
+          *ngIf="product.slug === 'vista-quick-escape'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Don't make your house look like a prison! We provide window security
+          without the bars!
         </h5>
         <hr />
         <div class="container my-4" *ngIf="product.textList">
@@ -284,6 +299,7 @@
         </div>
       </div>
     </div>
+
     <div class="row justify-content-center text-center">
       <div class="col-12">
         <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
