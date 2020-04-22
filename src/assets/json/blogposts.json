@@ -1,10 +1,36 @@
 [
   {
     "user": "Mikes Mobile",
+    "title": "<h1>Need More Room? Here's The Easiest Way to Transform Your Garage Into Additional Living Space!</h1>",
+    "slug": "need-more-room",
+    "filter": {
+      "Category": "Screen Doors",
+      "Sub Category": [],
+      "Location": "Sacramento",
+      "Postdate": "04/22/2020"
+    },
+    "content": [
+      "<div class='col-md-12 text-center'><p>Has staying home and sheltering in place made you think about how nice it would be to have an office, man cave, or home gym, but you just don’t think you have the space? We have the solution!</p></div>",
+      "<div class='col-md-12 text-center mb-4'><p>If spending so much time inside got you wishing for just a little more room, then it might be time you considered a garage screen door! Our garage screen doors transform any garage into a cool, bright, pest-free space in seconds!</p></div>",
+      "<div class='row justify-content-center'><div class='col-md-8 text-center'><img src='/assets/images/blogposts/04-20/garageScreen3.png' class='blog-img-fill'></div></div>",
+      "<div class='col-md-12 text-center'><h4>What is a garage screen door?</h4></div>",
+      "<div class='col-md-12 text-center mb-4'><p>A garage screen door covers the opening of your garage, allowing fresh air to circulate and sunshine to radiate into your space while stopping bugs, pests and debris from entering. They can offer privacy from neighbors, shade from the sun when you want it, and the comfort of an enclosed room, all of which help make your garage a more usable living space.</p></div>",
+      "<div class='row justify-content-center'><div class='col-md-8 text-center'><img src='/assets/images/blogposts/04-20/garageScreen2.png' class='blog-img-fill'></div></div>",
+      "<div class='col-md-12 text-center'><h4>How do Garage Screen Doors work?</h4></div>",
+      "<div class='col-md-12 text-center mb-4'><p> Mike’s Mobile is proud to offer the most practical, simple, easy to use, and durable system available, the Lifestyle Garage Screen. The Lifestyle is a fully retractable garage screen door that works with your existing garage door. The Lifestyle screen runs on maintenance free tracks, independent but similar to your primary garage door tracks. Lifestyle's spring loaded counter-balance system makes it effortless to open and close the screen and eliminates the headache of an electric opener. When you're done enjoying the great outdoors, simply retract your Lifestyle garage screen system and close your garage door as usual. It's that easy!</p></div>",
+      "<div class='row justify-content-center'><div class='col-md-8 text-center'><img src='/assets/images/blogposts/04-20/garageScreen.png' class='blog-img-fill'></div></div>",
+      "<div class='col-md-12 text-center'><h4>What are the applications for a garage screen door?</h4></div>",
+      "<div class='col-md-12 text-center'><p>With a garage screen door the only limits to what you can use your garage space for is your imagination! A cool, bright, pest-free space is the perfect place for a workshop or working out! If you have young children or pets, garage screen doors can help keep them safely corralled, making it a great outdoor play area. You can use the space for anything from cooking and entertaining to DIY projects and crafting. No matter what you choose, garage screen doors are an affordable and easy option to create a shared outdoor space. With optional upgrades like pet-resistant solar screen and additional access doors, a garage screen can truly transform your garage into any space you need!</p></div>",
+      "<div class='col-md-12 text-center'><p>If you’re ready to transform your garage and add more room to your home, call us today! We’ll set you up with a free estimate for a Lifestyle garage screen door from Mike’s Mobile!</p></div>"
+    ],
+    "images": ["/assets/images/blogposts/04-20/garageScreen3.png"]
+  },
+  {
+    "user": "Mikes Mobile",
     "title": "<h1>Maximum Protection, Minimum Compromise:</h1><h5> How a Security Screen Door Can Help Keep Your Loved Ones Safe</h5>",
     "slug": "maximum-protetion-minimum-compromise",
     "filter": {
-      "Category": "Security Screen Doors",
+      "Category": "Screen Doors",
       "Sub Category": [],
       "Location": "Sacramento",
       "Postdate": "03/19/2020"
