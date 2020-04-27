@@ -64,12 +64,12 @@
       >
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
-    <div *ngIf="price" class="d-flex flex-column flex-md-row">
+    <div *ngIf="price" class="d-flex flex-column align-items-end flex-md-row">
       <h1 class="text-left h1 pageTitle">
         {{ product.title }}
       </h1>
 
-      <h2 *ngFor="let item of price.price" class="m-2">
+      <h3 *ngFor="let item of price.price" class="mx-2 h3">
         <a
           mdbPageScroll
           href="#disclaimer"
@@ -77,10 +77,12 @@
           [pageScrollDuration]="400"
           [pageScrollOffset]="110"
         >
-          -{{ item.type }}
-          <span class="price">{{ item.price }}</span> Installed*
+          -{{ item.type }} Starts at
+          <span class="price h1"
+            >{{ item.price }}<span class="text-dark">*</span></span
+          >
         </a>
-      </h2>
+      </h3>
     </div>
     <div *ngIf="!price" class="d-flex flex-column flex-md-row mb-0">
       <h1 class="text-left h1 pageTitle mb-0">
@@ -239,6 +241,20 @@
           Don't make your house look like a prison! We provide window security
           without the bars!
         </h5>
+        <h5
+          *ngIf="product.slug === 'tru-view-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Looking for a stylish screen door with increased durablity? The
+          TruView is for you!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'viewguard-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          The Viewguard offers heavy-duty security with maximum airflow, so you
+          can keep your family safe!
+        </h5>
         <hr />
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
@@ -302,17 +318,16 @@
         </div>
       </div>
     </div>
-
-    <div class="row justify-content-center text-center">
-      <div class="col-12">
-        <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
-      </div>
-    </div>
   </div>
   <app-tab-nav [details]="product.details"></app-tab-nav>
   <app-footer-gallery
     [Images]="product.recentInstallImages"
   ></app-footer-gallery>
+  <div class="row justify-content-center text-center">
+    <div class="col-12">
+      <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+    </div>
+  </div>
 </ng-container>
 
 <app-quote-form></app-quote-form>

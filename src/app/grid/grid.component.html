@@ -28,8 +28,9 @@
                 [pageScrollOffset]="110"
               >
                 <span class="text-left h3" *ngFor="let item of price.price">
-                  - {{ item.type }}
-                  <span class="price">{{ item.price }}</span> Installed*
+                  - Starts at {{ item.type }}
+                  <span class="price">{{ item.price }}</span
+                  >*
                 </span>
               </a>
             </h2>
@@ -147,8 +148,9 @@
                 [pageScrollOffset]="110"
               >
                 <span class="text-left h3" *ngFor="let item of price.price">
-                  - {{ item.type }}
-                  <span class="price">{{ item.price }}</span> Installed*
+                  - Starts at {{ item.type }}
+                  <span class="price">{{ item.price }}</span
+                  >*
                 </span>
               </a>
             </h2>
@@ -195,9 +197,7 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center text-center">
-          <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
-        </div>
+
         <hr class="mt-4" />
         <p
           class="my-5 section-description"
@@ -458,4 +458,7 @@
       </section>
     </div>
   </ng-container>
+  <div class="row justify-content-center text-center">
+    <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
+  </div>
 </ng-container>
