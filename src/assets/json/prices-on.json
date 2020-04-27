@@ -3,7 +3,7 @@
     "title": "tru-view-security-doors",
     "type": "products",
     "name": "TRU-View Security Screen Doods",
-    "price": [{ "price": "$1,595", "type": "" }],
+    "price": [{ "price": "$1695", "type": "" }],
     "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
   },
   {
@@ -13,7 +13,7 @@
     "priceTag": "/assets/images/priceTags/titanPriceTag.png",
     "price": [
       {
-        "price": "$1,995",
+        "price": "$2,295",
         "type": ""
       }
     ],
@@ -26,7 +26,7 @@
     "priceTag": "/assets/images/priceTags/titanPriceTag.png",
     "price": [
       {
-        "price": "$1,795",
+        "price": "$1,995",
         "type": ""
       }
     ],
@@ -39,11 +39,11 @@
 
     "price": [
       {
-        "price": "$1,995",
+        "price": "$2,595",
         "type": "Single"
       },
       {
-        "price": "$2,995",
+        "price": "$3,195",
         "type": "Double"
       }
     ],
@@ -56,11 +56,11 @@
 
     "price": [
       {
-        "price": "$195",
+        "price": "$215",
         "type": "Sm-Med"
       },
       {
-        "price": "$285",
+        "price": "$305",
         "type": "Lg-Xl"
       }
     ],
@@ -72,7 +72,7 @@
     "name": "Sliding Screen Doors",
     "price": [
       {
-        "price": "$295",
+        "price": "$325",
         "type": ""
       }
     ],
@@ -84,7 +84,7 @@
     "name": "Retractable Screen Doors",
     "price": [
       {
-        "price": "$749",
+        "price": "$795",
         "type": ""
       }
     ],
@@ -96,7 +96,7 @@
     "name": "El Dorado",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -108,7 +108,7 @@
     "name": "Fiesta",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -120,7 +120,7 @@
     "name": "Safegaurd",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -132,7 +132,7 @@
     "name": "Santa Cruz",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -144,7 +144,7 @@
     "name": "Brighton",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -156,7 +156,7 @@
     "name": "Clearview",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -168,7 +168,7 @@
     "name": "Colonade",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -180,7 +180,7 @@
     "name": "Craftsman",
     "price": [
       {
-        "price": "$549",
+        "price": "$625",
         "type": ""
       }
     ],
@@ -192,11 +192,7 @@
     "name": "Lifestyle Garage Screen Door",
     "price": [
       {
-        "price": "$1,595",
-        "type": ""
-      },
-      {
-        "price": "$1,992",
+        "price": "$2,695",
         "type": "/w Door "
       }
     ],

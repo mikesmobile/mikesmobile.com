@@ -64,27 +64,30 @@
       >
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-left h1 pageTitle">
-          {{ product.title }}
-          <a
-            *ngIf="price"
-            mdbPageScroll
-            href="#disclaimer"
-            mdbRippleRadius
-            [pageScrollDuration]="400"
-            [pageScrollOffset]="110"
-          >
-            <span class="text-left h3" *ngFor="let item of price.price">
-              - {{ item.type }}
-              <span class="price">{{ item.price }}</span> Installed*
-            </span>
-          </a>
-        </h1>
-        <hr />
-      </div>
+    <div *ngIf="price" class="d-flex flex-column flex-md-row">
+      <h1 class="text-left h1 pageTitle">
+        {{ product.title }}
+      </h1>
+
+      <h2 *ngFor="let item of price.price" class="m-2">
+        <a
+          mdbPageScroll
+          href="#disclaimer"
+          mdbRippleRadius
+          [pageScrollDuration]="400"
+          [pageScrollOffset]="110"
+        >
+          -{{ item.type }}
+          <span class="price">{{ item.price }}</span> Installed*
+        </a>
+      </h2>
     </div>
+    <div *ngIf="!price" class="d-flex flex-column flex-md-row mb-0">
+      <h1 class="text-left h1 pageTitle mb-0">
+        {{ product.title }}
+      </h1>
+    </div>
+    <hr />
     <div class="row">
       <div class="col-12 col-md-7 pb-3">
         <ng-container *ngIf="product.slug === 'sliding-security-doors'">

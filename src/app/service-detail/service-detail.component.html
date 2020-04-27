@@ -246,26 +246,6 @@
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
-              <h2
-                class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
-                (click)="openQuoteForm()"
-              >
-                Get started today!
-              </h2>
-              <div class="row text-center mb-3">
-                <div class="container">
-                  <div class="row justify-content-center">
-                    <div class="col-8">
-                      <a routerLink="/financing">
-                        <img
-                          src="/assets/images/main/financingButton.png"
-                          class="img-fluid"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <mdb-squeezebox *ngIf="price" class="pricesTag">
                 <mdb-item>
                   <mdb-item-head class="pricesTag rounded text-white"
@@ -286,6 +266,27 @@
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
+              <h2
+                class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
+                (click)="openQuoteForm()"
+              >
+                Get started today!
+              </h2>
+              <div class="row text-center mb-3">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-8">
+                      <a routerLink="/financing">
+                        <img
+                          src="/assets/images/main/financingButton.png"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="row text-center">
                 <div class="col-md-12">
                   <a
