@@ -78,15 +78,38 @@
     </nav>
 
     <section class="section extra-margins">
-      <div class="row">
+      <div class="row" *ngIf="service.slug !== 'gas-fireplace-annual-service'">
         <div class="col-12">
           <h1
             class="text-left h2 mb-2 pageTitle"
             [innerHTML]="service.title"
           ></h1>
-          <hr />
         </div>
       </div>
+      <div
+        *ngIf="price && service.slug === 'gas-fireplace-annual-service'"
+        class="d-flex flex-column align-items-end flex-md-row"
+      >
+        <h1 class="text-left h1 pageTitle">
+          {{ service.title }}
+        </h1>
+
+        <h3 *ngFor="let item of price.price" class="mx-2 h3">
+          <a
+            mdbPageScroll
+            href="#disclaimer"
+            mdbRippleRadius
+            [pageScrollDuration]="400"
+            [pageScrollOffset]="110"
+          >
+            -{{ item.type }} Starts at
+            <span class="price h1"
+              >{{ item.price }}<span class="text-dark">*</span></span
+            >
+          </a>
+        </h3>
+      </div>
+      <hr />
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
           <div class="main-image">
@@ -246,7 +269,10 @@
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
-              <mdb-squeezebox *ngIf="price" class="pricesTag">
+              <mdb-squeezebox
+                *ngIf="price && service.slug !== 'gas-fireplace-annual-service'"
+                class="pricesTag"
+              >
                 <mdb-item>
                   <mdb-item-head class="pricesTag rounded text-white"
                     >Prices</mdb-item-head
@@ -496,6 +522,16 @@
           [Images]="service.recentInstallImages"
         ></app-footer-gallery>
       </section>
+    </div>
+  </div>
+  <div class="row mt-5 justify-content-center text-center">
+    <div class="col-12">
+      <p
+        *ngIf="price && service.slug === 'gas-fireplace-annual-service'"
+        id="disclaimer"
+      >
+        {{ price.disclaimer }}
+      </p>
     </div>
   </div>
 </ng-container>

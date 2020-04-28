@@ -4,7 +4,7 @@
     "type": "products",
     "name": "TRU-View Security Screen Doods",
     "price": [{ "price": "$1695", "type": "" }],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "titan-security-doors",
@@ -17,7 +17,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "viewguard-security-doors",
@@ -47,24 +47,31 @@
         "type": "Double"
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "pet-doors",
     "type": "products",
     "name": "Sliding Security Doors",
-
     "price": [
       {
-        "price": "$215",
-        "type": "Sm-Med"
+        "name": "Small",
+        "price": "$215.00"
       },
       {
-        "price": "$305",
-        "type": "Lg-Xl"
+        "name": "Medium",
+        "price": "$215.00"
+      },
+      {
+        "name": "Large",
+        "price": "$305.00"
+      },
+      {
+        "name": "Xtra Large",
+        "price": "$305.00"
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "sliding-screen-doors",
@@ -76,7 +83,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "retractable-screen-doors",
@@ -88,7 +95,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "swinging-screen-doors",
@@ -100,7 +107,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "fiesta-swinging-screen-door",
@@ -112,7 +119,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "safeguard-swinging-screen-door",
@@ -124,7 +131,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "santa-cruz-swinging-screen-door",
@@ -136,7 +143,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "brighton-swinging-screen-door",
@@ -148,7 +155,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "clearview-swinging-screen-door",
@@ -160,7 +167,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "colonade-swinging-screen-door",
@@ -172,7 +179,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "craftsman-swinging-screen-door",
@@ -184,7 +191,7 @@
         "type": ""
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "lifestyle-garage-screen",
@@ -192,11 +199,10 @@
     "name": "Lifestyle Garage Screen Door",
     "price": [
       {
-        "price": "$2,695",
-        "type": "/w Door "
+        "price": "$2,695"
       }
     ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
     "title": "chimney-cleaning",
@@ -233,14 +239,11 @@
         "price": "Free With Cleaning"
       },
       {
-        "name": "level - 2: Open, Freestanding, Gas",
-        "price": "$373.50"
-      },
-      {
-        "name": "level - 2: Insert, Pellet",
-        "price": "$423.50"
+        "name": "Level - 2*",
+        "price": "$249.00"
       }
-    ]
+    ],
+    "disclaimer": "Get 1/2 cleaning when paired with a level-2 inspection!"
   },
   {
     "title": "dryer-vent-cleaning",
@@ -251,5 +254,54 @@
         "price": "$249"
       }
     ]
+  },
+  {
+    "title": "window-screen-repair",
+    "type": "services",
+    "price": [
+      {
+        "name": "Re-Screen Old frame, up to 15 sq. feet:",
+        "price": "$55.00"
+      },
+      {
+        "name": "Bugscreen, under 15 sq. feet:",
+        "price": "$65.00"
+      },
+      {
+        "name": "Oversize, 15-25 sq. feet:",
+        "price": "$105.00"
+      },
+      {
+        "name": "Double hung:",
+        "price": "$115.00"
+      }
+    ]
+  },
+  {
+    "title": "gas-fireplace-annual-service",
+    "type": "services",
+    "name": "Gas Fireplace Annual Service",
+    "price": [
+      {
+        "price": "$249.00"
+      }
+    ],
+    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
+  },
+  {
+    "title": "gas-log-sets",
+    "type": "services",
+    "name": "Gas Log Sets",
+    "price": [
+      {
+        "name": "Gas Log Set - Installation only*",
+        "price": "$360.00"
+      },
+      {
+        "name": "Gas Log Set - Includes set & installation",
+        "price": "$575.00"
+      }
+    ],
+    "disclaimer": "We can install your Gas Log Set."
   }
 ]
