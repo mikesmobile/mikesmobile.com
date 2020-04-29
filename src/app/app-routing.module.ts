@@ -32,10 +32,21 @@ const appRoutes: Routes = [
   //SEO Search Artifacts
   { path: 'contact/make-an-appointment', redirectTo: '/free-quote' },
   { path: 'monthly-special', redirectTo: '/' },
-  { path: 'products/crl-guarda-fixed', redirectTo: '/products/vista-fixed' },
+  {
+    path: 'products/crl-guarda-fixed',
+    redirectTo: 'products/fixed-security-windows',
+  },
+  {
+    path: 'products/vista-fixed',
+    redirectTo: 'products/fixed-security-windows',
+  },
   {
     path: 'products/crl-guarda-quick-escape',
-    redirectTo: '/products/vista-quick-escape',
+    redirectTo: 'products/quick-escape-security-windows',
+  },
+  {
+    path: 'products/vista-quick-escape',
+    redirectTo: 'products/quick-escape-security-windows',
   },
   { path: 'services/solar-screens', redirectTo: '/products/solar-screens' },
   { path: 'screens/screen-hardware-parts', redirectTo: '/about/door-screens' },
