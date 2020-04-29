@@ -261,6 +261,41 @@
               >
                 We can help make your chimney brand new!
               </h5>
+              <h5
+                *ngIf="service.slug === 'gas-log-sets'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Experience all the ambience and warmth of a wood-burning fire
+                without the mess and maintenance!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep sparks inside your chimney, while keeping rain and critters
+                out!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'fireplace-grate'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Enjoy easier fire starting and a better quality burn with our
+                firebox grates!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'fireplace-glass-doors'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Glass door sets help you keep sparks inside your chimney while
+                enhacing the look of your fireplace!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'radiant-fireback'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep your home warm while avoiding costly repairs with radiant
+                fire brick!
+              </h5>
 
               <hr />
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">

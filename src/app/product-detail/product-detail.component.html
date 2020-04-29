@@ -261,6 +261,20 @@
           The Viewguard offers heavy-duty security with maximum airflow, so you
           can keep your family safe!
         </h5>
+        <h5
+          *ngIf="product.slug === 'sliding-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Finally a security screen for your back pation slider! Sleep soundly
+          and safely while letting in the cool breeze!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'sliding-screen-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Keep the bugs out of your space while letting in the breeze, with
+          custom-fit sliding screen doors!
+        </h5>
         <hr />
         <div class="container my-4" *ngIf="product.textList">
           <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
