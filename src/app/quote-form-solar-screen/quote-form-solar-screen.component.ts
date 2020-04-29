@@ -111,6 +111,7 @@ export class QuoteFormSolarScreenComponent implements OnInit {
     let utm_medium = '';
     let utm_campaign = '';
     let totalCost = this.totalCost;
+    let solarScreenWindows = this.solarScreenWindows;
     if (utm_cookie) {
       [utm_source, utm_medium, utm_campaign] = utm_cookie[2].split(':');
     }
@@ -129,7 +130,7 @@ export class QuoteFormSolarScreenComponent implements OnInit {
         utm_medium,
         utm_campaign,
         totalCost,
-        ...this.solarScreenWindows,
+        solarScreenWindows,
       })
       .then((res) => {
         if (!res.ok) {
@@ -143,6 +144,14 @@ export class QuoteFormSolarScreenComponent implements OnInit {
       .catch(() => {
         this.submitFailed = true;
       });
+    console.log({
+      ...this.quoteFormGroup.value,
+      option,
+      utm_source,
+      utm_campaign,
+      totalCost,
+      solarScreenWindows,
+    });
   }
 
   ngOnInit() {}

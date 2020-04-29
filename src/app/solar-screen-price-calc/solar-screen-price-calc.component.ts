@@ -20,6 +20,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
   minRegPrice: number = 103.55;
   gridMsg: string = '';
   totalCost: number;
+  img: string = '/assets/images/solarScreenOrder/measure.jpg';
 
   constructor(
     private solarScreenWindowDataService: SolarScreenWindowDataService
