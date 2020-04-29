@@ -62,6 +62,8 @@ import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { QuoteFormDropRollComponent } from './quote-form-droproll/quote-form-droproll.component';
 import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.component';
 import { AnnouncementMessageComponent } from './announcementMessage/announcementMessage.component';
+import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
+import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
 
 @NgModule({
   declarations: [
@@ -120,7 +122,9 @@ import { AnnouncementMessageComponent } from './announcementMessage/announcement
     DropRollCalcComponent,
     QuoteFormDropRollComponent,
     QuoteFormAwningComponent,
-    AnnouncementMessageComponent
+    AnnouncementMessageComponent,
+    SolarScreenPriceCalcComponent,
+    QuoteFormSolarScreenComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

@@ -3,11 +3,11 @@
   <div class="row no-gutters">
     <div
       class="col-3 col-md-2"
-      *ngFor="let color of (colors.values | keys); index as j"
+      *ngFor="let color of colors.values | keys; index as j"
     >
       <div
         *ngIf="color.value[0] === '#'"
-        class="square"
+        class="square border border-dark"
         [mdbTooltip]="color.key"
         [ngStyle]="{ background: color.value }"
         placement="bottom"
@@ -15,7 +15,7 @@
       ></div>
       <div
         *ngIf="color.value[0] === '/'"
-        class="square"
+        class="square border border-dark"
         [mdbTooltip]="color.key"
         [ngStyle]="{
           'background-image': 'url(' + color.value + ')',

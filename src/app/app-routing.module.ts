@@ -26,6 +26,7 @@ import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { FinancingComponent } from './financing/financing.component';
 import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
+import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 
 const appRoutes: Routes = [
   //SEO Search Artifacts
@@ -223,6 +224,7 @@ const appRoutes: Routes = [
   // { path: 'promo', component: PromoComponent },
   { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
   { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
+  { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent },

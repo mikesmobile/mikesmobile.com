@@ -1,0 +1,203 @@
+<div
+  mdbModal
+  #quoteModal="mdb-modal"
+  class="modal fade"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="quoteFormTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content quoteFormContainer">
+      <div class="modal-header justify-content-start">
+        <h4 class="modal-title text-start px-2" id="quoteFormTitle">
+          Schedule a Technitian Now!<br />
+          <a class="orange-text" href="tel:+18009929938" role="link"
+            >800-992-9938</a
+          >
+        </h4>
+        <button type="button" class="close" aria-label="Close" (click)="hide()">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form
+          [formGroup]="quoteFormGroup"
+          #quoteForm="ngForm"
+          (submit)="handleSubmit($event)"
+        >
+          <div class="md-form">
+            <input
+              mdbActive
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              formControlName="name"
+              placeholder="Full Name"
+            />
+            <div *ngIf="name.invalid && (name.dirty || name.touched)">
+              <div *ngIf="name.errors.required">
+                Name is required.
+              </div>
+              <div *ngIf="name.errors.maxlength">
+                Max length is 100
+              </div>
+            </div>
+          </div>
+          <div class="md-form">
+            <input
+              mdbActive
+              type="text"
+              id="city"
+              name="city"
+              class="form-control"
+              formControlName="city"
+              placeholder="City"
+            />
+            <div *ngIf="city.invalid && (city.dirty || city.touched)">
+              <div *ngIf="city.errors.required">
+                City is required.
+              </div>
+              <div *ngIf="city.errors.maxlength">
+                Max length is 100
+              </div>
+            </div>
+          </div>
+          <div class="md-form">
+            <input
+              mdbActive
+              type="text"
+              id="phone"
+              name="phone"
+              class="form-control"
+              formControlName="phone"
+              placeholder="Phone"
+            />
+            <div *ngIf="phone.invalid && (phone.dirty || phone.touched)">
+              <div *ngIf="phone.errors.required">
+                Phone is required.
+              </div>
+              <div *ngIf="phone.errors.minlength">
+                Minimum length is 10
+              </div>
+              <div *ngIf="phone.errors.maxlength">
+                Maximum length is 15
+              </div>
+            </div>
+          </div>
+          <div class="md-form">
+            <input
+              mdbActive
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              formControlName="email"
+              placeholder="Email"
+            />
+            <div *ngIf="email.invalid && (email.dirty || email.touched)">
+              <div *ngIf="email.errors.required">
+                Email is required.
+              </div>
+              <div *ngIf="email.errors.maxlength">
+                Max length is 150
+              </div>
+            </div>
+          </div>
+          <div class="md-form">
+            <label for="message"
+              >Any additional Questions or comments about your Solar
+              Screns?</label
+            >
+            <textarea
+              mdbActive
+              type="text"
+              id="message"
+              name="message"
+              class="md-textarea w-100"
+              formControlName="message"
+            ></textarea>
+            <div *ngIf="message.invalid && (message.dirty || message.touched)">
+              <div *ngIf="message.errors.required">
+                Message is required.
+              </div>
+              <div *ngIf="message.errors.maxlength">
+                Max length is 280
+              </div>
+            </div>
+          </div>
+          <div class="md-form">
+            <mdb-select
+              [options]="methodSelect"
+              formControlName="contactMethod"
+              placeholder="How should we contact you?"
+            ></mdb-select>
+          </div>
+        </form>
+        <h3 class="text-center">Estimate Summary</h3>
+        <table *ngIf="solarScreenWindows" class="table table-sm table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Window</th>
+              <th scope="col">Size</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let window of solarScreenWindows">
+              <th scope="row">{{ window.name }}</th>
+              <td>
+                {{ window.width }}" x {{ window.height }}" {{ window.gridMsg }}
+              </td>
+              <td>{{ window.price }}</td>
+            </tr>
+            <tr>
+              <th scope="row"># of windows: {{ solarScreenWindows.length }}</th>
+              <td></td>
+              <td>Total: {{ totalCost }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer d-flex flex-row flex-wrap">
+        <div *ngIf="submitFailed" class="quote-form__submit--error flex-fill">
+          Sorry! We are having a technical issue submitting this form right now.
+          You can reach us by email directly at
+          <a
+            href="mailto:office@mikesmobile.com?subject=Customer%20Contact%20-%20{{
+              name.value
+            }}&body=My%20name%20is%20{{ name.value }}.%20I%20live%20in%20{{
+              city.value
+            }}.%20I%20can%20be%20contacted%20by%20phone%20at%20{{
+              phone.value
+            }}%20or%20by%20email%20at%20{{ email.value }}.%20{{
+              message.value
+            }}"
+            class="white-text"
+            >office@mikesmobile.com</a
+          >
+          or by calling us at
+          <a href="tel:18009929938" class="white-text">1 (800) 992-9938</a>!
+        </div>
+        <button
+          type="reset"
+          class="btn gray waves-light flex-fill"
+          mdbRippleRadius
+          (click)="handleReset()"
+        >
+          Reset
+        </button>
+        <button
+          type="submit"
+          class="btn blue relative waves-light flex-fill"
+          mdbRippleRadius
+          [disabled]="quoteFormGroup.invalid || submitFailed"
+          (click)="handleSubmit($event)"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

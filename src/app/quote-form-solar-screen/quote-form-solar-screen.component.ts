@@ -1,27 +1,23 @@
-import { Component, ViewChild, OnInit, Input } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
-import { MailAwningService } from '../services/mailAwning.service';
-
-// Property declared by Google Tag Manager
-declare global {
-  interface Window {
-    dataLayer: any;
-  }
-}
+import { MailSolarService } from '../services/mailSolar.service';
 
 @Component({
-  selector: 'app-quote-form-awning',
-  templateUrl: './quote-form-awning.component.html',
-  styleUrls: ['./quote-form-awning.component.sass'],
-  providers: [MailAwningService],
+  selector: 'app-quote-form-solar-screen',
+  templateUrl: './quote-form-solar-screen.component.html',
+  styleUrls: ['./quote-form-solar-screen.component.sass'],
+  providers: [MailSolarService],
 })
-export class QuoteFormAwningComponent implements OnInit {
-  optMotor: boolean;
-  optHood: boolean;
-  optPitchAdjust: boolean;
+export class QuoteFormSolarScreenComponent implements OnInit {
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+
+    private mailSolarService: MailSolarService
+  ) {}
 
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
   public submitFailed: boolean = false;
@@ -30,29 +26,19 @@ export class QuoteFormAwningComponent implements OnInit {
     { value: 'phone', label: 'Contact me via Phone' },
   ];
 
-  @Input() quote: {
-    awnType: string;
-    awnWidth: string;
-    awnProj: string;
-    awnWallBrkt: string;
-    awnCrank: string;
-    awnMotor: string;
-    awnPitchAdjust: string;
-    awnHood: string;
-    awnPrice: string;
-    awnWallBrktPrice: string;
-    awnMotorPrice: string;
-    awnPitchAdjustPrice: string;
-    awnHoodPrice: string;
-    shipLabPrice: string;
-    awnTotalPrice: string;
-  };
+  @Input() solarScreenWindows: [
+    {
+      id: number;
+      name: string;
+      width: number;
+      height: number;
+      price: number;
+      grid: boolean;
+      gridMsg: string;
+    }
+  ];
 
-  constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-    private mailDropRollService: MailAwningService
-  ) {}
+  @Input() totalCost: number;
 
   quoteFormGroup = new FormGroup({
     name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
@@ -98,24 +84,8 @@ export class QuoteFormAwningComponent implements OnInit {
   }
 
   public show() {
-    if (this.quote.awnMotor === 'yes') {
-      this.optMotor = true;
-    } else {
-      this.optMotor = false;
-    }
-
-    if (this.quote.awnHood === 'yes') {
-      this.optHood = true;
-    } else {
-      this.optHood = false;
-    }
-
-    if (this.quote.awnPitchAdjust === 'yes') {
-      this.optPitchAdjust = true;
-    } else {
-      this.optPitchAdjust = false;
-    }
     this.quoteModal.show();
+    console.log(this.solarScreenWindows);
   }
 
   hide() {
@@ -126,7 +96,6 @@ export class QuoteFormAwningComponent implements OnInit {
     this.submitFailed = false;
     this.quoteFormGroup.reset({});
   }
-
   handleSubmit(event: any) {
     event.preventDefault();
 
@@ -141,6 +110,7 @@ export class QuoteFormAwningComponent implements OnInit {
     let utm_source = '';
     let utm_medium = '';
     let utm_campaign = '';
+    let totalCost = this.totalCost;
     if (utm_cookie) {
       [utm_source, utm_medium, utm_campaign] = utm_cookie[2].split(':');
     }
@@ -151,14 +121,15 @@ export class QuoteFormAwningComponent implements OnInit {
       option = url.toString();
     }
 
-    this.mailDropRollService
+    this.mailSolarService
       .send({
         ...this.quoteFormGroup.value,
         option,
         utm_source,
         utm_medium,
         utm_campaign,
-        ...this.quote,
+        totalCost,
+        ...this.solarScreenWindows,
       })
       .then((res) => {
         if (!res.ok) {

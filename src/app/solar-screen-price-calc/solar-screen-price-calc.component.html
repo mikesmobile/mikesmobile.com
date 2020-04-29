@@ -1,0 +1,158 @@
+<div class="container text-center">
+  <nav class="breadcrumb mt-2">
+    <a class="breadcrumb-item" routerLink="/">Home</a>
+    <a class="breadcrumb-item" routerLink="/products/solar-screens"
+      >Solar Screens</a
+    >
+    <span class="breadcrumb-item active">Solar Screen Price Calc</span>
+  </nav>
+  <div class="card my-4">
+    <div class="card-body">
+      <h5 class="card-title">
+        Get an Estimate for your Solar Screens.
+      </h5>
+      <hr />
+      <div class="container p-0">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <table
+              class="table text-center"
+              *ngIf="solarScreenWindows.length > 0"
+            >
+              <thead class="solarScreenWindow-list thead-dark mx-auto">
+                <tr>
+                  <th scope="col">Window Name</th>
+                  <th scope="col">Size</th>
+                  <th scope="col">Window Cost</th>
+                  <th scope="col">Remove Window?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let solarScreenWindow of solarScreenWindows">
+                  <th scope="row">{{ solarScreenWindow.name }}</th>
+                  <td>
+                    {{ solarScreenWindow.width }}" x
+                    {{ solarScreenWindow.height }}"
+                    {{ solarScreenWindow.gridMsg }}
+                  </td>
+                  <td>Price: {{ solarScreenWindow.price }}</td>
+                  <td
+                    class="destroy cursor-pointer"
+                    (click)="removeSolarScreenWindow(solarScreenWindow)"
+                  >
+                    x
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Total Number of windows: {{ solarScreenWindows.length }}
+                  </th>
+                  <td></td>
+                  <td>
+                    Your Total:
+                    <span class="text-white orange price p-2"
+                      >${{ solarScreenTotal }}</span
+                    >
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center" *ngIf="solarScreenWindows.length > 0">
+        <div class="row">
+          <div class="col">
+            <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
+              <h4
+                class="animated pulse infinite orange-text pb-3 cursor-pointer"
+              >
+                &nbsp; Schedule a Free In-Home Quote!
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="errorMessageBoard" *ngIf="errorMessage">
+        <h5>{{ errorMessage }}</h5>
+      </div>
+      <div class="row align-items-end">
+        <div class="col-md">
+          <label for="solarWindowName"
+            >Change the name to help remember which window!</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow form-control"
+              id="solarWindowName"
+              placeholder="name or location of window?"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.name"
+            />
+          </div>
+        </div>
+        <div class="col-md">
+          <label for="windowWidth"
+            >Window Width: Rounded up to nearest whole foot.</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow-width form-control"
+              placeholder="Width of window"
+              id="windowWidth"
+              type="number"
+              aria-describedby="windowWidth"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.width"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text" id="windowWidth">Ft.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <label for="windowHeight"
+            >Window Height: Round up to nearest whole foot.</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow-height form-control"
+              placeholder="Height of window"
+              id="windowHeight"
+              type="number"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.height"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text" id="windowHeight">Ft.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <label for="gridToggle">With Grid?</label>
+          <div class="cursor-pointer" (click)="switchGrid()">
+            <i
+              class="fas fa-check mx-1 p-1"
+              [style.background-color]="grid === true ? 'orange' : ''"
+            ></i>
+            <i
+              class="fas fa-times mx-1 p-1"
+              [style.background-color]="grid === true ? '' : 'orange'"
+            ></i>
+          </div>
+        </div>
+        <div class="col-md">
+          <button class="btn blue m-0" (click)="addSolarScreenWindow()">
+            Add a Window!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-quote-form-solar-screen
+  [solarScreenWindows]="solarScreenWindows"
+  [totalCost]="solarScreenTotal"
+></app-quote-form-solar-screen>
