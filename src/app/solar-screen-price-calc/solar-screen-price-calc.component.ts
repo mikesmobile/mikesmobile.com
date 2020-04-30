@@ -35,8 +35,6 @@ export class SolarScreenPriceCalcComponent implements OnInit {
 
   addSolarScreenWindow() {
     if (this.newSolarScreenWindow.width && this.newSolarScreenWindow.height) {
-      console.log(this.newSolarScreenWindow.width);
-      console.log(Number.isInteger(this.newSolarScreenWindow.width));
       if (Number.isInteger(this.newSolarScreenWindow.width)) {
         this.errorMessage = '';
         if (Number.isInteger(this.newSolarScreenWindow.height)) {
@@ -51,6 +49,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
               this.newSolarScreenWindow.width *
               this.newSolarScreenWindow.height *
               this.gridPrice;
+
             this.newSolarScreenWindow.gridMsg = 'W/ Grid';
           }
           if (this.newSolarScreenWindow.grid === false) {
@@ -92,7 +91,6 @@ export class SolarScreenPriceCalcComponent implements OnInit {
       solarScreenWindow.id,
       solarScreenWindow
     );
-    console.log(solarScreenWindow);
   }
 
   switchGrid() {

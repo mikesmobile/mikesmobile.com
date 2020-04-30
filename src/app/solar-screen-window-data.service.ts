@@ -17,7 +17,7 @@ export class SolarScreenWindowDataService {
     if (!solarScreenWindows.id) {
       solarScreenWindows.id = ++this.lastId;
     }
-    console.log(solarScreenWindows);
+
     this.solarScreenWindows.push(solarScreenWindows);
     return this;
   }
@@ -39,7 +39,7 @@ export class SolarScreenWindowDataService {
     }
 
     Object.assign(solarScreenWindow, values);
-    console.log(this.solarScreenWindows);
+
     return solarScreenWindow;
   }
 

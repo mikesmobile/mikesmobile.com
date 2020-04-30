@@ -6,7 +6,7 @@ declare const google: any;
 @Component({
   selector: 'app-reviews',
   templateUrl: './reviews.component.html',
-  styleUrls: ['./reviews.component.sass']
+  styleUrls: ['./reviews.component.sass'],
 })
 export class ReviewsComponent implements AfterViewInit {
   service;
@@ -18,13 +18,12 @@ export class ReviewsComponent implements AfterViewInit {
   ngAfterViewInit() {
     const request = {
       placeId: 'ChIJ0YTo3ODQmoAReCXiej25K4Q',
-      fields: ['reviews']
+      fields: ['reviews'],
     };
-    console.log(this.service);
+
     this.service = new google.maps.places.PlacesService(
       document.getElementById('googleReviews')
     );
-    console.log(this.service);
 
     this.service.getDetails(request, this.callback);
   }
@@ -33,7 +32,6 @@ export class ReviewsComponent implements AfterViewInit {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       this.reviews = place.reviews.slice();
     }
-    console.log(this.reviews);
   };
 
   createRange(number) {

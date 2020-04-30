@@ -85,7 +85,6 @@ export class QuoteFormSolarScreenComponent implements OnInit {
 
   public show() {
     this.quoteModal.show();
-    console.log(this.solarScreenWindows);
   }
 
   hide() {
@@ -152,14 +151,6 @@ export class QuoteFormSolarScreenComponent implements OnInit {
       .catch(() => {
         this.submitFailed = true;
       });
-    console.log({
-      ...this.quoteFormGroup.value,
-      option,
-      utm_source,
-      utm_campaign,
-      totalCost,
-      ...this.solarScreenWindows,
-    });
   }
 
   ngOnInit() {}
