@@ -111,7 +111,7 @@ export class QuoteFormSolarScreenComponent implements OnInit {
     let utm_medium = '';
     let utm_campaign = '';
     let totalCost = this.totalCost;
-    let solarScreenWindows = this.solarScreenWindows;
+
     if (utm_cookie) {
       [utm_source, utm_medium, utm_campaign] = utm_cookie[2].split(':');
     }
@@ -122,6 +122,13 @@ export class QuoteFormSolarScreenComponent implements OnInit {
       option = url.toString();
     }
 
+    let stringArray = [];
+    this.solarScreenWindows.forEach((window) => {
+      stringArray.push(JSON.stringify(window));
+    });
+
+    let numWindows = stringArray.length;
+
     this.mailSolarService
       .send({
         ...this.quoteFormGroup.value,
@@ -130,7 +137,8 @@ export class QuoteFormSolarScreenComponent implements OnInit {
         utm_medium,
         utm_campaign,
         totalCost,
-        solarScreenWindows,
+        ...stringArray,
+        numWindows,
       })
       .then((res) => {
         if (!res.ok) {
@@ -150,7 +158,7 @@ export class QuoteFormSolarScreenComponent implements OnInit {
       utm_source,
       utm_campaign,
       totalCost,
-      solarScreenWindows,
+      ...this.solarScreenWindows,
     });
   }
 

@@ -5,6 +5,9 @@ export class MailSolarService {
   async send(data: any) {
     const apiEndpoint = 'https://api.mikesmobile.com/solar/';
 
+    // use to test locally
+    // const apiEndpoint = 'http://localhost:8080/solar';
+
     let formBody: any = [];
     for (let property in data) {
       let encodedKey = encodeURIComponent(property);
