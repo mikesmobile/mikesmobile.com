@@ -58,8 +58,8 @@
                 <tr *ngFor="let solarScreenWindow of solarScreenWindows">
                   <th scope="row">{{ solarScreenWindow.name }}</th>
                   <td>
-                    {{ solarScreenWindow.width }}" x
-                    {{ solarScreenWindow.height }}"
+                    {{ solarScreenWindow.width }}' x
+                    {{ solarScreenWindow.height }}'
                     {{ solarScreenWindow.gridMsg }}
                   </td>
                   <td>Price: {{ solarScreenWindow.price }}</td>
@@ -72,7 +72,7 @@
                 </tr>
                 <tr>
                   <th scope="row">
-                    Total Number of windows: {{ solarScreenWindows.length }}
+                    Total Number of Windows: {{ solarScreenWindows.length }}
                   </th>
                   <td></td>
                   <td>
@@ -81,11 +81,21 @@
                       >${{ solarScreenTotal }}</span
                     >
                   </td>
-                  <td></td>
+                  <td>Installed*</td>
                   <td></td>
                 </tr>
               </tbody>
             </table>
+            <div
+              *ngFor="let solarScreenWindow of solarScreenWindows"
+              class="container text-center"
+            >
+              <div class="row">
+                <div class="col">
+                  <p>Includes taxes and installation fees!</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -96,7 +106,7 @@
               <h4
                 class="animated pulse infinite orange-text pb-3 cursor-pointer"
               >
-                &nbsp; Schedule a Technition now!
+                &nbsp; Schedule a Technician now!
               </h4>
             </div>
           </div>
@@ -108,7 +118,7 @@
       <div class="row align-items-end">
         <div class="col-md">
           <label for="solarWindowName"
-            >Change the name to help remember which window!</label
+            >Add a location to the name to help remember which window!</label
           >
           <div class="input-group">
             <input
@@ -122,12 +132,12 @@
         </div>
         <div class="col-md">
           <label for="windowWidth"
-            >Window Width: Rounded up to nearest whole foot.</label
+            >Window Width: Rounded Up to Nearest Whole Foot.</label
           >
           <div class="input-group">
             <input
               class="new-solarScreenWindow-width form-control"
-              placeholder="Width of window"
+              placeholder="Width of Window"
               id="windowWidth"
               type="number"
               aria-describedby="windowWidth"
@@ -141,12 +151,12 @@
         </div>
         <div class="col-md">
           <label for="windowHeight"
-            >Window Height: Round up to nearest whole foot.</label
+            >Window Height: Round Up to Nearest Whole Foot.</label
           >
           <div class="input-group">
             <input
               class="new-solarScreenWindow-height form-control"
-              placeholder="Height of window"
+              placeholder="Height of Window"
               id="windowHeight"
               type="number"
               autofocus=""
@@ -157,8 +167,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
-          <label for="gridToggle">With Grid?</label>
+        <div class="col-md mx-0 px-0">
+          <label for="gridToggle">Include Grid?</label>
           <div class="cursor-pointer" (click)="switchGrid()">
             <i
               class="fas fa-check mx-1 p-1"
