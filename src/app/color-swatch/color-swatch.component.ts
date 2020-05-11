@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-color-swatch',
   templateUrl: './color-swatch.component.html',
-  styleUrls: ['./color-swatch.component.sass']
+  styleUrls: ['./color-swatch.component.sass'],
 })
 export class ColorSwatchComponent implements OnInit {
   @Input() swatchType;
@@ -13,8 +13,8 @@ export class ColorSwatchComponent implements OnInit {
     name: 'Standard Colors',
     values: {
       'Anodized Bronze': '#2D3017',
-      White: '#fafbfb'
-    }
+      White: '#fafbfb',
+    },
   };
 
   colorSetx4 = {
@@ -23,8 +23,8 @@ export class ColorSwatchComponent implements OnInit {
       Almond: '#F3E7D3',
       'Anodized Bronze': '#2D3017',
       Mill: '#999AA3',
-      White: '#ffffff'
-    }
+      White: '#ffffff',
+    },
   };
 
   colorSetx6 = {
@@ -35,8 +35,8 @@ export class ColorSwatchComponent implements OnInit {
       Champagne: '#A69882',
       'Desert Sand': '#F4EBD4',
       Mill: '#999AA3',
-      White: '#ffffff'
-    }
+      White: '#ffffff',
+    },
   };
 
   swingingDoorColors = {
@@ -49,8 +49,8 @@ export class ColorSwatchComponent implements OnInit {
       Mill: '#999AA3',
       'Anodized Satin': '#E1E2E8',
       Tan: '#AD8166',
-      White: '#ffffff'
-    }
+      White: '#ffffff',
+    },
   };
 
   slidingSecurityDoorColors = {
@@ -71,8 +71,8 @@ export class ColorSwatchComponent implements OnInit {
       'Evening Blue': '#1F4769',
       'New Bronze': '#40372D',
       'Forest Green': '#0E251B',
-      'Statuary Bronze': '#42372F'
-    }
+      'Statuary Bronze': '#42372F',
+    },
   };
 
   screenFrameColors = {
@@ -82,8 +82,8 @@ export class ColorSwatchComponent implements OnInit {
       Black: '/assets/images/colors/suntex-black.png',
       Brown: '/assets/images/colors/suntex-brown.png',
       Gray: '/assets/images/colors/suntex-grey.png',
-      Stucco: '/assets/images/colors/suntex-stucco.png'
-    }
+      Stucco: '/assets/images/colors/suntex-stucco.png',
+    },
   };
 
   petDoorColors = {
@@ -92,8 +92,8 @@ export class ColorSwatchComponent implements OnInit {
       Almond: '/assets/images/screens/pet-door/almond-frame.jpg',
       Bronze: '/assets/images/screens/pet-door/bronze-frame.jpg',
       Mill: '/assets/images/screens/pet-door/mill-frame.jpg',
-      White: '/assets/images/screens/pet-door/white-frame.jpg'
-    }
+      White: '/assets/images/screens/pet-door/white-frame.jpg',
+    },
   };
 
   quickEscapeColors = {
@@ -107,8 +107,8 @@ export class ColorSwatchComponent implements OnInit {
       'Sahara Brown': '#7b6d5d',
       'Sahara Gray': '#92989b',
       Silver: '#e9e9eb',
-      White: '#ffffff'
-    }
+      White: '#ffffff',
+    },
   };
 
   titanSecurityColors = {
@@ -123,12 +123,14 @@ export class ColorSwatchComponent implements OnInit {
       Copperclad: '/assets/images/security/titan/colors/copperclad.jpg',
       Wineberry: '/assets/images/security/titan/colors/wineberry.jpg',
       Black: '/assets/images/security/titan/colors/black.jpg',
+      'Metal Gray - Satin Finish':
+        '/assets/images/security/titan/colors/metal_gray.png',
       'Blue Hammertone':
         '/assets/images/security/titan/colors/blue-hammertone.jpg',
       'Forest Green': '/assets/images/security/titan/colors/forest-green.jpg',
       'Red Hammertone':
-        '/assets/images/security/titan/colors/red-hammertone.jpg'
-    }
+        '/assets/images/security/titan/colors/red-hammertone.jpg',
+    },
   };
 
   titanAluminumColors = {
@@ -141,16 +143,16 @@ export class ColorSwatchComponent implements OnInit {
         '/assets/images/security/titan/colors/aluminum_desert-sand.jpg',
       'Royal Brown':
         '/assets/images/security/titan/colors/aluminum_royal-brown.jpg',
-      Black: '/assets/images/security/titan/colors/aluminum_black.jpg'
-    }
+      Black: '/assets/images/security/titan/colors/aluminum_black.jpg',
+    },
   };
 
   meshtecColor = {
     name: 'Meshtec Screen',
     values: {
       Meshtec:
-        '/assets/images/security/titan/colors/meshtec-security-screen.jpg'
-    }
+        '/assets/images/security/titan/colors/meshtec-security-screen.jpg',
+    },
   };
 
   lifestyleColors = {
@@ -158,8 +160,8 @@ export class ColorSwatchComponent implements OnInit {
     values: {
       White: '#ffffff',
       Brown: '#542a00',
-      Sandstone: '#dcc798'
-    }
+      Sandstone: '#dcc798',
+    },
   };
 
   lifestyleScreenColors = {
@@ -170,8 +172,8 @@ export class ColorSwatchComponent implements OnInit {
       'White (PVC Coated Polyester)':
         '/assets/images/screens/lifestyle/color_polyester_white.jpg',
       'Black (PVC Coated Polyester)':
-        '/assets/images/screens/lifestyle/color_polyester_black.jpg'
-    }
+        '/assets/images/screens/lifestyle/color_polyester_black.jpg',
+    },
   };
 
   ngOnInit() {

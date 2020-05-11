@@ -1,6 +1,6 @@
 export class SolarScreenWindow {
   id: number;
-  name: string = 'Window';
+  name: string = 'Screen';
   width: number;
   height: number;
   price: number;

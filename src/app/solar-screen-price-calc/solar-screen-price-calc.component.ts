@@ -20,6 +20,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
   minRegPrice: number = 103.55;
   gridMsg: string = '';
   totalCost: number;
+  count: number = 1;
   img: string = '/assets/images/solarScreenOrder/measure.jpg';
 
   constructor(
@@ -34,6 +35,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
   }
 
   addSolarScreenWindow() {
+    this.count++;
     if (this.newSolarScreenWindow.width && this.newSolarScreenWindow.height) {
       if (Number.isInteger(this.newSolarScreenWindow.width)) {
         this.errorMessage = '';
@@ -80,7 +82,30 @@ export class SolarScreenPriceCalcComponent implements OnInit {
     }
   }
 
+  calcPrice(solarScreenWindow) {
+    if (solarScreenWindow.grid === false) {
+      let newPrice =
+        solarScreenWindow.width * solarScreenWindow.height * this.regPrice;
+      if (newPrice < this.minRegPrice) {
+        newPrice = 103.55;
+        return newPrice.toFixed(2);
+      } else {
+        return newPrice.toFixed(2);
+      }
+    } else {
+      let newPrice =
+        solarScreenWindow.width * solarScreenWindow.height * this.gridPrice;
+      if (newPrice < this.minGridPrice) {
+        newPrice = 174.41;
+        return newPrice.toFixed(2);
+      } else {
+        return newPrice.toFixed(2);
+      }
+    }
+  }
+
   removeSolarScreenWindow(solarScreenWindow) {
+    this.count--;
     this.solarScreenWindowDataService.deleteSolarScreenWindowById(
       solarScreenWindow.id
     );
@@ -93,13 +118,17 @@ export class SolarScreenPriceCalcComponent implements OnInit {
     );
   }
 
-  switchGrid() {
-    if (this.grid === false) {
-      this.newSolarScreenWindow.grid = true;
-      this.grid = true;
+  switchGrid(SolarScreenWindow) {
+    console.log(SolarScreenWindow);
+    if (SolarScreenWindow.grid === false) {
+      SolarScreenWindow.grid = true;
+      SolarScreenWindow.price = parseFloat(this.calcPrice(SolarScreenWindow));
+      this.updateSolarScreenWindow(SolarScreenWindow);
     } else {
-      this.newSolarScreenWindow.grid = false;
-      this.grid = false;
+      console.log('trigger');
+      SolarScreenWindow.grid = false;
+      SolarScreenWindow.price = parseFloat(this.calcPrice(SolarScreenWindow));
+      this.updateSolarScreenWindow(SolarScreenWindow);
     }
   }
 
@@ -110,6 +139,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
   get solarScreenTotal() {
     let total = 0;
     for (let i = 0; i < this.solarScreenWindows.length; i++) {
+      console.log(this.solarScreenWindows[i].price);
       total = total + this.solarScreenWindows[i].price;
     }
     return total.toFixed(2);
