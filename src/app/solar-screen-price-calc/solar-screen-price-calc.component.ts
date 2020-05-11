@@ -122,11 +122,13 @@ export class SolarScreenPriceCalcComponent implements OnInit {
     console.log(SolarScreenWindow);
     if (SolarScreenWindow.grid === false) {
       SolarScreenWindow.grid = true;
+      SolarScreenWindow.gridMsg = 'w/ Grids';
       SolarScreenWindow.price = parseFloat(this.calcPrice(SolarScreenWindow));
       this.updateSolarScreenWindow(SolarScreenWindow);
     } else {
       console.log('trigger');
       SolarScreenWindow.grid = false;
+      SolarScreenWindow.gridMsg = '';
       SolarScreenWindow.price = parseFloat(this.calcPrice(SolarScreenWindow));
       this.updateSolarScreenWindow(SolarScreenWindow);
     }
