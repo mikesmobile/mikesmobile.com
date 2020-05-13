@@ -167,8 +167,6 @@ export class ColorSwatchComponent implements OnInit {
   lifestyleScreenColors = {
     name: 'Screen Materials',
     values: {
-      'Charcoal (Fiberglass)':
-        '/assets/images/screens/lifestyle/color_fiberglass_charcoal.jpg',
       'White (PVC Coated Polyester)':
         '/assets/images/screens/lifestyle/color_polyester_white.jpg',
       'Black (PVC Coated Polyester)':

@@ -64,6 +64,8 @@ import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.
 import { AnnouncementMessageComponent } from './announcementMessage/announcementMessage.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -136,7 +138,8 @@ import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-f
     BrowserAnimationsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
-    })
+    }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [Title, HammerProvider],
   bootstrap: [AppComponent]
