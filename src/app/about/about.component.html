@@ -75,17 +75,35 @@
               <p class="grey-text">
                 Mike’s Mobile Screen & Chimney Service has never been easier to
                 hire for all of your Screen, Security Door and Chimney needs.
-                Simply visit
-                <a
-                  routerLink="/contact"
-                  type="button"
-                  class="btn btn-lg orange btn-rounded waves-light"
-                  mdbRippleRadius
-                >
-                  Contact
-                </a>
-                or Click FREE Quote.
+                Simply visit our
               </p>
+              <a
+                routerLink="/contact"
+                type="button"
+                class="btn btn-lg orange btn-rounded waves-light"
+                mdbRippleRadius
+              >
+                Contact us page
+              </a>
+              <p>Or</p>
+              <div
+                class="flex-row mt-2 d-none d-md-block cursor-pointer text-center"
+                (click)="openQuoteForm()"
+              >
+                <h4 class="animated pulse infinite orange-text pb-1">
+                  &nbsp; Get a Free Quote Now!
+                </h4>
+              </div>
+              <div class="flex-row d-md-none ml-5 pl-5">
+                <a class="white-text" href="tel:+18009929938">
+                  <h4
+                    class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
+                  >
+                    <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call
+                    Now!
+                  </h4>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -94,3 +112,5 @@
     <app-faq-list></app-faq-list>
   </div>
 </div>
+
+<app-quote-form></app-quote-form>
