@@ -515,21 +515,38 @@
     </div>
   </ng-container>
   <ng-container *ngIf="landing.slug === 'security-doors-and-windows'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Upgrade your style along with security with our security doors. Whether
-        you are looking for a traditional security door for safety or our high
-        quality aluminum security doors to protect both your view and your home,
-        Mike’s Mobile Screens has plenty of options for you.
-      </p>
+    <h1 class="p-0 m-0 title" [innerHTML]="landing.title"></h1>
+    <div class="jumbotron text-white blue p-1">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <h1>Maximum Security Without Sacraficing Your Homes Style</h1>
+            <p>
+              You can Have security and peace of mind without the unsightly bars
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <app-img
+              src="/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+              class="img-fluid"
+              alt="Maximum Security Without the bars"
+            ></app-img>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center py-4">
       <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-left-md">Front Security Screen Doors</h3>
+        </div>
+      </div>
+      <hr />
+      <div class="row align-items-center">
         <div class="col-12 col-md-7 pb-3">
           <app-main-gallery [Images]="security_door_gallery"></app-main-gallery>
         </div>
         <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Front Security Screen Doors</h3>
           <div class="container">
             <ul class="pb-3">
               <li id="l2">
@@ -568,19 +585,15 @@
                 Tru View
               </a>
             </div>
-            <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
-              <h4
-                class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
-              >
-                &nbsp; Get a Free Quote Now!
-              </h4>
-            </div>
           </div>
         </div>
       </div>
-      <br />
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-left-md">Patio Doors</h3>
+        </div>
+      </div>
       <hr />
-      <br />
       <div class="row">
         <div class="col-12 d-md-none pb-3">
           <a routerLink="/products/sliding-security-doors">
@@ -592,7 +605,6 @@
           </a>
         </div>
         <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Patio Doors</h3>
           <div class="container">
             <p class="p-2">
               A sliding security door replaces your existing patio screen door.
@@ -622,9 +634,12 @@
           </a>
         </div>
       </div>
-      <br />
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-left-md">Security Window Screens</h3>
+        </div>
+      </div>
       <hr />
-      <br />
       <div class="row">
         <div class="col-12 col-md-7 pb-3">
           <app-main-gallery
@@ -632,7 +647,6 @@
           ></app-main-gallery>
         </div>
         <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Security Window Screens</h3>
           <div class="container">
             <p class="p-2">
               Security bars are an unattractive and potentially illegal way to
