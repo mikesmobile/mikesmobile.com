@@ -4162,6 +4162,12 @@
         "small": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
         "medium": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
         "big": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "Home Sweet Home Viewguard secutiry door",
+        "small": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "medium": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
       }
     ],
     "details": [

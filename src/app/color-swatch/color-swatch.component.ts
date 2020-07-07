@@ -11,16 +11,37 @@ export class ColorSwatchComponent implements OnInit {
     name: String;
     values: Object;
     galery: Array<String>;
+    keys: Array<String>;
   };
 
   @ViewChild('ColorModal') public colorModal;
-  public colorName: string;
-  public modalImagePath: string;
+  public currentIndex: number;
+  public modalImagePath: String;
+  public currentName: String;
 
-  show(val: string) {
-    this.colorName = val;
-    this.modalImagePath = this.colors.values[this.colorName];
+  show(val: number) {
+    this.currentIndex = val;
+    this.modalImagePath = this.colors.galery[this.currentIndex];
+    this.currentName = this.colors.keys[this.currentIndex];
     this.colorModal.show();
+  }
+
+  next() {
+    this.currentIndex =
+      this.currentIndex >= this.colors.galery.length - 1
+        ? 0
+        : this.currentIndex + 1;
+    this.modalImagePath = this.colors.galery[this.currentIndex];
+    this.currentName = this.colors.keys[this.currentIndex];
+  }
+
+  previous() {
+    this.currentIndex =
+      this.currentIndex === 0
+        ? this.colors.galery.length - 1
+        : this.currentIndex - 1;
+    this.modalImagePath = this.colors.galery[this.currentIndex];
+    this.currentName = this.colors.keys[this.currentIndex];
   }
 
   stdColors = {
@@ -29,7 +50,8 @@ export class ColorSwatchComponent implements OnInit {
       'Anodized Bronze': '#2D3017',
       White: '#fafbfb',
     },
-    galery: ['#fafbfb', '#2D3017'],
+    galery: ['#2D3017', '#fafbfb'],
+    keys: ['Anodized Bronze', 'White'],
   };
 
   colorSetx4 = {
@@ -41,6 +63,7 @@ export class ColorSwatchComponent implements OnInit {
       White: '#ffffff',
     },
     galery: ['#F3E7D3', '#2D3017', '#999AA3', '#ffffff'],
+    keys: ['Almond', 'Anodized Bronze', 'Mill', 'White'],
   };
 
   colorSetx6 = {
@@ -54,6 +77,7 @@ export class ColorSwatchComponent implements OnInit {
       White: '#ffffff',
     },
     galery: ['#000000', '#473428', '#A69882', '#F4EBD4', '#999AA3', '#ffffff'],
+    keys: ['Black', 'Bronze', 'Champagne', 'Desert Sand', 'Mill', 'White'],
   };
 
   swingingDoorColors = {
@@ -77,6 +101,16 @@ export class ColorSwatchComponent implements OnInit {
       '#E1E2E8',
       '#AD8166',
       '#ffffff',
+    ],
+    keys: [
+      'Adobe',
+      'Almond',
+      'Black',
+      'Anodized Bronze',
+      'Mill',
+      'Anodized Satin',
+      'Tan',
+      'White',
     ],
   };
 
@@ -118,6 +152,24 @@ export class ColorSwatchComponent implements OnInit {
       '#0E251B',
       '#42372F',
     ],
+    keys: [
+      'Alabaster',
+      'Almond Cream',
+      'Autumn Brown',
+      'Bear Green',
+      'Champagne Beige',
+      'Charcoal Grey',
+      'Country Blue',
+      'Desert Sand',
+      'Flat Black',
+      'New England Grey',
+      'Post Office Blue',
+      'Terra Cotta',
+      'Evening Blue',
+      'New Bronze',
+      'Forest Green',
+      'Sanctuary Bronze',
+    ],
   };
 
   screenFrameColors = {
@@ -135,6 +187,7 @@ export class ColorSwatchComponent implements OnInit {
       '/assets/images/colors/suntex-brown.png',
       '/assets/images/colors/suntex-grey.png',
     ],
+    keys: ['Beige', 'Black', 'Brown', 'Gray', 'Stucco'],
   };
 
   petDoorColors = {
@@ -151,6 +204,7 @@ export class ColorSwatchComponent implements OnInit {
       '/assets/images/screens/pet-door/mill-frame.jpg',
       '/assets/images/screens/pet-door/white-frame.jpg',
     ],
+    keys: ['Almond', 'Bronze', 'Mill', 'White'],
   };
 
   quickEscapeColors = {
@@ -176,6 +230,17 @@ export class ColorSwatchComponent implements OnInit {
       '#92989b',
       '#e9e9eb',
       '#ffffff',
+    ],
+    keys: [
+      'Almond',
+      'Black',
+      'Brown',
+      'Bronze',
+      'Light Gray',
+      'Sahara Brown',
+      'Sahara Gray',
+      'Silver',
+      'White',
     ],
   };
 
@@ -212,6 +277,21 @@ export class ColorSwatchComponent implements OnInit {
       '/assets/images/security/titan/colors/metal_gray.png',
       '/assets/images/security/titan/colors/blue-hammertone.jpg',
     ],
+    keys: [
+      'White',
+      'Beige Hammer',
+      'Desert Sand',
+      'Terra Beige',
+      'Silverado',
+      'Royal Brown',
+      'Copperclad',
+      'Wineberry',
+      'Black',
+      'Metal Gray - Satin-Finish',
+      'Blue Hammertone',
+      'Forest Green',
+      'Red Hammertone',
+    ],
   };
 
   titanAluminumColors = {
@@ -233,6 +313,7 @@ export class ColorSwatchComponent implements OnInit {
       '/assets/images/security/titan/colors/aluminum_royal-brown.jpg',
       '/assets/images/security/titan/colors/aluminum_black.jpg',
     ],
+    keys: ['White', 'Beige Hammer', 'Desert Sand', 'Royal Brown', 'Black'],
   };
 
   meshtecColor = {
@@ -241,7 +322,10 @@ export class ColorSwatchComponent implements OnInit {
       Meshtec:
         '/assets/images/security/titan/colors/meshtec-security-screen.jpg',
     },
-    galery: [],
+    galery: [
+      '/assets/images/security/titan/colors/meshtec-security-screen.jpg',
+    ],
+    keys: ['Meshtec'],
   };
 
   lifestyleColors = {
@@ -252,6 +336,7 @@ export class ColorSwatchComponent implements OnInit {
       Sandstone: '#dcc798',
     },
     galery: ['#ffffff', '#542a00', '#dcc798'],
+    keys: ['White', 'Brown', 'Sandstone'],
   };
 
   lifestyleScreenColors = {
@@ -266,6 +351,7 @@ export class ColorSwatchComponent implements OnInit {
       '/assets/images/screens/lifestyle/color_polyester_white.jpg',
       '/assets/images/screens/lifestyle/color_polyester_black.jpg',
     ],
+    keys: ['White', 'Black'],
   };
 
   ngOnInit() {

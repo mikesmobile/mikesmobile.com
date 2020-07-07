@@ -13,7 +13,7 @@
         placement="bottom"
         data-toggle="modal"
         data-target="#colorModal"
-        (click)="show(color.key)"
+        (click)="show(j)"
       ></div>
       <div
         *ngIf="color.value[0] === '/'"
@@ -26,72 +26,71 @@
         placement="bottom"
         data-toggle="modal"
         data-target="#colorModal"
-        (click)="show(color.key)"
+        (click)="show(j)"
       ></div>
       <div
         mdbModal
         #ColorModal="mdb-modal"
-        id="colorModal"
         class="modal fade"
+        id="colorModal"
         tabindex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-dialog modalBox" role="img">
           <div class="modal-content">
             <div class="modal-header">
               <button
                 type="button"
-                class="close"
+                class="btn btn-danger waves-light"
                 data-dismiss="modal"
-                aria-label="Close"
                 (click)="ColorModal.hide()"
+                mdbWavesEffect
               >
-                <span aria-hidden="true">×</span>
+                X
               </button>
             </div>
-            <div class="text-center">
-              <mdb-carousel class="mt-3" [animation]="'slide'">
-                <div *ngFor="let otherColor of colors.galery">
-                  <mdb-carousel-item
-                    *ngIf="otherColor === modalImagePath"
-                    class="carousel-item active"
-                  >
-                    <div
-                      *ngIf="otherColor[0] === '#'"
-                      class="square-lg"
-                      [ngStyle]="{ background: otherColor }"
-                      placement="bottom"
-                    ></div>
-                    <div
-                      *ngIf="otherColor[0] === '/'"
-                      class="square-lg"
-                      [ngStyle]="{
-                        'background-image': 'url(' + otherColor + ')',
-                        'background-size': 'cover'
-                      }"
-                      placement="bottom"
-                    ></div>
-                  </mdb-carousel-item>
-                  <mdb-carousel-item class="carousel-item">
-                    <div
-                      *ngIf="otherColor[0] === '#'"
-                      class="square-lg"
-                      [ngStyle]="{ background: otherColor }"
-                      placement="bottom"
-                    ></div>
-                    <div
-                      *ngIf="otherColor[0] === '/'"
-                      class="square-lg"
-                      [ngStyle]="{
-                        'background-image': 'url(' + otherColor + ')',
-                        'background-size': 'cover'
-                      }"
-                      placement="bottom"
-                    ></div>
-                  </mdb-carousel-item>
-                </div>
-              </mdb-carousel>
+            <div *ngIf="modalImagePath" class="text-center">
+              <div
+                *ngIf="modalImagePath[0] === '#'"
+                class="square-lg"
+                [ngStyle]="{ background: modalImagePath }"
+                placement="bottom"
+              ></div>
+              <div
+                *ngIf="modalImagePath[0] === '/'"
+                class="square-lg"
+                [ngStyle]="{
+                  'background-image': 'url(' + modalImagePath + ')',
+                  'background-size': 'cover'
+                }"
+                placement="bottom"
+              ></div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-primary waves-light"
+                (click)="previous()"
+                mdbWavesEffect
+              >
+                <span
+                  aria-hidden="true"
+                  class="carousel-control-prev-icon"
+                ></span>
+              </button>
+              <h4 class="modalColorTitle">{{ currentName }}</h4>
+              <button
+                type="button"
+                class="btn btn-primary waves-light"
+                (click)="next()"
+                mdbWavesEffect
+              >
+                <span
+                  aria-hidden="true"
+                  class="carousel-control-next-icon"
+                ></span>
+              </button>
             </div>
           </div>
         </div>
