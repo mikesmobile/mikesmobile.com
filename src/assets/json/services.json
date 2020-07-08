@@ -3245,12 +3245,6 @@
           "Can I install this in a steel door": "Yes! This can be installed almost anywhere, although we suggest installing in solid core materials.",
           "I would like to purchase this in replacement of my Johnson frame, are they going to fit the hole in my door exactly the same": "The dimensions should be pretty close. We would suggest double checking your existing rough cut to make sure this new item will fit. For any flap size, the rough cut dimension is included in the size chart."
         }
-      },
-      {
-        "title": "Video",
-        "video": {
-          "Pet Doors": "https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
-        }
       }
     ],
     "colorSet": ["petDoorColors"],
