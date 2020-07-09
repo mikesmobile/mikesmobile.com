@@ -4,7 +4,7 @@
 
 //changes word height on card tiles, 100px, 200px, 350px,
 
-@include breakpoint(md)
+@include breakpoint(lg)
   .card-title
     margin-top: 325px
 
@@ -17,7 +17,9 @@
 
 .tile
   height: 100px
-  @include breakpoint(sm)
+  @include breakpoint(md)
+    height: 250px
+  @include breakpoint(lg)
     height: 500px
 
 .tileImg
