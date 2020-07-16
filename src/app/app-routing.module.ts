@@ -232,6 +232,10 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
+  {
+    path: 'services/chimney-bullet-proofing',
+    component: ServiceDetailComponent,
+  },
   // { path: 'promo', component: PromoComponent },
   { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
   { path: 'dropRollPriceCalc', component: DropRollCalcComponent },

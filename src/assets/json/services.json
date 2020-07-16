@@ -3410,6 +3410,50 @@
     ]
   },
   {
+    "title": "Chimney Bullet Proofing",
+    "slug": "chimney-bullet-proofing",
+    "category": "Chimney Services",
+    "type": "services",
+    "fullTileImage": "/assets/images/chimneys/cleaning/chimney_cleaning.jpg",
+    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg",
+    "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
+    "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
+    "textList": [
+      {
+        "title": "Overview",
+        "description": "Turn your chimney into a weatherproof fortress. The Chimney bullet proofing packages is everything you need to fix your chimney for life."
+      },
+      {
+        "title": "What's Included",
+        "description": "<ul><li>Crown Cap<ul><li>Custom Built, roof for your chimney!</li></ul></li><li>Crown Seal<ul><li>Add's a protective barrier over your chimney's crown for the rest of it's life</li></ul></li><li>Water Proofing<ul><li>Sprayed onto the stack, files in all the cracks</li></ul></li><li>Flash Seal<ul><li>Prevents water from getting into your atic where your chimney goes through the roof.</li></ul></li></ul>"
+      },
+      {
+        "title": "Warranty Info",
+        "description": "For life!"
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Vacuuming Chimney Cleaning",
+        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
+        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
+        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg"
+      },
+      {
+        "alt": "Inside Chimney Cleaning",
+        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
+        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
+        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg"
+      },
+      {
+        "alt": "Brushing Chimney Clean",
+        "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
+        "medium": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
+        "big": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg"
+      }
+    ]
+  },
+  {
     "title": "Gas Fireplace Repair & Service",
     "slug": "gas-fireplace-repair-and-service",
     "category": "Chimney Services",

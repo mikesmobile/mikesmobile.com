@@ -296,6 +296,12 @@
                 Keep your home warm while avoiding costly repairs with radiant
                 fire brick!
               </h5>
+              <h5
+                *ngIf="service.slug === 'flashing'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep your attic dry, help prevent leaks.
+              </h5>
 
               <hr />
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
