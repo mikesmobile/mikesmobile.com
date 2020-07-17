@@ -302,14 +302,85 @@
               >
                 Keep your attic dry, help prevent leaks.
               </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-bullet-proofing'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Our worry free guarantee, your leaky chimney will leak no more
+              </h5>
 
               <hr />
-              <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+              <mdb-squeezebox
+                *ngIf="service.slug !== 'chimney-bullet-proofing'"
+                [multiple]="false"
+                aria-multiselectable="true"
+              >
                 <mdb-item *ngFor="let item of service.textList; index as i">
                   <mdb-item-head>{{ item.title }}</mdb-item-head>
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
+              <mdb-squeezebox
+                *ngIf="service.slug === 'chimney-bullet-proofing'"
+                [multiple]="false"
+                aria-multiselectable="true"
+              >
+                <mdb-item>
+                  <mdb-item-head>Overview</mdb-item-head>
+                  <mdb-item-body
+                    >Turn your chimney into a weatherproof fortress. The Chimney
+                    bullet proofing packages is everything you need to fix your
+                    chimney for life.</mdb-item-body
+                  >
+                </mdb-item>
+                <mdb-item>
+                  <mdb-item-head>What's Included</mdb-item-head>
+                  <mdb-item-body
+                    ><ul>
+                      <li>
+                        Crown Cap
+                        <ul>
+                          <li>Custom Built, roof for your chimney!</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Crown Seal
+                        <ul>
+                          <li>
+                            Add's a protective barrier over your chimney's crown
+                            for the rest of it's life
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Water Proofing
+                        <ul>
+                          <li>
+                            Sprayed onto the stack, files in all the cracks
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Flash Seal
+                        <ul>
+                          <li>
+                            Prevents water from getting into your atic where
+                            your chimney goes through the roof.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul></mdb-item-body
+                  >
+                </mdb-item>
+                <mdb-item>
+                  <mdb-item-head>Warranty Info</mdb-item-head>
+                  <mdb-item-body>For life!</mdb-item-body>
+                </mdb-item>
+              </mdb-squeezebox>
+
+              <div *ngIf="service.slug === 'chimney-bullet-proofing'">
+                <h1>{{ secretMessage }}</h1>
+              </div>
               <mdb-squeezebox
                 *ngIf="price && service.slug !== 'gas-fireplace-annual-service'"
                 class="pricesTag"

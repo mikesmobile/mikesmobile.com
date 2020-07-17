@@ -12,13 +12,15 @@ import priceJSON from '../../assets/json/prices.json';
   templateUrl: './service-detail.component.html',
   styleUrls: [
     './service-detail.component.sass',
-    '../flipcard-list/flipcard-list.component.sass'
-  ]
+    '../flipcard-list/flipcard-list.component.sass',
+  ],
 })
 export class ServiceDetailComponent implements OnInit {
   service: any;
   price;
   img;
+  utm_cookie;
+  secretMessage;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -32,6 +34,22 @@ export class ServiceDetailComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    // Read UTM Cookie
+    this.utm_cookie = document.cookie.match('(^|;) ?utm=([^;]*)(;|$)');
+    console.log(this.utm_cookie);
+    let utm_source = '';
+    let utm_medium = '';
+    let utm_campaign = '';
+    if (this.utm_cookie) {
+      [utm_source, utm_medium, utm_campaign] = this.utm_cookie[2].split(':');
+    }
+    if (
+      this.utm_cookie &&
+      this.utm_cookie[2] === 'capcitymetalworks:rooferpage:option1'
+    ) {
+      this.secretMessage = 'hello';
+    }
+
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
@@ -40,7 +58,7 @@ export class ServiceDetailComponent implements OnInit {
               name: data.title,
               description: data.tileText,
               image: data.tileImage,
-              offers: data.offers
+              offers: data.offers,
             });
             return true;
           } else {
@@ -48,7 +66,7 @@ export class ServiceDetailComponent implements OnInit {
               name: data.title,
               description: data.tileText,
               image: data.tileImage,
-              offers: ''
+              offers: '',
             });
             return true;
           }
