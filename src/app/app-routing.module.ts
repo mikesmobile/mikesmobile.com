@@ -109,10 +109,10 @@ const appRoutes: Routes = [
     path: 'about/chimney-services/chimney-services-in-san-ramon',
     redirectTo: '/regions/antioch-east-bay',
   },
-  {
-    path: 'awnings',
-    redirectTo: '/services/retractable-patio-awnings',
-  },
+  // {
+  //   path: 'awnings',
+  //   redirectTo: '/services/retractable-patio-awnings',
+  // },
   {
     path: 'chimneys/antioch-east-bay-region',
     redirectTo: '/regions/antioch-east-bay',
@@ -233,8 +233,8 @@ const appRoutes: Routes = [
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   // { path: 'promo', component: PromoComponent },
-  { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
-  { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
+  // { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
+  // { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
 
   { path: '', pathMatch: 'full', component: HomeComponent },

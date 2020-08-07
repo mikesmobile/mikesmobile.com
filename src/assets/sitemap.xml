@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://mikesmobile.com/</loc></url>
 <url><loc>https://mikesmobile.com/about</loc></url>
-<url><loc>https://mikesmobile.com/about/awnings</loc></url>
+<!-- <url><loc>https://mikesmobile.com/about/awnings</loc></url> -->
 <url><loc>https://mikesmobile.com/about/chimney-services</loc></url>
 <url><loc>https://mikesmobile.com/about/door-and-window-screens</loc></url>
 <url><loc>https://mikesmobile.com/about/door-screens</loc></url>
@@ -142,7 +142,7 @@
 <url><loc>https://mikesmobile.com/services/chimney-inspections</loc></url>
 <url><loc>https://mikesmobile.com/services/chimney-liner</loc></url>
 <url><loc>https://mikesmobile.com/services/crown-seal</loc></url>
-<url><loc>https://mikesmobile.com/services/drop-roll-sunscreens</loc></url>
+<!-- <url><loc>https://mikesmobile.com/services/drop-roll-sunscreens</loc></url> -->
 <url><loc>https://mikesmobile.com/services/dryer-vent-cleaning</loc></url>
 <url><loc>https://mikesmobile.com/services/fireplace-glass-doors</loc></url>
 <url><loc>https://mikesmobile.com/services/masonry-repair</loc></url>
@@ -150,7 +150,7 @@
 <url><loc>https://mikesmobile.com/services/rear-firewall-heat-damage</loc></url>
 <url><loc>https://mikesmobile.com/services/refractory-panels</loc></url>
 <url><loc>https://mikesmobile.com/services/fireplace-grate</loc></url>
-<url><loc>https://mikesmobile.com/services/retractable-patio-awnings</loc></url>
+<!-- <url><loc>https://mikesmobile.com/services/retractable-patio-awnings</loc></url> -->
 <url><loc>https://mikesmobile.com/services/window-screen-repair</loc></url>
 <url><loc>https://mikesmobile.com/services/masonry/brick-block-stone-veneer</loc></url>
 <url><loc>https://mikesmobile.com/services/masonry/chimney-rebuild</loc></url>
