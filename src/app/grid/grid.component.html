@@ -9,6 +9,28 @@
           >
           <span class="breadcrumb-item active">Swinging Screen Doors</span>
         </nav>
+        <div class="d-flex flex-column flex-md-row align-items-end">
+          <h1 class="h1 my-0 align-baseline">
+            Swinging Screen Doors
+          </h1>
+          <h3 *ngIf="price" class="h3 my-1 mx-2 align-baseline">
+            <a
+              mdbPageScroll
+              href="#disclaimer"
+              mdbRippleRadius
+              [pageScrollDuration]="400"
+              [pageScrollOffset]="110"
+            >
+              <span class="text-left h4" *ngFor="let item of price.price">
+                - Starts at {{ item.type }}
+                <span class="price h1"
+                  >{{ item.price }}<span class="text-dark">*</span></span
+                >
+              </span>
+            </a>
+          </h3>
+        </div>
+        <hr />
         <div class="row">
           <div class="col-12 col-md-7 pb-3 swingingScreenDoorImg">
             <app-main-gallery
@@ -16,23 +38,10 @@
             ></app-main-gallery>
           </div>
           <div class="col-12 col-md-5 productInfo">
-            <h1 class="text-left h5">Screen Doors</h1>
-            <h2 class="text-left h3 makeNewLine">
-              Swinging Screen Doors
-              <a
-                *ngIf="price"
-                mdbPageScroll
-                href="#disclaimer"
-                mdbRippleRadius
-                [pageScrollDuration]="400"
-                [pageScrollOffset]="110"
-              >
-                <span class="text-left h3" *ngFor="let item of price.price">
-                  - {{ item.type }}
-                  <span class="price">{{ item.price }}</span> Installed*
-                </span>
-              </a>
-            </h2>
+            <h5 class="text-left font-weight-bold font-italic">
+              Our custom-fit swinging screen doors let air in while keeping
+              pests out!
+            </h5>
             <div class="container">
               <ul class="pb-3">
                 <li class="l2">
@@ -127,7 +136,28 @@
             >Titan Security Screen Doors</span
           >
         </nav>
-
+        <div class="d-flex flex-column flex-md-row align-items-end">
+          <h1 class="h1 my-0 align-baseline">
+            Titan Security Screen Doors
+          </h1>
+          <h3 *ngIf="price" class="h3 my-1 mx-2 align-baseline">
+            <a
+              mdbPageScroll
+              href="#disclaimer"
+              mdbRippleRadius
+              [pageScrollDuration]="400"
+              [pageScrollOffset]="110"
+            >
+              <span class="text-left h4" *ngFor="let item of price.price">
+                - Starts at {{ item.type }}
+                <span class="price h1"
+                  >{{ item.price }}<span class="text-dark">*</span></span
+                >
+              </span>
+            </a>
+          </h3>
+        </div>
+        <hr />
         <div class="row">
           <div class="col-12 col-md-7 pb-3">
             <app-main-gallery
@@ -135,23 +165,11 @@
             ></app-main-gallery>
           </div>
           <div class="col-12 col-md-5 productInfo">
-            <h1 class="text-left h5">Security Screen Doors</h1>
-            <h2 class="text-left h3 makeNewLine">
-              Titan Security Screen Doors
-              <a
-                *ngIf="price"
-                mdbPageScroll
-                href="#disclaimer"
-                mdbRippleRadius
-                [pageScrollDuration]="400"
-                [pageScrollOffset]="110"
-              >
-                <span class="text-left h3" *ngFor="let item of price.price">
-                  - {{ item.type }}
-                  <span class="price">{{ item.price }}</span> Installed*
-                </span>
-              </a>
-            </h2>
+            <h5 class="text-left font-weight-bold font-italic">
+              Our Titan security screens help you maximize your home's curb
+              appeal while staying safe!
+            </h5>
+            <hr />
             <div class="container">
               <ul class="pb-3">
                 <li class="l2">
@@ -195,9 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center text-center">
-          <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
-        </div>
+
         <hr class="mt-4" />
         <p
           class="my-5 section-description"
@@ -222,7 +238,6 @@
                 ></app-img>
                 <div class="mask rgba-white-light"></div>
               </div>
-
               <div class="card-body text-center">
                 <h4 class="card-title">
                   <strong
@@ -458,4 +473,7 @@
       </section>
     </div>
   </ng-container>
+  <div class="row m-5 justify-content-center text-center">
+    <p id="disclaimer" *ngIf="price">{{ price.disclaimer }}</p>
+  </div>
 </ng-container>

@@ -1,9 +1,7 @@
 [
   {
     "page": "/",
-    "aliases": [
-      "/index.html.var"
-    ],
+    "aliases": ["/index.html.var"],
     "title": "Mike's Mobile Screen & Chimney Service",
     "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
   },
@@ -68,6 +66,18 @@
   {
     "page": "/about/window-screens",
     "title": "Screen Windows | Mike's Mobile"
+  },
+  {
+    "page": "/services/flashing",
+    "title": "Chimney Repair Flashing | Mike's Mobile"
+  },
+  {
+    "page": "/services/awningPriceCalc",
+    "title": "Awning Price Calculator | Mike's Mobile"
+  },
+  {
+    "page": "/dropRollPriceCalc",
+    "title": "Drop Roll Sunscreen price calulator | Mike's Mobile"
   },
   {
     "page": "/blog",
@@ -424,15 +434,16 @@
     "description": "How a ViewGaurd Security Door from Mike's Mobile Can Help Keep Your Loved Ones Safe"
   },
   {
+    "page": "/blog/need-more-room",
+    "title": "Lifestyle Garage Screen Door | Mike's Mobile",
+    "description": "Need More Room? Here's The Easiest Way to Transform Your Garage Into Additional Living Space!"
+  },
+  {
     "page": "/chimney-faq",
     "title": "Chimney FAQ - Chimney Service | Mike's Mobile",
     "description": "Get your chimney FAQ answered here. How often should you have your chimney cleaned? We service any chimney in the Sacramento, Stockton, Modesto and The Bay areas. Don't hesitate to give us a call."
   },
-  {
-    "page": "/chimney-glossary",
-    "title": "Chimney Glossary - Chimney Service | Mike's Mobile",
-    "description": "Browse through our exhaustive chimney glossary. We service chimneys in the Sacramento, Stockton, Modesto and The Bay areas."
-  },
+
   {
     "page": "/chimneys/antioch-east-bay",
     "title": "Chimney Services in the Bay Area | Mike's Mobile",
@@ -771,14 +782,14 @@
     "title": "Viewguard - Security Screen Doors | Mike's Mobile"
   },
   {
-    "page": "/products/vista-fixed",
-    "title": "Vista Fixed - Security Window Screens | Mike's Mobile",
-    "description": "Buy Vista Fixed Security Window Screens. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
+    "page": "/products/fixed-security-windows",
+    "title": "Fixed - Security Window Screens | Mike's Mobile",
+    "description": "Buy Fixed Security Window Screens. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
-    "page": "/products/vista-quick-escape",
-    "title": "Vista Quick Escape - Security Window Screens | Mike's Mobile",
-    "description": "Buy Vista Quick Escape Security Window Screens. These premiere security window screens provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
+    "page": "/products/quick-escape-security-windows",
+    "title": "Quick Escape - Security Window Screens | Mike's Mobile",
+    "description": "Buy Quick Escape Security Window Screens. These premiere security window screens provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
     "page": "/regions",
@@ -851,7 +862,7 @@
   {
     "page": "/security/danville-and-walnut-creek-south-bay",
     "title": "Security Screen Doors & Windows in Walnut Creek | Mike's Mobile",
-    "description": "Mike's Mobile is the premier contractor for security screen doors and security window screens in the South Bay! Check out our stainless mesh products like Tru-View, Viewguard, sliding security doors and Vista security window screens."
+    "description": "Mike's Mobile is the premier contractor for security screen doors and security window screens in the South Bay! Check out our stainless mesh products like Tru-View, Viewguard, sliding security doors and security window screens."
   },
   {
     "page": "/security/fairfield-vacaville",
@@ -871,12 +882,12 @@
   {
     "page": "/security/oakland-north-bay",
     "title": "Security Screen Doors and Windows in Oakland | Mike's Mobile",
-    "description": "We are Oakland and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
+    "description": "We are Oakland and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and products. Call us today for a FREE security door quote!"
   },
   {
     "page": "/security/richmond",
     "title": "Security Screen Doors & Windows Richmond, CA | Mike's Mobile",
-    "description": "We are Richmond and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and Vista products. Call us today for a FREE security door quote!"
+    "description": "We are Richmond and the North Bay's premier company for high quality security screen doors and security window screens. Check out our security screen doors for unequaled customization or our aluminum and stainless steel Viewguard and products. Call us today for a FREE security door quote!"
   },
   {
     "page": "/security/sacramento",
@@ -1094,5 +1105,15 @@
     "page": "/regions/Danville",
     "title": "Mike's Mobile Danville | Screen and Chimney Services in Danville, California 94506",
     "description": "Mike's Mobile Danville Screen and Chimney has been helping the Danville area since 2002! Have an old chimney your too afraid to use? Give us a call and we can make sure it's safe and effecient for those cold winter nights! We can also fix all your screen and security door needs!"
+  },
+  {
+    "page": "/service-area",
+    "title": "Mike's Mobile Service Area | Mike's Mobile",
+    "description": "With two offices one located in Sacramento and the other in Stockton, we service the majority of northen California."
+  },
+  {
+    "page": "/solar-screen-price-calc",
+    "title": "Solar Screen Price Calculator | Mike's Mobile",
+    "description": "Calulate out your quote for Mike's Mobiles Solar Screens, reduce the temperature of your house by 10 degrees!"
   }
 ]

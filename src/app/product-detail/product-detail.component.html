@@ -64,6 +64,38 @@
       >
       <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
     </nav>
+    <div
+      *ngIf="price && product.slug !== 'pet-doors'"
+      class="d-flex flex-column align-items-end flex-md-row"
+    >
+      <h1 class="text-left h1 pageTitle">
+        {{ product.title }}
+      </h1>
+
+      <h3 *ngFor="let item of price.price" class="mx-2 h3">
+        <a
+          mdbPageScroll
+          href="#disclaimer"
+          mdbRippleRadius
+          [pageScrollDuration]="400"
+          [pageScrollOffset]="110"
+        >
+          -{{ item.type }} Starts at
+          <span class="price h1"
+            >{{ item.price }}<span class="text-dark">*</span></span
+          >
+        </a>
+      </h3>
+    </div>
+    <div
+      *ngIf="!price || product.slug === 'pet-doors'"
+      class="d-flex flex-column flex-md-row mb-0"
+    >
+      <h1 class="text-left h1 pageTitle mb-0">
+        {{ product.title }}
+      </h1>
+    </div>
+    <hr />
     <div class="row">
       <div class="col-12 col-md-7 pb-3">
         <ng-container *ngIf="product.slug === 'sliding-security-doors'">
@@ -175,25 +207,73 @@
       </div>
 
       <div class="col-12 col-md-5">
-        <h1 class="text-left h1 pageTitle makeNewLine">
-          {{ product.title }}
-          <a
-            *ngIf="price"
-            mdbPageScroll
-            href="#disclaimer"
-            mdbRippleRadius
-            [pageScrollDuration]="400"
-            [pageScrollOffset]="110"
-          >
-            <span class="text-left h3" *ngFor="let item of price.price">
-              - {{ item.type }}
-              <span class="price">{{ item.price }}</span> Installed*
-            </span>
-          </a>
-        </h1>
-        <h5 *ngIf="product.slug === 'solar-screens'" class="text-left">
-          What is the benefit of solar screens? We help block out UV rays with
-          solar screen!
+        <h5
+          *ngIf="product.slug === 'solar-screens'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Our solar screens block out UV rays so that you can keep your home
+          cool!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'pet-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Tired of getting up to let the dog out? Let us install a pet door so
+          that you don't have to!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'lifestyle-garage-screen'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Our garage screen doors will turn any garage into an extra room!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'retractable-screen-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          The perfect screen when you need it, disappears when you don't!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'fixed-security-windows'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Don't make your house look like a prison! We provide window security
+          without the bars!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'quick-escape-security-windows'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Don't make your house look like a prison! We provide window security
+          without the bars!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'tru-view-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Looking for a stylish screen door with increased durablity? The
+          TruView is for you!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'viewguard-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          The Viewguard offers heavy-duty security with maximum airflow, so you
+          can keep your family safe!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'sliding-security-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Finally a security screen for your back patio slider! Sleep soundly
+          and safely while letting in the cool breeze!
+        </h5>
+        <h5
+          *ngIf="product.slug === 'sliding-screen-doors'"
+          class="text-left font-weight-bold font-italic"
+        >
+          Keep the bugs out of your space while letting in the breeze, with
+          custom-fit sliding screen doors!
         </h5>
         <hr />
         <div class="container my-4" *ngIf="product.textList">
@@ -214,20 +294,52 @@
             ></li>
           </ul>
         </div>
+        <mdb-squeezebox
+          *ngIf="price && product.slug === 'pet-doors'"
+          class="pricesTag"
+        >
+          <mdb-item>
+            <mdb-item-head class="pricesTag rounded mb-2 text-white"
+              >Prices</mdb-item-head
+            >
+            <mdb-item-body>
+              <table mdbTable borderless="true">
+                <tbody>
+                  <tr mdbTableCol *ngFor="let item of price.price">
+                    <td class="py-0">{{ item.name }}</td>
+                    <td class="price py-0">{{ item.price }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p *ngIf="price.disclaimer" class="text-center">
+                *{{ price.disclaimer }}
+              </p>
+            </mdb-item-body>
+          </mdb-item>
+        </mdb-squeezebox>
         <div
-          class="flex-row d-none d-md-block my-4 cursor-pointer text-center"
+          *ngIf="product.slug !== 'solar-screens'"
+          class="flex-row mt-2 d-none d-md-block cursor-pointer text-center"
           (click)="openQuoteForm()"
         >
           <h4 class="animated pulse infinite orange-text pb-1">
             &nbsp; Get a Free Quote Now!
           </h4>
         </div>
-        <div class="flex-row text-center mb-3">
-          <a routerLink="/financing">
-            <h4 class="orange-text">We Also Offer Financing!</h4>
+        <div
+          *ngIf="product.slug === 'solar-screens'"
+          class="flex-row mt-2 cursor-pointer text-center"
+        >
+          <a routerLink="/solar-screen-price-calc">
+            <h4 class="animated pulse infinite orange-text pb-1">
+              &nbsp; Calculate Your Quote!
+            </h4>
           </a>
         </div>
-        <div class="flex-row d-md-none">
+        <div
+          *ngIf="product.slug !== 'solar-screens'"
+          class="flex-row d-md-none ml-5 pl-5"
+        >
           <a class="white-text" href="tel:+18009929938">
             <h4
               class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
@@ -236,6 +348,21 @@
             </h4>
           </a>
         </div>
+        <div class="row text-center mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <a routerLink="/financing">
+                  <img
+                    src="/assets/images/main/financingButton.png"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="row" *ngIf="product.colorSet">
           <div class="col-12">
             <h4>
@@ -248,16 +375,16 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center text-center">
-      <div class="col-12">
-        <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
-      </div>
-    </div>
   </div>
   <app-tab-nav [details]="product.details"></app-tab-nav>
   <app-footer-gallery
     [Images]="product.recentInstallImages"
   ></app-footer-gallery>
+  <div class="row mt-5 justify-content-center text-center">
+    <div class="col-12">
+      <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+    </div>
+  </div>
 </ng-container>
 
 <app-quote-form></app-quote-form>

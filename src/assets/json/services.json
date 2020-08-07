@@ -20,7 +20,7 @@
       },
       {
         "title": "Options",
-        "description": "<li>6 Standard Sizes and Custom Sizes Available</li><li>12 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
+        "description": "<li>6 Standard Sizes and Custom Sizes Available</li><li>13 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
       },
       {
         "title": "Related Products",
@@ -2530,7 +2530,7 @@
       },
       {
         "title": "Warranty",
-        "description": "Mike's Mobile offers a 10 year warranty on all solar screen including materials and labor from the date of purchase."
+        "description": "Mike's Mobile offers a 10 year warranty on all our solar screen frames and screen materials from the original date of purchase."
       },
       {
         "title": "Faq",
@@ -3423,12 +3423,6 @@
           "What is the locking cover made out of": "The cover to secure the opening is made of fiberboard. It is prone to damage from rain so be sure to keep it away from extreme moisture.",
           "Can I install this in a steel door": "Yes! This can be installed almost anywhere, although we suggest installing in solid core materials.",
           "I would like to purchase this in replacement of my Johnson frame, are they going to fit the hole in my door exactly the same": "The dimensions should be pretty close. We would suggest double checking your existing rough cut to make sure this new item will fit. For any flap size, the rough cut dimension is included in the size chart."
-        }
-      },
-      {
-        "title": "Video",
-        "video": {
-          "Pet Doors": "https://fast.wistia.net/embed/iframe/6mbg8bf1cv"
         }
       }
     ],
@@ -4343,12 +4337,18 @@
         "small": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
         "medium": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
         "big": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "Home Sweet Home Viewguard secutiry door",
+        "small": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "medium": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
       }
     ],
     "details": [
       {
         "title": "Product Overview",
-        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Vista has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, they have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
       },
       {
         "title": "Technical Specs",
@@ -4434,7 +4434,7 @@
     "type": "products",
     "bullets": [
       "Fully retractable garage screen door that works with your existing garage door",
-      "Optional door allows for easy entry and exit",
+      "Access door allows for easy entry and exit",
       "Installed and operates entirely from the interior of the garage",
       "Completely invisible when garage door is closed"
     ],
@@ -4472,7 +4472,7 @@
       },
       {
         "title": "Options",
-        "description": "<li>Optional Passage Door</li><li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>3 Screen Materials: Charcoal (Fiberglass), White (PVC Coated Polyester), or Black (PVC Coated Polyester)</li>"
+        "description": "<li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>2 Screen Colors: White (PVC Coated Polyester), or Black (PVC Coated Polyester)</li>"
       },
       {
         "title": "Related Products",
@@ -4814,13 +4814,13 @@
     ]
   },
   {
-    "title": "Vista Quick Escape Security Window Screens",
-    "slug": "vista-quick-escape",
+    "title": " Quick Escape Security Window Screens",
+    "slug": "quick-escape-security-windows",
     "category": "Security Screen Doors and Windows",
     "subcategory": "Window",
     "type": "products",
     "bullets": [
-      "Vista Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
+      "Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
       "These screens are designed to be an inside mount or surface mount system.",
       "Our windows features a certified, internationally patented framing system and passes international testing for knife shear, dynamic impact, and salt spray.",
       "Our screens block out an average of 60% of the sun's harmful ultraviolet rays.",
@@ -4830,28 +4830,28 @@
     ],
     "fullTileImage": "/assets/images/security/guarda-escape/CRL-Guarda-Quick-Escape-Main.jpg",
     "tileImage": "/assets/images/tiles/crl-guarda-quick-escape.jpg",
-    "tileText": "Vista Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
+    "tileText": " Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
     "thumbImages": [
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
         "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
         "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
         "medium": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
         "big": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
         "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
         "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
         "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
         "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
@@ -4860,7 +4860,7 @@
     "details": [
       {
         "title": "Product Overview",
-        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Vista security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Vista has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
       },
       {
         "title": "Technical Specs",
@@ -4873,7 +4873,7 @@
       {
         "title": "Related Products",
         "links": {
-          "Fixed Security Window Screens": "/products/vista-fixed",
+          "Fixed Security Window Screens": "/products/fixed-security-windows",
           "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
         }
       },
@@ -4884,31 +4884,31 @@
     ],
     "recentInstallImages": [
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
         "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
         "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
         "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
         "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
         "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
         "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
         "medium": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
         "big": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg"
       },
       {
-        "alt": "Vista Quick Escape Security Window Screens",
+        "alt": "Quick Escape Security Window Screens",
         "small": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
         "medium": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
         "big": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg"
@@ -4920,13 +4920,13 @@
     ]
   },
   {
-    "title": "Vista Fixed Security Window Screens",
-    "slug": "vista-fixed",
+    "title": "Fixed Security Window Screens",
+    "slug": "fixed-security-windows",
     "category": "Security Screen Doors and Windows",
     "subcategory": "Window",
     "type": "products",
     "bullets": [
-      "Vista Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+      "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
       "Our windows can be installed on the interior and exterior and feature a concealed fastening system and blends with any architecture.",
       "Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses.",
       "Our window screens offer flexibility for mounting on new and existing structures.",
@@ -4936,41 +4936,65 @@
     ],
     "fullTileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
     "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
-    "tileText": "Vista Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+    "tileText": "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
     "colorSet": [
       "quickEscapeColors",
       "stdColors"
     ],
     "thumbImages": [
       {
-        "alt": "Vista Fixed Security Window Screens",
+        "alt": "Fixed Security Window Screens",
         "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
         "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
         "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
       },
       {
-        "alt": "Vista Fixed Security Window Screens",
+        "alt": "Fixed Security Window Screens",
         "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
         "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
         "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg"
       },
       {
-        "alt": "Vista Fixed Security Window Screens",
+        "alt": "Fixed Security Window Screens",
         "small": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
         "medium": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
         "big": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg"
       },
       {
-        "alt": "Vista Fixed Security Window Screens",
+        "alt": "Fixed Security Window Screens",
         "small": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
         "medium": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
         "big": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg"
       }
     ],
     "details": [
       {
         "title": "Product Overview",
-        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Vista security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, Vista has a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, they have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
       },
       {
         "title": "Technical Specs",
@@ -4983,7 +5007,7 @@
       {
         "title": "Related Products",
         "links": {
-          "Vista Quick Escape Security Window Screens": "/products/vista-quick-escape",
+          "Quick Escape Security Window Screens": "/products/quick-escape-security-windows",
           "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
         }
       },
@@ -5205,15 +5229,15 @@
       ],
       "Security Window Screens": [
         {
-          "alt": "Vista Quick Escape Security Window Screens",
-          "title": "Vista Quick Escape Security Window Screens",
+          "alt": "Quick Escape Security Window Screens",
+          "title": "Quick Escape Security Window Screens",
           "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
           "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
           "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
         },
         {
-          "alt": "Vista Fixed Security Window Screens",
-          "title": "Vista Fixed Security Window Screens",
+          "alt": "Fixed Security Window Screens",
+          "title": "Fixed Security Window Screens",
           "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
           "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
           "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
@@ -5258,15 +5282,15 @@
     "images": {
       "Security Window Screens": [
         {
-          "alt": "Vista Quick Escape Security Window Screens",
-          "title": "Vista Quick Escape Security Window Screens",
+          "alt": "Quick Escape Security Window Screens",
+          "title": "Quick Escape Security Window Screens",
           "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
           "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
           "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
         },
         {
-          "alt": "Vista Fixed Security Window Screens",
-          "title": "Vista Fixed Security Window Screens",
+          "alt": "Fixed Security Window Screens",
+          "title": "Fixed Security Window Screens",
           "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
           "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
           "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"

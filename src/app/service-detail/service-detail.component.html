@@ -78,6 +78,38 @@
     </nav>
 
     <section class="section extra-margins">
+      <div class="row" *ngIf="service.slug !== 'gas-fireplace-annual-service'">
+        <div class="col-12">
+          <h1
+            class="text-left h2 mb-2 pageTitle"
+            [innerHTML]="service.title"
+          ></h1>
+        </div>
+      </div>
+      <div
+        *ngIf="price && service.slug === 'gas-fireplace-annual-service'"
+        class="d-flex flex-column align-items-end flex-md-row"
+      >
+        <h1 class="text-left h1 pageTitle">
+          {{ service.title }}
+        </h1>
+
+        <h3 *ngFor="let item of price.price" class="mx-2 h3">
+          <a
+            mdbPageScroll
+            href="#disclaimer"
+            mdbRippleRadius
+            [pageScrollDuration]="400"
+            [pageScrollOffset]="110"
+          >
+            -{{ item.type }} Starts at
+            <span class="price h1"
+              >{{ item.price }}<span class="text-dark">*</span></span
+            >
+          </a>
+        </h3>
+      </div>
+      <hr />
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
           <div class="main-image">
@@ -107,62 +139,162 @@
         <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
           <div class="row mb-4" id="serviceInfo">
             <div class="col-12">
-              <h1
-                class="text-left h2 mb-2 pageTitle"
-                [innerHTML]="service.title"
-              ></h1>
-
               <h5
                 *ngIf="service.slug === 'window-screen-repair'"
-                class="text-left"
+                class="text-center font-weight-bold font-italic"
               >
-                Bugs in your space? We fix torn screens!
+                Our screens keep bugs out of your space!
               </h5>
-              <h5
+              <h3
                 *ngIf="service.slug === 'dryer-vent-cleaning'"
-                class="text-left"
+                class="text-center font-weight-bold font-italic"
               >
-                Clothes taking too long to dry? We prevent dryer vent fires!
-              </h5>
-              <h5 *ngIf="service.slug === 'chimney-cleaning'" class="text-left">
-                Should I clean my chimney annually? We'll keep you chimney clean
-                year after year!
+                We help prevent dryer fires!
+              </h3>
+              <h5
+                *ngIf="service.slug === 'chimney-cleaning'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We'll keep you chimney clean year after year!
               </h5>
               <h5
                 *ngIf="service.slug === 'chimney-inspections'"
-                class="text-left"
+                class="text-center font-weight-bold font-italic"
               >
-                Is there an issue with my fireplace? We provide detailed
-                inspection reports!
+                Our detailed inspection reports will help you get the right
+                repairs to fix your chimney!
               </h5>
-              <h5 *ngIf="service.slug === 'chimney-liner'" class="text-left">
-                Do I need to replace my chimney liner? We replace cracked
-                chimney liners!
+              <h5
+                *ngIf="service.slug === 'chimney-liner'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Cracks in your chimney liner only grow over time! We re-line
+                chimneys to stop cracks from spreading!
               </h5>
               <h5
                 *ngIf="service.slug === 'refractory-panels'"
-                class="text-left"
+                class="text-center font-weight-bold font-italic"
               >
-                Cracks in your refractory panel? We replace cracked refractory
-                panels!
+                Cracks only grow over time! We can help you replace your cracked
+                refractory panels!
               </h5>
-              <h5 *ngIf="service.slug === 'masonry-repair'" class="text-left">
-                Broken bricks? Loose bricks? We work with brick and stone to
-                complete your masonry projects!
+              <h5
+                *ngIf="service.slug === 'masonry-repair'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We work with brick and stone to complete your masonry projects!
               </h5>
-              <h5 *ngIf="service.slug === 'fireplace-hearth'" class="text-left">
-                Who repairs fireplace hearths? We restore fireplace hearths!
+              <h5
+                *ngIf="service.slug === 'fireplace-hearth'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We restore and repair fireplace hearths!
               </h5>
-              <h5 *ngIf="service.slug === 'hardscape'" class="text-left">
-                What is hardscaping? We repair brick patios, stone walls, and
-                other hardscaping!
+              <h5
+                *ngIf="service.slug === 'hardscape'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We repair brick patios, stone walls, and other hardscaping!
               </h5>
-              <h5 *ngIf="service.slug === 'tuckpointing'" class="text-left">
-                What is tuckpointing? We tuckpoint brickwork by filling the
-                joints with fresh mortar!
+              <h5
+                *ngIf="service.slug === 'tuckpointing'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We tuckpoint brickwork by filling the joints with fresh mortar!
               </h5>
-              <h5 *ngIf="service.slug === 'waterproofing'" class="text-left">
-                Is my chimney leaking? We waterproof chimneys!
+              <h5
+                *ngIf="service.slug === 'waterproofing'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep leaks out for good! We offer full chimney waterproofing!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'crown-seal'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Don't leave your chimney crown unprotected! Our crown seals help
+                stop leaks!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'rear-firewall-heat-damage'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Cracks in your firebox only grow over time! We can help you get
+                cracks in your fireplace fixed today!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-de-glazing'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Hardened soot can cause your chimney to smoke! We remove glazed
+                creosote!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'retractable-patio-awnings'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Does your patio get too much sun? Our retractable awnings will
+                keep you cool and shaded when you need it!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'drop-roll-sunscreens'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Our sunscreen drop rolls will shade in your deck or patio, so
+                you can enjoy summer without the sunburn!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'gas-fireplace-annual-service'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep your Gas Fireplace working like new any time of the year!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'gas-fireplace-repair'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Let us get your Gas Fireplace working like it's brand new!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-rebuild'"
+                class="text-center font-weight-bold font-italic"
+              >
+                We can help make your chimney brand new!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'gas-log-sets'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Experience all the ambience and warmth of a wood-burning fire
+                without the mess and maintenance!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep sparks inside your chimney, while keeping rain and critters
+                out!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'fireplace-grate'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Enjoy easier fire starting and a better quality burn with our
+                firebox grates!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'fireplace-glass-doors'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Glass door sets help you keep sparks inside your chimney while
+                enhacing the look of your fireplace!
+              </h5>
+              <h5
+                *ngIf="service.slug === 'radiant-fireback'"
+                class="text-center font-weight-bold font-italic"
+              >
+                Keep your home warm while avoiding costly repairs with radiant
+                fire brick!
               </h5>
 
               <hr />
@@ -172,18 +304,10 @@
                   <mdb-item-body>{{ item.description }}</mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
-              <h2
-                class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
-                (click)="openQuoteForm()"
+              <mdb-squeezebox
+                *ngIf="price && service.slug !== 'gas-fireplace-annual-service'"
+                class="pricesTag"
               >
-                Get started today!
-              </h2>
-              <div class="flex-row text-center mb-3">
-                <a routerLink="/financing">
-                  <h4 class="orange-text">We Also Offer Financing!</h4>
-                </a>
-              </div>
-              <mdb-squeezebox *ngIf="price" class="pricesTag">
                 <mdb-item>
                   <mdb-item-head class="pricesTag rounded text-white"
                     >Prices</mdb-item-head
@@ -203,6 +327,27 @@
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
+              <h2
+                class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
+                (click)="openQuoteForm()"
+              >
+                Get started today!
+              </h2>
+              <div class="row text-center mb-3">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-8">
+                      <a routerLink="/financing">
+                        <img
+                          src="/assets/images/main/financingButton.png"
+                          class="img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="row text-center">
                 <div class="col-md-12">
                   <a
@@ -412,6 +557,16 @@
           [Images]="service.recentInstallImages"
         ></app-footer-gallery>
       </section>
+    </div>
+  </div>
+  <div class="row mt-5 justify-content-center text-center">
+    <div class="col-12">
+      <p
+        *ngIf="price && service.slug === 'gas-fireplace-annual-service'"
+        id="disclaimer"
+      >
+        {{ price.disclaimer }}
+      </p>
     </div>
   </div>
 </ng-container>

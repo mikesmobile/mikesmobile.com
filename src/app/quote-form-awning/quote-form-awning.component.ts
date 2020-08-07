@@ -16,7 +16,7 @@ declare global {
   selector: 'app-quote-form-awning',
   templateUrl: './quote-form-awning.component.html',
   styleUrls: ['./quote-form-awning.component.sass'],
-  providers: [MailAwningService]
+  providers: [MailAwningService],
 })
 export class QuoteFormAwningComponent implements OnInit {
   optMotor: boolean;
@@ -27,7 +27,7 @@ export class QuoteFormAwningComponent implements OnInit {
   public submitFailed: boolean = false;
   public methodSelect: Array<any> = [
     { value: 'email', label: 'Contact me via Email' },
-    { value: 'phone', label: 'Contact me via Phone' }
+    { value: 'phone', label: 'Contact me via Phone' },
   ];
 
   @Input() quote: {
@@ -60,17 +60,17 @@ export class QuoteFormAwningComponent implements OnInit {
     phone: new FormControl('', [
       Validators.required,
       Validators.minLength(10),
-      Validators.maxLength(15)
+      Validators.maxLength(15),
     ]),
     email: new FormControl('', [
       Validators.required,
-      Validators.maxLength(150)
+      Validators.maxLength(150),
     ]),
     message: new FormControl('', [
       Validators.required,
-      Validators.maxLength(280)
+      Validators.maxLength(280),
     ]),
-    contactMethod: new FormControl('')
+    contactMethod: new FormControl(''),
   });
 
   get name() {
@@ -98,7 +98,6 @@ export class QuoteFormAwningComponent implements OnInit {
   }
 
   public show() {
-    console.log(this.quote);
     if (this.quote.awnMotor === 'yes') {
       this.optMotor = true;
     } else {
@@ -134,7 +133,7 @@ export class QuoteFormAwningComponent implements OnInit {
     // Trigger GTM Event
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      event: 'quoteFormSubmission' // Unique string tracked on GTM
+      event: 'quoteFormSubmission', // Unique string tracked on GTM
     });
 
     // Read UTM Cookie
@@ -159,7 +158,7 @@ export class QuoteFormAwningComponent implements OnInit {
         utm_source,
         utm_medium,
         utm_campaign,
-        ...this.quote
+        ...this.quote,
       })
       .then((res) => {
         if (!res.ok) {

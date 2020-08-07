@@ -1,0 +1,261 @@
+<div class="container text-center">
+  <nav class="breadcrumb mt-2">
+    <a class="breadcrumb-item" routerLink="/">Home</a>
+    <a class="breadcrumb-item" routerLink="/products/solar-screens"
+      >Solar Screens</a
+    >
+    <span class="breadcrumb-item active">Solar Screen Price Calc</span>
+  </nav>
+  <div class="card my-4">
+    <div class="card-body">
+      <h5 class="card-title">
+        Solar Screen Measurement Guide and Quote Calculator
+      </h5>
+      <hr />
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/BcrWiyYQxlc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container p-0">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <table
+              class="table text-center"
+              *ngIf="solarScreenWindows.length > 0"
+            >
+              <thead class="solarScreenWindow-list thead-dark mx-auto">
+                <tr>
+                  <th scope="col">Screen Name</th>
+                  <th scope="col">Size</th>
+                  <th scope="col">Screen Cost</th>
+                  <th scope="col">Include Grids?</th>
+                  <th scope="col"><i class="fas fa-trash-alt"></i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  *ngFor="
+                    let solarScreenWindow of solarScreenWindows;
+                    let index = index
+                  "
+                >
+                  <th *ngIf="solarScreenWindow.name === 'Screen'" scope="row">
+                    {{ solarScreenWindow.name }} {{ index + 1 }}
+                  </th>
+                  <th *ngIf="solarScreenWindow.name !== 'Screen'" scope="row">
+                    {{ solarScreenWindow.name }}
+                  </th>
+                  <td>
+                    {{ solarScreenWindow.width }}' x
+                    {{ solarScreenWindow.height }}'
+                    {{ solarScreenWindow.gridMsg }}
+                  </td>
+
+                  <td>Price: {{ solarScreenWindow.price }}</td>
+                  <td>
+                    <div
+                      class="cursor-pointer"
+                      (click)="switchGrid(solarScreenWindow)"
+                    >
+                      <i
+                        class="fas fa-check mx-1 p-1"
+                        [style.background-color]="
+                          solarScreenWindow.grid === true ? 'orange' : ''
+                        "
+                      ></i>
+                      <i
+                        class="fas fa-times mx-1 p-1"
+                        [style.background-color]="
+                          solarScreenWindow.grid === true ? '' : 'orange'
+                        "
+                      ></i>
+                    </div>
+                  </td>
+                  <td
+                    class="destroy cursor-pointer"
+                    (click)="removeSolarScreenWindow(solarScreenWindow)"
+                  >
+                    x
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Total Number of Windows: {{ solarScreenWindows.length }}
+                  </th>
+                  <td></td>
+                  <td>
+                    Your Total:
+                    <span class="text-white orange price p-2"
+                      >${{ solarScreenTotal }}</span
+                    >
+                  </td>
+                  <td>Installed*</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <div *ngIf="solarScreenWindows[0]" class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <p>*Includes taxes and installation fees!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center" *ngIf="solarScreenWindows.length > 0">
+        <div class="row">
+          <div class="col">
+            <div class="flew-row my-4 text-center" (click)="openQuoteForm()">
+              <h4
+                class="animated pulse infinite orange-text pb-3 cursor-pointer"
+              >
+                &nbsp; Schedule a Technician now!
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="errorMessageBoard" *ngIf="errorMessage">
+        <h5>{{ errorMessage }}</h5>
+      </div>
+      <div class="row align-items-end">
+        <div class="col-md">
+          <label for="solarWindowName"
+            >Add a location to the name to help remember which window!</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow form-control"
+              id="solarWindowName"
+              placeholder="name or location of Screen?"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.name"
+            />
+          </div>
+        </div>
+        <div class="col-md">
+          <label for="windowWidth"
+            >Window Width: Round Up to Nearest Whole Foot.</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow-width form-control"
+              placeholder="Width of Screen"
+              id="windowWidth"
+              type="number"
+              aria-describedby="windowWidth"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.width"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text" id="windowWidth">Ft.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <label for="windowHeight"
+            >Window Height: Round Up to Nearest Whole Foot.</label
+          >
+          <div class="input-group">
+            <input
+              class="new-solarScreenWindow-height form-control"
+              placeholder="Height of Screen"
+              id="windowHeight"
+              type="number"
+              autofocus=""
+              [(ngModel)]="newSolarScreenWindow.height"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text" id="windowHeight">Ft.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <button class="btn blue m-0" (click)="addSolarScreenWindow()">
+            Add a screen!
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h4>How to Measure</h4>
+          <div class="container text-center">
+            <div class="row justify-content-center">
+              <div class="col-6">
+                <img
+                  class="img-fluid z-depth-2"
+                  src="assets/images/solarScreenOrder/horizontalMeasure.png"
+                />
+                <p class="m-0 p-0">Horizontal Measurement</p>
+              </div>
+              <div class="col-6">
+                <img
+                  class="img-fluid z-depth-2"
+                  src="assets/images/solarScreenOrder/verticalMeasure.png"
+                />
+                <p class="m-0 p-0">Vertical Measurement</p>
+              </div>
+            </div>
+          </div>
+          <p class="mt-lg-3">
+            Measure from the inside of the window and round up your measurement
+            to the nearest whole foot.
+          </p>
+          <p>
+            For Example: If your window measurement is 3 feet and 10 inches
+            tall, you would use 4 feet for the height measurement.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h4>To Grid or Not to Grid? That is the question!</h4>
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <img
+                class="img-fluid z-depth-2"
+                src="assets/images/screens/solar-screens/solarScreenBar.png"
+              />
+              <p class="m-0 p-0">Standard</p>
+            </div>
+
+            <div class="col-4">
+              <img
+                class="img-fluid z-depth-2"
+                src="assets/images/screens/solar-screens/SolarScreenGrids.png"
+              />
+
+              <p class="m-0 p-0">With Grids</p>
+            </div>
+          </div>
+          <p>
+            Solar screens come standard with a spreader bar down the center--
+            this adds contrast to the look of your window.
+          </p>
+          <p>
+            Exercise caution when requesting grid installation on solar screens.
+            If you have grids on your glass window, the screen’s grids will
+            float a few inches above the window, making them appear to not line
+            up from most angles
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-quote-form-solar-screen
+  [solarScreenWindows]="solarScreenWindows"
+  [totalCost]="solarScreenTotal"
+></app-quote-form-solar-screen>

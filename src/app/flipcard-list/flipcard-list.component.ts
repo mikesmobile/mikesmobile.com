@@ -17,8 +17,7 @@ export class FlipcardListComponent implements OnInit {
       const serviceInfo = servicesJSON.find(
         (data) => data.title === card.title
       );
-      console.log(card.title);
-      console.log(serviceInfo);
+
       const link = `/${
         serviceInfo.type === 'landing' ? 'about' : serviceInfo.type
       }/${serviceInfo.slug}`;

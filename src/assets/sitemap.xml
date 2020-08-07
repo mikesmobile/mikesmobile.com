@@ -97,7 +97,7 @@
 <url><loc>https://mikesmobile.com/blog/winter-coming-sacramento</loc></url>
 <url><loc>https://mikesmobile.com/blog/maximum-protetion-minimum-compromise</loc></url>
 <url><loc>https://mikesmobile.com/chimney-faq</loc></url>
-<url><loc>https://mikesmobile.com/chimney-glossary</loc></url>
+<!-- <url><loc>https://mikesmobile.com/chimney-glossary</loc></url> -->
 <url><loc>https://mikesmobile.com/service-area</loc></url>
 <url><loc>https://mikesmobile.com/contract</loc></url>
 <url><loc>https://mikesmobile.com/financing</loc></url>
@@ -124,8 +124,8 @@
 <url><loc>https://mikesmobile.com/products/solar-screens</loc></url>
 <url><loc>https://mikesmobile.com/products/tru-view-security-doors</loc></url>
 <url><loc>https://mikesmobile.com/products/viewguard-security-doors</loc></url>
-<url><loc>https://mikesmobile.com/products/vista-fixed</loc></url>
-<url><loc>https://mikesmobile.com/products/vista-quick-escape</loc></url>
+<url><loc>https://mikesmobile.com/products/fixed-security-windows</loc></url>
+<url><loc>https://mikesmobile.com/products/quick-escape-security-windows</loc></url>
 <url><loc>https://mikesmobile.com/regions/sacramento</loc></url>
 <url><loc>https://mikesmobile.com/regions/stockton</loc></url>
 <url><loc>https://mikesmobile.com/regions/antioch-east-bay</loc></url>
@@ -163,3 +163,4 @@
 <url><loc>http://mikesmobile.com/services/gas-fireplace-repair</loc></url></urlset>
 <url><loc>http://mikesmobile.com/services/gas-fireplace-annual-servicer</loc></url></urlset>
 <url><loc>http://mikesmobile.com/services/gas-log-sets</loc></url></urlset>
+<url><loc>http://mikesmobile.com/solar-screen-price-calc</loc></url></urlset>

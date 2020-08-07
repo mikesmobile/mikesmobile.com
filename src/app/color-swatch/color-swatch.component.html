@@ -3,70 +3,94 @@
   <div class="row no-gutters">
     <div
       class="col-3 col-md-2"
-      *ngFor="let color of (colors.values | keys); index as j"
+      *ngFor="let color of colors.values | keys; index as j"
     >
       <div
         *ngIf="color.value[0] === '#'"
-        class="square"
+        class="square border border-dark"
         [mdbTooltip]="color.key"
         [ngStyle]="{ background: color.value }"
         placement="bottom"
-        (click)="ColorModal.show()"
+        data-toggle="modal"
+        data-target="#colorModal"
+        (click)="show(j)"
       ></div>
       <div
         *ngIf="color.value[0] === '/'"
-        class="square"
+        class="square border border-dark"
         [mdbTooltip]="color.key"
         [ngStyle]="{
           'background-image': 'url(' + color.value + ')',
           'background-size': 'cover'
         }"
         placement="bottom"
-        (click)="ColorModal.show()"
+        data-toggle="modal"
+        data-target="#colorModal"
+        (click)="show(j)"
       ></div>
       <div
         mdbModal
         #ColorModal="mdb-modal"
         class="modal fade"
+        id="colorModal"
         tabindex="-1"
         role="dialog"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-dialog modalBox" role="img">
           <div class="modal-content">
             <div class="modal-header">
-              <h4
-                class="modal-title w-100 text-center"
-                [innerHTML]="color.key"
-              ></h4>
               <button
                 type="button"
-                class="close"
+                class="btn btn-danger waves-light"
                 data-dismiss="modal"
-                aria-label="Close"
                 (click)="ColorModal.hide()"
+                mdbWavesEffect
               >
-                <span aria-hidden="true">×</span>
+                X
               </button>
             </div>
-            <div class="modal-body">
+            <div *ngIf="modalImagePath" class="text-center">
               <div
-                *ngIf="color.value[0] === '#'"
+                *ngIf="modalImagePath[0] === '#'"
                 class="square-lg"
-                [mdbTooltip]="color.key"
-                [ngStyle]="{ background: color.value }"
+                [ngStyle]="{ background: modalImagePath }"
                 placement="bottom"
               ></div>
               <div
-                *ngIf="color.value[0] === '/'"
+                *ngIf="modalImagePath[0] === '/'"
                 class="square-lg"
-                [mdbTooltip]="color.key"
                 [ngStyle]="{
-                  'background-image': 'url(' + color.value + ')',
+                  'background-image': 'url(' + modalImagePath + ')',
                   'background-size': 'cover'
                 }"
                 placement="bottom"
               ></div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-primary waves-light"
+                (click)="previous()"
+                mdbWavesEffect
+              >
+                <span
+                  aria-hidden="true"
+                  class="carousel-control-prev-icon"
+                ></span>
+              </button>
+              <h4 class="modalColorTitle">{{ currentName }}</h4>
+              <button
+                type="button"
+                class="btn btn-primary waves-light"
+                (click)="next()"
+                mdbWavesEffect
+              >
+                <span
+                  aria-hidden="true"
+                  class="carousel-control-next-icon"
+                ></span>
+              </button>
             </div>
           </div>
         </div>

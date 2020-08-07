@@ -62,6 +62,10 @@ import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { QuoteFormDropRollComponent } from './quote-form-droproll/quote-form-droproll.component';
 import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.component';
 import { AnnouncementMessageComponent } from './announcementMessage/announcementMessage.component';
+import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
+import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -120,7 +124,9 @@ import { AnnouncementMessageComponent } from './announcementMessage/announcement
     DropRollCalcComponent,
     QuoteFormDropRollComponent,
     QuoteFormAwningComponent,
-    AnnouncementMessageComponent
+    AnnouncementMessageComponent,
+    SolarScreenPriceCalcComponent,
+    QuoteFormSolarScreenComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
@@ -132,7 +138,8 @@ import { AnnouncementMessageComponent } from './announcementMessage/announcement
     BrowserAnimationsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
-    })
+    }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [Title, HammerProvider],
   bootstrap: [AppComponent]
