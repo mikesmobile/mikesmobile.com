@@ -4915,8 +4915,7 @@
       }
     ],
     "colorSet": [
-      "quickEscapeColors",
-      "stdColors"
+      "securityWindowsColors"
     ]
   },
   {
@@ -4938,8 +4937,7 @@
     "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
     "tileText": "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
     "colorSet": [
-      "quickEscapeColors",
-      "stdColors"
+      "securityWindowsColors"
     ],
     "thumbImages": [
       {

@@ -207,6 +207,49 @@ export class ColorSwatchComponent implements OnInit {
     keys: ['Almond', 'Bronze', 'Mill', 'White'],
   };
 
+  securityWindowsColors = {
+    name: 'Custom Colors',
+    values: {
+      'Traffic Black': '/assets/images/securityWindowColors/TrafficBlack-312.01.001.png',
+      Brown: '/assets/images/securityWindowColors/Brown-312.01.005.png',
+      'Paper Beige': '/assets/images/securityWindowColors/PaperBeige-312.01.006.png',
+      'Light Grey': '/assets/images/securityWindowColors/LightGrey-312.01.007.png',
+      White: '/assets/images/securityWindowColors/White-312.01.009.png',
+      'Sahara Brown': '/assets/images/securityWindowColors/SaharaBrown-312.01.015.png',
+      'Sahara Grey': '/assets/images/securityWindowColors/SaharaGrey-312.01.016.png',
+      'Bronze Sahara': '/assets/images/securityWindowColors/BronzeSahara-312.01.054.png',
+      'Desert Sand': '/assets/images/securityWindowColors/DesertSand-312.01.052.png',
+      'Almond Sahara': '/assets/images/securityWindowColors/AlmondSahara-312.01.055.png',
+      'White Sahara': '/assets/images/securityWindowColors/WhiteSahara-312.01.054.png',
+    },
+    galery: [
+      '/assets/images/securityWindowColors/TrafficBlack-312.01.001.png',
+      '/assets/images/securityWindowColors/Brown-312.01.005.png',
+      '/assets/images/securityWindowColors/PaperBeige-312.01.006.png',
+      '/assets/images/securityWindowColors/LightGrey-312.01.007.png',
+      '/assets/images/securityWindowColors/White-312.01.009.png',
+      '/assets/images/securityWindowColors/SaharaBrown-312.01.015.png',
+      '/assets/images/securityWindowColors/SaharaGrey-312.01.016.png',
+      '/assets/images/securityWindowColors/BronzeSahara-312.01.054.png',
+      '/assets/images/securityWindowColors/DesertSand-312.01.052.png',
+      '/assets/images/securityWindowColors/AlmondSahara-312.01.055.png',
+      '/assets/images/securityWindowColors/WhiteSahara-312.01.054.png',
+    ],
+    keys: [
+      'Traffic Black',
+      'Brown',
+      'Paper Beige',
+      'Light Grey',
+      'White',
+      'Sahara Brown',
+      'Sahara Grey',
+      'Bronze Sahara',
+      'Desert Sand',
+      'AlmondSahara',
+      'White Sahara',
+    ],
+  };
+
   quickEscapeColors = {
     name: 'Custom Colors',
     values: {
@@ -394,6 +437,9 @@ export class ColorSwatchComponent implements OnInit {
         break;
       case 'meshtecColor':
         this.colors = this.meshtecColor;
+        break;
+      case 'securityWindowsColors':
+        this.colors = this.securityWindowsColors;
         break;
       default:
         this.colors = null;
