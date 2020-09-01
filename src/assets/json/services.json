@@ -5034,6 +5034,11 @@
   {
     "title": "Chimney Services",
     "slug": "chimney-services",
+    "type": "landing"
+  },
+  {
+    "title": "security-screen-doors-email",
+    "slug": "security-screen-doors-email",
     "type": "landing",
     "tileImage": "/assets/images/tiles/chimney_cleaning.jpg"
   },

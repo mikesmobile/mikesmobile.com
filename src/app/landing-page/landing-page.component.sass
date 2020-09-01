@@ -11,3 +11,96 @@
 .hero
   background-color: mmblue
 
+.card-title, .card-back-title
+  font-size: 1.2em !important
+  text-align: center !important
+  padding: 0.3em !important
+  background-color: #ff9800
+  color: white !important
+
+.card-back-title
+  background-color: $mmblue !important
+
+.service-list
+  overflow: hidden
+
+  .flip-container
+    cursor: pointer
+    perspective: 1000px
+
+    h2
+      font-size: 1.5em
+      @include breakpoint(sm)
+        font-size: 2em
+    h4
+      font-size: .85em
+      @include breakpoint(sm)
+        font-size: 1.2em
+    p
+      font-size: .8rem
+      @include breakpoint(xs)
+        font-size: 1rem
+    button
+      padding: 4px 8px
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper
+      transform: rotateY(180deg)
+
+  .flip-container, .front, .back
+    width: 100%
+    height: 200px
+    margin-bottom: 35px
+    @include breakpoint(xs)
+      margin-bottom: 15px
+    @include breakpoint(sm)
+      height: 225px
+
+  .flipper
+    transition: 0.6s
+    transform-style: preserve-3d
+    position: relative
+
+  .front, .back
+    backface-visibility: hidden
+    position: absolute
+    top: 0
+    left: 0
+
+  .front
+    z-index: 2
+    transform: rotateY(0deg)
+
+  .back
+    padding: 5px
+    transform: rotateY(180deg)
+
+  .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper
+    transform: rotateY(180deg)
+
+.tile
+  max-height: 200px !important
+
+.tileTitle
+  height: 79px
+  width: 100% !important
+  margin: 0 
+  padding: 0 !important
+  @include breakpoint(md)
+    height: 57.5px
+    background-color: #ff9800
+
+.tileInfo
+  display: none
+
+.tile:hover
+  .tileInfo
+    @include breakpoint(md)
+      display: inline
+
+.tileBlurb
+  line-height: 1.4 !important
+
+.card-img
+  max-height: 175px !important
+
+.cardTiles

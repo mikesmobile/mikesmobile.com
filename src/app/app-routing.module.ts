@@ -28,6 +28,7 @@ import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.comp
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 
+
 const appRoutes: Routes = [
   //SEO Search Artifacts
   { path: 'contact/make-an-appointment', redirectTo: '/free-quote' },
@@ -232,10 +233,11 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
+  { path: 'security-screen-doors-email', component: LandingPageComponent },
   // { path: 'promo', component: PromoComponent },
   // { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
   // { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
-  { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
+
 
   { path: '', pathMatch: 'full', component: HomeComponent },
   { path: '**', component: HomeComponent },
@@ -245,4 +247,4 @@ const appRoutes: Routes = [
   imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
