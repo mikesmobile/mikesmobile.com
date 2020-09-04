@@ -190,6 +190,10 @@ const appRoutes: Routes = [
       'about/window-and-door-coverings/window-and-door-screens-in-vacaville-vallejo-and-napa',
     redirectTo: '/regions/fairfield-vacaville',
   },
+  {
+    path: 'grid/viewguard-security-doors',
+    redirectTo: '/products/viewguard-security-doors'
+  },
   { path: 'window-door-screens-modesto', redirectTo: '/regions/modesto' },
   { path: 'clean-or-dirty', redirectTo: '/blog/clean-or-dirty' },
   {
