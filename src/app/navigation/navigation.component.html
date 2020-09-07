@@ -1,5 +1,32 @@
 <nav class="sticky-top">
-  <mdb-navbar id="#backToTop" class="z-depth-1 no-shadows m-0 p-0 sticky-top"
+  <div class="container display-mobile">
+    <div class="row justify-content-between">
+      <div class="col">
+        <logo>
+          <div class="row ourLogo ml-md-5 ml-1">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <a routerLink="/" class="navbar-brand">
+                    <app-img src="/assets/images/main/navBarLogo.png" alt="Mike’s Mobile Screen & Chimney Service"
+                      height="60" class="logoImg h-100"></app-img>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </logo>
+      </div>
+      <div class="col text-right ">
+        <a (click)="sidenav.toggle()" mdbBtn color="primary" class="p-3 button-collapse">
+          <mdb-icon fas icon="bars"></mdb-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <mdb-navbar id="#backToTop" class="z-depth-1 no-shadows m-0 p-0 sticky-top display-desktop"
     SideClass="navbar no-shadows  sticky-top header m-0 p-0 navbar-light navbar-expand-lg" [containerInside]="false">
     <logo>
       <div class="row ourLogo ml-md-5 ml-1">
@@ -30,7 +57,7 @@
         </ul>
       </links>
     </div>
-    <links class="h-100 mr-5">
+    <links class="h-100 mr-5 ">
       <ul class="navbar-nav ml-auto">
         <div class="m-2 desktop-disappear"></div>
         <li class="nav-item px-1">
@@ -40,6 +67,7 @@
         </li>
 
         <li class="nav-item px-1">
+
           <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text display-desktop no-pointer"
             (mouseenter)="openDropdown()" (mouseleave)="closeDropdown()" mdbRippleRadius>Services</a>
           <a dropdownToggle type="button" class="nav-link waves-dark blue-text nav-text display-mobile"
@@ -240,6 +268,107 @@
     </div>
   </div>
 </nav>
+<!-- Sidebar navigation -->
+<mdb-side-nav #sidenav class="fixed grey lighten-4 side-nav-light" [fixed]="true">
+  <!-- Logo -->
+  <li>
+    <div class="logo-wrapper waves-light">
+      <a href="#"><img src="/assets/images/main/navBarLogo.png" class="img-fluid flex-center"></a>
+    </div>
+  </li>
+  <!--/. Logo -->
+  <!--Social-->
+  <li>
+    <ul class="social">
+      <li><a class="icons-sm fb-ic">
+          <mdb-icon fab icon="facebook-f"> </mdb-icon>
+        </a></li>
+      <li><a class="icons-sm pin-ic">
+          <mdb-icon fab icon="pinterest"> </mdb-icon>
+        </a></li>
+      <li><a class="icons-sm gplus-ic">
+          <mdb-icon fab icon="google-plus"> </mdb-icon>
+        </a></li>
+      <li><a class="icons-sm tw-ic">
+          <mdb-icon fab icon="twitter"> </mdb-icon>
+        </a></li>
+    </ul>
+  </li>
+  <!--/Social-->
+
+  <!-- Side navigation links -->
+  <li>
+    <ul class="collapsible collapsible-accordion">
+      <mdb-accordion [multiple]="false" aria-multiselectable="false">
+
+        <mdb-accordion-item class="no-collase">
+          <mdb-accordion-item-head mdbWavesEffect>
+            <a class="nav-link waves-dark blue-text nav-text" routerLink="/" mdbRippleRadius>
+              <i class="fa fa-home pr-3 desktop-disappear" aria-hidden="true"></i>Home
+            </a>
+          </mdb-accordion-item-head>
+          <mdb-accordion-item-body></mdb-accordion-item-body>
+        </mdb-accordion-item>
+
+        <!-- Collapsible link -->
+        <mdb-accordion-item [collapsed]="false">
+          <mdb-accordion-item-head mdbWavesEffect>
+            <i class="fa fa-wrench pr-3 desktop-disappear " aria-hidden="true"></i><span
+              class="blue-text">Services</span>
+          </mdb-accordion-item-head>
+          <mdb-accordion-item-body class="listBody">
+            <ul class="listBody">
+              <li class="listBody"><a class="dropdown-item waves-dark pb-0 mb-0 blue-text ml-3 listBody" mdbRippleRadius
+                  routerLink="/about/door-and-window-screens">
+                  SCREENS
+                </a></li>
+              <li><a class="dropdown-item waves-dark pb-0 mb-0 blue-text ml-3 listBody" mdbRippleRadius
+                  routerLink="/about/door-and-window-screens">
+                  CHIMNEY
+                </a></li>
+              <li><a class="dropdown-item waves-dark pb-0 mb-0 blue-text ml-3 listBody" mdbRippleRadius
+                  routerLink="/about/door-and-window-screens">
+                  SECURITY
+                </a></li>
+            </ul>
+          </mdb-accordion-item-body>
+        </mdb-accordion-item>
+
+        <!-- Simple link -->
+        <mdb-accordion-item class="no-collase">
+          <mdb-accordion-item-head mdbWavesEffect>
+            <a class="nav-link waves-dark blue-text nav-text" routerLink="/about" mdbRippleRadius>
+              <i class="fa fa-users pr-3 desktop-disappear" aria-hidden="true"></i>About
+            </a>
+          </mdb-accordion-item-head>
+          <mdb-accordion-item-body></mdb-accordion-item-body>
+        </mdb-accordion-item>
+        <mdb-accordion-item class="no-collase">
+          <mdb-accordion-item-head mdbWavesEffect>
+            <a class="nav-link waves-dark blue-text nav-text" routerLink="/service-area" mdbRippleRadius>
+              <i class="fas fa-map-marked-alt pr-3 desktop-disappear" aria-hidden="true"></i>Service Areas
+            </a>
+          </mdb-accordion-item-head>
+          <mdb-accordion-item-body></mdb-accordion-item-body>
+        </mdb-accordion-item>
+        <mdb-accordion-item class="no-collase">
+          <mdb-accordion-item-head mdbWavesEffect>
+            <a class="nav-link waves-dark blue-text nav-text" routerLink="/blog" mdbRippleRadius>
+              <i class="fa fa-comments pr-3 desktop-disappear" aria-hidden="true"></i>Blog
+            </a>
+          </mdb-accordion-item-head>
+          <mdb-accordion-item-body></mdb-accordion-item-body>
+        </mdb-accordion-item>
+
+
+
+      </mdb-accordion>
+    </ul>
+  </li>
+  <!--/. Side navigation links -->
+  <div class="sidenav-bg mask-strong"></div>
+</mdb-side-nav>
+<!--/. Sidebar navigation -->
 <div id="backToTop"></div>
 
 <app-quote-form></app-quote-form>

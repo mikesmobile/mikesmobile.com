@@ -13,17 +13,17 @@ export class NavigationComponent {
   }
 
   openDropdown() {
-    let dropdown = document.getElementById('dropdown');
+    let dropdown = document.getElementById('sidenav');
     dropdown.classList.add('show');
   }
 
   closeDropdown() {
-    let dropdown = document.getElementById('dropdown');
+    let dropdown = document.getElementById('sidenav');
     dropdown.classList.remove('show');
   }
 
   toggleDropdownMobile() {
-    let dropdown = document.getElementById('DropdownMobile');
+    let dropdown = document.getElementById('sidenav');
     dropdown.classList.toggle('show');
   }
 }
