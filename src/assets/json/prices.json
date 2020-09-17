@@ -3,7 +3,12 @@
     "title": "tru-view-security-doors",
     "type": "products",
     "name": "TRU-View Security Screen Doods",
-    "price": [{ "price": "$1695", "type": "" }],
+    "price": [
+      {
+        "price": "$1695",
+        "type": ""
+      }
+    ],
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
@@ -36,7 +41,6 @@
     "title": "sliding-security-doors",
     "type": "products",
     "name": "Sliding Security Doors",
-
     "price": [
       {
         "price": "$2,595",
@@ -52,22 +56,14 @@
   {
     "title": "pet-doors",
     "type": "products",
-    "name": "Sliding Security Doors",
+    "name": "Pet Doors",
     "price": [
       {
-        "name": "Small",
+        "type": "Sm-md",
         "price": "$215.00"
       },
       {
-        "name": "Medium",
-        "price": "$215.00"
-      },
-      {
-        "name": "Large",
-        "price": "$305.00"
-      },
-      {
-        "name": "Xtra Large",
+        "type": "lg-xl",
         "price": "$305.00"
       }
     ],

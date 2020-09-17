@@ -162,28 +162,10 @@
             <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
           </ul>
         </div>
-        <mdb-squeezebox *ngIf="price && product.slug === 'pet-doors'" class="pricesTag">
-          <mdb-item>
-            <mdb-item-head class="pricesTag rounded mb-2 text-white">Prices</mdb-item-head>
-            <mdb-item-body>
-              <table mdbTable borderless="true">
-                <tbody>
-                  <tr mdbTableCol *ngFor="let item of price.price">
-                    <td class="py-0">{{ item.name }}</td>
-                    <td class="price py-0">{{ item.price }}</td>
-                  </tr>
-                </tbody>
-              </table>
-              <p *ngIf="price.disclaimer" class="text-center">
-                *{{ price.disclaimer }}
-              </p>
-            </mdb-item-body>
-          </mdb-item>
-        </mdb-squeezebox>
         <div class="row text-center mb-3">
           <div class="container text-center">
             <div class="row align-items-center justify-content-center">
-              <div *ngIf="price && product.slug !== 'pet-doors'">
+              <div *ngIf="price">
                 <div *ngFor="let item of price.price" class="col">
                   <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
                   <div class=" col priceImage ">
