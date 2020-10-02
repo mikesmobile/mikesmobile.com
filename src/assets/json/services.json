@@ -3611,22 +3611,10 @@
         "big": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg"
       },
       {
-        "alt": "Gas Log set fireplace installed by mikes mobile",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg"
-      },
-      {
         "alt": "gas Valve set",
         "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
         "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
         "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg"
-      },
-      {
-        "alt": "gas valve kit",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg"
       },
       {
         "alt": "glass door gas logset",
@@ -3635,10 +3623,10 @@
         "big": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg"
       },
       {
-        "alt": "Pilot Assembly",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg"
+        "alt": "gas valve log kit",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpeg"
       }
     ]
   },
