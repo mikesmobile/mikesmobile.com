@@ -3596,7 +3596,51 @@
     "category": "Chimney Services",
     "type": "about",
     "tileImage": "/assets/images/tiles/gasFirePlaceTile.png",
-    "tileText": "Gas Fireplace not working? We can get it working in no time!"
+    "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "thumbImages": [
+      {
+        "alt": "Gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg"
+      },
+      {
+        "alt": "Gas Log Set",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg"
+      },
+      {
+        "alt": "Gas Log set fireplace installed by mikes mobile",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gassLogSet.jpeg"
+      },
+      {
+        "alt": "gas Valve set",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg"
+      },
+      {
+        "alt": "gas valve kit",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg"
+      },
+      {
+        "alt": "glass door gas logset",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg"
+      },
+      {
+        "alt": "Pilot Assembly",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/pilotAssembly.jpg"
+      }
+    ]
   },
   {
     "title": "Chimney Repairs",
