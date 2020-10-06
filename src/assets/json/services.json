@@ -3595,38 +3595,32 @@
     "slug": "gas-fireplace-repair-and-service",
     "category": "Chimney Services",
     "type": "about",
-    "tileImage": "/assets/images/tiles/gasFirePlaceTile.png",
+    "tileImage": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",
     "thumbImages": [
       {
-        "alt": "Gas fireplace",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasFurnace.jpeg"
+        "alt": "Marble Gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg"
       },
       {
-        "alt": "Gas Log Set",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/GasLogSet2.jpeg"
+        "alt": "Gas fireplace with reflection",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg"
       },
       {
-        "alt": "gas Valve set",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValve.jpg"
+        "alt": "White Gas fireplace ",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg"
       },
       {
-        "alt": "glass door gas logset",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/glassDoorGassLogset.jpg"
-      },
-      {
-        "alt": "gas valve log kit",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasValveKit.jpeg"
+        "alt": "Gas brick fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg"
       }
     ]
   },
