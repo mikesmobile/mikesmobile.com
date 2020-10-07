@@ -1,7 +1,9 @@
 [
   {
     "page": "/",
-    "aliases": ["/index.html.var"],
+    "aliases": [
+      "/index.html.var"
+    ],
     "title": "Mike's Mobile Screen & Chimney Service",
     "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
   },
@@ -23,17 +25,7 @@
   {
     "page": "/about/gas-fireplace-repair-and-service",
     "title": "Gas Fireplace Repair & Service | Mike's Mobile",
-    "description": "Mike's Mobile repairs and Services gas Fireplaces!"
-  },
-  {
-    "page": "/services/gas-fireplace-repair",
-    "title": "Gas Fireplace Repair | Mike's Mobile",
-    "description": "Gas Fireplace not working? We can get it back to new no problem!"
-  },
-  {
-    "page": "/services/gas-fireplace-annual-service",
-    "title": "Gas Fireplace Annual Service | Mike's Mobile",
-    "description": "We can clean and inspect your gas fireplace, make sure everything is working great!"
+    "description": "Mike's Mobile repairs and Services gas Fireplaces! Have a CSIA certified gas technition come out to your home, and make sure your gas appliance is running great today!"
   },
   {
     "page": "/services/gas-log-sets",
@@ -443,7 +435,6 @@
     "title": "Chimney FAQ - Chimney Service | Mike's Mobile",
     "description": "Get your chimney FAQ answered here. How often should you have your chimney cleaned? We service any chimney in the Sacramento, Stockton, Modesto and The Bay areas. Don't hesitate to give us a call."
   },
-
   {
     "page": "/chimneys/antioch-east-bay",
     "title": "Chimney Services in the Bay Area | Mike's Mobile",
