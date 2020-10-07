@@ -3595,7 +3595,7 @@
     "slug": "gas-fireplace-repair-and-service",
     "category": "Chimney Services",
     "type": "about",
-    "tileImage": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
+    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",
     "thumbImages": [
       {

@@ -239,9 +239,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'security-screen-doors-email', component: LandingPageComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
-  // { path: 'promo', component: PromoComponent },
-  // { path: 'awningPriceCalc', component: AwningPriceCalcComponent },
-  // { path: 'dropRollPriceCalc', component: DropRollCalcComponent },
+ 
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },
