@@ -168,24 +168,24 @@
               <div *ngIf="price">
                 <div *ngFor="let item of price.price" class="col">
                   <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
-                  <div class=" col priceImage ">
+                  <!-- <div class=" col priceImage ">
                     <h5 class="priceTag text-right text-white mt-1 mb-0 ml-2">Starting at</h5>
                     <h2 class="priceTag text-right mr-2 price  ml-2 text-white">{{ item.price }}</h2>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="col ctaCol">
-                <div *ngIf="product.slug !== 'solar-screens'" class=" d-md-none ">
+                <!-- <div *ngIf="product.slug !== 'solar-screens'" class=" d-md-none ">
                   <a class="white-text" href="tel:+18009929938">
                     <h4 class="animated pulse infinite orange-text  cursor-pointer">
                       <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
                     </h4>
                   </a>
-                </div>
-                <div *ngIf="product.slug !== 'solar-screens'" class=" d-none d-md-block cursor-pointer text-center"
+                </div> -->
+                <div *ngIf="product.slug !== 'solar-screens'" class="  cursor-pointer text-center"
                   (click)="openQuoteForm()">
                   <h4 class="animated pulse infinite orange-text ">
-                    &nbsp;Get a Free Quote Now!
+                    &nbsp;See pricing and contact form
                   </h4>
                 </div>
                 <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
