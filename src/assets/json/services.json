@@ -3544,12 +3544,20 @@
     ]
   },
   {
+    "title": "Electric Fireplaces",
+    "slug": "electric-fireplaces",
+    "category": "Chimney Services",
+    "type": "about",
+    "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
+    "tileText": "Imitates the look of a traditional masonry fireplace, with all the convenience of simply plugging it in."
+  },
+  {
     "title": "Water Proofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
     "type": "about",
     "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
-    "tileText": "Guarantee your chimney for the next 10 years, at a low discounted price"
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!"
   },
   {
     "title": "Chimney Inspections",
@@ -3664,34 +3672,46 @@
     ],
     "recentInstallImages": [
       {
-        "alt": "Vacuuming Chimney Cleaning",
+        "alt": "crown seal done by mikes mobile.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg"
       },
       {
-        "alt": "Inside Chimney Cleaning",
+        "alt": "crown seal on uper crown.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal zoom in",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal lower crown",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal white chimney",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg"
+      },
+      {
+        "alt": "crown seal upper stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg"
+      },
+      {
+        "alt": "clean Crown coat square stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg"
       }
     ]
   },
