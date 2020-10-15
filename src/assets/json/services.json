@@ -3650,12 +3650,12 @@
     "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
   },
   {
-    "title": "Chimney Crown Seal",
+    "title": "Chimney Crown Coat",
     "slug": "crown-seal",
     "category": "Repair",
     "type": "services",
     "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
-    "tileText": "Protect your chimney from water damage. Get a crown seal for your chimney now!",
+    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!",
     "textList": [
       {
         "title": "A chimney crown seal protects the chimney crown from damage over time.",
@@ -3714,6 +3714,22 @@
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg"
       }
     ]
+  },
+  {
+    "title": "Ascent Electric Fireplace",
+    "slug": "ascent-electric-fireplace",
+    "category": "electric fireplaces",
+    "type": "services",
+    "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
+    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
+  },
+  {
+    "title": "Cinema Log Series",
+    "slug": "cinema-log-series",
+    "category": "electric fireplaces",
+    "type": "services",
+    "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
+    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
   },
   {
     "title": "Chimney Flashing",
