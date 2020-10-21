@@ -5054,28 +5054,5 @@
         }
       ]
     }
-  },
-  {
-    "title": "Security Window Screens",
-    "slug": "security-windows",
-    "type": "landing",
-    "images": {
-      "Security Window Screens": [
-        {
-          "alt": "Quick Escape Security Window Screens",
-          "title": "Quick Escape Security Window Screens",
-          "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
-          "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
-          "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
-        },
-        {
-          "alt": "Fixed Security Window Screens",
-          "title": "Fixed Security Window Screens",
-          "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
-          "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
-          "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
-        }
-      ]
-    }
   }
 ]
