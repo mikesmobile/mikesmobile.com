@@ -6,3 +6,27 @@
   "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
   "tileText": "Guarantee your chimney for the next 10 years, at a low discounted price"
 },
+{
+  "title": "Ascent Electric Fireplace",
+  "slug": "ascent-electric-fireplace",
+  "category": "electric fireplaces",
+  "type": "services",
+  "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
+  "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
+},
+{
+  "title": "Cinema Log Series",
+  "slug": "cinema-log-series",
+  "category": "electric fireplaces",
+  "type": "services",
+  "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
+  "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
+},
+{
+  "title": "Electric Fireplaces",
+  "slug": "electric-fireplaces",
+  "category": "Chimney Services",
+  "type": "about",
+  "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
+  "tileText": "Imitates the look of a traditional masonry fireplace, with all the convenience of simply plugging it in."
+},

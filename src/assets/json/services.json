@@ -3544,15 +3544,7 @@
     ]
   },
   {
-    "title": "Electric Fireplaces",
-    "slug": "electric-fireplaces",
-    "category": "Chimney Services",
-    "type": "about",
-    "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
-    "tileText": "Imitates the look of a traditional masonry fireplace, with all the convenience of simply plugging it in."
-  },
-  {
-    "title": "Water Proofing Package",
+    "title": "Waterproofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
     "type": "about",
@@ -3714,22 +3706,6 @@
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg"
       }
     ]
-  },
-  {
-    "title": "Ascent Electric Fireplace",
-    "slug": "ascent-electric-fireplace",
-    "category": "electric fireplaces",
-    "type": "services",
-    "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
-    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
-  },
-  {
-    "title": "Cinema Log Series",
-    "slug": "cinema-log-series",
-    "category": "electric fireplaces",
-    "type": "services",
-    "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
-    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!"
   },
   {
     "title": "Chimney Flashing",

@@ -383,14 +383,22 @@
   </ng-container>
   <ng-container *ngIf="landing.slug === 'water-proofing-package'">
     <div class="container text-center py-4">
-      <h1 class="p-2 text-left" [innerHTML]="landing.title"></h1>
+      <h1 class="text-center">We Fix Leaky Chimneys!</h1>
       <hr />
+      <!-- <div class="row text-center">
+        <div class="col">
+          <h1 class="p-2 text-center" [innerHTML]="landing.title"></h1>
+        </div>
+      </div>
+      <hr /> -->
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <img src="/assets/images/waterProofing/waterProofpackage.png" class="img-fluid" alt="water proofing package">
         </div>
         <div class="col-lg-6 text-left">
-          <h2>Protect your chimney from all angles with our 10-year warranty!</h2>
+          <h1 class=" text-left" [innerHTML]="landing.title"></h1>
+          <hr />
+          <h3>Protect your chimney from all angles with our 10-year warranty!</h3>
           <hr />
           <p>The last thing you want to worry about as a homeowner is water leaking into your home. That's why our
             waterproofing bundle includes all the repairs you need to ensure your chimney isn't the cause of any
