@@ -3956,27 +3956,13 @@
     "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
   },
   {
-    "title": "Chimney Caps and Spark Arrestor",
-    "slug": "chimney-caps-and-spark-arrestor",
+    "title": "Chimney Caps",
+    "slug": "chimney-caps",
     "category": "Accessories",
-    "type": "services",
+    "type": "products",
     "tileImage": "/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
-    "serviceImgCaption": "Keep animals and leaves out of your chimney.",
-    "textList": [
-      {
-        "title": "Reasons EVERY chimney needs a cap",
-        "description": "Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
-      },
-      {
-        "title": "Animal Protection",
-        "description": "Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, squirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
-      },
-      {
-        "title": "Spark Protection",
-        "description": "Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
-      }
-    ]
+    "serviceImgCaption": "Keep animals and leaves out of your chimney."
   },
   {
     "title": "Fireplace Grate",
