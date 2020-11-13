@@ -212,16 +212,14 @@ const appRoutes: Routes = [
     path: 'security/:slug',
     redirectTo: 'regions/:slug',
   },
-  {
-    path: 'contact',
-    redirectTo: 'service-area',
-  },
+
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   { path: 'chimney-faq', component: ChimneyFaqComponent },
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'service-area', component: ContactComponent },
+  { path: 'service-area/:id', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
@@ -239,7 +237,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'security-screen-doors-email', component: LandingPageComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
- 
+
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },

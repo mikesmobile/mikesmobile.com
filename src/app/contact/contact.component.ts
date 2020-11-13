@@ -1,4 +1,5 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import { MouseEvent } from '@agm/core';
 import {
@@ -43,6 +44,10 @@ export class ContactComponent implements OnInit {
   openQuoteForm() {
     this.quoteForm.show();
   }
+
+  private id: string;
+
+  constructor(private route: ActivatedRoute) { }
 
   state = 'clicked';
   regions = [];
@@ -112,6 +117,7 @@ export class ContactComponent implements OnInit {
   color: string = 'blue';
 
   ngOnInit() {
+    this.route.params.subscribe((params) => { this.id = params.id; });
     this.regions = regionalJSON;
   }
   mapClicked($event: MouseEvent) {
@@ -122,6 +128,12 @@ export class ContactComponent implements OnInit {
   clickedMarker(label: string) {
     this.clicked = label;
     this.state == 'normal' ? (this.state = 'clicked') : (this.state = 'normal');
+  }
+
+  ngAfterViewInit(): void {
+    try {
+      document.querySelector('#' + this.id).scrollIntoView({ block: 'center' });
+    } catch (e) { }
   }
 }
 
