@@ -230,7 +230,7 @@ const appRoutes: Routes = [
   { path: 'privacy', component: PrivacyComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
-  { path: 'careers', component: CareerPageComponent },
+  // { path: 'careers', component: CareerPageComponent },
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'regions/:slug', component: LandingRegionalComponent },
