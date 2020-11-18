@@ -249,55 +249,64 @@
           <hr />
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-lg-6">
-          <app-img src="assets/images/chimneyCaps/metallicSilverCap.png" class="img-fluid centered-sq"></app-img>
+          <!-- <app-img src="assets/images/chimneyCaps/metallicSilverCap.png" class="img-fluid centered-sq"></app-img> -->
+          <app-main-gallery class="carousel slide carousel-fade chimneyCapGallery" [Images]="gallery_images">
+          </app-main-gallery>
         </div>
         <div class="col-lg-6">
-          <h2 *ngIf="product.slug === 'chimney-caps'" class="text-left font-italic">
-            We Sell Chimney Caps Not Flue Caps
-          </h2>
-          <hr />
-          <h5>
-            Traditional flue caps don't protect your chimney and cost you money in home repairs.
-          </h5>
-          <p>At Mikes Mobile we want to make sure the job is done right, and your home is protected for the future.
-            Tradional chimney flue caps serve a purpose, they keep animals and debris out of your flue, and sparks off
-            your roof, but they don't protect your stack. </p>
-          <p>Water shedding onto your masonry stack can deteriorate your brick work, and lead to water intrusion into
-            your house. Costing home owners thousands of dollars in expensive repairs over time. We don't want to have
-            to pay for these repairs and we don't want our neighbors to have to either.</p>
-          <p>That's why we now only offer premium custom built chimney caps. They do everything a traditional flue cap
-            does, while shedding water away from your chimney protecting in for the future. Our chimney caps overhang
-            your chimney stack sheltering it from the rain, and saving you from costly repairs.</p>
-          <p>This is the greatest chimney inovation we've seen in years, and are excited to be able to offer it to our
-            customers</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="text-center text-lg-left">
+                  Your home has a roof, so why not your chimney?
+                </h2>
+                <hr />
+                <p>Chimney caps play an important role in the protection of your chimney. Traditional flue caps were
+                  designed
+                  to protect your chimney flue from debris, animals and water intrusion. Flue caps also have spark
+                  arrestor
+                  screens to help protect your roof from any escaping sparks. Unfortunately over the years it's become
+                  clear
+                  flue caps are not the correct solution to protect your chimney. </p>
+                <p>While it’s clear flue caps help protect the flue, they actually hurt your chimney stack and crown.
+                  Traditional flue caps were not designed with the chimney stack in mind, they shed water off of the cap
+                  right
+                  onto the crown, which if not built properly, allows water to run down the stack causing deterioration
+                  and
+                  water intrusion.</p>
+                <p>That's why we now only offer premium custom built chimney caps. They do everything a traditional flue
+                  cap
+                  does, while shedding water away from your chimney stack with a 2” overhang. Extending the life of your
+                  chimney and saving you from costly repairs down the line.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <app-img src="assets/images/chimneyCaps/howboutnow.png" class="img-fluid"></app-img>
+              </div>
+              <div class="col-6 text-center text-lg-left">
+                <h4>You Wouldn't Use an Umbrella The Same Size as Your Head...</h4>
+              </div>
+              <div class="col-3">
+                <app-img src="assets/images/chimneyCaps/happyChimney.png" class="img-fluid"></app-img>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row mt-5 align-items-center text-center">
-        <div class="col-2">
-          <app-img src="assets/images/chimneyCaps/howboutnow.png" class="img-fluid"></app-img>
-        </div>
-        <div class="col-8">
-          <h4>You Wouldn't Use an Umbrella The Same Size as Your Head...</h4>
-          <p>Tradiional flue caps just cover your flue letting all the water shed onto your chimney. Our custom built
-            chimney caps, are like an umbrella for your chimney protecting it from from water damage and saving you from
-            costly repairs.</p>
-        </div>
-        <div class="col-2">
-          <app-img src="assets/images/chimneyCaps/happyChimney.png" class="img-fluid"></app-img>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-center mt-2">
-        <div class="col-lg-4 ">
+
+      <div class="row align-items-center justify-content-center mt-6">
+        <div class="col-lg-5 ">
+          <h5>Our Chimney Caps Offer</h5>
           <ul>
             <li>
-              Life Time Warranty
+              All the features of a traditional flue cap, to keep debris and animals out while keeping sparks in
             </li>
-            <li>Protects Your Entire Chimney, Not Just Your Flue!</li>
-            <li>Sheds Water Away From Your Chimney</li>
-            <li>Looks Great on your house</li>
-            <li>Keeps Animals, Debris and Rain Out of Your Flue</li>
+            <li>Limited lifetime warranty, to ensure you’re home is always protected</li>
+            <li>2” overhang, to shed water away and protect your chimney stack</li>
+            <li>Color options, to match the aesthetic of your home</li>
           </ul>
         </div>
         <div class="col-lg-6">

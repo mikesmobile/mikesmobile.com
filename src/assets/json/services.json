@@ -3962,7 +3962,51 @@
     "type": "products",
     "tileImage": "/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
-    "serviceImgCaption": "Keep animals and leaves out of your chimney."
+    "serviceImgCaption": "Keep animals and leaves out of your chimney.",
+    "thumbImages": [
+      {
+        "alt": "comparison between flue cap, and a chimney cap",
+        "small": "/assets/images/chimneyCaps/comparison.png",
+        "medium": "/assets/images/chimneyCaps/comparison.png",
+        "big": "/assets/images/chimneyCaps/comparison.png"
+      },
+      {
+        "alt": "metallic silver chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilverCap.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilverCap.png",
+        "big": "/assets/images/chimneyCaps/metallicSilverCap.png"
+      },
+      {
+        "alt": "dark bronze chimney cap",
+        "small": "/assets/images/chimneyCaps/Dark-Bronze.png",
+        "medium": "/assets/images/chimneyCaps/Dark-Bronze.png",
+        "big": "/assets/images/chimneyCaps/Dark-Bronze.png"
+      },
+      {
+        "alt": "matte black chimney cap",
+        "small": "/assets/images/chimneyCaps/Matte-Black.png",
+        "medium": "/assets/images/chimneyCaps/Matte-Black.png",
+        "big": "/assets/images/chimneyCaps/Matte-Black.png"
+      },
+      {
+        "alt": "Saddle Tan chimney cap",
+        "small": "/assets/images/chimneyCaps/Saddle-Tan.png",
+        "medium": "/assets/images/chimneyCaps/Saddle-Tan.png",
+        "big": "/assets/images/chimneyCaps/Saddle-Tan.png"
+      },
+      {
+        "alt": "Parchment chimney cap",
+        "small": "/assets/images/chimneyCaps/Parchment.png",
+        "medium": "/assets/images/chimneyCaps/Parchment.png",
+        "big": "/assets/images/chimneyCaps/Parchment.png"
+      },
+      {
+        "alt": "Champagne chimney cap",
+        "small": "/assets/images/chimneyCaps/Champagne.png",
+        "medium": "/assets/images/chimneyCaps/Champagne.png",
+        "big": "/assets/images/chimneyCaps/Champagne.png"
+      }
+    ]
   },
   {
     "title": "Fireplace Grate",
