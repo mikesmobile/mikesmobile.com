@@ -206,23 +206,23 @@
     "price": [
       {
         "name": "Open Fireplace",
-        "price": "$259"
+        "price": "$295"
       },
       {
         "name": "Freestanding Stove",
-        "price": "$279"
+        "price": "$310"
       },
       {
         "name": "Insert",
-        "price": "$389"
+        "price": "$425"
       },
       {
         "name": "Pellet Stove",
-        "price": "$379"
+        "price": "$425"
       },
       {
         "name": "Gas Fireplace",
-        "price": "$259"
+        "price": "$295"
       }
     ]
   },
@@ -235,8 +235,12 @@
         "price": "Free With Cleaning"
       },
       {
-        "name": "Level - 2*",
-        "price": "$259.00"
+        "name": "Level - 2(Open, Frestanding, & gas)*",
+        "price": "$442.50"
+      },
+      {
+        "name": "Level - 2 (Insert & Pellet)",
+        "price": "$507.50"
       }
     ],
     "disclaimer": "Get 1/2 cleaning when paired with a level-2 inspection!"
@@ -279,7 +283,7 @@
     "name": "Gas Fireplace Annual Service",
     "price": [
       {
-        "price": "$249.00"
+        "price": "$259.00"
       }
     ],
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
@@ -291,11 +295,11 @@
     "price": [
       {
         "name": "Gas Log Set - Installation only*",
-        "price": "$360.00"
+        "price": "$395.00"
       },
       {
         "name": "Gas Log Set - Includes set & installation",
-        "price": "$575.00"
+        "price": "$645.00"
       }
     ],
     "disclaimer": "We can install your Gas Log Set."

@@ -3544,12 +3544,12 @@
     ]
   },
   {
-    "title": "Water Proofing Package",
+    "title": "Waterproofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
     "type": "about",
     "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
-    "tileText": "Guarantee your chimney for the next 10 years, at a low discounted price"
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!"
   },
   {
     "title": "Chimney Inspections",
@@ -3642,12 +3642,12 @@
     "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
   },
   {
-    "title": "Chimney Crown Seal",
+    "title": "Chimney Crown Coat",
     "slug": "crown-seal",
     "category": "Repair",
     "type": "services",
     "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
-    "tileText": "Protect your chimney from water damage. Get a crown seal for your chimney now!",
+    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!",
     "textList": [
       {
         "title": "A chimney crown seal protects the chimney crown from damage over time.",
@@ -3664,34 +3664,46 @@
     ],
     "recentInstallImages": [
       {
-        "alt": "Vacuuming Chimney Cleaning",
+        "alt": "crown seal done by mikes mobile.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg"
       },
       {
-        "alt": "Inside Chimney Cleaning",
+        "alt": "crown seal on uper crown.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal zoom in",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal lower crown",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal white chimney",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg"
+      },
+      {
+        "alt": "crown seal upper stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg"
+      },
+      {
+        "alt": "clean Crown coat square stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg"
       }
     ]
   },
@@ -3944,25 +3956,108 @@
     "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
   },
   {
-    "title": "Chimney Caps and Spark Arrestor",
-    "slug": "chimney-caps-and-spark-arrestor",
-    "category": "Accessories",
-    "type": "services",
-    "tileImage": "/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
+    "title": "Chimney Caps",
+    "slug": "chimney-caps",
+    "category": "Chimney Services",
+    "type": "products",
+    "tileImage": "/assets/images/chimneyCaps/chimneyCapTile.png",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
-    "textList": [
+    "thumbImages": [
       {
-        "title": "Reasons EVERY chimney needs a cap",
-        "description": "Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
+        "alt": "comparison between flue cap, and a chimney cap",
+        "small": "/assets/images/chimneyCaps/comparison.png",
+        "medium": "/assets/images/chimneyCaps/comparison.png",
+        "big": "/assets/images/chimneyCaps/comparison.png"
       },
       {
-        "title": "Animal Protection",
-        "description": "Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, squirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
+        "alt": "metallic silver chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "big": "/assets/images/chimneyCaps/metallicSilverPalm.png"
       },
       {
-        "title": "Spark Protection",
-        "description": "Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
+        "alt": "dark bronze chimney cap",
+        "small": "/assets/images/chimneyCaps/MatteBlack.png",
+        "medium": "/assets/images/chimneyCaps/MatteBlack.png",
+        "big": "/assets/images/chimneyCaps/MatteBlack.png"
+      },
+      {
+        "alt": "matte black chimney cap",
+        "small": "/assets/images/chimneyCaps/silverBig.png",
+        "medium": "/assets/images/chimneyCaps/silverBig.png",
+        "big": "/assets/images/chimneyCaps/silverBig.png"
+      },
+      {
+        "alt": "Saddle Tan chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "big": "/assets/images/chimneyCaps/metallicSilver2.png"
+      },
+      {
+        "alt": "Parchment chimney cap",
+        "small": "/assets/images/chimneyCaps/silverMason.png",
+        "medium": "/assets/images/chimneyCaps/silverMason.png",
+        "big": "/assets/images/chimneyCaps/silverMason.png"
+      },
+      {
+        "alt": "Champagne chimney cap",
+        "small": "/assets/images/chimneyCaps/darkBronze.png",
+        "medium": "/assets/images/chimneyCaps/darkBronze.png",
+        "big": "/assets/images/chimneyCaps/darkBronze.png"
+      }
+    ]
+  },
+  {
+    "title": "Chimney Caps",
+    "slug": "chimney-caps",
+    "category": "Accessories",
+    "type": "products",
+    "tileImage": "/assets/images/chimneyCaps/chimneyCapTile.png",
+    "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
+    "serviceImgCaption": "Keep animals and leaves out of your chimney.",
+    "thumbImages": [
+      {
+        "alt": "comparison between flue cap, and a chimney cap",
+        "small": "/assets/images/chimneyCaps/comparison.png",
+        "medium": "/assets/images/chimneyCaps/comparison.png",
+        "big": "/assets/images/chimneyCaps/comparison.png"
+      },
+      {
+        "alt": "metallic silver chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "big": "/assets/images/chimneyCaps/metallicSilverPalm.png"
+      },
+      {
+        "alt": "dark bronze chimney cap",
+        "small": "/assets/images/chimneyCaps/MatteBlack.png",
+        "medium": "/assets/images/chimneyCaps/MatteBlack.png",
+        "big": "/assets/images/chimneyCaps/MatteBlack.png"
+      },
+      {
+        "alt": "matte black chimney cap",
+        "small": "/assets/images/chimneyCaps/silverBig.png",
+        "medium": "/assets/images/chimneyCaps/silverBig.png",
+        "big": "/assets/images/chimneyCaps/silverBig.png"
+      },
+      {
+        "alt": "Saddle Tan chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "big": "/assets/images/chimneyCaps/metallicSilver2.png"
+      },
+      {
+        "alt": "Parchment chimney cap",
+        "small": "/assets/images/chimneyCaps/silverMason.png",
+        "medium": "/assets/images/chimneyCaps/silverMason.png",
+        "big": "/assets/images/chimneyCaps/silverMason.png"
+      },
+      {
+        "alt": "Champagne chimney cap",
+        "small": "/assets/images/chimneyCaps/darkBronze.png",
+        "medium": "/assets/images/chimneyCaps/darkBronze.png",
+        "big": "/assets/images/chimneyCaps/darkBronze.png"
       }
     ]
   },

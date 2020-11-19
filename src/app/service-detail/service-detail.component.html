@@ -24,11 +24,14 @@
         routerLink="/about/security-doors">Security Screen Doors</a>
       <a *ngIf="service.category === 'Security Window Screens'" class="breadcrumb-item"
         routerLink="/about/security-windows">Security Window Screens</a>
+      <a *ngIf="service.category === 'electric fireplaces'" class="breadcrumb-item"
+        routerLink="/about/electric-fireplaces">Electric Fireplaces</a>
       <a *ngIf="service.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
       <span class="breadcrumb-item active" [innerHTML]="service.title"></span>
     </nav>
 
-    <section class="section extra-margins">
+    <section *ngIf="service.slug !== 'ascent-electric-fireplace' && service.slug !== 'cinema-log-series'"
+      class="section extra-margins">
       <div class="row" *ngIf="service.slug !== 'gas-fireplace-annual-service'">
         <div class="col-12">
           <h1 class="text-left h2 mb-2 pageTitle" [innerHTML]="service.title"></h1>
@@ -48,6 +51,9 @@
         </h3>
       </div>
       <hr />
+
+
+
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
           <div class="main-image">
@@ -101,7 +107,7 @@
                 Keep leaks out for good! We offer full chimney waterproofing!
               </h5>
               <h5 *ngIf="service.slug === 'crown-seal'" class="text-center font-weight-bold font-italic">
-                Don't leave your chimney crown unprotected! Our crown seals help
+                Don't leave your chimney crown unprotected! Our crown coats help
                 stop leaks!
               </h5>
               <h5 *ngIf="service.slug === 'rear-firewall-heat-damage'" class="text-center font-weight-bold font-italic">
@@ -151,7 +157,6 @@
                 Keep your home warm while avoiding costly repairs with radiant
                 fire brick!
               </h5>
-
               <hr />
               <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
                 <mdb-item *ngFor="let item of service.textList; index as i">
@@ -257,14 +262,175 @@
         </div>
       </div>
     </section>
+    <section *ngIf="service.slug === 'ascent-electric-fireplace'" class="section extra-margins">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Ascent Electric Fireplace</h1>
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-4">
+            <img class="img-fuild" alt="Ascent Electric Fireplace"
+              src="/assets/images/electric-fireplace/ascentFireplace.png" />
+          </div>
+          <div class="col-6">
+            <h5 class="mx-4">
+              The Napoleon Ascent™ Electric Fireplace Series imitates the look of a traditional masonry fireplace with
+              all the convenience of simply plugging it in. Our flame technology randomly adjusts the flame effect,
+              color, height, and speed creating the illusion of a true wood burning fire. The ULTRA BRIGHT™ LED lights
+              and convenient remote control enhance the allure of the Ascent™ Electric Fireplace. Perfect for any room
+              in a house, condo, apartment or office.
+            </h5>
+          </div>
+        </div>
+        <div class="row featureSection">
+          <div class="col -6">
+            <h4>Specification</h4>
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <h5>Fuel Type: </h5>
+                  <h5>View Type: </h5>
+                  <h5>Available Models: </h5>
+                </div>
+                <div class="col-4">
+                  <h5>Electric</h5>
+                  <h5>Single Sided</h5>
+                  <h5>33 & 40</h5>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <img class="img-fluid" src='/assets/images/electric-fireplace/sizeChartAscent.png' />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <h4>Key Series Features</h4>
+            <ul class="h5">
+              <li class="my-2">Up to 9,000 BTU's</li>
+              <li class="my-2">Can be plugged in or hardwired 120V/240V</li>
+              <li class="my-2">ULTRA BRIGHT™ LED Lights</li>
+              <li class="my-2">WHISPER QUIET™ fan and heater</li>
+              <li class="my-2">Non-reflective backing</li>
+              <li class="my-2">NIGHT LIGHTS™ feature</li>
+              <li class="my-2">Can be set to Fahrenheit or Celsius settings</li>
+              <li class="my-2">Self trimming flange</li>
+              <li class="my-2">Realistic brick panels, glowing logs and ember bed</li>
+              <li class="my-2">Self Diagnostic LED Light Indicates when any Issues Arise</li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2" (click)="openQuoteForm()">
+          Get started today!
+        </h2>
+        <div class="row text-center mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <a routerLink="/financing">
+                  <img src="/assets/images/main/financingButton.png" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="row" *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'">
+    <section *ngIf="service.slug === 'cinema-log-series'" class="section extra-margins">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Cinema™ Log Series</h1>
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-4">
+            <img class="img-fuild" alt="Ascent Electric Fireplace"
+              src="/assets/images/electric-fireplace/cinemaLogFireplace.png" />
+          </div>
+          <div class="col-6">
+            <h5 class="mx-4">
+              The Napoleon Cinema™ Series Built-In Electric Fireplace sets a rich and inviting tone for any room in the
+              house. A scintillating topaz glass ember bed or realistic burning logs will dazzle all with their
+              flickering flames. This modern electric fireplace is ready to use out of the box and can be placed into a
+              décor mantel or fully customize by installing it into a wall. With the push of a button, it is easy to
+              adjust flame brightness and heat intensity and doesn't require chimneys or venting.
+            </h5>
+          </div>
+        </div>
+        <div class="row featureSection">
+          <div class="col -6">
+            <h4>Specification</h4>
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <h5>Fuel Type: </h5>
+                  <h5>View Type: </h5>
+                  <h5>Available Models: </h5>
+                </div>
+                <div class="col-4">
+                  <h5>Electric</h5>
+                  <h5>Single Sided</h5>
+                  <h5>24, 27, & 29</h5>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <img class="img-fluid" src='/assets/images/electric-fireplace/series-size-chart-cinema.png' />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <h4>Key Series Features</h4>
+            <ul class="h5">
+              <li class="my-2">Up to 5,000 BTU's</li>
+              <li class="my-2">1,500 Watts</li>
+              <li class="my-2">Can be plugged in or hardwired 120V</li>
+              <li class="my-2">NIGHT LIGHT™ settings</li>
+              <li class="my-2">Realistic molded log set and ember bed (log units)</li>
+              <li class="my-2">Adjustable flame and ember light control (log units)</li>
+              <li class="my-2">Topaz glass ember bed (glass units)</li>
+              <li class="my-2">Four heat settings</li>
+              <li class="my-2">Eco-friendly</li>
+              <li class="my-2">Safe to touch - never hot enough to burn</li>
+              <li class="my-2">Whisper Quiet™ Operation</li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2" (click)="openQuoteForm()">
+          Get started today!
+        </h2>
+        <div class="row text-center mb-3">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <a routerLink="/financing">
+                  <img src="/assets/images/main/financingButton.png" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row text-center" *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'">
       <section class="section feature-box">
-        <h1 class="section-heading h1 light-gray-text">
+        <h1 class="section-heading h1 light-gray-text text-center">
           We offer these types of caps
         </h1>
         <div class="row features-big">
-          <div class="col-md-3 mb-r">
+          <!-- <div class="col-md-3 mb-r">
             <app-img src="/assets/images/chimneys/accessories/chimney-cap/1.png" class="img-fluid"></app-img>
             <h5 class="feature-title">Masonry Chimney Caps</h5>
             <p class="light-gray-text p-2">
@@ -275,8 +441,8 @@
               17", 13" x 13", 13" x 17" - We can also order custom size chimney
               caps. Contact us today and find out how!
             </p>
-          </div>
-          <div class="col-md-3 mb-r">
+          </div> -->
+          <div class="col-md-6 mb-r">
             <app-img src="/assets/images/chimneys/accessories/chimney-cap/2.png" class="img-fluid"></app-img>
             <h5 class="feature-title">Prefab/Zero Clearance Chimney Cap</h5>
             <p class="light-gray-text p-2">
@@ -285,7 +451,7 @@
               options. Contact us today for custom sizes. We can do it!
             </p>
           </div>
-          <div class="col-md-3 mb-r">
+          <!-- <div class="col-md-3 mb-r">
             <app-img src="/assets/images/chimneys/accessories/chimney-cap/3.png" class="img-fluid"></app-img>
             <h5 class="feature-title">Lock Top Damper</h5>
             <p class="light-gray-text p-2">
@@ -295,8 +461,8 @@
               damper seals shut with a rubber seal and keeps the cold air out of
               your chimney and out of your home.
             </p>
-          </div>
-          <div class="col-md-3 mb-r">
+          </div> -->
+          <div class="col-md-6 mb-r">
             <app-img src="/assets/images/chimneys/accessories/chimney-cap/4.png" class="img-fluid"></app-img>
             <h5 class="feature-title">Flue Extender Caps</h5>
             <p class="light-gray-text p-2">
@@ -369,6 +535,7 @@
         {{ price.disclaimer }}
       </p>
     </div>
+
   </div>
 </ng-container>
 
