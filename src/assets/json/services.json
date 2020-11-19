@@ -3972,39 +3972,39 @@
       },
       {
         "alt": "metallic silver chimney cap",
-        "small": "/assets/images/chimneyCaps/metallicSilverCap.png",
-        "medium": "/assets/images/chimneyCaps/metallicSilverCap.png",
-        "big": "/assets/images/chimneyCaps/metallicSilverCap.png"
+        "small": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "big": "/assets/images/chimneyCaps/metallicSilverPalm.png"
       },
       {
         "alt": "dark bronze chimney cap",
-        "small": "/assets/images/chimneyCaps/Dark-Bronze.png",
-        "medium": "/assets/images/chimneyCaps/Dark-Bronze.png",
-        "big": "/assets/images/chimneyCaps/Dark-Bronze.png"
+        "small": "/assets/images/chimneyCaps/MatteBlack.png",
+        "medium": "/assets/images/chimneyCaps/MatteBlack.png",
+        "big": "/assets/images/chimneyCaps/MatteBlack.png"
       },
       {
         "alt": "matte black chimney cap",
-        "small": "/assets/images/chimneyCaps/Matte-Black.png",
-        "medium": "/assets/images/chimneyCaps/Matte-Black.png",
-        "big": "/assets/images/chimneyCaps/Matte-Black.png"
+        "small": "/assets/images/chimneyCaps/silverBig.png",
+        "medium": "/assets/images/chimneyCaps/silverBig.png",
+        "big": "/assets/images/chimneyCaps/silverBig.png"
       },
       {
         "alt": "Saddle Tan chimney cap",
-        "small": "/assets/images/chimneyCaps/Saddle-Tan.png",
-        "medium": "/assets/images/chimneyCaps/Saddle-Tan.png",
-        "big": "/assets/images/chimneyCaps/Saddle-Tan.png"
+        "small": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "big": "/assets/images/chimneyCaps/metallicSilver2.png"
       },
       {
         "alt": "Parchment chimney cap",
-        "small": "/assets/images/chimneyCaps/Parchment.png",
-        "medium": "/assets/images/chimneyCaps/Parchment.png",
-        "big": "/assets/images/chimneyCaps/Parchment.png"
+        "small": "/assets/images/chimneyCaps/silverMason.png",
+        "medium": "/assets/images/chimneyCaps/silverMason.png",
+        "big": "/assets/images/chimneyCaps/silverMason.png"
       },
       {
         "alt": "Champagne chimney cap",
-        "small": "/assets/images/chimneyCaps/Champagne.png",
-        "medium": "/assets/images/chimneyCaps/Champagne.png",
-        "big": "/assets/images/chimneyCaps/Champagne.png"
+        "small": "/assets/images/chimneyCaps/darkBronze.png",
+        "medium": "/assets/images/chimneyCaps/darkBronze.png",
+        "big": "/assets/images/chimneyCaps/darkBronze.png"
       }
     ]
   },
