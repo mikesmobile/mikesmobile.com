@@ -190,17 +190,6 @@
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
-    "title": "lifestyle-garage-screen",
-    "type": "products",
-    "name": "Lifestyle Garage Screen Door",
-    "price": [
-      {
-        "price": "$2,695"
-      }
-    ],
-    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
     "title": "chimney-cleaning",
     "type": "services",
     "price": [
