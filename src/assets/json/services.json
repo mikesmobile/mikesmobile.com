@@ -9,6 +9,13 @@
     "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
     "tileImage": "/assets/images/tiles/titan-security-screen-doors.jpg",
     "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
+    "tileBullets": [
+      "Premium Home Security",
+      "Fits Any Swinging Door",
+      "Screen Will Not Rust",
+      "Customizable Design",
+      "Customizable Color"
+    ],
     "details": [
       {
         "title": "Product Overview",
@@ -2418,6 +2425,12 @@
     "fullTileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
     "tileImage": "/assets/images/tiles/window-screen-repair.jpg",
     "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
+    "tileBullets": [
+      "All work done on-site ",
+      "Convenient single visit",
+      "Frame repair also available",
+      "Affordable options"
+    ],
     "video": "",
     "recentInstallImages": [
       {
@@ -2449,6 +2462,12 @@
     "fullTileImage": "/assets/images/screens/solar-screens/solar-screen2.jpg",
     "tileImage": "/assets/images/tiles/solar-screens.jpg",
     "tileText": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
+    "tileBullets": [
+      "Protect home from UV rays",
+      "Reduce home cooling costs",
+      "Increase home’s privacy",
+      "Prevent glare in home"
+    ],
     "serviceImgCaption": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
     "colorSet": [
       "screenFrameColors",
@@ -2629,6 +2648,12 @@
     "fullTileImage": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
     "tileImage": "/assets/images/tiles/sliding-screen-doors.jpg",
     "tileText": "Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
+    "tileBullets": [
+      "Won’t fall off track",
+      "Keeps bugs out",
+      "Withstands wear and tear",
+      "Customizable color"
+    ],
     "thumbImages": [
       {
         "alt": "Sliding Screen Door Open",
@@ -2699,6 +2724,12 @@
     "fullTileImage": "/assets/images/screens/swinging-screen-doors/Swinging-Screen-Door-Main-Page-Flipcard.jpg",
     "tileImage": "/assets/images/tiles/swinging-screen-doors.jpg",
     "tileText": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
+    "tileBullets": [
+      "Made to fit door frame",
+      "Keeps bugs out",
+      "Withstands wear and tear",
+      "Customizable design and color"
+    ],
     "description": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!",
     "recentInstallImages": [
       {
@@ -3243,6 +3274,12 @@
     "subcategory": "Door",
     "type": "products",
     "tileText": "Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
+    "tileBullets": [
+      "Discrete when desired",
+      "Keeps bugs out",
+      "Single and double door options",
+      "Customizable color"
+    ],
     "bullets": [
       "Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
       "The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.",
@@ -3356,6 +3393,12 @@
     "subcategory": "Door",
     "type": "products",
     "tileText": "Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+    "tileBullets": [
+      "Pets let themselves out",
+      "Won’t blow open",
+      "Withstands wear and tear",
+      "Customizable size and color"
+    ],
     "fullTileImage": "/assets/images/screens/pet-door/Pet-Door-Main-Page-Flipcard.jpg",
     "tileImage": "/assets/images/tiles/pet-doors.jpg",
     "thumbImages": [
@@ -3516,6 +3559,12 @@
     "type": "about",
     "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
     "thumbImages": [
       {
         "alt": "Marble Gas fireplace",
@@ -3549,7 +3598,12 @@
     "category": "Chimney Services",
     "type": "about",
     "tileImage": "/assets/images/waterProofing/waterProofingTile.png",
-    "tileText": "Protect your chimney from all angles with our 10-year warranty!"
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!",
+    "tileBullets": [
+      "Fixes leaky chimneys",
+      "Prevents future water damage",
+      "Protects from animals and debris"
+    ]
   },
   {
     "title": "Chimney Inspections",
@@ -3559,6 +3613,11 @@
     "fullTileImage": "/assets/images/chimneys/inspections/inspections.jpg",
     "tileImage": "/assets/images/tiles/chimney-inspections.jpg",
     "tileText": "Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
+    "tileBullets": [
+      "Identify safety concerns",
+      "Prevent future issues",
+      "Inspection levels fit specific needs"
+    ],
     "textList": [
       {
         "title": "Level One Chimney Inspection – FREE with a cleaning",
@@ -3596,6 +3655,11 @@
     "fullTileImage": "/assets/images/chimneys/cleaning/chimney_cleaning.jpg",
     "tileImage": "/assets/images/tiles/chimney_cleaning.jpg",
     "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ],
     "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
     "textList": [
       {
@@ -3639,7 +3703,12 @@
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
     "tileImage": "/assets/images/tiles/chimney-repairs.jpg",
-    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
+    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ]
   },
   {
     "title": "Chimney Crown Coat",
@@ -3953,7 +4022,13 @@
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/fireplace-screen.jpg",
     "tileImage": "/assets/images/tiles/chimney-accessories.jpg",
-    "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
+    "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
+    "tileBullets": [
+      "Reduce mess from burning",
+      "Protect chimney from water damage",
+      "Beautify home's fireplace",
+      "Prevent house fires"
+    ]
   },
   {
     "title": "Chimney Caps",
@@ -3962,6 +4037,12 @@
     "type": "products",
     "tileImage": "/assets/images/chimneyCaps/chimneyCapTile.png",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
+    "tileBullets": [
+      "Prevent water damage",
+      "Protect from animals and debris",
+      "Keep sparks in",
+      "Customizable colors"
+    ],
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
     "thumbImages": [
       {
@@ -4015,6 +4096,12 @@
     "type": "products",
     "tileImage": "/assets/images/chimneyCaps/chimneyCapTile.png",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
+    "tileBullets": [
+      "Prevent water damage",
+      "Protect from animals and debris",
+      "Keep sparks in",
+      "Customizable colors"
+    ],
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
     "thumbImages": [
       {
@@ -4164,7 +4251,13 @@
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/Masonry-services.jpg",
     "tileImage": "/assets/images/tiles/masonry-services.jpg",
-    "tileText": "Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
+    "tileText": "Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes.",
+    "tileBullets": [
+      "Enhance home's appearance",
+      "Repair damaged areas",
+      "Increase home's safety",
+      "Prevent water damage"
+    ]
   },
   {
     "title": "Brick/Block/Stone Veneer",
@@ -4302,6 +4395,10 @@
     "fullTileImage": "/assets/images/home-improvement/dryer-vent.jpg",
     "tileImage": "/assets/images/tiles/dryer-vent.jpg",
     "tileText": "Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
+    "tileBullets": [
+      "Prevent dryer fires",
+      "Reduce home energy costs"
+    ],
     "textList": [
       {
         "title": "Why you should have your vent cleaned",
@@ -4352,6 +4449,13 @@
     "fullTileImage": "/assets/images/security/viewguard/main-display/Viewguard-Main.jpg",
     "tileImage": "/assets/images/tiles/viewguard-security-screen-doors.jpg",
     "tileText": "Your security screen door will be the first point of protection for keeping your home safe and secure.",
+    "tileBullets": [
+      "Premium home security",
+      "Fits any swinging door",
+      "Screen will not rust",
+      "Simplistic design",
+      "Customizable colors"
+    ],
     "thumbImages": [
       {
         "alt": "red-viewguard-security-door",
@@ -4479,6 +4583,13 @@
     "fullTileImage": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
     "tileImage": "/assets/images/tiles/truview-security-screen-doors.jpg",
     "tileText": "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
+    "tileBullets": [
+      "Increased home security",
+      "Fits any swinging door",
+      "Budget-friendly option",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "thumbImages": [
       {
         "alt": "Tru View Security White Triple Door",
@@ -4600,6 +4711,13 @@
     "fullTileImage": "/assets/images/security/sliding/Sliding-Security-Door-Main.jpg",
     "tileImage": "/assets/images/tiles/sliding-security-doors.jpg",
     "tileText": "Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
+    "tileBullets": [
+      "Increased home security",
+      "For patio access doors",
+      "Budget-freindly option",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "thumbImages": [
       {
         "alt": "Stainless Sliding Security Single Door Beige",
@@ -4773,6 +4891,12 @@
     "fullTileImage": "/assets/images/security/guarda-escape/CRL-Guarda-Quick-Escape-Main.jpg",
     "tileImage": "/assets/images/tiles/crl-guarda-quick-escape.jpg",
     "tileText": "Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
+    "tileBullets": [
+      "Window security without bars",
+      "Fits varying window shapes",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "thumbImages": [
       {
         "alt": "Quick Escape Security Window Screens",
@@ -4878,6 +5002,12 @@
     "fullTileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
     "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
     "tileText": "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+    "tileBullets": [
+      "Window security without bars",
+      "Fits varying window shapes",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "colorSet": [
       "securityWindowsColors"
     ],

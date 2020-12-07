@@ -55,8 +55,35 @@
               <div class="row">
                 <div class="col">
                   <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                    routerLink="/about/security-doors-and-windows">
+                    <h5>Door and Window Security</h5>
+                  </a>
+                  <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-doors">
+                    <h6><strong>Security Screen Doors</strong></h6>
+                  </a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/viewguard-security-doors">Viewguard Security Screen Doors</a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/tru-view-security-doors">TRU-View Security Screen Doors</a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/sliding-security-doors">Sliding Security Screen Doors</a>
+
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-windows">
+                    <h6><strong>Security Window Screens</strong></h6>
+                  </a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/quick-escape-security-windows">Quick Escape Security</a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/fixed-security-windows">Fixed Security Windows</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
                     routerLink="/about/door-and-window-screens">
-                    <h5>SCREENS</h5>
+                    <h5>Door and Window Screens</h5>
                   </a>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/window-screens">
@@ -84,13 +111,14 @@
                 <div class="col">
                   <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
                     routerLink="/about/chimney-services">
-                    <h5>CHIMNEY</h5>
+                    <h5>Chimney Services</h5>
                   </a>
                   <div class="divider dropdown-divider pt-0 mt-0"></div>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/services/chimney-inspections">Inspections</a>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/services/chimney-cleaning">Cleanings</a>
+
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplace Repair & Service</a>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
@@ -100,6 +128,8 @@
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/grid/chimney-accessories">Accessories</a>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                    routerLink="/products/chimney-caps">Chimney Caps</a>
+                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/grid/masonry-services">Masonry Services</a>
                   <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
                     routerLink="/services/dryer-vent-cleaning">Dryer Vent Cleaning</a>
@@ -108,33 +138,7 @@
                   <!-- <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/chimney-glossary">Chimney
                     Glossary</a> -->
                 </div>
-                <div class="col">
-                  <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
-                    routerLink="/about/security-doors-and-windows">
-                    <h5>SECURITY</h5>
-                  </a>
-                  <div class="divider dropdown-divider pt-0 mt-0"></div>
 
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-doors">
-                    <h6><strong>Security Screen Doors</strong></h6>
-                  </a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/viewguard-security-doors">Viewguard Security Door</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/tru-view-security-doors">TRU-View Security Door</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/sliding-security-doors">Sliding Security Door</a>
-
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-windows">
-                    <h6><strong>Security Window Screens</strong></h6>
-                  </a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/quick-escape-security-windows">Quick Escape Security</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/fixed-security-windows">Fixed Security Windows</a>
-                </div>
                 <!-- <div class="col">
                   <a
                     class="dropdown-item waves-dark pb-0 mb-0 orange-text"
@@ -164,21 +168,23 @@
         <div class="btn-group" dropdown>
           <div class="px-3 py-1 dropdown-menu z-depth-2 mobile-submenu" id="DropdownMobile"
             (click)="toggleDropdownMobile()">
+            <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+              routerLink="/about/security-doors-and-windows">
+              <h6 class="mobileDrop">Door and Window Security</h6>
+            </a>
+            <div class="divider dropdown-divider pt-0 mt-0"></div>
             <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/door-and-window-screens">
-              <h6 class="mobileDrop">SCREENS</h6>
+              <h6 class="mobileDrop">Door and Window Screens</h6>
             </a>
             <div class="divider dropdown-divider pt-0 mt-0"></div>
 
             <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
-              <h6 class="mobileDrop">CHIMNEY</h6>
+              <h6 class="mobileDrop">Chimney Services</h6>
             </a>
             <div class="divider dropdown-divider pt-0 mt-0"></div>
 
-            <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
-              routerLink="/about/security-doors-and-windows">
-              <h6 class="mobileDrop">SECURITY</h6>
-            </a>
-            <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+
 
             <!-- <a
               class="dropdown-item waves-dark py-0 mb-0"

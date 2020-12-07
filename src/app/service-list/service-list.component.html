@@ -16,20 +16,11 @@
                 <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title">
                 </app-img>
               </div>
-              <div class="card-img-overlay tileOverlay  mt-0">
-                <!-- <p
-                  class="mb-0 text-center tileBlurb text-white transparent-gray"
-                  [innerHTML]="service.tileText"
-                ></p> -->
-                <ul class=" text-left listStyle transparent-gray">
-                  <li>Gas Log sets
-                  </li>
-                  <li>
-                    Chimney Caps
-                  </li>
-                  <li>Fireplace Grates</li>
-                  <li>Glass Door Sets</li>
-                  <li>Radient Firebacks test t</li>
+              <div class="card-img-overlay tileOverlay tileInfo  mt-0">
+                <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                  [innerHTML]="service.tileText"></p>
+                <ul *ngIf="service.tileBullets" class=" text-left listStyle transparent-gray">
+                  <li *ngFor="let bullet of service.tileBullets">{{bullet}}</li>
                 </ul>
               </div>
               <div class="container d-table tileTitle text-center align-center w-100 mx-0">
