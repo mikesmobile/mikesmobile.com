@@ -60,7 +60,7 @@ export class LandingRegionalComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     public sanitizer: DomSanitizer
-  ) {}
+  ) { }
 
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
@@ -79,6 +79,8 @@ export class LandingRegionalComponent implements OnInit {
       this.region = regionalJSON.find((data) => {
         return data.slug === regionalSlug;
       });
+
+      console.log(this.region.services[1].cards)
 
       // No region found
       if (!this.region) {

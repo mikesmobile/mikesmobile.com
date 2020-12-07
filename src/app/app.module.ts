@@ -49,6 +49,7 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
+import { CareerPageComponent } from './career-page/career-page.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { TileNavComponent } from './tile-nav/tile-nav.component';
 import { PromoComponent } from './promo/promo.component';
@@ -88,6 +89,7 @@ import { environment } from '../environments/environment';
     HomeComponent,
     ImageComponent,
     LandingPageComponent,
+    CareerPageComponent,
     NavigationComponent,
     PageNotFoundComponent,
     PostDetailComponent,

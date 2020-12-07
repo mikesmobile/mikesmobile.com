@@ -30,6 +30,10 @@ export class LandingPageComponent implements OnInit {
   }
 
   ngOnInit() {
+
+
+
+
     this.route.params.subscribe((params) => {
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {

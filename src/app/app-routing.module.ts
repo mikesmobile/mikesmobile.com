@@ -27,6 +27,7 @@ import { FinancingComponent } from './financing/financing.component';
 import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.component';
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
+import { CareerPageComponent } from './career-page/career-page.component';
 
 
 const appRoutes: Routes = [
@@ -216,7 +217,7 @@ const appRoutes: Routes = [
 
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
-  { path: 'chimney-faq', component: ChimneyFaqComponent },
+  // { path: 'chimney-faq', component: ChimneyFaqComponent },
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'service-area', component: ContactComponent },
   { path: 'service-area/:id', component: ContactComponent },
@@ -227,6 +228,7 @@ const appRoutes: Routes = [
   { path: 'privacy', component: PrivacyComponent },
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
+  // { path: 'careers', component: CareerPageComponent },
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'regions/:slug', component: LandingRegionalComponent },

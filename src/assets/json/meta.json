@@ -5,17 +5,12 @@
       "/index.html.var"
     ],
     "title": "Mike's Mobile Screen & Chimney Service",
-    "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
+    "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs  and more!"
   },
   {
     "page": "/about",
     "title": "About Mike's Mobile Screen & Chimney Service",
-    "description": "Window screen repair, door screen repair, security doors and windows, retractable patio awnings and more! Chimney sweep, chimney inspections and chimney repairs for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
-  },
-  {
-    "page": "/about/awnings",
-    "title": "Awnings for California | Mike's Mobile",
-    "description": "Mike's Mobile provides Sunesta retractable awnings and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
+    "description": "Window screen repair, door screen repair, security doors and windows and more! Chimney sweep, chimney inspections and chimney repairs for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/about/chimney-services",
@@ -31,6 +26,16 @@
     "page": "/services/gas-log-sets",
     "title": "Gas Log Sets | Mike's Mobile",
     "description": "Tired of dealing with wood fuel? Replace it with a clean burning gas log set!"
+  },
+  {
+    "page": "/products/chimney-caps",
+    "title": "chimney caps | Mike's Mobile",
+    "description": "Protect yourself from costly chimney repairs, with Mikes Mobiles custom built chimney caps that shed water away from your stack! "
+  },
+  {
+    "page": "/about/water-proofing-package",
+    "title": "Water Proofing Package | Mike's Mobile",
+    "description": "Mike's Mobile wants your chimney to last. With our discounted water proofing package, you get the piece of mind that your chimney is leak proof for the next 10 years! We back this up with a 10 year warranty "
   },
   {
     "page": "/about/door-and-window-screens",
@@ -74,7 +79,7 @@
   {
     "page": "/blog",
     "title": "Blog | Mike's Mobile Screen and Chimney Service",
-    "description": "Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto, Napa and The Bay areas. We are also experts at recommending and installing awnings. Call us today!"
+    "description": "Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto, Napa and The Bay areas. Call us today!"
   },
   {
     "page": "/blog/10-tips-heating-season",
@@ -426,11 +431,6 @@
     "description": "How a ViewGaurd Security Door from Mike's Mobile Can Help Keep Your Loved Ones Safe"
   },
   {
-    "page": "/blog/need-more-room",
-    "title": "Lifestyle Garage Screen Door | Mike's Mobile",
-    "description": "Need More Room? Here's The Easiest Way to Transform Your Garage Into Additional Living Space!"
-  },
-  {
     "page": "/chimney-faq",
     "title": "Chimney FAQ - Chimney Service | Mike's Mobile",
     "description": "Get your chimney FAQ answered here. How often should you have your chimney cleaned? We service any chimney in the Sacramento, Stockton, Modesto and The Bay areas. Don't hesitate to give us a call."
@@ -569,10 +569,6 @@
     "page": "/products/fiesta-swinging-screen-door",
     "title": "Fiesta - Swinging Screen Doors | Mike's Mobile",
     "description": "The Fiesta swinging screen door offers a classic design. On the top half you have an unobstructed view and great ventilation. On the bottom half you have an aluminum grille. Contact us in the Sacramento, Stockton, Modesto and The Bay areas."
-  },
-  {
-    "page": "/products/lifestyle-garage-screen",
-    "title": "Lifestyle Garage Screen - Garage Screen Doors | Mike's Mobile"
   },
   {
     "page": "/products/pet-doors",
@@ -843,7 +839,7 @@
   {
     "page": "/security/antioch-east-bay",
     "title": "Security Screen Doors and Windows near Antioch | Mike's Mobile",
-    "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. We also offer garage screen doors and awnings. Call for a free quote!"
+    "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. Also make sure you chimney get's its annual cleaning. Call for a free quote!"
   },
   {
     "page": "/security/auburn",
