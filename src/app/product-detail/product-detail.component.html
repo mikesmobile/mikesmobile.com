@@ -94,6 +94,21 @@
             <app-main-gallery [Images]="gallery_images"></app-main-gallery>
           </ng-container>
 
+          <ng-container *ngIf="product.slug === 'security-windows'">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h3 class="text-center mt-3">Fixed or Quick Escape Available</h3>
+                  <ul>
+                    <li>Quick Escape Window's offer all the security of the fixed windows but you can open them.</li>
+                    <li>Quick Escape Security Window Screens have an easy release push mechanism that also acts as a
+                      secure, temper resistant device locking the screen closed for peace of mind.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+
           <div *ngIf="product.slug === 'viewguard-security-doors'"
             class="container-fluid text-center justify-content-center">
             <div class="row text-center">
@@ -124,7 +139,7 @@
           <h5 *ngIf="product.slug === 'retractable-screen-doors'" class="text-left font-weight-bold font-italic">
             The perfect screen when you need it, disappears when you don't!
           </h5>
-          <h5 *ngIf="product.slug === 'fixed-security-windows'" class="text-left font-weight-bold font-italic">
+          <h5 *ngIf="product.slug === 'security-windows'" class="text-left font-weight-bold font-italic">
             Don't make your house look like a prison! We provide window security
             without the bars!
           </h5>
