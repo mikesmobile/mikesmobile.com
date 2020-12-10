@@ -2460,7 +2460,7 @@
     "subcategory": "Window",
     "type": "products",
     "fullTileImage": "/assets/images/screens/solar-screens/solar-screen2.jpg",
-    "tileImage": "/assets/images/tiles/solar-screens.jpg",
+    "tileImage": "/assets/images/tiles/Solar-Screens.png",
     "tileText": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
     "tileBullets": [
       "Protect home from UV rays",
@@ -2722,7 +2722,7 @@
     "subcategory": "Door",
     "type": "grid",
     "fullTileImage": "/assets/images/screens/swinging-screen-doors/Swinging-Screen-Door-Main-Page-Flipcard.jpg",
-    "tileImage": "/assets/images/tiles/swinging-screen-doors.jpg",
+    "tileImage": "/assets/images/tiles/Swinging-Screen-Door.png",
     "tileText": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
     "tileBullets": [
       "Made to fit door frame",
@@ -3702,7 +3702,7 @@
     "category": "Chimney Services",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
-    "tileImage": "/assets/images/tiles/chimney-repairs.jpg",
+    "tileImage": "/assets/images/tiles/Chim-Repairs.png",
     "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
     "tileBullets": [
       "Address and prevent water damage",
@@ -4021,7 +4021,7 @@
     "category": "Chimney Services",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/fireplace-screen.jpg",
-    "tileImage": "/assets/images/tiles/chimney-accessories.jpg",
+    "tileImage": "/assets/images/tiles/Chim-Acc.png",
     "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
     "tileBullets": [
       "Reduce mess from burning",
@@ -4889,7 +4889,7 @@
       "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
     "fullTileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
-    "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
+    "tileImage": "/assets/images/tiles/SecWindows.png",
     "tileText": "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
     "tileBullets": [
       "Window security without bars",
