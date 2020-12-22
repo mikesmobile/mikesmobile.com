@@ -246,11 +246,14 @@
     </div>
     <app-tab-nav [details]="product.details"></app-tab-nav>
     <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
-    <div class="row mt-5 justify-content-center text-center">
-      <div class="col-12">
-        <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+    <div class="container">
+      <div class="row mt-5 p-0 justify-content-center text-center">
+        <div class="col p-0">
+          <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+        </div>
       </div>
     </div>
+
   </ng-container>
   <ng-container *ngIf="product.slug === 'chimney-caps'">
     <div class="container pb-4">
