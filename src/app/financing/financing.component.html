@@ -21,15 +21,11 @@
     </div>
     <section class="mb-5">
       <div class="row d-flex justify-content-around">
-        <div style="width:300px;">
-          <a
-            href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=821177&loamt="
-            ><img
-              src="https://enerbank.com/online-app-integration/images/banner1.png"
-          /></a>
+        <div class="col-5 align-items-center">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=821177&loamt="><img
+              src="/assets/images/financing/12Month.png" /></a>
           <p
-            style="font-size:10px;line-height:10px;color:#000; text-align: justify;-moz-text-align-last: center; text-align-last: center; margin:10px 0;font-weight:400;"
-          >
+            style="font-size:10px;line-height:10px;color:#000; text-align: justify;-moz-text-align-last: center; text-align-last: center; margin:10px  auto;font-weight:400; width: 300px;">
             *Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
             Suite 600, Salt Lake City, UT 84106) on approved credit, for a
             limited time. Repayment terms vary from 24 to 132 months. Interest
@@ -38,34 +34,23 @@
             loan closes.
           </p>
         </div>
-        <div style="width:300px;">
-          <a
-            href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=6995YRE33&loamt="
-            ><img
-              src="https://enerbank.com/online-app-integration/images/banner6.png"
-          /></a>
-          <div>
+        <div class="col-5">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=6995YRE33&loamt="><img
+              src="/assets/images/financing/5Year.png" /></a>
+          <div style="width: 300px; margin: 10px auto;">
             <p>Calculate Your Monthly Payment:</p>
             <label class="sr-only" for="totalCostInput">Total Cost</label>
             <div class="input-group mb-2">
               <div class="input-group-prepend">
                 <div class="input-group-text">$</div>
               </div>
-              <input
-                mdbInput
-                type="number"
-                [ngModel]="totalCostInput"
-                (ngModelChange)="updateMonthly($event)"
-                class="form-control py-0"
-                id="totalCostInput"
-                placeholder="Total Cost"
-              />
+              <input mdbInput type="number" [ngModel]="totalCostInput" (ngModelChange)="updateMonthly($event)"
+                class="form-control py-0" id="totalCostInput" placeholder="Total Cost" />
             </div>
             <p>Monthly Payment: {{ monthlyPayment }}</p>
           </div>
           <p
-            style="font-size:10px;line-height:10px;color:#000; text-align: justify;-moz-text-align-last: center; text-align-last: center; margin:10px 0;font-weight:400;"
-          >
+            style="font-size:10px;line-height:10px;color:#000; text-align: justify;-moz-text-align-last: center; text-align-last: center; margin:10px 0;font-weight:400;">
             *Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
             Suite 600, Salt Lake City, UT 84106) on approved credit, for a
             limited time. Repayment term is 60 months. 6.99% fixed APR. Minimum
@@ -101,10 +86,8 @@
           <span class="font-weight-bold">#78291</span>
         </li>
         <li class="list-group-item">
-          The codes for the loans we offer are Same-As-Cash (<span
-            class="font-weight-bold"
-            >821177</span
-          >) and 5 Year Loan (<span class="font-weight-bold">6995YRE33</span>)
+          The codes for the loans we offer are Same-As-Cash (<span class="font-weight-bold">821177</span>) and 5 Year
+          Loan (<span class="font-weight-bold">6995YRE33</span>)
         </li>
       </ul>
     </section>
