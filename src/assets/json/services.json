@@ -3593,6 +3593,51 @@
     ]
   },
   {
+    "title": "Gas Fireplace Repair & Service",
+    "slug": "gas-fireplace-service-and-repair",
+    "type": "about",
+    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
+    "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6-1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6-1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6-1.png"
+      },
+      {
+        "alt": "White brick, montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png"
+      },
+      {
+        "alt": "large montigo gas insert ",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png"
+      },
+      {
+        "alt": "Linear montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png"
+      },
+      {
+        "alt": "Gas brick fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
+      }
+    ]
+  },
+  {
     "title": "Waterproofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
