@@ -3555,46 +3555,6 @@
   {
     "title": "Gas Fireplace Repair & Service",
     "slug": "gas-fireplace-repair-and-service",
-    "category": "Chimney Services",
-    "type": "about",
-    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
-    "tileText": "Gas Fireplace not working? We can get it working in no time!",
-    "tileBullets": [
-      "Fix pilot light issues",
-      "Ensure burners work properly",
-      "Stop excessive fan noise",
-      "Address safety hazards"
-    ],
-    "thumbImages": [
-      {
-        "alt": "Marble Gas fireplace",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg"
-      },
-      {
-        "alt": "Gas fireplace with reflection",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg"
-      },
-      {
-        "alt": "White Gas fireplace ",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg"
-      },
-      {
-        "alt": "Gas brick fireplace",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg"
-      }
-    ]
-  },
-  {
-    "title": "Gas Fireplace Repair & Service",
-    "slug": "gas-fireplace-service-and-repair",
     "type": "about",
     "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",

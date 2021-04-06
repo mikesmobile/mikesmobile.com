@@ -213,6 +213,10 @@ const appRoutes: Routes = [
     path: 'security/:slug',
     redirectTo: 'regions/:slug',
   },
+  {
+    path: 'about/gas-fireplace-service-and-repair',
+    redirectTo: 'about/gas-fireplace-repair-and-service',
+  },
 
 
   { path: 'about', component: AboutComponent },
