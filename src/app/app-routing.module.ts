@@ -217,6 +217,10 @@ const appRoutes: Routes = [
     path: 'about/gas-fireplace-service-and-repair',
     redirectTo: 'about/gas-fireplace-repair-and-service',
   },
+  {
+    path: 'regions/sliding-security-screen-doors',
+    redirectTo: 'products/sliding-security-doors',
+  },
 
 
   { path: 'about', component: AboutComponent },
