@@ -221,8 +221,6 @@ const appRoutes: Routes = [
     path: 'regions/sliding-security-screen-doors',
     redirectTo: 'products/sliding-security-doors',
   },
-
-
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   // { path: 'chimney-faq', component: ChimneyFaqComponent },
