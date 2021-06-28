@@ -4983,6 +4983,12 @@
     ]
   },
   {
+    "title": "Gas Fireplaces",
+    "slug": "Gas-Fireplaces",
+    "type": "products",
+    "tileImage": "/assets/images/gasFireplacepages/Tile.png"
+  },
+  {
     "title": "Door and Window Screens",
     "slug": "door-and-window-screens",
     "type": "landing",

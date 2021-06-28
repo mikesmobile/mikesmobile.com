@@ -22,8 +22,21 @@
         <a *ngIf="product.category === 'Security Window Screens'" class="breadcrumb-item"
           routerLink="/about/security-windows">Security Window Screens</a>
         <a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
+        <a *ngIf="product.slug === 'Gas-Fireplaces'" class="breadcrumb-item"
+          routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplaces Repair and Service</a>
         <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
+
+
       </nav>
+      <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="/assets/images/gasFireplacepages/Hero.png" class="img-fluid" alt="a gas fireplace">
+            </div>
+          </div>
+        </div>
+      </ng-container>
       <div *ngIf="price && product.slug !== 'pet-doors'" class="d-flex flex-column align-items-end flex-md-row">
         <h1 class="text-left h1 pageTitle">
           {{ product.title }}
@@ -35,6 +48,187 @@
         </h1>
       </div>
       <hr />
+      <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
+        <div class="row">
+          <div class="col-12">
+            <h6>Converting to a gas fireplace is now easier and more affordable than ever! Our qualified gas appliance
+              professionals can help you find the perfect unit to add style and effecient heating to your home. You can
+              enjoy the comfort of a fire at home without the hassle. </h6>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-12">
+            <div class="card p-2">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Montigo Del Ray Square38</h4>
+                  </div>
+                </div>
+                <hr class="mt-0" />
+                <div class="row align-items-center">
+                  <div class="col-lg-5">
+                    <app-main-gallery [Images]="delrayImages"></app-main-gallery>
+                  </div>
+                  <div class="col-lg-7">
+                    <p>
+                      Introducing the DelRay Square, with our brand new universal burner that gives consumers a more
+                      flexible fireplace they can redesign anytime! We have developed a high efficiency, mobile home
+                      compatible fireplace that is ready to customize with any of our stunning logsets or contemporary
+                      scenes. Additional features include heat distribution systems, propane conversion kits, and trim
+                      kits.
+                    </p>
+                    <div class="row">
+                      <div class=" d-md-none ">
+                        <a class="white-text" href="tel:+18009929938">
+                          <button class="btn blue btn-rounded waves-light">Call Now!</button>
+                        </a>
+                      </div>
+                      <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
+                        <button class="btn blue btn-rounded waves-light">Get A Free Quote</button>
+                      </div>
+                      <button class="btn blue btn-rounded waves-light" (click)="show()">Video of Options</button>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope='col'>DOWNLOADS:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope='row'>
+                              <a class="tableLink"
+                                href="https://www.montigo.com/drive/uploads/2021/05/XB2218-Montigo-Fireplaces-DelRay-Square-Brochure.pdf"
+                                target="_blank" style="width: 100%;">
+                                Brochure
+                              </a>
+                            </th>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop"
+                              href="https://www.montigo.com/drive/uploads/2020/08/montigo-residential-fireplace-DelRay-Square-spec-sheet.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Spec Sheet</th>
+                            </a>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop borderBottom"
+                              href="https://www.montigo.com/drive/uploads/2020/08/XG0230_DelRay_Square_Instructions.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Installation Manual</th>
+                            </a>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 ">
+          <div class="col-12">
+            <div class="card p-2 mt-3">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Montigo Phenom P42</h4>
+                  </div>
+                </div>
+                <hr class="mt-0" />
+                <div class="row align-items-center">
+                  <div class="col-lg-5">
+                    <app-main-gallery [Images]="phenomImages"></app-main-gallery>
+                  </div>
+                  <div class="col-lg-7">
+                    <p>
+                      The Phenom – a reflection of Montigo’s dedication to luxury. The P42DF is a single side direct
+                      vent fireplace characterized by a landscape viewing area and comes fully loaded with all of
+                      Montigo’s premium options as a standard. Montigo’s first residential unit with a concealed ribbon
+                      burner allows the burner to be covered with glass media. Rock or tile can be installed over the
+                      firebox frame for a clean minimalist look.
+                    </p>
+                    <div class="row">
+                      <div class=" d-md-none ">
+                        <a class="white-text" href="tel:+18009929938">
+                          <button class="btn blue btn-rounded waves-light">Call Now!</button>
+                        </a>
+                      </div>
+                      <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
+                        <button class="btn blue btn-rounded waves-light">Get A Free Quote</button>
+                      </div>
+                      <!-- <button class="btn blue btn-rounded waves-light" (click)="show()">learn more</button> -->
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope='col'>DOWNLOADS:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope='row'>
+                              <a class="tableLink"
+                                href="https://www.montigo.com/drive/uploads/2020/04/XB2209-Montigo-Fireplaces-Phenom-Brochure.pdf"
+                                target="_blank" style="width: 100%;">
+                                Brochure </a>
+                            </th>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop"
+                              href="https://www.montigo.com/drive/uploads/2020/04/montigo-residential-fireplace-Phenom-single-sided-spec-sheet.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Spec Sheet</th>
+                            </a>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop borderBottom"
+                              href="https://www.montigo.com/drive/uploads/2018/07/XG0199_P-and-PL-Series_Instructions_170223.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Installation Manual</th>
+                            </a>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div mdbModal #videoModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+          aria-labelledby="videoModal">
+          <div class="modal-dialog videoModal modal-dialog-scrollable" role="document">
+            <div class="modal-content quoteFormContainer">
+              <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gJ8X8eLl4zc"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div mdbModal #phenomModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+          aria-labelledby="phenomModal">
+          <div class="modal-dialog phenomModal modal-dialog-scrollable" role="document">
+            <div class="modal-content quoteFormContainer">
+              <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gJ8X8eLl4zc"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </ng-container>
       <div class="row">
         <div class="col-12 col-md-7 pb-3">
           <ng-container *ngIf="product.slug === 'sliding-security-doors'">
@@ -62,6 +256,7 @@
                 </mdb-tabset>
               </div>
             </div>
+
           </ng-container>
 
           <ng-container *ngIf="
@@ -90,9 +285,12 @@
             </div>
           </ng-container>
 
+
           <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
             <app-main-gallery [Images]="gallery_images"></app-main-gallery>
           </ng-container>
+
+
 
           <ng-container *ngIf="product.slug === 'security-windows'">
             <div class="container">
@@ -124,7 +322,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-5">
+        <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="col-12 col-md-5">
           <h5 *ngIf="product.slug === 'solar-screens'" class="text-left font-weight-bold font-italic">
             Our solar screens block out UV rays so that you can keep your home
             cool!
@@ -182,7 +380,7 @@
               <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
             </ul>
           </div>
-          <div class="row text-center mb-3">
+          <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="row text-center mb-3">
             <div class="container text-center">
               <div class="row align-items-center justify-content-center">
                 <div *ngIf="price">
@@ -195,15 +393,16 @@
                   </div>
                 </div>
                 <div class="col ctaCol">
-                  <div *ngIf="product.slug !== 'solar-screens'" class=" d-md-none ">
+                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
+                    class=" d-md-none ">
                     <a class="white-text" href="tel:+18009929938">
                       <h4 class="animated pulse infinite orange-text  cursor-pointer">
                         <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
                       </h4>
                     </a>
                   </div>
-                  <div *ngIf="product.slug !== 'solar-screens'" class=" d-none d-md-block cursor-pointer text-center"
-                    (click)="openQuoteForm()">
+                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
+                    class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
                     <h4 class="animated pulse infinite orange-text ">
                       &nbsp;Get a Free Quote Now!
                     </h4>
@@ -219,7 +418,7 @@
               </div>
             </div>
           </div>
-          <div class="row text-center mb-3">
+          <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-8">
@@ -244,16 +443,17 @@
         </div>
       </div>
     </div>
-    <app-tab-nav [details]="product.details"></app-tab-nav>
-    <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
-    <div class="container">
-      <div class="row mt-5 p-0 justify-content-center text-center">
-        <div class="col p-0">
-          <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+    <ng-container *ngIf="product.slug !== 'Gas-Fireplaces'">
+      <app-tab-nav [details]="product.details"></app-tab-nav>
+      <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
+      <div class="container">
+        <div class="row mt-5 p-0 justify-content-center text-center">
+          <div class="col p-0">
+            <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+          </div>
         </div>
       </div>
-    </div>
-
+    </ng-container>
   </ng-container>
   <ng-container *ngIf="product.slug === 'chimney-caps'">
     <div class="container pb-4">
@@ -334,15 +534,15 @@
       </div>
       <div class="row mt-4 text-center justify-content-center align-items-center">
         <div class="col ctaCol">
-          <div *ngIf="product.slug !== 'solar-screens'" class=" d-md-none ">
+          <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'" class=" d-md-none ">
             <a class="white-text" href="tel:+18009929938">
               <h4 class="animated pulse infinite orange-text  cursor-pointer">
                 <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
               </h4>
             </a>
           </div>
-          <div *ngIf="product.slug !== 'solar-screens'" class=" d-none d-md-block cursor-pointer text-center"
-            (click)="openQuoteForm()">
+          <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
+            class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
             <h4 class="animated pulse infinite orange-text ">
               &nbsp;Get a Free Quote Now!
             </h4>
