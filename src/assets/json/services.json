@@ -3599,6 +3599,17 @@
     ]
   },
   {
+    "title": "Gas Fireplace Installation",
+    "slug": "Gas-Fireplaces",
+    "type": "products",
+    "tileImage": "/assets/images/gasFireplacepages/Tile.png",
+    "category": "Chimney Services",
+    "tileBullets": [
+      "New Gas Fireplaces",
+      "New Gas Inserts"
+    ]
+  },
+  {
     "title": "Waterproofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
@@ -4981,12 +4992,6 @@
         "description": "<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
       }
     ]
-  },
-  {
-    "title": "Gas Fireplaces",
-    "slug": "Gas-Fireplaces",
-    "type": "products",
-    "tileImage": "/assets/images/gasFireplacepages/Tile.png"
   },
   {
     "title": "Door and Window Screens",
