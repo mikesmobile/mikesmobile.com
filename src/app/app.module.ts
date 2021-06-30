@@ -35,6 +35,7 @@ import { ImageComponent } from './image/image.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
+import { noTileGalleryComponent } from './no-tile-gallery/no-tile-gallery.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
@@ -67,6 +68,7 @@ import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-s
 import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -108,6 +110,7 @@ import { environment } from '../environments/environment';
     ThankYouComponent,
     FooterGalleryComponent,
     MainGalleryComponent,
+    noTileGalleryComponent,
     LandingRegionalComponent,
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,

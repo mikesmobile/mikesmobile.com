@@ -112,4 +112,32 @@
 .table th, .table td
   border: none
   
+.smaller
+  max-height: 120px;
+
+.hideIndicators li
+  display: none;
  
+.heroContainer
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/gasFireplacepages/Hero.png");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  @include breakpoint(md)
+   height: 500px
+
+
+.heroText
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+ @include breakpoint(md)
+  top: 60%
+
+.heroHr 
+  background-color: white;

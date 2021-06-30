@@ -1,0 +1,33 @@
+<mdb-carousel #mainCarousel isControls="true" [class]="class" interval="0" animation="fade">
+  <mdb-carousel-item *ngFor="let image of Images">
+    <div class="view w-100">
+      <img [alt]="image.alt" class="m-auto w-100" (click)="show()" [src]="image.big" />
+    </div>
+    <div *ngIf="image.title" class="carousel-caption mask rgba-black-strong">
+      <p [innerHTML]="image.title"></p>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+<div mdbModal #mainModal="mdb-modal" class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class=" modal-dialog" role="img">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn btn-danger waves-light" data-dismiss="modal" (click)="mainModal.hide()"
+          mdbWavesEffect>
+          X
+        </button>
+      </div>
+      <div class="text-center">
+        <app-img *ngIf="modalImgPath" [src]="modalImgPath" class="galleryImg"></app-img>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary waves-light" (click)="previous()" mdbWavesEffect>
+          <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="btn btn-primary waves-light" (click)="next()" mdbWavesEffect>
+          <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

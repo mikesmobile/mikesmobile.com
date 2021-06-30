@@ -30,33 +30,36 @@
       </nav>
       <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <img src="/assets/images/gasFireplacepages/Hero.png" class="img-fluid" alt="a gas fireplace">
+          <div class="row heroContainer">
+            <div class="col heroText">
+              <h1 class=" h1 pageTitle mb-0 ">
+                {{ product.title }}
+              </h1>
+              <hr class="heroHr" />
+              <h5 class="">Converting to a gas fireplace is now easier and more affordable than ever! Our
+                qualified gas appliance
+                professionals can help you find the perfect unit to add style and effecient heating to your home. You
+                can
+                enjoy the comfort of a fire at home without the hassle. </h5>
             </div>
           </div>
         </div>
       </ng-container>
-      <div *ngIf="price && product.slug !== 'pet-doors'" class="d-flex flex-column align-items-end flex-md-row">
+      <div *ngIf="price && product.slug !== 'pet-doors' && product.slug !== 'Gas-Fireplaces'"
+        class="d-flex flex-column align-items-end flex-md-row">
         <h1 class="text-left h1 pageTitle">
           {{ product.title }}
         </h1>
       </div>
-      <div *ngIf="!price || product.slug === 'pet-doors'" class="d-flex flex-column flex-md-row mb-0">
+      <div *ngIf="(!price || product.slug === 'pet-doors') && product.slug !== 'Gas-Fireplaces'"
+        class="d-flex flex-column flex-md-row mb-0">
         <h1 class="text-left h1 pageTitle mb-0">
           {{ product.title }}
         </h1>
       </div>
       <hr />
       <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
-        <div class="row">
-          <div class="col-12">
-            <h6>Converting to a gas fireplace is now easier and more affordable than ever! Our qualified gas appliance
-              professionals can help you find the perfect unit to add style and effecient heating to your home. You can
-              enjoy the comfort of a fire at home without the hassle. </h6>
-          </div>
-        </div>
-        <hr />
+
         <div class="row">
           <div class="col-12">
             <div class="card p-2">
@@ -67,9 +70,15 @@
                   </div>
                 </div>
                 <hr class="mt-0" />
-                <div class="row align-items-center">
+                <div class="row ">
                   <div class="col-lg-5">
-                    <app-main-gallery [Images]="delrayImages"></app-main-gallery>
+                    <div class="container">
+                      <div class="row  justify-content-center">
+                        <div class="col-lg-10 ">
+                          <app-no-tile-gallery [Images]="delrayImages"></app-no-tile-gallery>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-lg-7">
                     <p>
@@ -142,7 +151,13 @@
                 <hr class="mt-0" />
                 <div class="row align-items-center">
                   <div class="col-lg-5">
-                    <app-main-gallery [Images]="phenomImages"></app-main-gallery>
+                    <div class="container">
+                      <div class="row  justify-content-center">
+                        <div class="col-lg-10 ">
+                          <app-no-tile-gallery [Images]="phenomImages"></app-no-tile-gallery>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-lg-7">
                     <p>
