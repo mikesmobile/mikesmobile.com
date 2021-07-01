@@ -28,23 +28,26 @@
 
 
       </nav>
-      <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
-        <div class="container">
-          <div class="row heroContainer">
-            <div class="col heroText">
-              <h1 class=" h1 pageTitle mb-0 ">
-                {{ product.title }}
-              </h1>
-              <hr class="heroHr" />
-              <h5 class="">Converting to a gas fireplace is now easier and more affordable than ever! Our
-                qualified gas appliance
-                professionals can help you find the perfect unit to add style and effecient heating to your home. You
-                can
-                enjoy the comfort of a fire at home without the hassle. </h5>
-            </div>
-          </div>
+    </div>
+
+    <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
+
+      <div class="heroContainer">
+        <div class=" heroText">
+          <h1 class=" h1 pageTitle mb-0 boldText">
+            {{ product.title }}
+          </h1>
+          <hr class="heroHr mmOrange" />
+          <h5 class="">Converting to a gas fireplace is now easier and more affordable than ever! Our
+            qualified gas appliance
+            professionals can help you find the perfect unit to add style and effecient heating to your home. You
+            can
+            enjoy the comfort of a fire at home without the hassle. </h5>
         </div>
-      </ng-container>
+      </div>
+
+    </ng-container>
+    <div class="container pb-4">
       <div *ngIf="price && product.slug !== 'pet-doors' && product.slug !== 'Gas-Fireplaces'"
         class="d-flex flex-column align-items-end flex-md-row">
         <h1 class="text-left h1 pageTitle">
@@ -69,7 +72,7 @@
                     <h4>Montigo Del Ray Square38</h4>
                   </div>
                 </div>
-                <hr class="mt-0" />
+                <hr class="mt-0 mmOrange" />
                 <div class="row ">
                   <div class="col-lg-5">
                     <div class="container">
@@ -148,7 +151,7 @@
                     <h4>Montigo Phenom P42</h4>
                   </div>
                 </div>
-                <hr class="mt-0" />
+                <hr class="mt-0 mmOrange" />
                 <div class="row align-items-center">
                   <div class="col-lg-5">
                     <div class="container">
