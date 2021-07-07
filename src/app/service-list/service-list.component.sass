@@ -17,23 +17,27 @@
   background-color: $mmblue
 
 .tileOverlay 
+  width: 100%
+  padding: 5px, 10px
   color: $mmblue
   font-weight: bold
-  
-  
-  
-.listStyle
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
-  list-style-type: none !important
 
+.card-img-overlay
+  margin-top: 5rem !important
+  
+.tileList
+  width: 100%
+  margin: 0px
+  padding: 5px 10px
+  background: rgba(0, 0, 0, 0.7)
+  color: white
+  list-style-type: none
+  border-top: solid 5px $orange
+  border-bottom: solid 5px $orange
+  
+.tileListItem
+  padding: 0px 20px
 
-.tileInfo
-  display: none
-
-.tile:hover
-  .tileInfo
-    @include breakpoint(md)
-      display: inline
 
 .tileBlurb
   line-height: 1.4 !important
