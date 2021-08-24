@@ -58,9 +58,9 @@ hr
   background-color: #FFC682 !important
 
 .firstImg
-  background-image: url('/assets/images/about/chimney-liner.png')
+  background-image: url('/assets/images/about/mission.jpg')
   height: 270px
-  background-position-x: 50%
+  background-position-y: 40%
   background-repeat: no-repeat
   background-size: cover
 
@@ -72,8 +72,11 @@ hr
   background-size: cover
 
 .thirdImg
-  background-image: url('/assets/images/about/smiles.png')
+  background-image: url('/assets/images/about/qualifications.jpg')
   height: 270px
+  background-position-y: 50%
+  background-position-x: 70%
+  transform: translate(1.2)
   background-repeat: no-repeat
   background-size: cover
 
@@ -81,3 +84,11 @@ hr
   border: 1px solid $blue-green
   box-shadow: #003c5048 0px 3px 6px
   margin-bottom: 50px
+
+
+.o-border-right
+  border-right: 1px solid $orange
+
+@media (max-width: 767px)
+  .o-border-right
+    border-right: 0px
