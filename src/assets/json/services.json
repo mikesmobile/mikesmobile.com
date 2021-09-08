@@ -3601,7 +3601,6 @@
   {
     "title": "Gas Fireplace Repair & Service",
     "slug": "gas-fireplace-service",
-    "category": "Chimney Services",
     "type": "about",
     "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",
@@ -5148,5 +5147,4 @@
     "slug": "security-screen-doors",
     "type": "landing"
   }
-
 ]
