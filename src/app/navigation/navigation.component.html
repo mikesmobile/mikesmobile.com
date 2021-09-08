@@ -1,6 +1,6 @@
 <nav class="sticky-top no-shadows">
   <mdb-navbar id="#backToTop" class="z-depth-1 no-shadows sticky-top"
-    SideClass="navbar no-shadows  sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
+    SideClass="navbar no-shadows sticky-top header navbar-expand-lg" [containerInside]="false">
     <a class="navbar-brand" routerLink="/">
       <img src="/assets/images/main/navBarLogo.png" height="50px" alt="Mike’s Mobile Screen & Chimney Service">
     </a>
@@ -8,28 +8,30 @@
     <links>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item ml-2">
-          <a class="nav-link" routerlink="/">
+          <a class="nav-link blueOnHover" routerlink="/">
             <i class="fa fa-home pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
             Home
           </a>
         </li>
         <li class="nav-item ml-2">
-          <a class="nav-link" routerLink="/about">
+          <a class="nav-link blueOnHover" routerLink="/about">
             <i class="fa fa-users pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
             About
           </a>
         </li>
         <li class="nav-item ml-2">
-          <a class="nav-link" routerLink="/service-area">
+          <a class="nav-link blueOnHover" routerLink="/service-area">
             <i class="fas fa-map-marked-alt pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
             Service Areas
           </a>
         </li>
 
         <li class="nav-item ml-2">
-          <a dropdownToggle type="button" class="nav-link d-none d-lg-block" (mouseenter)="openDropdown()"
+          <!-- shows in lg-xl -->
+          <a dropdownToggle type="button" class="blueOnHover nav-link d-none d-lg-block" (mouseenter)="openDropdown()"
             (mouseleave)="closeDropdown()" mdbRippleRadius> Services </a>
-          <a dropdownToggle class="nav-link d-lg-none" (click)="toggleDropdownMobile()" mdbRippleRadius>
+          <!-- Shows in xs-md -->
+          <a dropdownToggle class="nav-link d-lg-none blueOnHover" (click)="toggleDropdownMobile()" mdbRippleRadius>
             <i class="fa fa-wrench pr-3 desktop-disappear faSymbolMobile" style="padding-left: 3px;"
               aria-hidden="true"></i> Services <i class="fa fa-angle-right float-right mt-1 desktop-disappear"
               aria-hidden="true"></i>
