@@ -670,7 +670,7 @@
               </div>
             </div>
           </div>
-    
+
           <div class="container d-none d-md-block ">
             <div class="row">
               <div class="col mt-2">
@@ -680,14 +680,15 @@
           </div>
         </div>
       </div>
-    
+
     </div>
-    
+
     <div class="container py-5">
       <div class="row">
-        <div class="d-flex justify-content-center order-2 order-lg-1 col-12 col-md-6 col-lg-2">
+        <div class="d-flex justify-content-center order-2 order-lg-1 col-6 col-lg-2">
           <a href="https://www.csia.org/certifiedchimneysweep.html" target="_blank">
-            <img src="../../assets/images/landing/certified-sweep.png" alt="Certified Chimney Sweep Logo" class="img-fluid">
+            <img src="../../assets/images/landing/certified-sweep.png" alt="Certified Chimney Sweep Logo"
+              class="img-fluid">
           </a>
         </div>
         <div class="order-1 order-lg-2 col-12 col-lg-8 px-lg-5">
@@ -706,35 +707,66 @@
               </ul>
             </div>
           </div>
-          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every component in your system. They will also provide you with a digital report, complete with photos, that shows you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our specialized gas fireplace technicians are able to perform most repairs in one visit!</p>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our specialized gas
+            fireplace technicians are able to perform most repairs in one visit!</p>
 
           <h4 class="mt-5 font-weight-bold">Why Call Mike's Mobile?</h4>
-          <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also prioritize ongoing education and training for all of our employees to make sure that our entire team is prepared to handle your needs and concerns.</p>
+          <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our
+            chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also
+            prioritize ongoing education and training for all of our employees to make sure that our entire team is
+            prepared to handle your needs and concerns.</p>
         </div>
-        <div class="d-flex justify-content-center order-3 col-12 col-md-6 col-lg-2">
+        <div class="d-flex justify-content-center order-3 col-6 col-lg-2">
           <a href="https://www.ncsg.org/" target="_blank">
-            <img src="../../assets/images/landing/ncsgm.jpg" alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+            <img src="../../assets/images/landing/ncsgm.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
           </a>
         </div>
       </div>
     </div>
-    
+
+
     <div class="container py-4">
       <div class="row">
         <div class="col-12">
           <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
           <hr>
         </div>
-        <div class="col-12 col-md-6">
-          <p>"Anthony was great! He was tenacious in finding the problem with our gas fireplace, explained the entire process, and replaced the damaged part. He put the gazillion pieces back together, and it was perfect!" 
-            <br>- <span class="font-weight-bold">Pati Lovanni</span></p>
-        </div>
-        <div class="col-12 col-md-6">
-          <p>"Technician, Rico, was very polite and took the time to teach me about the various components of the fireplace. He was very thorough - the fireplace is working better than ever and looks brand new."
-            <br>- <span class="font-weight-bold">John VanSuchtelen</span></p>
-        </div>
-    
       </div>
+
+      <div class="row text-center px-0 mx-0">
+        <div class="col-md-12 px-0 mx-0">
+          <div class="card-deck">
+
+            <div class="card yelpCard " *ngFor="let review of gasReviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </ng-container>
 
@@ -839,7 +871,8 @@
         </div>
         <div class="col-12">
           <p>Upgrade your style along with security with our security doors. Whether you are looking for a traditional
-            security door for safety or our high quality aluminum security doors to protect both your view and your home,
+            security door for safety or our high quality aluminum security doors to protect both your view and your
+            home,
             Mike’s Mobile Screens has plenty of options for you.</p>
         </div>
         <div class="col-12 col-md-6 mb-2">
@@ -848,10 +881,12 @@
               alt="Mike's Mobile Titan Security Door: Folkstone">
             <div class="card-body">
               <h4 class="card-title text-center">Titan Security Doors</h4>
-              <p class="card-text">We offer Titan Security Screen Doors in 40 different designs made from aluminum alloy,
-                that is up to 6 times stronger than steel, to take your home to the next level of style and security. All of
+              <p class="card-text">We offer Titan Security Screen Doors in 40 different designs made from aluminum
+                alloy,
+                that is up to 6 times stronger than steel, to take your home to the next level of style and security.
+                All of
                 our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home.</p>
-    
+
               <a routerLink="/grid/titan-security-doors" class="btn mikesBlueBtn btn-block">Titan Security Doors</a>
             </div>
           </div>
@@ -862,62 +897,122 @@
               alt="Mike's Mobile Viewguard Security Door in Black">
             <div class="card-body">
               <h4 class="card-title text-center">Viewguard Security Doors</h4>
-              <p class="card-text">The Viewguard’s screen is top of the line high tensile strength stainless steel, woven
+              <p class="card-text">The Viewguard’s screen is top of the line high tensile strength stainless steel,
+                woven
                 into a fine mesh, giving it the classic, simple look of a screen door- with all of the benefits of a
                 heavy-duty security product. With this door you can stop sacrificing style for security!</p>
-              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Vanguard Security Doors</a>
+              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Vanguard Security
+                Doors</a>
             </div>
           </div>
         </div>
       </div>
+
       <div class="row py-5 d-flex justify-content-center">
-        <div class="col-12 pb-5 col-md-10">
+        <div class="col-12 col-md-10">
           <h4 class="text-center">Front Security Screen Doors</h4>
           <p>Our high quality security doors are built to protect your home. These doors keep intruders out without
-            compromising the appearance of your home. With security doors whose designs say "upscale" instead of "security"
+            compromising the appearance of your home. With security doors whose designs say "upscale" instead of
+            "security"
             you can't go wrong with a Mike's Mobile security door!</p>
-            <div class="text-center my-4">
-              <a class="text-center" (click)="openQuoteForm()">
-                <h4 class="animated pulse infinite orange-text cursor-pointer" style="text-decoration: underline;">Get a Free Quote Now!</h4>
-              </a>
-            </div>
+          <div class="text-center">
+            <a class="text-center" (click)="openQuoteForm()">
+              <h4 class="animated pulse infinite orange-text cursor-pointer" style="text-decoration: underline;">Get a
+                Free Quote Now!</h4>
+            </a>
+          </div>
         </div>
+      </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+  
+        <div class="row text-center pb-5 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card yelpCard" *ngFor="let review of doorsReviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+      <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-10">
           <h4 class="text-center">Financing</h4>
-          <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows us to
-            ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and you will
-            receive your credit decision within seconds. After receiving your quote, you can apply for financing by clicking
+          <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows
+            us to
+            ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and you
+            will
+            receive your credit decision within seconds. After receiving your quote, you can apply for financing by
+            clicking
             the options below or by phone at <a href="tel:+18664057600">(866) 405-7600</a>.</p>
         </div>
       </div>
       <div class="row d-flex justify-content-around">
         <div class="col-12 col-md-5">
-          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt=" target="_blank" style="text-align: center;">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+            target="_blank" style="text-align: center;">
             <img class="img-fluid" src="../../assets/images/landing/12m.jpg" alt="12 Month Financing Offer!">
           </a>
           <br>
-          <p class="mx-2 mx-lg-4" style="font-size:10px;" >*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd., Suite 600, Salt
-              Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
-              Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to change.
-              Interest starts accruing when the loan closes.</p>
+          <p class="mx-2 mx-lg-4" style="font-size:10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard
+            Rd., Suite 600, Salt
+            Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
+            Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to change.
+            Interest starts accruing when the loan closes.</p>
         </div>
         <div class="col-12 col-md-5">
-          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt=" target="_blank" style="text-align: center;">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+            target="_blank" style="text-align: center;">
             <img class='img-fluid' src="../../assets/images/landing/5yr.jpg" alt="5 Year Financing Offer!">
           </a>
           <br>
-          <p class="mx-2" style="font-size: 10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd., Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months. 6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan closes.</p>
+          <p class="mx-2" style="font-size: 10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
+            Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months.
+            6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan
+            closes.</p>
         </div>
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-12 pt-5 pb-3 col-md-10">
           <h4 class="text-center">Financing Information</h4>
-          <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640 needed for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due within 30-90 days of the project's completion. Our Contractor ID number is <span class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)</p>
+          <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640 needed
+            for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due
+            within 30-90 days of the project's completion. Our Contractor ID number is <span
+              class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span
+              class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)
+          </p>
         </div>
       </div>
     </div>
   </ng-container>
-  
+
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
