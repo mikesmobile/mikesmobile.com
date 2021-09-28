@@ -28,6 +28,7 @@ import { AwningPriceCalcComponent } from './awningPriceCalc/awningPriceCalc.comp
 import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 import { CareerPageComponent } from './career-page/career-page.component';
+import { LandingContactComponent } from './landing-contact/landing-contact.component';
 
 
 const appRoutes: Routes = [
@@ -245,6 +246,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'security-screen-doors-email', component: LandingPageComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
+  { path: 'hiring-contact', component: LandingContactComponent },
 
 
 

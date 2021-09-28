@@ -68,6 +68,8 @@ import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-s
 import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { LandingContactComponent } from './landing-contact/landing-contact.component';
+import { AngularFileUploaderModule } from "angular-file-uploader";
 
 
 @NgModule({
@@ -131,7 +133,8 @@ import { environment } from '../environments/environment';
     QuoteFormAwningComponent,
     AnnouncementMessageComponent,
     SolarScreenPriceCalcComponent,
-    QuoteFormSolarScreenComponent
+    QuoteFormSolarScreenComponent,
+    LandingContactComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
@@ -141,6 +144,7 @@ import { environment } from '../environments/environment';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    AngularFileUploaderModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     }),
