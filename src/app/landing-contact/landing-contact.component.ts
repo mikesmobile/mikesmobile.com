@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, HostListener, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, FormControl, Validators,} from '@angular/forms';
+import { FormBuilder, FormGroup, FormControl, Validators, } from '@angular/forms';
 
 @Component({
   selector: 'app-landing-contact',
@@ -14,7 +14,7 @@ export class LandingContactComponent implements OnInit {
   email: FormControl = new FormControl("", [Validators.required, Validators.email]);
   phone: FormControl = new FormControl("", [Validators.required, Validators.pattern("^((\\+91-?)|0)?[0-9]{10}$")]);
   position: FormControl = new FormControl("", [Validators.required]);
-  file: FormControl = new FormControl(null, [Validators.required]);
+  file: FormControl = new FormControl("", [Validators.required]);
   fileSource: FormControl = new FormControl('', [Validators.required])
   message: FormControl = new FormControl("", [Validators.required, Validators.maxLength(1500)]);
 
@@ -39,7 +39,7 @@ export class LandingContactComponent implements OnInit {
     });
   }
   onFileChange(event) {
-  
+
     if (event.target.files.length > 0) {
       const file = event.target.files[0];
       this.form.patchValue({
@@ -47,7 +47,7 @@ export class LandingContactComponent implements OnInit {
       });
     }
   }
-  
+
   ngOnInit(): void {
   }
   onSubmit() {
@@ -63,29 +63,17 @@ export class LandingContactComponent implements OnInit {
       formData.append("message", this.form.get("message").value);
       this.isLoading = true; // sending the post request async so it's in progress
       this.submitted = false; // hide the response message on multiple submits
-      this.http.post("https://api.mikesmobile.com/resume", formData).subscribe(
+      this.http.post("http://api.mikesmobile.com/resume", formData).subscribe(
         (response) => {
-          console.log(response);
-          console.log(this.submitted)
-          // choose the response message
-          if (response["result"] == "success") {
-            this.responseMessage = "Thanks for the message! I'll get back to you soon!";
-          } else {
-            this.responseMessage = "Oops! Something went wrong... Reload the page and try again.";
-          }
+          this.responseMessage = "Thanks for the message! I'll get back to you soon!";
           this.form.enable(); // re enable the form after a success
           this.submitted = true; // show the response message
           this.isLoading = false; // re enable the submit button
           console.log(response);
-        },
-        (error) => {
-          this.responseMessage = "Oops! An error occurred... Reload the page and try again.";
-          this.form.enable(); // re enable the form after a success
-          this.submitted = true; // show the response message
-          this.isLoading = false; // re enable the submit button
-          console.log(error);
         }
+
       );
     }
   }
 }
+
