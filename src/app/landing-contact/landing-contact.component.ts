@@ -12,7 +12,7 @@ export class LandingContactComponent implements OnInit {
   form: FormGroup;
   name: FormControl = new FormControl("", [Validators.required]);
   email: FormControl = new FormControl("", [Validators.required, Validators.email]);
-  phone: FormControl = new FormControl("", [Validators.required, Validators.pattern("^((\\+91-?)|0)?[0-9]{10}$")]);
+  phone: FormControl = new FormControl("", [Validators.required, Validators.minLength(10)]);
   position: FormControl = new FormControl("", [Validators.required]);
   file: FormControl = new FormControl("", [Validators.required]);
   fileSource: FormControl = new FormControl('', [Validators.required])
@@ -51,7 +51,6 @@ export class LandingContactComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit() {
-
     if (this.form.status == "VALID" && this.honeypot.value == "") {
       this.form.disable(); // disable the form if it's valid to disable multiple submissions
       var formData: any = new FormData();
@@ -65,15 +64,18 @@ export class LandingContactComponent implements OnInit {
       this.submitted = false; // hide the response message on multiple submits
       this.http.post("https://api.mikesmobile.com/resume", formData).subscribe(
         (response) => {
-          this.responseMessage = "Thanks for the message! I'll get back to you soon!";
-          this.form.enable(); // re enable the form after a success
+          this.responseMessage = "Thanks for the message! We'll get back to you soon!";
           this.submitted = true; // show the response message
-          this.isLoading = false; // re enable the submit button
-          console.log(response);
+          // this.form.enable(); // re enable the form after a success
+          // this.isLoading = false; // re enable the submit button
+          // console.log(response);
         }
 
       );
+
     }
   }
 }
+
+
 
