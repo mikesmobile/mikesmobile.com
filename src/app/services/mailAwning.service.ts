@@ -19,7 +19,7 @@ export class MailAwningService {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       method: 'POST',
-      mode: 'cors',
+      mode: 'no-cors',
       cache: 'no-cache',
       body: formBody
     });

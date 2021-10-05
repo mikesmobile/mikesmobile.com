@@ -19,7 +19,7 @@ export class MailResumeService {
         'Content-Type': 'multipart/form-data'
       },
       method: 'POST',
-      mode: 'cors',
+      mode: 'no-cors',
       cache: 'no-cache',
       body: formBody
     });
