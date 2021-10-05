@@ -69,7 +69,7 @@ import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-f
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
-import { AngularFileUploaderModule } from "angular-file-uploader";
+
 
 
 @NgModule({
@@ -144,7 +144,6 @@ import { AngularFileUploaderModule } from "angular-file-uploader";
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    AngularFileUploaderModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA1X0GOfR-xzaHaH6vdPUE7s-I4bLBalFU'
     }),
