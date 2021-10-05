@@ -19,7 +19,7 @@ export class MailService {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
       method: 'POST',
-      mode: 'no-cors',
+      mode: 'cors',
       cache: 'no-cache',
       body: formBody
     });
