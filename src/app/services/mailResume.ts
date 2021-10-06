@@ -15,9 +15,6 @@ export class MailResumeService {
     formBody = formBody.join('&');
 
     return fetch(apiEndpoint, {
-      headers: {
-        'Content-Type': 'multipart/form-data'
-      },
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
