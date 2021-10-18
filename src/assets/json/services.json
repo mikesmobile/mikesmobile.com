@@ -3644,6 +3644,51 @@
     ]
   },
   {
+    "title": "Pellet Stove Repair and Annual Service",
+    "slug": "pellet-stove-repair",
+    "type": "about",
+    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
+    "tileText": "Pellet Stove not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "Black Pellet Stove",
+        "small": "/assets/images/landing/pellet/justPellet.jpg",
+        "medium": "/assets/images/landing/pellet/justPellet.jpg",
+        "big": "/assets/images/landing/pellet/justPellet.jpg"
+      },
+      {
+        "alt": "centered pellet stove",
+        "small": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletcenter.jpg"
+      },
+      {
+        "alt": "pellet stove in a living room",
+        "small": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "medium": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "big": "/assets/images/landing/pellet/pelletLiving.jpg"
+      },
+      {
+        "alt": "pellet stove off centered in a living room",
+        "small": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletoffcenter.jpg"
+      }
+    ]
+  },
+  {
     "title": "Gas Fireplace Repair & Service",
     "slug": "gas-fireplace-service-fb-lp",
     "type": "about",
