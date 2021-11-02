@@ -20,7 +20,7 @@
   {
     "page": "/about/gas-fireplace-repair-and-service",
     "title": "Gas Fireplace Repair & Service | Mike's Mobile",
-    "description": "Mike's Mobile repairs and Services gas Fireplaces! Have a CSIA certified gas technition come out to your home, and make sure your gas appliance is running great today!"
+    "description": "Mike's Mobile repairs and Services gas Fireplaces! Have a CSIA certified gas technician come out to your home, and make sure your gas appliance is running great today!"
   },
   {
     "page": "/services/gas-log-sets",
@@ -40,7 +40,7 @@
   {
     "page": "/about/door-and-window-screens",
     "title": "Window and Door Screens | Mike's Mobile",
-    "description":"Window screen repair, Windows, Door screen repair, security doors and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
+    "description": "Window screen repair, Windows, Door screen repair, security doors and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/about/door-screens",
@@ -1025,8 +1025,8 @@
   },
   {
     "page": "/regions/stockton",
-    "title": "Mike's Mobile Stockton | Screen and Chimney Services in Stockton, CA 95210",
-    "description": "Mikes Mobile Stockton is the one stop shop for all your screen and chimney needs in the Stockton area! Swing by and check us out, at our Show Room at 8130 Lorraine Ave., Suite 312, Stockton, CA 95210, or give us a call and we'll come to you!"
+    "title": "Mike's Mobile Stockton | Screen and Chimney Services in Stockton, CA 95203",
+    "description": "Mikes Mobile Stockton is the one stop shop for all your screen and chimney needs in the Stockton area! Our Stockton location is located at 1401 W Fremont St. Stockton, CA 95203, give us a call and we can help you with Security screens and doors!"
   },
   {
     "page": "/regions/antioch-east-bay",
@@ -1056,17 +1056,17 @@
   {
     "page": "/regions/modesto",
     "title": "Mike's Mobile Modesto | Screen and Chimney Services in Modesto, California 95356",
-    "description": "Mike's Mobile Modesto the premier screen and chimney service in the Modesto Area. Tired of waiting around in an apointment window? Give us a call and we can tell you when our certified technitions will show up to help you keep your home in shape!"
+    "description": "Mike's Mobile Modesto the premier screen and chimney service in the Modesto Area. Tired of waiting around in an apointment window? Give us a call and we can tell you when our certified technicians will show up to help you keep your home in shape!"
   },
   {
     "page": "/regions/napa-vallejo",
     "title": "Mike's Mobile Napa Vallejo | Screen and Chimney Services in Napa, California 94559",
-    "description": "Mike's Mobile Napa Vallejo has been the #1 screen and chimney mobile service in the Napa Vallejo Area since 2002. We offer chimney services, door and window screens, security doors and screens, Awnings! Our certified technitions are fast and friendly!"
+    "description": "Mike's Mobile Napa Vallejo has been the #1 screen and chimney mobile service in the Napa Vallejo Area since 2002. We offer chimney services, door and window screens, security doors and screens, Awnings! Our certified technicians are fast and friendly!"
   },
   {
     "page": "/regions/fresno",
     "title": "Mike's Mobile Fresno | Screen and Chimney Services in Fresno, California 93701",
-    "description": "Mike's Mobile Fresno the premier screen and chimney service in Fresno. Give us a call for all your screen window and door, chimney, awning, and security screen window and door needs in Fresno California, and our certified technitions will be there to help!"
+    "description": "Mike's Mobile Fresno the premier screen and chimney service in Fresno. Give us a call for all your screen window and door, chimney, awning, and security screen window and door needs in Fresno California, and our certified technicians will be there to help!"
   },
   {
     "page": "/regions/yuba-city",
@@ -1076,17 +1076,17 @@
   {
     "page": "/regions/tracy",
     "title": "Mike's Mobile Tracy | Screen and Chimney Services in Tracy, California 95376",
-    "description": "Mike's Mobile Tracy is the #1 Screen and Chimney service in the Tracy Area. Give us a call and our certified technitions will help you will all your screen and chimney needs! Check out our security screens to protect your home without the ugly bars over the windows!"
+    "description": "Mike's Mobile Tracy is the #1 Screen and Chimney service in the Tracy Area. Give us a call and our certified technicians will help you will all your screen and chimney needs! Check out our security screens to protect your home without the ugly bars over the windows!"
   },
   {
     "page": "/regions/madera",
     "title": "Mike's Mobile Madera | Screen and Chimney Services in Madera, California 93637",
-    "description": "Mike's Mobile Madera the premier Screen and Chimney service in the Madera Region. Can help you with all your chimney and screen needs! Our certified technitions can repair any screen that's ripped or set you up with a brand new security screen! protect your house without looking like a prison."
+    "description": "Mike's Mobile Madera the premier Screen and Chimney service in the Madera Region. Can help you with all your chimney and screen needs! Our certified technicians can repair any screen that's ripped or set you up with a brand new security screen! protect your house without looking like a prison."
   },
   {
     "page": "/regions/merced",
     "title": "Mike's Mobile Merced | Screen and Chimney Services in Merced, California 95348",
-    "description": "Mike's Mobile Merced Screen and Chimney is the premier screen and chimney service in the Merced Area. Our technitions can help you with all your chimney and screen needs in the Merced Area. Our security windows will help turn your home into a fortress without looking like a prison!"
+    "description": "Mike's Mobile Merced Screen and Chimney is the premier screen and chimney service in the Merced Area. Our technicians can help you with all your chimney and screen needs in the Merced Area. Our security windows will help turn your home into a fortress without looking like a prison!"
   },
   {
     "page": "/regions/fremont",
@@ -1112,5 +1112,10 @@
     "page": "/solar-screen-price-calc",
     "title": "Solar Screen Price Calculator | Mike's Mobile",
     "description": "Calulate out your quote for Mike's Mobiles Solar Screens, reduce the temperature of your house by 10 degrees!"
+  },
+  {
+    "page": "/about/pellet-stove-repair",
+    "title": "Pellet Stove Repair and Annual Service | Mike's Mobile",
+    "description": "Mike's Mobile Repairs and Services Pellet Stoves! Have a CSIA certified gas technician come out to your home, and make sure your pellet stove is running great today!"
   }
 ]

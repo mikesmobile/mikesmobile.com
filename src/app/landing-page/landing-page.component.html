@@ -1,4 +1,5 @@
 <app-action-buttons></app-action-buttons>
+<app-quote-form></app-quote-form>
 
 <ng-container *ngIf="landing">
   <ng-container *ngIf="landing.slug === 'door-screens'">
@@ -166,7 +167,7 @@
                   </p>
                 </div>
                 <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Titan Security Screen Doors
+                  <h4 class="card-title-1 d-table-cell text-center w-100 align-middle m-0">Titan Security Screen Doors
                   </h4>
                 </div>
               </a>
@@ -185,7 +186,7 @@
                   </p>
                 </div>
                 <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Viewguard Security Screen
+                  <h4 class="card-title-1 d-table-cell text-center w-100 align-middle m-0">Viewguard Security Screen
                     Doors
                   </h4>
                 </div>
@@ -205,7 +206,7 @@
                   </p>
                 </div>
                 <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">TRU-View Security Screen
+                  <h4 class="card-title-1 d-table-cell text-center w-100 align-middle m-0">TRU-View Security Screen
                     Doors
                   </h4>
                 </div>
@@ -226,7 +227,7 @@
                   </p>
                 </div>
                 <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Security Window Screens
+                  <h4 class="card-title-1 d-table-cell text-center w-100 align-middle m-0">Security Window Screens
                   </h4>
                 </div>
               </a>
@@ -617,6 +618,176 @@
       <hr />
     </div>
   </ng-container>
+  <ng-container *ngIf="landing.slug === 'gas-fireplace-service' || landing.slug === 'gas-fireplace-service-fb-lp' ">
+
+    <div class="container py-4">
+      <h1 class="p-2" [innerHTML]="landing.title"></h1>
+      <hr />
+      <div class="row align-items-center">
+        <div class="col">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          <div class="container d-md-none ">
+            <div class="row">
+              <div class="col mt-2 center">
+                <div class=" d-md-none">
+                  <a class="btn oj" href="tel:+18009929938">Call Us Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold font-italic mt-sm-2">
+                  We Fix Gas Fireplaces!
+                </h4>
+                <p>
+                  With help from Mike’s Mobile you can be sure that your gas fireplace is working properly and save
+                  money on costly future problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified,
+                  specialized gas technicians will diagnose any issues with your system and perform the maintenance and
+                  repairs needed to ensure that it is clean and fully functioning!
+                  <br /> <br />A gas fireplace offers wonderful aesthetics and helps to keep your home warm during the
+                  cooler months. With regular maintenance, your system will be ready to go so that you can sit back,
+                  relax, and enjoy your gas fireplace!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold">Annual Maintenance for Gas Fireplaces</h4>
+                <ul>
+                  <li>
+                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends
+                    an annual inspection to ensure that your gas fireplace continues to work properly.
+                  </li>
+                  <li>
+                    Many homeowners' insurance policies require an annual professional chimney inspection and
+                    cleaning. Your insurance company may require that you provide proof of this when filing a claim.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container d-none d-md-block ">
+            <div class="row">
+              <div class="col mt-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Today!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container pt-2 pt-md-4 pb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 px-lg-5">
+          <h4 class="font-weight-bold">Is your gas fireplace having these issues? We can fix it!</h4>
+          <div class="row my-4">
+            <div class="col-12 col-lg-6">
+              <ul class="mb-0">
+                <li class="font-weight-bold">Gas Fireplace turns off by itself</li>
+                <li class="font-weight-bold">Gas fireplace sparks but burner won't light</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <ul>
+                <li class="font-weight-bold">Pilot won't stay lit</li>
+                <li class="font-weight-bold">Small or ghosting flames</li>
+              </ul>
+            </div>
+          </div>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our specialized gas
+            fireplace technicians are able to perform most repairs in one visit!</p>
+
+          <h4 class="mt-5 font-weight-bold">Why Call Mike's Mobile?</h4>
+          <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our
+            chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also
+            prioritize ongoing education and training for all of our employees to make sure that our entire team is
+            prepared to handle your needs and concerns.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 d-none d-lg-block"></div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.csia.org/certifiedchimneysweep.html" target="_blank">
+            <img src="../../assets/images/landing/certified-sweep.png" alt="Certified Chimney Sweep Logo"
+              class="img-fluid">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/ncsgm.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/gscsg.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/logo-hpba.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="col-2 d-none d-lg-block"></div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row text-center px-0 mx-0">
+        <div class="col-md-12 px-0 mx-0">
+          <div class="card-deck">
+
+            <div class="card yelpCard " *ngFor="let review of gasReviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </ng-container>
+
   <ng-container *ngIf="landing.slug === 'security-doors'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -708,6 +879,153 @@
       </div>
     </div>
   </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'security-screen-doors' ">
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-12">
+          <h1>Security Screen Doors</h1>
+          <hr>
+        </div>
+        <div class="col-12">
+          <p>Never sacrifice style for security! With custom-built security screen doors in a variety of colors and
+            designs. We guarantee that we'll help you upgrade your home and your peace of mind!</p>
+        </div>
+        <div class="col-12 col-md-6 mb-2">
+          <div class="card">
+            <img class="card-img-top" src="../../assets/images/landing/titan.jpg"
+              alt="Mike's Mobile Titan Security Door: Folkstone">
+            <div class="card-body">
+              <h4 class="card-title text-center">Titan Security Doors</h4>
+              <p class="card-text">The Titan Premium Security Screens come in 40 designs and a wide array of colors.
+                Their incredibly strong construction ensures that they can't be cut or torn, so you can show off your
+                unique style while you protect your home!</p>
+
+              <a routerLink="/grid/titan-security-doors" class="btn mikesBlueBtn btn-block">Titan Security Doors</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-2">
+          <div class="card">
+            <img class="card-img-top" src="../../assets/images/landing/viewguard.jpg"
+              alt="Mike's Mobile Viewguard Security Door in Black">
+            <div class="card-body">
+              <h4 class="card-title text-center">Viewguard Security Doors</h4>
+              <p class="card-text">The Viewguard Security Screens combine the look of a classic screen door with the
+                strength of stainless steel. The woven mesh also allows for maximum airflow, so that you can let the
+                cool breeze in while keeping unwanted visitors out!</p>
+              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Viewguard Security
+                Doors</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-5 d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+          <h4 class="text-center">Security Screen Doors</h4>
+          <p>Security Screen Doors provide extra protection without compromising the look of your home. With a fully
+            customized door from Mike’s Mobile, you can leave the front door open while knowing that your family is
+            taken care of!
+            Increased security. Enhanced curb appeal. It’s that simple!</p>
+          <div class="text-center">
+            <a class="text-center" (click)="openQuoteForm()">
+              <h4 class="animated pulse infinite orange-text cursor-pointer" style="text-decoration: underline;">Get a
+                Free Quote Now!</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row text-center pb-5 mx-0">
+        <div class="col-12 px-0 mx-0">
+          <div class="card-deck">
+            <div class="card yelpCard" *ngFor="let review of doorsReviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+          <h4 class="text-center">Financing</h4>
+          <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows
+            us to
+            ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and you
+            will
+            receive your credit decision within seconds. After receiving your quote, you can apply for financing by
+            clicking
+            the options below or by phone at <a href="tel:+18664057600">(866) 405-7600</a>.</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-5">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+            target="_blank" style="text-align: center;">
+            <img class="img-fluid" src="../../assets/images/landing/12m.jpg" alt="12 Month Financing Offer!">
+          </a>
+          <br>
+          <p class="mx-2 mx-lg-4" style="font-size:10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard
+            Rd., Suite 600, Salt
+            Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
+            Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to change.
+            Interest starts accruing when the loan closes.</p>
+        </div>
+        <div class="col-12 col-md-5">
+          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+            target="_blank" style="text-align: center;">
+            <img class='img-fluid' src="../../assets/images/landing/5yr.jpg" alt="5 Year Financing Offer!">
+          </a>
+          <br>
+          <p class="mx-2" style="font-size: 10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
+            Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months.
+            6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan
+            closes.</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 pt-5 pb-3 col-md-10">
+          <h4 class="text-center">Financing Information</h4>
+          <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640 needed
+            for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due
+            within 30-90 days of the project's completion. Our Contractor ID number is <span
+              class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span
+              class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)
+          </p>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -895,5 +1213,106 @@
       <hr />
     </div>
   </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'pellet-stove-repair'">
+
+    <div class="container py-4">
+      <h1 class="p-2" [innerHTML]="landing.title"></h1>
+      <hr />
+      <div class="row align-items-center">
+        <div class="col">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          <div class="container d-md-none ">
+            <div class="row">
+              <div class="col mt-2 center">
+                <div class=" d-md-none">
+                  <a class="btn oj" href="tel:+18009929938">Call Us Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold font-italic mt-sm-2">
+                  Mike’s Mobile is Northern California’s premier Pellet Stove Service and Repair company.
+                </h4>
+                <p>
+
+                  Pellet stoves need annual maintenance to ensure they are working efficiently and to avoid costly
+                  problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified, specialized pellet
+                  technicians will diagnose any issues with your system and perform the maintenance and repairs needed
+                  to ensure that it is clean and working when you need it to!
+
+
+                  <br /> <br />A pellet stove offers very efficient heat to warm your home during the winter. With
+                  regular maintenance, your system will be ready to go so that you can sit back, relax, and enjoy your
+                  pellet stove!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold">Pellet Stoves require Annual Clean & Service</h4>
+                <ul>
+                  <li>
+                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends an
+                    annual inspection to ensure that your pellet stove continues to work properly.
+                  </li>
+                  <li>
+                    Many homeowners' insurance policies require an annual professional chimney inspection and cleaning.
+                    Your insurance company may require that you provide proof of this in the unfortunate event you need
+                    to file a claim.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container d-none d-md-block ">
+            <div class="row">
+              <div class="col mt-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Today!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container pt-2 pt-md-4 pb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 px-lg-5">
+          <h4 class="font-weight-bold">Is your pellet stove having these issues? We can fix it!</h4>
+          <div class="row my-4">
+            <div class="col-12 col-lg-6">
+              <ul class="mb-0">
+                <li class="font-weight-bold">Poor burn quality</li>
+                <li class="font-weight-bold">Blackened glass</li>
+                <li class="font-weight-bold">Trouble igniting</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <ul>
+                <li class="font-weight-bold">Lazy or small flame</li>
+                <li class="font-weight-bold">Low heat output</li>
+              </ul>
+            </div>
+          </div>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your pellet stove and exactly how it can be fixed.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </ng-container>
+
+  
 </ng-container>
-<app-quote-form></app-quote-form>

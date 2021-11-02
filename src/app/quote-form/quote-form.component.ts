@@ -30,7 +30,7 @@ export class QuoteFormComponent {
     private route: ActivatedRoute,
     private router: Router,
     private mailService: MailService
-  ) {}
+  ) { }
 
   quoteFormGroup = new FormGroup({
     name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
@@ -121,6 +121,7 @@ export class QuoteFormComponent {
         utm_campaign
       })
       .then((res) => {
+
         if (!res.ok) {
           throw Error(res.statusText);
         }
