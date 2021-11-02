@@ -3700,6 +3700,51 @@
     ]
   },
   {
+    "title": "Pellet Stove Repair & Annual Service",
+    "slug": "pellet-stove-repair",
+    "type": "about",
+    "category": "Chimney Services",
+    "tileImage": "/assets/images/tiles/pelletcenter.jpg",
+    "tileText": "Pellet Stove not burning right? We can get it working in no time!",
+    "tileBullets": [
+      "Fix Poor burn quality",
+      "Stop ignition issues",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "Black Pellet Stove",
+        "small": "/assets/images/landing/pellet/justPellet.jpg",
+        "medium": "/assets/images/landing/pellet/justPellet.jpg",
+        "big": "/assets/images/landing/pellet/justPellet.jpg"
+      },
+      {
+        "alt": "centered pellet stove",
+        "small": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletcenter.jpg"
+      },
+      {
+        "alt": "pellet stove in a living room",
+        "small": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "medium": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "big": "/assets/images/landing/pellet/pelletLiving.jpg"
+      },
+      {
+        "alt": "pellet stove off centered in a living room",
+        "small": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletoffcenter.jpg"
+      }
+    ]
+  },
+  {
     "title": "Waterproofing Package",
     "slug": "water-proofing-package",
     "category": "Chimney Services",
@@ -5013,12 +5058,6 @@
         "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
         "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
         "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
-      },
-      {
-        "alt": "Fixed Security Window Screens",
-        "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
-        "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
-        "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg"
       },
       {
         "alt": "Quick Escape Security Window Screens",
