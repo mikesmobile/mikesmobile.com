@@ -1,6 +1,11 @@
-<img class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicSrs.jpg"
+<div (mouseover)="changePic=true" (mouseout)="changePic=false">
+  <img *ngIf="!changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicSrs.jpg"
   alt="Company Photo with Mike's Mobile Trucks" />
-<div class="container-fluid onTopOfPic">
+  <img *ngIf="changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicFun.jpg"
+  alt="Company Photo with Mike's Mobile Trucks" />
+</div>
+
+  <div class="container-fluid onTopOfPic" (mouseover)="changePic=true" (mouseout)="changePic=false">
   <div class="row">
     <div class="col-12 text-center text-white">
       <h1 class="headerFontSize">Mike's Mobile Screen and Chimney Service</h1>
