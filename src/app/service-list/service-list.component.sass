@@ -1,8 +1,16 @@
 @import '../../sass/modules/_mixins.sass'
 @import '../../sass/modules/_variables.sass'
+
+.cardContainer
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+.tile
+  display: flex
+  width: 243px!important
 .tileTitle
   height: 100%
-  width: 100% !important
+  width: 243px !important
   margin: 0 
   padding: 0 !important
   @include breakpoint(md)
@@ -12,7 +20,7 @@
   background-color: $mmblue
 
 .tileOverlay 
-  width: 100%
+  width: 243px
   padding: 5px, 10px
   color: $mmblue
   font-weight: bold
@@ -21,7 +29,7 @@
   margin-top: 5rem !important
 
 .tileList
-  width: 100%
+  width: 243px
   margin: 0px
   padding: 5px 10px
   background: rgba(0, 0, 0, 0.7)
@@ -41,3 +49,10 @@
   line-height: 1.4 !important
   font-weight: normal !important
   color: white
+
+.backGroundGrey
+  background-color: #5b5d52 !important
+
+.sectionHeaders
+  background-color: $mmblue
+  color: white !important

@@ -3,17 +3,18 @@
     <div class="row justify-content-center">
       <div class="col-12 pb-2">
         <ng-container *ngFor="let service of categoryList | findByTitle: categories[i]">
-          <h1 class="text-center py-3" [id]="service.slug">
-            <a class="orange-text" [routerLink]="['/about', service.slug]" [innerHTML]="category"></a>
+          <h1 class="text-center sectionHeaders py-3" [id]="service.slug">
+            <a class="text-white" [routerLink]="['/about', service.slug]" [innerHTML]="category"></a>
           </h1>
         </ng-container>
       </div>
-      <ng-container *ngFor="let service of serviceList | findByCategory: categories[i]">
-        <div class="col-6 col-md-4 col-lg-3">
+      <div class="col-12 cardContainer">
+        <ng-container *ngFor="let service of serviceList | findByCategory: categories[i]">
           <div class="card tile my-2 rounded">
             <a class="d-block" [routerLink]="['/', service.type, service.slug]">
               <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                <h4 class="card-title d-table-cell text-center w-100 align-middle m-0" [innerHTML]="service.title"></h4>
+                <h4 class="card-title d-table-cell backGroundGrey text-center w-100 align-middle m-0"
+                  [innerHTML]="service.title"></h4>
               </div>
               <div class="view waves-light " mdbRippleRadius>
                 <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title">
@@ -31,8 +32,8 @@
 
             </a>
           </div>
-        </div>
-      </ng-container>
+        </ng-container>
+      </div>
     </div>
     <hr class='divider'>
   </div>
