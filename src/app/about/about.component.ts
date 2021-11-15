@@ -9,6 +9,7 @@ import employeesJSON from '../../assets/json/employees.json';
   styleUrls: ['./about.component.sass'],
 })
 export class AboutComponent implements OnInit {
+  changePic: boolean;
   employees = [];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
