@@ -3557,7 +3557,7 @@
     "slug": "gas-fireplace-repair-and-service",
     "category": "Chimney Services",
     "type": "about",
-    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
+    "tileImage": "/assets/images/tiles/gasFirePlaceTile.png",
     "tileText": "Gas Fireplace not working? We can get it working in no time!",
     "tileBullets": [
       "Fix pilot light issues",
