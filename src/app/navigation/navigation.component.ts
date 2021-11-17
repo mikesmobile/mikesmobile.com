@@ -29,9 +29,9 @@ export class NavigationComponent {
   phoneNumberSwitch() {
     if (this.currentRoute.startsWith('/about/security-screen-doors')) {
       this.phone = "(916) 283-7537";
-    }else if(this.currentRoute.startsWith('/grid/titan-security-doors')){
+    }else if(this.currentRoute.startsWith('/grid/titans')){
       this.phone = "(916) 312-3182";
-    } else if(this.currentRoute.startsWith('/products/viewguard-security-doors')){
+    } else if(this.currentRoute.startsWith('/products/viewguard')){
       this.phone = "(916) 318-9845";
     } else {
       this.phone = "(800) 992-9938";
