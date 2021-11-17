@@ -196,6 +196,10 @@ const appRoutes: Routes = [
     path: 'grid/viewguard-security-doors',
     redirectTo: '/products/viewguard-security-doors'
   },
+  {
+    path: 'grid/viewguard',
+    redirectTo: '/products/viewguard'
+  },
   { path: 'window-door-screens-modesto', redirectTo: '/regions/modesto' },
   { path: 'clean-or-dirty', redirectTo: '/blog/clean-or-dirty' },
   {

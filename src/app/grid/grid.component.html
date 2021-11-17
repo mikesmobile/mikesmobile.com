@@ -230,6 +230,125 @@
     <app-slideShowModal></app-slideShowModal>
     <app-quote-form></app-quote-form>
   </ng-container>
+
+  <ng-container *ngSwitchCase="'titans'">
+    <div class="container">
+      <section class="section pb-3">
+        <nav class="breadcrumb mt-2">
+          <a class="breadcrumb-item" routerLink="/">Home</a>
+          <a class="breadcrumb-item" routerLink="/about/security-doors-and-windows">Security Screen Doors and
+            Windows</a>
+          <span class="breadcrumb-item active">Titan Security Screen Doors</span>
+        </nav>
+        <div class="d-flex flex-column flex-md-row align-items-end">
+          <h1 class="h1 my-0 align-baseline">
+            Titan Security Screen Doors
+          </h1>
+
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-12 col-md-7 pb-3">
+            <app-main-gallery [Images]="service.recentInstallImages"></app-main-gallery>
+          </div>
+          <div class="col-12 col-md-5 productInfo">
+            <h5 class="text-left font-weight-bold font-italic">
+              Our Titan security screens help you maximize your home's curb
+              appeal while staying safe!
+            </h5>
+            <hr />
+            <div class="container">
+              <ul class="pb-3">
+                <li class="l2">
+                  Available in 40 different designs.
+                  <a class="blue-text" mdbPageScroll href="#titanGallery">Click or scroll here to see them all</a>
+                </li>
+                <li class="l2">
+                  Aluminum alloy construction is up to 6 times stronger than
+                  steel and cannot rust
+                </li>
+                <li class="l2">
+                  Welded hinges and mitered corners add strength, enhance
+                  appearance and increase security
+                </li>
+              </ul>
+            </div>
+            <div class="row text-center mb-3">
+              <div class="container text-center">
+                <div class="row align-items-center justify-content-center">
+                  <div *ngIf="price">
+                    <div *ngFor="let item of price.price" class="col">
+                      <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
+                      <div class=" col priceImage ">
+                        <h5 class="priceTag text-right text-white mt-1 mb-0 ml-2">Starting at</h5>
+                        <h2 class="priceTag text-right mr-2 price  ml-2 text-white">{{ item.price }}</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 ctaCol">
+                    <div class=" d-md-none ">
+                      <a class="white-text" href="tel:+18009929938">
+                        <h4 class="animated pulse infinite orange-text  cursor-pointer">
+                          <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
+                        </h4>
+                      </a>
+                    </div>
+                    <div class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
+                      <h4 class="animated pulse infinite orange-text ">
+                        &nbsp;Get a Free Quote Now!
+                      </h4>
+                    </div>
+
+                  </div>
+                  <br>
+                  <div class="col-8">
+                    <a routerLink="/financing">
+                      <img src="/assets/images/main/financingButton.png" class="img-fluid" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <h4>
+                  Color Selection &nbsp;
+                  <span class="small">(click to zoom)</span>
+                </h4>
+                <app-color-swatch swatchType="titanSecurityColors"></app-color-swatch>
+                <app-color-swatch swatchType="titanAluminumColors"></app-color-swatch>
+                <app-color-swatch swatchType="meshtecColor"></app-color-swatch>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4" />
+        <p class="my-5 section-description" [innerHTML]="service.description"></p>
+        <div id="titanGallery" class="row justify-content-center">
+          <ng-container *ngFor="
+              let item of serviceList
+                | findByCategory: 'Titan Security Screen Doors'
+            ">
+            <div class="card col-6 col-md-4 col-lg-2" (click)="openSlideShowModal(item.title)">
+              <div class="view overlay">
+                <app-img [src]="item.tileImage" class="img-fluid serviceImage titanImage" [alt]="item.title"></app-img>
+                <div class="mask rgba-white-light"></div>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title">
+                  <strong><a (click)="openSlideShowModal(item.title)" [innerHTML]="item.title"></a></strong>
+                </h4>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+        <app-tab-nav [details]="service.details"></app-tab-nav>
+      </section>
+    </div>
+    <app-slideShowModal></app-slideShowModal>
+    <app-quote-form></app-quote-form>
+  </ng-container>
+
   <ng-container *ngSwitchCase="'chimney-repairs'">
     <div class="container">
       <section class="section pb-3">
