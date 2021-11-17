@@ -22,10 +22,11 @@ export class FooterComponent {
   }
   
   footerSwitch() {
-    if (this.currentRoute.startsWith('/about/gas-fireplace-service') || this.currentRoute.startsWith('/about/security-screen-doors') || this.currentRoute.startsWith('/grid/titans') || this.currentRoute.startsWith('/products/viewguard')) {
+    if (this.currentRoute.startsWith('/about/gas-fireplace-service') || this.currentRoute.startsWith('/about/security-screen-doors') || this.currentRoute.startsWith('/grid/titans') || this.currentRoute.startsWith('/products/viewguards')) {
       this.turnMeOn = false;
     } else {
       this.turnMeOn = true;
     }
   }
+  
 }
