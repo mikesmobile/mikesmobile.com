@@ -5,25 +5,13 @@
         <div class="card tile my-2 rounded">
           <a class="d-block" [routerLink]="card.link">
             <div class="view waves-light" mdbRippleRadius>
-              <app-img
-                [src]="card.image"
-                class="img-fluid card-img"
-                [alt]="card.title"
-              ></app-img>
+              <app-img [src]="card.image" class="img-fluid card-img" [alt]="card.title"></app-img>
             </div>
             <div class="card-img-overlay tileInfo mt-0">
-              <p
-                class="mb-0 text-center tileBlurb text-white transparent-gray"
-                [innerHTML]="card.text"
-              ></p>
+              <p class="mb-0 text-center tileBlurb text-white transparent-gray" [innerHTML]="card.text"></p>
             </div>
-            <div
-              class="container d-table tileTitle text-center align-center w-100 mx-0"
-            >
-              <h4
-                class="card-title d-table-cell text-center w-100 align-middle m-0"
-                [innerHTML]="card.title"
-              ></h4>
+            <div class="container d-table tileTitle text-center align-center w-100 mx-0">
+              <h4 class="card-title d-table-cell text-center w-100 align-middle m-0" [innerHTML]="card.title"></h4>
             </div>
           </a>
         </div>
