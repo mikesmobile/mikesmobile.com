@@ -1,6 +1,11 @@
-<img class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicSrs.jpg"
+<div (mouseover)="changePic=true" (mouseout)="changePic=false">
+  <img *ngIf="!changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicSrs.jpg"
   alt="Company Photo with Mike's Mobile Trucks" />
-<div class="container-fluid onTopOfPic">
+  <img *ngIf="changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicFun.jpg"
+  alt="Company Photo with Mike's Mobile Trucks" />
+</div>
+
+  <div class="container-fluid onTopOfPic" (mouseover)="changePic=true" (mouseout)="changePic=false">
   <div class="row">
     <div class="col-12 text-center text-white">
       <h1 class="headerFontSize">Mike's Mobile Screen and Chimney Service</h1>
@@ -55,129 +60,12 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/mikeFasy.jpg" alt="The CEO Of Mike's Mobile, Mike Fasy">
-      <h3 class="text-center">Mike Fasy</h3>
-      <p class="text-center titleStyle">CEO</p>
+    <div *ngFor="let employees of employees" class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
+      <img class="img-fluid" src={{employees.image}} alt={{employees.alt}}>
+      <h3 class="text-center">{{employees.name}}</h3>
+      <p class="text-center titleStyle">{{employees.position}}</p>
     </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/mikeRice.jpg" alt="MIke's Mobile President, Mike Rice">
-      <h3 class="text-center">Mike Rice</h3>
-      <p class="text-center titleStyle">President</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/danA.jpg" alt="Operations Manager, Dan A.">
-      <h3 class="text-center">Dan A.</h3>
-      <p class="text-center titleStyle">Operations Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/markA.jpg" alt="Gas Lead and Safety Manager, Mark A.">
-      <h3 class="text-center">Mark A.</h3>
-      <p class="text-center titleStyle">Gas Lead / Safety Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/danC.jpg" alt="Technician Manager, Daniel C.">
-      <h3 class="text-center">Daniel C.</h3>
-      <p class="text-center titleStyle">Technician Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/joeD.jpg" alt="Mike's Mobile Technician, Joseph D.">
-      <h3 class="text-center">Joseph D.</h3>
-      <p class="text-center titleStyle">Sales Trainer Lead Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/anthonyW.jpg" alt="Mike's Mobile Technician, Anthony W.">
-      <h3 class="text-center">Anthony W.</h3>
-      <p class="text-center titleStyle">Gas Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/recoS.jpg" alt="Mike's Mobile Technician, Reco S.">
-      <h3 class="text-center">Reco S.</h3>
-      <p class="text-center titleStyle">Gas Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/timM.jpg" alt="Mike's Mobile Technician, Tim T">
-      <h3 class="text-center">Tim M.</h3>
-      <p class="text-center titleStyle">Door Install Lead Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/austinH.jpg" alt="Mike's Mobile Technician, Austin H.">
-      <h3 class="text-center">Austin H.</h3>
-      <p class="text-center titleStyle">Door Install Technician</p>
-    </div>
-
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/hankS.jpg" alt="Mike's Mobile Technician, Hank S.">
-      <h3 class="text-center">Hank S.</h3>
-      <p class="text-center titleStyle">Repair Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/michaelM.jpg" alt="Mike's Mobile Technician, Michael M.">
-      <h3 class="text-center">Michael M.</h3>
-      <p class="text-center titleStyle">Sales Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/vincentZ.jpg" alt="Mike's Mobile Technician, Vincent Z">
-      <h3 class="text-center">Vincent Z.</h3>
-      <p class="text-center titleStyle">Sales Technician</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/ronH.jpg" alt="Warehouse Foreman, Ron H.">
-      <h3 class="text-center">Ron H.</h3>
-      <p class="text-center titleStyle">Warehouse Foreman</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/billI.jpg" alt="Mike's Mobile Technician, Bill I.">
-      <h3 class="text-center">Bill I.</h3>
-      <p class="text-center titleStyle">Metal Shop / Assistant Mechanic</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/superShannon.jpg"
-        alt="Recruiting and Project Manager, Shannon H.">
-      <h3 class="text-center">Shannon H.</h3>
-      <p class="text-center titleStyle">Recruiting and Project Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/angelicaW.jpg" alt="Human Resources Specialist, Angelica W.">
-      <h3 class="text-center">Angelica W.</h3>
-      <p class="text-center titleStyle">Human Resources Specialist</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/zacW.jpg" alt="Senior Software Engineer, Zac W.">
-      <h3 class="text-center">Zac W.</h3>
-      <p class="text-center titleStyle">Senior Software Engineer</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/melissaG.jpg" alt="Customer Service Manager, Melissa G">
-      <h3 class="text-center">Melissa G.</h3>
-      <p class="text-center titleStyle">Customer Service Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/crystalA.jpg" alt="Service Administrator, Crystal A.">
-      <h3 class="text-center">Crystal A.</h3>
-      <p class="text-center titleStyle">Service Administrator</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/alexisC.jpg"
-        alt="Customer Service Assistant Manager, Alexis C.">
-      <h3 class="text-center">Alexis C.</h3>
-      <p class="text-center titleStyle">Customer Service Assistant Manager</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/airealeW.jpg" alt="CSR Aireale W.">
-      <h3 class="text-center">Aireale W.</h3>
-      <p class="text-center titleStyle">Customer Service Representative</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/chadwickJ.jpg" alt="CSR, Chadwick J">
-      <h3 class="text-center">Chadwick J.</h3>
-      <p class="text-center titleStyle">Customer Service Representative</p>
-    </div>
-    <div class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
-      <img class="img-fluid" src="../../assets/images/team/taylorW.jpg" alt="CSR Taylor W.">
-      <h3 class="text-center">Taylor W.</h3>
-      <p class="text-center titleStyle">Customer Service Representative</p>
-    </div>
+    
   </div>
     <!-- Contact Box -->
   <div class="row d-flex justify-content-center mt-4">
@@ -217,7 +105,7 @@
         </div>
         <div class="col-12 col-sm-6 col-md-4 mb-2">
           <h4>Stockton</h4>
-          <a target="_blank" href="https://g.page/MikesMobileStockton?share" class="text-underline">1401 W Fremont St<br>Stockton, CA 95203</a>
+          <a target="_blank" href="https://goo.gl/maps/UhNXfAj3EdQEkuZy8" class="text-underline">1401 W Fremont St<br>Stockton, CA 95203</a>
         </div>
       </div>
 

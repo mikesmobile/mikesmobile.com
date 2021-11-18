@@ -1,0 +1,154 @@
+[
+    {
+        "image": "../../assets/images/team/mikeFasy.jpg",
+        "alt": "CEO Of Mike's Mobile, Mike Fasy",
+        "name": "Mike Fasy",
+        "position": "CEO"
+    },
+    {
+        "image": "../../assets/images/team/mikeRice.jpg",
+        "alt": "Mike's Mobile President, Mike Rice",
+        "name": "Mike Rice",
+        "position": "President"
+    },
+    {
+        "image": "../../assets/images/team/danA.jpg",
+        "alt": "Operations Manager, Dan A.",
+        "name": "Dan A.",
+        "position": "Operations Manager"
+    
+    },
+    {
+        "image": "../../assets/images/team/markA.jpg",
+        "alt": "Gas Lead and Safety Manager, Mark A.",
+        "name": "Mark A",
+        "position": "Gas Lead/Safety Manager"
+    
+    },
+    {
+        "image": "../../assets/images/team/danC.jpg",
+        "alt": "Technician Manager, Daniel C.",
+        "name": "Daniel C.",
+        "position": "Technician Manager"
+    
+    },
+    {
+        "image": "../../assets/images/team/joeD.jpg",
+        "alt": "Mike's Mobile Technician, Joseph D.",
+        "name": "Joseph D.",
+        "position": "Sales Trainer Lead Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/anthonyW.jpg",
+        "alt": "Mike's Mobile Technician, Anthony W.",
+        "name": "Anthony W",
+        "position": "Gas Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/recoS.jpg",
+        "alt": "Mike's Mobile Technician, Reco S.",
+        "name": "Reco S.",
+        "position": "Gas Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/timM.jpg",
+        "alt": "Mike's Mobile Technician, Tim T",
+        "name": "Tim M.",
+        "position": "Door Install Lead Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/austinH.jpg",
+        "alt": "Mike's Mobile Technician, Austin H.",
+        "name": "Austin H.",
+        "position": "Door Install Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/hankS.jpg",
+        "alt": "Mike's Mobile Technician, Hank S.",
+        "name": "Hank S.",
+        "position": "Repair Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/michaelM.jpg",
+        "alt": "Mike's Mobile Technician, Michael M.",
+        "name": "Michael M.",
+        "position": "Sales Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/vincentZ.jpg",
+        "alt": "Mike's Mobile Technician, Vincent Z",
+        "name": "Vincent Z.",
+        "position": "Sales Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/ronH.jpg",
+        "alt": "Warehouse Foreman, Ron H.",
+        "name": "Ron H.",
+        "position": "Warehouse Foreman"
+    
+    },
+    {
+        "image": "../../assets/images/team/billI.jpg",
+        "alt": "Mike's Mobile Technician, Bill I.",
+        "name": "Bill I.",
+        "position": "Metal Shop / Assistant Mechanic"
+    
+    },
+    {
+        "image": "../../assets/images/team/superShannon.jpg",
+        "alt": "Recruiting and Project Manager, Shannon H.",
+        "name": "Shannon H.",
+        "position": "Recruiting and Project Manager"
+    
+    },
+    {
+        "image": "../../assets/images/team/angelicaW.jpg",
+        "alt": "Human Resources Specialist, Angelica W.",
+        "name": "Angelica W.",
+        "position": "Human Resources Specialist"
+    
+    },
+    {
+        "image": "../../assets/images/team/zacW.jpg",
+        "alt": "Senior Software Engineer, Zac W.",
+        "name": "Zac W.",
+        "position": "Senior Software Engineer"
+    
+    },
+    {
+        "image": "../../assets/images/team/melissaG.jpg",
+        "alt": "Customer Service Manager, Melissa G",
+        "name": "Melissa G",
+        "position": "Customer Service Manager"
+    
+    },
+    {
+        "image": "../../assets/images/team/crystalA.jpg",
+        "alt": "Service Administrator, Crystal A.",
+        "name": "Crystal A.",
+        "position": "Service Administrator"
+    
+    },
+    {
+        "image": "../../assets/images/team/airealeW.jpg",
+        "alt": "CSR Aireale W.",
+        "name": "Aireale W.",
+        "position": "Customer Service Representative"
+    
+    },
+    {
+        "image": "../../assets/images/team/taylorW.jpg",
+        "alt": "CSR Taylor W.",
+        "name": "Taylor W.",
+        "position": "Customer Service Representative"
+    
+    }
+]

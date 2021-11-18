@@ -80,7 +80,7 @@ export class LandingRegionalComponent implements OnInit {
         return data.slug === regionalSlug;
       });
 
-      console.log(this.region.services[1].cards)
+      // console.log(this.region.services[1].cards)
 
       // No region found
       if (!this.region) {

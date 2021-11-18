@@ -313,13 +313,16 @@
           <ng-container *ngIf="product.slug === 'security-windows'">
             <div class="container">
               <div class="row">
-                <div class="col">
+                <div class="col-12">
                   <h3 class="text-center mt-3">Fixed or Quick Escape Available</h3>
                   <ul>
                     <li>Quick Escape Window's offer all the security of the fixed windows but you can open them.</li>
                     <li>Quick Escape Security Window Screens have an easy release push mechanism that also acts as a
                       secure, temper resistant device locking the screen closed for peace of mind.</li>
                   </ul>
+                </div>
+                <div class="col-12 text-center">
+                  <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg" alt="Window & Doors Contractors near me" /></a>
                 </div>
               </div>
             </div>
@@ -338,6 +341,19 @@
               </div>
             </div>
           </div>
+          <div *ngIf="product.slug === 'viewguards'"
+          class="container-fluid text-center justify-content-center">
+          <div class="row text-center">
+            <div class="col-12 text-center justify-content-center">
+              <div class="embed-responsive mx-auto video embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <h6>These things are seriously tough!</h6>
+            </div>
+          </div>
+        </div>
         </div>
 
         <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="col-12 col-md-5">
@@ -576,7 +592,7 @@
         <div class="col waterProofPackage">
           <h4>For Maximum Water Protection See Our: </h4>
           <a routerLink="/about/water-proofing-package">
-            <button class="btn btn-rounded btn-primary">
+            <button class="btn mikesBlueBtn">
               Masonry Water Proofing Package
             </button>
           </a>
