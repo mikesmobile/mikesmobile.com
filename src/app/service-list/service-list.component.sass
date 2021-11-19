@@ -56,3 +56,11 @@
 .sectionHeaders
   background-color: $mmblue
   color: white !important
+
+.tileInfo
+  display: none
+
+.tile:hover
+  .tileInfo 
+    @include breakpoint(md)
+      display: inline
