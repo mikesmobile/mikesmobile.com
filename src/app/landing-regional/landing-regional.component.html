@@ -27,7 +27,7 @@
       <div class="card">
         <div class="card-body">
           <div class="w-100 text-center">
-            <a class="btn btn-primary btn-rounded w-75" href="tel:{{ region.phone }}"><i class="fas fa-phone left"></i>
+            <a class="btn mikesBlueBtn btn-rounded" href="tel:{{ region.phone }}"><i class="fas fa-phone left"></i>
               {{ region.phone }}</a>
             <p class="card-text">Call us for more information!</p>
           </div>
@@ -109,7 +109,7 @@
             [clickable]="false" [fillColor]="r.fillColor" [visible]="r.visible"></agm-polygon>
         </agm-map>
         <div class="text-center">
-          <a href="/service-area"><button class="btn orange">Other Service Areas</button></a>
+          <a href="/service-area"><button class="btn oj">Other Service Areas</button></a>
         </div>
         <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
           <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg" alt="Window & Doors Contractors near me" /></a>
