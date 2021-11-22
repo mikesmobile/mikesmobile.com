@@ -29,6 +29,12 @@ h4
   @include breakpoint(lg)
     height: 500px
 
+.tile:hover
+  .tileInfo 
+    @include breakpoint(md)
+      display: block
+
+
 .tileImg
   display: block
 
@@ -38,12 +44,14 @@ h4
 
 
 .tileTitle
+5eaf208a559792b9f3de160a9869301c454828db
   width: 100%
   padding: 10px
   font-weight: bold
   background: rgba(0, 0, 0, 0.7)
 
 .tileInfo 
+  display: none
   width: 100%
   padding: 5px
   background-color: $mmblue
@@ -65,3 +73,18 @@ h4
 
 .alert
   background-color: #f4f4f4 !important
+
+.chimneyTileTitleSmall
+  display: block;
+
+.chimneyTileTitleLarge
+  display: none
+
+@include breakpoint(xl)
+  .chimneyTileTitleSmall 
+    display: none;
+  .chimneyTileTitleLarge
+    display: block
+ 
+
+  
