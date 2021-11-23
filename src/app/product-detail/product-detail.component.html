@@ -98,7 +98,7 @@
                         </a>
                       </div>
                       <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
-                        <button class="btn blue btn-rounded waves-light">Get A Free Quote</button>
+                        <button class="btn blue btn-rounded waves-light">Get A Free Consultation</button>
                       </div>
                       <button class="btn blue btn-rounded waves-light" (click)="show()">Video of Options</button>
                     </div>
@@ -177,7 +177,7 @@
                         </a>
                       </div>
                       <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
-                        <button class="btn blue btn-rounded waves-light">Get A Free Quote</button>
+                        <button class="btn blue btn-rounded waves-light">Get A Free Consultation</button>
                       </div>
                       <!-- <button class="btn blue btn-rounded waves-light" (click)="show()">learn more</button> -->
                     </div>
@@ -322,7 +322,11 @@
                   </ul>
                 </div>
                 <div class="col-12 text-center">
-                  <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg" alt="Window & Doors Contractors near me" /></a>
+                  <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+                    style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200"
+                      height="160"
+                      src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+                      alt="Window & Doors Contractors near me" /></a>
                 </div>
               </div>
             </div>
@@ -341,19 +345,18 @@
               </div>
             </div>
           </div>
-          <div *ngIf="product.slug === 'viewguards'"
-          class="container-fluid text-center justify-content-center">
-          <div class="row text-center">
-            <div class="col-12 text-center justify-content-center">
-              <div class="embed-responsive mx-auto video embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div *ngIf="product.slug === 'viewguards'" class="container-fluid text-center justify-content-center">
+            <div class="row text-center">
+              <div class="col-12 text-center justify-content-center">
+                <div class="embed-responsive mx-auto video embed-responsive-16by9">
+                  <iframe class="embed-responsive-item"
+                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <h6>These things are seriously tough!</h6>
               </div>
-              <h6>These things are seriously tough!</h6>
             </div>
           </div>
-        </div>
         </div>
 
         <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="col-12 col-md-5">
@@ -438,13 +441,13 @@
                   <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
                     class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
                     <h4 class="animated pulse infinite orange-text ">
-                      &nbsp;Get a Free Quote Now!
+                      &nbsp;Get a Free Consultation Now!
                     </h4>
                   </div>
                   <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
                     <a routerLink="/solar-screen-price-calc">
                       <h4 class="animated pulse infinite orange-text ">
-                        &nbsp; Calculate Your Quote!
+                        &nbsp; Get A Free Consultation Now!!
                       </h4>
                     </a>
                   </div>
@@ -475,9 +478,49 @@
             </div>
           </div>
         </div>
+
+      </div>
+      <div *ngIf="product.slug === 'viewguards' " class="col-12">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row text-center pb-5 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card yelpCard" *ngFor="let review of doorsReviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <ng-container *ngIf="product.slug !== 'Gas-Fireplaces'">
+
+    <ng-container *ngIf="product.slug !== 'Gas-Fireplaces' ">
       <app-tab-nav [details]="product.details"></app-tab-nav>
       <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
       <div class="container">
@@ -578,13 +621,13 @@
           <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
             class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
             <h4 class="animated pulse infinite orange-text ">
-              &nbsp;Get a Free Quote Now!
+              &nbsp;Get a Free Consultation Now!
             </h4>
           </div>
           <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
             <a routerLink="/solar-screen-price-calc">
               <h4 class="animated pulse infinite orange-text ">
-                &nbsp; Calculate Your Quote!
+                &nbsp; Get A Free Consultation Now!!
               </h4>
             </a>
           </div>
