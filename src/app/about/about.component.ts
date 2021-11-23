@@ -11,6 +11,9 @@ import employeesJSON from '../../assets/json/employees.json';
 export class AboutComponent implements OnInit {
   changePic: boolean;
   employees = [];
+  constructor(){
+    this.changePic = false;
+  }
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {

@@ -144,13 +144,14 @@
         </div>
       </ul>
 
-      <a class="text-dark blueOnHover display-desktop" href="mailto:office@mikesmobile.com" role="link"><i
+      <!-- <a class="text-dark blueOnHover display-desktop" href="mailto:office@mikesmobile.com" role="link"><i
           class="fa fa-envelope faSymbolMobile"></i>
-        office@mikesmobile.com</a>
-      <a class="text-dark blueOnHover mx-2 display-desktop" href="tel:+1{{phone}}" role="link"><i
-          class="fa fa-phone faSymbolMobile"></i>
-          {{phone}}</a>
-      <a class="btn oj d-none d-lg-block" (click)="openQuoteForm()">Free Quote</a>
+        office@mikesmobile.com</a> -->
+      <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+        <i class="fa fa-phone faSymbolMobile"></i>
+          {{phone}}
+        </a>
+      <!-- <a class="btn oj d-none d-lg-block" (click)="openQuoteForm()">Free Consultation</a> -->
     </links>
     <!-- </div> -->
 
@@ -160,14 +161,14 @@
       <links>
         <ul class="navbar-nav">
           <div class="row">
-            <div class="col text-center px-1 px-lg-3">
+            <!-- <div class="col text-center px-1 px-lg-3">
               <a href="mailto:office@mikesmobile.com" role="link">
                 <li class="nav-item">
                   <a class="text-dark fsMobile">
                     <i class="fa fa-envelope faSymbolMobile d-none d-sm-block"></i>office@mikesmobile.com</a>
                   </li>
                 </a>
-            </div>
+            </div> -->
             <div class="col text-center px-1 px-lg-3">
               <a href="tel:+1{{phone}}" role="link">
 
@@ -187,7 +188,7 @@
   <div class="row z-depth-1 text-center justify-content-center mt-1 mb-0 mx-0 p-0 d-lg-none">
     <div class="col-12 m-0 p-0">
       <ul class="navbar-nav quote text-center py-1" (click)="openQuoteForm()">
-        <a>FREE QUOTE</a>
+        <a>Free Consultation</a>
       </ul>
     </div>
   </div>

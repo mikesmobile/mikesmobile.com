@@ -1,4 +1,4 @@
-<div (mouseover)="changePic=true" (mouseout)="changePic=false">
+<div (mouseenter)="changePic=true" (mouseleave)="changePic=false">
   <img *ngIf="!changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicSrs.jpg"
   alt="Company Photo with Mike's Mobile Trucks" />
   <img *ngIf="changePic" class="img-fluid container-fluid px-0" src="/assets/images/about/8.26GroupPicFun.jpg"
@@ -76,7 +76,7 @@
           <div class="mt-3 mt-md-2 col-12 col-md-6 o-border-right center">
             <p>Click below to talk with one of our expert customer service representatives, and take that first step on your next project!</p>
             <div class='d-flex justify-content-center'>
-              <a class="btn oj" (click)="openQuoteForm()">Free Quote!</a>
+              <a class="btn oj" (click)="openQuoteForm()">Free Consultation!</a>
             </div>
 
           </div>

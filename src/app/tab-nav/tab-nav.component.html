@@ -1,4 +1,4 @@
-<div class="container py-4 " id="tab-section">
+<div *ngIf="details" class="container py-4 " id="tab-section">
   <div class="container ">
     <mdb-tabset class="menu" buttonClass="md-tabs blue tabs-3" contentClass="card">
       <ng-container #navwrap *ngFor="let info of details; let i = index">
