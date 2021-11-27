@@ -3693,5 +3693,1227 @@
       "Altamont",
       "Mendenhall Springs"
     ]
+  },
+  {
+    "region": "Elk Grove",
+    "slug": "elkgrove",
+    "phone": "(916) 314-5974",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is Northern California's go-to for all Security Screen Door, Window Screen Installation, and Chimney Service needs! Our CSIA certified technicians have been helping homeowners achieve their dream home in Elk Grove since 2002! We can fix, repair, or fully restore any home's chimney or fireplace!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.4082,
+        "longitude": -121.37046,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.4082,
+            "lng": -121.37046,
+            "label": "Elk Grove",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Elk Grove"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Sheldon, Elk Grove, CA 95624, USA",
+        "Franklin, CA 95757, USA",
+        "Elk Grove, CA, USA"
+    ]
+  },
+  {
+    "region": "Folsom",
+    "slug": "folsom",
+    "phone": "(916) 314-3956",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service has been assisting homeowners to carry out their home renovation ideas across Northern California since 2002. We are fully mobile and helping the Folsom community with any Security Screen, Window Screen, or Chimney Service needs! Our CSIA certified technicians make sure to keep the interior and exterior of your chimneys maintained to keep your fireplace safe and your home cozy!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.67759,
+        "longitude": -121.17936,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.67759,
+            "lng": -121.17936,
+            "label": "Folsom",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Folsom"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Fair Oaks, CA, USA",
+        "El Dorado Hills, CA, USA",
+        "Folsom, CA, USA",
+        "Cameron Park, CA, USA"
+    ]
+  },
+  {
+    "region": "Placerville",
+    "slug": "placerville",
+    "phone": "(530) 236-3451",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service is committed to keeping Placerville homeowners safe year-round with our Security Screen Doors and Chimney Services! Our CSIA certified technicians specialize in fixing, repairing, and restoring residential fireplaces. We provide a hassle-free experience for customers, guaranteeing they feel supported in knowing that our team of professionals is there to help them with their home renovations. ",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.72849,
+        "longitude": -120.80514,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.72849,
+            "lng": -120.80514,
+            "label": "Placerville",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Plaverville"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Apex, CA 95667, USA",
+        "Placerville, CA 95667, USA",
+        "Diamond Springs, CA, USA"
+    ]
+  },
+  {
+    "region": "Roseville",
+    "slug": "roseville",
+    "phone": "(916) 352-0369",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service specializes in products that make homeowners feel safe and comfortable in their homes all year-round! Roseville homeowners are able to let the cool breeze in and keep intruders out without compromising the appearance of your home with any of our Security Screen Doors. When it's time to warm your home up in the Winter, our CSIA certified chimney technicians will come out to your home and provide a same-day inspection report! Let Mike's Mobile help turn your house into your dream home!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.75045,
+        "longitude": -121.29335,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.75045,
+            "lng": -121.29335,
+            "label": "Roseville",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Roseville"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Rocklin, CA, USA",
+        "Roseville, CA, USA",
+        "Citrus Heights, CA, USA"
+    ]
+  },
+  {
+    "region": "Sonora",
+    "slug": "sonora",
+    "phone": "(209) 379-6783",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service has been serving homeowners across Northern California since 2002. We are Sonora's top trusted company for all Security Screen Door Installations, Security Screen Installations, and Fireplace Installations. All of our CSIA certified chimney technicians provide an unmatched experience for customers by providing same-day inspection reports with pictures and sharing expert knowledge on fireplace upkeep to keep them burning their unit safely. Mike's Mobile provides homeowners with transparency throughout any of our services. Let us help you with your security screen and chimney needs!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.98205,
+        "longitude": -120.52319,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 37.98205,
+            "lng": -120.52319,
+            "label": "Sonora",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Sonora"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Angels Camp, CA 95222, USA",
+        "Columbia, CA, USA",
+        "Copperopolis, CA 95228, USA",
+        "Sonora, CA 95370, USA",
+        "Chinese Camp, CA 95327, USA",
+        "Knights Ferry, CA 95361, USA"
+    ]
+  },
+  {
+    "region": "Turlock",
+    "slug": "turlock",
+    "phone": "(209) 325-8832",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Opened in 2002, Mike’s Mobile Screen & Chimney Service has become Northern California's premier home service company. Our CSIA certified technicians are trusted by our customers to thoroughly inspect and clean their fireplaces and chimneys, as well as ensure that all customers are able to easily understand their systems! Our team of trusted security advisors are also ready to help any homeowner upgrade their security and style with high-quality, fully-customized products. Mike's Mobile is trusted by homeowners throughout the Turlock area!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 37.49461,
+        "longitude": -120.8463,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 37.49461,
+            "lng": -120.8463,
+            "label": "Turlock",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Turlock"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Turlock, CA, USA",
+        "Cortez, CA 95380, USA",
+        "Denair, CA 95316, USA"
+    ]
+  },
+  {
+    "region": "Vacaville",
+    "slug": "vacaville",
+    "phone": "(707) 640-1840",
+    "truckImg": "/assets/images/regional/genTruck.png",
+    "description": "Mike’s Mobile Screen & Chimney Service has assisted thousands of homeowners in completing home improvement projects since 2002. As Northern California’s trusted home service company, our goal is to ensure that all of our customers are taken care of from the minute they call to the minute their job is finished. Whether you need screen repairs, security products, or solar screens, our fully mobile team of screen technicians and security advisors are ready to tackle the project. Our CSIA certified technicians are also prepared to inspect, repair and clean any type of fireplace system!",
+    "reviews": [
+      {
+        "name": "DeAnn P.",
+        "dataReviewId": "bASTk8xVt-yEmQHXVcX1dQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=QikEKU8DwJWj39H-BQNDbQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=bASTk8xVt-yEmQHXVcX1dQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Our dryer was setting off our smoke alarm and it turns out that the vent was extremely clogged. We had a difficult clean out situation due to the age of our home and the manner in which the dryer was originally set up. Mike's Mobile fit us in within hours of our call.  Vivian who responded to our call and Brian that came out to do the work were very courteous and competent. We feel fortunate to have found them and are very happy with the results."
+      },
+      {
+        "name": "Rebecca A.",
+        "dataReviewId": "s8j3lJoU-yJc7DDh_oGysQ",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Lh7ok3Z9U8FRCGD7MXozaQ",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=s8j3lJoU-yJc7DDh_oGysQ",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "We had a dog door installed into our sliding screen door today. The apt was for 9:30 am and and Mike's Mobile Screen & Chimney Service arrived early.  The installers Kyle and Joseph were very patient while we tried to calm our dogs down so that they could do their job. The whole process took less than 45 minutes. We are so impressed with the work done that we will be having them return to install a 2nd dog door."
+      },
+      {
+        "name": "Cesar G.",
+        "dataReviewId": "2XQZLZk6mb_utFKlo92N5w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=Y_HCWqgjmsWydjDc7zDLXg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=2XQZLZk6mb_utFKlo92N5w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Damian is an absolute asset to this team. He was thorough and spent the time to go over the report ensuring I understood the results. He was super knowledgeable and gave us some really good pointers and things to look out for. Luckily our chimney will only be needing a couple of minor repairs. We plan on completing the chimney repairs in the coming months and will definitely be reaching back out to Mike's Mobile screen and chimney."
+      }
+    ],
+    "map": [
+      {
+        "latitude": 38.3566,
+        "longitude": -121.98769,
+        "zoom": 8.8,
+        "marker": [
+          {
+            "lat": 38.3566,
+            "lng": -121.98769,
+            "label": "Vacaville",
+            "draggable": "false"
+          }
+        ],
+        "regions": [
+          {
+            "paths": [
+             
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "Vacaville"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "chimneys",
+        "title": "Chimney Services",
+        "cards": [
+          {
+            "title": "Gas Fireplace Repair & Service",
+            "text": "Gas Fireplace not Working? We can get it working in no time!"
+          },
+          {
+            "title": "Gas Fireplace Installation",
+            "text": "Need a New Fireplace? We have Gas Inserts to Get Your Fireplace Ready For Winter!"
+          },
+          {
+            "title": "Pellet Stove Repair & Annual Service",
+            "text": "Our technicians will ensure that your pellet stove continues to work properly!"
+          },
+          {
+            "title": "Waterproofing Package",
+            "text": "Protect your chimney with our 10-year warranty!"
+          },
+          {
+            "title": "Chimney Caps",
+            "text": "Be the envy of the neighborhood while protecting your chimney!"
+          },
+          {
+            "title": "Chimney Inspections",
+            "text": "Our fully trained technicians follow the standards of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association)."
+          },
+          {
+            "title": "Chimney Cleaning",
+            "text": "Mike's Mobile is Sacramento's premier chimney cleaning service. With every chimney sweep, we include a full level 1 chimney inspection report. To find out more click here"
+          },
+          {
+            "title": "Chimney Repairs",
+            "text": "We bring top-notch service to your home. We are a full service chimney company in Sacramento that can handle the following repairs: crown repair, heat damage to rear firebox wall, chimney liner, refractory panels, de-glazing and more!"
+          },
+          {
+            "title": "Accessories",
+            "text": "Mike's Mobile Screen & Chimney Service offers chimney caps, fireplace grates, glass door sets, radiant fire backs and much more! Please ask our trained technicians any questions you have and they can recommend what will work best for your home."
+          },
+          {
+            "title": "Masonry Services",
+            "text": "Mike’s Mobile Screen & Chimney Service also offers masonry work that is not chimney or fireplace related. We are a full service masonry company in Sacramento. We specialize in the following: brick, block, stone, veneer, fireplace face/hearth, chimney stack rebuild, hardscapes, tuck-pointing, waterproofing and more!"
+          },
+          {
+            "title": "Dryer Vent Cleaning",
+            "text": "Dryer vents are a leading cause of residential fires. Clean up that honey-do list and get yours cleaned today!"
+          }
+        ]
+      },
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "text": "Mike's Mobile security doors are the best around. Fully customizable our security doors come in a full range for every price point or home type."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "text": "The Viewguard is by far our strongest and most popular security door. With a sleek design, quiet operation and a design that says \"upscale\" instead of \"security\" you can't go wrong with a viewguard security door!"
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "text": "The Tru-View is the little brother to the Viewguard security door. It offers the same great stainless mesh with a smaller frame and a more affordable price point. It's perfect for keeping dogs at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "text": "Want to feel secure leaving your patio slider open all night to get that nice delta breeze? We have the perfect solution for you! Our sliding security doors offer legitimate security with a look that is completely unobtrusive."
+          },
+          {
+            "title": "Security Window Screens",
+            "text": "Need security but jail bars over your windows are not an option? Mike's Mobile has you covered! Our quick-release  security screens offer the ultimate in window protection and also meet all fire-egress code requirement."
+          }
+        ]
+      },
+      {
+        "slug": "screens",
+        "title": "Door and Window Screens",
+        "cards": [
+          {
+            "title": "Window Screen Repair",
+            "text": "Mike's Mobile is Sacramento's premier window screen service! We offer same-day, on-site service!"
+          },
+          {
+            "title": "Solar Screens",
+            "text": "Block out bugs or block the sun! Our Suntex Solar Screens block 80%-90% of the sun’s harmful UV rays."
+          },
+          {
+            "title": "Sliding Screen Doors",
+            "text": "Mike's Mobile is unique in that we come out and build custom sliding screen doors on-site for a perfect fit!"
+          },
+          {
+            "title": "Swinging Screen Doors",
+            "text": "After we install your new, custom swinging screen door you will be wondering why you didn’t call us sooner!"
+          },
+          {
+            "title": "Retractable Screen Doors",
+            "text": "Mike's Mobile disappearing screen doors come in a variety of colors and we can even match the bottom track to match your threshold!"
+          },
+          {
+            "title": "Pet Doors",
+            "text": "Our high quality Pride pet doors can be built into your existing sliding screen door for a simple solution to this common problem."
+          }
+        ]
+      }
+    ],
+    "areas": [
+        "Allendale, CA 95688, USA",
+        "Vacaville, CA, USA",
+        "Dixon, CA 95620, USA"
+    ]
   }
 ]
