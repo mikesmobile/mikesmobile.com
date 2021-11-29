@@ -69,6 +69,7 @@ import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-f
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
+import { SnowComponent } from './snow/snow.component';
 
 
 
@@ -134,7 +135,8 @@ import { LandingContactComponent } from './landing-contact/landing-contact.compo
     AnnouncementMessageComponent,
     SolarScreenPriceCalcComponent,
     QuoteFormSolarScreenComponent,
-    LandingContactComponent
+    LandingContactComponent,
+    SnowComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
