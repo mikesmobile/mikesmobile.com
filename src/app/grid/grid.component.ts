@@ -20,6 +20,7 @@ export class GridComponent implements OnInit {
   service;
   serviceList = [];
   price;
+  reviews;
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(
@@ -49,7 +50,7 @@ export class GridComponent implements OnInit {
               name: data.title,
               description: data.tileText,
               image: data.tileImage,
-              offers: data.offers
+              offers: data.offers,
             });
             return true;
           } else {
@@ -57,14 +58,14 @@ export class GridComponent implements OnInit {
               name: data.title,
               description: data.tileText,
               image: data.tileImage,
-              offers: ''
+              offers: '',
             });
             return true;
           }
         }
         return false;
       });
-
+      
       this.price = priceJSON.find((data) => {
         if (data.title === params['slug']) {
           return true;
@@ -80,6 +81,9 @@ export class GridComponent implements OnInit {
     });
 
     servicesJSON.forEach((data) => {
+      if(data.reviews){
+        this.reviews = data.reviews
+      }
       this.serviceList.push(data);
     });
   }

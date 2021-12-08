@@ -75,6 +75,24 @@
     
     },
     {
+        "image": "../../assets/images/team/jacobC.png",
+        "alt": "Mike's Mobile Technician, Jacob C.",
+        "name": "Jacob C.",
+        "position": "Sales Technician"
+    },
+    {
+        "image": "../../assets/images/team/jacobM.png",
+        "alt": "Mike's Mobile Technician, Jacob M.",
+        "name": "Jacob M.",
+        "position": "Sales Technician"
+    },
+    {
+        "image": "../../assets/images/team/justin.png",
+        "alt": "Mike's Mobile Technician, Justin P.",
+        "name": "Justin P.",
+        "position": "Sales Technician"
+    },
+    {
         "image": "../../assets/images/team/michaelM.jpg",
         "alt": "Mike's Mobile Technician, Michael M.",
         "name": "Michael M.",
