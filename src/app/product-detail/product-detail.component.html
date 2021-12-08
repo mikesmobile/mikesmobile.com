@@ -341,7 +341,8 @@
                     src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <h6>These things are seriously tough!</h6>
+                <p class="font-weight-bold">These things are seriously tough!</p>
+
               </div>
             </div>
           </div>
@@ -353,7 +354,8 @@
                     src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <h6>These things are seriously tough!</h6>
+                <p class="font-weight-bold">These things are seriously tough!</p>
+
               </div>
             </div>
           </div>
@@ -401,8 +403,7 @@
           <h5 *ngIf="product.slug === 'chimney-caps'" class="text-left font-weight-bold font-italic">
             We Sell Chimney Caps Not Flue Caps
           </h5>
-          <hr />
-          <div class="container my-4" *ngIf="product.textList">
+          <div class="container my-4" *ngIf="product.textList && product.slug !== 'viewguards'">
             <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
               <mdb-item *ngFor="let item of product.textList; index as i">
                 <mdb-item-head>{{ item.title }}</mdb-item-head>
@@ -412,6 +413,16 @@
               </mdb-item>
             </mdb-squeezebox>
           </div>
+
+          <div class="container my-4" *ngIf="product.slug === 'viewguards'">
+            <br>
+            <h4 class="font-weight-bold font-italic">{{product.textList[2].title}}</h4>
+            <p [innerHTML]="product.textList[2].description"></p>
+            <br>
+            <h5 class="font-weight-bold font-italic">{{product.textList[1].title}}</h5>
+            <p [innerHTML]="product.textList[1].description"></p>
+          </div>
+
           <div class="container" *ngIf="product.bullets">
             <ul class="pb-3">
               <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
@@ -438,12 +449,6 @@
                       </h4>
                     </a>
                   </div>
-                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
-                    class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
-                    <h4 class="animated pulse infinite orange-text ">
-                      &nbsp;Get a Free Consultation Now!
-                    </h4>
-                  </div>
                   <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
                     <a routerLink="/solar-screen-price-calc">
                       <h4 class="animated pulse infinite orange-text ">
@@ -453,9 +458,16 @@
                   </div>
                 </div>
               </div>
+              <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
+                class=" d-none d-md-block">
+                <div class="col my-2">
+                  <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation Today!</button>
+                </div>
+                <hr>
+              </div>
             </div>
           </div>
-          <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="row text-center mb-3">
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards'" class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-8">
@@ -481,6 +493,16 @@
 
       </div>
       <div *ngIf="product.slug === 'viewguards' " class="col-12">
+        <div class="row center">
+          <div class="col-8">
+            <h4 class="text-center">{{product.textList[0].title}}</h4>
+            <p [innerHTML]="product.textList[0].description"></p>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <button class="btn oj" (click)="openQuoteForm()">Free Consultation Today!</button>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-12">
             <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
@@ -488,10 +510,10 @@
           </div>
         </div>
 
-        <div class="row text-center pb-5 mx-0">
+        <div class="row text-center py-4 mx-0">
           <div class="col-12 px-0 mx-0">
             <div class="card-deck">
-              <div class="card yelpCard" *ngFor="let review of doorsReviews">
+              <div class="card" *ngFor="let review of doorsReviews">
                 <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
                   <div class="card-header">
                     <a [href]="review.link1" rel="nofollow noopener">{{
@@ -517,6 +539,79 @@
             </div>
           </div>
         </div>
+
+        <hr>
+
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col-12 col-md-10">
+            <h4 class="text-center">Financing</h4>
+            <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows
+              us to
+              ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and
+              you
+              will
+              receive your credit decision within seconds. After receiving your quote, you can apply for financing by
+              clicking
+              the options below or by phone at <a class="font-weight-bold" href="tel:+18664057600">(866) 405-7600</a>.</p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col-12 col-md-5">
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+                target="_blank" style="text-align: center;">
+                <img class="img-fluid" src="../../assets/images/landing/12m.jpg" alt="12 Month Financing Offer! Same As Cash*, $1,000 minimum loan, no payments, no interest for 12 months!">
+              </a>
+            </div>
+            <br>
+            <p class="mx-2" style="font-size:10px;">*Loans provided by EnerBank USA, Member FDIC, (1245
+              Brickyard
+              Rd., Suite 600, Salt
+              Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
+              Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to
+              change. Interest starts accruing when the loan closes.</p>
+
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+                target="_blank" class="btn mikesBlueBtn">Same As Cash Loan</a> 
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+                target="_blank">
+                <img class='img-fluid' src="../../assets/images/landing/5yr.jpg" alt="5 Year Financing Offer!** 6.99% apr. $3,500 minimum loan, First payment due within 30-90 days of completion.">
+              </a>
+            </div>
+            <br>
+            <p class="mx-2" style="font-size: 10px;">**Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
+              Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months.
+              6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan
+              closes.
+            </p>
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+                target="_blank" class="btn oj">5 Year Loan</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 pt-5 pb-3 col-md-10">
+            <h4 class="text-center">Financing Information</h4>
+            <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640
+              needed
+              for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due
+              within 30-90 days of the project's completion. Our Contractor ID number is <span
+                class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span
+                class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)
+
+            </p>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -546,7 +641,6 @@
       </div>
       <div class="row mb-5">
         <div class="col-lg-6">
-          <!-- <app-img src="assets/images/chimneyCaps/metallicSilverCap.png" class="img-fluid centered-sq"></app-img> -->
           <app-main-gallery class="carousel slide carousel-fade chimneyCapGallery" [Images]="gallery_images">
           </app-main-gallery>
         </div>
