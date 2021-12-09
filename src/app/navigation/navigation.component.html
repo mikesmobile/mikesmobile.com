@@ -129,29 +129,29 @@
             (click)="toggleDropdownMobile()">
             <li>
               <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
-              routerLink="/about/security-doors-and-windows">
-              <h6 class="mobileDrop">Door and Window Security</h6>
-            </a>
-          </li>
-          <li>
-            <div class="divider dropdown-divider pt-0 mt-0"></div>
-            <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/door-and-window-screens">
-              <h6 class="mobileDrop">Door and Window Screens</h6>
-            </a>
-          </li>
-          <li>
+                routerLink="/about/security-doors-and-windows">
+                <h6 class="mobileDrop">Door and Window Security</h6>
+              </a>
+            </li>
+            <li>
+              <div class="divider dropdown-divider pt-0 mt-0"></div>
+              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/door-and-window-screens">
+                <h6 class="mobileDrop">Door and Window Screens</h6>
+              </a>
+            </li>
+            <li>
 
-            <div class="divider dropdown-divider pt-0 mt-0"></div>
-            
-            <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
-              <h6 class="mobileDrop">Chimney Services</h6>
-            </a>
-            <div class="divider dropdown-divider pt-0 mt-0"></div>
-          </li>
+              <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
+                <h6 class="mobileDrop">Chimney Services</h6>
+              </a>
+              <div class="divider dropdown-divider pt-0 mt-0"></div>
+            </li>
           </div>
         </div>
       </ul>
-<!-- 
+      <!-- 
       <img src="../../assets/images/landing/Map.Landing.Graphic.png" height="60px"
       alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!"> -->
 
@@ -173,18 +173,11 @@
     <div class="d-lg-none">
       <links>
         <ul class="navbar-nav">
-          <div class="row">
-            <div class="col text-center px-1 px-lg-3">
-              <a href="tel:+1{{phone}}" role="link">
-
-                <li class="nav-item">
-                  <a class="hellaBig text-dark fsMobile">
-                    {{phone}}
-                  </a>
-                </li>
+          <li class="nav-item d-flex justify-content-center">
+              <a class="hellaBig text-dark" href="tel:+1{{phone}}" role="link">
+                {{phone}}
               </a>
-            </div>
-          </div>
+          </li>
         </ul>
       </links>
 
