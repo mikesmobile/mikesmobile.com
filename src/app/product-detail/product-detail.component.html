@@ -32,12 +32,14 @@
     <div *ngIf="product.slug === 'viewguards' ">
       <div class="container">
         <div class="row">
-          <div class="col-12 d-md-none">
-            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          <div class="col-12 d-lg-none">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
           </div>
-          <div class="col-12 d-none d-md-block">
-            <img src="../../assets/images/landing/MapFull.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-          </div>
+          <!-- <div class="col-12 d-none d-md-block">
+            <img src="../../assets/images/landing/MapFull.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div> -->
         </div>
       </div>
     </div>
@@ -50,7 +52,7 @@
             {{ product.title }}
           </h1>
           <hr class="heroHr mmOrange" />
-          <h5 class="">Converting to a gas fireplace is now easier and more affordable than ever! Our
+          <h5>Converting to a gas fireplace is now easier and more affordable than ever! Our
             qualified gas appliance
             professionals can help you find the perfect unit to add style and effecient heating to your home. You
             can
@@ -66,12 +68,27 @@
           {{ product.title }}
         </h1>
       </div>
-      <div *ngIf="(!price || product.slug === 'pet-doors') && product.slug !== 'Gas-Fireplaces'"
+
+      <div *ngIf="(product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
         class="d-flex flex-column flex-md-row mb-0">
         <h1 class="text-left h1 pageTitle mb-0">
           {{ product.title }}
         </h1>
       </div>
+
+      <div *ngIf="product.slug === 'viewguards'" class="d-flex flex-column flex-md-row mb-0">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
+            {{ product.title }}
+          </h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+
+
       <hr />
       <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
 
@@ -483,7 +500,7 @@
           <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards'" class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
-                
+
                 <div class="col-8">
                   <a routerLink="/financing">
                     <img src="/assets/images/main/financingButton.png" class="img-fluid" />
@@ -566,7 +583,8 @@
               will
               receive your credit decision within seconds. After receiving your quote, you can apply for financing by
               clicking
-              the options below or by phone at <a class="font-weight-bold" href="tel:+18664057600">(866) 405-7600</a>.</p>
+              the options below or by phone at <a class="font-weight-bold" href="tel:+18664057600">(866) 405-7600</a>.
+            </p>
           </div>
         </div>
         <div class="row d-flex justify-content-around">
@@ -574,7 +592,8 @@
             <div class="col-12 d-flex justify-content-center">
               <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
                 target="_blank" style="text-align: center;">
-                <img class="img-fluid" src="../../assets/images/landing/12m.jpg" alt="12 Month Financing Offer! Same As Cash*, $1,000 minimum loan, no payments, no interest for 12 months!">
+                <img class="img-fluid" src="../../assets/images/landing/12m.jpg"
+                  alt="12 Month Financing Offer! Same As Cash*, $1,000 minimum loan, no payments, no interest for 12 months!">
               </a>
             </div>
             <br>
@@ -587,7 +606,7 @@
 
             <div class="col-12 d-flex justify-content-center">
               <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
-                target="_blank" class="btn mikesBlueBtn">Same As Cash Loan</a> 
+                target="_blank" class="btn mikesBlueBtn">Same As Cash Loan</a>
             </div>
           </div>
 
@@ -595,7 +614,8 @@
             <div class="col-12 d-flex justify-content-center">
               <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
                 target="_blank">
-                <img class='img-fluid' src="../../assets/images/landing/5yr.jpg" alt="5 Year Financing Offer!** 6.99% apr. $3,500 minimum loan, First payment due within 30-90 days of completion.">
+                <img class='img-fluid' src="../../assets/images/landing/5yr.jpg"
+                  alt="5 Year Financing Offer!** 6.99% apr. $3,500 minimum loan, First payment due within 30-90 days of completion.">
               </a>
             </div>
             <br>
