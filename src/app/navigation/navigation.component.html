@@ -127,34 +127,46 @@
         <div class="btn-group" dropdown>
           <div class="px-3 py-1 dropdown-menu z-depth-2 mobile-submenu" id="DropdownMobile"
             (click)="toggleDropdownMobile()">
-            <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+            <li>
+              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
               routerLink="/about/security-doors-and-windows">
               <h6 class="mobileDrop">Door and Window Security</h6>
             </a>
+          </li>
+          <li>
             <div class="divider dropdown-divider pt-0 mt-0"></div>
             <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/door-and-window-screens">
               <h6 class="mobileDrop">Door and Window Screens</h6>
             </a>
-            <div class="divider dropdown-divider pt-0 mt-0"></div>
+          </li>
+          <li>
 
+            <div class="divider dropdown-divider pt-0 mt-0"></div>
+            
             <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
               <h6 class="mobileDrop">Chimney Services</h6>
             </a>
             <div class="divider dropdown-divider pt-0 mt-0"></div>
+          </li>
           </div>
         </div>
       </ul>
 
-      <!-- <a class="text-dark blueOnHover display-desktop" href="mailto:office@mikesmobile.com" role="link"><i
-          class="fa fa-envelope faSymbolMobile"></i>
-        office@mikesmobile.com</a> -->
-      <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+      <img src="../../assets/images/landing/Map.Landing.Graphic.png" height="60px"
+      alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+
+      <a class="btn mikesBlueBtn hellaBig text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
         <i class="fa fa-phone faSymbolMobile"></i>
         {{phone}}
       </a>
-      <!-- <a class="btn oj d-none d-lg-block" (click)="openQuoteForm()">Free Consultation</a> -->
+
+
+      <!-- The Phone Number With Button Here -->
+      <!-- <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+        <i class="fa fa-phone faSymbolMobile"></i>
+        {{phone}}
+      </a> -->
     </links>
-    <!-- </div> -->
 
   </mdb-navbar>
   <div class="container-fluid p-0">
@@ -162,20 +174,12 @@
       <links>
         <ul class="navbar-nav">
           <div class="row">
-            <!-- <div class="col text-center px-1 px-lg-3">
-              <a href="mailto:office@mikesmobile.com" role="link">
-                <li class="nav-item">
-                  <a class="text-dark fsMobile">
-                    <i class="fa fa-envelope faSymbolMobile d-none d-sm-block"></i>office@mikesmobile.com</a>
-                  </li>
-                </a>
-            </div> -->
             <div class="col text-center px-1 px-lg-3">
               <a href="tel:+1{{phone}}" role="link">
 
                 <li class="nav-item">
-                  <a class="text-dark fsMobile">
-                    <i class="fa fa-phone faSymbolMobile d-none d-sm-block"></i>{{phone}}
+                  <a class="hellaBig text-dark fsMobile">
+                    {{phone}}
                   </a>
                 </li>
               </a>

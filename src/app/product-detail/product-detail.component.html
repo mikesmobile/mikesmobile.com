@@ -1,6 +1,6 @@
 <ng-container *ngIf="product">
   <ng-container *ngIf="product.slug !== 'chimney-caps'">
-    <div class="container pb-4">
+    <div class="container pb-4" *ngIf="product.slug !== 'viewguards'">
       <nav class="breadcrumb mt-2">
         <a class="breadcrumb-item" routerLink="/">Home</a>
         <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
@@ -28,6 +28,15 @@
 
 
       </nav>
+    </div>
+    <div *ngIf="product.slug === 'viewguards' ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-md-none">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div>
+        </div>
+      </div>
     </div>
 
     <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
@@ -421,8 +430,6 @@
             <br>
             <h5 class="font-weight-bold font-italic">{{product.textList[1].title}}</h5>
             <p [innerHTML]="product.textList[1].description"></p>
-            
-              <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
           </div>
 
           <div class="container" *ngIf="product.bullets">
@@ -497,8 +504,8 @@
 
       </div>
       <div *ngIf="product.slug === 'viewguards' " class="col-12">
-        <div class="row center">
-          <div class="col-8">
+        <div class="row center my-4">
+          <div class="col-12 col-md-8">
             <h4 class="text-center">{{product.textList[0].title}}</h4>
             <p [innerHTML]="product.textList[0].description"></p>
           </div>
