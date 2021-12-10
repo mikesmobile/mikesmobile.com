@@ -4295,6 +4295,7 @@
     ],
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
     "thumbImages": [
+
       {
         "alt": "comparison between flue cap, and a chimney cap",
         "small": "/assets/images/chimneyCaps/comparison.png",
@@ -4303,39 +4304,33 @@
       },
       {
         "alt": "metallic silver chimney cap",
-        "small": "/assets/images/chimneyCaps/metallicSilverPalm.png",
-        "medium": "/assets/images/chimneyCaps/metallicSilverPalm.png",
-        "big": "/assets/images/chimneyCaps/metallicSilverPalm.png"
+        "small": "/assets/images/chimneys/caps/metallicsilver.jpg",
+        "medium": "/assets/images/chimneys/caps/metallicsilver.jpg",
+        "big": "/assets/images/chimneys/caps/metallicsilver.jpg"
       },
       {
         "alt": "dark bronze chimney cap",
-        "small": "/assets/images/chimneyCaps/MatteBlack.png",
-        "medium": "/assets/images/chimneyCaps/MatteBlack.png",
-        "big": "/assets/images/chimneyCaps/MatteBlack.png"
+        "small": "/assets/images/chimneys/caps/darkbronze.jpg",
+        "medium": "/assets/images/chimneys/caps/darkbronze.jpg",
+        "big": "/assets/images/chimneys/caps/darkbronze.jpg"
       },
       {
         "alt": "matte black chimney cap",
-        "small": "/assets/images/chimneyCaps/silverBig.png",
-        "medium": "/assets/images/chimneyCaps/silverBig.png",
-        "big": "/assets/images/chimneyCaps/silverBig.png"
+        "small": "/assets/images/chimneys/caps/matteblack.jpg",
+        "medium": "/assets/images/chimneys/caps/matteblack.jpg",
+        "big": "/assets/images/chimneys/caps/matteblack.jpg"
       },
       {
         "alt": "Saddle Tan chimney cap",
-        "small": "/assets/images/chimneyCaps/metallicSilver2.png",
-        "medium": "/assets/images/chimneyCaps/metallicSilver2.png",
-        "big": "/assets/images/chimneyCaps/metallicSilver2.png"
+        "small": "/assets/images/chimneys/caps/saddletan.png",
+        "medium": "/assets/images/chimneys/caps/saddletan.png",
+        "big": "/assets/images/chimneys/caps/saddletan.png"
       },
       {
         "alt": "Parchment chimney cap",
-        "small": "/assets/images/chimneyCaps/silverMason.png",
-        "medium": "/assets/images/chimneyCaps/silverMason.png",
-        "big": "/assets/images/chimneyCaps/silverMason.png"
-      },
-      {
-        "alt": "Champagne chimney cap",
-        "small": "/assets/images/chimneyCaps/darkBronze.png",
-        "medium": "/assets/images/chimneyCaps/darkBronze.png",
-        "big": "/assets/images/chimneyCaps/darkBronze.png"
+        "small": "/assets/images/chimneys/caps/parchment.jpg",
+        "medium": "/assets/images/chimneys/caps/parchment.jpg",
+        "big": "/assets/images/chimneys/caps/parchment.jpg"
       }
     ]
   },
