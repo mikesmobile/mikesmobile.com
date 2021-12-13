@@ -34,18 +34,18 @@
           <div class="office-hours mb-4 px-3 py-4">
             <h2 class="title pl-1">
               {{
-                region.region === 'Sacramento' || region.region === 'Stockton'
-                  ? region.region
-                  : ''
+              region.region === 'Sacramento' || region.region === 'Stockton'
+              ? region.region
+              : ''
               }}
               Office Hours
             </h2>
             <ul class="list-unstyled opening-hours">
-              <li>Monday <span class="float-right">8AM-7PM</span></li>
-              <li>Tuesday <span class="float-right">8AM-7PM</span></li>
-              <li>Wednesday <span class="float-right">8AM-7PM</span></li>
-              <li>Thursday <span class="float-right">8AM-7PM</span></li>
-              <li>Friday <span class="float-right">8AM-7PM</span></li>
+              <li>Monday <span class="float-right">8AM-5PM</span></li>
+              <li>Tuesday <span class="float-right">8AM-5PM</span></li>
+              <li>Wednesday <span class="float-right">8AM-5PM</span></li>
+              <li>Thursday <span class="float-right">8AM-5PM</span></li>
+              <li>Friday <span class="float-right">8AM-5PM</span></li>
               <li>Saturday <span class="float-right">8AM-5PM</span></li>
               <li>Sunday <span class="float-right">Closed</span></li>
             </ul>
@@ -112,7 +112,10 @@
           <a href="/service-area"><button class="btn orange">Other Service Areas</button></a>
         </div>
         <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
-          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160" src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg" alt="Window & Doors Contractors near me" /></a>
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
         </div>
       </div>
     </div>
@@ -130,7 +133,7 @@
               <div class="card-header">
                 <a [href]="review.link1" rel="nofollow noopener">{{
                   review.name
-                }}</a>'s
+                  }}</a>'s
                 <a [href]="review.link2" rel="nofollow noopener">review</a>
                 of
                 <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
