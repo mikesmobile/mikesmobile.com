@@ -3856,6 +3856,62 @@
     ]
   },
   {
+    "title": "Waterproofing Package",
+    "slug": "theWaterproofingPackage",
+    "type": "about",
+    "tileImage": "/assets/images/newTiles/Waterproofing.png",
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!",
+    "tileBullets": [
+      "Fixes leaky chimneys",
+      "Prevents future water damage",
+      "Protects from animals and debris"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "medium": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "big": "/assets/images/waterProofing/newWaterProofingPackage.jpg"
+      },
+      {
+        "alt": "10 Year Warranty, Black Cap, black waterproofing",
+        "small": "/assets/images/waterProofing/landing/10blackcap.png",
+        "medium": "/assets/images/waterProofing/landing/10blackcap.png",
+        "big": "/assets/images/waterProofing/landing/10blackcap.png"
+      },
+      {
+        "alt": "Waterproofing comes with a 10 year No Leak warranty! Black waterproofing black cap",
+        "small": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "big": "/assets/images/waterProofing/landing/blackcapwaterproof.png"
+      },
+      {
+        "alt": "Before and After Chimney Repairing and Waterproofing",
+        "small": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "medium": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "big": "/assets/images/waterProofing/landing/masonrybanda.png"
+      },
+      {
+        "alt": "Tan Bricks with Black Waterproofing",
+        "small": "/assets/images/waterProofing/landing/silver.png",
+        "medium": "/assets/images/waterProofing/landing/silver.png",
+        "big": "/assets/images/waterProofing/landing/silver.png"
+      },
+      {
+        "alt": "Before and After with Waterproofing",
+        "small": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "medium": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "big": "/assets/images/waterProofing/landing/waterproofandblackcap.png"
+      },    
+      {
+        "alt": "White chimney with white waterproofing",
+        "small": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "big": "/assets/images/waterProofing/landing/whitebasewaterproof.png"
+      }
+    ]
+  },
+  {
     "title": "Chimney Inspections",
     "slug": "chimney-inspections",
     "category": "Chimney Services",
@@ -3950,6 +4006,20 @@
     "title": "Chimney Repairs",
     "slug": "chimney-repairs",
     "category": "Chimney Services",
+    "type": "grid",
+    "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
+    "tileImage": "/assets/images/newTiles/ChimneyRepair.png",
+    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ]
+  },
+  {
+    "title": "Chimney Repairs",
+    "slug": "our-chimney-repairs",
+    "phone": "(916) 304-8225",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
     "tileImage": "/assets/images/newTiles/ChimneyRepair.png",
