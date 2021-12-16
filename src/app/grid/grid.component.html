@@ -210,7 +210,7 @@
               let item of serviceList
                 | findByCategory: 'Titan Security Screen Doors'
             ">
-            <div class="card col-6 col-md-4 col-lg-2" (click)="openSlideShowModal(item.title)">
+            <div class="col-6 col-md-4 col-lg-2" (click)="openSlideShowModal(item.title)">
               <div class="view overlay">
                 <app-img [src]="item.tileImage" class="img-fluid serviceImage titanImage" [alt]="item.title"></app-img>
                 <div class="mask rgba-white-light"></div>
@@ -233,7 +233,7 @@
 
 
 
-  <ng-container *ngSwitchCase="'titans'">
+  <ng-container *ngSwitchCase="'titans' ">
     <div class="container">
       <div class="row">
         <div class="col-12 d-lg-none">
@@ -251,7 +251,7 @@
             </h1>
           </div>
           <div class="col-md-6 d-none d-lg-block">
-            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
               alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
           </div>
         </div>
@@ -443,18 +443,39 @@
   <ng-container *ngSwitchCase="'our-chimney-repairs'">
     <div class="container">
       <section class="section pb-3">
-        <h1 class="text-center section-heading h1 mt-md-4">Chimney Repair</h1>
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          <h1 class="text-center section-heading h1 mt-md-4">Chimney Repair</h1>
+        </div>
+
+        <div class="d-none d-lg-block">
+          <div class="d-flex flex-column flex-md-row mb-0">
+            <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+              <h1 class="h1 my-0 align-baseline d-flex align-items-end">
+                Chimney Repair
+              </h1>
+            </div>
+            <div class="col-md-6 d-none d-lg-block">
+              <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+                alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+            </div>
+          </div>
+        </div>
+
         <hr />
         <h4 class="text-center">We can fix any chimney related issue!</h4>
         <div class="col-12 d-flex justify-content-center">
-          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Free Consultation</button>
-          <a href="tel:+1{{service.phone}}" class="btn mikesBlueBtn">Call Us Now</a>
+          <button class="d-none d-md-block btn mikesBlueBtn" (click)="openQuoteForm()">Free Consultation</button>
+          <a href="tel:+1{{service.phone}}" class="d-none d-md-block btn mikesBlueBtn">Call Us Now</a>
         </div>
+        <button class="d-md-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Free Consultation</button>
+        <a href="tel:+1{{service.phone}}" class="d-md-none btn btn-block mikesBlueBtn">Call Us Now</a>
 
         <p class="section-description" [innerHTML]="service.description"></p>
         <div class="row text-center">
           <ng-container *ngFor="let item of serviceList | findByCategory: 'Repair'">
-            <div class="col-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
               <div class="card tile my-2 rounded">
                 <a class="d-block" [routerLink]="['/', item.type, item.slug]">
                   <div class="view waves-light" mdbRippleRadius>
