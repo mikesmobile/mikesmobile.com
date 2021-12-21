@@ -28,6 +28,7 @@ export class NavigationComponent {
     });
   }
   phoneNumberSwitch() {
+    // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
     this.hideMe = false;
     if (this.currentRoute.startsWith('/about/security-screen-doors')) {
       this.phone = "(916) 283-7537";
@@ -37,9 +38,9 @@ export class NavigationComponent {
       this.phone = "(916) 318-9845";
     } else if(this.currentRoute.startsWith('/about/theWaterproofingPackage')){
       this.phone = '(916) 304-8225';
-    } else if(this.currentRoute.startsWith('/grid/our-chimney-repairs')){
-      this.phone = '(916) 304-8225';
+    } else if(this.currentRoute.startsWith('/grid/our-chimney-repairs') || this.currentRoute.startsWith('/about/our-chimney-services')){
       this.hideMe = true;
+      // this hides the phone number button for this page since the button is down with the get consultation
     }else {
       this.hideMe = false;
       this.phone = "(800) 992-9938";

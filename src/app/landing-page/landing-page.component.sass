@@ -89,7 +89,7 @@ hr
   .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper
     transform: rotateY(180deg)
 
-.tile
+.tile1
   max-height: 200px !important
 
 .tileTitle
@@ -99,7 +99,18 @@ hr
   padding: 0 !important
   @include breakpoint(md)
     height: 57.5px
-    background-color: $orange !important
+    background-color: $orange
+
+.tileTitle1
+  height: 79px
+  width: 140px !important
+  margin: 0 
+  padding: 0 !important
+  @include breakpoint(md)
+    height: 57.5px
+    background-color: $orange
+  @include breakpoint(xs)
+    width: 243px !important
 
 .tileInfo
   display: none
@@ -123,3 +134,51 @@ hr
 
 .fa-star
   color: #F9A602 !important
+
+
+
+.tile
+  display: flex
+  width: 140px!important
+  @include breakpoint(xs)
+    width: 243px !important
+
+.tileTitle
+  height: 100%
+  width: 140px !important
+  margin: 0 
+  padding: 0 !important
+  @include breakpoint(md)
+    height: 57.5px
+    background-color: $orange
+  @include breakpoint(xs)
+    width: 243px !important
+
+.card-img-overlay
+  margin-top: 5rem !important
+
+.tileListContainer
+  border-top: solid 5px $orange
+  border-bottom: solid 5px $orange
+  background: rgba(0, 0, 0, 0.7)
+
+.tileList
+  color: white
+  padding-top: 10px
+  padding-right: 10px 
+  list-style-type: disc !important
+  list-style-position: outside !important
+
+
+.tileBlurb
+  line-height: 1.4 !important
+  font-weight: normal !important
+  color: white
+
+.backGroundGrey
+  background-color: #5b5d52
+  font-size: 19px
+  color: #FFF
+
+.backGroundGrey:hover
+  color: #ebebeb
