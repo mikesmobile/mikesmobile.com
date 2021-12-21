@@ -306,23 +306,23 @@
         </div>
       </div>
 
-    <hr />
-    <div class="row">
-      <!-- <div class="col-12 col-lg-6">
+      <hr />
+      <div class="row">
+        <!-- <div class="col-12 col-lg-6">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po"
             allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div> -->
-      <div class="order-1 order-lg-2 col-12 col-lg-6">
-        <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-      </div>
+        <div class="order-1 order-lg-2 col-12 col-lg-6">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+        </div>
 
-      <div class="order-2 order-lg-1 col-12 col-lg-6 mt-2">
-        <h2 class="font-weight-bold" style="font-size: 20px;">Did you know that chimneys need to be cleaned and
-          inspected regularly in
-          order for them to burn safely?</h2>
-          
+        <div class="order-2 order-lg-1 col-12 col-lg-6 mt-2">
+          <h2 class="font-weight-bold" style="font-size: 20px;">Did you know that chimneys need to be cleaned and
+            inspected regularly in
+            order for them to burn safely?</h2>
+
           <p class="p-2"> Sooty buildup can lead to chimney fires
             that spread into the home. Even if you do not use your fireplace often,
             general deterioration or even animal nests can make it unsafe to use.
@@ -335,38 +335,37 @@
           </div>
           <button class="d-lg-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Free Consultation</button>
           <a href="tel:+1{{landing.phone}}" class="d-lg-none btn btn-block mikesBlueBtn">Call Us Now</a>
-          
+
         </div>
 
-    </div>
-    <h3 class="font-weight-bold mt-3">Our Services</h3>
-    <hr>
-    <div class="row d-flex justify-content-center">
-      <ng-container *ngFor="let service of serviceList">
-        <div class="card tile m-2 rounded">
-          <a class="d-block" [routerLink]="['/', service.type, service.slug]">
-            <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
-              <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
-                [innerHTML]="service.title"></h4>
-            </div>
-            <div class="view waves-light" mdbRippleRadius>
-              <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
-            </div>
-            <div class="card-img-overlay tileInfo text-left px-0 mt-5">
-              <div class="tileListContainer ">
-                <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
-                  [innerHTML]="service.tileText"></p>
-                <ul *ngIf="service.tileBullets" class="tileList">
-                  <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
-                </ul>
+      </div>
+      <h3 class="font-weight-bold mt-3">Our Services</h3>
+      <hr>
+      <div class="row d-flex justify-content-center">
+        <ng-container *ngFor="let service of serviceList">
+          <div class="card tile m-2 rounded">
+            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
+                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
+                  [innerHTML]="service.title"></h4>
               </div>
-            </div>
+              <div class="view waves-light" mdbRippleRadius>
+                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
+              </div>
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
+                <div class="tileListContainer ">
+                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                    [innerHTML]="service.tileText"></p>
+                  <ul *ngIf="service.tileBullets" class="tileList">
+                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
+                  </ul>
+                </div>
+              </div>
 
-          </a>
-        </div>
-      </ng-container>
-    </div>
-    <hr />
+            </a>
+          </div>
+        </ng-container>
+      </div>
     </div>
   </ng-container>
 

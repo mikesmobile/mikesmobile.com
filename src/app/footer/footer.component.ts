@@ -23,7 +23,7 @@ export class FooterComponent {
   
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
-    if (this.currentRoute.startsWith('/about/gas-fireplace-service') || this.currentRoute.startsWith('/about/security-screen-doors') || this.currentRoute.startsWith('/grid/titans') || this.currentRoute.startsWith('/products/viewguards') || this.currentRoute.startsWith('/about/theWaterproofingPackage') || this.currentRoute.startsWith('/grid/our-chimney-repairs')) {
+    if (this.currentRoute.startsWith('/about/our-chimney-services') || this.currentRoute.startsWith('/about/gas-fireplace-service') || this.currentRoute.startsWith('/about/security-screen-doors') || this.currentRoute.startsWith('/grid/titans') || this.currentRoute.startsWith('/products/viewguards') || this.currentRoute.startsWith('/about/theWaterproofingPackage') || this.currentRoute.startsWith('/grid/our-chimney-repairs')) {
       this.turnMeOn = false;
     } else {
       this.turnMeOn = true;
