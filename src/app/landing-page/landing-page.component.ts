@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxGalleryImage } from 'ngx-gallery';
 
@@ -17,6 +17,14 @@ export class LandingPageComponent implements OnInit {
   security_door_gallery;
   security_window_gallery;
   gallery_images: NgxGalleryImage[];
+
+  @Input() categories = [
+    'Chimney Services'
+  ];
+
+  serviceList = [];
+  categoryList = [];
+
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   constructor(
@@ -78,11 +86,16 @@ export class LandingPageComponent implements OnInit {
       "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
       "content": "We purchased a security door and love it. Not only does it look nice but the air flow we now get in our house is great. We have had it for months now and everyone is always complimenting us on it and asking where we got it. I am very glad we decided to go through Mikes Mobile."
     }
-    
+
   ]
 
 
   ngOnInit() {
+    servicesJSON.forEach((data) => {
+      if (data.category === 'Chimney Services') {
+        this.serviceList.push(data);
+      }
+    });
 
     this.route.params.subscribe((params) => {
       this.landing = servicesJSON.find((data) => {

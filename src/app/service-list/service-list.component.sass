@@ -5,6 +5,7 @@
   display: flex
   flex-wrap: wrap
   justify-content: space-around
+
 .tile
   display: flex
   width: 140px!important
@@ -22,17 +23,6 @@
   @include breakpoint(xs)
     width: 243px !important
 
-.pricesTag
-  background-color: $mmblue
-
-.tileOverlay 
-  width: 140px
-  padding: 5px, 10px
-  color: $mmblue
-  font-weight: bold
-  @include breakpoint(xs)
-    width: 243px !important
-
 .card-img-overlay
   margin-top: 5rem !important
 
@@ -47,15 +37,7 @@
   padding-right: 10px 
   list-style-type: disc !important
   list-style-position: outside !important
-  
 
-.listStyle
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
-  
-
-.tileListItem
-  padding: 0px
-  list-style-type: disc !important;
 
 .tileBlurb
   line-height: 1.4 !important
@@ -76,3 +58,23 @@
   .tileInfo 
     @include breakpoint(md)
       display: inline
+
+.pricesTag
+  background-color: $mmblue
+
+.tileOverlay 
+  width: 140px
+  padding: 5px, 10px
+  color: $mmblue
+  font-weight: bold
+  @include breakpoint(xs)
+    width: 243px !important
+
+    
+.listStyle
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+
+
+.tileListItem
+  padding: 0px
+  list-style-type: disc !important;

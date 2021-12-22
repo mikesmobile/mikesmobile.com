@@ -16,11 +16,11 @@
                 <h4 class="card-title d-table-cell backGroundGrey text-center w-100 align-middle m-0"
                   [innerHTML]="service.title"></h4>
               </div>
-              <div class="view waves-light " mdbRippleRadius>
+              <div class="view waves-light" mdbRippleRadius>
                 <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title">
                 </app-img>
               </div>
-              <div class="card-img-overlay tileInfo text-left  px-0  mt-5">
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
                 <div class="tileListContainer ">
                   <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
                     [innerHTML]="service.tileText"></p>
