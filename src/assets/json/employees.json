@@ -47,6 +47,20 @@
     
     },
     {
+        "image": "../../assets/images/team/kevinA.jpg",
+        "alt": "Mike's Mobile Technician, Kevin A.",
+        "name": "Kevin A.",
+        "position": "Gas Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/lamont.jpg",
+        "alt": "Mike's Mobile Technician, Lamont S.",
+        "name": "Lamont S.",
+        "position": "Gas Technician"
+    
+    },
+    {
         "image": "../../assets/images/team/recoS.jpg",
         "alt": "Mike's Mobile Technician, Reco S.",
         "name": "Reco S.",
@@ -75,6 +89,12 @@
     
     },
     {
+        "image": "../../assets/images/team/carlos.jpg",
+        "alt": "Mike's Mobile Technician, Carlos P.",
+        "name": "Carlos P.",
+        "position": "Sales Technician"
+    },
+    {
         "image": "../../assets/images/team/jacobC.png",
         "alt": "Mike's Mobile Technician, Jacob C.",
         "name": "Jacob C.",
@@ -87,7 +107,7 @@
         "position": "Sales Technician"
     },
     {
-        "image": "../../assets/images/team/justin.png",
+        "image": "../../assets/images/team/justin.jpg",
         "alt": "Mike's Mobile Technician, Justin P.",
         "name": "Justin P.",
         "position": "Sales Technician"
@@ -118,6 +138,13 @@
         "alt": "Mike's Mobile Technician, Bill I.",
         "name": "Bill I.",
         "position": "Metal Shop / Assistant Mechanic"
+    
+    },
+    {
+        "image": "../../assets/images/team/Nate.jpg",
+        "alt": "Mike's Mobile Technician, Nate W.",
+        "name": "Nate W.",
+        "position": "Sheet Metal Apprentice"
     
     },
     {
