@@ -22,6 +22,7 @@ export class LandingPageComponent implements OnInit {
     'Chimney Services'
   ];
 
+  gasReviews = [];
   serviceList = [];
   categoryList = [];
 
@@ -37,26 +38,6 @@ export class LandingPageComponent implements OnInit {
     this.quoteForm.show();
   }
 
-  gasReviews = [
-    {
-      "name": "Joe C.",
-      "dataReviewId": "OxF9vvRwY0kbXEwUZcCZ2Q",
-      "data-hostname": "www.yelp.com",
-      "link1": "https://www.yelp.com/user_details?userid=j6BFs-kFBr8ZU7YeF7iliA",
-      "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-hayward?hrid=OxF9vvRwY0kbXEwUZcCZ2Q",
-      "link3": "https://www.yelp.com/biz/JB6L1DF0e8FVgHvPUf9RfA",
-      "content": "Really excellent work! They were able to fit me in short notice just before thanksgiving. Overall the fireplace looks almost brand new. Additionally the technician gave us a little lesson on how to maintain the fireplace going forward."
-    },
-    {
-      "name": "Emily L.",
-      "dataReviewId": "qJmSlxYj3zbYTCfrd3UtnA",
-      "data-hostname": "www.yelp.com",
-      "link1": "https://www.yelp.com/user_details?userid=GaPfaaQeBIVh_DqEopUsgg",
-      "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=qJmSlxYj3zbYTCfrd3UtnA",
-      "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw",
-      "content": "COVID hasn't stopped mikes mobile from providing great service! I called for my annual cleaning for my gas fireplace and their tech arrived with a mask and gloves, socially distanced and still took the time to explain everything he did to my system this visit. I received great service and my fire place looks brand new! Best in the Modesto area!"
-    },
-  ]
 
   doorsReviews = [
     {
@@ -91,12 +72,6 @@ export class LandingPageComponent implements OnInit {
 
 
   ngOnInit() {
-    servicesJSON.forEach((data) => {
-      if (data.category === 'Chimney Services') {
-        this.serviceList.push(data);
-      }
-    });
-
     this.route.params.subscribe((params) => {
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
@@ -122,6 +97,12 @@ export class LandingPageComponent implements OnInit {
         return false;
       });
 
+      servicesJSON.forEach((data) => {
+        if (data.category === 'Chimney Services') {
+          this.serviceList.push(data);
+        }
+      });
+  
       if (!this.landing) {
         this.router.navigate(['/']);
         return;
