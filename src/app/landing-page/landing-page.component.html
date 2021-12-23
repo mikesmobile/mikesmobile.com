@@ -704,123 +704,8 @@
 
 
   <!-- this is the mock up for a/b test -->
-  <ng-container *ngIf="landing.slug === 'gas-fireplace-repair-and-service'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <div class="row align-items-center">
-        <div class="col">
-          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-          <div class="container d-md-none ">
-            <div class="row">
-              <div class="col mt-2">
-                <div class=" d-md-none ">
-                  <a class="white-text" href="tel:+18009929938">
-                    <h4 class="animated pulse infinite orange-text text-center cursor-pointer">
-                      <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-                    </h4>
-                  </a>
-                </div>
-                <div class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
-                  <h4 class="animated pulse infinite orange-text ">
-                    &nbsp;Schedule today!
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col text-left">
-                <h4 class="font-weight-bold font-italic mt-sm-2">
-                  We Fix Gas Fireplaces!
-                </h4>
-                <p>
-                  With help from Mike’s Mobile you can be sure that your gas fireplace is working properly and save
-                  money on costly future problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified,
-                  specialized gas technicians will diagnose any issues with your system and perform the maintenance and
-                  repairs needed to ensure that it is clean and fully functioning!
-                  <br /> <br />A gas fireplace offers wonderful aesthetics and helps to keep your home warm during the
-                  cooler months. With regular maintenance, your system will be ready to go so that you can sit back,
-                  relax, and enjoy your gas fireplace!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col text-left">
-                <h4 class="font-weight-bold">Annual Maintenance for Gas Fireplaces</h4>
-                <ul>
-                  <li>
-                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends
-                    an annual inspection to ensure that your gas fireplace continues to work properly.
-                  </li>
-                  <li>
-                    Many homeowners' insurance policies require an annual professional chimney inspection and
-                    cleaning. Your insurance company may require that you provide proof of this when filing a claim.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
 
-          <div class="container d-none d-md-block ">
-            <div class="row">
-              <div class="col mt-2">
-                <div class=" d-md-none ">
-                  <a class="white-text" href="tel:+18009929938">
-                    <h4 class="animated pulse infinite orange-text text-center cursor-pointer">
-                      <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-                    </h4>
-                  </a>
-                </div>
-                <div class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
-                  <h4 class="animated pulse infinite orange-text ">
-                    &nbsp;Schedule today!
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col">
-          <h4 class="font-weight-bold pl-lg-3 ml-lg-4">Is your gas fireplace having these issues? We can fix it!</h4>
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-lg-5">
-          <div class="container">
-            <div class="row">
-              <div class="col text-left p-sm-0">
-                <ul>
-                  <li class="font-weight-bold">Gas fireplace turns off by itself</li>
-                  <li class="font-weight-bold">Pilot won’t stay lit.</li>
-                  <li class="font-weight-bold">Gas fireplace sparks but burner won’t light</li>
-                  <li class="font-weight-bold">Small or ghosting flames</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 p-lg-0">
-          <p>
-            A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
-            component in your system. They will also provide you with a digital report, complete with photos, that
-            shows you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our
-            specialized gas fireplace technicians are able to perform most repairs in one visit!
-          </p>
-        </div>
-      </div>
-      <hr />
-    </div>
-  </ng-container>
-  <ng-container *ngIf="landing.slug === 'gas-fireplace-service' || landing.slug === 'gas-fireplace-service-fb-lp' ">
+  <ng-container *ngIf="landing.slug === 'gas-fireplace-repair-and-service' || 'gas-fireplace-service' || landing.slug === 'gas-fireplace-service-fb-lp' ">
 
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -959,7 +844,7 @@
         <div class="col-md-12 px-0 mx-0">
           <div class="card-deck">
 
-            <div class="card yelpCard " *ngFor="let review of gasReviews">
+            <div class="card yelpCard " *ngFor="let review of landing.reviews">
               <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
                 <div class="card-header">
                   <a [href]="review.link1" rel="nofollow noopener">{{
