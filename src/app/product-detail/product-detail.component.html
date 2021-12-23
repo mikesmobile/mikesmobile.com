@@ -472,7 +472,7 @@
                 <div class="col-12">
                   <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
                     class="d-md-none">
-                      <button class="btn oj" (click)="openQuoteForm()">Free Consultation Today!</button>
+                      <button class="btn oj" (click)="openQuoteForm()">Free Consultation!</button>
                   </div>
                   <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
                     <a routerLink="/solar-screen-price-calc">
@@ -485,7 +485,7 @@
               </div>
               <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
                 class="my-2 d-none d-md-block">
-                  <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation Today!</button>
+                  <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
                 <hr>
               </div>
             </div>
