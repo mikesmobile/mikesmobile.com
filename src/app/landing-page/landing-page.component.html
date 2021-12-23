@@ -1040,94 +1040,96 @@
   </ng-container>
 
   <ng-container *ngIf="landing.slug === 'security-doors'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Upgrade your style along with security with our security doors. Whether
-        you are looking for a traditional security door for safety or our high
-        quality aluminum security doors to protect both your view and your home,
-        Mike’s Mobile Screens has plenty of options for you.
-      </p>
+    <div class="container pt-4">
       <div class="row">
-        <!-- Gallery -->
-        <div class="col-12 col-md-7 pb-3">
-          <app-main-gallery [Images]="security_door_gallery"></app-main-gallery>
+        <div class="col-12">
+          <h1>Security Screen Doors</h1>
+          <hr>
         </div>
+        <div class="col-12">
+          <p>Never sacrifice style for security! With custom-built security screen doors in a variety of colors and
+            designs. We guarantee that we'll help you upgrade your home and your peace of mind!</p>
+        </div>
+        <div class="col-12 col-md-6 mb-2">
+          <div class="card">
+            <img class="card-img-top" src="../../assets/images/landing/titan.jpg"
+              alt="Mike's Mobile Titan Security Door: Folkstone">
+            <div class="card-body">
+              <h4 class="card-title text-center">Titan Security Doors</h4>
+              <p class="card-text">The Titan Premium Security Screens come in 40 designs and a wide array of colors.
+                Their incredibly strong construction ensures that they can't be cut or torn, so you can show off your
+                unique style while you protect your home!</p>
 
-        <!-- Above-the-fold Text -->
-        <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Front Security Screen Doors</h3>
-          <div class="container">
-            <ul class="pb-3">
-              <li id="l2">
-                Our high quality security doors are built to protect your home
-              </li>
-              <li id="l2">
-                These doors keep intruders out without compromising the
-                appearance of your home
-              </li>
-              <li id="l2">
-                With security doors whose designs say "upscale" instead of
-                "security" you can't go wrong with a Mike's Mobile security
-                door!
-              </li>
-            </ul>
-            <div class="d-flex flex-column">
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/grid/titan-security-doors">
-                Titan
-              </a>
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/viewguard-security-doors">
-                Viewguard
-              </a>
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/tru-view-security-doors">
-                Tru View
-              </a>
+              <a routerLink="/grid/titan-security-doors" class="btn mikesBlueBtn btn-block">Titan Security Doors</a>
             </div>
-            <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
-              <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
-                &nbsp; Get a Free Consultation Now!
-              </h4>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-2">
+          <div class="card">
+            <img class="card-img-top" src="../../assets/images/landing/viewguard.jpg"
+              alt="Mike's Mobile Viewguard Security Door in Black">
+            <div class="card-body">
+              <h4 class="card-title text-center">Viewguard Security Doors</h4>
+              <p class="card-text">The Viewguard Security Screens combine the look of a classic screen door with the
+                strength of stainless steel. The woven mesh also allows for maximum airflow, so that you can let the
+                cool breeze in while keeping unwanted visitors out!</p>
+              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Viewguard Security
+                Doors</a>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <hr />
-      <br />
+
+      <div class="row py-5 d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+          <h4 class="text-center">Security Screen Doors</h4>
+          <p>Security Screen Doors provide extra protection without compromising the look of your home. With a fully
+            customized door from Mike’s Mobile, you can leave the front door open while knowing that your family is
+            taken care of!
+            Increased security. Enhanced curb appeal. It’s that simple!</p>
+          <div class="text-center">
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now!</button>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
-        <div class="col-12 d-md-none pb-3">
-          <a routerLink="/products/sliding-security-doors">
-            <app-img
-              src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-              class="img-fluid" alt="Double Stainless Steel Sliding Security Door"></app-img>
-          </a>
+        <div class="col-12">
+          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+          <hr>
         </div>
-        <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Patio Doors</h3>
-          <div class="container">
-            <p class="p-2">
-              A sliding security door replaces your existing patio screen door.
-              These doors come pre-assembled and tamper resistant. Enjoy the
-              cool night air while sleeping in peace, quiet and safety. These
-              sliding security doors are also pet resistant! No more ripped
-              screens from pets.
-            </p>
-            <div class="d-flex flex-column">
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/sliding-security-doors">
-                Sliding Security Screen Doors
-              </a>
+      </div>
+
+      <div class="row text-center pb-5 mx-0">
+        <div class="col-12 px-0 mx-0">
+          <div class="card-deck">
+            <div class="card yelpCard" *ngFor="let review of doorsReviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
             </div>
           </div>
         </div>
-        <div class="col-7 d-none d-md-block pb-3">
-          <a routerLink="/products/sliding-security-doors">
-            <app-img
-              src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-              class="img-fluid" alt="Double Stainless Steel Sliding Security Door"></app-img>
-          </a>
-        </div>
       </div>
+
     </div>
   </ng-container>
 
@@ -1179,12 +1181,9 @@
             customized door from Mike’s Mobile, you can leave the front door open while knowing that your family is
             taken care of!
             Increased security. Enhanced curb appeal. It’s that simple!</p>
-          <div class="text-center">
-            <a class="text-center" (click)="openQuoteForm()">
-              <h4 class="animated pulse infinite orange-text cursor-pointer" style="text-decoration: underline;">Get a
-                Free Consultation Now!</h4>
-            </a>
-          </div>
+            <div class="text-center">
+              <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now!</button>
+            </div>
         </div>
       </div>
 
