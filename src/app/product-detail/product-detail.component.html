@@ -1,6 +1,6 @@
 <ng-container *ngIf="product">
   <ng-container *ngIf="product.slug !== 'chimney-caps'">
-    <div class="container pb-4" *ngIf="product.slug !== 'viewguards'">
+    <div class="container pb-4" *ngIf="product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' ">
       <nav class="breadcrumb mt-2">
         <a class="breadcrumb-item" routerLink="/">Home</a>
         <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
@@ -44,6 +44,21 @@
       </div>
     </div>
 
+    <div *ngIf="product.slug === 'viewguard-security-doors' ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div>
+          <!-- <div class="col-12 d-none d-md-block">
+            <img src="../../assets/images/landing/MapFull.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div> -->
+        </div>
+      </div>
+    </div>
+
     <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
 
       <div class="heroContainer">
@@ -69,21 +84,24 @@
         </h1>
       </div>
 
-      <div *ngIf="(product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
+      <div
+        *ngIf="product.slug !== 'viewguard-security-doors' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
         class="d-flex flex-column flex-md-row mb-0">
         <h1 class="text-left h1 pageTitle mb-0">
           {{ product.title }}
         </h1>
       </div>
 
-      <div *ngIf="product.slug === 'viewguards'" class="d-flex flex-column flex-md-row mb-0">
+      <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' "
+        class="d-flex flex-column flex-md-row mb-0">
         <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
           <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
             {{ product.title }}
           </h1>
         </div>
-        <div class="col-md-6 d-none d-lg-block">
-            <img src="../../assets/images/landing/MapMedium.png" class="img-fluid" alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        <div class="col-md-6 d-none d-lg-block pr-0">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
         </div>
       </div>
 
@@ -361,21 +379,8 @@
             </div>
           </ng-container>
 
-          <div *ngIf="product.slug === 'viewguard-security-doors'"
+          <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors'"
             class="container-fluid text-center justify-content-center">
-            <div class="row text-center">
-              <div class="col-12 text-center justify-content-center">
-                <div class="embed-responsive mx-auto video embed-responsive-16by9">
-                  <iframe class="embed-responsive-item"
-                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <p class="font-weight-bold">These things are seriously tough!</p>
-
-              </div>
-            </div>
-          </div>
-          <div *ngIf="product.slug === 'viewguards'" class="container-fluid text-center justify-content-center">
             <div class="row text-center">
               <div class="col-12 text-center justify-content-center">
                 <div class="embed-responsive mx-auto video embed-responsive-16by9">
@@ -432,7 +437,8 @@
           <h5 *ngIf="product.slug === 'chimney-caps'" class="text-left font-weight-bold font-italic">
             We Sell Chimney Caps Not Flue Caps
           </h5>
-          <div class="container my-4" *ngIf="product.textList && product.slug !== 'viewguards'">
+          <div class="container my-4"
+            *ngIf="product.textList && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' ">
             <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
               <mdb-item *ngFor="let item of product.textList; index as i">
                 <mdb-item-head>{{ item.title }}</mdb-item-head>
@@ -443,7 +449,8 @@
             </mdb-squeezebox>
           </div>
 
-          <div class="container my-4" *ngIf="product.slug === 'viewguards'">
+          <div class="container my-4"
+            *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' ">
             <br>
             <h4 class="font-weight-bold font-italic">{{product.textList[2].title}}</h4>
             <p [innerHTML]="product.textList[2].description"></p>
@@ -470,27 +477,32 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
-                    class="d-md-none">
-                      <button class="btn oj" (click)="openQuoteForm()">Free Consultation!</button>
+                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'" class="d-md-none">
+                    <button class="btn oj" (click)="openQuoteForm()">Free Consultation!</button>
                   </div>
                   <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
                     <a routerLink="/solar-screen-price-calc">
                       <h4 class="animated pulse infinite orange-text ">
-                        &nbsp; Get A Free Consultation Now!!
+                        &nbsp; Get A Free Consultation!
                       </h4>
                     </a>
                   </div>
                 </div>
               </div>
-              <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
-                class="my-2 d-none d-md-block">
-                  <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
-                <hr>
-              </div>
+              <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' "
+              class="my-2 d-none d-md-block">
+              <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
+              <hr>
             </div>
           </div>
-          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards'" class="row text-center mb-3">
+        </div>
+        <div *ngIf="product.slug === 'viewguard-security-doors'">
+          <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
+          <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
+          <hr>
+        </div>
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' "
+            class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
 
@@ -516,7 +528,54 @@
         </div>
 
       </div>
-      <div *ngIf="product.slug === 'viewguards' " class="col-12">
+      <div *ngIf="product.slug === 'viewguard-security-doors' " class="col-12">
+        <div class="row center my-4">
+          <div class="col-12 col-md-8">
+            <h4 class="text-center">{{product.textList[0].title}}</h4>
+            <p [innerHTML]="product.textList[0].description"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row text-center py-4 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card" *ngFor="let review of doorsReviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div *ngIf="product.slug === 'viewguards'" class="col-12">
         <div class="row center my-4">
           <div class="col-12 col-md-8">
             <h4 class="text-center">{{product.textList[0].title}}</h4>
