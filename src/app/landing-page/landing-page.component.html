@@ -447,8 +447,20 @@
   </ng-container>
 
   <ng-container *ngIf="landing.slug === 'water-proofing-package'">
-    <div class="container text-center py-4">
-      <h1 class=" text-left" [innerHTML]="landing.title"></h1>
+    <div class="container text-center pb-4">
+      <div class="row">
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
 
       <hr />
       <!-- <div class="row text-center">
@@ -459,8 +471,9 @@
       <hr /> -->
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <img src="/assets/images/waterProofing/newWaterProofingPackage.jpg" class="img-fluid"
-            alt="water proofing package">
+          <!-- <img src="/assets/images/waterProofing/newWaterProofingPackage.jpg" class="img-fluid"
+            alt="water proofing package"> -->
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
         </div>
         <div class="col-lg-6 text-left">
           <h2 class="mt-3 mt-lg-0">We Fix Leaky Chimneys!</h2>

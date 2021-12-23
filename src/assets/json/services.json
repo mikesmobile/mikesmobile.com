@@ -3837,6 +3837,50 @@
       "Fixes leaky chimneys",
       "Prevents future water damage",
       "Protects from animals and debris"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Mike's Mobile's Waterproofing Package",
+        "small": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "medium": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "big": "/assets/images/waterProofing/newWaterProofingPackage.jpg"
+      },
+      {
+        "alt": "10 Year Warranty, Black Cap, black waterproofing",
+        "small": "/assets/images/waterProofing/landing/10blackcap.png",
+        "medium": "/assets/images/waterProofing/landing/10blackcap.png",
+        "big": "/assets/images/waterProofing/landing/10blackcap.png"
+      },
+      {
+        "alt": "Waterproofing comes with a 10 year No Leak warranty! Black waterproofing black cap",
+        "small": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "big": "/assets/images/waterProofing/landing/blackcapwaterproof.png"
+      },
+      {
+        "alt": "Tan Bricks with Black Waterproofing",
+        "small": "/assets/images/waterProofing/landing/silver.png",
+        "medium": "/assets/images/waterProofing/landing/silver.png",
+        "big": "/assets/images/waterProofing/landing/silver.png"
+      },  
+      {
+        "alt": "Before and After Chimney Repairing and Waterproofing",
+        "small": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "medium": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "big": "/assets/images/waterProofing/landing/masonrybanda.png"
+      },
+      {
+        "alt": "White chimney with white waterproofing",
+        "small": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "big": "/assets/images/waterProofing/landing/whitebasewaterproof.png"
+      },
+      {
+        "alt": "Before and After with Waterproofing",
+        "small": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "medium": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "big": "/assets/images/waterProofing/landing/waterproofandblackcap.png"
+      }
     ]
   },
   {
