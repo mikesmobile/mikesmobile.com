@@ -141,7 +141,7 @@
     "price": [
       {
         "name": "Open Fireplace",
-        "price": "$339"
+        "price": "$295"
       },
       {
         "name": "Freestanding Stove",
@@ -149,7 +149,7 @@
       },
       {
         "name": "Insert",
-        "price": "$495"
+        "price": "$425"
       },
       {
         "name": "Pellet Stove",
@@ -171,11 +171,11 @@
       },
       {
         "name": "Level - 2(Open & Frestanding)*",
-        "price": "$516.50"
+        "price": "$502.50"
       },
       {
-        "name": "Level - 2 (Insert & Pellet)",
-        "price": "$586.50"
+        "name": "Level - 2 (Insert)",
+        "price": "$572.50"
       }
     ],
     "disclaimer": "Get 1/2 cleaning when paired with a level-2 inspection!"
