@@ -238,55 +238,81 @@
     </div>
   </ng-container>
   <ng-container *ngIf="landing.slug === 'chimney-services'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Did you know that chimneys need to be cleaned and inspected regularly in
-        order for them to burn safely? Sooty buildup can lead to chimney fires
-        that spread into the home. Even if you do not use your fireplace often,
-        general deterioration or even animal nests can make it unsafe to use.
-        Let Mike’s Mobile Chimney Service help you keep your fireplace safe and
-        your home cozy.
-      </p>
+    <div class="container pb-4">
       <div class="row">
-        <div class="col">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po"
-              allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
         </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Chimney Services</h4>
-          <div class="d-flex flex-column">
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/chimney-inspections">
-              Chimney Inspections
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/chimney-cleaning">
-              Chimney Cleaning
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/Gas-Fireplaces">
-              Gas Fireplace Installation
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/about/gas-fireplace-repair-and-service">
-              Gas Fireplace Service & Repair
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/chimney-repairs">
-              Chimney Repair
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/chimney-accessories">
-              Chimney Accessories
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/masonry-services">
-              Masonry Services
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/dryer-vent-cleaning">
-              Dryer Vent Cleaning
-            </a>
-          </div>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
         </div>
       </div>
+
       <hr />
+      <div class="row">
+        <!-- <div class="col-12 col-lg-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po"
+            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div> -->
+        <div class="order-1 order-lg-2 col-12 col-lg-6">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+        </div>
+
+        <div class="order-2 order-lg-1 col-12 col-lg-6 mt-2">
+          <h2 class="font-weight-bold" style="font-size: 20px;">Did you know that chimneys need to be cleaned and
+            inspected regularly in
+            order for them to burn safely?</h2>
+
+          <p class="p-2"> Sooty buildup can lead to chimney fires
+            that spread into the home. Even if you do not use your fireplace often,
+            general deterioration or even animal nests can make it unsafe to use.
+            Let Mike’s Mobile Chimney Service help you keep your fireplace safe and
+            your home cozy.
+          </p>
+          <div class="col-12 d-flex justify-content-center">
+            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()">Book Now!</button>
+            <a href="tel:+1{{landing.phone}}" class="d-none d-lg-block btn mikesBlueBtn">Call Us Now</a>
+          </div>
+          <button class="d-lg-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Book Now!</button>
+          <a href="tel:+1{{landing.phone}}" class="d-lg-none btn btn-block mikesBlueBtn">Call Us Now</a>
+
+        </div>
+
+      </div>
+      <h3 class="font-weight-bold mt-3">Our Services</h3>
+      <hr>
+      <div class="row d-flex justify-content-center">
+        <ng-container *ngFor="let service of serviceList">
+          <div class="card tile m-2 rounded">
+            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
+                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
+                  [innerHTML]="service.title"></h4>
+              </div>
+              <div class="view waves-light" mdbRippleRadius>
+                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
+              </div>
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
+                <div class="tileListContainer ">
+                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                    [innerHTML]="service.tileText"></p>
+                  <ul *ngIf="service.tileBullets" class="tileList">
+                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
+                  </ul>
+                </div>
+              </div>
+
+            </a>
+          </div>
+        </ng-container>
+      </div>
     </div>
   </ng-container>
 

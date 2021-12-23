@@ -4034,6 +4034,7 @@
     "title": "Chimney Repairs",
     "slug": "chimney-repairs",
     "category": "Chimney Services",
+    "phone": "(800) 992-9938",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
     "tileImage": "/assets/images/newTiles/ChimneyRepair.png",
@@ -5334,7 +5335,40 @@
   {
     "title": "Chimney Services",
     "slug": "chimney-services",
-    "type": "landing"
+    "phone": "(800) 992-9938",
+    "type": "landing",
+    "thumbImages": [
+      {
+        "alt": "Living room fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim1.png"
+      },
+      {
+        "alt": "Before and After of a fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim2.png"
+      },
+      {
+        "alt": "Before and After cleaning, removal, and painting",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim3.png"
+      },
+      {
+        "alt": "Before and after waterproofing and outside mounting cap",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim4.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim4.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim4.png"
+      },
+      {
+        "alt": "Before and After chimney repair and cap",
+        "small": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
+      }
+    ]
   },
   {
     "title": "Chimney Services",
