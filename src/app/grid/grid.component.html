@@ -229,7 +229,7 @@
         <div class="row text-center py-4 mx-0">
           <div class="col-12 px-0 mx-0">
             <div class="card-deck">
-              <div class="card" *ngFor="let review of services.reviews">
+              <div class="card" *ngFor="let review of service.reviews">
                 <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
                   <div class="card-header">
                     <a [href]="review.link1" rel="nofollow noopener">{{
