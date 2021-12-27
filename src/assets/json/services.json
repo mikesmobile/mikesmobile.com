@@ -7,7 +7,7 @@
     "type": "grid",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
     "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
-    "tileImage": "/assets/images/tiles/titan-security-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/Titan.png",
     "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
     "tileBullets": [
       "Premium Home Security",
@@ -44,9 +44,7 @@
         "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
         "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
       }
-
     ],
-    
     "recentInstallImages": [
       {
         "alt": "Titan Security Trellis Door",
@@ -117,9 +115,7 @@
         "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
         "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
       }
-
     ],
-    
     "recentInstallImages": [
       {
         "alt": "Titan Security Trellis Door",
@@ -3724,7 +3720,7 @@
         "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
       }
     ],
-    "reviews":[
+    "reviews": [
       {
         "name": "Ana C.",
         "dataReviewId": "WZzrQ9EeP1mGS4m2JHX73w",
@@ -3798,7 +3794,7 @@
         "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
       }
     ],
-    "reviews":[
+    "reviews": [
       {
         "name": "Ana C.",
         "dataReviewId": "WZzrQ9EeP1mGS4m2JHX73w",
@@ -3965,7 +3961,7 @@
         "small": "/assets/images/waterProofing/landing/silver.png",
         "medium": "/assets/images/waterProofing/landing/silver.png",
         "big": "/assets/images/waterProofing/landing/silver.png"
-      },  
+      },
       {
         "alt": "Before and After Chimney Repairing and Waterproofing",
         "small": "/assets/images/waterProofing/landing/masonrybanda.png",
@@ -4021,7 +4017,7 @@
         "small": "/assets/images/waterProofing/landing/silver.png",
         "medium": "/assets/images/waterProofing/landing/silver.png",
         "big": "/assets/images/waterProofing/landing/silver.png"
-      },  
+      },
       {
         "alt": "Before and After Chimney Repairing and Waterproofing",
         "small": "/assets/images/waterProofing/landing/masonrybanda.png",
@@ -4497,7 +4493,6 @@
     ],
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
     "thumbImages": [
-
       {
         "alt": "comparison between flue cap, and a chimney cap",
         "small": "/assets/images/chimneyCaps/comparison.png",
@@ -5498,7 +5493,6 @@
         "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
       }
     ]
-
   },
   {
     "title": "Window Screens",
