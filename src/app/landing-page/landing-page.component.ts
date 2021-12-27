@@ -23,8 +23,8 @@ export class LandingPageComponent implements OnInit {
   ];
 
   gasReviews = [];
-  serviceList = [];
-  categoryList = [];
+  chimneyServiceList = [];
+  doorsServiceList = [];
 
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
@@ -72,6 +72,7 @@ export class LandingPageComponent implements OnInit {
 
 
   ngOnInit() {
+
     this.route.params.subscribe((params) => {
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
@@ -97,12 +98,22 @@ export class LandingPageComponent implements OnInit {
         return false;
       });
 
+      this.chimneyServiceList = [];
+      this.doorsServiceList = [];
+
       servicesJSON.forEach((data) => {
         if (data.category === 'Chimney Services') {
-          this.serviceList.push(data);
+          this.chimneyServiceList.push(data);
+        }
+        if (data.category === 'Door and Window Screens') {
+          // for the screen doors page
+          if(data.slug !== "window-screen-repair" && data.slug !== "solar-screens"){
+            this.doorsServiceList.push(data);
+          }
+
         }
       });
-  
+
       if (!this.landing) {
         this.router.navigate(['/']);
         return;
@@ -126,4 +137,5 @@ export class LandingPageComponent implements OnInit {
       }
     });
   }
+
 }
