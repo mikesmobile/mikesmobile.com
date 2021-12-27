@@ -38,9 +38,9 @@ export class NavigationComponent {
       this.phone = "(916) 318-9845";
     } else if(this.currentRoute.startsWith('/about/theWaterproofingPackage')){
       this.phone = '(916) 304-8225';
-    } else if(this.currentRoute.startsWith('/grid/our-chimney-repairs') || this.currentRoute.startsWith('/about/our-chimney-services') || this.currentRoute.startsWith('/grid/chimney-repairs') || this.currentRoute.startsWith('/about/chimney-services')){
-      this.hideMe = true;
+    } else if(this.currentRoute.startsWith('/grid/our-chimney-repairs') || this.currentRoute.startsWith('/about/our-chimney-services') || this.currentRoute.startsWith('/grid/chimney-repairs') || this.currentRoute.startsWith('/about/chimney-services') || this.currentRoute.startsWith('/about/our-screen-doors') || this.currentRoute.startsWith('/about/door-screens')){
       // this hides the phone number button for this page since the button is down with the get consultation
+      this.hideMe = true;
     }else {
       this.hideMe = false;
       this.phone = "(800) 992-9938";

@@ -16,18 +16,31 @@ export class FooterComponent {
       if (event instanceof NavigationEnd) {
         // Hide progress spinner or progress bar
         this.currentRoute = event.url;
-        this.footerSwitch()
+        this.turnMeOn = this.footerSwitch()
+        console.log(this.turnMeOn)
       }
     });
   }
-  
+  doNotShow = [
+    '/about/our-chimney-services',
+    '/about/gas-fireplace-service',
+    '/about/security-screen-doors',
+    '/grid/titans',
+    '/products/viewguards',
+    '/about/theWaterproofingPackage',
+    '/grid/our-chimney-repairs',
+    '/about/our-screen-doors',
+  ]
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
-    if (this.currentRoute.startsWith('/about/our-chimney-services') || this.currentRoute.startsWith('/about/gas-fireplace-service') || this.currentRoute.startsWith('/about/security-screen-doors') || this.currentRoute.startsWith('/grid/titans') || this.currentRoute.startsWith('/products/viewguards') || this.currentRoute.startsWith('/about/theWaterproofingPackage') || this.currentRoute.startsWith('/grid/our-chimney-repairs')) {
-      this.turnMeOn = false;
-    } else {
-      this.turnMeOn = true;
+    for(let i = 0; i < this.doNotShow.length; i++){
+      if(this.currentRoute.startsWith(this.doNotShow[i])){
+        console.log(this.currentRoute.startsWith(this.doNotShow[i]))
+        return false;
+      }
     }
+    return true;
+    
   }
   
 }
