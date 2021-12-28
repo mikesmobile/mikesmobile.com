@@ -141,7 +141,7 @@
                         </a>
                       </div>
                       <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
-                        <button class="btn blue btn-rounded waves-light">Get A Free Consultation</button>
+                        <button class="btn blue btn-rounded waves-light">Schedule Now!</button>
                       </div>
                       <button class="btn blue btn-rounded waves-light" (click)="show()">Video of Options</button>
                     </div>
@@ -220,7 +220,7 @@
                         </a>
                       </div>
                       <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
-                        <button class="btn blue btn-rounded waves-light">Get A Free Consultation</button>
+                        <button class="btn blue btn-rounded waves-light">Schedule Now!</button>
                       </div>
                       <!-- <button class="btn blue btn-rounded waves-light" (click)="show()">learn more</button> -->
                     </div>
@@ -473,33 +473,25 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'" class="d-md-none">
-                    <button class="btn oj" (click)="openQuoteForm()">Free Consultation!</button>
-                  </div>
-                  <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
-                    <a routerLink="/solar-screen-price-calc">
-                      <h4 class="animated pulse infinite orange-text ">
-                        &nbsp; Get A Free Consultation!
-                      </h4>
-                    </a>
+                  <div *ngIf="product.slug === 'solar-screens'">
+                    <button class="btn mikesBlueBtn btn-block mb-2" (click)="openQuoteForm()">Schedule Now!</button>
+                    <hr>
                   </div>
                 </div>
               </div>
-              <div
-                *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' "
-                class="my-2 d-none d-md-block">
-                <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
+              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'tru-view-security-doors' && product.slug !== 'sliding-security-doors' && product.slug !== 'security-windows' "
+                class="my-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now!</button>
                 <hr>
               </div>
             </div>
           </div>
-          <div *ngIf="product.slug === 'viewguard-security-doors'">
+          <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'sliding-security-doors' || product.slug === 'security-windows'">
             <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
             <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
             <hr>
           </div>
-          <div
-            *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' "
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors'"
             class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
@@ -697,7 +689,9 @@
     </div>
 
     <ng-container *ngIf="product.slug !== 'Gas-Fireplaces' ">
-      <app-tab-nav [details]="product.details"></app-tab-nav>
+      <div *ngIf="product.details">
+        <app-tab-nav [details]="product.details"></app-tab-nav>
+      </div>
       <div class="container" *ngIf="product.recentInstallImages">
         <div class="container text-center">
           <h2>See Our Recent Work!</h2>
@@ -801,7 +795,7 @@
           <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
             class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
             <h4 class="animated pulse infinite orange-text ">
-              &nbsp;Get a Free Consultation Now!
+              &nbsp;Schedule Now!
             </h4>
           </div>
           <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
