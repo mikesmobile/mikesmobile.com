@@ -51,10 +51,6 @@
             <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
               alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
           </div>
-          <!-- <div class="col-12 d-none d-md-block">
-            <img src="../../assets/images/landing/MapFull.png" class="img-fluid"
-              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-          </div> -->
         </div>
       </div>
     </div>
@@ -489,19 +485,21 @@
                   </div>
                 </div>
               </div>
-              <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' "
-              class="my-2 d-none d-md-block">
-              <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
-              <hr>
+              <div
+                *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' "
+                class="my-2 d-none d-md-block">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Free Consultation!</button>
+                <hr>
+              </div>
             </div>
           </div>
-        </div>
-        <div *ngIf="product.slug === 'viewguard-security-doors'">
-          <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
-          <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
-          <hr>
-        </div>
-          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' "
+          <div *ngIf="product.slug === 'viewguard-security-doors'">
+            <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
+            <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
+            <hr>
+          </div>
+          <div
+            *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' "
             class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
@@ -700,14 +698,19 @@
 
     <ng-container *ngIf="product.slug !== 'Gas-Fireplaces' ">
       <app-tab-nav [details]="product.details"></app-tab-nav>
-      <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
-      <div class="container">
-        <div class="row mt-5 p-0 justify-content-center text-center">
-          <div class="col p-0">
-            <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+      <div class="container" *ngIf="product.recentInstallImages">
+        <div class="container text-center">
+          <h2>See Our Recent Work!</h2>
+        </div>
+        <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
+      </div>
+        <div class="container">
+          <div class="row mt-5 p-0 justify-content-center text-center">
+            <div class="col p-0">
+              <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+            </div>
           </div>
         </div>
-      </div>
     </ng-container>
   </ng-container>
   <ng-container *ngIf="product.slug === 'chimney-caps'">
@@ -804,7 +807,7 @@
           <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
             <a routerLink="/solar-screen-price-calc">
               <h4 class="animated pulse infinite orange-text ">
-                &nbsp; Get A Free Consultation Now!!
+                &nbsp; Price Calculator!
               </h4>
             </a>
           </div>

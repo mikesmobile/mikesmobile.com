@@ -1,4 +1,5 @@
 import { Component, Input, ViewChild } from '@angular/core';
+import { Router, Event, NavigationEnd, NavigationStart } from '@angular/router';
 
 @Component({
   selector: 'app-footer-gallery',

@@ -75,6 +75,7 @@
   {
     "title": "Titan Security Screen Doors",
     "slug": "titans",
+    "phone": "(916) 312-3182",
     "type": "grid",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
     "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
@@ -2529,10 +2530,19 @@
   },
   {
     "title": "Window Screen Services",
+    "phone": "(916) 243-6542",
     "slug": "our-window-screen-services",
     "subcategory": "Window",
     "type": "services",
     "fullTileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+    "tileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
+    "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
+    "tileBullets": [
+      "All work done on-site ",
+      "Convenient single visit",
+      "Frame repair also available",
+      "Affordable options"
+    ],
     "textList": [
       {
         "title": "Fast",
@@ -2547,15 +2557,34 @@
         "description": "We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
       }
     ],
-    "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-    "tileBullets": [
-      "All work done on-site ",
-      "Convenient single visit",
-      "Frame repair also available",
-      "Affordable options"
-    ],
     "video": "",
+    "images": [
+      {
+        "alt": "repair damaged screen",
+        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+      },
+      {
+        "alt": "repair damaged screen",
+        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+      },
+      {
+        "alt": "repair damaged screen",
+        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
+        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+      }
+    ],
     "recentInstallImages": [
+      {
+        "alt": "Worker fixing screen",
+        "small": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
+        "medium": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
+        "big": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
+      },
       {
         "alt": "repair damaged screen",
         "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
@@ -2567,12 +2596,6 @@
         "small": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
         "medium": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
         "big": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg"
-      },
-      {
-        "alt": "Worker fixing screen",
-        "small": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
       }
     ]
   },

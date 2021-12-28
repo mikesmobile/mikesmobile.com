@@ -35,7 +35,6 @@ export class FooterComponent {
     // this is where I put the landing pages to remove the footer
     for(let i = 0; i < this.doNotShow.length; i++){
       if(this.currentRoute.startsWith(this.doNotShow[i])){
-        console.log(this.currentRoute.startsWith(this.doNotShow[i]))
         return false;
       }
     }
