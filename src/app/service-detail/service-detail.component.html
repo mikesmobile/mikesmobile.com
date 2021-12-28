@@ -232,12 +232,8 @@
                 </mdb-item>
               </mdb-squeezebox>
               <div *ngIf=" service.slug !== 'our-window-screen-services' ">
-
-                <h2 class="pb-3 text-center animated pulse infinite orange-text cursor-pointer m-2"
-                  (click)="openQuoteForm()">
-                  Book Us Now!
-                </h2>
-                <div class="row text-center mb-3">
+                  <button class="btn oj btn-block my-3" (click)="openQuoteForm()">Schedule Now!</button>
+                <div class="row text-center mb-3" *ngIf="service.slug !== 'chimney-cleaning' && service.slug !== 'chimney-inspections' ">
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-8">
