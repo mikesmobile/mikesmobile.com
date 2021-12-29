@@ -107,7 +107,7 @@ export class LandingPageComponent implements OnInit {
         }
         if (data.category === 'Door and Window Screens') {
           // for the screen doors page
-          if(data.slug !== "window-screen-repair" && data.slug !== "solar-screens"){
+          if(data.subcategory == "Door"){
             this.doorsServiceList.push(data);
           }
 

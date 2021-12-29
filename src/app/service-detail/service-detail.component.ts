@@ -19,6 +19,7 @@ export class ServiceDetailComponent implements OnInit {
   service: any;
   price;
   img;
+  windowsServiceList = [];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -32,6 +33,7 @@ export class ServiceDetailComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
@@ -57,6 +59,15 @@ export class ServiceDetailComponent implements OnInit {
         return false;
       });
 
+      // servicesJSON.forEach((data) => {
+      //   if (data.category === 'Door and Window Screens') {
+      //     // for the screen doors page
+      //     if(data.slug){
+      //       this.windowsServiceList.push(data);
+      //     }
+
+      //   }
+      // });
       this.price = priceJSON.find((data) => {
         if (data.title === params['slug']) {
           return true;
@@ -64,6 +75,7 @@ export class ServiceDetailComponent implements OnInit {
 
         return false;
       });
+
 
       if (!this.service) {
         this.router.navigate(['/']);
