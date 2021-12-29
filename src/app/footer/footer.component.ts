@@ -17,7 +17,6 @@ export class FooterComponent {
         // Hide progress spinner or progress bar
         this.currentRoute = event.url;
         this.turnMeOn = this.footerSwitch()
-        console.log(this.turnMeOn)
       }
     });
   }
