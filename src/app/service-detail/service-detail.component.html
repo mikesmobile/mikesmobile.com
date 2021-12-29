@@ -1,6 +1,7 @@
 <ng-container *ngIf="service">
   <div class="container pb-4">
-    <nav *ngIf="service.slug !== 'our-window-screen-services' " class="breadcrumb mt-2">
+    <nav *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair' "
+      class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
       <a *ngIf="service.category === 'Door and Window Screens'" class="breadcrumb-item"
         routerLink="/about/door-and-window-screens">Door and Window Screens</a>
@@ -41,9 +42,21 @@
       </div>
     </div>
 
+    <div *ngIf="service.slug === 'window-screen-repair' ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none" style="padding-right:0px;">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section *ngIf="service.slug !== 'ascent-electric-fireplace' && service.slug !== 'cinema-log-series'"
       class="section extra-margins">
-      <div class="row" *ngIf="service.slug !== 'gas-fireplace-annual-service' && service.slug !== 'our-window-screen-services' ">
+      <div class="row"
+        *ngIf="service.slug !== 'gas-fireplace-annual-service' && service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair' ">
         <div class="col-12">
           <h1 class="text-left h2 mb-2 pageTitle" [innerHTML]="service.title"></h1>
         </div>
@@ -62,18 +75,18 @@
         </h3>
       </div>
 
-      <div *ngIf="service.slug === 'our-window-screen-services'"
-      class="d-flex flex-column flex-md-row mb-0">
-      <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
-        <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
-          {{ service.title }}
-        </h1>
+      <div *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' "
+        class="d-flex flex-column flex-md-row mb-0">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
+            {{ service.title }}
+          </h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block pr-0">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
       </div>
-      <div class="col-md-6 d-none d-lg-block pr-0">
-        <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
-          alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-      </div>
-    </div>
 
 
       <hr />
@@ -82,12 +95,12 @@
 
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
-          <div *ngIf="service.slug !== 'our-window-screen-services' " class="main-image">
+          <div *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'" class="main-image">
             <app-img *ngIf="service.tileImage" [src]="img" class="img-fluid z-depth-2 serviceDetailImage"></app-img>
           </div>
-          <div *ngIf="service.slug === 'our-window-screen-services' " class="main-image">
+          <div *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' " class="main-image">
             <!-- <app-img *ngIf="service.tileImage" [src]="img" class="img-fluid z-depth-2 serviceDetailImage"></app-img> -->
-          <app-main-gallery [Images]="service.images"></app-main-gallery>
+            <app-main-gallery [Images]="service.images"></app-main-gallery>
 
           </div>
           <h4 *ngIf="service.serviceImgCaption" class="p-2 text-center light-gray-text"
@@ -103,13 +116,45 @@
             <div class="col-12">
               <div *ngIf="service.slug === 'our-window-screen-services' ">
                 <h5 class="font-weight-bold font-italic">
-                Fast, friendly, and affordable window screen & frame replacement!
-              </h5>
-              <p>Mike's Mobile offers mobile-on-site service in most areas! Our window screen services include window screen installation, window screen repair, and window screen replacement. <span class="font-weight-bold">Questions? Contact us today!</span></p>
-            </div>
-              <h5 *ngIf="service.slug === 'window-screen-repair' " class="text-center font-weight-bold font-italic">
-                Fast, friendly, and affordable window screen & frame replacement!
-              </h5>
+                  Fast, friendly, & convenient service!
+                </h5>
+                <p>
+                  Updating your home’s window screens has never been easier! With Mike’s Mobile window screen services,
+                  you can relax at home and have our insured technicians do all the work!
+                </p>
+                <p>
+                  Window screen services that we offer include: <span class="font-weight-bold">window screen
+                    installation, window screen repair, and window screen replacement</span>.
+                </p>
+                <p>
+                  Our technicians are fully insured and mobile with the ability to service homeowners across <span
+                    class="font-weight-bold">Northern California</span> within our service area. To make sure that we
+                  provide you with the fastest service possible, our technicians will have most supplies with them to
+                  provide homeowners with on-site repairs! <span class="font-weight-bold">Questions? Contact us
+                    today!</span>
+                </p>
+              </div>
+              <div *ngIf="service.slug === 'window-screen-repair' ">
+                <h5 class="font-weight-bold font-italic">
+                  Fast, friendly, & convenient service!
+                </h5>
+                <p>
+                  Updating your home’s window screens has never been easier! With Mike’s Mobile window screen services,
+                  you can relax at home and have our insured technicians do all the work!
+                </p>
+                <p>
+                  Window screen services that we offer include: <span class="font-weight-bold">window screen
+                    installation, window screen repair, and window screen replacement</span>.
+                </p>
+                <p>
+                  Our technicians are fully insured and mobile with the ability to service homeowners across <span
+                    class="font-weight-bold">Northern California</span> within our service area. To make sure that we
+                  provide you with the fastest service possible, our technicians will have most supplies with them to
+                  provide homeowners with on-site repairs! <span class="font-weight-bold">Questions? Contact us
+                    today!</span>
+                </p>
+              </div>
+
               <h3 *ngIf="service.slug === 'dryer-vent-cleaning'" class="text-center font-weight-bold font-italic">
                 We help prevent dryer fires!
               </h3>
@@ -195,14 +240,14 @@
                 fire brick!
               </h5>
               <hr />
-              <div *ngIf=" service.slug === 'our-window-screen-services' ">
+              <div *ngIf=" service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
                 <div class="container my-3">
                   <div class="row">
                     <div class="col-12 mb-1">
-                      <a class="btn mikesBlueBtn btn-block" href="">Call Us Now</a>
+                      <a class="btn mikesBlueBtn btn-block" href="tel:+1{{service.phone}}">Call Today!</a>
                     </div>
                     <div class="col-12">
-                      <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now</button>
+                      <button class="btn mikesBlueBtn btn-block" (click)="openQuoteForm()">Schedule Now!</button>
                     </div>
                   </div>
                 </div>
@@ -231,9 +276,10 @@
                   </mdb-item-body>
                 </mdb-item>
               </mdb-squeezebox>
-              <div *ngIf=" service.slug !== 'our-window-screen-services' ">
-                  <button class="btn oj btn-block my-3" (click)="openQuoteForm()">Schedule Now!</button>
-                <div class="row text-center mb-3" *ngIf="service.slug !== 'chimney-cleaning' && service.slug !== 'chimney-inspections' ">
+              <div *ngIf=" service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'">
+                <button class="btn mikesBlueBtn btn-block my-3" (click)="openQuoteForm()">Schedule Now!</button>
+                <div class="row text-center mb-3"
+                  *ngIf="service.slug !== 'chimney-cleaning' && service.slug !== 'chimney-inspections' ">
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-8">
@@ -603,15 +649,26 @@
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">
-        <div class="container text-center" *ngIf="service.slug !== 'our-window-screen-services' ">
+        <div class="container text-center" *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'">
           <h2>See Our Recent Work!</h2>
         </div>
-        <div class="container text-center" *ngIf="service.slug === 'our-window-screen-services' ">
+        <div class="container text-center" *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
           <h2>Check Out Our Solar Screens!</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo, et voluptate esse deserunt quaerat eius praesentium necessitatibus ex iste incidunt molestias delectus quo? Reiciendis laborum, eligendi cupiditate adipisci sequi quos? Odit eveniet dignissimos recusandae eligendi, consequuntur asperiores possimus praesentium cum velit, ut esse dolorum, soluta autem assumenda neque repellat.</p>
-          <a routerLink="/products/solar-screens" class="btn mikesBlueBtn">Learn About Solar Screens</a>
         </div>
         <app-footer-gallery [Images]="service.recentInstallImages"></app-footer-gallery>
+        <div class="container text-center" *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
+          <p class="font-weight-bold">UV protection, pet resistant, & increased home privacy!</p>
+          <p>
+            Solar screens are a great way to make your home more comfortable and help save money at the same time! The
+            solar screens from Mike’s Mobile are durable against pets, UV rays, and normal wear and tear. Made out of a
+            strong vinyl-coated polyester fabric that is extremely durable and fade resistant, these solar screens are
+            designed to last! Questions? Contact us today!
+          </p>
+          <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Us Today!</a>
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now!</button>
+          <a routerLink="/products/solar-screens" class="btn mikesBlueBtn">Learn About Solar Screens</a>
+
+        </div>
       </section>
     </div>
   </div>

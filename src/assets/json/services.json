@@ -2479,10 +2479,10 @@
   {
     "title": "Window Screen Repair",
     "slug": "window-screen-repair",
+    "phone": "(800) 992-9938",
     "category": "Door and Window Screens",
     "subcategory": "Window",
     "type": "services",
-    "serviceImgCaption": "Fast, friendly, and affordable window screen & frame replacement!",
     "textList": [
       {
         "title": "Fast",
@@ -2507,24 +2507,50 @@
       "Affordable options"
     ],
     "video": "",
+    "images": [
+      {
+        "alt": "Mike and Hank ready for a repair job",
+        "small": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
+        "medium": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
+        "big": "/assets/images/landing/windowRepair/mikeAndHank1.jpg"
+      },
+      {
+        "alt": "Installing a screen",
+        "small": "/assets/images/landing/windowRepair/installLong.png",
+        "medium": "/assets/images/landing/windowRepair/installLong.png",
+        "big": "/assets/images/landing/windowRepair/installLong.png"
+      },
+      {
+        "alt": "Finished screen",
+        "small": "/assets/images/landing/windowRepair/whiteFrame.png",
+        "medium": "/assets/images/landing/windowRepair/whiteFrame.png",
+        "big": "/assets/images/landing/windowRepair/whiteFrame.png"
+      },
+      {
+        "alt": "Another finished screen",
+        "small": "/assets/images/landing/windowRepair/clearWindow.png",
+        "medium": "/assets/images/landing/windowRepair/clearWindow.png",
+        "big": "/assets/images/landing/windowRepair/clearWindow.png"
+      }
+    ],
     "recentInstallImages": [
       {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+        "alt": "yellow house with solar screens",
+        "small": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
+        "medium": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
+        "big": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png"
       },
       {
-        "alt": "bent window screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg"
+        "alt": "attic window with our Solar Screens",
+        "small": "/assets/images/landing/windowRepair/atticWindow.png",
+        "medium": "/assets/images/landing/windowRepair/atticWindow.png",
+        "big": "/assets/images/landing/windowRepair/atticWindow.png"
       },
       {
-        "alt": "Worker fixing screen",
-        "small": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
+        "alt": "installation of solar screens",
+        "small": "/assets/images/landing/windowRepair/install.png",
+        "medium": "/assets/images/landing/windowRepair/install.png",
+        "big": "/assets/images/landing/windowRepair/install.png"
       }
     ]
   },
@@ -2560,42 +2586,48 @@
     "video": "",
     "images": [
       {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+        "alt": "Mike and Hank ready for a repair job",
+        "small": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
+        "medium": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
+        "big": "/assets/images/landing/windowRepair/mikeAndHank1.jpg"
       },
       {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+        "alt": "Installing a screen",
+        "small": "/assets/images/landing/windowRepair/installLong.png",
+        "medium": "/assets/images/landing/windowRepair/installLong.png",
+        "big": "/assets/images/landing/windowRepair/installLong.png"
       },
       {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+        "alt": "Finished screen",
+        "small": "/assets/images/landing/windowRepair/whiteFrame.png",
+        "medium": "/assets/images/landing/windowRepair/whiteFrame.png",
+        "big": "/assets/images/landing/windowRepair/whiteFrame.png"
+      },
+      {
+        "alt": "Another finished screen",
+        "small": "/assets/images/landing/windowRepair/clearWindow.png",
+        "medium": "/assets/images/landing/windowRepair/clearWindow.png",
+        "big": "/assets/images/landing/windowRepair/clearWindow.png"
       }
     ],
     "recentInstallImages": [
       {
-        "alt": "Worker fixing screen",
-        "small": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
+        "alt": "yellow house with solar screens",
+        "small": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
+        "medium": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
+        "big": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png"
       },
       {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
+        "alt": "attic window with our Solar Screens",
+        "small": "/assets/images/landing/windowRepair/atticWindow.png",
+        "medium": "/assets/images/landing/windowRepair/atticWindow.png",
+        "big": "/assets/images/landing/windowRepair/atticWindow.png"
       },
       {
-        "alt": "bent window screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg"
+        "alt": "installation of solar screens",
+        "small": "/assets/images/landing/windowRepair/install.png",
+        "medium": "/assets/images/landing/windowRepair/install.png",
+        "big": "/assets/images/landing/windowRepair/install.png"
       }
     ]
   },
