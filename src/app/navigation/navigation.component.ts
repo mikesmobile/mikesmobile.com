@@ -1,8 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-import { Router, Event, NavigationEnd } from '@angular/router';
+import { Router, Event, NavigationEnd, ActivatedRoute } from '@angular/router';
 
 import servicesJSON from '../../assets/json/services.json';
+import { JSONLDService } from '../services/jsonld.service';
 
 @Component({
   selector: 'app-navigation',
@@ -28,7 +29,7 @@ export class NavigationComponent{
     this.quoteForm.show();
   }
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private route: ActivatedRoute, private jsonService: JSONLDService) {
     this.currentRoute = "";
     this.router.events.subscribe((event: Event) => {
       if (event instanceof NavigationEnd) {
@@ -49,7 +50,7 @@ export class NavigationComponent{
     }
     return false;
   }
-  
+
   phoneNumberSwitch() {
     // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
     if (this.currentRoute.startsWith('/about/security-screen-doors')) {
@@ -59,6 +60,8 @@ export class NavigationComponent{
     } else if(this.currentRoute.startsWith('/products/viewguards')){
       this.phone = "(916) 318-9845";
     } else if(this.currentRoute.startsWith('/about/theWaterproofingPackage')){
+      this.phone = '(916) 304-8225';
+    }else if(this.currentRoute.startsWith('/about/our-security-screen-doors')){
       this.phone = '(916) 304-8225';
     }else {
       this.phone = "(800) 992-9938";

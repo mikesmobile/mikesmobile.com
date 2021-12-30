@@ -230,7 +230,6 @@ const appRoutes: Routes = [
   { path: 'blog', component: PostListComponent },
   // { path: 'chimney-faq', component: ChimneyFaqComponent },
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
-  { path: 'service-area', component: ContactComponent },
   { path: 'service-area/:id', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
@@ -248,7 +247,6 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
-  { path: 'security-screen-doors-email', component: LandingPageComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
 

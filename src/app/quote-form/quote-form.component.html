@@ -1,10 +1,10 @@
 <div mdbModal #quoteModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="quoteFormTitle"
   aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" style="margin-top: 0px;" role="document">
     <div class="modal-content quoteFormContainer">
       <div class="modal-header justify-content-start">
-        <h4 class="modal-title text-start px-2" id="quoteFormTitle">
-          Get a Free Quote Now! <br /><a class="orange-text" href="tel:+18009929938" role="link">800-992-9938</a>
+        <h4 class="modal-title text-start p-2" id="quoteFormTitle">
+          Get a Free Quote Now! <br />
         </h4>
         <button type="button" class="close" aria-label="Close" (click)="hide()">
           <span aria-hidden="true">×</span>
@@ -98,7 +98,7 @@
           or by calling us at
           <a href="tel:18009929938" class="white-text">1 (800) 992-9938</a>!
         </div>
-        <button type="reset" class="btn gray waves-light flex-fill" mdbRippleRadius (click)="handleReset()">
+        <button type="reset" class="btn gray waves-light flex-fill resetButtonColor" mdbRippleRadius (click)="handleReset()">
           Reset
         </button>
         <button type="submit" class="btn blue relative waves-light flex-fill" mdbRippleRadius

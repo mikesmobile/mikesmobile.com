@@ -5630,12 +5630,6 @@
     ]
   },
   {
-    "title": "security-screen-doors-email",
-    "slug": "security-screen-doors-email",
-    "type": "landing",
-    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg"
-  },
-  {
     "title": "Security Screen Doors and Windows",
     "slug": "security-doors-and-windows",
     "type": "landing",
@@ -5716,5 +5710,11 @@
     "title": "Security Screen Doors",
     "slug": "security-screen-doors",
     "type": "landing"
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "our-security-screen-doors",
+    "type": "landing",
+    "phone": "(916) 304-8225"
   }
 ]
