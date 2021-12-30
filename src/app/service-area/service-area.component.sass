@@ -1,0 +1,42 @@
+@import '../../sass/modules/_mixins.sass'
+@import '../../sass/modules/_variables.sass'
+
+.info-box
+  background-color: $mmblue
+  border-radius: 5px
+  text-align: center
+  width: 300px
+  height: 200px
+  top: 265px
+  margin-top: -190px
+  left: 8%
+  z-index: 9
+  position: relative
+  @include breakpoint(sm)
+    top: 380px
+    left: 70%
+  p
+    font-size: 1rem
+hr
+  background-color: $orange
+
+h3, .h3
+  font-size: 1.25rem
+
+.email
+  margin: 0 auto
+
+.area-list
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    border-bottom: 1px solid #333
+    display: inline-block
+    width: 50%
+    @include breakpoint(md)
+      width: 33%
+
+.mmbg
+  background-color: $mmblue
