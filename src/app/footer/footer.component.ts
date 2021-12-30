@@ -30,6 +30,7 @@ export class FooterComponent {
     '/grid/our-chimney-repairs',
     '/about/our-screen-doors',
     '/services/our-window-screen-services',
+    '/about/our-security-screen-doors'
   ]
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
