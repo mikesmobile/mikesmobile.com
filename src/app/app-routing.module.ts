@@ -230,6 +230,7 @@ const appRoutes: Routes = [
   { path: 'blog', component: PostListComponent },
   // { path: 'chimney-faq', component: ChimneyFaqComponent },
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
+  { path: 'service-area', component: ContactComponent },
   { path: 'service-area/:id', component: ContactComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
