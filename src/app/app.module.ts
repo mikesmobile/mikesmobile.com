@@ -70,6 +70,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 
@@ -136,7 +137,8 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
     SolarScreenPriceCalcComponent,
     QuoteFormSolarScreenComponent,
     LandingContactComponent,
-    ServiceAreaComponent
+    ServiceAreaComponent,
+    ContactFormComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

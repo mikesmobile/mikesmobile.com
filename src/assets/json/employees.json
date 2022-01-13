@@ -61,13 +61,6 @@
     
     },
     {
-        "image": "../../assets/images/team/recoS.jpg",
-        "alt": "Mike's Mobile Technician, Reco S.",
-        "name": "Reco S.",
-        "position": "Gas Technician"
-    
-    },
-    {
         "image": "../../assets/images/team/timM.jpg",
         "alt": "Mike's Mobile Technician, Tim T",
         "name": "Tim M.",
@@ -122,13 +115,6 @@
         "image": "../../assets/images/team/michaelM.jpg",
         "alt": "Mike's Mobile Technician, Michael M.",
         "name": "Michael M.",
-        "position": "Sales Technician"
-    
-    },
-    {
-        "image": "../../assets/images/team/vincentZ.jpg",
-        "alt": "Mike's Mobile Technician, Vincent Z",
-        "name": "Vincent Z.",
         "position": "Sales Technician"
     
     },
