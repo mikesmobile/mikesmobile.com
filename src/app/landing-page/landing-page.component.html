@@ -1184,7 +1184,7 @@
     </div>
   </ng-container>
 
-  <ng-container *ngIf="landing.slug === 'security-screen-doors' ">
+  <!-- <ng-container *ngIf="landing.slug === 'security-screen-doors' ">
     <div class="container pt-4">
       <div class="row">
         <div class="col-12">
@@ -1325,6 +1325,343 @@
         </div>
       </div>
     </div>
+  </ng-container> -->
+
+  <ng-container *ngIf="landing.slug === 'security-screen-doors' ">
+    <div class="container pt-4">
+      <!-- Main -->
+      <div class="row">
+        <div class="order-2 order-lg-1 col-12 col-lg-6 p-2 p-md-5">
+          <h1>Your Home Should Be A Safe Place</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est praesentium perferendis a nemo soluta unde
+            necessitatibus quos deleniti? Ab sunt quaerat deleniti quis ducimus, quisquam corrupti! Officiis pariatur
+            iure ipsum.</p>
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+        </div>
+        <div class="col-12 col-lg-6 order-1 order-lg-2">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png"
+            alt="red viewguard" />
+        </div>
+      </div>
+    </div>
+    <!-- icons with words -->
+    <div class="container-fluid">
+      <div class="row my-5">
+
+        <div class="col-12 col-lg-4 py-4 bluishBackground">
+          <p class="text-center subtitleBold mb-0">
+            ✓ peace of mind
+          </p>
+        </div>
+        <div class="d-none d-lg-block col-12 col-lg-4 py-4 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p class="text-center subtitleBold mb-0">
+            ✓ comfortable living space
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-4 bluishBackground">
+          <p class="subtitleBold text-center mb-0">
+            ✓ comfortable living space
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 py-4 bluishBackground">
+          <p class="subtitleBold text-center mb-0">
+            ✓ beautiful entryway
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 p-5">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/frontEntrance.png"
+            alt="home entrance" />
+        </div>
+
+        <div class="col-12 col-lg-6 py-5">
+          <h2>Are You A Homeowner that Experiences:</h2>
+          <ul style="line-height: 40px;">
+            <li>Lack Of Fresh Air in your home</li>
+            <li>Not feeling secure in your own home</li>
+            <li>Third problem goes here</li>
+            <li>Fourth problem goes here</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- A Security Screen -->
+    <div class="container-fluid">
+      <div class="row my-5 p-5 bluishBackground">
+
+        <div class="col-12 text-center">
+          <h2>A Security Screen door will provide you with...</h2>
+        </div>
+        <div class="col-12 col-sm-4">
+          <div class="mx-md-5 mt-md-5">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/lock.png"
+              alt="lock to show Mike's Mobile values security">
+          </div>
+          <p class="text-center subtitleBold">
+            Security
+          </p>
+          <p class="text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ipsa facere voluptas deserunt
+            consequuntur
+            sit, ullam illo quis repudiandae pariatur?
+          </p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <div class="mx-md-5 mt-md-5">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/houseAir.png"
+              alt="air flow in a house is extremely important to Mike's Mobile!">
+          </div>
+          <p class="text-center subtitleBold">
+            Airflow
+          </p>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae hic commodi iusto eaque qui magnam in
+            officia
+            fugiat corporis fugit?
+          </p>
+        </div>
+        <div class="col-12 col-sm-4">
+          <div class="mx-md-5 mt-md-5">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/star.png"
+              alt="Your style is important to us!">
+          </div>
+          <p class="text-center subtitleBold">
+            Peronalized Style
+          </p>
+          <p class="text-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nulla velit aperiam possimus ullam nam
+            libero
+            in perspiciatis iusto. Iusto.
+          </p>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center mt-4">
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule a Call</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- We Understand -->
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2 class="text-center mb-2">We Understand upgrading your home can be stressful - we're here for you!</h2>
+          <p class="text-center">We've proudly helped over ___ homeowners across California with home renovations</p>
+        </div>
+      </div>
+
+      <div class="row text-center pb-5 mx-0">
+        <div class="col-12 px-0 mx-0">
+          <div class="card-deck">
+            <div class="card yelpCard" *ngFor="let review of doorsReviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service</a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+
+          <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center mt-4">
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule A Call</button>
+        </div>
+      </div>
+    </div>
+    <!-- How We Make It Easy -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <h2>How We Make It Easy:</h2>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="mx-md-5">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/ladyCSR.png"
+                alt=" Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 pt-3 pb-4 py-md-5">
+            <p class="subtitle">1. Call Us</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore corporis repellat consequuntur saepe
+              ipsam modi voluptates ad!</p>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="mx-md-5">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/securityDoorScrew.png"
+                alt="One of our outstanding technicians will be able to install your security screens to perfection!">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 pt-3 pb-4 py-md-5">
+            <p class="subtitle">2. Get Your Professional Installation</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius suscipit ex eaque cupiditate, natus
+              iusto
+              nesciunt non ad omnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="mx-md-5">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png"
+                alt="Beautiful Red Viewguard, perfect for YOUR house!">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 pt-3 pb-4 py-md-5">
+            <p class="subtitle">3. Enjoy Your Screen</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius suscipit ex eaque cupiditate, natus
+              iusto
+              nesciunt non ad omnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule A Call</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <img class='img-fluid' src="../../assets/images/landing/securityscreen/hankLadder.png"
+            alt="One of our amazing technicians, Hank, ready to make your home more secure!">
+        </div>
+        <div class="col-12 col-lg-7 px-2 mt-5 px-md-5">
+          <h3>Free Consultation Appointment</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, reiciendis ad. Atque nam, vel soluta qui
+            porro libero ipsa maiores est quaerat provident quasi minima nostrum animi exercitationem blanditiis
+            suscipit, repudiandae natus optio enim dolor ullam, dolorem assumenda distinctio debitis.</p>
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule a Call</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Mike's Mobile -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="order-2 order-lg-1 col-12 col-lg-7 px-2 mt-5 px-md-5">
+            <h3>Why Mike's Mobile?</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, reiciendis ad. Atque nam, vel soluta qui
+              porro libero ipsa maiores est quaerat provident quasi minima nostrum animi exercitationem blanditiis
+              suscipit, repudiandae natus optio enim dolor ullam, dolorem assumenda distinctio debitis.</p>
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule a Call</button>
+          </div>
+          <div class="col-12 col-lg-5 order-1 order-lg-2">
+            <img class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
+              alt="Map of our Service Area!">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Check Out Our Recent Work -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h2>Check Out Our Recent Work!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 class="d-flex justify-content-center">Are you ready to upgrade your home?</h2>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="col-12 px-5">
+              <h3 class="font-weight-bold">Schedule A Free Consultation!</h3>
+              <br>
+              <p>Hassle-Free, transparent service.. Etc.</p>
+              <br>
+              <p>For all questions reguarding our services, fill out the contact form or <a class="font-link"
+                  href="tel:+1{{landing.phone}}" style="text-decoration:underline !important;">Call us Today</a></p>
+                <br>
+              <p class="text-danger">We will contact you within our regular business hours and within 24-48 hours of contact request submission</p>
+            
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <app-contact-form></app-contact-form>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </ng-container>
 
   <ng-container *ngIf="landing.slug === 'our-security-screen-doors' ">
@@ -1382,13 +1719,16 @@
             <a href="tel:+1{{landing.phone}}" class="d-none d-lg-block btn mikesBlueBtn">
               <span class="underLineText">Call Today</span>
             </a>
-            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()"><span class="underLineText">Get A Free Consultation</span></button>
+            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()"><span class="underLineText">Get
+                A Free Consultation</span></button>
           </div>
-          <a href="tel:+1{{landing.phone}}" class="mb-2 d-lg-none btn btn-block mikesBlueBtn"><span class="underLineText">Call Today</span></a>
-          <button class="d-lg-none btn-block btn mikesBlueBtn" (click)="openQuoteForm()"><span class="underLineText">Get A Free Consultation</span></button>
+          <a href="tel:+1{{landing.phone}}" class="mb-2 d-lg-none btn btn-block mikesBlueBtn"><span
+              class="underLineText">Call Today</span></a>
+          <button class="d-lg-none btn-block btn mikesBlueBtn" (click)="openQuoteForm()"><span class="underLineText">Get
+              A Free Consultation</span></button>
         </div>
       </div>
-      
+
       <app-service-area></app-service-area>
 
 
@@ -1443,8 +1783,8 @@
             the options below or by phone at <a href="tel:+18664057600">(866) 405-7600</a>.</p>
         </div>
       </div>
-      
-      
+
+
       <div class="row d-flex justify-content-around">
         <div class="col-12 col-md-5">
           <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
@@ -1470,7 +1810,7 @@
             closes.</p>
         </div>
       </div>
-      
+
       <div class="row d-flex justify-content-center">
         <div class="col-12 py-3 col-md-10">
           <p style="font-size:10px;">No liens, collateral, equity or down payments. No prepayment penalties. Minimum

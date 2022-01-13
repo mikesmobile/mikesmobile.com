@@ -10,11 +10,12 @@ import { JSONLDService } from '../services/jsonld.service';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.sass']
 })
-export class NavigationComponent{
+export class NavigationComponent {
   phone: string;
   currentRoute: string;
   hideMe: boolean;
-  service;
+  // landing;
+  // phoneList = [];
 
   noPhoneButton = [
     '/grid/our-chimney-repairs',
@@ -24,6 +25,7 @@ export class NavigationComponent{
     '/about/our-screen-doors',
     '/services/our-window-screen-services'
   ];
+
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
     this.quoteForm.show();
@@ -36,13 +38,50 @@ export class NavigationComponent{
         // Hide progress spinner or progress bar
         this.currentRoute = event.url;
         this.phoneNumberSwitch()
-        this.hideMe = this.showButton()
+        this.hideMe = this.dontShowButton()
       }
     });
   }
+  // ngOnInit() {
+  //   this.route.params.subscribe((params) => {
+  //     this.landing = servicesJSON.find((data) => {
+  //       if (data.slug === params['slug']) {
+  //         if (data.offers) {
+  //           this.jsonService.updateJSONLD({
+  //             name: data.title,
+  //             description: data.tileText,
+  //             image: data.tileImage,
+  //             offers: data.offers
+  //           });
+  //           return true;
+  //         } else {
+  //           this.jsonService.updateJSONLD({
+  //             name: data.title,
+  //             description: data.tileText,
+  //             image: data.tileImage,
+  //             offers: ''
+  //           });
+  //           return true;
+  //         }
+  //       }
 
-  showButton() {
-    // this is where I put the landing pages to remove the footer
+  //       return false;
+  //     });
+
+  //     servicesJSON.forEach((data) => {
+
+  //       if(this.noPhoneButton.includes("/grid/"+ data.slug)|| this.noPhoneButton.includes("/about/"+ data.slug) || this.noPhoneButton.includes("/security/"+ data.slug)){
+  //         this.phoneList.push(data)
+  //         // console.log(this.phoneList)
+  //       }
+  //     });
+
+
+  //   });
+  // }
+
+  dontShowButton() {
+    // this is where I put the landing pages to remove the phone button
     for(let i = 0; i < this.noPhoneButton.length; i++){
       if(this.currentRoute.startsWith(this.noPhoneButton[i])){
         return true;
@@ -66,6 +105,15 @@ export class NavigationComponent{
     }else {
       this.phone = "(800) 992-9938";
     }
+    // console.log("current Route: "+this.currentRoute)
+    // for(let i = 0; i < this.phoneList.length; i++){
+    //   if(this.currentRoute == "/about/" + this.phoneList[i].slug || "/grid/" + this.phoneList[i].slug || "/products/" + this.phoneList[i].slug){
+    //     console.log("phoneList slug:" + this.phoneList[i].slug)
+    //     return this.phoneList[i].phone;
+    //   }
+    // }
+    // return "(800) 992-9938";
+
   }
 
   openDropdown() {
