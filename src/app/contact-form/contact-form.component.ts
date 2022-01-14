@@ -1,8 +1,8 @@
 
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ModalDirective } from 'ng-uikit-pro-standard';
+
 
 import { MailService } from '../services/mail.service';
 
@@ -19,7 +19,6 @@ declare global {
   providers: [MailService]
 })
 export class ContactFormComponent {
-  @ViewChild('quoteModal') public quoteModal: ModalDirective;
   public submitFailed: boolean = false;
   public methodSelect: Array<any> = [
     { value: 'email', label: 'Contact me via Email' },
@@ -75,13 +74,9 @@ export class ContactFormComponent {
     return this.quoteFormGroup.get('contactMethod');
   }
 
-  public show() {
-    this.quoteModal.show();
-  }
 
-  hide() {
-    this.quoteModal.hide();
-  }
+
+
 
   handleReset() {
     this.submitFailed = false;
@@ -121,16 +116,18 @@ export class ContactFormComponent {
         utm_campaign
       })
       .then((res) => {
+        console.log(res)
 
         if (!res.ok) {
           throw Error(res.statusText);
         }
 
-        this.hide();
+
         this.quoteFormGroup.reset({});
         this.router.navigate(['/thank-you']);
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err)
         this.submitFailed = true;
       });
   }
