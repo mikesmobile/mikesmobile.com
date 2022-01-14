@@ -116,13 +116,9 @@ export class ContactFormComponent {
         utm_campaign
       })
       .then((res) => {
-        console.log(res)
-
         if (!res.ok) {
           throw Error(res.statusText);
         }
-
-
         this.quoteFormGroup.reset({});
         this.router.navigate(['/thank-you']);
       })
