@@ -1,186 +1,372 @@
-<nav class="sticky-top no-shadows">
-  <mdb-navbar id="#backToTop" class="z-depth-1 no-shadows navbar-light sticky-top"
-    SideClass="navbar no-shadows sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
-    <a class="navbar-brand" routerLink="/">
-      <img src="/assets/images/main/navBarLogo.png" height="50px" alt="Mike’s Mobile Screen & Chimney Service">
-    </a>
+<!-- I'm sure there's a better way but we wanted the nav to be container sized instead of container fluid.. so i'm duplicating it -C.E. -->
+<nav id="#backToTop" class="sticky-top">
+  <mdb-navbar class="d-none d-lg-block z-depth-1 navbar-light sticky-top"
+    SideClass="navbar sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
+    <div class="container">
 
-    <links>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item ml-2">
-          <a class="nav-link blueOnHover" routerLink="/">
-            <i class="fa fa-home pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
-            Home
-          </a>
-        </li>
-        <li class="nav-item ml-2">
-          <a class="nav-link blueOnHover" routerLink="/about">
-            <i class="fa fa-users pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
-            About
-          </a>
-        </li>
-        <li class="nav-item ml-2">
-          <a class="nav-link blueOnHover" routerLink="/service-area">
-            <i class="fas fa-map-marked-alt pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
-            Service Areas
-          </a>
-        </li>
 
-        <li class="nav-item ml-2">
-          <!-- shows in lg-xl -->
-          <a dropdownToggle type="button" class="blueOnHover nav-link d-none d-lg-block" (mouseenter)="openDropdown()"
-            (mouseleave)="closeDropdown()" mdbRippleRadius> Services </a>
-          <!-- Shows in xs-md -->
-          <a dropdownToggle class="nav-link d-lg-none blueOnHover" (click)="toggleDropdownMobile()" mdbRippleRadius>
-            <i class="fa fa-wrench pr-3 desktop-disappear faSymbolMobile" style="padding-left: 3px;"
-              aria-hidden="true"></i> Services <i class="fa fa-angle-right float-right mt-1 desktop-disappear"
-              aria-hidden="true"></i>
-          </a>
-        </li>
-        <div class="btn-group" dropdown>
-          <div class="p-3 dropdown-menu megamenu" id="dropdown" (mouseenter)="openDropdown()"
-            (mouseleave)="closeDropdown()">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
-                    routerLink="/about/security-doors-and-windows">
-                    <h5>Door and Window Security</h5>
-                  </a>
-                  <div class="divider dropdown-divider pt-0 mt-0"></div>
+      <a class="navbar-brand" routerLink="/">
+        <img src="/assets/images/main/navBarLogo.png" height="50px" alt="Mike’s Mobile Screen & Chimney Service">
+      </a>
 
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-doors">
-                    <h6><strong>Security Screen Doors</strong></h6>
-                  </a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/viewguard-security-doors">Viewguard Security Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/tru-view-security-doors">TRU-View Security Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/sliding-security-doors">Sliding Security Screen Doors</a>
-                  <h6><strong>Security Window Screens</strong></h6>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/security-windows">Security Windows</a>
-                </div>
-                <div class="col">
-                  <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
-                    routerLink="/about/door-and-window-screens">
-                    <h5>Door and Window Screens</h5>
-                  </a>
-                  <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/window-screens">
-                    <h6><strong>Window Screens</strong></h6>
-                  </a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/services/window-screen-repair">Screen Repair</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/solar-screens">Solar
-                    Screens</a>
+      <links>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/">
+              <i class="fa fa-home pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/about">
+              <i class="fa fa-users pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              About
+            </a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/service-area">
+              <i class="fas fa-map-marked-alt pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              Service Areas
+            </a>
+          </li>
 
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/door-screens">
-                    <h6><strong>Screen Doors</strong></h6>
-                  </a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/retractable-screen-doors">Retractable Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/sliding-screen-doors">Sliding Screen Doors</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/swinging-screen-doors">Swinging Screen Door</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/products/pet-doors">Pet
-                    Doors</a>
-                </div>
-                <div class="col">
-                  <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
-                    routerLink="/about/chimney-services">
-                    <h5>Chimney Services</h5>
-                  </a>
-                  <div class="divider dropdown-divider pt-0 mt-0"></div>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/services/chimney-inspections">Inspections</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/services/chimney-cleaning">Cleanings</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/Gas-Fireplaces">Fireplace Installation</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplace Repair & Service</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/about/pellet-stove-repair">Pellet Stove Repair & Service</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/about/water-proofing-package">Masonry Waterproofing Package</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/chimney-repairs">Repair</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/chimney-accessories">Accessories</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/products/chimney-caps">Chimney Caps</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/grid/masonry-services">Masonry Services</a>
-                  <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
-                    routerLink="/services/dryer-vent-cleaning">Dryer Vent Cleaning</a>
+          <li class="nav-item ml-2">
+            <!-- shows in lg-xl -->
+            <a dropdownToggle type="button" class="blueOnHover nav-link d-none d-lg-block" (mouseenter)="openDropdown()"
+              (mouseleave)="closeDropdown()" mdbRippleRadius> Services </a>
+            <!-- Shows in xs-md -->
+            <a dropdownToggle class="nav-link d-lg-none blueOnHover" (click)="toggleDropdownMobile()" mdbRippleRadius>
+              <i class="fa fa-wrench pr-3 desktop-disappear faSymbolMobile" style="padding-left: 3px;"
+                aria-hidden="true"></i> Services <i class="fa fa-angle-right float-right mt-1 desktop-disappear"
+                aria-hidden="true"></i>
+            </a>
+          </li>
+          <div class="btn-group" dropdown>
+            <div class="p-3 dropdown-menu megamenu" id="dropdown" (mouseenter)="openDropdown()"
+              (mouseleave)="closeDropdown()">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/security-doors-and-windows">
+                      <h5>Door and Window Security</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-doors">
+                      <h6><strong>Security Screen Doors</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/viewguard-security-doors">Viewguard Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/tru-view-security-doors">TRU-View Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/sliding-security-doors">Sliding Security Screen Doors</a>
+                    <h6><strong>Security Window Screens</strong></h6>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/security-windows">Security Windows</a>
+                  </div>
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/door-and-window-screens">
+                      <h5>Door and Window Screens</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/window-screens">
+                      <h6><strong>Window Screens</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/window-screen-repair">Screen Repair</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/solar-screens">Solar
+                      Screens</a>
+
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/door-screens">
+                      <h6><strong>Screen Doors</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/retractable-screen-doors">Retractable Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/sliding-screen-doors">Sliding Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/swinging-screen-doors">Swinging Screen Door</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/products/pet-doors">Pet
+                      Doors</a>
+                  </div>
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/chimney-services">
+                      <h5>Chimney Services</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/chimney-inspections">Inspections</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/chimney-cleaning">Cleanings</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/Gas-Fireplaces">Fireplace Installation</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplace Repair & Service</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/pellet-stove-repair">Pellet Stove Repair & Service</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/water-proofing-package">Masonry Waterproofing Package</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/chimney-repairs">Repair</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/chimney-accessories">Accessories</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/chimney-caps">Chimney Caps</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/masonry-services">Masonry Services</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/dryer-vent-cleaning">Dryer Vent Cleaning</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="btn-group" dropdown>
-          <div class="px-3 py-1 dropdown-menu z-depth-2 mobile-submenu" id="DropdownMobile"
-            (click)="toggleDropdownMobile()">
-            <li>
-              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
-                routerLink="/about/security-doors-and-windows">
-                <h6 class="mobileDrop">Door and Window Security</h6>
-              </a>
-            </li>
-            <li>
-              <div class="divider dropdown-divider pt-0 mt-0"></div>
-              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/door-and-window-screens">
-                <h6 class="mobileDrop">Door and Window Screens</h6>
-              </a>
-            </li>
-            <li>
+          <div class="btn-group" dropdown>
+            <div class="px-3 py-1 dropdown-menu z-depth-2 mobile-submenu" id="DropdownMobile"
+              (click)="toggleDropdownMobile()">
+              <li>
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+                  routerLink="/about/security-doors-and-windows">
+                  <h6 class="mobileDrop">Door and Window Security</h6>
+                </a>
+              </li>
+              <li>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+                  routerLink="/about/door-and-window-screens">
+                  <h6 class="mobileDrop">Door and Window Screens</h6>
+                </a>
+              </li>
+              <li>
 
-              <div class="divider dropdown-divider pt-0 mt-0"></div>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
 
-              <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
-                <h6 class="mobileDrop">Chimney Services</h6>
-              </a>
-              <div class="divider dropdown-divider pt-0 mt-0"></div>
-            </li>
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
+                  <h6 class="mobileDrop">Chimney Services</h6>
+                </a>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+              </li>
+            </div>
           </div>
-        </div>
-      </ul>
-      <!-- 
+        </ul>
+        <!-- 
       <img src="../../assets/images/landing/Map.Landing.Graphic.png" height="60px"
       alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!"> -->
-      
-      <a *ngIf="!hideMe" class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
-        <i class="fa fa-phone faSymbolMobile"></i>
-        <span class="underLineText">
-          Call Now
-        </span>
-      </a>
+
+        <a *ngIf="!hideMe" class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+          <i class="fa fa-phone faSymbolMobile"></i>
+          <span class="underLineText">
+            Call Now
+          </span>
+        </a>
 
 
-      <!-- The Phone Number With Button Here -->
-      <!-- <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+        <!-- The Phone Number With Button Here -->
+        <!-- <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
         <i class="fa fa-phone faSymbolMobile"></i>
         {{phone}}
       </a> -->
-    </links>
+      </links>
+
+    </div>
 
   </mdb-navbar>
+<!-- this is the "small" navbar -->
+  <mdb-navbar class="d-lg-none z-depth-1 navbar-light sticky-top"
+    SideClass="navbar sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
+
+      <a class="navbar-brand" routerLink="/">
+        <img src="/assets/images/main/navBarLogo.png" height="50px" alt="Mike’s Mobile Screen & Chimney Service">
+      </a>
+
+      <links>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/">
+              <i class="fa fa-home pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/about">
+              <i class="fa fa-users pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              About
+            </a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link blueOnHover" routerLink="/service-area">
+              <i class="fas fa-map-marked-alt pr-3 desktop-disappear faSymbolMobile" aria-hidden="true"></i>
+              Service Areas
+            </a>
+          </li>
+
+          <li class="nav-item ml-2">
+            <!-- shows in lg-xl -->
+            <a dropdownToggle type="button" class="blueOnHover nav-link d-none d-lg-block" (mouseenter)="openDropdown()"
+              (mouseleave)="closeDropdown()" mdbRippleRadius> Services </a>
+            <!-- Shows in xs-md -->
+            <a dropdownToggle class="nav-link d-lg-none blueOnHover" (click)="toggleDropdownMobile()" mdbRippleRadius>
+              <i class="fa fa-wrench pr-3 desktop-disappear faSymbolMobile" style="padding-left: 3px;"
+                aria-hidden="true"></i> Services <i class="fa fa-angle-right float-right mt-1 desktop-disappear"
+                aria-hidden="true"></i>
+            </a>
+          </li>
+          <div class="btn-group" dropdown>
+            <div class="p-3 dropdown-menu megamenu" id="dropdown" (mouseenter)="openDropdown()"
+              (mouseleave)="closeDropdown()">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/security-doors-and-windows">
+                      <h5>Door and Window Security</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/security-doors">
+                      <h6><strong>Security Screen Doors</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/viewguard-security-doors">Viewguard Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/tru-view-security-doors">TRU-View Security Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/sliding-security-doors">Sliding Security Screen Doors</a>
+                    <h6><strong>Security Window Screens</strong></h6>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/security-windows">Security Windows</a>
+                  </div>
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/door-and-window-screens">
+                      <h5>Door and Window Screens</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/window-screens">
+                      <h6><strong>Window Screens</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/window-screen-repair">Screen Repair</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/solar-screens">Solar
+                      Screens</a>
+
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/about/door-screens">
+                      <h6><strong>Screen Doors</strong></h6>
+                    </a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/retractable-screen-doors">Retractable Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/sliding-screen-doors">Sliding Screen Doors</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/swinging-screen-doors">Swinging Screen Door</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius routerLink="/products/pet-doors">Pet
+                      Doors</a>
+                  </div>
+                  <div class="col">
+                    <a class="dropdown-item waves-dark pb-0 mb-0 orange-text" mdbRippleRadius
+                      routerLink="/about/chimney-services">
+                      <h5>Chimney Services</h5>
+                    </a>
+                    <div class="divider dropdown-divider pt-0 mt-0"></div>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/chimney-inspections">Inspections</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/chimney-cleaning">Cleanings</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/Gas-Fireplaces">Fireplace Installation</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplace Repair & Service</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/pellet-stove-repair">Pellet Stove Repair & Service</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/about/water-proofing-package">Masonry Waterproofing Package</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/chimney-repairs">Repair</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/chimney-accessories">Accessories</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/products/chimney-caps">Chimney Caps</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/grid/masonry-services">Masonry Services</a>
+                    <a class="dropdown-item waves-dark blue-text" mdbRippleRadius
+                      routerLink="/services/dryer-vent-cleaning">Dryer Vent Cleaning</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-group" dropdown>
+            <div class="px-3 py-1 dropdown-menu z-depth-2 mobile-submenu" id="DropdownMobile"
+              (click)="toggleDropdownMobile()">
+              <li>
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+                  routerLink="/about/security-doors-and-windows">
+                  <h6 class="mobileDrop">Door and Window Security</h6>
+                </a>
+              </li>
+              <li>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius
+                  routerLink="/about/door-and-window-screens">
+                  <h6 class="mobileDrop">Door and Window Screens</h6>
+                </a>
+              </li>
+              <li>
+
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+
+                <a class="dropdown-item waves-dark py-0 mb-0" mdbRippleRadius routerLink="/about/chimney-services">
+                  <h6 class="mobileDrop">Chimney Services</h6>
+                </a>
+                <div class="divider dropdown-divider pt-0 mt-0"></div>
+              </li>
+            </div>
+          </div>
+        </ul>
+        <!-- 
+      <img src="../../assets/images/landing/Map.Landing.Graphic.png" height="60px"
+      alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!"> -->
+
+        <a *ngIf="!hideMe" class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+          <i class="fa fa-phone faSymbolMobile"></i>
+          <span class="underLineText">
+            Call Now
+          </span>
+        </a>
+
+
+        <!-- The Phone Number With Button Here -->
+        <!-- <a class="btn mikesBlueBtn text-dark mx-2 d-none d-lg-block" href="tel:+1{{phone}}" role="link">
+        <i class="fa fa-phone faSymbolMobile"></i>
+        {{phone}}
+      </a> -->
+      </links>
+
+  </mdb-navbar>
+
   <div *ngIf="!hideMe" class="container-fluid p-0">
     <div class="row z-depth-1 text-center justify-content-center mt-1 mb-0 mx-0 p-0 d-lg-none">
       <div class="col-12 m-0 p-0">
         <ul class="navbar-nav btn mikesBlueBtn text-center py-1">
-          <a class="hellaBigMobile text-dark fsMobile" href="tel:+1{{phone}}" role="link"><i class="fa fa-phone faSymbolMobile"></i><span class="underLineText">Call Now</span></a>
+          <a class="hellaBigMobile text-dark fsMobile" href="tel:+1{{phone}}" role="link"><i
+              class="fa fa-phone faSymbolMobile"></i><span class="underLineText">Call Now</span></a>
         </ul>
       </div>
     </div>
   </div>
 
 </nav>
+
+
 <div id="backToTop"></div>
 <app-quote-form></app-quote-form>
