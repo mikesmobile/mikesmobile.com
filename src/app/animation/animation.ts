@@ -1,4 +1,4 @@
-import { animate, sequence, state, style, transition, trigger } from "@angular/animations";
+import { animate, query, sequence, stagger, state, style, transition, trigger } from "@angular/animations";
 
 export let fade = trigger('fade', [
     state('void', style({ opacity: 0 })),
@@ -12,7 +12,7 @@ export let moveLeft = trigger('moveLeft', [
     transition(':enter, :leave', [animate(2000)])
 ])
 
-export let moveRight = trigger('moveLeft', [
+export let moveRight = trigger('moveRight', [
     state('void', style({ marginRight: 40 })),
     transition(':enter, :leave', [animate(2000)])
 ])
@@ -22,21 +22,14 @@ export let float = trigger('float', [
     transition('void => *', [animate(2000)])
 ])
 
-export const rowsAnimation =   trigger('rowsAnimation', [
-    transition('void => *', [
-      style({ 'height': '*', 'opacity': '0', 'transform': 'translateX(-550px)', 'box-shadow': 'none' }),
-      sequence([
-        animate('.35s ease', style({
-          'height': '*',
-          'opacity': '.2',
-          'transform': 'translateX(0)',
-          'box-shadow': 'none',
-        })),
-        animate('.35s ease', style({
-          height: '*',
-          opacity: 1,
-          transform: 'translateX(0)',
-        })),
-      ]),
+export let staggerEffect = trigger('staggerEffect', [
+  transition(':enter', [
+    query('.hero', [
+      style({opacity: 0, transform: 'translateY(-100px)'}),
+      stagger(30, [
+        animate('500ms cubic-bezier(0.35, 0, 0.25, 1)',
+        style({ opacity: 1, transform: 'none' }))
+      ])
     ])
-]);
+  ])
+])

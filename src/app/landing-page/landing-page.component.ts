@@ -6,11 +6,13 @@ import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import servicesJSON from '../../assets/json/services.json';
+import { fade, moveLeft } from '../animation/animation';
 
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
-  styleUrls: ['./landing-page.component.sass']
+  styleUrls: ['./landing-page.component.sass'],
+  animations: [fade, moveLeft]
 })
 export class LandingPageComponent implements OnInit {
   landing;
