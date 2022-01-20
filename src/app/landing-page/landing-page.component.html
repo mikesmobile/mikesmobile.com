@@ -335,8 +335,8 @@
       <div class="row">
         <div class="d-none d-xl-block order-xl-1 col-xl-1"></div>
         <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-5 p-2">
-          <h1 style="font-size: 50px;" class="d-none d-xl-block font-weight-bold">Your Fireplace Is<br> The Heart
-            Of<br>Your Home</h1>
+          <h1 style="font-size: 50px;" class="d-none d-xl-block font-weight-bold">Your Fireplace Is<br class="d-none d-md-block"> The Heart
+            Of<br class="d-none d-md-block">Your Home</h1>
           <h1 style="font-size: 50px;" class="d-xl-none font-weight-bold">Your Fireplace Is The Heart Of Your Home</h1>
           <p style="font-size: 25px;">We Make Sure It Stays That Way.</p>
           <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
@@ -392,14 +392,14 @@
         </div>
         <div class="col-12 col-sm-4 col-lg-3">
           <p style="font-size: 20px;" class="text-center font-italic">
-            You’re worried about experiencing a<br>chimney fire, backdrafts, or smoke
+            You’re worried about experiencing a<br class="d-none d-md-block">chimney fire, backdrafts, or smoke
           </p>
 
         </div>
         <div class="col-12 col-sm-4 col-lg-3">
 
           <p style="font-size: 20px;" class="text-center font-italic">
-            You’re just not happy with how your<br>fireplace looks or functions
+            You’re just not happy with how your<br class="d-none d-md-block">fireplace looks or functions
           </p>
         </div>
         <div class="d-none d-lg-block col-lg"></div>
@@ -437,15 +437,18 @@
             <img src="../../assets/images/landing/chimServices/two.png" class="img-fluid" alt="A Mike's Mobile Review">
           </div>
           <div class="col-12 col-lg-4 mb-2">
-            <img src="../../assets/images/landing/chimServices/three.png" class="img-fluid" alt="A Mike's Mobile Review">
+            <img src="../../assets/images/landing/chimServices/three.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
           </div>
         </div>
 
         <div class="row">
           <div class="d-none d-xl-block col-xl"></div>
           <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center">
-            <img src="../../assets/images/landing/chimServices/csia.png" class="img-fluid" alt="Chimney Safety Institute of America logo">
-            <img src="../../assets/images/landing/chimServices/NCSG.png" class="img-fluid" alt="National Chimney Sweep Guild Member logo">
+            <img src="../../assets/images/landing/chimServices/csia.png" class="img-fluid"
+              alt="Chimney Safety Institute of America logo">
+            <img src="../../assets/images/landing/chimServices/NCSG.png" class="img-fluid"
+              alt="National Chimney Sweep Guild Member logo">
           </div>
           <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center align-items-center">
             <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
@@ -491,8 +494,7 @@
               </p>
             </div>
             <div class="col-12 col-lg-4 col-xl-3">
-              <img class="img-fluid" src="../../assets/images/landing/chimServices/loveLive.png"
-                alt="Happy Family">
+              <img class="img-fluid" src="../../assets/images/landing/chimServices/loveLive.png" alt="Happy Family">
               <p class="subtitle mt-2">3. Love Where You Live</p>
               <p style="font-size:20px;" class="lineSpacing">Feel the joy of living in your dream home</p>
             </div>
@@ -525,7 +527,7 @@
               <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
             </div>
           </div>
-          
+
           <div class="col-12 col-lg-6 col-xl-5 order-1 order-lg-2 order-xl-3 p-lg-5">
             <img class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
               alt="Map of our Service Area!">
@@ -544,7 +546,8 @@
         <div class="row d-flex">
           <div class="col-lg-6"></div>
           <div class="col-12 col-lg-6 p-2">
-            <h2 style="font-size:40px; margin-bottom:0px; padding-top: 10px;" class="font-weight-bold d-flex justify-content-center BlurBg">Love Where You Live</h2>
+            <h2 style="font-size:40px; margin-bottom:0px; padding-top: 10px;"
+              class="font-weight-bold d-flex justify-content-center BlurBg">Love Where You Live</h2>
             <app-contact-form></app-contact-form>
           </div>
         </div>
@@ -1474,17 +1477,15 @@
     </div>
   </ng-container>
 
-  <ng-container
-    *ngIf="landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' ">
+  <ng-container *ngIf="landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' ">
     <div class="container-fluid pt-4">
       <!-- Main -->
       <div class="row">
         <div class="d-none d-xl-block order-xl-1 col-xl-1"></div>
         <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-5 p-2">
-          <h1 style="font-size: 50px;" class="d-none d-xl-block font-weight-bold">Your home should be<br>your happy
+          <h1 style="font-size: 50px;" class=" font-weight-bold">Your home should be<br class="d-none d-lg-block">your happy
             place.</h1>
-          <h1 style="font-size: 50px;" class="d-xl-none font-weight-bold">Your home should be your happy place.</h1>
-          <p style="font-size: 25px;">We Will Help You Find The Perfect<br>Security Screen Door</p>
+          <p style="font-size: 25px;">We Will Help You Find The Perfect<br class="d-none d-md-block">Security Screen Door</p>
           <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
         </div>
         <div @fade class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 pr-0 d-flex justify-content-end">
@@ -1528,14 +1529,14 @@
           <img class="img-fluid" src="../../assets/images/landing/securityscreen/cooking.jpg" alt="Lady cooking" />
         </div>
 
-        <div class="col-12 col-lg-6 py-3 py-lg-5">
-          <h2 style="font-size:40px">Common experiences<br>for homeowners… </h2>
+        <div class="col-12 col-lg-6">
+          <h2 style="font-size:40px">Common experiences<br class="d-none d-md-block">for homeowners… </h2>
           <br>
-          <ul style="font-size: 20px; line-height: 40px;">
-            <li>Struggling to let fresh air in without compromising your home’s security</li>
-            <li>Wanting to deter intruders without hurting your home’s appearance</li>
-            <li>Trying to express your personal style and create a more welcoming atmosphere</li>
-            <li>Experiencing obstacles while tackling home improvement projects alone</li>
+          <ul style="font-size: 18px;">
+            <li class="mb-2">Struggling to let fresh air in without compromising your <br class="d-none d-md-block">home’s security</li>
+            <li class="mb-2">Wanting to deter intruders without hurting your home’s <br class="d-none d-md-block">appearance</li>
+            <li class="mb-2">Trying to express your personal style and create a more <br class="d-none d-md-block">welcoming atmosphere</li>
+            <li class="mb-2">Experiencing obstacles while tackling home improvement <br class="d-none d-md-block">projects alone</li>
           </ul>
           <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
         </div>
@@ -1550,8 +1551,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="d-none d-lg-block col-lg"></div>
-        <div class="col-12 col-sm-4 col-lg-3">
+        <div class="d-none d-lg-block col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-lg-2">
           <div class="m-0 mx-md-5 d-flex justify-content-center">
             <img height="200" src="../../assets/images/landing/securityscreen/lock.png"
               alt="lock to show Mike's Mobile values security">
@@ -1559,8 +1560,9 @@
           <p class="text-center subtitleItalicBlue">
             Security
           </p>
+          <p class="text-center">Deter intruders and <br class="d-none d-md-block">protect those in your home</p>
         </div>
-        <div class="col-12 col-sm-4 col-lg-3">
+        <div class="col-12 col-sm-4 col-lg-2">
           <div class="m-0 mx-md-5 d-flex justify-content-center">
             <img height="200" src="../../assets/images/landing/securityscreen/houseAir.png"
               alt="air flow in a house is extremely important to Mike's Mobile!">
@@ -1568,9 +1570,9 @@
           <p class="text-center subtitleItalicBlue">
             Airflow
           </p>
-
+          <p class="text-center">Stainless steel mesh <br class="d-none d-md-block"> allows cross-breeze</p>
         </div>
-        <div class="col-12 col-sm-4 col-lg-3">
+        <div class="col-12 col-sm-4 col-lg-2">
           <div class="m-0 mx-md-5 d-flex justify-content-center">
             <img height="200" src="../../assets/images/landing/securityscreen/star.png"
               alt="Your style is important to us!">
@@ -1578,8 +1580,9 @@
           <p class="text-center subtitleItalicBlue">
             Style
           </p>
+          <p class="text-center">Modern designs to<br class="d-none d-md-block">compliment your home</p>
         </div>
-        <div class="d-none d-lg-block col-lg"></div>
+        <div class="d-none d-lg-block col-lg-3"></div>
       </div>
       <div class="row">
 
@@ -1595,65 +1598,52 @@
       <!-- Upgrading -->
       <div class="row mt-5">
         <div class="col-12 mb-3">
-          <h2 style="font-size:40px;" class="text-center mb-3">Upgrading your home should be easy - we’re here <br> to
+          <h2 style="font-size:40px;" class="text-center mb-3">Upgrading your home should be easy -<br class="d-none d-md-block"> we’re here to
             make that happen!</h2>
 
           <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
-            homeowners across California
-            with their home renovation projects.</p>
+            homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
         </div>
       </div>
 
       <!-- reviews -->
       <div class="row text-center pb-5 mx-0">
-        <div class="col-12 px-0 mx-0">
-          <div class="card-deck">
-            <div class="card yelpCard" *ngFor="let review of doorsReviews">
-              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
-                <div class="card-header">
-                  <a [href]="review.link1" rel="nofollow noopener">{{
-                    review.name
-                    }}</a>'s
-                  <a [href]="review.link2" rel="nofollow noopener">review</a>
-                  of
-                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service</a>
-                  <br>
-                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
-                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
-                </div>
-                <div class="card-body text-left">
-                  <p>
-                    {{ review.content }}
-                  </p>
-                </div>
-                Read more on
-                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
-              </span>
-            </div>
-          </div>
+        <div class="col-12 col-lg-4 mb-2">
+          <img src="../../assets/images/landing/securityscreen/left.png" class="img-fluid" alt="A Mike's Mobile Review">
+        </div>
+        <div class="col-12 col-lg-4 mb-2">
+          <img src="../../assets/images/landing/securityscreen/middle.png" class="img-fluid"
+            alt="A Mike's Mobile Review">
+        </div>
+        <div class="col-12 col-lg-4 mb-2">
+          <img src="../../assets/images/landing/securityscreen/right.png" class="img-fluid"
+            alt="A Mike's Mobile Review">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-12 col-xl-4 mb-2 d-flex justify-content-center align-items-center">
-          <img height="92" width="392" src="../../assets/images/landing/securityscreen/docacslb.png"
+        <div class="d-none d-xl-block col-xl"></div>
+        <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center align-items-center">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
             alt="Department of Consumer Affairs Contractors State License Board logo">
         </div>
-        <div class="col-12 col-xl-4 mb-2 d-flex justify-content-center">
+        <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center">
           <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
-            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+            style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
               src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
               alt="Window & Doors Contractors near me" /></a>
 
           <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors"
-            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+            style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
               src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
               alt="Window & Doors Contractors near me" /></a>
         </div>
-        <div class="col-12 col-xl-4 mb-2 d-flex justify-content-center">
-          <img height="160" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+        <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center">
+          <img height="100" src="../../assets/images/landing/securityscreen/logo-hpba.png"
             alt="Hearth Patio And BBQ Association Logo">
         </div>
+        <div class="d-none d-xl-block col-xl"></div>
+
 
         <div class="col-12 d-flex justify-content-center mt-4">
           <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
@@ -1682,12 +1672,11 @@
                 and recommendations</p>
             </div>
             <div class="col-12 col-lg-4">
-              <img class="img-fluid" src="../../assets/images/landing/securityscreen/securityDoorScrew.png"
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/securityDoorInstall.png"
                 alt="One of our outstanding technicians will be able to install your security screens to perfection!">
               <p class="subtitle mt-2">2. Professional Installation</p>
               <p style="font-size:20px;" class="lineSpacing">
-                All of our technicians are insured, expert craftsmen with years of experience installing security screen
-                doors
+                All of our technicians are insured, expert craftsmen with years of experience
               </p>
             </div>
             <div class="col-12 col-lg-4">
@@ -1733,7 +1722,7 @@
     </div>
 
     <!-- Why Mike's Mobile -->
-    <div class="container-fluid bluishBackground py-5 my-5">
+    <div class="container-fluid bluishBackground py-5 mt-5">
 
       <div class="container">
         <div class="row">
@@ -1758,41 +1747,47 @@
       </div>
     </div>
 
-    <!-- Check Out Our Recent Work -->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <h2 style="font-size:40px;">Check Out Our Recent Work!</h2>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mb-5 pb-5">
-      <div class="row">
-        <div *ngFor="let pics of landing.images" class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
-          <img class="img-fluid" src={{pics.medium}} alt={{pics.alt}}>
-        </div>
-      </div>
-    </div>
-
     <!-- Contact Form -->
-    <div class="container-fluid bluishBackground py-5 mt-5">
+    <div class="container-fluid py-lg-5 my-lg-5">
 
-      <div class="container pb-5">
+      <!-- <div class="container pb-5"> -->
+      <div class="row">
+        <div class="d-none d-lg-block col-6 viewguardImg"></div>
+        <div class="d-none d-lg-block col-6">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 font-weight-bold">Schedule Your Free
+            Consultation Today!</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <div class="d-lg-none row">
+        <div class="col-12 viewguardImg">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Schedule Your Free
+            Consultation Today!</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </div>
+
+    <!-- Check Out Our Recent Work -->
+    <div class="container-fluid bluishBackground py-5">
+      <div class="container mb-5">
         <div class="row">
-          <div class="col-12 mb-3">
-            <h2 style="font-size:40px;" class="font-weight-bold d-flex justify-content-center">Schedule Your Free
-              Consultation!</h2>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-lg-6">
-            <app-contact-form></app-contact-form>
+          <div class="col-12 d-flex justify-content-center">
+            <h2 style="font-size:40px;">Check Out Our Recent Work!</h2>
           </div>
         </div>
 
+        <div class="row">
+          <div *ngFor="let pics of landing.images" class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+            <img class="img-fluid" src={{pics.medium}} alt={{pics.alt}}>
+          </div>
+        </div>
       </div>
     </div>
+
   </ng-container>
 
 
