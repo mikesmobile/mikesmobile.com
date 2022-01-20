@@ -5595,39 +5595,12 @@
   {
     "title": "Our Chimney Services",
     "slug": "our-chimney-services",
-    "phone": "(916) 931-1772",
-    "thumbImages": [
-      {
-        "alt": "Living room fireplace",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim1.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim1.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim1.png"
-      },
-      {
-        "alt": "Before and After of a fireplace",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim2.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim2.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim2.png"
-      },
-      {
-        "alt": "Before and After cleaning, removal, and painting",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim3.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim3.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim3.png"
-      },
-      {
-        "alt": "Before and after waterproofing and outside mounting cap",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim4.png",
-        "medium": "assets/images/landing/ourchimneyservices/ourchim4.png",
-        "big": "assets/images/landing/ourchimneyservices/ourchim4.png"
-      },
-      {
-        "alt": "Before and After chimney repair and cap",
-        "small": "assets/images/landing/ourchimneyservices/ourchim5.png",
-        "medium": "assets/images/landing/ourchimneyservices/ourchim5.png",
-        "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
-      }
-    ]
+    "phone": "(916) 931-1772"
+  },
+  {
+    "title": "Our Chimney Services",
+    "slug": "our-fireplace-services",
+    "phone": "(916) 931-0125"
   },
   {
     "title": "Security Screen Doors and Windows",

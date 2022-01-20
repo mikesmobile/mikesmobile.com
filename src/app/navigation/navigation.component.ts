@@ -19,7 +19,6 @@ export class NavigationComponent {
 
   noPhoneButton = [
     '/grid/our-chimney-repairs',
-    '/about/our-chimney-services',
     '/grid/chimney-repairs',
     '/about/chimney-services',
     '/about/our-screen-doors',
@@ -91,20 +90,26 @@ export class NavigationComponent {
   }
 
   phoneNumberSwitch() {
+    console.log(this.currentRoute)
     // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
-    if (this.currentRoute.startsWith('/about/security-screen-doors')) {
+    if (this.currentRoute ==='/about/security-screen-doors') {
       this.phone = "(916) 283-7537";
-    } else if (this.currentRoute.startsWith('/grid/titans')) {
+    } else if (this.currentRoute ==='/grid/titans') {
       this.phone = "(916) 312-3182";
-    } else if (this.currentRoute.startsWith('/products/viewguards')) {
+    } else if (this.currentRoute ==='/products/viewguards') {
       this.phone = "(916) 318-9845";
-    } else if (this.currentRoute.startsWith('/about/theWaterproofingPackage')) {
+    } else if (this.currentRoute === '/about/theWaterproofingPackage') {
       this.phone = '(916) 304-8225';
-    } else if (this.currentRoute.startsWith('/about/our-security-screen-doors')) {
+    } else if (this.currentRoute === '/about/our-security-screen-doors') {
       this.phone = '(916) 931-1873';
-    } else if (this.currentRoute.startsWith('/about/our-security-screen-doors-bakersfield')) {
+    } else if (this.currentRoute === '/about/our-security-screen-doors-bakersfield') {
       this.phone = '(661) 567-0284';
-    } else {
+    }else if(this.currentRoute === '/about/our-chimney-services'){
+      this.phone = '(916) 931-1772';
+    }else if(this.currentRoute === '/about/our-fireplace-services'){
+      this.phone = '(916) 931-0125';
+    }
+     else {
       this.phone = "(800) 992-9938";
     }
     // console.log("current Route: "+this.currentRoute)
