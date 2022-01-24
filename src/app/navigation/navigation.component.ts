@@ -109,6 +109,9 @@ export class NavigationComponent {
     }else if(this.currentRoute === '/about/our-fireplace-services'){
       this.phone = '(916) 931-0125';
     }
+    else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
+    this.phone = '(916) 915-8676';
+    }
      else {
       this.phone = "(800) 992-9938";
     }
