@@ -35,7 +35,7 @@ export class NavigationComponent {
     this.router.events.subscribe((event: Event) => {
       if (event instanceof NavigationEnd) {
         // Hide progress spinner or progress bar
-        this.currentRoute = event.url;
+        this.currentRoute = event.url.split('?')[0];
         this.phoneNumberSwitch()
         this.hideMe = this.dontShowButton()
       }
@@ -91,12 +91,13 @@ export class NavigationComponent {
 
   phoneNumberSwitch() {
     console.log(this.currentRoute)
+
     // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
-    if (this.currentRoute ==='/about/security-screen-doors') {
+    if (this.currentRoute === '/about/security-screen-doors') {
       this.phone = "(916) 283-7537";
-    } else if (this.currentRoute ==='/grid/titans') {
+    } else if (this.currentRoute === '/grid/titans') {
       this.phone = "(916) 312-3182";
-    } else if (this.currentRoute ==='/products/viewguards') {
+    } else if (this.currentRoute === '/products/viewguards') {
       this.phone = "(916) 318-9845";
     } else if (this.currentRoute === '/about/theWaterproofingPackage') {
       this.phone = '(916) 304-8225';
@@ -104,15 +105,15 @@ export class NavigationComponent {
       this.phone = '(916) 931-1873';
     } else if (this.currentRoute === '/about/our-security-screen-doors-bakersfield') {
       this.phone = '(661) 567-0284';
-    }else if(this.currentRoute === '/about/our-chimney-services'){
+    } else if (this.currentRoute === '/about/our-chimney-services') {
       this.phone = '(916) 931-1772';
-    }else if(this.currentRoute === '/about/our-fireplace-services'){
+    } else if (this.currentRoute === '/about/our-fireplace-services') {
       this.phone = '(916) 931-0125';
     }
-    else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
-    this.phone = '(916) 915-8676';
+    else if (this.currentRoute === '/about/our-annual-cleaning-and-inspection') {
+      this.phone = '(916) 915-8676';
     }
-     else {
+    else {
       this.phone = "(800) 992-9938";
     }
     // console.log("current Route: "+this.currentRoute)
