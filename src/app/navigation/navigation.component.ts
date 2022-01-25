@@ -96,8 +96,6 @@ export class NavigationComponent {
       this.phone = "(916) 283-7537";
     } else if (this.currentRoute === '/grid/titans') {
       this.phone = "(916) 312-3182";
-    } else if (this.currentRoute === '/products/viewguards') {
-      this.phone = "(916) 318-9845";
     } else if (this.currentRoute === '/about/theWaterproofingPackage') {
       this.phone = '(916) 304-8225';
     } else if (this.currentRoute === '/about/our-security-screen-doors') {
@@ -108,13 +106,12 @@ export class NavigationComponent {
       this.phone = '(916) 931-1772';
     } else if (this.currentRoute === '/about/our-fireplace-services') {
       this.phone = '(916) 931-0125';
-    }
-    else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
+    }else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
     this.phone = '(916) 915-8676';
     }else if(this.currentRoute == '/services/our-window-screen-services'){
       this.phone = '(916) 915-8731';
     }else {
-      this.phone = "(800) 992-9938";
+      this.phone = "(916) 318-9845";
     }
     // console.log("current Route: "+this.currentRoute)
     // for(let i = 0; i < this.phoneList.length; i++){
