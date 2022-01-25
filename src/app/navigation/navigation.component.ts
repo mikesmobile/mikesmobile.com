@@ -90,7 +90,7 @@ export class NavigationComponent {
   }
 
   phoneNumberSwitch() {
-    console.log(this.currentRoute)
+    // console.log(this.currentRoute)
 
     // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
     if (this.currentRoute === '/about/security-screen-doors') {
