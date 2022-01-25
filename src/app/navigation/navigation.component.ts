@@ -22,7 +22,6 @@ export class NavigationComponent {
     '/grid/chimney-repairs',
     '/about/chimney-services',
     '/about/our-screen-doors',
-    '/services/our-window-screen-services'
   ];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
@@ -110,10 +109,11 @@ export class NavigationComponent {
     } else if (this.currentRoute === '/about/our-fireplace-services') {
       this.phone = '(916) 931-0125';
     }
-    else if (this.currentRoute === '/about/our-annual-cleaning-and-inspection') {
-      this.phone = '(916) 915-8676';
-    }
-    else {
+    else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
+    this.phone = '(916) 915-8676';
+    }else if(this.currentRoute == '/services/our-window-screen-services'){
+      this.phone = '(916) 915-8731';
+    }else {
       this.phone = "(800) 992-9938";
     }
     // console.log("current Route: "+this.currentRoute)

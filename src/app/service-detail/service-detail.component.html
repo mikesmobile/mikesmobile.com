@@ -1,7 +1,264 @@
 <ng-container *ngIf="service">
+
+
+  <ng-container *ngIf="service.slug === 'our-window-screen-services'">
+    <div class="container-fluid pt-4">
+      <!-- Main -->
+      <div class="row">
+        <div class="d-none d-xl-block order-xl-1 col-xl-1"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-5 p-2">
+          <h1 style="font-size: 50px;" class=" font-weight-bold">Getting fresh air <br
+              class="d-none d-lg-block">shouldn’t
+            be hard.</h1>
+          <p style="font-size: 25px;">We make replacing your window<br class="d-none d-md-block"> screens fast and easy.
+          </p>
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+        </div>
+        <div @fade class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+          <img class="img-fluid" src="../../assets/images/landing/windowServices/openWindow.png"
+            alt="Woman opening a window" />
+        </div>
+      </div>
+    </div>
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row mb-5">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p @moveLeft class="text-center subtitleBold mb-0">
+            ✓ Keep Bugs Out
+          </p>
+        </div>
+
+        <!-- vv These two are the exact same but are different at certain sizes vv -->
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p @moveLeft class="text-center subtitleBold mb-0">
+            ✓ Enjoy the Breeze
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p class="subtitleBold text-center mb-0">
+            ✓ Enjoy the Breeze
+          </p>
+        </div>
+        <!-- ^^These two are the exact same but are different at certain sizes ^^ -->
+
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p @moveLeft class="subtitleBold text-center mb-0">
+            ✓ Save Time
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- unordered list of stuff -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img height='300px' src="../../assets/images/landing/windowServices/brokenScreen.png" alt="Broken Screen" />
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <h2 style="font-size:40px">Sound familiar? If so, we can help.</h2>
+          <br>
+          <ul style="font-size: 18px;">
+            <li class="mb-3">Your windows are missing screens</li>
+            <li class="mb-3">Your window screens are torn</li>
+            <li class="mb-3">You don’t have time to DIY</li>
+          </ul>
+          <div class="col-12 d-flex justify-content-center">
+            <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- review section -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+      <div class="container">
+        <!-- Upgrading -->
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 style="font-size:40px;" class="text-center mb-3">Getting new window screens shouldn’t be difficult…</h2>
+
+            <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
+              homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
+          </div>
+        </div>
+
+        <!-- reviews -->
+        <div class="row text-center pb-5 mx-0">
+          <div class="col-12 col-md-4 mb-2 p-2 p-lg-5">
+            <img src="../../assets/images/landing/windowServices/review1.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <!-- <div class="col-12 col-md-4 mb-2 p-2 p-lg-5">
+            <img src="../../assets/images/landing/securityscreen/middle.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 p-2 p-lg-5">
+            <img src="../../assets/images/landing/securityscreen/right.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div> -->
+        </div>
+
+        <div class="row">
+          <div class="d-none d-xl-block col-xl"></div>
+          <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.cslb.ca.gov/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+                alt="Department of Consumer Affairs Contractors State License Board logo">
+            </a>
+          </div>
+          <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center">
+            <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+
+            <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+          </div>
+          <div class="col-12 col-xl-3 mb-2 d-flex justify-content-center">
+            <a href="https://www.hpba.org/" target="_blank">
+              <img height="100" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+                alt="Hearth Patio And BBQ Association Logo">
+            </a>
+          </div>
+          <div class="d-none d-xl-block col-xl"></div>
+
+
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- How We Make It Easy, 1 , 2 , 3 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <h2 style="font-size:40px;">How We Make It Easy:</h2>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg"></div>
+          <div class="col-12 col-lg-3">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/csr.png"
+              alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+            <p class="subtitleBold mt-2">1. Call Us Today</p>
+            <p style="font-size:20px;" class="lineSpacing">We listen to your goals and schedule a visit</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/wecometoyou.png"
+              alt="One of our outstanding technicians will be able to install your security screens to perfection!">
+            <p class="subtitleBold mt-2">2. We Come To You</p>
+            <p style="font-size:20px;" class="lineSpacing">Our experts build and install your screens on-site</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/lovelive.png"
+              alt="Happy Family">
+            <p class="subtitleBold mt-2">3. Enjoy The Breeze</p>
+            <p style="font-size:20px;" class="lineSpacing">Relax and let in the fresh air</p>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-1"></div>
+          <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center">
+            <img height="450px" src="../../assets/images/landing/windowServices/mikeHank.png"
+              alt="Some of our amazing technicians, ready to make your home more secure!">
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-5 px-2 mt-4">
+            <h2 style="font-size:40px;">We Get it Done in <br class="d-none d-lg-block"> One Visit</h2>
+            <br>
+            <p style="font-size:20px;" class="lineSpacing">We understand that your time is valuable. <br
+                class="d-none d-lg-block"> That’s why we offer
+              convenient and fast <br class="d-none d-lg-block"> on-site service, so you can cross your <br
+                class="d-none d-lg-block">
+              window screens off your list in no time!</p>
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+          </div>
+          <div class="col-xl-1"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Guarantee -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="order-xl-1 d-none d-xl-block col-xl-1"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 px-2 mt-5 px-md-5">
+          <h2 style='font-size: 40px;'>Our Guarantee</h2>
+          <br>
+
+          <ul style="font-size: 18px;">
+            <li class="mb-3">Save time & money - your project will be done right the first time</li>
+            <li class="mb-3">Professional installation - no cracks, gaps, or screens falling off</li>
+            <li class="mb-3">Convenience - we take care of you from start to finish</li>
+          </ul>
+
+          <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 order-1 order-lg-2 order-xl-3">
+          <img class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
+            alt="Map of our Service Area!">
+        </div>
+        <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
+
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid bluishBackground">
+
+      <!-- <div class="container pb-5"> -->
+      <div class="row">
+        <div class="d-none d-lg-block col-8 contactImg"></div>
+        <div class="d-none d-lg-block col-4 py-4">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 font-weight-bold">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <div class="d-lg-none row">
+        <div class="col-12 contactImg">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </div>
+
+  </ng-container>
+
+
+
   <div class="container pb-4">
-    <nav *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair' "
-      class="breadcrumb mt-2">
+    <nav *ngIf="service.slug !== 'window-screen-repair' " class="breadcrumb mt-2">
       <a class="breadcrumb-item" routerLink="/">Home</a>
       <a *ngIf="service.category === 'Door and Window Screens'" class="breadcrumb-item"
         routerLink="/about/door-and-window-screens">Door and Window Screens</a>
@@ -31,16 +288,8 @@
       <span class="breadcrumb-item active" [innerHTML]="service.title"></span>
     </nav>
 
-    <div *ngIf="service.slug === 'our-window-screen-services' ">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 d-lg-none" style="padding-right:0px;">
-            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
-              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-          </div>
-        </div>
-      </div>
-    </div>
+
+
 
     <div *ngIf="service.slug === 'window-screen-repair' ">
       <div class="container">
@@ -75,8 +324,7 @@
         </h3>
       </div>
 
-      <div *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' "
-        class="d-flex flex-column flex-md-row mb-0">
+      <div *ngIf="service.slug === 'window-screen-repair' " class="d-flex flex-column flex-md-row mb-0">
         <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
           <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
             {{ service.title }}
@@ -89,16 +337,17 @@
       </div>
 
 
-      <hr />
+      <hr *ngIf="service.slug !== 'our-window-screen-services' " />
 
 
 
       <div class="row">
         <div class="col-lg-6 col-xl-6 pr-lg-5 pb-5">
-          <div *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'" class="main-image">
+          <div *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'"
+            class="main-image">
             <app-img *ngIf="service.tileImage" [src]="img" class="img-fluid z-depth-2 serviceDetailImage"></app-img>
           </div>
-          <div *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' " class="main-image">
+          <div *ngIf="service.slug === 'window-screen-repair' " class="main-image">
             <!-- <app-img *ngIf="service.tileImage" [src]="img" class="img-fluid z-depth-2 serviceDetailImage"></app-img> -->
             <app-main-gallery [Images]="service.images"></app-main-gallery>
 
@@ -114,26 +363,6 @@
         <div class="col-lg-6 col-xl-6 pl-lg-5 pb-4">
           <div class="row mb-4" id="serviceInfo">
             <div class="col-12">
-              <div *ngIf="service.slug === 'our-window-screen-services' ">
-                <h5 class="font-weight-bold font-italic">
-                  Fast, friendly, & convenient service!
-                </h5>
-                <p>
-                  Updating your home’s window screens has never been easier! With Mike’s Mobile window screen services,
-                  you can relax at home and have our insured technicians do all the work!
-                </p>
-                <p>
-                  Window screen services that we offer include: <span class="font-weight-bold">window screen
-                    installation, window screen repair, and window screen replacement</span>.
-                </p>
-                <p>
-                  Our technicians are fully insured and mobile with the ability to service homeowners across <span
-                    class="font-weight-bold">Northern California</span> within our service area. To make sure that we
-                  provide you with the fastest service possible, our technicians will have most supplies with them to
-                  provide homeowners with on-site repairs! <span class="font-weight-bold">Questions? Contact us
-                    today!</span>
-                </p>
-              </div>
               <div *ngIf="service.slug === 'window-screen-repair' ">
                 <h5 class="font-weight-bold font-italic">
                   Fast, friendly, & convenient service!
@@ -239,8 +468,8 @@
                 Keep your home warm while avoiding costly repairs with radiant
                 fire brick!
               </h5>
-              <hr />
-              <div *ngIf=" service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
+              <hr *ngIf="service.slug !== 'our-window-screen-services' " />
+              <div *ngIf="service.slug === 'window-screen-repair' ">
                 <div class="container my-3">
                   <div class="row">
                     <div class="col-12 mb-1">
@@ -519,6 +748,7 @@
         </div>
       </div>
     </section>
+
     <div class="row text-center" *ngIf="service.slug === 'chimney-caps-and-spark-arrestor'">
       <section class="section feature-box">
         <h1 class="section-heading h1 light-gray-text text-center">
@@ -617,46 +847,17 @@
     <div *ngIf="service.slug === 'gas-log-sets'">
       <app-tab-nav [details]="service.details"></app-tab-nav>
     </div>
-    <div *ngIf="service.slug === 'out-window-screen-services' ">
-      <h3 class="font-weight-bold mt-3">Our Services</h3>
-      <hr>
-      <div class="row d-flex justify-content-center">
-        <ng-container *ngFor="let service of windowsServiceList">
-          <div class="card tile m-2 rounded">
-            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
-              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
-                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
-                  [innerHTML]="service.title"></h4>
-              </div>
-              <div class="view waves-light" mdbRippleRadius>
-                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
-              </div>
-              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
-                <div class="tileListContainer ">
-                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
-                    [innerHTML]="service.tileText"></p>
-                  <ul *ngIf="service.tileBullets" class="tileList">
-                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
-                  </ul>
-                </div>
-              </div>
-
-            </a>
-          </div>
-        </ng-container>
-      </div>
-    </div>
 
     <div class="container" *ngIf="service.recentInstallImages">
       <section class="text-center section feature-box">
-        <div class="container text-center" *ngIf="service.slug !== 'our-window-screen-services' && service.slug !== 'window-screen-repair'">
+        <div class="container text-center" *ngIf=" service.slug !== 'window-screen-repair'">
           <h2>See Our Recent Work!</h2>
         </div>
-        <div class="container text-center" *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
+        <div class="container text-center" *ngIf=" service.slug === 'window-screen-repair' ">
           <h2>Check Out Our Solar Screens!</h2>
         </div>
         <app-footer-gallery [Images]="service.recentInstallImages"></app-footer-gallery>
-        <div class="container text-center" *ngIf="service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair' ">
+        <div class="container text-center" *ngIf=" service.slug === 'window-screen-repair' ">
           <p class="font-weight-bold">UV protection, pet resistant, & increased home privacy!</p>
           <p>
             Solar screens are a great way to make your home more comfortable and help save money at the same time! The
@@ -671,14 +872,16 @@
         </div>
       </section>
     </div>
-  </div>
-  <div class="row mt-5 justify-content-center text-center">
-    <div class="col-12">
-      <p *ngIf="price && service.slug === 'gas-fireplace-annual-service'" id="disclaimer">
-        {{ price.disclaimer }}
-      </p>
-    </div>
+    
+    <div *ngIf="price && service.slug === 'gas-fireplace-annual-service'"
+      class="row mt-5 justify-content-center text-center">
+      <div class="col-12">
+        <p id="disclaimer">
+          {{ price.disclaimer }}
+        </p>
+      </div>
 
+    </div>
   </div>
 </ng-container>
 

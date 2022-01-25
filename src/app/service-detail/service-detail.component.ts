@@ -6,6 +6,7 @@ import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
+import { fade, moveLeft } from '../animation/animation';
 
 @Component({
   selector: 'app-service-detail',
@@ -13,7 +14,8 @@ import priceJSON from '../../assets/json/prices.json';
   styleUrls: [
     './service-detail.component.sass',
     '../flipcard-list/flipcard-list.component.sass'
-  ]
+  ],
+  animations: [fade, moveLeft]
 })
 export class ServiceDetailComponent implements OnInit {
   service: any;
@@ -33,7 +35,6 @@ export class ServiceDetailComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
