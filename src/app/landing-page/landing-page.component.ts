@@ -15,6 +15,7 @@ import { fade, moveLeft, moveRight } from '../animation/animation';
   animations: [fade, moveLeft, moveRight]
 })
 export class LandingPageComponent implements OnInit {
+  phone = '(916) 318-9845'
   landing;
   security_door_gallery;
   security_window_gallery;

@@ -19,6 +19,7 @@ declare global {
   providers: [MailAwningService],
 })
 export class QuoteFormAwningComponent implements OnInit {
+  ourPhone = '(916) 318-9845';
   optMotor: boolean;
   optHood: boolean;
   optPitchAdjust: boolean;

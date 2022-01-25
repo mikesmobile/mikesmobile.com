@@ -17,6 +17,7 @@ import { SlideShowModalComponent } from '../slideShowModal/slideShowModal.compon
   ]
 })
 export class GridComponent implements OnInit {
+  phone = '(916) 318-9845'
   service;
   serviceList = [];
   price;
