@@ -17,6 +17,7 @@ import { ModalDirective } from 'ng-uikit-pro-standard';
   encapsulation: ViewEncapsulation.None
 })
 export class ProductDetailComponent implements OnInit {
+  phone = '(916) 318-9845'
   product: any;
   video: string = 'https://www.facebook.com/watch/?v=1264548423571761';
   price;
