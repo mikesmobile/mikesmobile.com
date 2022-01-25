@@ -328,19 +328,22 @@
     </div>
   </ng-container>
 
-  <ng-container
-    *ngIf="landing.slug === 'our-chimney-services' || landing.slug === 'our-fireplace-services' || landing.slug === 'our-annual-cleaning-and-inspection' ">
+  <ng-container *ngIf="landing.slug === 'our-chimney-services' || landing.slug === 'our-fireplace-services' || landing.slug === 'our-annual-cleaning-and-inspection' ">
 
     <div class="container-fluid">
       <!-- Main -->
       <div class="row">
         <div class="order-xl-1 col-xl"></div>
-        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mt-2">
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mb-3 d-flex align-items-center">
+          <div>
             <h1 style="font-size: 55px;" class="font-weight-bold">Your fireplace is<br class="d-none d-lg-block"> the
               heart
               of <br class="d-none d-lg-block">your home.</h1>
             <p style="font-size: 25px;">We make sure it stays that way.</p>
-            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+            <div class="d-flex justify-content-center">
+              <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+            </div>
+          </div>
         </div>
         <div @fade class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
           <img class="img-fluid" src="../../assets/images/landing/chimServices/fireplaceChill.png"
@@ -353,24 +356,24 @@
       <div class="row mb-5">
 
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="text-center subtitleBold mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
             ✓ Enjoy Your Fireplace
           </p>
         </div>
         <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
           style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
-          <p @moveLeft class="text-center subtitleBold mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
             ✓ Protect Your Home
           </p>
         </div>
         <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
           style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
-          <p @moveLeft class="subtitleBold text-center mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveRight class="subtitleBold text-center mb-0">
             ✓ Protect Your Home
           </p>
         </div>
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="subtitleBold text-center mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="subtitleBold text-center mb-0">
             ✓ Make Memories
           </p>
         </div>
@@ -439,7 +442,8 @@
             <img src="../../assets/images/landing/chimServices/two.png" class="img-fluid" alt="A Mike's Mobile Review">
           </div>
           <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
-            <img src="../../assets/images/landing/chimServices/three.png" class="img-fluid" alt="A Mike's Mobile Review">
+            <img src="../../assets/images/landing/chimServices/three.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
           </div>
         </div>
 
@@ -1486,18 +1490,21 @@
     </div>
   </ng-container>
 
-  <ng-container
-    *ngIf="landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' ">
+  <ng-container *ngIf="landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' ">
     <div class="container-fluid">
       <!-- Main -->
       <div class="row">
         <div class="d-none d-xl-block order-xl-1 col-xl"></div>
-        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mt-2">
-          <h1 style="font-size: 55px;" class=" font-weight-bold">Your entryway is the <br
-              class="d-none d-xl-block">smile of your home.</h1>
-          <p style="font-size: 25px;">We'll Help You Find The Perfect<br class="d-none d-md-block"> Security Screen
-            Door.</p>
-          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mb-3 d-flex align-items-center">
+            <div>
+            <h1 style="font-size: 55px;" class=" font-weight-bold">Your entryway is the <br
+                class="d-none d-xl-block">smile of your home.</h1>
+            <p style="font-size: 25px;">We'll Help You Find The Perfect<br class="d-none d-md-block"> Security Screen
+              Door.</p>
+              <div class="d-flex justify-content-center">
+                <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+              </div>
+          </div>
         </div>
         <div @fade class="col-12 col-lg-6 col-xl-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
           <img width="100%" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="red viewguard" />
@@ -1510,24 +1517,24 @@
       <div class="row mb-5">
 
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="text-center subtitleBold mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
             ✓ Protect Your Home
           </p>
         </div>
         <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
           style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
-          <p @moveLeft class="text-center subtitleBold mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
             ✓ Enjoy The Breeze
           </p>
         </div>
         <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
           style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
-          <p class="subtitleBold text-center mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveRight class="subtitleBold text-center mb-0">
             ✓ Enjoy The Breeze
           </p>
         </div>
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="subtitleBold text-center mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="subtitleBold text-center mb-0">
             ✓ Express Your Style
           </p>
         </div>
@@ -1634,7 +1641,8 @@
 
       <div class="row">
         <div class="order-xl-2 d-none d-xl-block col-xl"></div>
-        <div class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+        <div
+          class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
           <a href="https://www.cslb.ca.gov/" target="_blank">
             <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
               alt="Department of Consumer Affairs Contractors State License Board logo">

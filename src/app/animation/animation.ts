@@ -8,12 +8,12 @@ export let fade = trigger('fade', [
 ])
 
 export let moveLeft = trigger('moveLeft', [
-    state('void', style({ marginLeft: 40 })),
+    state('void', style({ marginLeft: 150 })),
     transition(':enter, :leave', [animate(2000)])
 ])
 
 export let moveRight = trigger('moveRight', [
-    state('void', style({ marginRight: 40 })),
+    state('void', style({ marginRight: 150 })),
     transition(':enter, :leave', [animate(2000)])
 ])
 
