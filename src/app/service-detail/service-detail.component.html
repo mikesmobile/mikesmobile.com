@@ -6,13 +6,17 @@
       <!-- Main -->
       <div class="row">
         <div class="d-none d-xl-block order-xl-1 col-xl"></div>
-        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mt-2">
-          <h1 style="font-size: 55px;" class=" font-weight-bold">Getting fresh air <br
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mb-3 d-flex align-items-center">
+          <div>
+            <h1 style="font-size: 55px;" class=" font-weight-bold">Getting fresh air <br
               class="d-none d-lg-block">shouldn’t
-            be hard.</h1>
-          <p style="font-size: 25px;">We make replacing your window<br class="d-none d-md-block"> screens fast and easy.
-          </p>
-          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+              be hard.</h1>
+              <p style="font-size: 25px;">We make replacing your window<br class="d-none d-md-block"> screens fast and easy.
+              </p>
+              <div class="d-flex justify-content-center">
+                <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+              </div>
+            </div>
         </div>
         <div @fade class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
           <img class="img-fluid" src="../../assets/images/landing/windowServices/openWindow.png"
@@ -25,7 +29,7 @@
       <div class="row mb-5">
 
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="text-center subtitleBold mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
             ✓ Keep Bugs Out
           </p>
         </div>
@@ -33,20 +37,20 @@
         <!-- vv These two are the exact same but are different at certain sizes vv -->
         <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
           style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
-          <p @moveLeft class="text-center subtitleBold mb-0">
-            ✓ Enjoy the Breeze
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
+            ✓ Enjoy The Breeze
           </p>
         </div>
         <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
           style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
-          <p  @moveLeft class="subtitleBold text-center mb-0">
-            ✓ Enjoy the Breeze
+          <p style="overflow: hidden; white-space: nowrap;" @moveRight class="subtitleBold text-center mb-0">
+            ✓ Enjoy The Breeze
           </p>
         </div>
         <!-- ^^These two are the exact same but are different at certain sizes ^^ -->
 
         <div class="col-12 col-lg-4 py-5 bluishBackground">
-          <p @moveLeft class="subtitleBold text-center mb-0">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="subtitleBold text-center mb-0">
             ✓ Save Time
           </p>
         </div>

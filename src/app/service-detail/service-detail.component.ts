@@ -6,7 +6,7 @@ import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
-import { fade, moveLeft } from '../animation/animation';
+import { fade, moveLeft, moveRight } from '../animation/animation';
 
 @Component({
   selector: 'app-service-detail',
@@ -15,7 +15,7 @@ import { fade, moveLeft } from '../animation/animation';
     './service-detail.component.sass',
     '../flipcard-list/flipcard-list.component.sass'
   ],
-  animations: [fade, moveLeft]
+  animations: [fade, moveLeft, moveRight]
 })
 export class ServiceDetailComponent implements OnInit {
   service: any;
