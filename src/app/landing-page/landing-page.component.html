@@ -157,41 +157,266 @@
     </div>
   </ng-container>
 
-  <ng-container *ngIf="landing.slug === 'window-screens'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Mike’s Mobile offers a variety of window and door screens from sliding
-        screen doors to security doors to Solar Screens which block out much of
-        the sun’s heat. We even offer screen repair and replacement services.
-        Contact us today so we can help you choose the perfect screen for your
-        home.
-      </p>
+  <ng-container *ngIf="landing.slug === 'window-screens' ">
+    <div class="container-fluid">
+      <!-- Main -->
       <div class="row">
-        <div class="col">
-          <app-img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid"></app-img>
+        <div class="d-none d-xl-block order-xl-1 col-xl"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-4 p-2 pl-3 mb-3 d-flex align-items-center">
+          <div>
+            <h1 style="font-size: 55px;" class=" font-weight-bold">Getting fresh air <br
+              class="d-none d-lg-block">shouldn’t
+              be hard.</h1>
+              <p style="font-size: 25px;">We make replacing your window<br class="d-none d-md-block"> screens fast and easy.
+              </p>
+              <div class="d-flex justify-content-center">
+                <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+              </div>
+            </div>
         </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Window Screens</h4>
-          <div class="d-flex flex-column">
-            <a class="btn blue my-2" mdbRippleRadius routerLink="/products/solar-screens">
-              Solar Screens
-            </a>
-            <a class="btn blue my-2" mdbRippleRadius routerLink="/services/window-screen-repair">
-              Window Screen Repair
-            </a>
+        <div @fade class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+          <img class="img-fluid" src="../../assets/images/landing/windowServices/openWindow.png"
+            alt="Woman opening a window" />
+        </div>
+      </div>
+    </div>
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row mb-5">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
+            ✓ Keep Bugs Out
+          </p>
+        </div>
+
+        <!-- vv These two are the exact same but are different at certain sizes vv -->
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="text-center subtitleBold mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" @moveRight class="subtitleBold text-center mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <!-- ^^These two are the exact same but are different at certain sizes ^^ -->
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" @moveLeft class="subtitleBold text-center mb-0">
+            ✓ Save Time
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- unordered list of stuff -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img height='300px' src="../../assets/images/landing/windowServices/brokenScreen.png" alt="Broken Screen" />
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <h2 style="font-size:40px">Sound familiar? If so, we can help.</h2>
+          <br>
+          <ul style="font-size: 20px;">
+            <li class="mb-3">Your windows are missing screens</li>
+            <li class="mb-3">Your window screens are torn</li>
+            <li class="mb-3">You don’t have time to DIY</li>
+          </ul>
+          <div class="col-12 d-flex justify-content-center">
+            <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
           </div>
         </div>
       </div>
-      <hr />
-      <p class="m-2">
-        If you are in need of more security, please visit our
-        <a class="orange-text" routerLink="/about/security-doors-and-windows">Security Screen Doors</a>
-        page! Mike’s Mobile has you covered no matter what application your home
-        needs.
-      </p>
     </div>
+
+    <!-- review section -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+      <div class="container">
+        <!-- Upgrading -->
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 style="font-size:40px;" class="text-center mb-3">Getting new window screens shouldn’t be difficult…</h2>
+
+            <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
+              homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
+          </div>
+        </div>
+
+        <!-- reviews -->
+        <div class="row text-center mx-0">
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img src="../../assets/images/landing/windowServices/review1.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img src="../../assets/images/landing/windowServices/elkGroveReview.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img src="../../assets/images/landing/windowServices/modestoReview.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+        </div>
+
+        <!-- icons -->
+        <div class="row">
+          <div class="order-xl-2 d-none d-xl-block col-xl"></div>
+          <div class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.cslb.ca.gov/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+                alt="Department of Consumer Affairs Contractors State License Board logo">
+            </a>
+          </div>
+          <div class="order-1 order-md-2 order-xl-3 col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center px-2">
+            <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+  
+            <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+          </div>
+          <div class="order-3 col-6 col-md-4 order-xl-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.hpba.org/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+                alt="Hearth Patio And BBQ Association Logo">
+            </a>
+          </div>
+          <div class="d-none d-xl-block col-xl order-xl-4"></div>
+        </div>
+
+        <!-- Call Now Phone -->
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- How We Make It Easy, 1 , 2 , 3 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <h2 style="font-size:40px;">How We Make It Easy:</h2>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg"></div>
+          <div class="col-12 col-lg-3 mb-3">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/csr.png"
+              alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+            <p class="subtitleBold mt-2 mb-1">1. Call Us Today</p>
+            <p style="font-size:20px;" class="lineSpacing">We listen to your goals and schedule a visit</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/wecometoyou.png"
+              alt="One of our outstanding technicians will be able to install your security screens to perfection!">
+            <p class="subtitleBold mt-2 mb-1">2. We Come To You</p>
+            <p style="font-size:20px;" class="lineSpacing">Our experts build and install your screens on-site</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/lovelive.png"
+              alt="Happy Family">
+            <p class="subtitleBold mt-2 mb-1">3. Enjoy The Breeze</p>
+            <p style="font-size:20px;" class="lineSpacing">Relax and let in the fresh air</p>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-1"></div>
+          <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center">
+            <img height="450px" src="../../assets/images/landing/windowServices/mikeHank.png"
+              alt="Some of our amazing technicians, ready to make your home more secure!">
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-5 px-2 mt-4">
+            <h2 style="font-size:40px;">We Get it Done in <br class="d-none d-lg-block"> One Visit</h2>
+            <br>
+            <p style="font-size:20px;" class="lineSpacing">We understand that your time is valuable. <br
+                class="d-none d-lg-block"> That’s why we offer
+              convenient and fast <br class="d-none d-lg-block"> on-site service, so you can cross your <br
+                class="d-none d-lg-block">
+              window screens off your list in no time!</p>
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+          </div>
+          <div class="col-xl-1"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Guarantee -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="order-xl-1 d-none d-xl-block col-xl-1"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 px-2 mt-5 px-md-5">
+          <h2 style='font-size: 40px;'>Our Guarantee</h2>
+          <br>
+
+          <ul style="font-size: 18px;">
+            <li class="mb-3">Save time & money - your project will be done right the first time</li>
+            <li class="mb-3">Professional installation - no cracks, gaps, or screens falling off</li>
+            <li class="mb-3">Convenience - we take care of you from start to finish</li>
+          </ul>
+
+          <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Now</a>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 order-1 order-lg-2 order-xl-3">
+          <img class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
+            alt="Map of our Service Area!">
+        </div>
+        <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
+
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid bluishBackground">
+
+      <!-- <div class="container pb-5"> -->
+      <div class="row">
+        <div class="d-none d-lg-block col-8 contactImg"></div>
+        <div class="d-none d-lg-block col-4 py-4">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 font-weight-bold">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <div class="d-lg-none row">
+        <div class="col-12 contactImg">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </div>
+
   </ng-container>
 
   <ng-container *ngIf="landing.slug === 'door-and-window-screens'">
@@ -249,86 +474,7 @@
     </div>
   </ng-container>
 
-  <ng-container *ngIf="landing.slug === 'chimney-services'">
-    <div class="container pb-4">
-      <div class="row">
-        <div class="col-12 d-lg-none">
-          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
-            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-        </div>
-        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
-          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
-        </div>
-        <div class="col-md-6 d-none d-lg-block">
-          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
-            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
-        </div>
-      </div>
-
-      <hr />
-      <div class="row">
-        <!-- <div class="col-12 col-lg-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po"
-            allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div> -->
-        <div class="order-1 order-lg-2 col-12 col-lg-6">
-          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-        </div>
-
-        <div class="order-2 order-lg-1 col-12 col-lg-6 mt-2">
-          <h2 class="font-weight-bold" style="font-size: 20px;">Did you know that chimneys need to be cleaned and
-            inspected regularly in
-            order for them to burn safely?</h2>
-
-          <p class="p-2"> Sooty buildup can lead to chimney fires
-            that spread into the home. Even if you do not use your fireplace often,
-            general deterioration or even animal nests can make it unsafe to use.
-            Let Mike’s Mobile Chimney Service help you keep your fireplace safe and
-            your home cozy.
-          </p>
-          <div class="col-12 d-flex justify-content-center">
-            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()">Book Now!</button>
-            <a href="tel:+1{{landing.phone}}" class="d-none d-lg-block btn mikesBlueBtn">Call Us Now</a>
-          </div>
-          <button class="d-lg-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Book Now!</button>
-          <a href="tel:+1{{landing.phone}}" class="d-lg-none btn btn-block mikesBlueBtn">Call Us Now</a>
-
-        </div>
-
-      </div>
-      <h3 class="font-weight-bold mt-3">Our Services</h3>
-      <hr>
-      <div class="row d-flex justify-content-center">
-        <ng-container *ngFor="let service of chimneyServiceList">
-          <div class="card tile m-2 rounded">
-            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
-              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
-                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
-                  [innerHTML]="service.title"></h4>
-              </div>
-              <div class="view waves-light" mdbRippleRadius>
-                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
-              </div>
-              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
-                <div class="tileListContainer ">
-                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
-                    [innerHTML]="service.tileText"></p>
-                  <ul *ngIf="service.tileBullets" class="tileList">
-                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
-                  </ul>
-                </div>
-              </div>
-
-            </a>
-          </div>
-        </ng-container>
-      </div>
-    </div>
-  </ng-container>
-
-  <ng-container *ngIf="landing.slug === 'our-chimney-services' || landing.slug === 'our-fireplace-services' || landing.slug === 'our-annual-cleaning-and-inspection' ">
+  <ng-container *ngIf="landing.slug === 'fireplace-services' || landing.slug === 'chimney-services' || landing.slug === 'our-chimney-services' || landing.slug === 'our-fireplace-services' || landing.slug === 'our-annual-cleaning-and-inspection' ">
 
     <div class="container-fluid">
       <!-- Main -->
@@ -1253,244 +1399,7 @@
 
   </ng-container>
 
-  <ng-container *ngIf="landing.slug === 'security-doors'">
-    <div class="container pt-4">
-      <div class="row">
-        <div class="col-12">
-          <h1>Security Screen Doors</h1>
-          <hr>
-        </div>
-        <div class="col-12">
-          <p>Never sacrifice style for security! With custom-built security screen doors in a variety of colors and
-            designs. We guarantee that we'll help you upgrade your home and your peace of mind!</p>
-        </div>
-        <div class="col-12 col-md-6 mb-2">
-          <div class="card">
-            <img class="card-img-top" src="../../assets/images/landing/titan.jpg"
-              alt="Mike's Mobile Titan Security Door: Folkstone">
-            <div class="card-body">
-              <h4 class="card-title text-center">Titan Security Doors</h4>
-              <p class="card-text">The Titan Premium Security Screens come in 40 designs and a wide array of colors.
-                Their incredibly strong construction ensures that they can't be cut or torn, so you can show off your
-                unique style while you protect your home!</p>
-
-              <a routerLink="/grid/titan-security-doors" class="btn mikesBlueBtn btn-block">Titan Security Doors</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mb-2">
-          <div class="card">
-            <img class="card-img-top" src="../../assets/images/landing/viewguard.jpg"
-              alt="Mike's Mobile Viewguard Security Door in Black">
-            <div class="card-body">
-              <h4 class="card-title text-center">Viewguard Security Doors</h4>
-              <p class="card-text">The Viewguard Security Screens combine the look of a classic screen door with the
-                strength of stainless steel. The woven mesh also allows for maximum airflow, so that you can let the
-                cool breeze in while keeping unwanted visitors out!</p>
-              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Viewguard Security
-                Doors</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row py-5 d-flex justify-content-center">
-        <div class="col-12 col-md-10">
-          <h4 class="text-center">Security Screen Doors</h4>
-          <p>Security Screen Doors provide extra protection without compromising the look of your home. With a fully
-            customized door from Mike’s Mobile, you can leave the front door open while knowing that your family is
-            taken care of!
-            Increased security. Enhanced curb appeal. It’s that simple!</p>
-          <div class="text-center">
-            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now!</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row text-center pb-5 mx-0">
-        <div class="col-12 px-0 mx-0">
-          <div class="card-deck">
-            <div class="card yelpCard" *ngFor="let review of doorsReviews">
-              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
-                <div class="card-header">
-                  <a [href]="review.link1" rel="nofollow noopener">{{
-                    review.name
-                    }}</a>'s
-                  <a [href]="review.link2" rel="nofollow noopener">review</a>
-                  of
-                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
-                  </a>
-                  <br>
-                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
-                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
-                </div>
-                <div class="card-body text-left">
-                  <p>
-                    {{ review.content }}
-                  </p>
-                </div>
-                Read more on
-                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </ng-container>
-
-  <ng-container *ngIf="landing.slug === 'security-screen-doors' ">
-    <div class="container pt-4">
-      <div class="row">
-        <div class="col-12">
-          <h1>Security Screen Doors</h1>
-          <hr>
-        </div>
-        <div class="col-12">
-          <p>Never sacrifice style for security! With custom-built security screen doors in a variety of colors and
-            designs. We guarantee that we'll help you upgrade your home and your peace of mind!</p>
-        </div>
-        <div class="col-12 col-md-6 mb-2">
-          <div class="card">
-            <img class="card-img-top" src="../../assets/images/landing/titan.jpg"
-              alt="Mike's Mobile Titan Security Door: Folkstone">
-            <div class="card-body">
-              <h4 class="card-title text-center">Titan Security Doors</h4>
-              <p class="card-text">The Titan Premium Security Screens come in 40 designs and a wide array of colors.
-                Their incredibly strong construction ensures that they can't be cut or torn, so you can show off your
-                unique style while you protect your home!</p>
-
-              <a routerLink="/grid/titan-security-doors" class="btn mikesBlueBtn btn-block">Titan Security Doors</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 mb-2">
-          <div class="card">
-            <img class="card-img-top" src="../../assets/images/landing/viewguard.jpg"
-              alt="Mike's Mobile Viewguard Security Door in Black">
-            <div class="card-body">
-              <h4 class="card-title text-center">Viewguard Security Doors</h4>
-              <p class="card-text">The Viewguard Security Screens combine the look of a classic screen door with the
-                strength of stainless steel. The woven mesh also allows for maximum airflow, so that you can let the
-                cool breeze in while keeping unwanted visitors out!</p>
-              <a routerLink="/products/viewguard-security-doors" class="btn oj font-dark btn-block">Viewguard Security
-                Doors</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row py-5 d-flex justify-content-center">
-        <div class="col-12 col-md-10">
-          <h4 class="text-center">Security Screen Doors</h4>
-          <p>Security Screen Doors provide extra protection without compromising the look of your home. With a fully
-            customized door from Mike’s Mobile, you can leave the front door open while knowing that your family is
-            taken care of!
-            Increased security. Enhanced curb appeal. It’s that simple!</p>
-          <div class="text-center">
-            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now!</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row text-center pb-5 mx-0">
-        <div class="col-12 px-0 mx-0">
-          <div class="card-deck">
-            <div class="card yelpCard" *ngFor="let review of doorsReviews">
-              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
-                <div class="card-header">
-                  <a [href]="review.link1" rel="nofollow noopener">{{
-                    review.name
-                    }}</a>'s
-                  <a [href]="review.link2" rel="nofollow noopener">review</a>
-                  of
-                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
-                  </a>
-                  <br>
-                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
-                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
-                </div>
-                <div class="card-body text-left">
-                  <p>
-                    {{ review.content }}
-                  </p>
-                </div>
-                Read more on
-                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-10">
-          <h4 class="text-center">Financing</h4>
-          <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows
-            us to
-            ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and you
-            will
-            receive your credit decision within seconds. After receiving your quote, you can apply for financing by
-            clicking
-            the options below or by phone at <a href="tel:+18664057600">(866) 405-7600</a>.</p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-around">
-        <div class="col-12 col-md-5">
-          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
-            target="_blank" style="text-align: center;">
-            <img class="img-fluid" src="../../assets/images/landing/12m.jpg" alt="12 Month Financing Offer!">
-          </a>
-          <br>
-          <p class="mx-2 mx-lg-4" style="font-size:10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard
-            Rd., Suite 600, Salt
-            Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
-            Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to change.
-            Interest starts accruing when the loan closes.</p>
-        </div>
-        <div class="col-12 col-md-5">
-          <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
-            target="_blank" style="text-align: center;">
-            <img class='img-fluid' src="../../assets/images/landing/5yr.jpg" alt="5 Year Financing Offer!">
-          </a>
-          <br>
-          <p class="mx-2" style="font-size: 10px;">*Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
-            Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months.
-            6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan
-            closes.</p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-12 pt-5 pb-3 col-md-10">
-          <h4 class="text-center">Financing Information</h4>
-          <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640 needed
-            for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due
-            within 30-90 days of the project's completion. Our Contractor ID number is <span
-              class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span
-              class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)
-          </p>
-        </div>
-      </div>
-    </div>
-  </ng-container>
-
-  <ng-container *ngIf="landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' ">
+  <ng-container *ngIf="landing.slug === 'security-screen-doors' || landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' || landing.slug === 'security-doors'">
     <div class="container-fluid">
       <!-- Main -->
       <div class="row">
@@ -1816,7 +1725,6 @@
     </div>
 
   </ng-container>
-
 
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">

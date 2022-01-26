@@ -23,7 +23,6 @@ export class FooterComponent {
   doNotShow = [
     '/about/our-chimney-services',
     '/about/gas-fireplace-service',
-    '/about/security-screen-doors',
     '/grid/titans',
     '/products/viewguards',
     '/about/theWaterproofingPackage',
