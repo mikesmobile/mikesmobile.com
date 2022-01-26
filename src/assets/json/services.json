@@ -2477,82 +2477,20 @@
     ]
   },
   {
+    "title": "Window Screen Services",
+    "phone": "(916) 318-9845",
+    "slug": "window-screen-services",
+    "subcategory": "Window",
+    "type": "services"
+  },
+  {
     "title": "Window Screen Repair",
     "slug": "window-screen-repair",
     "phone": "(916) 318-9845",
     "category": "Door and Window Screens",
     "subcategory": "Window",
     "type": "services",
-    "textList": [
-      {
-        "title": "Fast",
-        "description": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
-      },
-      {
-        "title": "Friendly",
-        "description": "Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
-      },
-      {
-        "title": "Affordable",
-        "description": "We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
-      }
-    ],
-    "fullTileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
-    "tileImage": "/assets/images/newTiles/WindowScreenRepair.png",
-    "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-    "tileBullets": [
-      "All work done on-site ",
-      "Convenient single visit",
-      "Frame repair also available",
-      "Affordable options"
-    ],
-    "video": "",
-    "images": [
-      {
-        "alt": "Mike and Hank ready for a repair job",
-        "small": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
-        "medium": "/assets/images/landing/windowRepair/mikeAndHank1.jpg",
-        "big": "/assets/images/landing/windowRepair/mikeAndHank1.jpg"
-      },
-      {
-        "alt": "Installing a screen",
-        "small": "/assets/images/landing/windowRepair/installLong.png",
-        "medium": "/assets/images/landing/windowRepair/installLong.png",
-        "big": "/assets/images/landing/windowRepair/installLong.png"
-      },
-      {
-        "alt": "Finished screen",
-        "small": "/assets/images/landing/windowRepair/whiteFrame.png",
-        "medium": "/assets/images/landing/windowRepair/whiteFrame.png",
-        "big": "/assets/images/landing/windowRepair/whiteFrame.png"
-      },
-      {
-        "alt": "Another finished screen",
-        "small": "/assets/images/landing/windowRepair/clearWindow.png",
-        "medium": "/assets/images/landing/windowRepair/clearWindow.png",
-        "big": "/assets/images/landing/windowRepair/clearWindow.png"
-      }
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "yellow house with solar screens",
-        "small": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
-        "medium": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png",
-        "big": "/assets/images/landing/windowRepair/yellowHouseWhiteFrame.png"
-      },
-      {
-        "alt": "attic window with our Solar Screens",
-        "small": "/assets/images/landing/windowRepair/atticWindow.png",
-        "medium": "/assets/images/landing/windowRepair/atticWindow.png",
-        "big": "/assets/images/landing/windowRepair/atticWindow.png"
-      },
-      {
-        "alt": "installation of solar screens",
-        "small": "/assets/images/landing/windowRepair/install.png",
-        "medium": "/assets/images/landing/windowRepair/install.png",
-        "big": "/assets/images/landing/windowRepair/install.png"
-      }
-    ]
+    "tileImage": "/assets/images/newTiles/WindowScreenRepair.png"
   },
   {
     "title": "Window Screen Services",
@@ -4077,49 +4015,7 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "fullTileImage": "/assets/images/chimneys/cleaning/chimney_cleaning.jpg",
-    "tileImage": "/assets/images/newTiles/ChimneyCleaning.png",
-    "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
-    "tileBullets": [
-      "Address and prevent water damage",
-      "Repair heat damage",
-      "Prevent house fires"
-    ],
-    "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
-    "textList": [
-      {
-        "title": "Our chimney sweep technicians keep clean work areas.",
-        "description": "A clean sweep of your chimney will remove soot, creosote and blockages from your flue liner, smoke chamber and shelf, firebox and damper. We pride ourselves in “no mess” top notch service by doing a great job with minimal interruption to you and your family. Here at Mike’s Mobile Screen and Chimney Service, we take pride in providing the best possible customer experience so that you can go about your winter without worry when you burn!"
-      },
-      {
-        "title": "Every chimney sweep will include a full Level 1 Inspection report",
-        "description": "We only send fully trained chimney cleaning professionals to your home that will live up to the guidelines of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). Every chimney sweep from us will include a full Level 1 Inspection report which will inform you of the status of your chimney and fireplace which may be affecting performance and safety."
-      },
-      {
-        "title": "How often should you have your chimney cleaned?",
-        "description": "Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself."
-      }
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "Vacuuming Chimney Cleaning",
-        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
-        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg"
-      },
-      {
-        "alt": "Inside Chimney Cleaning",
-        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
-        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg"
-      },
-      {
-        "alt": "Brushing Chimney Clean",
-        "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
-        "big": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg"
-      }
-    ]
+    "tileImage": "/assets/images/newTiles/ChimneyCleaning.png"
   },
   {
     "title": "Chimney Repairs",
@@ -5492,42 +5388,15 @@
     "type": "landing"
   },
   {
+    "title": "Our Chimney Services",
+    "slug": "fireplace-services",
+    "phone": "(916) 318-9845"
+  },
+  {
     "title": "Chimney Services",
     "slug": "chimney-services",
     "phone": "(916) 318-9845",
-    "type": "landing",
-    "thumbImages": [
-      {
-        "alt": "Living room fireplace",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim1.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim1.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim1.png"
-      },
-      {
-        "alt": "Before and After of a fireplace",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim2.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim2.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim2.png"
-      },
-      {
-        "alt": "Before and After cleaning, removal, and painting",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim3.png",
-        "medium": "/assets/images/landing/ourchimneyservices/ourchim3.png",
-        "big": "/assets/images/landing/ourchimneyservices/ourchim3.png"
-      },
-      {
-        "alt": "Before and after waterproofing and outside mounting cap",
-        "small": "/assets/images/landing/ourchimneyservices/ourchim4.png",
-        "medium": "assets/images/landing/ourchimneyservices/ourchim4.png",
-        "big": "assets/images/landing/ourchimneyservices/ourchim4.png"
-      },
-      {
-        "alt": "Before and After chimney repair and cap",
-        "small": "assets/images/landing/ourchimneyservices/ourchim5.png",
-        "medium": "assets/images/landing/ourchimneyservices/ourchim5.png",
-        "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
-      }
-    ]
+    "type": "landing"
   },
   {
     "title": "Our Chimney Services",
@@ -5595,36 +5464,13 @@
     "title": "Security Screen Doors",
     "slug": "security-doors",
     "type": "landing",
-    "images": {
-      "Security Screen Doors": [
-        {
-          "alt": "Titan Trellis Door",
-          "title": "Titan Trellis Door",
-          "small": "/assets/images/security/titan/doors/trellis_2.jpg",
-          "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
-          "big": "/assets/images/security/titan/doors/trellis_2.jpg"
-        },
-        {
-          "alt": "Viewguard Security Screen Door",
-          "title": "Viewguard Security Screen Door",
-          "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
-          "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
-          "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
-        },
-        {
-          "alt": "Tru-View Security Screen Door",
-          "title": "Tru-View Security Screen Door",
-          "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-          "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-          "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
-        }
-      ]
-    }
+    "phone": "(916) 931-1873"
   },
   {
     "title": "Security Screen Doors",
     "slug": "security-screen-doors",
-    "type": "landing"
+    "type": "landing",
+    "phone": "(916) 931-1873"
   },
   {
     "title": "Security Screen Doors",

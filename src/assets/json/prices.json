@@ -136,32 +136,6 @@
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
   },
   {
-    "title": "chimney-cleaning",
-    "type": "services",
-    "price": [
-      {
-        "name": "Open Fireplace",
-        "price": "$295"
-      },
-      {
-        "name": "Freestanding Stove",
-        "price": "$355"
-      },
-      {
-        "name": "Insert",
-        "price": "$425"
-      },
-      {
-        "name": "Pellet Stove",
-        "price": "$495"
-      },
-      {
-        "name": "Gas Fireplace",
-        "price": "$339"
-      }
-    ]
-  },
-  {
     "title": "chimney-inspections",
     "type": "services",
     "price": [
@@ -187,28 +161,6 @@
       {
         "name": "Dryer Vent Cleaning",
         "price": "$339"
-      }
-    ]
-  },
-  {
-    "title": "window-screen-repair",
-    "type": "services",
-    "price": [
-      {
-        "name": "Re-Screen Old frame, up to 15 sq. feet:",
-        "price": "$65.00"
-      },
-      {
-        "name": "Bugscreen, under 15 sq. feet:",
-        "price": "$85.00"
-      },
-      {
-        "name": "Oversize, 15-25 sq. feet:",
-        "price": "$125.00"
-      },
-      {
-        "name": "Double hung:",
-        "price": "$135.00"
       }
     ]
   },

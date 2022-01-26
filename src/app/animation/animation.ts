@@ -7,6 +7,13 @@ export let fade = trigger('fade', [
     ])
 ])
 
+export let fadeFast = trigger('fade', [
+  state('void', style({ opacity: 0 })),
+  transition(':enter, :leave', [ // void => *, * => void
+      animate(500)
+  ])
+])
+
 export let moveLeft = trigger('moveLeft', [
     state('void', style({ marginLeft: 150 })),
     transition(':enter, :leave', [animate(2000)])
