@@ -2490,7 +2490,13 @@
     "category": "Door and Window Screens",
     "subcategory": "Window",
     "type": "services",
-    "tileImage": "/assets/images/newTiles/WindowScreenRepair.png"
+    "tileImage": "/assets/images/newTiles/WindowScreenRepair.png",
+    "tileBullets": [
+      "All work done on-site ",
+      "Convenient single visit",
+      "Frame repair also available",
+      "Affordable options"
+    ]
   },
   {
     "title": "Window Screen Services",
@@ -4015,7 +4021,12 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "tileImage": "/assets/images/newTiles/ChimneyCleaning.png"
+    "tileImage": "/assets/images/newTiles/ChimneyCleaning.png",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ]
   },
   {
     "title": "Chimney Repairs",
