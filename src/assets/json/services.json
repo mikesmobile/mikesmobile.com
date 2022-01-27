@@ -4021,6 +4021,7 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
+    "phone": "(916) 318-9845",
     "tileImage": "/assets/images/newTiles/ChimneyCleaning.png",
     "tileBullets": [
       "Address and prevent water damage",
@@ -5396,7 +5397,8 @@
   {
     "title": "Window Screens",
     "slug": "window-screens",
-    "type": "landing"
+    "type": "landing",
+    "phone":"(916) 931-1873"
   },
   {
     "title": "Our Chimney Services",
@@ -5475,7 +5477,7 @@
     "title": "Security Screen Doors",
     "slug": "security-doors",
     "type": "landing",
-    "phone": "(916) 931-1873",
+    "phone": "(916) 318-9845",
     "images": [
       {
         "alt": "Titan Security Door",
