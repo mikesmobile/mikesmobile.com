@@ -35,6 +35,7 @@
         </ng-container>
       </div>
     </div>
-    <hr class='divider'>
+    <hr *ngIf="i < categories.length-1" class='divider'>
+    <br *ngIf="i == categories.length-1">
   </div>
 </ng-container>

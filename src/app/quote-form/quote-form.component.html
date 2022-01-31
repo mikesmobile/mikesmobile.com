@@ -2,15 +2,15 @@
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" style="margin-top: 0px;" role="document">
     <div class="modal-content quoteFormContainer">
-      <div class="modal-header justify-content-start">
-        <h4 class="modal-title text-start p-2" id="quoteFormTitle">
-          Get a Free Quote Now! <br />
+      <div class="modal-header justify-content-start py-2">
+        <h4 class="modal-title text-start" id="quoteFormTitle">
+        Schedule Today!
         </h4>
         <button type="button" class="close" aria-label="Close" (click)="hide()">
-          <span aria-hidden="true">×</span>
+          <span aria-hidden="true">x</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-0">
         <form [formGroup]="quoteFormGroup" #quoteForm="ngForm" (submit)="handleSubmit($event)">
           <div class="md-form">
             <input mdbActive type="text" id="name" name="name" class="form-control" formControlName="name"
