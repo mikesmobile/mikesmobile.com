@@ -18,6 +18,7 @@ import { fade, moveLeft, moveRight } from '../animation/animation';
   animations: [fade, moveLeft, moveRight]
 })
 export class ServiceDetailComponent implements OnInit {
+  phone = '(916) 318-9845'
   service: any;
   price;
   img;
