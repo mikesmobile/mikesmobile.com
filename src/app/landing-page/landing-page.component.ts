@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxGalleryImage } from 'ngx-gallery';
-
+import * as AOS from 'aos';
 import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
@@ -75,7 +75,11 @@ export class LandingPageComponent implements OnInit {
 
 
   ngOnInit() {
-
+    AOS.init({
+      once: true,
+      easing: 'ease-out-back',
+      duration: 700
+    });
     this.route.params.subscribe((params) => {
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {

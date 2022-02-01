@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-
+import * as AOS from 'aos';
 import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
@@ -18,6 +18,7 @@ import { fade, moveLeft, moveRight } from '../animation/animation';
   animations: [fade, moveLeft, moveRight]
 })
 export class ServiceDetailComponent implements OnInit {
+  phone = '(916) 318-9845'
   service: any;
   price;
   img;
@@ -35,6 +36,12 @@ export class ServiceDetailComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    AOS.init({
+      once: true,
+      easing: 'ease-out-back',
+      duration: 700
+    });
+
     this.route.params.subscribe((params) => {
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
