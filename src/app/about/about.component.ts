@@ -15,6 +15,16 @@ export class AboutComponent implements OnInit {
     this.changePic = false;
   }
 
+  imgSrc: string = "/assets/images/about/8.26GroupPicSrs.jpg";
+
+  onMouseOver(): void {
+    this.imgSrc = "/assets/images/about/8.26GroupPicFun.jpg";
+  }
+
+  onMouseOut(): void {
+    this.imgSrc = "/assets/images/about/8.26GroupPicSrs.jpg";
+  }
+
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
     this.quoteForm.show();
