@@ -30,9 +30,10 @@
             "styles": [
               "node_modules/ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/mdb.scss",
-              "src/styles.sass"
+              "src/styles.sass",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/aos/dist/aos.js"],
             "es5BrowserSupport": true
           },
           "configurations": {
