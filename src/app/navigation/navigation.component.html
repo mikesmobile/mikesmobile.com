@@ -1,6 +1,6 @@
 <!-- I'm sure there's a better way but we wanted the nav to be container sized instead of container fluid.. so i'm duplicating it -C.E. -->
 <nav id="#backToTop">
-  <mdb-navbar class="d-none d-lg-block z-depth-1 navbar-light sticky-top"
+  <mdb-navbar class="d-none d-lg-block z-depth-1 navbar-light"
     SideClass="navbar sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
     <div class="container">
 
@@ -179,8 +179,8 @@
 
   </mdb-navbar>
 <!-- this is the "small" navbar -->
-  <mdb-navbar class="d-lg-none z-depth-1 navbar-light sticky-top"
-    SideClass="navbar sticky-top header navbar-light navbar-expand-lg" [containerInside]="false">
+  <mdb-navbar style="z-index: 1;" class="d-lg-none z-depth-1 navbar-light"
+    SideClass="navbar header navbar-light navbar-expand-lg" [containerInside]="false">
 
       <a class="navbar-brand" routerLink="/">
         <img src="/assets/images/main/navBarLogo.png" height="50px" alt="Mike’s Mobile Screen & Chimney Service">
@@ -354,7 +354,7 @@
 
   </mdb-navbar>
 
-  <div *ngIf="!hideMe" class="container-fluid p-0">
+  <div style="z-index: 2;" *ngIf="!hideMe" class="container-fluid p-0">
     <div class="row z-depth-1 text-center justify-content-center mt-1 mb-0 mx-0 p-0 d-lg-none">
       <div class="col-12 m-0 p-0">
         <ul class="navbar-nav btn mikesBlueBtn text-center py-1">
