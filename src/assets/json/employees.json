@@ -61,13 +61,6 @@
     
     },
     {
-        "image": "../../assets/images/team/timM.jpg",
-        "alt": "Mike's Mobile Technician, Tim T",
-        "name": "Tim M.",
-        "position": "Door Install Lead Technician"
-    
-    },
-    {
         "image": "../../assets/images/team/austinH.jpg",
         "alt": "Mike's Mobile Technician, Austin H.",
         "name": "Austin H.",
@@ -80,18 +73,6 @@
         "name": "Hank S.",
         "position": "Repair Technician"
     
-    },
-    {
-        "image": "../../assets/images/team/Brandon.jpg",
-        "alt": "Mike's Mobile Technician, Brandon P.",
-        "name": "Brandon P.",
-        "position": "Sales Technician"
-    },
-    {
-        "image": "../../assets/images/team/carlos.jpg",
-        "alt": "Mike's Mobile Technician, Carlos P.",
-        "name": "Carlos P.",
-        "position": "Sales Technician"
     },
     {
         "image": "../../assets/images/team/jacobC.png",
