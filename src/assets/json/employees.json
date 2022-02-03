@@ -21,7 +21,7 @@
     {
         "image": "../../assets/images/team/markA.jpg",
         "alt": "Gas Lead and Safety Manager, Mark A.",
-        "name": "Mark A",
+        "name": "Mark A.",
         "position": "Gas Lead/Safety Manager"
     
     },
@@ -36,28 +36,28 @@
         "image": "../../assets/images/team/joeD.jpg",
         "alt": "Mike's Mobile Technician, Joseph D.",
         "name": "Joseph D.",
-        "position": "Sales Trainer Lead Technician"
+        "position": "Lead Technician"
     
     },
     {
         "image": "../../assets/images/team/anthonyW.jpg",
         "alt": "Mike's Mobile Technician, Anthony W.",
-        "name": "Anthony W",
-        "position": "Gas Technician"
+        "name": "Anthony W.",
+        "position": "Gas Educator"
     
     },
     {
         "image": "../../assets/images/team/kevinA.jpg",
         "alt": "Mike's Mobile Technician, Kevin A.",
         "name": "Kevin A.",
-        "position": "Gas Technician"
+        "position": "Gas Educator"
     
     },
     {
         "image": "../../assets/images/team/lamont.jpg",
         "alt": "Mike's Mobile Technician, Lamont S.",
         "name": "Lamont S.",
-        "position": "Gas Technician"
+        "position": "Gas Educator"
     
     },
     {
@@ -78,25 +78,25 @@
         "image": "../../assets/images/team/jacobC.png",
         "alt": "Mike's Mobile Technician, Jacob C.",
         "name": "Jacob C.",
-        "position": "Sales Technician"
+        "position": "Chimney Educator"
     },
     {
         "image": "../../assets/images/team/jacobM.png",
         "alt": "Mike's Mobile Technician, Jacob M.",
         "name": "Jacob M.",
-        "position": "Sales Technician"
+        "position": "Chimney Educator"
     },
     {
         "image": "../../assets/images/team/justin.jpg",
         "alt": "Mike's Mobile Technician, Justin P.",
         "name": "Justin P.",
-        "position": "Sales Technician"
+        "position": "Chimney Educator"
     },
     {
         "image": "../../assets/images/team/michaelM.jpg",
         "alt": "Mike's Mobile Technician, Michael M.",
         "name": "Michael M.",
-        "position": "Sales Technician"
+        "position": "Chimney Educator"
     
     },
     {
@@ -128,7 +128,7 @@
     
     },
     {
-        "image": "../../assets/images/team/angelicaW.jpg",
+        "image": "../../assets/images/team/Angelica2-22.png",
         "alt": "Human Resources Specialist, Angelica W.",
         "name": "Angelica W.",
         "position": "Human Resources Specialist"
@@ -144,29 +144,55 @@
     {
         "image": "../../assets/images/team/melissaG.jpg",
         "alt": "Customer Service Manager, Melissa G",
-        "name": "Melissa G",
+        "name": "Melissa G.",
         "position": "Customer Service Manager"
-    
     },
     {
-        "image": "../../assets/images/team/crystalA.jpg",
+        "image": "../../assets/images/team/Crystal2-22.png",
         "alt": "Service Administrator, Crystal A.",
         "name": "Crystal A.",
         "position": "Service Administrator"
-    
+    },
+    {
+        "image": "../../assets/images/team/Jas2-22.png",
+        "alt": "Service Admin Assistant Jas G.",
+        "name": "Jas G.",
+        "position": "Service Admin Assistant"
+    },
+    {
+        "image": "../../assets/images/team/Taylor2-22.png",
+        "alt": "Scheduling Supervisor Taylor W.",
+        "name": "Taylor W.",
+        "position": "Scheduling Supervisor"
     },
     {
         "image": "../../assets/images/team/airealeW.jpg",
-        "alt": "CSR Aireale W.",
+        "alt": "Customer Service Specialist II Aireale W.",
         "name": "Aireale W.",
-        "position": "Customer Service Representative"
-    
+        "position": "Customer Service Specialist II"
     },
     {
-        "image": "../../assets/images/team/taylorW.jpg",
-        "alt": "CSR Taylor W.",
-        "name": "Taylor W.",
-        "position": "Customer Service Representative"
-    
+        "image": "../../assets/images/team/Arely2-22.png",
+        "alt": "Customer Service Specialist II Arely E.",
+        "name": "Arely E.",
+        "position": "Customer Service Specialist II"
+    },
+    {
+        "image": "../../assets/images/team/Shanna2-22.png",
+        "alt": "Customer Service Specialist II Shanna M.",
+        "name": "Shanna M.",
+        "position": "Customer Service Specialist II"
+    },
+    {
+        "image": "../../assets/images/team/Danica2-22.png",
+        "alt": "Customer Service Specialist I Danica D.",
+        "name": "Danica D.",
+        "position": "Customer Service Specialist I"
+    },
+    {
+        "image": "../../assets/images/team/David2-22.png",
+        "alt": "Customer Service Specialist I David C.",
+        "name": "David C.",
+        "position": "Customer Service Specialist I"
     }
 ]
