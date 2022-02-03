@@ -386,7 +386,7 @@
           <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
         </div>
         <div class="col-12 col-lg-6 col-xl-4 order-1 order-lg-2 order-xl-3">
-          <img data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
+          <img data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapNoBakersfield.png"
             alt="Map of our Service Area!">
         </div>
         <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
@@ -684,7 +684,7 @@
           </div>
 
           <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4 p-lg-5">
-            <img data-aos="fade-left" class='img-fluid' data-aos-anchor-placement="center-bottom" src="../../assets/images/landing/securityscreen/mapThing.png"
+            <img data-aos="fade-left" class='img-fluid' data-aos-anchor-placement="center-bottom" src="../../assets/images/landing/mapNoBakersfield.png"
               alt="Map of our Service Area!">
           </div>
           <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
@@ -1669,8 +1669,10 @@
 
             <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
           </div>
-          <div class=" order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4">
-            <img data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/securityscreen/mapThing.png"
+          <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4">
+            <img *ngIf="landing.slug !== 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapNoBakersfield.png"
+              alt="Map of our Service Area!">
+            <img *ngIf="landing.slug === 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapBakersfield.png"
               alt="Map of our Service Area!">
           </div>
           <div class="order-xl-4 d-none d-xl-block col-xl"></div>
