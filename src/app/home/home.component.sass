@@ -2,76 +2,49 @@
 @import '../../sass/modules/_variables.sass'
 
 
-//changes word height on card tiles, 100px, 200px, 350px,
+.backGroundGrey
+  background-color: #5b5d52
+  font-size: 19px
+  color: #FFF
 
-@include breakpoint(lg)
-  .card-title
-    margin-top: 325px
-    margin-bottom: 0px
+.backGroundGrey:hover
+  color: #ebebeb
 
-.title-bar
-  position: absolute
-  top: 0px
-  margin-top: 0px
-  z-index: 0
-  font-size: 1rem !important
+.subtitle
+  font-size: 28px
 
-.tile
-  height: 100px
-  @include breakpoint(md)
-    height: 250px
-  @include breakpoint(lg)
-    height: 500px
-
-.tile:hover
-  .tileInfo 
-    @include breakpoint(md)
-      display: block
-
-
-.tileImg
-  display: block
-
-.tileTitle 
-  width: 100%
-  padding: 10px
+.subtitleBold
+  font-size: 25px
   font-weight: bold
-  background: rgba(0, 0, 0, 0.7)
 
-.tileInfo 
-  display: none
-  width: 100%
-  padding: 5px
-  background-color: $mmblue
-  background: rgba(0, 174, 239, 0.8)
-    
-.carousel
-  h2
-    text-transform: uppercase
-    font-weight: 400
-    letter-spacing: 1px
-  button
-    padding: 10px 20px
-    border-radius: 2.5px
-    margin: 5px 0
-  .carousel-inner
-    .carousel-item
-      app-img
-        object-fit: cover
+.subtitleItalicBlue
+  color: $mmblue
+  font-size: 25px
+  font-style: italic
+  font-weight: bold
 
-.alert
-  background-color: #f4f4f4 !important
 
-.chimneyTileTitleSmall
-  display: block;
+.bluishBackground
+  background-color: #EDF3FF
+  // background-color: #93b7ff
 
-.chimneyTileTitleLarge
-  display: none
+.familyBg
+  background: url('/assets/images/landing/chimServices/quoteForm.png')
+  background-position-y: 50%
+  background-repeat: none
+  background-size: cover
 
-@include breakpoint(xl)
-  .chimneyTileTitleSmall 
-    display: none;
-  .chimneyTileTitleLarge
-    display: block
- 
+.BlurBg
+  background-color: #ffffffaf 
 
+.contactImg
+  background: url('/assets/images/landing/windowServices/ladypointing.jpg')
+  background-repeat: none
+  background-size: cover
+  background-position-x: 52%
+  background-position-y: 50%
+
+@media screen and (min-width: 1200px) and (max-width: 1640px)
+  .paddingNoneHeader
+    padding: 0px !important
+    margin: 0px !important
