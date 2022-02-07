@@ -1,16 +1,25 @@
 
+
 <mdb-carousel [isControls]="false" class="carousel" [interval]="2000" [animation]="fade">
+
   <mdb-carousel-item>
-    <img class="d-block w-100" src="../../assets/images/home/nofocus.png" alt="House without any security products">
+    <img class="d-block w-100" src='../../assets/images/home/nofocus.png' alt='img'>
   </mdb-carousel-item>
   <mdb-carousel-item>
-    <img class="d-block w-100" src="../../assets/images/home/windowfocus.png" alt="Security Screens">
+    <img class="d-block w-100" src='../../assets/images/home/doorfocus.png' alt="image">
   </mdb-carousel-item>
   <mdb-carousel-item>
-    <img class="d-block w-100" src="../../assets/images/home/doorfocus.png" alt="Viewguard Security Screen Door">
+    <img class="d-block w-100" src='../../assets/images/home/windowfocus.png' alt="image">
   </mdb-carousel-item>
   <mdb-carousel-item>
-    <img class="d-block w-100" src="../../assets/images/home/chimfocus.png" alt="Chimney with a Mike's Mobile Cap and Waterproofing!">
+    <img class="d-block w-100" src='../../assets/images/home/chimfocus.png' alt="image">
   </mdb-carousel-item>
+
 </mdb-carousel>
- 
+
+<div class="col-12 d-flex justify-content-around" style="z-index: 2; margin-top: -90px;" >
+  <a (click)="caro.selectSlide(1)" class="btn mikesBlueBtn">Screens</a>
+  <a (click)="caro.selectSlide(2)" class="btn mikesBlueBtn">Window </a>
+  <a (click)="caro.selectSlide(2)" class="btn mikesBlueBtn">Chimney</a>
+  
+</div>
