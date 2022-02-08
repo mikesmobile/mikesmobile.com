@@ -1,25 +1,30 @@
+<div class="row">
 
+  <div class="col-12">
+    <mdb-carousel [isControls]="false" class="carousel" [interval]="2000" [animation]="fade">
 
-<mdb-carousel [isControls]="false" class="carousel" [interval]="2000" [animation]="fade">
+      <mdb-carousel-item>
+        <img class="d-block w-100" src='../../assets/images/home/nofocus.png' alt='img'>
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img id="door" class="d-block w-100" src='../../assets/images/home/doorfocus.png' alt="image">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img id='window' class="d-block w-100" src='../../assets/images/home/windowfocus.png' alt="image">
+      </mdb-carousel-item>
+      <mdb-carousel-item>
+        <img id='chim' class="d-block w-100" src='../../assets/images/home/chimfocus.png' alt="image">
+      </mdb-carousel-item>
 
-  <mdb-carousel-item>
-    <img class="d-block w-100" src='../../assets/images/home/nofocus.png' alt='img'>
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <img class="d-block w-100" src='../../assets/images/home/doorfocus.png' alt="image">
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <img class="d-block w-100" src='../../assets/images/home/windowfocus.png' alt="image">
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <img class="d-block w-100" src='../../assets/images/home/chimfocus.png' alt="image">
-  </mdb-carousel-item>
+    </mdb-carousel>
+  </div>
 
-</mdb-carousel>
+  <div class="col-12 d-flex justify-content-around" style="z-index: 2; margin-top: -90px;">
+    <a data-aos="fade-up" data-aos-delay="500">
+      <img src='../../assets/images/home/btnShape.png' class="img-fluid" alt="">
+    </a>
+    <a data-aos="fade-up" data-aos-delay="500" class="btn whiteBgBlueBorderBtn">Window </a>
+    <a data-aos="fade-up" data-aos-delay="500">Chimney</a>
 
-<div class="col-12 d-flex justify-content-around" style="z-index: 2; margin-top: -90px;" >
-  <a (click)="caro.selectSlide(1)" class="btn mikesBlueBtn">Screens</a>
-  <a (click)="caro.selectSlide(2)" class="btn mikesBlueBtn">Window </a>
-  <a (click)="caro.selectSlide(2)" class="btn mikesBlueBtn">Chimney</a>
-  
+  </div>
 </div>

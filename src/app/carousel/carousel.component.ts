@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-carousel',
@@ -28,6 +29,11 @@ export class CarouselComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    AOS.init({
+      once: true,
+      easing: 'ease-out-back',
+      duration: 700
+    });
   }
 
 }
