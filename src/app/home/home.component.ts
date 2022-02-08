@@ -8,6 +8,7 @@ import * as AOS from 'aos';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
+  phone = '(916) 318-9845'
   @ViewChild(AnnouncementMessageComponent)
   private announcementMessage: AnnouncementMessageComponent;
   ngOnInit(){
