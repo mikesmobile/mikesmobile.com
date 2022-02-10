@@ -26,29 +26,17 @@ export class CarouselComponent implements OnInit {
   //   }
   // ]
 
-  // @ViewChild("noFocus") noFocus
-  // @ViewChild("doorFocus") doorFocus
-
-  // check(button){
-  //   console.log(button.el.nativeElement.classList.value);
-  //   if(button.el.nativeElement.classList.contains('active')){
-
-  //   }
-  // }
-
   constructor() { }
-  ngAfterViewInit() {
 
-
-  }
 
   ngOnInit() {
-    AOS.refresh()
+
     AOS.init({
-      // once: true,
+      once: true,
       easing: 'ease-out-back',
       duration: 700
     });
+
   }
 
 }
