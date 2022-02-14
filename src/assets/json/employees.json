@@ -22,7 +22,7 @@
         "image": "../../assets/images/team/markA.jpg",
         "alt": "Gas Lead and Safety Manager, Mark A.",
         "name": "Mark A.",
-        "position": "Gas Lead/Safety Manager"
+        "position": "Fireplace Services Manager"
     
     },
     {
@@ -37,6 +37,13 @@
         "alt": "Mike's Mobile Technician, Joseph D.",
         "name": "Joseph D.",
         "position": "Lead Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/Andrew.png",
+        "alt": "Mike's Mobile Technician, Andrew P.",
+        "name": "Andrew P",
+        "position": "Gas Educator"
     
     },
     {
@@ -64,6 +71,13 @@
         "image": "../../assets/images/team/austinH.jpg",
         "alt": "Mike's Mobile Technician, Austin H.",
         "name": "Austin H.",
+        "position": "Door Install Technician"
+    
+    },
+    {
+        "image": "../../assets/images/team/MarkL.png",
+        "alt": "Mike's Mobile Technician, Mark L.",
+        "name": "Mark L.",
         "position": "Door Install Technician"
     
     },
