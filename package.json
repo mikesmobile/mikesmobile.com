@@ -5,7 +5,7 @@
     "ng": "ng",
     "analyze": "webpack-bundle-analyzer dist/browser/stats.json",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --prod --output-hashing none",
     "build:stats": "ng build --stats-json --prod",
     "test": "ng test",
     "lint": "ng lint",
