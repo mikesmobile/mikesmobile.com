@@ -1657,7 +1657,7 @@
       <div class="container" style="overflow: hidden;">
         <div class="row">
           <div class="order-xl-1 d-none d-xl-block col-xl"></div>
-          <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 px-2 mt-5 px-md-5">
+          <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 mt-2 mt-md-5 px-md-5">
             <h2 style='font-size: 40px;'>Our Guarantee</h2>
             <br>
             <ul style="font-size: 18px;">
@@ -1666,16 +1666,19 @@
               <li class="mb-3">Professional installation - for a perfect end result</li>
               <li class="mb-3">Lifetime no break-in guarantee</li>
             </ul>
+            <div class="d-flex justify-content-center mt-2">
+              <a class="btn mikesBlueBtn text-center" href="tel:+1{{landing.phone}}">Call Now</a>
+            </div>
 
-            <a class="btn mikesBlueBtn" href="tel:+1{{landing.phone}}">Call Now</a>
           </div>
+          
+
           <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4">
             <img *ngIf="landing.slug !== 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapNoBakersfield.png"
               alt="Map of our Service Area!">
-            <img *ngIf="landing.slug === 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/securityscreen/bakersfield.png"
-              alt="Bakersfield Sign with a Mike's Mobile Truck">
-              <!-- <br>
-              <p *ngIf="landing.slug === 'our-security-screen-doors-bakersfield'" class="pt-3 font-weight-bold small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex dolores odio unde voluptatibus vero harum iusto cumque pariatur aspernatur?</p> -->
+            <img *ngIf="landing.slug === 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/securityscreen/bakersfieldcentral.png"
+              alt="Bakersfield Sign with a Mike's Mobile Truck and text saying Proudly Serving Central California">
+              <p *ngIf="landing.slug === 'our-security-screen-doors-bakersfield'" class="pt-3 font-weight-bold small text-center">Also serving Fresno, Visalia, San Luis Obispo, and More!</p>
           </div>
           <div class="order-xl-4 d-none d-xl-block col-xl"></div>
 
@@ -1686,16 +1689,6 @@
     <!-- Contact Form -->
     <div class="container">
 
-      <!-- <div class="container pb-5"> -->
-      <!-- <div class="row">
-        <div class="d-none d-lg-block col-lg-6 col-xl-7 viewguardImg"></div>
-        <div class="d-none d-lg-block col-lg-6 col-xl-5 py-5">
-          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 font-weight-bold">Schedule Your Free
-            Consultation Today!</h2>
-          <app-contact-form></app-contact-form>
-        </div>
-        <div class="col-lg-1"></div>
-      </div> -->
       <div class="row">
         <div class="col-lg"></div>
         <div class="d-none d-lg-block col-lg-6 text-center">
