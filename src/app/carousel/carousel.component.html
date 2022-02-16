@@ -1,5 +1,6 @@
 <div class="container-fluid">
 
+  <!-- <div class="row d-none d-md-block"> -->
   <div class="row">
 
     <div class="col-12 mx-0 px-0">
@@ -7,27 +8,55 @@
 
         <mdb-carousel-item>
           <img class="d-block w-100" src='../../assets/images/home/windowfocus.png' alt="image">
-          <div data-aos="fade-up" data-aos-delay="500" style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
-            <a class="transformScale btn whiteBlueBtn" routerLink="/about/window-screens">Window Screens</a>
-            <a class="btn whiteBlueBtn" routerLink="/about/security-doors">Security Doors</a>
-            <a class="btn whiteBlueBtn" routerLink="/about/chimney-services">Chimney/Fireplace</a>
+          <div @moveUp style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
+            <a routerLink="/about/window-screens">
+              <img class="transformScale img-fluid" src="../../assets/images/home/windowsbtn.png"
+                alt="Button that says Window Screens">
+            </a>
+            <a class="mx-3" routerLink="/about/security-doors">
+              <img class="img-fluid" src="../../assets/images/home/doorsbtn.png" alt="Button that says Security Doors">
+
+            </a>
+            <a routerLink="/about/chimney-services">
+              <img class="img-fluid" src="../../assets/images/home/fireplacebtn.png"
+                alt="Button that says Chimney/Fireplace">
+            </a>
           </div>
         </mdb-carousel-item>
         <mdb-carousel-item>
           <img class="d-block w-100" src='../../assets/images/home/doorfocus.png' alt="image">
 
           <div style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
-            <a class="btn whiteBlueBtn" routerLink="/about/window-screens">Window Screens</a>
-            <a class="transformScale btn whiteBlueBtn" routerLink="/about/security-doors">Security Doors</a>
-            <a class="btn whiteBlueBtn" routerLink="/about/chimney-services">Chimney/Fireplace</a>
+            <a routerLink="/about/window-screens">
+              <img class="img-fluid" src="../../assets/images/home/windowsbtn.png"
+                alt="Button that says Window Screens">
+            </a>
+            <a class="mx-3" routerLink="/about/security-doors">
+              <img class="transformScale img-fluid" src="../../assets/images/home/doorsbtn.png"
+                alt="Button that says Security Doors">
+
+            </a>
+            <a routerLink="/about/chimney-services">
+              <img class="img-fluid" src="../../assets/images/home/fireplacebtn.png"
+                alt="Button that says Chimney/Fireplace">
+            </a>
           </div>
         </mdb-carousel-item>
         <mdb-carousel-item>
           <img id='chim' class="d-block w-100" src='../../assets/images/home/chimfocus.png' alt="image">
           <div style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
-            <a class="btn whiteBlueBtn" routerLink="/about/window-screens">Window Screens</a>
-            <a class="btn whiteBlueBtn" routerLink="/about/security-doors">Security Doors</a>
-            <a class="transformScale btn whiteBlueBtn" routerLink="/about/chimney-services">Chimney/Fireplace</a>
+            <a routerLink="/about/window-screens">
+              <img class="img-fluid" src="../../assets/images/home/windowsbtn.png"
+                alt="Button that says Window Screens">
+            </a>
+            <a class="mx-3" routerLink="/about/security-doors">
+              <img class="img-fluid" src="../../assets/images/home/doorsbtn.png" alt="Button that says Security Doors">
+
+            </a>
+            <a routerLink="/about/chimney-services">
+              <img class="transformScale img-fluid" src="../../assets/images/home/fireplacebtn.png"
+                alt="Button that says Chimney/Fireplace">
+            </a>
           </div>
         </mdb-carousel-item>
 
@@ -48,4 +77,16 @@
     <!-- <button (click)="check(noFocus)" class="btn btn-primary">Click Me Check Me</button> -->
 
   </div>
+
+  <!-- <div class="row d-block d-md-none">
+    <div class="col-12 bgPicWindow">
+      
+    </div>
+    <div class="col-12 bgPicDoor">
+
+    </div>
+    <div class="col-12 bgPicFireplace">
+
+    </div>
+  </div> -->
 </div>

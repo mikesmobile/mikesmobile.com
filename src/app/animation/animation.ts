@@ -1,4 +1,4 @@
-import { animate, query, sequence, stagger, state, style, transition, trigger } from "@angular/animations";
+import { animate, state, style, transition, trigger } from "@angular/animations";
 
 export let fade = trigger('fade', [
   state('void', style({ opacity: 0 })),
@@ -7,7 +7,7 @@ export let fade = trigger('fade', [
   ])
 ])
 
-export let fadeFast = trigger('fade', [
+export let fadeFast = trigger('fadeFast', [
   state('void', style({ opacity: 0 })),
   transition(':enter, :leave', [ // void => *, * => void
     animate(500)
@@ -24,19 +24,8 @@ export let moveRight = trigger('moveRight', [
   transition(':enter, :leave', [animate(2000)])
 ])
 
-export let float = trigger('float', [
-  state('void', style({ transform: 'scale(2)' })),
-  transition('void => *', [animate(2000)])
+export let moveUp = trigger('moveUp', [
+  state('void', style({ marginBottom: 150 })),
+  transition(':enter, :leave', [animate(300)])
 ])
 
-export let staggerEffect = trigger('staggerEffect', [
-  transition(':enter', [
-    query('.hero', [
-      style({ opacity: 0, transform: 'translateY(-100px)' }),
-      stagger(30, [
-        animate('500ms cubic-bezier(0.35, 0, 0.25, 1)',
-          style({ opacity: 1, transform: 'none' }))
-      ])
-    ])
-  ])
-])

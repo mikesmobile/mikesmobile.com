@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
+import { fade, moveLeft, moveUp } from '../animation/animation';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.sass']
+  styleUrls: ['./carousel.component.sass'],
+  animations: [fade, moveUp, moveLeft]
 })
 export class CarouselComponent implements OnInit {
   // images = [
