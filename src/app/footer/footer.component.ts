@@ -8,6 +8,7 @@ import { Router, Event, NavigationEnd } from '@angular/router';
 })
 export class FooterComponent {
   turnMeOn = true;
+  central = false;
   currentRoute: string;
 
   constructor(private router: Router) {
@@ -17,29 +18,45 @@ export class FooterComponent {
         // Hide progress spinner or progress bar
         this.currentRoute = event.url;
         this.turnMeOn = this.footerSwitch()
+        this.central = this.centralFooterCheck()
       }
     });
   }
   doNotShow = [
-    '/about/our-chimney-services',
     '/about/gas-fireplace-service',
-    '/grid/titans',
-    '/products/viewguards',
     '/about/theWaterproofingPackage',
     '/grid/our-chimney-repairs',
     '/about/our-screen-doors',
+    '/about/our-security-screen-doors',
+    '/about/our-chimney-services',
     '/services/our-window-screen-services',
-    '/about/our-security-screen-doors'
+    '/grid/titans',
+    '/products/viewguards',
+    '/about/our-fireplace-services',
+    '/about/our-annual-cleaning-and-inspection',
+
   ]
+  centralList = [
+    '/about/our-security-screen-doors-bakersfield'
+  ]
+
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
-    for(let i = 0; i < this.doNotShow.length; i++){
-      if(this.currentRoute.startsWith(this.doNotShow[i])){
+    for (let i = 0; i < this.doNotShow.length; i++) {
+      if (this.currentRoute === this.doNotShow[i]) {
         return false;
       }
     }
-    return true;
-    
+    return !this.centralFooterCheck()
   }
-  
+
+  centralFooterCheck() {
+    for (let i = 0; i < this.centralList.length; i++) {
+      if (this.currentRoute === this.centralList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
+
 }
