@@ -7,29 +7,37 @@
       <mdb-carousel [isControls]="false" class="carousel img-fluid" [interval]="2000">
 
         <mdb-carousel-item>
-          <img class="d-block w-100" src='../../assets/images/home/windowfocus.png' alt="image">
+          <img class="d-block w-100" src='../../assets/images/home/doorPicFocus.png' alt="image">
           <div @moveUp style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
-            <a routerLink="/about/window-screens">
-              <img class="transformScale img-fluid" src="../../assets/images/home/windowsbtn.png"
-                alt="Button that says Window Screens">
-            </a>
-            <a class="mx-3" routerLink="/about/security-doors">
-              <img class="img-fluid" src="../../assets/images/home/doorsbtn.png" alt="Button that says Security Doors">
+            <div class="col-4 text-center">
 
-            </a>
-            <a routerLink="/about/chimney-services">
-              <img class="img-fluid" src="../../assets/images/home/fireplacebtn.png"
+              <a routerLink="/about/window-screens">
+                <img class="img-fluid" src="../../assets/images/home/windowsbtn.png"
+                alt="Button that says Window Screens">
+              </a>
+            </div>
+            <div class="col-4 text-center">
+
+              <a routerLink="/about/security-doors">
+                <img class="img-fluid" src="../../assets/images/home/doorsbtn.png" alt="Button that says Security Doors">
+                
+              </a>
+            </div>
+            <div class="col-4 text-center">
+
+              <a routerLink="/about/chimney-services">
+                <img class="img-fluid" src="../../assets/images/home/fireplacebtn.png"
                 alt="Button that says Chimney/Fireplace">
-            </a>
+              </a>
+            </div>
           </div>
         </mdb-carousel-item>
-        <mdb-carousel-item>
-          <img class="d-block w-100" src='../../assets/images/home/doorfocus.png' alt="image">
+        <!-- <mdb-carousel-item class="bgPicDoor">
+          <img class="d-block" style="height: 90vh;" src='../../assets/images/home/doorfocus.png' alt="image">
 
           <div style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
             <a routerLink="/about/window-screens">
-              <img class="img-fluid" src="../../assets/images/home/windowsbtn.png"
-                alt="Button that says Window Screens">
+              <img class="img-fluid" src="../../assets/images/home/windowsbtn.png" alt="Button that says Window Screens">
             </a>
             <a class="mx-3" routerLink="/about/security-doors">
               <img class="transformScale img-fluid" src="../../assets/images/home/doorsbtn.png"
@@ -41,9 +49,9 @@
                 alt="Button that says Chimney/Fireplace">
             </a>
           </div>
-        </mdb-carousel-item>
-        <mdb-carousel-item>
-          <img id='chim' class="d-block w-100" src='../../assets/images/home/chimfocus.png' alt="image">
+        </mdb-carousel-item> -->
+        <!-- <mdb-carousel-item class="bgPicFireplace">
+          <img id='chim' class="d-block" src='../../assets/images/home/chimfocus.png' alt="image">
           <div style="position: absolute; bottom: 15px;" class="col-12 d-flex justify-content-around">
             <a routerLink="/about/window-screens">
               <img class="img-fluid" src="../../assets/images/home/windowsbtn.png"
@@ -58,7 +66,7 @@
                 alt="Button that says Chimney/Fireplace">
             </a>
           </div>
-        </mdb-carousel-item>
+        </mdb-carousel-item> -->
 
       </mdb-carousel>
     </div>
