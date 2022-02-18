@@ -29,6 +29,7 @@ import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 import { CareerPageComponent } from './career-page/career-page.component';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
 
 
 const appRoutes: Routes = [

@@ -11,6 +11,7 @@ import {
 } from '@angular/animations';
 import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
 import regionalJSON from '../../assets/json/regional_services.json';
+import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
 
 @Component({
   selector: 'app-service-area',
@@ -51,6 +52,7 @@ export class ServiceAreaComponent implements OnInit {
 
   state = 'clicked';
   regions = [];
+  regionSecurityOnly = [];
 
   clicked: string = 'none';
   //  center position of the map
@@ -119,6 +121,7 @@ export class ServiceAreaComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe((params) => { this.id = params.id; });
     this.regions = regionalJSON;
+    // this.regionSecurityOnly = regionalSecurityJSON;
   }
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;

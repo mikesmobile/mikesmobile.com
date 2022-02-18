@@ -10,14 +10,12 @@ import {
   animate
 } from '@angular/animations';
 import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
-import regionalJSON from '../../assets/json/regional_services.json';
 import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
 
 @Component({
-  selector: 'app-landing-regional',
-  templateUrl: './landing-regional.component.html',
-  styleUrls: ['./landing-regional.component.sass'],
-
+  selector: 'app-landing-regional-security',
+  templateUrl: './landing-regional-security.component.html',
+  styleUrls: ['./landing-regional-security.component.sass'],
   animations: [
     trigger('infobox', [
       state(
@@ -41,7 +39,9 @@ import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
     ])
   ]
 })
-export class LandingRegionalComponent implements OnInit {
+
+
+export class LandingRegionalSecurityComponent implements OnInit {
   region;
   regionSecurity;
   service;
@@ -79,10 +79,7 @@ export class LandingRegionalComponent implements OnInit {
       const regionalSlug = params[1].path;
 
       console.log(params[1].path);
-      this.region = regionalJSON.find((data) => {
-        return data.slug === regionalSlug;
-      });
-      this.regionSecurity = regionalSecurityJSON.find((data) => {
+      this.region = regionalSecurityJSON.find((data) => {
         return data.slug === regionalSlug;
       });
 

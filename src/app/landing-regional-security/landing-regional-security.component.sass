@@ -1,0 +1,70 @@
+@import '../../sass/modules/_mixins.sass'
+@import '../../sass/modules/_variables.sass'
+
+.summary p
+  font-size: 1.2rem
+
+.office-hours
+  background: #f2f2f2
+
+  .title
+    border-left: 4px solid $mmblue
+    font-size: 1.2rem
+    text-transform: uppercase
+
+  li
+    border-bottom: 1px solid #333
+    font-size: 1rem
+    line-height: 1.8rem
+    &:last-child
+      border-bottom: none
+
+.area-list
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+  li
+    border-bottom: 1px solid #333
+    display: inline-block
+    width: 50%
+    @include breakpoint(md)
+      width: 33%
+
+@include breakpoint(md)
+  .yelpCard
+    width: 400px;
+
+.info-box
+  background-color: $mmblue
+  border-radius: 5px
+  text-align: center
+  width: 300px
+  height: 200px
+  top: 265px
+  margin-top: -190px
+  left: 8%
+  z-index: 9
+  position: relative
+  @include breakpoint(sm)
+    top: 380px
+    left: 70%
+  p
+    font-size: 1rem
+
+.tile
+  height: 348px
+
+.tileInfo
+  display: none
+
+.tile:hover
+  .tileInfo
+    display: inline
+
+.fab
+  color: #EE204D !important
+
+.fa-star
+  color: #F9A602 !important
+

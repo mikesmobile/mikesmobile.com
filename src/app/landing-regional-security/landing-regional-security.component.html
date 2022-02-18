@@ -1,0 +1,201 @@
+<div class="container">
+  <div class="row">
+    <div class="col mt-3 d-lg-none">
+      <h1 class="h3 text-center d-none d-lg-block">
+        Services in {{ region.region }}
+      </h1>
+      <app-tile-nav></app-tile-nav>
+    </div>
+    <div class="col-xl-6 col-lg-5 mt-3 summary">
+      <div class="card tile mb-3 d-none d-lg-block">
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Sacramento" />
+        <div class="card-img-overlay text-center">
+          <h1 class="mainTitle card-title text-white transparent-gray">
+            Mike's Mobile {{ region.region }}
+          </h1>
+          <p class="card-text tileInfo text-white transparent-gray m-0" [innerHTML]="region.description"></p>
+        </div>
+      </div>
+      <div class="card mt-3 d-lg-none">
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Sacramento" />
+        <div class="card-img-overlay text-center">
+          <h1 class="mainTitle card-title text-white transparent-gray">
+            Mike's Mobile {{ region.region }}
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="w-100 text-center">
+            <a class="btn mikesBlueBtn btn-rounded w-75" href="tel:{{ region.phone }}"><i class="fas fa-phone left"></i>
+              {{ region.phone }}</a>
+            <p class="card-text">Call us for more information!</p>
+          </div>
+          <div class="office-hours mb-4 px-3 py-4">
+            <h2 class="title pl-1">
+              {{
+              region.region === 'Sacramento' || region.region === 'Stockton'
+              ? region.region
+              : ''
+              }}
+              Office Hours
+            </h2>
+            <ul class="list-unstyled opening-hours">
+              <li>Monday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Tuesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Wednesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Thursday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Friday <span class="float-right">8:00AM - 5:00PM</span></li>
+              <li>Saturday <span class="float-right">8:00AM - 5:00PM</span></li>
+              <li>Sunday <span class="float-right">Closed</span></li>
+            </ul>
+          </div>
+          <ul class="area-list w-100 d-none d-lg-block">
+            <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- blurb on mobile -->
+      <div class="card mt-3 d-lg-none">
+        <div class="card-body">
+          <p class="card-text" [innerHTML]="region.description"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-3">
+      <h1 class="h3 text-center d-none d-lg-block">
+        Services in {{ region.region }}
+      </h1>
+      <div class="d-none d-lg-block">
+        <app-tile-nav></app-tile-nav>
+      </div>
+      <div *ngIf="clicked == 'Sacramento'" class=" info-box" [@infobox]="state">
+        <div class="card">
+          <h3 class="card-header primary-color white-text">
+            Sacramento Office
+          </h3>
+          <div class="card-body">
+            <h4 class="desktop-disappear">Book Us Now!</h4>
+            <p class="card-text">
+              9912 Business Park Dr. Ste 175,
+              <br />Sacramento, CA 95827 <br />Phone: (916) 823-3388 <br />Fax:
+              (916) 358-7873 <br />office@mikesmobile.com <br />Mon-Sat 8AM-7PM
+            </p>
+            <a class="btn oj waves-light" (click)="openQuoteForm()" mdbWavesEffect>Book Us Now!</a>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="clicked == 'Stockton'" class="info-box" [@infobox]="state">
+        <div class="card">
+          <h3 class="card-header primary-color white-text">Stockton Office</h3>
+          <div class="card-body">
+            <h4 class="desktop-disappear">Book Us Now!</h4>
+            <p class="card-text">
+              1401 W Fremont St, <br />Stockton, CA 95203 <br />Phone:(209)
+              815-6085 <br />Fax: (916) 358-7873 <br />office@mikesmobile.com
+              <br />Mon-Sat 8AM-7PM
+            </p>
+            <a class="btn oj waves-light" (click)="openQuoteForm()" mdbWavesEffect>Book Us Now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5">
+        <agm-map *ngFor="let map of region.map" [latitude]="map.latitude" [longitude]="map.longitude" [zoom]="map.zoom"
+          style="height: 500px" [scrollwheel]="scrollwheel" (mapClick)="mapClicked($event)">
+          <agm-marker *ngFor="let m of map.marker; let i = index" [latitude]="m.lat" [longitude]="m.lng" [zIndex]="5"
+            (markerClick)="clickedMarker(m.label)"></agm-marker>
+
+          <agm-polygon *ngFor="let r of map.regions; let i = index" [paths]="r.paths" [strokeWeight]="0" [zIndex]="1"
+            [clickable]="false" [fillColor]="r.fillColor" [visible]="r.visible"></agm-polygon>
+        </agm-map>
+        <div class="text-center">
+          <a href="/service-area"><button class="btn orange">Other Service Areas</button></a>
+        </div>
+        <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="row text-center justify-content-center">
+    <h2 class="w-100 text-center my-4">
+      {{ region.region }} Loves Mike's Mobile <i class="fas fab fa-heart"></i>
+    </h2>
+    <div class="row text-center px-0 mx-0">
+      <div class="col-md-12 px-0 mx-0">
+        <div class="card-deck text-center">
+          <div class="card yelpCard " *ngFor="let review of region.reviews">
+            <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+              <div class="card-header">
+                <a [href]="review.link1" rel="nofollow noopener">{{
+                  review.name
+                  }}</a>'s
+                <a [href]="review.link2" rel="nofollow noopener">review</a>
+                of
+                <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                </a>
+                <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                  class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+              </div>
+              <div class="card-body">
+                <p>
+                  {{ review.content }}
+                </p>
+              </div>
+              Read more on
+              <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center justify-content-center">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="row d-block d-lg-none">
+            <ul class="area-list w-100">
+              <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- this is the flip cards -->
+    <div class="row w-100 text-center justify-content-center mt-5">
+      <div class="col-md-12">
+        <h2 class="h3 text-center" id="chimney-services">
+          {{ region.services[0].title }} in {{ region.region }}
+        </h2>
+        <app-flipcard-list [cards]="region.services[0].cards"></app-flipcard-list>
+      </div>
+    </div>
+    <div class="row w-100 mt-5">
+      <div class="col-md-12">
+        <h2 class="h3 text-center" id="security-doors-and-windows">
+          {{ region.services[1].title }} in {{ region.region }}
+        </h2>
+        <app-flipcard-list [cards]="region.services[1].cards"></app-flipcard-list>
+      </div>
+    </div>
+    <div class="row w-100 mt-5">
+      <div class="col-md-12">
+        <h2 class="h3 text-center" id="door-and-window-screens">
+          {{ region.services[2].title }} in {{ region.region }}
+        </h2>
+        <app-flipcard-list [cards]="region.services[2].cards"></app-flipcard-list>
+      </div>
+    </div>
+    <!-- <div class="row w-100 mt-5">
+      <div class="col-md-12">
+        <h2 class="h3 text-center" id="awnings">
+          {{ region.services[3].title }} in {{ region.region }}
+        </h2>
+        <app-flipcard-list [cards]="region.services[3].cards"></app-flipcard-list>
+      </div>
+    </div> -->
+  </div>
+</div>
