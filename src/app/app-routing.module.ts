@@ -251,7 +251,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
-
+  { path: 'serviceareatest', component: ServiceAreaComponent },
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },
