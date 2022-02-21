@@ -37,7 +37,8 @@ export class FooterComponent {
 
   ]
   centralList = [
-    '/about/our-security-screen-doors-bakersfield'
+    '/about/our-security-screen-doors-bakersfield',
+    '/regionsSecurity/bakersfield'
   ]
 
   footerSwitch() {
