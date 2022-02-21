@@ -72,7 +72,7 @@ export class QuoteFormComponent {
   }
 
   get contactMethod() {
-    return this.quoteFormGroup.get('contactMethod');
+    return "";
   }
 
   public show() {
