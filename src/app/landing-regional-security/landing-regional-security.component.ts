@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MouseEvent } from '@agm/core';
+import * as AOS from 'aos';
 import {
   trigger,
   state,
@@ -43,7 +44,6 @@ import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
 
 export class LandingRegionalSecurityComponent implements OnInit {
   region;
-  regionSecurity;
   service;
   review1;
   review2;
@@ -75,6 +75,12 @@ export class LandingRegionalSecurityComponent implements OnInit {
   }
 
   ngOnInit() {
+    AOS.init({
+      once: true,
+      easing: 'ease-out-back',
+      duration: 700
+    });
+    
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
 

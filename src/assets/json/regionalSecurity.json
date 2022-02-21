@@ -4,41 +4,27 @@
         "slug": "bakersfield",
         "phone": "(661)567-0284",
         "truckImg": "/assets/images/regional/genTruck.png",
-        "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium home security products. Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, screens for double doors, and retractable screen doors. Premium security screen doors are recommended for maximum home security.",
-        "reviews": [
+        "description": "Mike's Mobile provides Bakersfield and surrounding communities with <b>premium home security products.</b> Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, screens for double doors, and retractable screen doors. Premium security screen doors are recommended for maximum home security.",
+        "review": [
           {
-            "name": "Lilyth M.",
-            "dataReviewId": "zM-3DpGuO16wDolaSfGcUQ",
-            "data-hostname": "www.yelp.com",
-            "link1": "https://www.yelp.com/user_details?userid=6hHM7nj614I0JVDx4JGGmA",
-            "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=zM-3DpGuO16wDolaSfGcUQ",
-            "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A",
-            "content": "From the first phone call, the staff was courteous and interested in what I was doing and why. They helped me find the most economical solution for my screen replacement needs and scheduled quickly. The technician Joseph P arrived a little late, there was some communication involved with the office and I but no huge issue there... "
+            "src": "/assets/images/landing/securityscreen/left.png",
+            "alt": "Mike's Mobile Review1"
           },
           {
-            "name": "Mary J.",
-            "dataReviewId": "44-P-bMPqs61_XhLWihK9g",
-            "data-hostname": "www.yelp.com",
-            "link1": "https://www.yelp.com/user_details?userid=IIdi4pqZp3a8FxQkkWybug",
-            "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=44-P-bMPqs61_XhLWihK9g",
-            "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A",
-            "content": "I am so happy with their service! The technician did a great job installing the damper, and he made sure we know how to use it before he left, he was so patient. The cost is very fair too. I recommend them to everyone!"
+            "src": "/assets/images/landing/securityscreen/middle.png",
+            "alt": "Mike's Mobile Review2"
           },
           {
-            "name": "Kimba E.",
-            "dataReviewId": "5ZT3dO1JdIW95PH6F53f3Q",
-            "data-hostname": "www.yelp.com",
-            "link1": "https://www.yelp.com/user_details?userid=rKC_kbkW6LMiu1d-RG7jUA",
-            "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-danville-5?hrid=5ZT3dO1JdIW95PH6F53f3Q",
-            "link3": "https://www.yelp.com/biz/JO2rCDZ1IGZx_f4O0GBk4A",
-            "content": "It really is as good as it gets with Mike's Mobile Screen! Can't say enough good things about the professionalism, customer care (Vivian) and service on site (Joseph P). When I called I got clear and precise information on my options and pricing!! LOVE IT! Next day Service! The Company Van with Joseph P pulled up on time!"
+            "src": "/assets/images/landing/securityscreen/right.png",
+            "alt": "Mike's Mobile Review3"
           }
+
         ],
         "map": [
           {
             "latitude": 35.816946,
             "longitude": -119.983262,
-            "zoom": 8,
+            "zoom": 7.6,
             "regions": [
               {
                 "paths": [
@@ -149,125 +135,57 @@
         ],
         "services": [
           {
-            "slug": "chimneys",
-            "title": "Chimney Services",
-            "cards": [
-              {
-                "title": "Gas Fireplace Repair & Service",
-                "text": "Gas Fireplace not Working? We can get it going in no time!"
-              },
-              {
-                "title": "Gas Fireplace Installation",
-                "text": "We have Gas Inserts to Get Your Fireplace Ready For Winter!"
-              },
-              {
-                "title": "Pellet Stove Repair & Annual Service",
-                "text": "Our technicians will ensure that your pellet stove continues to work properly!"
-              },
-              {
-                "title": "Waterproofing Package",
-                "text": "Leaky Chimney? Waterproof your chimney today!"
-              },
-              {
-                "title": "Chimney Caps",
-                "text": "Be the envy of the neighborhood while protecting your chimney!"
-              },
-              {
-                "title": "Chimney Inspections",
-                "text": "Mike's Mobile offers level I, II, and III chimney inspections for your home. All of our technicians have been tested using CSIA and NFI guidelines for cleaning and inspecting. For more information about the levels of inspections, click here."
-              },
-              {
-                "title": "Chimney Cleaning",
-                "text": "Chimney sweeps and inspections should be done annually, that is according to the NFPA. They are the leading authority on all chimney safety and regulations in the United States. We include a free level 1 inspection report with all of our chimney sweeps."
-              },
-              {
-                "title": "Chimney Repairs",
-                "text": "We are a full service, chimney repair company in Antioch, California. Whether it's crown repair, a firebox rebuild or a full re-line, Mike's Mobile can tackle your chimney issues."
-              },
-              {
-                "title": "Accessories",
-                "text": "If you need chimney or fireplace related products in Antioch, Mike's Mobile has you covered!"
-              },
-              {
-                "title": "Masonry Services",
-                "text": "Mike's Mobile is a full service masonry contractor in the Antioch area. Call us for a Free Consultation!"
-              },
-              {
-                "title": "Dryer Vent Cleaning",
-                "text": "Mike's Mobile offers dryer vent cleaning services in Antioch, Ca. Call today for an appointment!"
-              }
-            ]
-          },
-          {
             "slug": "security",
             "title": "Security Screen Doors and Windows",
-            "description": "Mike's Mobile is your one-stop shop in the greater Sacramento area for all your home window and door security needs. Make sure you visit our showroom at 9912 Business Park Dr. Ste 175, Sacramento, Ca, 95827 to see all of our security products in person!",
             "cards": [
               {
                 "title": "Titan Security Screen Doors",
-                "text": "Mike's Mobile has been offering 100% customizable security doors in Antioch for over 16 years. Our doors offer premium security and the the most mounting options around. The fit and finish on these doors is unparalleled by other manufacturers."
+                "text": "The Titan Security Screen door is fully customizable to reflect your style. Perfect for those that want a strong-decorative security screen door that deters potential intruders."
               },
               {
                 "title": "Viewguard Security Screen Doors",
-                "text": "The Viewguard is our best selling security door for a reason. The Viewguard looks like a screen door but is actually high tensile strength stainless steel woven into a fine mesh. It provides maximum security yet gives you a clear view of the outdoors without compromising the style or appearance of your home. It is a security screen door that no bars and no busy designs; it offers quiet operation and will never rust."
+                "text": "Do you want security without the bars? The Viewguard Security Screen door, wiith a modern and simplistic design, keeps your home's entryways secure and visually appealing."
               },
               {
                 "title": "TRU-View Security Screen Doors",
-                "text": "The Tru-View Security Screen Door has heavy gauge extruded aluminum for long lasting durabililty. Available in Bronze anodized, white or a host of custom colors, this door is sure to compliment your home. A keyed lock with inside thumb turn, steel strike plate and a deep extending dead bolt makes this lock virtually pick proof."
+                "text": "The Tru-View is perfect for those who are looking to upgrade their traditional screen door. This security screen door offers a sleek design that is perfect for keeping pets at bay."
               },
               {
                 "title": "Sliding Security Doors",
-                "text": "Enjoy the cool night air while sleeping in peace, quiet and safety. Good looks, ease of use and legitimate security really make our sliding security doors stand apart."
+                "text": "Do you like keeping your patio door open to let the breeze in? A sliding security screen door allows you maxiumum airflow, with premium security."
               },
               {
                 "title": "Security Window Screens",
-                "text": "Security Window Screens offer the ultimate in window security with good looks to match. As an added bonus, our screens block out an average of 60% of the sun's harmful ultraviolet rays to make your home more comfortable during the summer months."
-              }
-            ]
-          },
-          {
-            "slug": "screens",
-            "title": "Door and Window Screens",
-            "cards": [
-              {
-                "title": "Window Screen Repair",
-                "text": "With more than 16 years in service, Mike's Mobile is Antioch's premier window screen repair and replacement contractor!"
-              },
-              {
-                "title": "Solar Screens",
-                "text": "Maintain your existing screens or upgrade your home with Solar Screens! Solar Screens can block out up to 90% of the sun’s harmful UV rays and keep the inside of your home 15 degrees cooler."
-              },
-              {
-                "title": "Sliding Screen Doors",
-                "text": "Tired of that old sliding door that always falls off the track? Call us for a built-on-site, custom sliding screen door with custom components!"
-              },
-              {
-                "title": "Swinging Screen Doors",
-                "text": "Want a swinging screen door but can't find one that fits? No problem? At Mike's Mobile Screens all of our swinging screen doors are custom sized and installed for you!"
-              },
-              {
-                "title": "Retractable Screen Doors",
-                "text": "Our disappearing screen doors fit inside your door frame for a clean, finished look."
-              },
-              {
-                "title": "Pet Doors",
-                "text": "After we install your new, custom pet door you will be wondering why you didn’t call us sooner!"
+                "text": "Security window screens provide protection against intruders, UV rays, and other unwanted pests. These screens are custom-made to add security and curb appeal to your home."
               }
             ]
           }
         ],
         "areas": [
-          "Bay Point",
-          "Bethel Island",
-          "Brentwood",
-          "Byron",
-          "Clayton",
-          "Contra Costa Centre",
-          "Discovery Bay",
-          "Knightsen",
-          "Oakley",
-          "Pittsburg",
-          "Shell Ridge"
+          "Bakersfield",
+          "Exeter",
+          "Farmersville",
+          "Five Points",
+          "Hanford",
+          "Keene",
+          "Kettleman City",
+          "King City",
+          "Kingsburg",
+          "Lamont",
+          "Lemoore",
+          "Lost Hills",
+          "Pismo Beach",
+          "Pixley",
+          "Porterville",
+          "Richgrove",
+          "San Lucas",
+          "San Luis Obispo",
+          "Soledad",
+          "Stratford",
+          "Taft",
+          "Tehachapi",
+          "Tulare",
+          "Visalia"
         ]
     }
 ]
