@@ -22,6 +22,7 @@
     </div>
     <div class="col-md-12 m-0 p-1 smooth-scroll">
       <a
+      *ngIf="turnOn"
         mdbPageScroll
         href="#security-doors-and-windows"
         mdbRippleRadius
@@ -39,9 +40,36 @@
           </div>
         </div>
       </a>
+
+<!-- Central/Bakersfield Button Goes to Another Page -->
+      <a
+      *ngIf="!turnOn"
+        mdbPageScroll
+        routerLink = "/about/our-security-screen-doors-bakersfield"
+        mdbRippleRadius
+        [pageScrollDuration]="400"
+        [pageScrollOffset]="110"
+      >
+      
+      <div
+          class="card tile bg-dark text-white text-center"
+          style="background-image: url('/assets/images/front-page/door.webp'); background-position: center; background-size: cover; background-repeat:no-repeat; "
+          >
+          <div class="card-img-overlay ">
+            <h2 class="card-title transparent-gray">
+              Door and Window Security
+            </h2>
+          </div>
+        </div>
+      </a>
+
+      <!-- Central/Bakersfield Button Goes to Another Page -->
+
+      
     </div>
     <div class="col-md-12 m-0 p-1 smooth-scroll">
       <a
+        *ngIf="turnOn"
         mdbPageScroll
         href="#door-and-window-screens"
         mdbRippleRadius
@@ -57,6 +85,26 @@
           </div>
         </div>
       </a>
+
+      <!-- Central/Bakersfield Region Page -->
+      <a
+      *ngIf="!turnOn"
+      mdbPageScroll
+      routerLink = "/products/security-windows-central"
+      mdbRippleRadius
+      [pageScrollDuration]="400"
+      [pageScrollOffset]="110"
+    >
+      <div
+        class="card bg-dark tile text-white text-center"
+        style="background-image: url('/assets/images/front-page/screens.webp'); background-position: center; background-size:cover; background-repeat:no-repeat;"
+      >
+        <div class="card-img-overlay ">
+          <h2 class="card-title transparent-gray">Door and Window Screens</h2>
+        </div>
+      </div>
+    </a>
+      <!-- Central/Bakersfield Region Page -->
     </div>
   </div>
 </div>

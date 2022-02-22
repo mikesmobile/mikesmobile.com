@@ -74,6 +74,69 @@
   },
   {
     "title": "Titan Security Screen Doors",
+    "slug": "titan-security-doors-central",
+    "category": "Security Screen Doors and Windows",
+    "subcategory": "Door",
+    "type": "grid",
+    "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
+    "reviews": [
+      {
+        "name": "Barb W.",
+        "dataReviewId": "wxh-gPv8XLhmA4IiEjFa8A",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=vmpaNu-NXE1ewihygP5NLw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=wxh-gPv8XLhmA4IiEjFa8A",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "I love my security screen door.  The team arrived on time and installed my door with precision. The installers were kind, friendly and professional. My door looks fantastic!!"
+      },
+      {
+        "name": "John L.",
+        "dataReviewId": "0NtU2UPuKhVNS1eAmQkObA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=YmAQtARFXaBH6xkyPSAV8g",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=0NtU2UPuKhVNS1eAmQkObA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Kevin from Mike's Mobile came to our house and measured for a security door at our front entry.  We liked their selection that included Titan Premium Security Doors.  We selected our style and colors and waited about 5 weeks for the door to be fabricated. Installers were Clifford and Tim.  They know their craft well.  The door fit and finish are perfect.  They took less than 2 hours to make our front entry look magnificent.  I highly recommend Mike's Mobile.  They are good people..."
+      },
+      {
+        "name": "Jim M.",
+        "dataReviewId": "mfbic6Xwo-lsio6I9xt1HA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=jeqXw1DyIxQptKaEIrnGBg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=mfbic6Xwo-lsio6I9xt1HA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Titan Security Trellis Door",
+        "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+      },
+      {
+        "alt": "Titan Security French Hummingbird Door",
+        "small": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "medium": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "big": "/assets/images/security/titan/doors/french-hummingbird_5.jpg"
+      },
+      {
+        "alt": "Titan Security Playa Door",
+        "small": "/assets/images/security/titan/doors/playa_2.jpg",
+        "medium": "/assets/images/security/titan/doors/playa_2.jpg",
+        "big": "/assets/images/security/titan/doors/playa_2.jpg"
+      },
+      {
+        "alt": "Titan Security Deer Meadow Door",
+        "small": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "medium": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "big": "/assets/images/security/titan/doors/deer-meadow_2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Titan Security Screen Doors",
     "slug": "titans",
     "phone": "(916) 312-3182",
     "type": "grid",
@@ -5240,6 +5303,94 @@
       "Fits varying window shapes",
       "Screen will not rust",
       "Multiple color options"
+    ],
+    "colorSet": [
+      "securityWindowsColors"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+      },
+      {
+        "alt": "Quick Escape Security Window Screens",
+        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, they have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>"
+      },
+      {
+        "title": "Options",
+        "description": "<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>"
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Quick Escape Security Window Screens": "/products/quick-escape-security-windows",
+          "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
+      }
+    ]
+  },
+  {
+    "title": "Security Window Screens",
+    "slug": "security-windows-central",
+    "category": "Security Screen Doors and Windows",
+    "subcategory": "Window",
+    "type": "products",
+    "bullets": [
+      "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+      "Our windows can be installed on the interior and exterior and feature a concealed fastening system and blends with any architecture.",
+      "Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses.",
+      "Our window screens offer flexibility for mounting on new and existing structures.",
+      "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
+      "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh called 'meshtec'.",
+      "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
     "colorSet": [
       "securityWindowsColors"

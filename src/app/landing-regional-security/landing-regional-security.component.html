@@ -89,12 +89,12 @@
   <div class="row my-5">
     <div class="col-12 col-lg-6 text-center">
       <h3>Security Screen Doors in {{region.region}}</h3>
-      <img src="../../assets/images/landing/securityscreen/redViewguard.png" class="img-fluid" alt="Red Viewguard available at Mike's Mobile">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat enim necessitatibus, architecto voluptatibus repellendus ad, ipsam debitis nam aliquam magni! Qui minus enim debitis quo, consequatur modi odit veniam alias unde voluptatum maxime hic dolore ullam commodi aspernatur. Ipsa!</p>
+      <img src="../../assets/images/regional/centralCal/SecurityScreenDoor_MikesMobile_MikesMobileSecurityDoors_ViewguardSecurityScreenDoor_FrontDoorSecurity.jpg" class="img-fluid" alt="Red Viewguard available at Mike's Mobile">
+      <p class="m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat enim necessitatibus, architecto voluptatibus repellendus ad, ipsam debitis nam aliquam magni! Qui minus enim debitis quo, consequatur modi odit veniam alias unde voluptatum maxime hic dolore ullam commodi aspernatur. Ipsa!</p>
     </div>
     <div class="col-12 col-lg-6 text-center">
       <h3>Security Screen Windows in {{region.region}}</h3>
-      <img src="../../assets/images/landing/securityscreen/redViewguard.png" class="img-fluid" alt="Red Viewguard available at Mike's Mobile">
+      <img src="../../assets/images/regional/centralCal/MikesMobileSecurityDoors_SecurityWindows_MikesMobile_Bakersfield.jpg" class="img-fluid" alt="Swinging Screen Doors for easy exits from Mike's Mobile">
       <p class="m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga possimus dolor sunt modi! Corrupti officia neque qui ipsum, omnis quae quis dignissimos accusantium officiis amet! Hic animi laborum nesciunt nisi omnis aliquam! Molestiae molestias illo distinctio.</p>
     </div>
   </div>
@@ -114,8 +114,6 @@
         </div>
       </div>
     </div>
-
-    <hr>
     
     <div class="container text-center justify-content-center">
       <div class="row text-center">
@@ -125,16 +123,17 @@
               <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
             </ul>
           </div>
+          
+          <hr/>
+
         </div>
       </div>
     </div>
     <!-- this is the flip cards -->
 
-    <hr>
-
-    <div class="row w-100 mt-5">
+    <div class="row w-100 my-3">
       <div class="col-md-12">
-        <h2 class="h3 text-center" id="security-doors-and-windows">
+        <h2 class="text-center" id="security-doors-and-windows">
           {{ region.services[0].title }} in {{ region.region }}
         </h2>
         <app-flipcard-list [cards]="region.services[0].cards"></app-flipcard-list>

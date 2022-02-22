@@ -353,7 +353,7 @@
 
 
 
-          <ng-container *ngIf="product.slug === 'security-windows'">
+          <ng-container *ngIf="product.slug === 'security-windows' ||  product.slug === 'security-windows-central' ">
             <div class="container">
               <div class="row">
                 <div class="col-12">
@@ -406,7 +406,7 @@
           <h5 *ngIf="product.slug === 'retractable-screen-doors'" class="text-left font-weight-bold font-italic">
             The perfect screen when you need it, disappears when you don't!
           </h5>
-          <h5 *ngIf="product.slug === 'security-windows'" class="text-left font-weight-bold font-italic">
+          <h5 *ngIf="product.slug === 'security-windows' || product.slug === 'security-windows-central' " class="text-left font-weight-bold font-italic">
             Don't make your house look like a prison! We provide window security
             without the bars!
           </h5>
@@ -479,19 +479,19 @@
                   </div>
                 </div>
               </div>
-              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'tru-view-security-doors' && product.slug !== 'sliding-security-doors' && product.slug !== 'security-windows' "
+              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'tru-view-security-doors' && product.slug !== 'sliding-security-doors' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' "
                 class="my-2">
                 <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now!</button>
                 <hr>
               </div>
             </div>
           </div>
-          <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'sliding-security-doors' || product.slug === 'security-windows'">
+          <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'sliding-security-doors' || product.slug === 'security-windows' || product.slug === 'security-windows-central'">
             <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
             <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
             <hr>
           </div>
-          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors' && product.slug !== 'security-windows' && product.slug !== 'sliding-security-doors' "
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' && product.slug !== 'sliding-security-doors' "
             class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
