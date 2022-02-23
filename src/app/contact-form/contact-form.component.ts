@@ -71,12 +71,8 @@ export class ContactFormComponent {
   }
 
   get contactMethod() {
-    return this.quoteFormGroup.get('contactMethod');
+    return "";
   }
-
-
-
-
 
   handleReset() {
     this.submitFailed = false;
