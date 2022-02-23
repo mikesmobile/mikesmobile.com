@@ -68,6 +68,20 @@
     
     },
     {
+        "image": "../../assets/images/team/Eli.png",
+        "alt": "Mike's Mobile Technician, Eli R.",
+        "name": "Eli R.",
+        "position": "Security Advisor"
+    
+    },
+    {
+        "image": "../../assets/images/team/Matt.png",
+        "alt": "Mike's Mobile Technician, Matt G.",
+        "name": "Matt G.",
+        "position": "Security Advisor"
+    
+    },
+    {
         "image": "../../assets/images/team/austinH.jpg",
         "alt": "Mike's Mobile Technician, Austin H.",
         "name": "Austin H.",
@@ -87,12 +101,6 @@
         "name": "Hank S.",
         "position": "Repair Technician"
     
-    },
-    {
-        "image": "../../assets/images/team/jacobC.png",
-        "alt": "Mike's Mobile Technician, Jacob C.",
-        "name": "Jacob C.",
-        "position": "Chimney Educator"
     },
     {
         "image": "../../assets/images/team/jacobM.png",
