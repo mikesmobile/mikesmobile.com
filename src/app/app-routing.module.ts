@@ -29,6 +29,8 @@ import { DropRollCalcComponent } from './dropRollCalc/dropRollCalc.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 import { CareerPageComponent } from './career-page/career-page.component';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
+import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
 
 
 const appRoutes: Routes = [
@@ -230,8 +232,8 @@ const appRoutes: Routes = [
   { path: 'blog', component: PostListComponent },
   // { path: 'chimney-faq', component: ChimneyFaqComponent },
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
-  { path: 'service-area', component: ContactComponent },
-  { path: 'service-area/:id', component: ContactComponent },
+  { path: 'service-area', component: ServiceAreaComponent },
+  { path: 'service-area/:id', component: ServiceAreaComponent },
   { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
@@ -243,6 +245,7 @@ const appRoutes: Routes = [
   { path: 'about/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'regions/:slug', component: LandingRegionalComponent },
+  { path: 'regionsSecurity/:slug', component: LandingRegionalSecurityComponent },
   { path: 'grid/:slug', component: GridComponent },
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
@@ -250,7 +253,7 @@ const appRoutes: Routes = [
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
-
+  { path: 'serviceareatest', component: ServiceAreaComponent },
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },

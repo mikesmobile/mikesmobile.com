@@ -90,6 +90,7 @@ export class NavigationComponent {
   phoneNumberSwitch() {
 
     // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
+
     if (this.currentRoute === '/about/security-screen-doors') {
       this.phone = "(916) 318-9845";
     } else if (this.currentRoute === '/grid/titans') {
@@ -98,16 +99,18 @@ export class NavigationComponent {
       this.phone = '(916) 304-8225';
     } else if (this.currentRoute === '/about/our-security-screen-doors') {
       this.phone = '(916) 931-1873';
-    } else if (this.currentRoute === '/about/our-security-screen-doors-bakersfield') {
-      this.phone = '(661) 567-0284';
     } else if (this.currentRoute === '/about/our-chimney-services') {
       this.phone = '(916) 931-1772';
+    } else if (this.currentRoute === '/about/gas-fireplace-service') {
+      this.phone = '(916) 864-3851';
     } else if (this.currentRoute === '/about/our-fireplace-services') {
       this.phone = '(916) 931-0125';
     }else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
     this.phone = '(916) 915-8676';
     }else if(this.currentRoute === '/services/our-window-screen-services'){
       this.phone = '(916) 915-8731';
+    }else if (this.currentRoute ===  '/about/our-security-screen-doors-bakersfield' || this.currentRoute === '/regionsSecurity/bakersfield'||  this.currentRoute === '/products/security-windows-central' || this.currentRoute === '/grid/titan-security-doors-central' || this.currentRoute === '/products/viewguard-security-doors-central' || this.currentRoute === '/products/sliding-security-doors-central' ||  this.currentRoute === '/products/tru-view-security-doors-central') {
+      this.phone = '(661) 567-0284';
     }else {
       this.phone = "(916) 318-9845";
     }

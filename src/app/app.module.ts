@@ -72,6 +72,8 @@ import { LandingContactComponent } from './landing-contact/landing-contact.compo
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
+import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecurity.component';
 
 
 
@@ -140,7 +142,9 @@ import { CarouselComponent } from './carousel/carousel.component';
     LandingContactComponent,
     ServiceAreaComponent,
     ContactFormComponent,
-    CarouselComponent
+    CarouselComponent,
+    LandingRegionalSecurityComponent,
+    RegioncardsecurityComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
