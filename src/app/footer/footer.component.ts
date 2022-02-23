@@ -37,7 +37,13 @@ export class FooterComponent {
 
   ]
   centralList = [
-    '/about/our-security-screen-doors-bakersfield'
+    '/about/our-security-screen-doors-bakersfield',
+    '/regionsSecurity/bakersfield',
+    '/products/security-windows-central',
+    '/grid/titan-security-doors-central',
+    '/products/viewguard-security-doors-central',
+    '/products/sliding-security-doors-central',
+    '/products/tru-view-security-doors-central'
   ]
 
   footerSwitch() {

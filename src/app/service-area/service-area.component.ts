@@ -121,7 +121,7 @@ export class ServiceAreaComponent implements OnInit {
   ngOnInit() {
     this.route.params.subscribe((params) => { this.id = params.id; });
     this.regions = regionalJSON;
-    // this.regionSecurityOnly = regionalSecurityJSON;
+    this.regionSecurityOnly = regionalSecurityJSON;
   }
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
