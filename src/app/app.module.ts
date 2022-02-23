@@ -71,6 +71,8 @@ import { environment } from '../environments/environment';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
+import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecurity.component';
 
 
 
@@ -138,7 +140,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     QuoteFormSolarScreenComponent,
     LandingContactComponent,
     ServiceAreaComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    LandingRegionalSecurityComponent,
+    RegioncardsecurityComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
