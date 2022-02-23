@@ -1,6 +1,6 @@
 <ng-container *ngIf="product">
   <ng-container *ngIf="product.slug !== 'chimney-caps'">
-    <div class="container pb-4" *ngIf="product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' ">
+    <div class="container pb-3" *ngIf="product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' ">
       <nav class="breadcrumb mt-2">
         <a class="breadcrumb-item" routerLink="/">Home</a>
         <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div *ngIf="product.slug === 'viewguard-security-doors' ">
+    <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' ">
       <div class="container">
         <div class="row">
           <div class="col-12 d-lg-none">
@@ -81,14 +81,14 @@
       </div>
 
       <div
-        *ngIf="product.slug !== 'viewguard-security-doors' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
+        *ngIf="product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
         class="d-flex flex-column flex-md-row mb-0">
         <h1 class="text-left h1 pageTitle mb-0">
           {{ product.title }}
         </h1>
       </div>
 
-      <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' "
+      <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' ||  product.slug === 'viewguard-security-doors-central' "
         class="d-flex flex-column flex-md-row mb-0">
         <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
           <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
@@ -292,7 +292,7 @@
       </ng-container>
       <div class="row">
         <div class="col-12 col-md-7 pb-3">
-          <ng-container *ngIf="product.slug === 'sliding-security-doors'">
+          <ng-container *ngIf="product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' ">
             <div class="col-12">
               <div class="lower-zindex">
                 <mdb-tabset #staticTabs buttonClass="md-tabs light-blue tabs-3">
@@ -347,13 +347,13 @@
           </ng-container>
 
 
-          <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
+          <ng-container *ngIf="product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' && gallery_images">
             <app-main-gallery [Images]="gallery_images"></app-main-gallery>
           </ng-container>
 
 
 
-          <ng-container *ngIf="product.slug === 'security-windows' ||  product.slug === 'security-windows-central' ">
+          <ng-container *ngIf="product.slug === 'security-windows'">
             <div class="container">
               <div class="row">
                 <div class="col-12">
@@ -375,7 +375,7 @@
             </div>
           </ng-container>
 
-          <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors'"
+          <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central'"
             class="container-fluid text-center justify-content-center">
             <div class="row text-center">
               <div class="col-12 text-center justify-content-center">
@@ -414,7 +414,7 @@
             Don't make your house look like a prison! We provide window security
             without the bars!
           </h5>
-          <h5 *ngIf="product.slug === 'tru-view-security-doors'" class="text-left font-weight-bold font-italic">
+          <h5 *ngIf="product.slug === 'tru-view-security-doors' || product.slug === 'tru-view-security-doors-central' " class="text-left font-weight-bold font-italic">
             Looking for a stylish screen door with increased durablity? The
             TruView is for you!
           </h5>
@@ -422,7 +422,7 @@
             The Viewguard offers heavy-duty security with maximum airflow, so you
             can keep your family safe!
           </h5>
-          <h5 *ngIf="product.slug === 'sliding-security-doors'" class="text-left font-weight-bold font-italic">
+          <h5 *ngIf="product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' " class="text-left font-weight-bold font-italic">
             Finally a security screen for your back patio slider! Sleep soundly
             and safely while letting in the cool breeze!
           </h5>
@@ -434,7 +434,7 @@
             We Sell Chimney Caps Not Flue Caps
           </h5>
           <div class="container my-4"
-            *ngIf="product.textList && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' ">
+            *ngIf="product.textList && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' ">
             <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
               <mdb-item *ngFor="let item of product.textList; index as i">
                 <mdb-item-head>{{ item.title }}</mdb-item-head>
@@ -446,7 +446,7 @@
           </div>
 
           <div class="container my-4"
-            *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' ">
+            *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' ">
             <br>
             <h4 class="font-weight-bold font-italic">{{product.textList[2].title}}</h4>
             <p [innerHTML]="product.textList[2].description"></p>
@@ -479,19 +479,19 @@
                   </div>
                 </div>
               </div>
-              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'tru-view-security-doors' && product.slug !== 'sliding-security-doors' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' "
+              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'tru-view-security-doors-central' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' "
                 class="my-2">
                 <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now!</button>
                 <hr>
               </div>
             </div>
           </div>
-          <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'sliding-security-doors' || product.slug === 'security-windows' || product.slug === 'security-windows-central'">
+          <div *ngIf="product.slug === 'viewguard-security-doors-central' || product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'tru-view-security-doors-central' || product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' || product.slug === 'security-windows' || product.slug === 'security-windows-central'">
             <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
             <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
             <hr>
           </div>
-          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' && product.slug !== 'sliding-security-doors' "
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors'  && product.slug !== 'viewguard-security-doors-central' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors' && product.slug !== 'tru-view-security-doors-central' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' && product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' "
             class="row text-center mb-3">
             <div class="container">
               <div class="row justify-content-center">
@@ -518,7 +518,7 @@
         </div>
 
       </div>
-      <div *ngIf="product.slug === 'viewguard-security-doors' " class="col-12">
+      <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' " class="col-12">
         <div class="row center my-4">
           <div class="col-12 col-md-8">
             <h4 class="text-center">{{product.textList[0].title}}</h4>

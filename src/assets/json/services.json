@@ -75,9 +75,9 @@
   {
     "title": "Titan Security Screen Doors",
     "slug": "titan-security-doors-central",
-    "category": "Security Screen Doors and Windows",
     "subcategory": "Door",
     "type": "grid",
+    "img": "/assets/images/newTiles/Titan.png",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
     "reviews": [
       {
@@ -4900,6 +4900,75 @@
   },
   {
     "title": "Viewguard Security Screen Doors",
+    "slug": "viewguard-security-doors-central",
+    "img": "/assets/images/newTiles/Viewguard.png",
+    "subcategory": "Door",
+    "type": "products",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://mikesmobile.com/products/viewguard-security-doors",
+      "priceCurrency": "USD",
+      "price": "1956.55",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Mike's Mobile"
+      }
+    },
+    "textList": [
+      {
+        "title": "How safe are security screen doors?",
+        "description": "Security screen doors add an additional layer of protection to one of your home’s most vulnerable points of entry and serve as a deterrent for any unwanted guests. The Viewguard, however, is head and shoulders above the jail-bar security doors of the past. With Stainless steel woven mesh, a thick aluminum frame, and a heavy-duty gear hinge, it's no wonder that tests rate the Viewguard higher in every way than a traditional steel security door."
+      },
+      {
+        "title": "Will a security screen door change the look of my home?",
+        "description": "Gone are the days of having bars on your doors and windows. The Viewguard’s sleek design, clear view, optimal air flow, and multiple color options will help enhance your home’s curb appeal."
+      },
+      {
+        "title": "Why choose the Viewguard for my family?",
+        "description": "The Viewguard’s screen is top of the line high tensile strength stainless steel, woven into a fine mesh, giving it the classic, simple look of a screen door- with all of the benefits of a heavy-duty security product. With this door you can stop sacrificing style for security!"
+      }
+    ],
+    "thumbImages": [
+      {
+        "alt": "red-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "black-double-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "bronze-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "purple-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "Home Sweet Home Viewguard secutiry door",
+        "small": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "medium": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
+      }
+    ],
+    "colorSet": [
+      "stdColors",
+      "slidingSecurityDoorColors"
+    ]
+  },
+  {
+    "title": "Viewguard Security Screen Doors",
     "slug": "viewguards",
     "subcategory": "Door",
     "type": "products",
@@ -4996,6 +5065,124 @@
       "Budget-friendly option",
       "Screen will not rust",
       "Multiple color options"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tru View Security White Triple Door",
+        "small": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+        "big": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Beig Door",
+        "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Tru View Security Green Door",
+        "small": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Black Door",
+        "small": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "Tru-View Security door is an amazing solution for front doors and back doors!<br/><br/>REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Tru-View security screen doors incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Tru-View™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your door in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our screen doors with anything else on the market today, and we think you'll agree, Tru-View™ has a lock on security and style."
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.</li><li>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li>"
+      },
+      {
+        "title": "Options",
+        "description": "FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws."
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Viewguard Security Screen Doors": "/products/viewguard-security-doors",
+          "Titan Security Screen Doors": "/grid/titan-security-doors",
+          "Sliding Security Screen Doors": "/products/sliding-security-doors"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Tru View Security Double White Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Beige Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Black Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Brown Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Door Brown colored",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Tru View Security Single White Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Door White",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Single Tru View Security Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg"
+      }
+    ],
+    "colorSet": [
+      "stdColors",
+      "slidingSecurityDoorColors"
+    ]
+  },
+  {
+    "title": "TRU-View Security Screen Doors",
+    "slug": "tru-view-security-doors-central",
+    "img": "/assets/images/newTiles/TruView.png",
+    "subcategory": "Door",
+    "type": "products",
+    "bullets": [
+      "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
+      "Finally you can experience security without resorting to bars or unsightly steel grills.",
+      "Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."
     ],
     "thumbImages": [
       {
@@ -5281,6 +5468,172 @@
     ]
   },
   {
+    "title": "Sliding Security Doors",
+    "slug": "sliding-security-doors-central",
+    "img": "/assets/images/newTiles/SlidingSecurityDoor.png",
+    "subcategory": "Door",
+    "type": "products",
+    "bullets": [
+      "Let the cool breeze in while keeping undesirable elements out with TRU-Frame Sliding Security Screen Doors.",
+      "Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!",
+      "Available in the Stainless Steel Mesh style (Similar to Viewguard) in Single or Double door options."
+    ],
+    "thumbImages": [
+      {
+        "alt": "Stainless Sliding Security Single Door Beige",
+        "small": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Stainless Sliding Security Bronze Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Bronze Sliding Security Single Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "White Sliding Security Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Stainless Sliding Security White Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      },
+      {
+        "alt": "Sliding Security Double White Door Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
+      },
+      {
+        "alt": "White Stainless Sliding Security Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
+      },
+      {
+        "alt": "Sliding Security Door White Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Single White Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Single",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "A sliding security door replaces your existing patio screen door. These doors come pre-assembled and tamper resistant. Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets."
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>Ventilation: Can be locked securely, allowing you to safely and confidently leave your primary door open day or night.</li><li>Visibility: Allows viewing of the outdoors and visitors, and eliminates the confined feeling other security products present.</li><li>Rust Free: Heavy gauge extruded aluminum frame resists rust for lasting durability.</li><li>Secure: The 2-point Locking Hardware and Integrated C enter Retention System mean our sliders can take a beating!</li><li>Pet Proof: The Stainless Steel Mesh option comes pet proof</li>"
+      },
+      {
+        "title": "Options",
+        "description": "<li>Add Solar Screen</li><li>Stainless Steel Grill</li>"
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "TRU-View Security Screen Doors": "/products/tru-view-security-doors",
+          "Titan Security Screen Doors": "/grid/titan-security-doors",
+          "Viewguard Security Screen Doors": "/products/viewguard-security-doors"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Sliding Security Door Beige Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Bronze Double Stainless Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Bronze Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Stainless White Double",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Sliding Security Door White Double Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      },
+      {
+        "alt": "Sliding Security White Double Stainless Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
+      },
+      {
+        "alt": "Sliding White Double Stainless Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
+      },
+      {
+        "alt": "White Double Stainless Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door White Single",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "White Single Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      }
+    ],
+    "colorSet": [
+      "stdColors",
+      "slidingSecurityDoorColors"
+    ]
+  },
+  {
     "title": "Security Window Screens",
     "slug": "security-windows",
     "category": "Security Screen Doors and Windows",
@@ -5380,7 +5733,7 @@
   {
     "title": "Security Window Screens",
     "slug": "security-windows-central",
-    "category": "Security Screen Doors and Windows",
+    "img": "/assets/images/newTiles/SecurityWindowScreens.png",
     "subcategory": "Window",
     "type": "products",
     "bullets": [
