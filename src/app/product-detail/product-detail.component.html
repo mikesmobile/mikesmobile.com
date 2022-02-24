@@ -80,8 +80,7 @@
         </h1>
       </div>
 
-      <div
-        *ngIf="product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
+      <div *ngIf="product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
         class="d-flex flex-column flex-md-row mb-0">
         <h1 class="text-left h1 pageTitle mb-0">
           {{ product.title }}
@@ -100,8 +99,6 @@
             alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
         </div>
       </div>
-
-
 
       <hr />
       <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
@@ -290,6 +287,7 @@
           </div>
         </div> -->
       </ng-container>
+
       <div class="row">
         <div class="col-12 col-md-7 pb-3">
           <ng-container *ngIf="product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' ">
@@ -518,6 +516,7 @@
         </div>
 
       </div>
+      
       <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' " class="col-12">
         <div class="row center my-4">
           <div class="col-12 col-md-8">
