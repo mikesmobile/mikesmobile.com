@@ -2549,8 +2549,26 @@
   {
     "title": "Firepits",
     "phone": "(916) 318-9845",
-    "slug": "masonry-firepits",
-    "type": "services"
+    "slug": "firepits",
+    "type": "services",
+    "textList": [
+      {
+        "title": "What kind of material can fireplace pits be made out of?",
+        "description": "- Stone, brick, rock, concrete."
+      },
+      {
+        "title": "What kind of burning?",
+        "description": "- Natural gas, wood-burning, propane"
+      },
+      {
+        "title": "Do you repair fire pits?",
+        "description": "- Yes"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- Send in pictures to ____... Current project, inspo"
+      }
+    ]
   },
   {
     "title": "Window Screen Repair",
