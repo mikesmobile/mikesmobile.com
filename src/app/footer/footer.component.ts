@@ -9,6 +9,7 @@ import { Router, Event, NavigationEnd } from '@angular/router';
 export class FooterComponent {
   turnMeOn = true;
   central = false;
+  firepit = false;
   currentRoute: string;
 
   constructor(private router: Router) {
@@ -19,10 +20,11 @@ export class FooterComponent {
         this.currentRoute = event.url;
         this.turnMeOn = this.footerSwitch()
         this.central = this.centralFooterCheck()
+        this.firepit = this.firepitCheck()
       }
     });
   }
-  doNotShow = [
+  adList = [
     '/about/gas-fireplace-service',
     '/about/theWaterproofingPackage',
     '/grid/our-chimney-repairs',
@@ -47,6 +49,13 @@ export class FooterComponent {
     '/products/tru-view-security-doors-central'
   ]
 
+  firepitList = [
+    '/services/masonry/firepits',
+  ]
+  
+  // combines all the lists into one super list of blocking!
+  doNotShow = [].concat(this.adList, this.centralList, this.firepitList)
+
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
     for (let i = 0; i < this.doNotShow.length; i++) {
@@ -54,12 +63,21 @@ export class FooterComponent {
         return false;
       }
     }
-    return !this.centralFooterCheck()
+    return true;
   }
 
   centralFooterCheck() {
     for (let i = 0; i < this.centralList.length; i++) {
       if (this.currentRoute === this.centralList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  firepitCheck(){
+    for (let i = 0; i < this.firepitList.length; i++) {
+      if (this.currentRoute === this.firepitList[i]) {
         return true;
       }
     }
