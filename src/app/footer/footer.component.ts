@@ -51,6 +51,7 @@ export class FooterComponent {
 
   firepitList = [
     '/services/masonry/firepits',
+    '/services/masonry/outdoorfireplaces'
   ]
   
   // combines all the lists into one super list of blocking!

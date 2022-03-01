@@ -520,14 +520,15 @@
       <div class="row">
         <div class="col-12 px-0">
           <img data-aos="fade" data-aos-duration="1000" class="w-100"
-            src="../../assets/images/firepits/firepitSunset.png"
-            alt="Masonry firepit image in a beautiful backyard with chairs surrounding a lit fireplace at sunset. The text says: 'Custom Masonry Firepits, We'll Help Make Your Backyard a Cozy Retreat' " />
+            [src]="service.heroImg"
+            [alt]="service.heroImgAlt" />
         </div>
 
         <div class="col-12 darkBlur" style="position: absolute; z-index: 1;">
-          <h1 class="mb-0 mb-sm-2 font-weight-bold firepitH1 text-white">Custom Masonry Fire Pits</h1>
-          <p class="mb-0 mb-md-1 subHeader font-weight-bold text-white">We'll help make your backyard a cozy retreat</p>
+          <h1 class="mb-0 mb-sm-2 font-weight-bold firepitH1 text-white">{{service.title}}</h1>
+          <p class="mb-0 mb-md-1 subHeader font-weight-bold text-white">{{service.subtitle}}</p>
         </div>
+
       </div>
     </div>
     
@@ -815,7 +816,273 @@
     <app-quote-form></app-quote-form>
   </ng-container>
 
-  <div *ngIf="service.slug !== 'window-screen-services' && service.slug !== 'firepits' && service.slug !== 'our-window-screen-services' && service.slug !== 'chimney-cleaning' && service.slug !== 'window-screen-repair'"
+  <ng-container *ngIf="service.slug === 'outdoorfireplaces' ">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 px-0">
+          <img data-aos="fade" data-aos-duration="1000" class="w-100"
+            [src]="service.heroImg"
+            [alt]="service.heroImgAlt" />
+        </div>
+
+        <div class="col-12 darkBlur" style="position: absolute; z-index: 1;">
+          <h1 class="mb-0 mb-sm-2 font-weight-bold firepitH1 text-white">{{service.title}}</h1>
+          <p class="mb-0 mb-md-1 subHeader font-weight-bold text-white">{{service.subtitle}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade" class="text-center subtitleBold mb-0">
+            ✓ Design Your Space
+          </p>
+        </div>
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade" class="text-center subtitleBold mb-0">
+            ✓ Enjoy Year Round
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade" class="subtitleBold text-center mb-0">
+            ✓ Enjoy Year Round
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade" class="subtitleBold text-center mb-0">
+            ✓ Increase Home Value
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- roasting marshmallows -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-7 col-xl-6 px-0">
+          <img class="w-100" src="../../assets/images/firepits/FamilyByFire.png"
+            alt="Family by a Firepit roasting marshmallows" />
+        </div>
+
+        <div class="col-12 col-lg-5 col-xl-6 d-flex align-items-center d-flex justify-content-center p-3">
+          <div>
+            <h2 class="fontResponseh2">As a homeowner, are you looking for…</h2>
+            <br class="d-none d-xl-block">
+            <div>
+              <p class="mb-lg-1 mb-xl-3 fontResponse18">The ability to entertain guests all year in a warm and elegant atmosphere</p>
+              <p class="mb-lg-1 mb-xl-3 fontResponse18">A one-of-a-kind piece in your backyard that enhances your home</p>
+              <p class="mb-lg-1 mb-xl-3 fontResponse18">The freedom to design your space exactly how you envision it</p>
+              <p class="mb-lg-1 mb-xl-3 fontResponse18">An easy way to transform your backyard into your dream backyard</p>
+            </div>
+            <div class="text-center">
+              <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- review section -->
+    <div class="container-fluid bluishBackground py-5">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 class="text-center mb-3 fontResponseh2">You shouldn’t have to go on a vacation to find your happy place!
+            </h2>
+          </div>
+        </div>
+
+        <!-- reviews -->
+        <div class="row text-center mx-0 mb-4">
+          <div class="col-md"></div>
+          <div class="col-6 col-md-4 mb-2 px-4 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+              src="../../assets/images/firepits/20yrs.png" class="img-fluid" alt="20+ Years In Business">
+          </div>
+          <div class="col-6 col-md-4 mb-2 px-4 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+              src="../../assets/images/firepits/50k.png" class="img-fluid" alt="50,000+ Homeowners helped">
+          </div>
+          <div class="col-md"></div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-xl-block col-xl"></div>
+          <div class="col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center">
+            <a href="https://www.csia.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/csia.png" class="img-fluid"
+                alt="Chimney Safety Institute of America logo">
+            </a>
+            <a href="https://www.ncsg.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/NCSG.png" class="img-fluid"
+                alt="National Chimney Sweep Guild Member logo">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.cslb.ca.gov/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+                alt="Department of Consumer Affairs Contractors State License Board logo">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.hpba.org/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+                alt="Hearth Patio And BBQ Association Logo">
+            </a>
+          </div>
+          <div class="d-none d-xl-block col-xl"></div>
+
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Today</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--  1 , 2 , 3 -->
+    <div class="container py-5">
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <h2 class="fontResponseh2">Let’s make your home your favorite vacation destination</h2>
+        </div>
+      </div>
+
+      <div class="row mb-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200">
+        <div class="col-lg"></div>
+        <div class="col-12 col-md-6 col-lg-5 p-lg-3 px-xl-5">
+          <img class="w-100" src="../../assets/images/landing/outdoorFireplaces/sendpics.png"
+            alt="Image of a phone taking a picture of a backyard">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center">
+          <div>
+            <p class="subtitleBold mt-2 mb-lg-3">1. Send Us Pictures</p>
+            <p style="font-size:20px;" class="lineSpacing">Send in pictures of the project area, along with pictures of
+              how you want the finished product to look.</p>
+          </div>
+        </div>
+        <div class="col-lg"></div>
+      </div>
+
+      <div class="row mb-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+        <div class="col-lg"></div>
+        <div class="col-12 col-md-6 col-lg-5 p-lg-3 px-xl-5">
+          <img class="w-100" src="../../assets/images/landing/outdoorFireplaces/plantogether.png" alt="Handshake planning for an outdoor fireplace">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center">
+          <div>
+            <p class="subtitleBold mt-2 mb-lg-3">2. We Plan Together</p>
+            <p style="font-size:20px;" class="lineSpacing">
+              We’ll reach out with a personalized quote and a plan for completing your project.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg"></div>
+      </div>
+
+      <div class="row mb-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="600">
+        <div class="col-lg"></div>
+        <div class="col-12 col-md-6 col-lg-5 p-lg-3 px-xl-5">
+          <img class="w-100" src="../../assets/images/landing/outdoorFireplaces/memories.png"
+            alt="Making memories with family and friends! A beautiful family hanging out in their beautiful backyard making memories in their backyard!">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center">
+          <div>
+            <p class="subtitleBold mt-2 mb-lg-3">3. Create Memories</p>
+            <p style="font-size:20px;" class="lineSpacing">Feel the joy of living in your dream home and enjoy the quality work in your newly upgraded space!</p>
+          </div>
+        </div>
+        <div class="col-lg"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a class="btn mikesBlueBtn" href="mailto:office@mikesmobile.com?subject=Masonry Firepit Inquiry">Send Us Your Vision Today</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Guarantee -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="order-xl-1 d-none d-xl-block col-xl"></div>
+          <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-5 px-2 mt-5">
+            <h2 style="font-size:40px">Our Guarantee</h2>
+            <br>
+            <ul style="font-size: 18px;">
+              <li class="mb-3">Save time and money - we make sure your projects are done right the first time</li>
+              <li class="mb-3">Get a full-service experience, we’ll take care of you start to finish with your masonry
+                project</li>
+              <li class="mb-3">Not only are we a licensed contractor, our CSIA-certified technicians are fireplace
+                experts</li>
+            </ul>
+            <div class="col-12 d-flex justify-content-center">
+              <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Today</a>
+            </div>
+          </div>
+
+          <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4 px-0 px-sm-5 px-lg-0">
+            <img data-aos="fade-left" class='px-0 px-sm-5 px-lg-0 img-fluid' data-aos-anchor-placement="center-bottom"
+              src="../../assets/images/firepits/mapNoBakersfield.png" alt="Map of our Service Area!">
+          </div>
+          <div class="order-xl-4 d-none d-xl-block col-xl"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid outdoorFireBg py-5">
+
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-xl-4">
+            <h2 style="font-size:35px; margin-bottom:0px; padding-top: 10px;"
+              class="d-flex justify-content-center BlurBg">Enjoy your patio year-round</h2>
+            <app-contact-form></app-contact-form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- faq -->
+    <div class="container-fluid bluishBackground py-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="fontResponseh2 d-flex justify-content-center">FAQ's</h2>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10 col-xl-6 p-3">
+          <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+            <mdb-item *ngFor="let item of service.textList; index as i">
+              <mdb-item-head>{{ item.title }}</mdb-item-head>
+              <mdb-item-body>
+                <p [innerHTML]="item.description"></p>
+              </mdb-item-body>
+            </mdb-item>
+          </mdb-squeezebox>
+        </div>
+      </div>
+    </div>
+
+    <app-quote-form></app-quote-form>
+  </ng-container>
+
+  <div *ngIf="service.slug !== 'outdoorfireplaces' && service.slug !== 'window-screen-services' && service.slug !== 'firepits' && service.slug !== 'our-window-screen-services' && service.slug !== 'chimney-cleaning' && service.slug !== 'window-screen-repair'"
     class="container pb-4">
 
     <section *ngIf="service.slug !== 'ascent-electric-fireplace' && service.slug !== 'cinema-log-series'"
