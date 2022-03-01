@@ -34,6 +34,7 @@ export class FooterComponent {
     '/products/viewguards',
     '/about/our-fireplace-services',
     '/about/our-annual-cleaning-and-inspection',
+    '/services/masonry/firepits'
 
   ]
   centralList = [
