@@ -118,11 +118,20 @@ export class ServiceAreaComponent implements OnInit {
 
   color: string = 'blue';
 
+  regionLogging = []
+  clickMeForRegion(){
+    for(let i = 0; i < this.regions.length; i++){
+    this.regionLogging.push( this.regions[i].region )
+    }
+    console.log(this.regionLogging)
+  }
+
   ngOnInit() {
     this.route.params.subscribe((params) => { this.id = params.id; });
     this.regions = regionalJSON;
     this.regionSecurityOnly = regionalSecurityJSON;
   }
+
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
     this.clicked = 'none';
