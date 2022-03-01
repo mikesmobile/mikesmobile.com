@@ -1,8 +1,7 @@
 <ng-container *ngIf="service">
 
 
-  <ng-container
-    *ngIf="service.slug === 'window-screen-services' || service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair'">
+  <ng-container *ngIf="service.slug === 'window-screen-services' || service.slug === 'our-window-screen-services' || service.slug === 'window-screen-repair'">
 
     <div class="container-fluid">
       <!-- Main -->
@@ -619,21 +618,30 @@
         </div>
 
         <div class="row">
-          <div class="col-lg"></div>
-          <div class="col-6 col-lg-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+          <div class="d-none d-xl-block col-xl"></div>
+          <div class="col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center">
+            <a href="https://www.csia.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/csia.png" class="img-fluid"
+                alt="Chimney Safety Institute of America logo">
+            </a>
+            <a href="https://www.ncsg.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/NCSG.png" class="img-fluid"
+                alt="National Chimney Sweep Guild Member logo">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
             <a href="https://www.cslb.ca.gov/" target="_blank">
               <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
                 alt="Department of Consumer Affairs Contractors State License Board logo">
             </a>
           </div>
-          <div class="d-none d-xl-block col-xl-1"></div>
-          <div class="col-6 col-lg-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
             <a href="https://www.hpba.org/" target="_blank">
               <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
                 alt="Hearth Patio And BBQ Association Logo">
             </a>
           </div>
-          <div class="col-lg"></div>
+          <div class="d-none d-xl-block col-xl"></div>
 
           <div class="col-12 d-flex justify-content-center mt-4">
             <a class="btn mikesBlueBtn" href="tel:+1{{service.phone}}">Call Today</a>
