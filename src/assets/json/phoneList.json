@@ -1,74 +1,97 @@
 [
     {
+        "title": "default",
         "slug": "default",
         "phone": "(916) 318-9845"
     },
     {
+        "title": "firepits",
         "slug": "/services/masonry/firepits",
         "phone": "(209) 379-6811"
     },
     {
+        "title": "our-security-screen-doors-bakersfield",
         "slug": "/about/our-security-screen-doors-bakersfield",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "bakersfield",
         "slug": "/regionsSecurity/bakersfield",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "security-windows-central",
         "slug": "/products/security-windows-central",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "titan-security-doors-central",
         "slug": "/grid/titan-security-doors-central",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "viewguard-security-doors-central",
         "slug": "/products/viewguard-security-doors-central",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "sliding-security-doors-central",
         "slug": "/products/sliding-security-doors-central",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "tru-view-security-doors-central",
         "slug": "/products/tru-view-security-doors-central",
         "phone": "(661) 567-0284"
     },
     {
+        "title": "our-window-screen-services",
         "slug": "/services/our-window-screen-services",
         "phone": "(916) 915-8731"
     },
     {
+        "title": "our-annual-cleaning-and-inspection",
         "slug": "/about/our-annual-cleaning-and-inspection",
         "phone": "(916) 915-8676"
     },
     {
+        "title": "our-fireplace-services",
         "slug": "/about/our-fireplace-services",
         "phone": "(916) 931-0125"
     },
     {
+        "title": "gas-fireplace-service",
         "slug": "/about/gas-fireplace-service",
         "phone": "(916) 864-3851"
     },
     {
+        "title": "our-chimney-services",
         "slug": "/about/our-chimney-services",
         "phone": "(916) 931-1772"
     },
     {
+        "title": "our-security-screen-doors",
         "slug": "/about/our-security-screen-doors",
         "phone": "(916) 931-1873"
     },
     {
+        "title": "theWaterproofingPackage",
         "slug": "/about/theWaterproofingPackage",
         "phone": "(916) 304-8225"
     },
     {
+        "title": "titans",
         "slug": "/grid/titans",
         "phone": "(916) 312-3182"
     },
     {
+        "title": "security-screen-doors",
         "slug": "/about/security-screen-doors",
         "phone": "(916) 318-9845"
+    },
+    {
+        "title": "outdoorfireplaces",
+        "slug" : "/services/masonry/outdoorfireplaces",
+        "phone": "(209) 379-6811"
     }
 ]

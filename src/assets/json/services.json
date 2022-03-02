@@ -2547,10 +2547,13 @@
     "type": "services"
   },
   {
-    "title": "Firepits",
+    "title": "Custom Masonry Fire Pits",
+    "subtitle": "We'll help make your backyard a cozy retreat",
     "phone": "(209) 379-6811",
     "slug": "firepits",
     "type": "services",
+    "heroImg": "../../assets/images/firepits/firepitSunset.png",
+    "heroImgAlt": "Masonry firepit image in a beautiful backyard with chairs surrounding a lit fireplace at sunset. The text says: 'Custom Masonry Firepits, We'll Help Make Your Backyard a Cozy Retreat'",
     "textList": [
       {
         "title": "What kind of material can outdoor fire pits be made out of?",
@@ -2567,6 +2570,33 @@
       {
         "title": "What is the best way to get an estimate for a project?",
         "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area to <a href='mailto:office@mikesmobile.com?subject=Masonry Firepit Inquiry'><u>Office@mikesmobile.com</u></a>, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
+      }
+    ]
+  },
+  {
+    "title": "Custom Outdoor Fireplaces",
+    "subtitle":"Be proud of your outdoor living space",
+    "phone": "(209) 379-6811",
+    "slug": "outdoorfireplaces",
+    "type": "services",
+    "heroImg": "../../assets/images/landing/outdoorFireplaces/ofHero.png",
+    "heroImgAlt": "Masonry outdoor image in a beautiful backyard with chairs with the center of attention, the outdoor fireplace at the end.",
+    "textList": [
+      {
+        "title": "What kind of material can outdoor fireplaces be made out of?",
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material questions please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What kind of fueling options are there for an outdoor fireplace?",
+        "description": "- We are able to install natural gas, wood-burning, or propane fuel sources for outdoor fire pits. Not sure what option is best for you? <a href='tel:+1(209) 379-6811'><u>Contact us today.</u></a>"
+      },
+      {
+        "title": "Do you service or repair outdoor fireplaces?",
+        "description": "- Yes, our CSIA-certified technicians are able to repair fire pits, for specifics please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area to <a href='mailto:office@mikesmobile.com?subject=Masonry Outdoor Fireplaces Inquiry'><u>Office@mikesmobile.com</u></a>, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
       }
     ]
   },

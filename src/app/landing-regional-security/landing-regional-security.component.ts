@@ -82,15 +82,11 @@ export class LandingRegionalSecurityComponent implements OnInit {
     });
     
     this.route.url.subscribe((params) => {
-      const regionalSlug = params[1].path;
 
-      console.log(params[1].path);
+      const regionalSlug = params[1].path;
       this.region = regionalSecurityJSON.find((data) => {
         return data.slug === regionalSlug;
       });
-
-      // console.log(this.region.services[1].cards)
-
       // No region found
       if (!this.region) {
         this.router.navigate(['/regions']);
