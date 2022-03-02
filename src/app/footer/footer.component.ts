@@ -7,6 +7,7 @@ import { Router, Event, NavigationEnd } from '@angular/router';
   styleUrls: ['./footer.component.sass']
 })
 export class FooterComponent {
+  phone = "(209)379-6811";
   turnMeOn = true;
   central = false;
   firepit = false;

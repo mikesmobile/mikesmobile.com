@@ -1,8 +1,8 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import { Router, Event, NavigationEnd, ActivatedRoute } from '@angular/router';
 
-import servicesJSON from '../../assets/json/services.json';
+import phoneListJSON from '../../assets/json/phoneList.json';
 import { JSONLDService } from '../services/jsonld.service';
 
 @Component({
@@ -10,12 +10,12 @@ import { JSONLDService } from '../services/jsonld.service';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.sass']
 })
-export class NavigationComponent {
+export class NavigationComponent implements OnInit {
   phone: string;
   currentRoute: string;
   hideMe: boolean;
-  // landing;
-  // phoneList = [];
+  // services;
+  phoneList = [];
 
   noPhoneButton = [
     '/grid/our-chimney-repairs',
@@ -34,48 +34,19 @@ export class NavigationComponent {
       if (event instanceof NavigationEnd) {
         // Hide progress spinner or progress bar
         this.currentRoute = event.url.split('?')[0];
-        this.phoneNumberSwitch()
+        this.phone = this.phoneNumberSwitch()
         this.hideMe = this.dontShowButton()
       }
     });
   }
-  // ngOnInit() {
-  //   this.route.params.subscribe((params) => {
-  //     this.landing = servicesJSON.find((data) => {
-  //       if (data.slug === params['slug']) {
-  //         if (data.offers) {
-  //           this.jsonService.updateJSONLD({
-  //             name: data.title,
-  //             description: data.tileText,
-  //             image: data.tileImage,
-  //             offers: data.offers
-  //           });
-  //           return true;
-  //         } else {
-  //           this.jsonService.updateJSONLD({
-  //             name: data.title,
-  //             description: data.tileText,
-  //             image: data.tileImage,
-  //             offers: ''
-  //           });
-  //           return true;
-  //         }
-  //       }
 
-  //       return false;
-  //     });
-
-  //     servicesJSON.forEach((data) => {
-
-  //       if(this.noPhoneButton.includes("/grid/"+ data.slug)|| this.noPhoneButton.includes("/about/"+ data.slug) || this.noPhoneButton.includes("/security/"+ data.slug)){
-  //         this.phoneList.push(data)
-  //         // console.log(this.phoneList)
-  //       }
-  //     });
+  ngOnInit() {
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+  }
 
 
-  //   });
-  // }
 
   dontShowButton() {
     // this is where I put the landing pages to remove the phone button
@@ -89,41 +60,15 @@ export class NavigationComponent {
 
   phoneNumberSwitch() {
 
-    // this is where I change the phone numbers for each landing page. There must be a better way of doing this.
+      // if one of the json.slugs matches currentRoute then return the phone number, otherwise return the main number. will have to combine the json in security door too.
+      // meaning i have to loop through the json slugs to find the one that matches the current route forloop style then return the specific number. 
 
-    if (this.currentRoute === '/about/security-screen-doors') {
-      this.phone = "(916) 318-9845";
-    } else if (this.currentRoute === '/grid/titans') {
-      this.phone = "(916) 312-3182";
-    } else if (this.currentRoute === '/about/theWaterproofingPackage') {
-      this.phone = '(916) 304-8225';
-    } else if (this.currentRoute === '/about/our-security-screen-doors') {
-      this.phone = '(916) 931-1873';
-    } else if (this.currentRoute === '/about/our-chimney-services') {
-      this.phone = '(916) 931-1772';
-    } else if (this.currentRoute === '/about/gas-fireplace-service') {
-      this.phone = '(916) 864-3851';
-    } else if (this.currentRoute === '/about/our-fireplace-services') {
-      this.phone = '(916) 931-0125';
-    }else if(this.currentRoute === '/about/our-annual-cleaning-and-inspection'){
-    this.phone = '(916) 915-8676';
-    }else if(this.currentRoute === '/services/our-window-screen-services'){
-      this.phone = '(916) 915-8731';
-    }else if (this.currentRoute ===  '/about/our-security-screen-doors-bakersfield' || this.currentRoute === '/regionsSecurity/bakersfield'||  this.currentRoute === '/products/security-windows-central' || this.currentRoute === '/grid/titan-security-doors-central' || this.currentRoute === '/products/viewguard-security-doors-central' || this.currentRoute === '/products/sliding-security-doors-central' ||  this.currentRoute === '/products/tru-view-security-doors-central') {
-      this.phone = '(661) 567-0284';
-    }else if(this.currentRoute === '/services/masonry/firepits'){
-      this.phone = '(209) 379-6811';
-    }else {
-      this.phone = "(916) 318-9845";
+    for(let i = 0; i < this.phoneList.length; i++){
+      if(this.phoneList[i].slug === this.currentRoute){
+        return this.phoneList[i].phone
+      }
     }
-    // console.log("current Route: "+this.currentRoute)
-    // for(let i = 0; i < this.phoneList.length; i++){
-    //   if(this.currentRoute == "/about/" + this.phoneList[i].slug || "/grid/" + this.phoneList[i].slug || "/products/" + this.phoneList[i].slug){
-    //     console.log("phoneList slug:" + this.phoneList[i].slug)
-    //     return this.phoneList[i].phone;
-    //   }
-    // }
-    // return "(800) 992-9938";
+    return this.phoneList[0].phone
 
   }
 

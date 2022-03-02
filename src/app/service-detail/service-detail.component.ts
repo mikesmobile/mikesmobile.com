@@ -6,6 +6,7 @@ import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
+import phoneListJSON from '../../assets/json/phoneList.json';
 import { fade, moveLeft, moveRight } from '../animation/animation';
 
 @Component({
@@ -18,8 +19,9 @@ import { fade, moveLeft, moveRight } from '../animation/animation';
   animations: [fade, moveLeft, moveRight]
 })
 export class ServiceDetailComponent implements OnInit {
-  phone = '(916) 318-9845'
+  phone;
   service: any;
+  phoneList = [];
   price;
   img;
   windowsServiceList = [];
@@ -33,7 +35,7 @@ export class ServiceDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private jsonService: JSONLDService
-  ) {}
+  ) { }
 
   ngOnInit() {
     AOS.init({
@@ -42,7 +44,14 @@ export class ServiceDetailComponent implements OnInit {
       duration: 700
     });
 
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+
     this.route.params.subscribe((params) => {
+
+      this.phone = this.slugCheck(params['slug'])
+
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {
@@ -67,15 +76,6 @@ export class ServiceDetailComponent implements OnInit {
         return false;
       });
 
-      // servicesJSON.forEach((data) => {
-      //   if (data.category === 'Door and Window Screens') {
-      //     // for the screen doors page
-      //     if(data.slug){
-      //       this.windowsServiceList.push(data);
-      //     }
-
-      //   }
-      // });
       this.price = priceJSON.find((data) => {
         if (data.title === params['slug']) {
           return true;
@@ -85,10 +85,12 @@ export class ServiceDetailComponent implements OnInit {
       });
 
 
+      // No region found
       if (!this.service) {
         this.router.navigate(['/']);
         return;
       }
+
 
       if (this.service.fullTileImage) {
         this.img = this.service.fullTileImage;
@@ -97,4 +99,19 @@ export class ServiceDetailComponent implements OnInit {
       }
     });
   }
+
+  slugCheck(slug) {
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].title === slug && this.phoneList[i].phone) {
+        return this.phoneList[i].phone
+      }
+    }
+    return this.phoneList[0].phone
+
+  }
+
+
+
+
+
 }
