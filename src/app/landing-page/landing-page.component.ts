@@ -5,6 +5,7 @@ import * as AOS from 'aos';
 import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
+import phoneListJSON from '../../assets/json/phoneList.json';
 import servicesJSON from '../../assets/json/services.json';
 import { fade, moveLeft, moveRight } from '../animation/animation';
 
@@ -15,7 +16,8 @@ import { fade, moveLeft, moveRight } from '../animation/animation';
   animations: [fade, moveLeft, moveRight]
 })
 export class LandingPageComponent implements OnInit {
-  phone = '(916) 318-9845'
+  phone;
+  phoneList = [];
   landing;
   security_door_gallery;
   security_window_gallery;
@@ -73,6 +75,15 @@ export class LandingPageComponent implements OnInit {
 
   ]
 
+  
+  slugCheckForPhoneList(slug) {
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].title === slug && this.phoneList[i].phone) {
+        return this.phoneList[i].phone
+      }
+    }
+    return this.phoneList[0].phone
+  }
 
   ngOnInit() {
     AOS.init({
@@ -80,7 +91,15 @@ export class LandingPageComponent implements OnInit {
       easing: 'ease-out-back',
       duration: 700
     });
+
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+
     this.route.params.subscribe((params) => {
+
+      this.phone = this.slugCheckForPhoneList(params['slug'])
+
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {

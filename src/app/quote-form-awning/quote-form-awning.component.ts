@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
 import { MailAwningService } from '../services/mailAwning.service';
+import phoneListJSON from '../../assets/json/phoneList.json';
 
 // Property declared by Google Tag Manager
 declare global {
@@ -19,7 +20,7 @@ declare global {
   providers: [MailAwningService],
 })
 export class QuoteFormAwningComponent implements OnInit {
-  ourPhone = '(916) 318-9845';
+  ourPhone = phoneListJSON[0].phone;
   optMotor: boolean;
   optHood: boolean;
   optPitchAdjust: boolean;

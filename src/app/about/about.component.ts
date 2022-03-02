@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import employeesJSON from '../../assets/json/employees.json';
+import phoneListJSON from '../../assets/json/phoneList.json';
 
 @Component({
   selector: 'app-about',
@@ -11,6 +12,7 @@ import employeesJSON from '../../assets/json/employees.json';
 export class AboutComponent implements OnInit {
   changePic: boolean;
   employees = [];
+  phone = phoneListJSON[0].phone
   constructor(){
     this.changePic = false;
   }

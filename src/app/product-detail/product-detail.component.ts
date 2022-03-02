@@ -5,7 +5,7 @@ import { NgxGalleryImage } from 'ngx-gallery';
 import { JSONLDService } from '../services/jsonld.service';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
-
+import phoneListJSON from '../../assets/json/phoneList.json';
 import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
 import { ModalDirective } from 'ng-uikit-pro-standard';
@@ -17,7 +17,8 @@ import { ModalDirective } from 'ng-uikit-pro-standard';
   encapsulation: ViewEncapsulation.None
 })
 export class ProductDetailComponent implements OnInit {
-  phone = '(916) 318-9845'
+  phone;
+  phoneList = []
   product: any;
   video: string = 'https://www.facebook.com/watch/?v=1264548423571761';
   price;
@@ -77,8 +78,27 @@ export class ProductDetailComponent implements OnInit {
     private jsonService: JSONLDService
   ) { }
 
+  slugCheckForPhoneList(slug) {
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].title === slug && this.phoneList[i].phone) {
+        return this.phoneList[i].phone
+      }
+    }
+    return this.phoneList[0].phone
+
+  }
+
   ngOnInit() {
+
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+
     this.route.params.subscribe((params) => {
+
+      this.phone = this.slugCheckForPhoneList(params['slug'])
+
+
       this.product = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {

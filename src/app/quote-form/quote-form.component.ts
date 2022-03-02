@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
 import { MailService } from '../services/mail.service';
+import phoneListJSON from '../../assets/json/phoneList.json';
 
 // Property declared by Google Tag Manager
 declare global {
@@ -19,6 +20,8 @@ declare global {
   providers: [MailService]
 })
 export class QuoteFormComponent {
+  ourPhone = phoneListJSON[0].phone
+
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
   public submitFailed: boolean = false;
   public methodSelect: Array<any> = [

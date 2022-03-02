@@ -50,7 +50,7 @@ export class ServiceDetailComponent implements OnInit {
 
     this.route.params.subscribe((params) => {
 
-      this.phone = this.slugCheck(params['slug'])
+      this.phone = this.slugCheckForPhoneList(params['slug'])
 
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
@@ -100,7 +100,7 @@ export class ServiceDetailComponent implements OnInit {
     });
   }
 
-  slugCheck(slug) {
+  slugCheckForPhoneList(slug) {
     for (let i = 0; i < this.phoneList.length; i++) {
       if (this.phoneList[i].title === slug && this.phoneList[i].phone) {
         return this.phoneList[i].phone
