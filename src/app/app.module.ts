@@ -73,6 +73,7 @@ import { ServiceAreaComponent } from './service-area/service-area.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
 import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecurity.component';
+import { HtmlTestBlogsComponent } from './html-test-blogs/html-test-blogs.component';
 
 
 
@@ -142,7 +143,8 @@ import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecu
     ServiceAreaComponent,
     ContactFormComponent,
     LandingRegionalSecurityComponent,
-    RegioncardsecurityComponent
+    RegioncardsecurityComponent,
+    HtmlTestBlogsComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

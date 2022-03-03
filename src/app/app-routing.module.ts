@@ -31,6 +31,7 @@ import { CareerPageComponent } from './career-page/career-page.component';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
+import { HtmlTestBlogsComponent } from './html-test-blogs/html-test-blogs.component';
 
 
 const appRoutes: Routes = [
@@ -254,6 +255,7 @@ const appRoutes: Routes = [
   { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
   { path: 'serviceareatest', component: ServiceAreaComponent },
+  { path: 'testerHTML', component: HtmlTestBlogsComponent },
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },
