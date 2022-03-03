@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url><loc>https://mikesmobile.com/</loc></url>
 <url><loc>https://mikesmobile.com/about</loc></url>
 <!-- <url><loc>https://mikesmobile.com/about/awnings</loc></url> -->
@@ -158,11 +159,13 @@
 <url><loc>https://mikesmobile.com/services/masonry/waterproofing</loc></url>
 <url><loc>https://mikesmobile.com/services/masonry/fireplace-hearth</loc></url>
 <url><loc>https://mikesmobile.com/services/masonry/hardscape</loc></url>
-<url><loc>https://mikesmobile.com/thank-you</loc></url></urlset>
-<url><loc>http://mikesmobile.com/about/gas-fireplace-repair-and-service</loc></url></urlset>
-<url><loc>http://mikesmobile.com/services/gas-fireplace-repair</loc></url></urlset>
-<url><loc>http://mikesmobile.com/services/gas-fireplace-annual-servicer</loc></url></urlset>
-<url><loc>http://mikesmobile.com/services/gas-log-sets</loc></url></urlset>
-<url><loc>http://mikesmobile.com/solar-screen-price-calc</loc></url></urlset>
-<url><loc>http://mikesmobile.com/products/chimney-caps</loc></url></urlset>
-<url><loc>http://mikesmobile.com/about/water-proofing-package</loc></url></urlset>
+<url><loc>https://mikesmobile.com/thank-you</loc></url>
+<url><loc>http://mikesmobile.com/about/gas-fireplace-repair-and-service</loc></url>
+<url><loc>http://mikesmobile.com/services/gas-fireplace-repair</loc></url>
+<url><loc>http://mikesmobile.com/services/gas-fireplace-annual-service</loc></url>
+<url><loc>http://mikesmobile.com/services/gas-log-sets</loc></url>
+<url><loc>http://mikesmobile.com/solar-screen-price-calc</loc></url>
+<url><loc>http://mikesmobile.com/products/chimney-caps</loc></url>
+<url><loc>http://mikesmobile.com/about/water-proofing-package</loc></url>
+
+</urlset>
