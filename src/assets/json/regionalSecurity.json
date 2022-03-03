@@ -210,7 +210,7 @@
     "region": "Visalia",
     "slug": "visalia",
     "phone": "(559) 242-6214",
-    "truckImg": "/assets/images/regional/visalia/truck.jpg",
+    "truckImg": "/assets/images/regional/visalia/truckvisalia.jpg",
     "description": "Mike's Mobile provides Visalia and neighboring cities with premier security products that provide security, curb appeal, and airflow. We install custom security screen doors for any residential door, including swinging front doors, double doors, and sliding patio doors. Feel secure in your home with our home security screens that are custom fit and professionally installed to your home.",
     "imagesInfo": [
       {
@@ -375,13 +375,13 @@
             "title": "Sliding Security Doors",
             "slug": "sliding-security-doors-central",
             "route": "/products/sliding-security-doors-central",
-            "text": "Let the night breeze into your home without feeling vulnerable to potential intruders! A Sliding Security Screen Door gives you the well-deserved rest you need by keeping your entryway secure with stainless steel mesh. "
+            "text": "Let the night breeze into your home without feeling vulnerable to potential intruders! A <b>Sliding Security Screen Door</b> gives you the well-deserved rest you need by keeping your entryway secure with stainless steel mesh. "
           },
           {
             "title": "Security Window Screens",
             "slug": "security-windows-central",
             "route": "/products/security-windows-central",
-            "text": "Our Security Window Screens look like an average window screen but are made out of stainless steel woven mesh. These premium window screens protect against intruders, UV rays, and other unwanted pests."
+            "text": "Our <b>Security Window Screens</b> look like an average window screen but are made out of stainless steel woven mesh. These premium window screens protect against intruders, UV rays, and other unwanted pests."
           }
         ]
       }

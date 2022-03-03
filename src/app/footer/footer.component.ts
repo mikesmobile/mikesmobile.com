@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, Event, NavigationEnd } from '@angular/router';
-
+import phoneListJSON from '../../assets/json/phoneList.json';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.sass']
 })
-export class FooterComponent {
-  phone = "(209)379-6811";
+export class FooterComponent implements OnInit {
+  phone;
+  phoneList = [];
   turnMeOn = true;
   central = false;
   firepit = false;
@@ -22,6 +23,7 @@ export class FooterComponent {
         this.turnMeOn = this.footerSwitch()
         this.central = this.centralFooterCheck()
         this.firepit = this.firepitCheck()
+        this.phone = this.phoneNumberSwitch()
       }
     });
   }
@@ -55,6 +57,21 @@ export class FooterComponent {
     '/services/masonry/firepits',
     '/services/masonry/outdoorfireplaces'
   ]
+
+  phoneNumberSwitch() {
+
+    // if one of the json.slugs matches currentRoute then return the phone number, otherwise return the main number. will have to combine the json in security door too.
+    // meaning i have to loop through the json slugs to find the one that matches the current route forloop style then return the specific number. 
+
+  for(let i = 0; i < this.phoneList.length; i++){
+    if(this.phoneList[i].slug === this.currentRoute){
+      return this.phoneList[i].phone
+    }
+  }
+  return this.phoneList[0].phone
+
+}
+
   
   // combines all the lists into one super list of blocking!
   doNotShow = [].concat(this.adList, this.centralList, this.firepitList)
@@ -87,4 +104,10 @@ export class FooterComponent {
     return false;
   }
 
+
+  ngOnInit() {
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+  }
 }
