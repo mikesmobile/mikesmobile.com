@@ -43,6 +43,7 @@ export class FooterComponent {
   centralList = [
     '/about/our-security-screen-doors-bakersfield',
     '/regionsSecurity/bakersfield',
+    '/regionsSecurity/visalia',
     '/products/security-windows-central',
     '/grid/titan-security-doors-central',
     '/products/viewguard-security-doors-central',

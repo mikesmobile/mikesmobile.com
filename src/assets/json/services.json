@@ -138,7 +138,6 @@
   {
     "title": "Titan Security Screen Doors",
     "slug": "titans",
-    "phone": "(916) 312-3182",
     "type": "grid",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
     "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
@@ -2541,7 +2540,6 @@
   },
   {
     "title": "Window Screen Services",
-    "phone": "(916) 318-9845",
     "slug": "window-screen-services",
     "subcategory": "Window",
     "type": "services"
@@ -2575,7 +2573,7 @@
   },
   {
     "title": "Custom Outdoor Fireplaces",
-    "subtitle":"Be proud of your outdoor living space",
+    "subtitle": "Be proud of your outdoor living space",
     "phone": "(209) 379-6811",
     "slug": "outdoorfireplaces",
     "type": "services",
