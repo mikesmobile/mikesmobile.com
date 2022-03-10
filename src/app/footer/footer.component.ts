@@ -8,10 +8,12 @@ import phoneListJSON from '../../assets/json/phoneList.json';
 })
 export class FooterComponent implements OnInit {
   phone;
+  cityNames;
   phoneList = [];
   turnMeOn = true;
   central = false;
   firepit = false;
+  securityFooter=false;
   currentRoute: string;
 
   constructor(private router: Router) {
@@ -23,7 +25,9 @@ export class FooterComponent implements OnInit {
         this.turnMeOn = this.footerSwitch()
         this.central = this.centralFooterCheck()
         this.firepit = this.firepitCheck()
+        this.securityFooter = this.securityDoorCheck()
         this.phone = this.phoneNumberSwitch()
+        this.cityNames = this.citySwitch()
       }
     });
   }
@@ -50,12 +54,17 @@ export class FooterComponent implements OnInit {
     '/grid/titan-security-doors-central',
     '/products/viewguard-security-doors-central',
     '/products/sliding-security-doors-central',
-    '/products/tru-view-security-doors-central'
+    '/products/tru-view-security-doors-central',
   ]
 
   firepitList = [
     '/services/masonry/firepits',
     '/services/masonry/outdoorfireplaces'
+  ]
+  securityDoorsList = [
+    '/about/our-security-screen-doors/east-bay-contra-costa',
+    '/about/our-security-screen-doors/east-bay-alameda',
+    '/about/our-security-screen-doors/vacaville'
   ]
 
   phoneNumberSwitch() {
@@ -72,9 +81,19 @@ export class FooterComponent implements OnInit {
 
 }
 
+citySwitch(){
+  for(let i = 0; i < this.phoneList.length; i++){
+    if(this.phoneList[i].slug === this.currentRoute){
+      return this.phoneList[i].cities
+    }
+  }
+  return this.phoneList[0].cities
+}
+
+
   
   // combines all the lists into one super list of blocking!
-  doNotShow = [].concat(this.adList, this.centralList, this.firepitList)
+  doNotShow = [].concat(this.adList, this.centralList, this.firepitList, this.securityDoorsList)
 
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
@@ -98,6 +117,14 @@ export class FooterComponent implements OnInit {
   firepitCheck(){
     for (let i = 0; i < this.firepitList.length; i++) {
       if (this.currentRoute === this.firepitList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
+  securityDoorCheck(){
+    for (let i = 0; i < this.securityDoorsList.length; i++) {
+      if (this.currentRoute === this.securityDoorsList[i]) {
         return true;
       }
     }

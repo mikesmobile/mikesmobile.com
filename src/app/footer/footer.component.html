@@ -327,3 +327,86 @@
     </div>
   </div>
 </footer>
+
+<footer *ngIf="this.securityFooter" class="page-footer font-small unique-color-dark pt-0">
+  <div class="mmbg">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h5 class="my-0 py-3 text-dark font-weight-bold">
+            Get connected with us on social networks!
+          </h5>
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a href="https://www.indeed.com/cmp/Mike's-Mobile-Services"
+            style="padding: 18px; align-self: center; align-content: center; justify-self: center; justify-content: center;"><img
+              src="assets/images/socialIcon/IndeedLogoV2.svg" alt="indeed logo"
+              style="max-width: 2em !important; margin-bottom: 20px;" />
+          </a>
+          <a href="https://www.instagram.com/mikesmobilescreens/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/MikesMobileScreenAndChimneyService/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i
+              class="fab fa-yelp"></i></a>
+          <a href="https://maps.google.com/maps?cid=9523909510710830456"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3">
+        <a mdbPageScroll pageScrollDuration="350" href="#backToTop">
+          <h3 class="text-center">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>Back to top<i class="fa fa-angle-up"
+              aria-hidden="true"></i>
+          </h3>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3 mb-4 text-md-left">
+    <div class="row mt-3 d-flex justify-content-evenly">
+      <div class="col-12 col-lg-3 mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Mike's Mobile</strong>
+        </h6>
+        <hr class="blue" />
+        <p>
+          Mike's Mobile specializes in installing premium Security Screen Doors and Security Window Screens.
+        </p>
+        <p>We serve communities throughout Northern and Central California.</p>
+      </div>
+      <div class="col-12 col-lg-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Service Area</strong>
+        </h6>
+        <hr class="blue" />
+
+        <div class="row">
+
+          <div class="col-12 text-center">
+            <p *ngFor="let city of cityNames">{{city}}</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-3 text-center" id="contact">
+        <h6 class="text-uppercase font-weight-bold">
+          <strong>Contact us</strong>
+        </h6>
+        <hr class="blue" />
+
+        <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright text-center">
+    <div class="container-fluid py-1">
+      <small>© 2020 Copyright -
+        <a href="http://mikesmobile.com">MikesMobile.com</a></small>
+    </div>
+  </div>
+</footer>
