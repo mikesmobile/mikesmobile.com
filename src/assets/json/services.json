@@ -6204,5 +6204,140 @@
         "big": "/assets/images/landing/securityscreen/viewguard6.png"
       }
     ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "east-bay-contra-costa",
+    "type": "landing",
+    "security": "true",
+    "serving": "Antioch, Danville, Walnut Creek, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "east-bay-alameda",
+    "type": "landing",
+    "security": "true",
+    "serving": "Fremont, Hayward, Oakland, Richmond, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "vacaville",
+    "type": "landing",
+    "security": "true",
+    "serving": "Napa, Vacaville, San Rafael, Sonoma, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
   }
 ]
