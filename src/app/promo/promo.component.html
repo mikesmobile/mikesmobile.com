@@ -7,7 +7,7 @@
         class="pb-3 text-center animated pulse infinite orange-text cursor-pointer"
         (click)="openQuoteForm()"
       >
-        Get started today!
+      Schedule Now!
       </h2>
     </h1>
   </div>
@@ -200,6 +200,9 @@
       </div>
 
       <div class="container" *ngIf="service.recentInstallImages">
+        <div class="container text-center">
+          <h2>See Our Recent Work!</h2>
+        </div>
         <section class="text-center section feature-box">
           <app-footer-gallery
             [Images]="service.recentInstallImages"

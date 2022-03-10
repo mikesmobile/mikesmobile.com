@@ -1,19 +1,23 @@
-<footer class="page-footer font-small unique-color-dark pt-0 mt-4">
-  <div style="background-color: #00aeef;">
+<footer *ngIf="this.turnMeOn" class="page-footer font-small unique-color-dark pt-0">
+  <div class="mmbg">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h5 class="my-0 py-3 white-text">
+          <h5 class="my-0 py-3 text-dark font-weight-bold">
             Get connected with us on social networks!
           </h5>
         </div>
         <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a href="https://www.indeed.com/cmp/Mike's-Mobile-Services"
+            style="padding: 18px; align-self: center; align-content: center; justify-self: center; justify-content: center;"><img
+              src="assets/images/socialIcon/IndeedLogoV2.svg" alt="indeed logo"
+              style="max-width: 2em !important; margin-bottom: 20px;" />
+          </a>
+          <a href="https://www.instagram.com/mikesmobilescreens/"><i class="fab fa-instagram"></i></a>
           <a href="https://www.facebook.com/MikesMobileScreenAndChimneyService/"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com/mikesmobile_"><i class="fab fa-twitter"></i></a>
           <a href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i
               class="fab fa-yelp"></i></a>
           <a href="https://maps.google.com/maps?cid=9523909510710830456"><i class="fab fa-google"></i></a>
-          <a href="https://www.youtube.com/channel/UCm9zVDyFkzYydZxzjHMOUdQ"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
@@ -21,7 +25,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 pt-3">
-        <a mdbPageScroll pageScrollDuration="250" href="#backToTop">
+        <a mdbPageScroll pageScrollDuration="350" href="#backToTop">
           <h3 class="text-center">
             <i class="fa fa-angle-up" aria-hidden="true"></i>Back to top<i class="fa fa-angle-up"
               aria-hidden="true"></i>
@@ -63,7 +67,7 @@
           <a routerLink="/about/security-doors">Security Screen Doors</a>
         </p>
         <p>
-          <a routerLink="/about/security-windows">Security Window Screens</a>
+          <a routerLink="/products/security-windows">Security Window Screens</a>
         </p>
         <!-- <p><a routerLink="/about/awnings">Awnings</a></p> -->
       </div>
@@ -73,7 +77,7 @@
         </h6>
         <hr class="blue mb-3 mt-0 d-inline-block mx-auto" style="width: 60px;" />
         <p><a routerLink="/about">About Us</a></p>
-        <p><a routerLink="/contact">Contact Us</a></p>
+        <!-- <p><a routerLink="/service-area/contact-us">Contact Us</a></p> -->
         <p><a routerLink="/financing">Financing</a></p>
         <p><a routerLink="/privacy">Privacy Policy</a></p>
         <p><a routerLink="/service-area">Regional Services</a></p>
@@ -99,30 +103,225 @@
         <p class="mb-0 font-weight-bold text-white">Stockton</p>
         <hr class="orange mb-0 mt-0 d-inline-block mx-auto" style="width: 60px;" />
         <p>
-          <a target="_blank" rel="noopener" href="https://goo.gl/maps/uaYixbEZSCJ2">8130 Lorraine Ave
-            #312,<br />Stockton, CA 95210</a>
+          <a target="_blank" rel="noopener" href="https://goo.gl/maps/u66zSj8e1adyTyqg9">1401 W Fremont St
+            <br />Stockton, CA 95203</a>
         </p>
         <p>
-          <a id="emailLink" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a>
+          <!-- <a id="emailLink" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a> -->
+          <a style="overflow-wrap: anywhere;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a>
+
         </p>
-        <p><a href="tel:+1-916-372-8783">+1 (916) 372-8783</a></p>
-        <a routerLink="/contact"><button type="button" class="btn btn-lg orange btn-rounded waves-light"
+        <p><a href="tel:+1{{this.phone}}">{{this.phone}}</a></p>
+        <!-- <a routerLink="/contact"><button type="button" class="btn btn-lg orange btn-rounded waves-light"
             mdbRippleRadius>
             Contact us
-          </button></a>
+          </button></a> -->
       </div>
     </div>
   </div>
   <div class="footer-copyright text-center">
-    <div class="container-fluid">
-      <a class="mr-5" routerLink="/blog/why-hire-certified-chimney-sweep">
-        <app-img src="/assets/images/main/csia-logo.png"></app-img>
-      </a>
-      <a routerLink="/blog/why-hire-certified-chimney-sweep">
-        <app-img src="/assets/images/main/ncsg-logo.png"></app-img>
-      </a>
+    <div class="container-fluid py-1">
+      <small>© 2020 Copyright -
+        <a href="http://mikesmobile.com">MikesMobile.com</a></small>
     </div>
-    <div class="container-fluid">
+  </div>
+</footer>
+
+
+<footer *ngIf="this.central" class="page-footer font-small unique-color-dark pt-0">
+  <div class="mmbg">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h5 class="my-0 py-3 text-dark font-weight-bold">
+            Get connected with us on social networks!
+          </h5>
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a href="https://www.indeed.com/cmp/Mike's-Mobile-Services"
+            style="padding: 18px; align-self: center; align-content: center; justify-self: center; justify-content: center;"><img
+              src="assets/images/socialIcon/IndeedLogoV2.svg" alt="indeed logo"
+              style="max-width: 2em !important; margin-bottom: 20px;" />
+          </a>
+          <a href="https://www.instagram.com/mikesmobilescreens/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/MikesMobileScreenAndChimneyService/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i
+              class="fab fa-yelp"></i></a>
+          <a href="https://maps.google.com/maps?cid=9523909510710830456"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3">
+        <a mdbPageScroll pageScrollDuration="350" href="#backToTop">
+          <h3 class="text-center">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>Back to top<i class="fa fa-angle-up"
+              aria-hidden="true"></i>
+          </h3>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3 mb-4 text-md-left">
+    <div class="row mt-3 d-flex justify-content-evenly">
+      <div class="col-12 col-lg-3 mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Mike's Mobile</strong>
+        </h6>
+        <hr class="blue" />
+        <p>
+          Mike's Mobile specializes in installing premium Security Screen Doors and Security Window Screens.
+        </p>
+        <p>We serve communities throughout Northern and Central California.</p>
+      </div>
+      <div class="col-12 col-lg-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Service Area</strong>
+        </h6>
+        <hr class="blue" />
+
+        <div class="row">
+
+          <div class="col-6">
+            <p>Bakersfield</p>
+            <p>Hanford</p>
+            <p>Kettleman City</p>
+            <p>King City</p>
+            <p>Lemoore</p>
+          </div>
+          <div class="col-6">
+            <p>San Luis Obispo</p>
+            <p>Tulare</p>
+            <p>Visalia</p>
+            <p>+ More!</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-3 text-center" id="contact">
+        <h6 class="text-uppercase font-weight-bold">
+          <strong>Contact us</strong>
+        </h6>
+        <hr class="blue" />
+
+        <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright text-center">
+    <div class="container-fluid py-1">
+      <small>© 2020 Copyright -
+        <a href="http://mikesmobile.com">MikesMobile.com</a></small>
+    </div>
+  </div>
+</footer>
+
+<footer *ngIf="this.firepit" class="page-footer font-small unique-color-dark pt-0">
+  <div class="mmbg">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h5 class="my-0 py-3 text-dark font-weight-bold">
+            Get connected with us on social networks!
+          </h5>
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a href="https://www.indeed.com/cmp/Mike's-Mobile-Services"
+            style="padding: 18px; align-self: center; align-content: center; justify-self: center; justify-content: center;"><img
+              src="assets/images/socialIcon/IndeedLogoV2.svg" alt="indeed logo"
+              style="max-width: 2em !important; margin-bottom: 20px;" />
+          </a>
+          <a href="https://www.instagram.com/mikesmobilescreens/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/MikesMobileScreenAndChimneyService/"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento"><i
+              class="fab fa-yelp"></i></a>
+          <a href="https://maps.google.com/maps?cid=9523909510710830456"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3">
+        <a mdbPageScroll pageScrollDuration="350" href="#backToTop">
+          <h3 class="text-center">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>Back to top<i class="fa fa-angle-up"
+              aria-hidden="true"></i>
+          </h3>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3 mb-4 text-md-left">
+    <div class="row mt-3 d-flex justify-content-evenly">
+      <div class="col-12 col-lg-3 mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Mike's Mobile</strong>
+        </h6>
+        <hr class="blue" />
+        <p>
+          Mike's Mobile Screens and Chimney Services is a full service chimney and brick masonry company that is licensed, bonded, and insured. We specialize in chimney repairs, fireplace hearth restoration, brick/block/stone veneer, and outdoor hardscaping.
+        </p>
+        <p>Our service area covers the Sacramento, Stockton, Modesto, Fresno, Napa, and Bay areas.</p>
+      </div>
+      <div class="col-12 col-lg-4 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Service Area</strong>
+        </h6>
+        <hr class="blue" />
+
+        <div class="row">
+
+          <div class="col-4">
+            <p class="mb-1">Antioch</p>
+            <p class="mb-1">Danville</p>
+            <p class="mb-1">Elk Grove</p>
+            <p class="mb-1">Folsom</p>
+            <p class="mb-1">Fresno</p>
+            <p class="mb-1">Fremont</p>
+            <p class="mb-1">Hayward</p>
+          </div>
+          <div class="col-4">
+            <p class="mb-1">Madera</p>
+            <p class="mb-1">Merced</p>
+            <p class="mb-1">Modesto</p>
+            <p class="mb-1">Napa</p>
+            <p class="mb-1">Oakland</p>
+            <p class="mb-1">Richmond</p>
+            <p class="mb-1">Roseville</p>
+          </div>
+          <div class="col-4">
+            <p class="mb-1">Sacramento</p>
+            <p class="mb-1">San Jose</p>
+            <p class="mb-1">Sonora</p>
+            <p class="mb-1">Stockton</p>
+            <p class="mb-1">Tracy</p>
+            <p class="mb-1">Walnut Creek</p>
+            <p class="mb-1">Yuba City</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-3 text-center" id="contact">
+        <h6 class="text-uppercase font-weight-bold">
+          <strong>Contact us</strong>
+        </h6>
+        <hr class="blue" />
+
+        <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright text-center">
+    <div class="container-fluid py-1">
       <small>© 2020 Copyright -
         <a href="http://mikesmobile.com">MikesMobile.com</a></small>
     </div>

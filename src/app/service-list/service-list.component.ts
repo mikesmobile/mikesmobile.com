@@ -14,7 +14,6 @@ export class ServiceListComponent implements OnInit {
   @Input() categories = [
     'Security Screen Doors and Windows',
     'Door and Window Screens',
-    'Awnings',
     'Chimney Services'
   ];
 

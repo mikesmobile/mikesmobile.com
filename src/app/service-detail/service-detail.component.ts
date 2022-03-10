@@ -1,11 +1,13 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
-
+import * as AOS from 'aos';
 import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
+import phoneListJSON from '../../assets/json/phoneList.json';
+import { fade, moveLeft, moveRight } from '../animation/animation';
 
 @Component({
   selector: 'app-service-detail',
@@ -13,12 +15,16 @@ import priceJSON from '../../assets/json/prices.json';
   styleUrls: [
     './service-detail.component.sass',
     '../flipcard-list/flipcard-list.component.sass'
-  ]
+  ],
+  animations: [fade, moveLeft, moveRight]
 })
 export class ServiceDetailComponent implements OnInit {
+  phone;
   service: any;
+  phoneList = [];
   price;
   img;
+  windowsServiceList = [];
 
   @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
   openQuoteForm() {
@@ -29,10 +35,23 @@ export class ServiceDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private jsonService: JSONLDService
-  ) {}
+  ) { }
 
   ngOnInit() {
+    AOS.init({
+      once: true,
+      easing: 'ease-out-back',
+      duration: 700
+    });
+
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+
     this.route.params.subscribe((params) => {
+
+      this.phone = this.slugCheckForPhoneList(params['slug'])
+
       this.service = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {
@@ -65,10 +84,13 @@ export class ServiceDetailComponent implements OnInit {
         return false;
       });
 
+
+      // No region found
       if (!this.service) {
         this.router.navigate(['/']);
         return;
       }
+
 
       if (this.service.fullTileImage) {
         this.img = this.service.fullTileImage;
@@ -77,4 +99,19 @@ export class ServiceDetailComponent implements OnInit {
       }
     });
   }
+
+  slugCheckForPhoneList(slug) {
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].title === slug && this.phoneList[i].phone) {
+        return this.phoneList[i].phone
+      }
+    }
+    return this.phoneList[0].phone
+
+  }
+
+
+
+
+
 }

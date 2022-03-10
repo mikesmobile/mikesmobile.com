@@ -5,7 +5,7 @@
 
 
 // font options: 'Myriad Pro', sans-serif
-// font optioins: didact gothic, sans-serif;
+// font options: didact gothic, sans-serif;
 
 body
   background: #ffffff
@@ -19,26 +19,55 @@ a
   &:hover
     color: $light-gray
 
+.mikesBlueBtn
+  background-color: $mmblue
+  color: black !important
+  font-weight: Bold
+  text-transform: none
+  font-size: 18px
+.mikesBlueBtn:hover
+  background-color: #47D2FF
+  color: black !important
+
+
+.oj
+  background-color: $orange
+  color: black !important
+  // color: white !important
+
+.oj:hover
+  background-color: #FFC682 !important
+
+
 .navbar-expand
   padding: .75rem 0
   z-index: 2
 
 .btn
-  color: #ffffff
+  color: #000
+
+.divider
+  background-color: black
+  height: 2px
 
 .blue
   background: $mmblue !important
 .blue-text
   color: $mmblue !important
   font-size: 1rem !important
-
 .blue-text-noSize
   color: $mmblue !important
+
+.blue-green
+  background: $blue-green
+.blue-green-text
+  color: $blue-green
 
 .orange
   background: $orange
 .orange-text
-  color: $orange
+  color: $orange !important
+
 
 .gray
   background: $gray
@@ -70,7 +99,7 @@ a
 
 @media (min-width: 1200px)
   .container
-    max-width: 1200px
+    max-width: 1450px
 
 .no-pointer
   cursor: default !important
@@ -114,3 +143,28 @@ button:disabled
   border-bottom: 12px solid $orange 
   border-right: 12px solid transparent 
 
+hr
+    background-color: $orange
+
+
+.fontResponseh1
+  font-weight: bold
+    
+@media only screen and (max-width: 668px)
+  .fontResponseh1
+     font-size: 40px
+@media only screen and (min-width: 669px)
+  .fontResponseh1
+      font-size: 65px
+
+
+@media only screen and (max-width: 1199px)
+  .fontResponseh2
+    font-size: 32px
+  .fontResponse18
+    font-size: 16px
+@media only screen and (min-width: 1200px)
+  .fontResponseh2
+    font-size: 40px
+  .fontResponse18
+    font-size: 18px

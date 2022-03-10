@@ -1,236 +1,849 @@
 <ng-container *ngIf="product">
-  <div class="container pb-4">
-    <nav class="breadcrumb mt-2">
-      <a class="breadcrumb-item" routerLink="/">Home</a>
-      <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
-        routerLink="/grid/swinging-screen-doors">Swinging Screen Doors</a>
-      <a *ngIf="product.category === 'Titan Security Screen Doors'" class="breadcrumb-item"
-        routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
-      <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item"
-        routerLink="/about/door-and-window-screens">Doors and Window Screens</a>
-      <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" routerLink="/about/door">Screen Doors</a>
-      <a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item" routerLink="/about/window-screens">Window
-        Screens</a>
-      <a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item"
-        routerLink="/about/chimney-services">Chimney Services</a>
-      <a *ngIf="product.category === 'Security Screen Doors and Windows'" class="breadcrumb-item"
-        routerLink="/about/security-doors-and-windows">Security Screen Doors and Windows</a>
-      <a *ngIf="product.category === 'Security Screen Doors'" class="breadcrumb-item"
-        routerLink="/about/security-doors">Security Screen Doors</a>
-      <a *ngIf="product.category === 'Security Window Screens'" class="breadcrumb-item"
-        routerLink="/about/security-windows">Security Window Screens</a>
-      <a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
-      <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
-    </nav>
-    <div *ngIf="price && product.slug !== 'pet-doors'" class="d-flex flex-column align-items-end flex-md-row">
-      <h1 class="text-left h1 pageTitle">
-        {{ product.title }}
-      </h1>
+  <ng-container *ngIf="product.slug !== 'chimney-caps'">
+    <div class="container pb-3" *ngIf="product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' ">
+      <nav class="breadcrumb mt-2">
+        <a class="breadcrumb-item" routerLink="/">Home</a>
+        <a *ngIf="product.category === 'Swinging Screen Door'" class="breadcrumb-item"
+          routerLink="/grid/swinging-screen-doors">Swinging Screen Doors</a>
+        <a *ngIf="product.category === 'Titan Security Screen Doors'" class="breadcrumb-item"
+          routerLink="/grid/titan-security-doors">Titan Security Screen Doors</a>
+        <a *ngIf="product.category === 'Door and Window Screens'" class="breadcrumb-item"
+          routerLink="/about/door-and-window-screens">Doors and Window Screens</a>
+        <a *ngIf="product.category === 'Screen Doors'" class="breadcrumb-item" routerLink="/about/door">Screen Doors</a>
+        <a *ngIf="product.category === 'Window Screens'" class="breadcrumb-item"
+          routerLink="/about/window-screens">Window
+          Screens</a>
+        <a *ngIf="product.category === 'Chimney Services'" class="breadcrumb-item"
+          routerLink="/about/chimney-services">Chimney Services</a>
+        <a *ngIf="product.category === 'Security Screen Doors and Windows'" class="breadcrumb-item"
+          routerLink="/about/security-doors-and-windows">Security Screen Doors and Windows</a>
+        <a *ngIf="product.category === 'Security Screen Doors'" class="breadcrumb-item"
+          routerLink="/about/security-doors">Security Screen Doors</a>
+        <a *ngIf="product.category === 'Security Window Screens'" class="breadcrumb-item"
+          routerLink="/about/security-windows">Security Window Screens</a>
+        <a *ngIf="product.category === 'Awnings'" class="breadcrumb-item" routerLink="/about/awnings">Awnings</a>
+        <a *ngIf="product.slug === 'Gas-Fireplaces'" class="breadcrumb-item"
+          routerLink="/about/gas-fireplace-repair-and-service">Gas Fireplaces Repair and Service</a>
+        <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
+
+
+      </nav>
     </div>
-    <div *ngIf="!price || product.slug === 'pet-doors'" class="d-flex flex-column flex-md-row mb-0">
-      <h1 class="text-left h1 pageTitle mb-0">
-        {{ product.title }}
-      </h1>
+    <div *ngIf="product.slug === 'viewguards' ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div>
+          <!-- <div class="col-12 d-none d-md-block">
+            <img src="../../assets/images/landing/MapFull.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div> -->
+        </div>
+      </div>
     </div>
-    <hr />
-    <div class="row">
-      <div class="col-12 col-md-7 pb-3">
-        <ng-container *ngIf="product.slug === 'sliding-security-doors'">
+
+    <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+            <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+              alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
+
+      <div class="heroContainer">
+        <div class=" heroText">
+          <h1 class=" h1 pageTitle mb-0 boldText">
+            {{ product.title }}
+          </h1>
+          <hr class="heroHr mmOrange" />
+          <h5>Converting to a gas fireplace is now easier and more affordable than ever! Our
+            qualified gas appliance
+            professionals can help you find the perfect unit to add style and effecient heating to your home. You
+            can
+            enjoy the comfort of a fire at home without the hassle. </h5>
+        </div>
+      </div>
+
+    </ng-container>
+    <div class="container pb-4">
+      <div *ngIf="price && product.slug !== 'pet-doors' && product.slug !== 'Gas-Fireplaces'"
+        class="d-flex flex-column align-items-end flex-md-row">
+        <h1 class="text-left h1 pageTitle">
+          {{ product.title }}
+        </h1>
+      </div>
+
+      <div *ngIf="product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && (product.slug !== 'viewguards' && (!price || product.slug === 'pet-doors') && (product.slug !== 'Gas-Fireplaces'))"
+        class="d-flex flex-column flex-md-row mb-0">
+        <h1 class="text-left h1 pageTitle mb-0">
+          {{ product.title }}
+        </h1>
+      </div>
+
+      <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' ||  product.slug === 'viewguard-security-doors-central' "
+        class="d-flex flex-column flex-md-row mb-0">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end">
+            {{ product.title }}
+          </h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block pr-0">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+      <hr />
+      <ng-container *ngIf="product.slug === 'Gas-Fireplaces'">
+
+        <div class="row">
           <div class="col-12">
-            <div class="lower-zindex">
-              <mdb-tabset #staticTabs buttonClass="md-tabs light-blue tabs-3">
-                <mdb-tab heading="Single Stainless Steel Mesh">
-                  <div class="row">
-                    <div class="col-12">
-                      <app-img
-                        src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"></app-img>
-                    </div>
+            <div class="card p-2">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Montigo Del Ray Square38</h4>
                   </div>
-                </mdb-tab>
-                <mdb-tab heading="Double Stainless Steel Mesh">
-                  <div class="row">
-                    <div class="col-12">
-                      <app-img
-                        src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-                        class="img-fluid centered-sq"></app-img>
-                    </div>
-                  </div>
-                </mdb-tab>
-              </mdb-tabset>
-            </div>
-          </div>
-        </ng-container>
-
-        <ng-container *ngIf="
-            product.category === 'Swinging Screen Door' ||
-            (product.category === 'Titan Security Screen Doors' &&
-              !gallery_images)
-          ">
-          <app-img (click)="doorModal.show()" [src]="product.tileImage" class="img-fluid z-depth-2 main-image">
-          </app-img>
-          <p class="text-center p-2">(Click Image to Enlarge)</p>
-          <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
-            aria-labelledby="doorModal" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close pull-right" aria-label="Close" (click)="doorModal.hide()">
-                    <span aria-hidden="true">×</span>
-                  </button>
-                  <h4 class="modal-title w-100 text-center" [innerHTML]="product.title"></h4>
                 </div>
-                <div class="modal-body">
-                  <app-img mdbRippleRadius class="galleryImg" [src]="product.tileImage"></app-img>
+                <hr class="mt-0 mmOrange" />
+                <div class="row ">
+                  <div class="col-lg-5">
+                    <div class="container">
+                      <div class="row  justify-content-center">
+                        <div class="col-lg-10 ">
+                          <app-no-tile-gallery [Images]="delrayImages"></app-no-tile-gallery>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <p>
+                      Introducing the DelRay Square, with our brand new universal burner that gives consumers a more
+                      flexible fireplace they can redesign anytime! We have developed a high efficiency, mobile home
+                      compatible fireplace that is ready to customize with any of our stunning logsets or contemporary
+                      scenes. Additional features include heat distribution systems, propane conversion kits, and trim
+                      kits.
+                    </p>
+                    <div class="row">
+                      <div class=" d-md-none ">
+                        <a class="white-text" href="tel:+1{{this.phone}}">
+                          <button class="btn blue btn-rounded waves-light">Call Now!</button>
+                        </a>
+                      </div>
+                      <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
+                        <button class="btn blue btn-rounded waves-light">Schedule Now!</button>
+                      </div>
+                      <button class="btn blue btn-rounded waves-light" (click)="show()">Video of Options</button>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                      <table class="table table-hover table-sm">
+                        <thead>
+                          <tr>
+                            <th scope='col' class="p-0" style="font-style: italic; font-size: .7rem;">DOWNLOADS:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope='row'>
+                              <a class="tableLink"
+                                href="https://www.montigo.com/drive/uploads/2021/05/XB2218-Montigo-Fireplaces-DelRay-Square-Brochure.pdf"
+                                target="_blank" style="width: 100%;">
+                                Brochure
+                              </a>
+                            </th>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop"
+                              href="https://www.montigo.com/drive/uploads/2020/08/montigo-residential-fireplace-DelRay-Square-spec-sheet.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Spec Sheet</th>
+                            </a>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop borderBottom"
+                              href="https://www.montigo.com/drive/uploads/2020/08/XG0230_DelRay_Square_Instructions.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Installation Manual</th>
+                            </a>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </ng-container>
-
-        <ng-container *ngIf="product.slug !== 'sliding-security-doors' && gallery_images">
-          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-        </ng-container>
-
-        <div *ngIf="product.slug === 'viewguard-security-doors'"
-          class="container-fluid text-center justify-content-center">
-          <div class="row text-center">
-            <div class="col-12 text-center justify-content-center">
-              <div class="embed-responsive mx-auto video embed-responsive-16by9">
-                <iframe class="embed-responsive-item"
-                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="row mt-3 ">
+          <div class="col-12">
+            <div class="card p-2 mt-3">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h4>Montigo Phenom P42</h4>
+                  </div>
+                </div>
+                <hr class="mt-0 mmOrange" />
+                <div class="row align-items-center">
+                  <div class="col-lg-5">
+                    <div class="container">
+                      <div class="row  justify-content-center">
+                        <div class="col-lg-10 ">
+                          <app-no-tile-gallery [Images]="phenomImages"></app-no-tile-gallery>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <p>
+                      The Phenom – a reflection of Montigo’s dedication to luxury. The P42DF is a single side direct
+                      vent fireplace characterized by a landscape viewing area and comes fully loaded with all of
+                      Montigo’s premium options as a standard. Montigo’s first residential unit with a concealed ribbon
+                      burner allows the burner to be covered with glass media. Rock or tile can be installed over the
+                      firebox frame for a clean minimalist look.
+                    </p>
+                    <div class="row">
+                      <div class=" d-md-none ">
+                        <a class="white-text" href="tel:+1{{this.phone}}">
+                          <button class="btn blue btn-rounded waves-light">Call Now!</button>
+                        </a>
+                      </div>
+                      <div class=" d-none d-md-block cursor-pointer " (click)="openQuoteForm()">
+                        <button class="btn blue btn-rounded waves-light">Schedule Now!</button>
+                      </div>
+                      <!-- <button class="btn blue btn-rounded waves-light" (click)="show()">learn more</button> -->
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                      <table class="table table-hover table-sm">
+                        <thead>
+                          <tr>
+                            <th scope='col' class="p-0" style="font-style: italic; font-size: .7rem;">DOWNLOADS:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope='row'>
+                              <a class="tableLink"
+                                href="https://www.montigo.com/drive/uploads/2020/04/XB2209-Montigo-Fireplaces-Phenom-Brochure.pdf"
+                                target="_blank" style="width: 100%;">
+                                Brochure </a>
+                            </th>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop"
+                              href="https://www.montigo.com/drive/uploads/2020/04/montigo-residential-fireplace-Phenom-single-sided-spec-sheet.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Spec Sheet</th>
+                            </a>
+                          </tr>
+                          <tr>
+                            <a class="tableLink borderTop borderBottom"
+                              href="https://www.montigo.com/drive/uploads/2018/07/XG0199_P-and-PL-Series_Instructions_170223.pdf"
+                              target="_blank" style="width: 100%;">
+                              <th scope='row'>Installation Manual</th>
+                            </a>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h6>These things are seriously tough!</h6>
+            </div>
+          </div>
+        </div>
+        <div mdbModal #videoModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+          aria-labelledby="videoModal">
+          <div class="modal-dialog videoModal modal-dialog-scrollable" role="document">
+            <div class="modal-content quoteFormContainer">
+              <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gJ8X8eLl4zc"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div mdbModal #phenomModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+          aria-labelledby="phenomModal">
+          <div class="modal-dialog phenomModal modal-dialog-scrollable" role="document">
+            <div class="modal-content quoteFormContainer">
+              <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gJ8X8eLl4zc"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </ng-container>
+
+      <div class="row">
+        <div class="col-12 col-md-7 pb-3">
+          <ng-container *ngIf="product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' ">
+            <div class="col-12">
+              <div class="lower-zindex">
+                <mdb-tabset #staticTabs buttonClass="md-tabs light-blue tabs-3">
+                  <mdb-tab heading="Single Stainless Steel Mesh">
+                    <div class="row">
+                      <div class="col-12">
+                        <app-img
+                          src="/assets/images/security/sliding/display-photos/Single-Stainless-Steel-Sliding-Security-Door.jpg"
+                          class="img-fluid centered-sq"></app-img>
+                      </div>
+                    </div>
+                  </mdb-tab>
+                  <mdb-tab heading="Double Stainless Steel Mesh">
+                    <div class="row">
+                      <div class="col-12">
+                        <app-img
+                          src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
+                          class="img-fluid centered-sq"></app-img>
+                      </div>
+                    </div>
+                  </mdb-tab>
+                </mdb-tabset>
+              </div>
+            </div>
+
+          </ng-container>
+
+          <ng-container *ngIf="
+              product.category === 'Swinging Screen Door' ||
+              (product.category === 'Titan Security Screen Doors' &&
+                !gallery_images)
+            ">
+            <app-img (click)="doorModal.show()" [src]="product.tileImage" class="img-fluid z-depth-2 main-image">
+            </app-img>
+            <p class="text-center p-2">(Click Image to Enlarge)</p>
+            <div mdbModal #doorModal="mdb-modal" class="modal fade" tabindex="-1" role="dialog"
+              aria-labelledby="doorModal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="doorModal.hide()">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title w-100 text-center" [innerHTML]="product.title"></h4>
+                  </div>
+                  <div class="modal-body">
+                    <app-img mdbRippleRadius class="galleryImg" [src]="product.tileImage"></app-img>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+
+
+          <ng-container *ngIf="product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' && gallery_images">
+            <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          </ng-container>
+
+
+
+          <ng-container *ngIf="product.slug === 'security-windows'">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="text-center mt-3">Fixed or Quick Escape Available</h3>
+                  <ul>
+                    <li>Quick Escape Window's offer all the security of the fixed windows but you can open them.</li>
+                    <li>Quick Escape Security Window Screens have an easy release push mechanism that also acts as a
+                      secure, temper resistant device locking the screen closed for peace of mind.</li>
+                  </ul>
+                </div>
+                <div class="col-12 text-center">
+                  <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+                    style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200"
+                      height="160"
+                      src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+                      alt="Window & Doors Contractors near me" /></a>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+
+          <div *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central'"
+            class="container-fluid text-center justify-content-center">
+            <div class="row text-center">
+              <div class="col-12 text-center justify-content-center">
+                <div class="embed-responsive mx-auto video embed-responsive-16by9">
+                  <iframe class="embed-responsive-item"
+                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMikesMobileScreenAndChimneyService%2Fvideos%2F1264548423571761%2F&show_text=0&width=560"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <p class="font-weight-bold">These things are seriously tough!</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="col-12 col-md-5">
+          <h5 *ngIf="product.slug === 'solar-screens'" class="text-left font-weight-bold font-italic">
+            Our solar screens block out UV rays so that you can keep your home
+            cool!
+          </h5>
+          <h5 *ngIf="product.slug === 'pet-doors'" class="text-left font-weight-bold font-italic">
+            Tired of getting up to let the dog out? Let us install a pet door so
+            that you don't have to!
+          </h5>
+          <!-- <h5 *ngIf="product.slug === 'lifestyle-garage-screen'" class="text-left font-weight-bold font-italic">
+            Our garage screen doors will turn any garage into an extra room!
+          </h5> -->
+          <h5 *ngIf="product.slug === 'retractable-screen-doors'" class="text-left font-weight-bold font-italic">
+            The perfect screen when you need it, disappears when you don't!
+          </h5>
+          <h5 *ngIf="product.slug === 'security-windows' || product.slug === 'security-windows-central' " class="text-left font-weight-bold font-italic">
+            Don't make your house look like a prison! We provide window security
+            without the bars!
+          </h5>
+          <h5 *ngIf="product.slug === 'quick-escape-security-windows'" class="text-left font-weight-bold font-italic">
+            Don't make your house look like a prison! We provide window security
+            without the bars!
+          </h5>
+          <h5 *ngIf="product.slug === 'tru-view-security-doors' || product.slug === 'tru-view-security-doors-central' " class="text-left font-weight-bold font-italic">
+            Looking for a stylish screen door with increased durablity? The
+            TruView is for you!
+          </h5>
+          <h5 *ngIf="product.slug === 'viewguard-security-doors'" class="text-left font-weight-bold font-italic">
+            The Viewguard offers heavy-duty security with maximum airflow, so you
+            can keep your family safe!
+          </h5>
+          <h5 *ngIf="product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' " class="text-left font-weight-bold font-italic">
+            Finally a security screen for your back patio slider! Sleep soundly
+            and safely while letting in the cool breeze!
+          </h5>
+          <h5 *ngIf="product.slug === 'sliding-screen-doors'" class="text-left font-weight-bold font-italic">
+            Keep the bugs out of your space while letting in the breeze, with
+            custom-fit sliding screen doors!
+          </h5>
+          <h5 *ngIf="product.slug === 'chimney-caps'" class="text-left font-weight-bold font-italic">
+            We Sell Chimney Caps Not Flue Caps
+          </h5>
+          <div class="container my-4"
+            *ngIf="product.textList && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' ">
+            <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
+              <mdb-item *ngFor="let item of product.textList; index as i">
+                <mdb-item-head>{{ item.title }}</mdb-item-head>
+                <mdb-item-body>
+                  <p [innerHTML]="item.description"></p>
+                </mdb-item-body>
+              </mdb-item>
+            </mdb-squeezebox>
+          </div>
+
+          <div class="container my-4"
+            *ngIf="product.slug === 'viewguards' || product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' ">
+            <br>
+            <h4 class="font-weight-bold font-italic">{{product.textList[2].title}}</h4>
+            <p [innerHTML]="product.textList[2].description"></p>
+            <br>
+            <h5 class="font-weight-bold font-italic">{{product.textList[1].title}}</h5>
+            <p [innerHTML]="product.textList[1].description"></p>
+          </div>
+
+          <div class="container" *ngIf="product.bullets">
+            <ul class="pb-3">
+              <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
+            </ul>
+          </div>
+          <div *ngIf="product.slug !== 'Gas-Fireplaces'" class="row text-center mb-3">
+            <div class="container text-center">
+              <div class="row align-items-center justify-content-center">
+                <div *ngIf="price">
+                  <div *ngFor="let item of price.price" class="col">
+                    <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
+                    <div class=" col priceImage ">
+                      <h5 class="priceTag text-right text-white mt-1 mb-0 ml-2">Starting at</h5>
+                      <h2 class="priceTag text-right mr-2 price  ml-2 text-white">{{ item.price }}</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div *ngIf="product.slug === 'solar-screens'">
+                    <button class="btn mikesBlueBtn btn-block mb-2" (click)="openQuoteForm()">Schedule Now!</button>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+              <div *ngIf="product.slug !== 'tru-view-security-doors' && product.slug !== 'tru-view-security-doors-central' && product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguard-security-doors' && product.slug !== 'viewguard-security-doors-central' && product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' "
+                class="my-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now!</button>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="product.slug === 'viewguard-security-doors-central' || product.slug === 'viewguard-security-doors' || product.slug === 'tru-view-security-doors' || product.slug === 'tru-view-security-doors-central' || product.slug === 'sliding-security-doors' || product.slug === 'sliding-security-doors-central' || product.slug === 'security-windows' || product.slug === 'security-windows-central'">
+            <button class="btn oj btn-block mb-2" (click)="openQuoteForm()">Free Consultation!</button>
+            <button routerLink="/financing" class="btn btn-block mikesBlueBtn">Financing Options</button>
+            <hr>
+          </div>
+          <div *ngIf="product.slug !== 'Gas-Fireplaces' && product.slug !== 'viewguards' && product.slug !== 'viewguard-security-doors'  && product.slug !== 'viewguard-security-doors-central' && product.slug !== 'solar-screens' && product.slug !== 'tru-view-security-doors' && product.slug !== 'tru-view-security-doors-central' && product.slug !== 'security-windows' && product.slug !== 'security-windows-central' && product.slug !== 'sliding-security-doors' && product.slug !== 'sliding-security-doors-central' "
+            class="row text-center mb-3">
+            <div class="container">
+              <div class="row justify-content-center">
+
+                <div class="col-8">
+                  <a routerLink="/financing">
+                    <img src="/assets/images/main/financingButton.png" class="img-fluid" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" *ngIf="product.colorSet">
+            <div class="col-12">
+              <h4>
+                Color Selection &nbsp; <span class="small">(click to zoom)</span>
+              </h4>
+              <ng-container *ngFor="let i of product.colorSet">
+                <app-color-swatch [swatchType]="i"></app-color-swatch>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div *ngIf="product.slug === 'viewguard-security-doors' || product.slug === 'viewguard-security-doors-central' " class="col-12">
+        <div class="row center my-4">
+          <div class="col-12 col-md-8">
+            <h4 class="text-center">{{product.textList[0].title}}</h4>
+            <p [innerHTML]="product.textList[0].description"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row text-center py-4 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card" *ngFor="let review of doorsReviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div *ngIf="product.slug === 'viewguards'" class="col-12">
+        <div class="row center my-4">
+          <div class="col-12 col-md-8">
+            <h4 class="text-center">{{product.textList[0].title}}</h4>
+            <p [innerHTML]="product.textList[0].description"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row text-center py-4 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card" *ngFor="let review of doorsReviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col-12 col-md-10">
+            <h4 class="text-center">Financing</h4>
+            <p>Mike's Mobile has teamed up with EnerBank to offer financing for projects larger than $1,000! This allows
+              us to
+              ensure our customers are able to achieve their home improvement needs. It's quick and easy to apply and
+              you
+              will
+              receive your credit decision within seconds. After receiving your quote, you can apply for financing by
+              clicking
+              the options below or by phone at <a class="font-weight-bold" href="tel:+18664057600">(866) 405-7600</a>.
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col-12 col-md-5">
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+                target="_blank" style="text-align: center;">
+                <img class="img-fluid" src="../../assets/images/landing/12m.jpg"
+                  alt="12 Month Financing Offer! Same As Cash*, $1,000 minimum loan, no payments, no interest for 12 months!">
+              </a>
+            </div>
+            <br>
+            <p class="mx-2" style="font-size:10px;">*Loans provided by EnerBank USA, Member FDIC, (1245
+              Brickyard
+              Rd., Suite 600, Salt
+              Lake City, UT 84106) on approved credit, for a limited time. Repayment terms vary from 24 to 132 months.
+              Interest waived if repaid in 365 days. 18.58% fixed APR, effective as of August 1, 2019, subject to
+              change. Interest starts accruing when the loan closes.</p>
+
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2625&loamt="
+                target="_blank" class="btn mikesBlueBtn">Same As Cash Loan</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+                target="_blank">
+                <img class='img-fluid' src="../../assets/images/landing/5yr.jpg"
+                  alt="5 Year Financing Offer!** 6.99% apr. $3,500 minimum loan, First payment due within 30-90 days of completion.">
+              </a>
+            </div>
+            <br>
+            <p class="mx-2" style="font-size: 10px;">**Loans provided by EnerBank USA, Member FDIC, (1245 Brickyard Rd.,
+              Suite 600, Salt Lake City, UT 84106) on approved credit, for a limited time. Repayment term is 60 months.
+              6.99% fixed APR. Minimum loan amounts apply. The first monthly payment will be due 30 days after the loan
+              closes.
+            </p>
+            <div class="col-12 d-flex justify-content-center">
+              <a href="https://application.enerbank.com/#/link?spnum=8664057600&cid=78291&promo=del2659&loamt="
+                target="_blank" class="btn oj">5 Year Loan</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 pt-5 pb-3 col-md-10">
+            <h4 class="text-center">Financing Information</h4>
+            <p>No liens, collateral, equity or down payments. No prepayment penalties. Minimum credit score of 640
+              needed
+              for approval. For Same-As-cash loan, there are no payments required. For 5 Year Loan, first payment is due
+              within 30-90 days of the project's completion. Our Contractor ID number is <span
+                class="font-weight-bold">#78291</span> The codes for the loans we offer are Same-As-Cash (<span
+                class="font-weight-bold">DEL2625</span>) and 5 Year Loan (<span class="font-weight-bold">DEL2659</span>)
+
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <ng-container *ngIf="product.slug !== 'Gas-Fireplaces' ">
+      <div *ngIf="product.details">
+        <app-tab-nav [details]="product.details"></app-tab-nav>
+      </div>
+      <div class="container" *ngIf="product.recentInstallImages">
+        <div class="container text-center">
+          <h2>See Our Recent Work!</h2>
+        </div>
+        <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
+      </div>
+        <div class="container">
+          <div class="row mt-5 p-0 justify-content-center text-center">
+            <div class="col p-0">
+              <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
+            </div>
+          </div>
+        </div>
+    </ng-container>
+  </ng-container>
+  <ng-container *ngIf="product.slug === 'chimney-caps'">
+    <div class="container pb-4">
+      <nav class="breadcrumb mt-2">
+        <a class="breadcrumb-item" routerLink="/">Home</a>
+        <span class="breadcrumb-item active" [innerHTML]="product.title"></span>
+      </nav>
+      <div class="row">
+        <div class="col">
+          <h1 class="">{{product.title}}</h1>
+          <hr />
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <app-main-gallery class="carousel slide carousel-fade chimneyCapGallery" [Images]="gallery_images">
+          </app-main-gallery>
+        </div>
+        <div class="col-lg-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="text-center text-lg-left">
+                  Your home has a roof, so why not your chimney?
+                </h2>
+                <hr />
+                <p>Chimney caps play an important role in the protection of your chimney. Traditional flue caps were
+                  designed
+                  to protect your chimney flue from debris, animals and water intrusion. Flue caps also have spark
+                  arrestor
+                  screens to help protect your roof from any escaping sparks. Unfortunately over the years it's become
+                  clear
+                  flue caps are not the correct solution to protect your chimney. </p>
+                <p>While it’s clear flue caps help protect the flue, they actually hurt your chimney stack and crown.
+                  Traditional flue caps were not designed with the chimney stack in mind, they shed water off of the cap
+                  right
+                  onto the crown, which if not built properly, allows water to run down the stack causing deterioration
+                  and
+                  water intrusion.</p>
+                <p>That's why we now only offer premium custom built chimney caps. They do everything a traditional flue
+                  cap
+                  does, while shedding water away from your chimney stack with a 2” overhang. Extending the life of your
+                  chimney and saving you from costly repairs down the line.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <app-img src="assets/images/chimneyCaps/howboutnow.png" class="img-fluid"></app-img>
+              </div>
+              <div class="col-6 text-center text-lg-left">
+                <h4>You Wouldn't Use an Umbrella The Same Size as Your Head...</h4>
+              </div>
+              <div class="col-3">
+                <app-img src="assets/images/chimneyCaps/happyChimney.png" class="img-fluid"></app-img>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-md-5">
-        <h5 *ngIf="product.slug === 'solar-screens'" class="text-left font-weight-bold font-italic">
-          Our solar screens block out UV rays so that you can keep your home
-          cool!
-        </h5>
-        <h5 *ngIf="product.slug === 'pet-doors'" class="text-left font-weight-bold font-italic">
-          Tired of getting up to let the dog out? Let us install a pet door so
-          that you don't have to!
-        </h5>
-        <h5 *ngIf="product.slug === 'lifestyle-garage-screen'" class="text-left font-weight-bold font-italic">
-          Our garage screen doors will turn any garage into an extra room!
-        </h5>
-        <h5 *ngIf="product.slug === 'retractable-screen-doors'" class="text-left font-weight-bold font-italic">
-          The perfect screen when you need it, disappears when you don't!
-        </h5>
-        <h5 *ngIf="product.slug === 'fixed-security-windows'" class="text-left font-weight-bold font-italic">
-          Don't make your house look like a prison! We provide window security
-          without the bars!
-        </h5>
-        <h5 *ngIf="product.slug === 'quick-escape-security-windows'" class="text-left font-weight-bold font-italic">
-          Don't make your house look like a prison! We provide window security
-          without the bars!
-        </h5>
-        <h5 *ngIf="product.slug === 'tru-view-security-doors'" class="text-left font-weight-bold font-italic">
-          Looking for a stylish screen door with increased durablity? The
-          TruView is for you!
-        </h5>
-        <h5 *ngIf="product.slug === 'viewguard-security-doors'" class="text-left font-weight-bold font-italic">
-          The Viewguard offers heavy-duty security with maximum airflow, so you
-          can keep your family safe!
-        </h5>
-        <h5 *ngIf="product.slug === 'sliding-security-doors'" class="text-left font-weight-bold font-italic">
-          Finally a security screen for your back patio slider! Sleep soundly
-          and safely while letting in the cool breeze!
-        </h5>
-        <h5 *ngIf="product.slug === 'sliding-screen-doors'" class="text-left font-weight-bold font-italic">
-          Keep the bugs out of your space while letting in the breeze, with
-          custom-fit sliding screen doors!
-        </h5>
-        <hr />
-        <div class="container my-4" *ngIf="product.textList">
-          <mdb-squeezebox [multiple]="false" aria-multiselectable="true">
-            <mdb-item *ngFor="let item of product.textList; index as i">
-              <mdb-item-head>{{ item.title }}</mdb-item-head>
-              <mdb-item-body>
-                <p [innerHTML]="item.description"></p>
-              </mdb-item-body>
-            </mdb-item>
-          </mdb-squeezebox>
-        </div>
-        <div class="container" *ngIf="product.bullets">
-          <ul class="pb-3">
-            <li *ngFor="let bullet of product.bullets" [innerHTML]="bullet"></li>
+      <div class="row align-items-center justify-content-center mt-6">
+        <div class="col-lg-5 ">
+          <h5>Our Chimney Caps Offer</h5>
+          <ul>
+            <li>
+              All the features of a traditional flue cap, to keep debris and animals out while keeping sparks in
+            </li>
+            <li>Limited lifetime warranty, to ensure you’re home is always protected</li>
+            <li>2” overhang, to shed water away and protect your chimney stack</li>
+            <li>Color options, to match the aesthetic of your home</li>
           </ul>
         </div>
-        <div class="row text-center mb-3">
-          <div class="container text-center">
-            <div class="row align-items-center justify-content-center">
-              <div *ngIf="price">
-                <div *ngFor="let item of price.price" class="col">
-                  <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
-                  <div class=" col priceImage ">
-                    <h5 class="priceTag text-right text-white mt-1 mb-0 ml-2">Starting at</h5>
-                    <h2 class="priceTag text-right mr-2 price  ml-2 text-white">{{ item.price }}</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col ctaCol">
-                <div *ngIf="product.slug !== 'solar-screens'" class=" d-md-none ">
-                  <a class="white-text" href="tel:+18009929938">
-                    <h4 class="animated pulse infinite orange-text  cursor-pointer">
-                      <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-                    </h4>
-                  </a>
-                </div>
-                <div *ngIf="product.slug !== 'solar-screens'" class=" d-none d-md-block cursor-pointer text-center"
-                  (click)="openQuoteForm()">
-                  <h4 class="animated pulse infinite orange-text ">
-                    &nbsp;Get a Free Quote Now!
-                  </h4>
-                </div>
-                <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
-                  <a routerLink="/solar-screen-price-calc">
-                    <h4 class="animated pulse infinite orange-text ">
-                      &nbsp; Calculate Your Quote!
-                    </h4>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-6">
+          <h5 class="text-center">Available in 6 colors</h5>
+          <app-img src="assets/images/chimneyCaps/availableColors.png" class="img-fluid"></app-img>
         </div>
-        <div class="row text-center mb-3">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-8">
-                <a routerLink="/financing">
-                  <img src="/assets/images/main/financingButton.png" class="img-fluid" />
-                </a>
-              </div>
-            </div>
+      </div>
+      <div class="row mt-4 text-center justify-content-center align-items-center">
+        <div class="col ctaCol">
+          <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'" class=" d-md-none ">
+            <a class="white-text" href="tel:+1{{this.phone}}">
+              <h4 class="animated pulse infinite orange-text  cursor-pointer">
+                <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
+              </h4>
+            </a>
           </div>
-        </div>
-
-        <div class="row" *ngIf="product.colorSet">
-          <div class="col-12">
-            <h4>
-              Color Selection &nbsp; <span class="small">(click to zoom)</span>
+          <div *ngIf="product.slug !== 'solar-screens' && product.slug !== 'Gas-Fireplaces'"
+            class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
+            <h4 class="animated pulse infinite orange-text ">
+              &nbsp;Schedule Now!
             </h4>
-            <ng-container *ngFor="let i of product.colorSet">
-              <app-color-swatch [swatchType]="i"></app-color-swatch>
-            </ng-container>
           </div>
+          <div *ngIf="product.slug === 'solar-screens'" class="flex-row mt-2 cursor-pointer text-center">
+            <a routerLink="/solar-screen-price-calc">
+              <h4 class="animated pulse infinite orange-text ">
+                &nbsp; Price Calculator!
+              </h4>
+            </a>
+          </div>
+        </div>
+        <div class="col waterProofPackage">
+          <h4>For Maximum Water Protection See Our: </h4>
+          <a routerLink="/about/water-proofing-package">
+            <button class="btn mikesBlueBtn">
+              Masonry Water Proofing Package
+            </button>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">
+            We Also Offer
+          </h2>
+        </div>
+      </div>
+      <div class="row text-center align-items-center justify-content-around">
+        <div class="col-lg-4">
+          <app-img class="img-fluid" src="/assets/images/chimneys/accessories/chimney-cap/2.png"></app-img>
+          <h4>Prefab Chimney Cap</h4>
+          <p>
+            We offer prefab or Zero Clearance chimney caps for sizes: 6", 8", and 10". All sizes are available in Solid
+            pack and Air Cooled options. Contact us today for custom sizes. We can do it!
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <app-img class="img-fluid" src="/assets/images/chimneys/accessories/chimney-cap/4.png"></app-img>
+          <h4>Flue Extender Caps</h4>
+          <p>
+            Many masonry chimneys do not meet minimum code-height requirements and have the potential to be a serious
+            fire hazard. Also, many draft issues can be attributed to a chimney being too short. These caps keep sparks
+            off your roof and assist in a strong chimney draft.
+          </p>
         </div>
       </div>
     </div>
-  </div>
-  <app-tab-nav [details]="product.details"></app-tab-nav>
-  <app-footer-gallery [Images]="product.recentInstallImages"></app-footer-gallery>
-  <div class="row mt-5 justify-content-center text-center">
-    <div class="col-12">
-      <p *ngIf="price" id="disclaimer">{{ price.disclaimer }}</p>
-    </div>
-  </div>
+  </ng-container>
+
 </ng-container>
 
 <app-quote-form></app-quote-form>

@@ -1,116 +1,114 @@
-<div class="container pt-md-4">
-  <div class="jumbotron text-center mb-0">
-    <img class="img-fluid" src="/assets/images/landing/groupPhoto.png" />
-    <h1 class="h2-responsive mt-2 mb-3">
-      <strong>About Mike's Mobile</strong>
-    </h1>
+<div>
+  <img [src]="imgSrc" class="img-fluid container-fluid px-0" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" alt="Company Photo with Mike's Mobile Trucks"/>
+</div>
 
-    <div class="mx-auto" style="max-width: 43rem;">
-      <p class="mb-3">
-        Mike’s Mobile started in 2002 and is locally owned and operated. Since
-        then we have collected a staggering amount of experience installing
-        window screens, solar screens, awnings and security doors and repairing
-        and maintaining chimneys and fireplaces.
-      </p>
-      <p class="mb-3">
-        People love the California weather and they love taking advantage of the
-        crisp morning air. Our window screens, solar screens, screen doors and
-        security doors offer the perfect way to take advantage of the cool air.
-      </p>
-      <p class="mb-3">
-        Each year in October we start to see a shift to our chimney side of the
-        business. We are a full service Chimney Sweep company that specializes
-        in masonry repair, chimney sweeps and chimney inspections. Over the
-        years we have come across thousands of chimney issues and solutions.
-        Give us a call today and find out why our customers love us!
-      </p>
+  <div class="container-fluid onTopOfPic" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">
+  <div class="row">
+    <div class="col-12 text-center text-white">
+      <h1 class="headerFontSize">Mike's Mobile Screen and Chimney Service</h1>
     </div>
-    <section>
-      <h1 class="pt-5 pb-3 font-weight-bold">
-        Ok, So Why Mike's Mobile ?
-      </h1>
-      <p class="px-5 mb-5 pb-3 lead grey-text">
-        Well, lots of reasons, but most importantly because..
-      </p>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="row mb-2">
-            <div class="col-2">
-              <i class="fas fa-wind fa-2x blue-text"></i>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 mb-3">
+      <h2 class="text-center">About Us</h2>
+      <p class="text-center mb-0 font-weight-bold">We keep you cool in the Summer, warm in the Winter, and secure all year round!</p>
+      <p>Founded in Stockton, CA in 2002, Mike’s Mobile has become Northern California’s premier home service company. Over the years, our dedicated team has garnered incredible experience while servicing thousands of homes. We’re committed to providing our customers with the highest quality services, care, and products possible, as well as keeping them comfortable in their homes!</p>
+    </div>
+  </div>
+
+  <div class="row pt-4">
+    <!-- First Row -->
+    <div class="mb-2 mb-lg-4 order-1 col-12 col-lg-6">
+      <div class="firstImg" aria-label="Mike's Mobile Technician with Customer"></div>
+    </div>
+    <div class="mb-2 mb-lg-4 order-2 col-12 col-lg-6">
+      <h2>Our Mission</h2>
+      <p class="font-weight-bold">Mike’s Mobile values our employees first. Then, as a team, we improve the homes of our customers and provide them with an exceptional experience that we would want for our own families.</p>
+      <p>To us, these words mean that our team relies on values, such as integrity and a desire to ensure customer satisfaction, in every interaction we have. We want our customers to feel supported and cared for from the moment they call us until the final touches are put on their homes!</p>
+    </div>
+    <!-- Second Row -->
+    <div class="mb-2 mb-lg-4 order-4 order-lg-3 col-12 col-lg-6">
+      <h2>Our Reach</h2>
+      <p>Our service areas currently stretch from Yuba City to Fresno, covering Napa, San Jose, and the East Bay Area. Our main offices are located in Sacramento and Stockton, but all of our technicians are fully mobile and ready to come to your home regardless of where you fall in our service areas!</p>
+    </div>
+    <div class="mb-2 mb-lg-4 order-3 order-lg-4 col-lg-6">
+      <div class="secondImg" aria-label="Mike's Mobile Truck"></div>
+    </div>
+    <!-- Third Row -->
+    <div class="mb-2 mb-lg-4 order-5 col-12 col-lg-6">
+      <div class="thirdImg" aria-label="Mike's Mobile Training"></div>
+    </div>
+    <div class="mb-2 mb-lg-4 order-6 col-12 col-lg-6">
+      <h2>Our Qualifications</h2>
+      <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also prioritize ongoing education and training for all of our employees to make sure that our entire team is prepared to handle your needs and concerns.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team -->
+<div class="container mt-4">
+
+
+  <div class="row mb-2 pt-3">
+    <div class="col-12 text-center">
+      <h2>Meet Our Team</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let employees of employees" class="col-6 col-sm-4 col-lg-3 col-xl-2 center mb-3">
+      <img class="img-fluid" src={{employees.image}} alt={{employees.alt}}>
+      <h3 class="text-center">{{employees.name}}</h3>
+      <p class="text-center titleStyle">{{employees.position}}</p>
+    </div>
+    
+  </div>
+    <!-- Contact Box -->
+  <div class="row d-flex justify-content-center mt-4">
+    <div class="col-12 col-xl-10 blue-border-box p-3 p-md-5">
+      <h2 class="text-center">Our Connection With You!</h2>
+      <div class="d-flex justify-content-center my-4">
+        <div class="row">
+          <div class="mt-3 mt-md-2 col-12 col-md-6 o-border-right center">
+            <p>Click below to talk with one of our expert customer service representatives, and take that first step on your next project!</p>
+            <div class='d-flex justify-content-center'>
+              <a class="btn oj" (click)="openQuoteForm()">Book Us Now!</a>
             </div>
-            <div class="col-10 text-left">
-              <h5 class="font-weight-bold">Fresh air</h5>
-              <p class="grey-text">
-                People love the California weather and they love taking
-                advantage of the crisp morning air. Our window screens, solar
-                screens, screen doors and security doors offer the perfect way
-                to take advantage of the cool air.
-              </p>
-            </div>
+
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row mb-2">
-            <div class="col-2">
-              <i class="fa fa-2x fa-magic blue-text"></i>
+          <div class="mt-3 mt-md-2 col-12 col-md-6 center">
+            <p>Want to join our winning team?<br>Find out more below!</p>
+            <div class='d-flex justify-content-center'>
+              <a class="btn mikesBlueBtn" href="https://www.indeed.com/cmp/Mike's-Mobile-Services" target="_blank">Join Our Team!</a>
             </div>
-            <div class="col-10 text-left">
-              <h5 class="font-weight-bold">Experience and efficiency</h5>
-              <p class="grey-text">
-                We are a full service Chimney Sweep company that specializes in
-                masonry repair, chimney sweeps and chimney inspections. Over the
-                years we have come across thousands of chimney issues and
-                solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row mb-2">
-            <div class="col-2">
-              <i class="fas fa-2x fa-phone-volume blue-text"></i>
-            </div>
-            <div class="col-10 text-left">
-              <h5 class="font-weight-bold">Contact Us!</h5>
-              <p class="grey-text">
-                Mike’s Mobile Screen & Chimney Service has never been easier to
-                hire for all of your Screen, Security Door and Chimney needs.
-                Simply visit our
-              </p>
-              <a
-                routerLink="/contact"
-                type="button"
-                class="btn btn-lg orange btn-rounded waves-light"
-                mdbRippleRadius
-              >
-                Contact us page
-              </a>
-              <p>Or</p>
-              <div
-                class="flex-row mt-2 d-none d-md-block cursor-pointer text-center"
-                (click)="openQuoteForm()"
-              >
-                <h4 class="animated pulse infinite orange-text pb-1">
-                  &nbsp; Get a Free Quote Now!
-                </h4>
-              </div>
-              <div class="flex-row d-md-none text-center">
-                <a class="white-text" href="tel:+18009929938">
-                  <h4
-                    class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer"
-                  >
-                    <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call
-                    Now!
-                  </h4>
-                </a>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
-    </section>
-    <app-faq-list></app-faq-list>
+      <h3 class="fontSize25">Contact Us</h3>
+      <hr>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-2">
+          <h4>Call Or Email Us</h4>
+          <a href="mailto:office@mikesmobile.com?subject=I%20would%20like%20more%20information%20about%20Mike's%20Mobile!"
+            class="text-underline">office@mikesmobile.com</a>
+          <br>
+          <a class="text-underline" href="tel:+1{{this.phone}}">{{this.phone}}</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-2">
+          <h4>Sacramento</h4>
+          <a target="_blank" href="https://g.page/MikesMobile?share" class="text-underline">9912 Business Park Dr. Ste 175<br>Sacramento, CA. 95827</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-2">
+          <h4>Stockton</h4>
+          <a target="_blank" href="https://goo.gl/maps/UhNXfAj3EdQEkuZy8" class="text-underline">1401 W Fremont St<br>Stockton, CA 95203</a>
+        </div>
+      </div>
+
+    </div>
   </div>
+
 </div>
 
 <app-quote-form></app-quote-form>

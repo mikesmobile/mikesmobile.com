@@ -8,6 +8,7 @@ import { Component, Input, ViewChild, ViewEncapsulation } from '@angular/core';
 })
 export class MainGalleryComponent {
   @Input() Images;
+  @Input() class: String = 'carousel slide carousel-fade'
   @ViewChild('mainModal') public contentModal: any;
   @ViewChild('mainCarousel') public contentCarousel;
   public modalImgPath: string;

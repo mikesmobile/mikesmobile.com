@@ -1,0 +1,416 @@
+[
+  {
+    "region": "Bakersfield",
+    "slug": "bakersfield",
+    "phone": "(661)567-0284",
+    "truckImg": "/assets/images/regional/centralCal/bakersfieldtruckPic.jpg",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with <b>premium home security products.</b> Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, screens for double doors, and retractable screen doors. Premium security screen doors are recommended for maximum home security.",
+    "imagesInfo": [
+      {
+        "leftImg": "/assets/images/regional/centralCal/SecurityScreenDoor_MikesMobile_MikesMobileSecurityDoors_ViewguardSecurityScreenDoor_FrontDoorSecurity.jpg",
+        "leftImgAlt": "Red Viewguard available at Mike's Mobile",
+        "leftImgText": "Measured and installed by professionals, our Security Screen Doors are guaranteed to be the perfect fit for your home! With a Mike's Mobile security screen door, homeowners get security and style! Choose from over <b><strong>40+ designs, customizable frame colors, and several screen styles! </strong></b>",
+        "rightImg": "../../assets/images/regional/centralCal/MikesMobileSecurityDoors_SecurityWindows_MikesMobile_Bakersfield.jpg",
+        "rightImgAlt": "Swinging Screen Doors for easy exits from Mike's Mobile",
+        "rightImgText": "Security Screen Windows are designed to keep unwanted intruders and wildlife from entering the home. With <b><strong>stainless steel mesh</b></strong>, these screens are sure to provide optimal security for your home. These window screens are great for those with children or pets!"
+      }
+    ],
+    "review": [
+      {
+        "src": "/assets/images/landing/securityscreen/left.png",
+        "alt": "Mike's Mobile Review1"
+      },
+      {
+        "src": "/assets/images/landing/securityscreen/middle.png",
+        "alt": "Mike's Mobile Review2"
+      },
+      {
+        "src": "/assets/images/landing/securityscreen/right.png",
+        "alt": "Mike's Mobile Review3"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 35.816946,
+        "longitude": -119.983262,
+        "zoom": 7.6,
+        "regions": [
+          {
+            "paths": [
+              {
+                "lat": 36.4353064,
+                "lng": -121.4463796
+              },
+              {
+                "lat": 35.5857225,
+                "lng": -121.25582
+              },
+              {
+                "lat": 35.5787234,
+                "lng": -121.1935886
+              },
+              {
+                "lat": 35.4231386,
+                "lng": -120.9812784
+              },
+              {
+                "lat": 35.369935,
+                "lng": -120.9248465
+              },
+              {
+                "lat": 35.2559233,
+                "lng": -120.9378713
+              },
+              {
+                "lat": 35.204697,
+                "lng": -120.9014814
+              },
+              {
+                "lat": 35.0809154,
+                "lng": -120.6642192
+              },
+              {
+                "lat": 35.094353,
+                "lng": -120.485575
+              },
+              {
+                "lat": 35.2956292,
+                "lng": -120.0314365
+              },
+              {
+                "lat": 34.9428573,
+                "lng": -119.33391
+              },
+              {
+                "lat": 34.9239375,
+                "lng": -118.8488406
+              },
+              {
+                "lat": 35.0605805,
+                "lng": -118.3465814
+              },
+              {
+                "lat": 35.1467465,
+                "lng": -118.3740858
+              },
+              {
+                "lat": 35.2418627,
+                "lng": -118.4731424
+              },
+              {
+                "lat": 35.4317204,
+                "lng": -118.7902172
+              },
+              {
+                "lat": 36.4734345,
+                "lng": -119.0317382
+              },
+              {
+                "lat": 36.7515505,
+                "lng": -119.3012805
+              },
+              {
+                "lat": 36.7560721,
+                "lng": -119.5057737
+              },
+              {
+                "lat": 36.5561933,
+                "lng": -119.5876302
+              },
+              {
+                "lat": 36.4485635,
+                "lng": -120.4466237
+              },
+              {
+                "lat": 36.3536862,
+                "lng": -120.9794364
+              },
+              {
+                "lat": 36.4650687,
+                "lng": -121.3036
+              },
+              {
+                "lat": 36.4353064,
+                "lng": -121.4463796
+              }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "BakersfieldArea"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "slug": "titan-security-doors-central",
+            "route": "/grid/titan-security-doors-central",
+            "text": "The <b>Titan Security Screen Door</b> is fully customizable to reflect your style. Perfect for those that want a strong-decorative security screen door that deters potential intruders."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "slug": "viewguard-security-doors-central",
+            "route": "/products/viewguard-security-doors-central",
+            "text": "Do you want security without the bars? The <b>Viewguard Security Screen Door</b>, wiith a modern and simplistic design, keeps your home's entryways secure and visually appealing."
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "slug": "tru-view-security-doors-central",
+            "route": "/products/tru-view-security-doors-central",
+            "text": "The <b>Tru-View</b> is perfect for those who are looking to upgrade their traditional screen door. This security screen door offers a sleek design that is perfect for keeping pets at bay."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "slug": "sliding-security-doors-central",
+            "route": "/products/sliding-security-doors-central",
+            "text": "Do you like keeping your patio door open to let the breeze in? A sliding security screen door allows you maxiumum airflow, with premium security."
+          },
+          {
+            "title": "Security Window Screens",
+            "slug": "security-windows-central",
+            "route": "/products/security-windows-central",
+            "text": "Security window screens provide protection against intruders, UV rays, and other unwanted pests. These screens are custom-made to add security and curb appeal to your home."
+          }
+        ]
+      }
+    ],
+    "areas": [
+      "Bakersfield",
+      "Exeter",
+      "Farmersville",
+      "Five Points",
+      "Hanford",
+      "Keene",
+      "Kettleman City",
+      "King City",
+      "Kingsburg",
+      "Lamont",
+      "Lemoore",
+      "Lost Hills",
+      "Pismo Beach",
+      "Pixley",
+      "Porterville",
+      "Richgrove",
+      "San Lucas",
+      "San Luis Obispo",
+      "Soledad",
+      "Stratford",
+      "Taft",
+      "Tehachapi",
+      "Tulare",
+      "Visalia"
+    ]
+  },
+  {
+    "region": "Visalia",
+    "slug": "visalia",
+    "phone": "(559) 242-6214",
+    "truckImg": "/assets/images/regional/visalia/truckvisalia.jpg",
+    "description": "Mike's Mobile provides Visalia and neighboring cities with premier security products that provide security, curb appeal, and airflow. We install custom security screen doors for any residential door, including swinging front doors, double doors, and sliding patio doors. Feel secure in your home with our home security screens that are custom fit and professionally installed to your home.",
+    "imagesInfo": [
+      {
+        "leftImg": "/assets/images/regional/visalia/viewguard.jpg",
+        "leftImgAlt": "Red Viewguard available at Mike's Mobile",
+        "leftImgText": "Measured and installed by professionals, our Security Screen Doors are guaranteed to be the perfect fit for your home! With a Mike's Mobile security screen door, homeowners get security and style! Choose from over <b><strong>40+ designs, customizable frame colors, and several screen styles! </strong></b>",
+        "rightImg": "../../assets/images/regional/visalia/window.jpg",
+        "rightImgAlt": "Swinging Screen Doors for easy exits from Mike's Mobile",
+        "rightImgText": "Security Screen Windows are designed to keep unwanted intruders and wildlife from entering the home. With <b><strong>stainless steel mesh</b></strong>, these screens are sure to provide optimal security for your home. These window screens are great for those with children or pets!"
+      }
+    ],
+    "review": [
+      {
+        "src": "/assets/images/landing/securityscreen/left.png",
+        "alt": "Mike's Mobile Review1"
+      },
+      {
+        "src": "/assets/images/landing/securityscreen/middle.png",
+        "alt": "Mike's Mobile Review2"
+      },
+      {
+        "src": "/assets/images/landing/securityscreen/right.png",
+        "alt": "Mike's Mobile Review3"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 35.816946,
+        "longitude": -119.983262,
+        "zoom": 7.6,
+        "regions": [
+          {
+            "paths": [
+              {
+                "lat": 36.4353064,
+                "lng": -121.4463796
+              },
+              {
+                "lat": 35.5857225,
+                "lng": -121.25582
+              },
+              {
+                "lat": 35.5787234,
+                "lng": -121.1935886
+              },
+              {
+                "lat": 35.4231386,
+                "lng": -120.9812784
+              },
+              {
+                "lat": 35.369935,
+                "lng": -120.9248465
+              },
+              {
+                "lat": 35.2559233,
+                "lng": -120.9378713
+              },
+              {
+                "lat": 35.204697,
+                "lng": -120.9014814
+              },
+              {
+                "lat": 35.0809154,
+                "lng": -120.6642192
+              },
+              {
+                "lat": 35.094353,
+                "lng": -120.485575
+              },
+              {
+                "lat": 35.2956292,
+                "lng": -120.0314365
+              },
+              {
+                "lat": 34.9428573,
+                "lng": -119.33391
+              },
+              {
+                "lat": 34.9239375,
+                "lng": -118.8488406
+              },
+              {
+                "lat": 35.0605805,
+                "lng": -118.3465814
+              },
+              {
+                "lat": 35.1467465,
+                "lng": -118.3740858
+              },
+              {
+                "lat": 35.2418627,
+                "lng": -118.4731424
+              },
+              {
+                "lat": 35.4317204,
+                "lng": -118.7902172
+              },
+              {
+                "lat": 36.4734345,
+                "lng": -119.0317382
+              },
+              {
+                "lat": 36.7515505,
+                "lng": -119.3012805
+              },
+              {
+                "lat": 36.7560721,
+                "lng": -119.5057737
+              },
+              {
+                "lat": 36.5561933,
+                "lng": -119.5876302
+              },
+              {
+                "lat": 36.4485635,
+                "lng": -120.4466237
+              },
+              {
+                "lat": 36.3536862,
+                "lng": -120.9794364
+              },
+              {
+                "lat": 36.4650687,
+                "lng": -121.3036
+              },
+              {
+                "lat": 36.4353064,
+                "lng": -121.4463796
+              }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "BakersfieldArea"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Windows",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "slug": "titan-security-doors-central",
+            "route": "/grid/titan-security-doors-central",
+            "text": "The <b>Titan Security Screen Door</b> is our maximum security screen door, available in 40+ designs. Ideal for those that want a secure front door that's design accents your home."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "slug": "viewguard-security-doors-central",
+            "route": "/products/viewguard-security-doors-central",
+            "text": "If you're looking to add a layer of protection to your home, a <b>Viewguard Security Screen Door</b> is for you! With a modern design, this security screen keeps your home's entryway secure and visually appealing."
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "slug": "tru-view-security-doors-central",
+            "route": "/products/tru-view-security-doors-central",
+            "text": "The <b>Tru-View</b> is the perfect solution for those that want a layer of protection that is more secure than a classic screen door. This security screen door lets the breeze in and keeps intruders out, perfect for pet owners!"
+          },
+          {
+            "title": "Sliding Security Doors",
+            "slug": "sliding-security-doors-central",
+            "route": "/products/sliding-security-doors-central",
+            "text": "Let the night breeze into your home without feeling vulnerable to potential intruders! A <b>Sliding Security Screen Door</b> gives you the well-deserved rest you need by keeping your entryway secure with stainless steel mesh. "
+          },
+          {
+            "title": "Security Window Screens",
+            "slug": "security-windows-central",
+            "route": "/products/security-windows-central",
+            "text": "Our <b>Security Window Screens</b> look like an average window screen but are made out of stainless steel woven mesh. These premium window screens protect against intruders, UV rays, and other unwanted pests."
+          }
+        ]
+      }
+    ],
+    "areas": [
+      "Bakersfield",
+      "Exeter",
+      "Farmersville",
+      "Five Points",
+      "Hanford",
+      "Keene",
+      "Kettleman City",
+      "King City",
+      "Kingsburg",
+      "Lamont",
+      "Lemoore",
+      "Lost Hills",
+      "Pismo Beach",
+      "Pixley",
+      "Porterville",
+      "Richgrove",
+      "San Lucas",
+      "San Luis Obispo",
+      "Soledad",
+      "Stratford",
+      "Taft",
+      "Tehachapi",
+      "Tulare",
+      "Visalia"
+    ]
+  }
+]

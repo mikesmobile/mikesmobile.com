@@ -27,26 +27,26 @@
       <div class="card">
         <div class="card-body">
           <div class="w-100 text-center">
-            <a class="btn btn-primary btn-rounded w-75" href="tel:{{ region.phone }}"><i class="fas fa-phone left"></i>
+            <a class="btn mikesBlueBtn btn-rounded w-75" href="tel:{{ region.phone }}"><i class="fas fa-phone left"></i>
               {{ region.phone }}</a>
             <p class="card-text">Call us for more information!</p>
           </div>
           <div class="office-hours mb-4 px-3 py-4">
             <h2 class="title pl-1">
               {{
-                region.region === 'Sacramento' || region.region === 'Stockton'
-                  ? region.region
-                  : ''
+              region.region === 'Sacramento' || region.region === 'Stockton'
+              ? region.region
+              : ''
               }}
               Office Hours
             </h2>
             <ul class="list-unstyled opening-hours">
-              <li>Monday <span class="float-right">8AM-7PM</span></li>
-              <li>Tuesday <span class="float-right">8AM-7PM</span></li>
-              <li>Wednesday <span class="float-right">8AM-7PM</span></li>
-              <li>Thursday <span class="float-right">8AM-7PM</span></li>
-              <li>Friday <span class="float-right">8AM-7PM</span></li>
-              <li>Saturday <span class="float-right">8AM-5PM</span></li>
+              <li>Monday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Tuesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Wednesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Thursday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Friday <span class="float-right">8:00AM - 5:00PM</span></li>
+              <li>Saturday <span class="float-right">8:00AM - 5:00PM</span></li>
               <li>Sunday <span class="float-right">Closed</span></li>
             </ul>
           </div>
@@ -75,13 +75,13 @@
             Sacramento Office
           </h3>
           <div class="card-body">
-            <h4 class="desktop-disappear">Get a Quote Now</h4>
+            <h4 class="desktop-disappear">Book Us Now!</h4>
             <p class="card-text">
               9912 Business Park Dr. Ste 175,
-              <br />Sacramento, CA 95827 <br />Phone: (916) 823-3388 <br />Fax:
+              <br />Sacramento, CA 95827 <br />Phone: (916) 318-9845 <br />Fax:
               (916) 358-7873 <br />office@mikesmobile.com <br />Mon-Sat 8AM-7PM
             </p>
-            <a class="btn btn-primary waves-light" (click)="openQuoteForm()" mdbWavesEffect>Free Quote</a>
+            <a class="btn oj waves-light" (click)="openQuoteForm()" mdbWavesEffect>Book Us Now!</a>
           </div>
         </div>
       </div>
@@ -89,13 +89,13 @@
         <div class="card">
           <h3 class="card-header primary-color white-text">Stockton Office</h3>
           <div class="card-body">
-            <h4 class="desktop-disappear">Get a Quote Now</h4>
+            <h4 class="desktop-disappear">Book Us Now!</h4>
             <p class="card-text">
-              8130 Lorraine Ave #312, <br />Stockton, CA 95210 <br />Phone:(209)
+              1401 W Fremont St, <br />Stockton, CA 95203 <br />Phone:(209)
               815-6085 <br />Fax: (916) 358-7873 <br />office@mikesmobile.com
               <br />Mon-Sat 8AM-7PM
             </p>
-            <a class="btn btn-primary waves-light" (click)="openQuoteForm()" mdbWavesEffect>Free Quote</a>
+            <a class="btn oj waves-light" (click)="openQuoteForm()" mdbWavesEffect>Book Us Now!</a>
           </div>
         </div>
       </div>
@@ -110,6 +110,12 @@
         </agm-map>
         <div class="text-center">
           <a href="/service-area"><button class="btn orange">Other Service Areas</button></a>
+        </div>
+        <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
         </div>
       </div>
     </div>
@@ -127,7 +133,7 @@
               <div class="card-header">
                 <a [href]="review.link1" rel="nofollow noopener">{{
                   review.name
-                }}</a>'s
+                  }}</a>'s
                 <a [href]="review.link2" rel="nofollow noopener">review</a>
                 of
                 <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service

@@ -1,6 +1,9 @@
 @import '../../sass/modules/_mixins.sass'
 @import '../../sass/modules/_variables.sass'
 
+hr
+  background-color: $orange
+
 #serviceInfo
   h1
     font-family: 'Open Sans', sans-serif
@@ -97,3 +100,102 @@ ngx-gallery /deep/ .ngx-gallery-arrow
 .price
   font-weight: 600 !important
   color: $orange
+
+.featureSection
+  background: #eeedec
+  padding: 10px
+  margin-top: 20px
+
+.subtitle
+  font-size: 28px
+
+.subtitleBold
+  font-size: 25px
+  font-weight: bold
+
+.subtitleItalicBlue
+  color: $mmblue
+  font-size: 25px
+  font-style: italic
+  font-weight: bold
+
+
+.bluishBackground
+  background-color: #EDF3FF
+
+.contactImg
+  background: url('/assets/images/landing/windowServices/ladypointing.jpg')
+  background-repeat: none
+  background-size: cover
+  background-position-x: 52%
+  background-position-y: 50%
+
+.BlurBg
+  background-color: #ffffffab 
+
+.familyBg
+  background: url('/assets/images/landing/chimServices/quoteForm.png')
+  background-position-y: 50%
+  background-repeat: none
+  background-size: cover
+
+.firepitBg
+  background: url('/assets/images/firepits/BehindForm.png')
+  background-position-y: 50%
+  background-repeat: none
+  background-size: cover
+
+
+.outdoorFireBg
+  background: url('/assets/images/landing/outdoorFireplaces/quoteForm.png')
+  background-position-y: 50%
+  background-position-x: 85%
+  background-repeat: none
+  background-size: cover
+
+.darkBlur
+  background-color: #0000004d
+
+
+
+
+.subHeader
+  text-shadow: 2px 3px 2px black
+
+.firepitH1
+  text-shadow: 2px 3px 2px black
+
+.mbDisappear1200
+  margin-bottom: 40px
+
+@media only screen and (max-width: 668px)
+  .subHeader
+     font-size: 20px
+  .firepitH1
+    font-size: 40px
+
+@media only screen and (min-width: 669px)
+  .subHeader
+    font-size: 30px
+  .firepitH1
+    font-size: 65px
+
+
+@media screen and (min-width: 1200px) and (max-width: 1640px)
+  .paddingNoneHeader
+    padding: 0px !important
+    margin: 0px !important
+
+@media only screen and (max-width: 1199px)
+  .fontResponse20
+    font-size: 16px
+
+@media screen and (max-width: 1270px)
+  .mbDisappear1200
+    margin-bottom: 0px
+  .fontResponse20
+    font-size: 18px
+
+@media only screen and (min-width: 1271px)
+  .fontResponse20
+    font-size: 20px

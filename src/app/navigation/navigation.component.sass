@@ -5,32 +5,38 @@
 //background color options for nav bar: grey #f4f4f4
 // second option: white #ffffff
 
+.logo
+  height: 20px
+
+  .btn
+    text-transform: none !important
 
 nav
   background-color: #f4f4f4 !important
-  box-shadow: none !important
   @include breakpoint(md)
   .megamenu
     position: relative
     z-index: 9999 !important
     min-width: 960px
     
-    left: -700px
+    left: -10px
     @include breakpoint(md)
-      left: -625px
+      left: -500px
     @include breakpoint(lg)
-      left: -800px
-      top: 45px !important
+      left: -300px !important
+      // top: 45px !important
     h5
       padding: 0px 0px
     a
       padding: 0px
-
-
+.navbar-light .navbar-link
+  color: black !important
+.blueOnHover:hover
+  color: $mmblue !important
 
 @media only screen and (min-width: 768px)
   .nav-text
-    font-size: 30px !important
+    font-size: 20px !important
     font-weight: 200 !important
   
 
@@ -44,7 +50,7 @@ h6
 
 .mobileDrop
   font-weight: 600 !important
-  font-size: 12px !important
+  font-size: 16px !important
   z-index: 2 !important
   overflow: visible !important
 
@@ -56,12 +62,11 @@ h6
   @breakpoint(md)
     font-weight: 200
     font-size: 30px
-    
 
 li.nav-item .nav-link:hover
-  color: white !important
+  color: $mmblue !important
   border-radius: 3px
-  background: $mmblue !important
+  // background: $mmblue !important
 
 .dropdown-menu
   border-radius: 1px
@@ -69,6 +74,7 @@ li.nav-item .nav-link:hover
     color: $orange !important
 
 .dropdown-item:active
+  // color: $mmblue
   background-color: $mmblue
   margin: 0 !important
 
@@ -85,16 +91,16 @@ li.nav-item .nav-link:hover
 
 .display-mobile
   display: block !important
-  @include breakpoint(md)
+  @include breakpoint(lg)
     display: none !important
 
 .display-desktop
   display: none !important
-  @include breakpoint(md)
+  @include breakpoint(lg)
     display: block !important
 
 .quote
-  background-color: $orange
+  background-color: $mmblue
   color: white
   @include breakpoint(md)
     background-color: $orange
@@ -121,15 +127,13 @@ li.nav-item .nav-link:hover
 .fs
   font-size: 1em
 
-.fsMobile
-  font-size: 0.8em
 
 .faSymbol
   font-size: 1.5em
-  color: $mmblue
+  color: $orange
 
 .faSymbolMobile
-  color: $mmblue
+  color: #000
 
 .hideSmall
   display: none
@@ -148,3 +152,8 @@ li.nav-item .nav-link:hover
 
 .contItem
   display: block
+
+.mikesBlueBtn
+  font-size: 16px
+.hellaBigMobile
+  font-size: 24px

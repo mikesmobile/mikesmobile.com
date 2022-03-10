@@ -7,32 +7,176 @@
     "type": "grid",
     "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
     "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
+    "tileImage": "/assets/images/newTiles/Titan.png",
+    "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
+    "tileBullets": [
+      "Premium Home Security",
+      "Fits Any Swinging Door",
+      "Screen Will Not Rust",
+      "Customizable Design",
+      "Customizable Color"
+    ],
+    "reviews": [
+      {
+        "name": "Barb W.",
+        "dataReviewId": "wxh-gPv8XLhmA4IiEjFa8A",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=vmpaNu-NXE1ewihygP5NLw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=wxh-gPv8XLhmA4IiEjFa8A",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "I love my security screen door.  The team arrived on time and installed my door with precision. The installers were kind, friendly and professional. My door looks fantastic!!"
+      },
+      {
+        "name": "John L.",
+        "dataReviewId": "0NtU2UPuKhVNS1eAmQkObA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=YmAQtARFXaBH6xkyPSAV8g",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=0NtU2UPuKhVNS1eAmQkObA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Kevin from Mike's Mobile came to our house and measured for a security door at our front entry.  We liked their selection that included Titan Premium Security Doors.  We selected our style and colors and waited about 5 weeks for the door to be fabricated. Installers were Clifford and Tim.  They know their craft well.  The door fit and finish are perfect.  They took less than 2 hours to make our front entry look magnificent.  I highly recommend Mike's Mobile.  They are good people..."
+      },
+      {
+        "name": "Jim M.",
+        "dataReviewId": "mfbic6Xwo-lsio6I9xt1HA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=jeqXw1DyIxQptKaEIrnGBg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=mfbic6Xwo-lsio6I9xt1HA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Titan Security Trellis Door",
+        "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+      },
+      {
+        "alt": "Titan Security French Hummingbird Door",
+        "small": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "medium": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "big": "/assets/images/security/titan/doors/french-hummingbird_5.jpg"
+      },
+      {
+        "alt": "Titan Security Playa Door",
+        "small": "/assets/images/security/titan/doors/playa_2.jpg",
+        "medium": "/assets/images/security/titan/doors/playa_2.jpg",
+        "big": "/assets/images/security/titan/doors/playa_2.jpg"
+      },
+      {
+        "alt": "Titan Security Deer Meadow Door",
+        "small": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "medium": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "big": "/assets/images/security/titan/doors/deer-meadow_2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Titan Security Screen Doors",
+    "slug": "titan-security-doors-central",
+    "subcategory": "Door",
+    "type": "grid",
+    "img": "/assets/images/newTiles/Titan.png",
+    "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
+    "reviews": [
+      {
+        "name": "Barb W.",
+        "dataReviewId": "wxh-gPv8XLhmA4IiEjFa8A",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=vmpaNu-NXE1ewihygP5NLw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=wxh-gPv8XLhmA4IiEjFa8A",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "I love my security screen door.  The team arrived on time and installed my door with precision. The installers were kind, friendly and professional. My door looks fantastic!!"
+      },
+      {
+        "name": "John L.",
+        "dataReviewId": "0NtU2UPuKhVNS1eAmQkObA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=YmAQtARFXaBH6xkyPSAV8g",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=0NtU2UPuKhVNS1eAmQkObA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Kevin from Mike's Mobile came to our house and measured for a security door at our front entry.  We liked their selection that included Titan Premium Security Doors.  We selected our style and colors and waited about 5 weeks for the door to be fabricated. Installers were Clifford and Tim.  They know their craft well.  The door fit and finish are perfect.  They took less than 2 hours to make our front entry look magnificent.  I highly recommend Mike's Mobile.  They are good people..."
+      },
+      {
+        "name": "Jim M.",
+        "dataReviewId": "mfbic6Xwo-lsio6I9xt1HA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=jeqXw1DyIxQptKaEIrnGBg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=mfbic6Xwo-lsio6I9xt1HA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Titan Security Trellis Door",
+        "small": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
+        "big": "/assets/images/security/titan/doors/trellis_2.jpg"
+      },
+      {
+        "alt": "Titan Security French Hummingbird Door",
+        "small": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "medium": "/assets/images/security/titan/doors/french-hummingbird_5.jpg",
+        "big": "/assets/images/security/titan/doors/french-hummingbird_5.jpg"
+      },
+      {
+        "alt": "Titan Security Playa Door",
+        "small": "/assets/images/security/titan/doors/playa_2.jpg",
+        "medium": "/assets/images/security/titan/doors/playa_2.jpg",
+        "big": "/assets/images/security/titan/doors/playa_2.jpg"
+      },
+      {
+        "alt": "Titan Security Deer Meadow Door",
+        "small": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "medium": "/assets/images/security/titan/doors/deer-meadow_2.jpg",
+        "big": "/assets/images/security/titan/doors/deer-meadow_2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Titan Security Screen Doors",
+    "slug": "titans",
+    "type": "grid",
+    "description": "We offer Titan Security Screen Doors in 40 different designs to take your home to the next level of style and security. All of our Titan Security Screen Doors are made to order, ensuring a perfect fit for your home. These doors come in several different mounting styles that let us install them on any home application. (Click on a door to view more images and information)",
+    "fullTileImage": "/assets/images/security/titan/doors/elegante_2_wide.jpg",
     "tileImage": "/assets/images/tiles/titan-security-screen-doors.jpg",
     "tileText": "Custom Titan Security Screen Doors can take your home to the next level of style and security.",
-    "details": [
+    "tileBullets": [
+      "Premium Home Security",
+      "Fits Any Swinging Door",
+      "Screen Will Not Rust",
+      "Customizable Design",
+      "Customizable Color"
+    ],
+    "reviews": [
       {
-        "title": "Product Overview",
-        "description": "Titan Premium Security Screen Doors are designed to deliver maximum return on your home improvement investment delivering a host of benefits – built-to-suit your needs – season after season, year after year.<ul><li>Door has the hinges on the left and the lockbox on the right when viewed from the outside looking in</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Built-in, perforated aluminum screen offers the ultimate in security protection while maintaining light and air flow</li><li>Fits most standard size 36-in x 80-in openings; surface mount affixes to the face of the entryway trim</li></ul>"
+        "name": "Barb W.",
+        "dataReviewId": "wxh-gPv8XLhmA4IiEjFa8A",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=vmpaNu-NXE1ewihygP5NLw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=wxh-gPv8XLhmA4IiEjFa8A",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "I love my security screen door.  The team arrived on time and installed my door with precision. The installers were kind, friendly and professional. My door looks fantastic!!"
       },
       {
-        "title": "Technical Specs",
-        "description": "<li>Powder Coated Manufacturer Finish</li><li>Perforated Screen</li><li>5-5/8-in x 1-1/2-in frame offers superior strength and security</li><li>Aluminum Material</li><li>Up to 6x Stronger Than Steel</li><li>Completely Impervious To Rust</li><li>Tamper Proof Hinges</li><li>Double Bore Lockset</li>"
+        "name": "John L.",
+        "dataReviewId": "0NtU2UPuKhVNS1eAmQkObA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=YmAQtARFXaBH6xkyPSAV8g",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=0NtU2UPuKhVNS1eAmQkObA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Kevin from Mike's Mobile came to our house and measured for a security door at our front entry.  We liked their selection that included Titan Premium Security Doors.  We selected our style and colors and waited about 5 weeks for the door to be fabricated. Installers were Clifford and Tim.  They know their craft well.  The door fit and finish are perfect.  They took less than 2 hours to make our front entry look magnificent.  I highly recommend Mike's Mobile.  They are good people..."
       },
       {
-        "title": "Options",
-        "description": "<li>6 Standard Sizes and Custom Sizes Available</li><li>13 Manufacturer Colors</li><li>5 Perforated Aluminum Screen Colors</li><li>Recessed & Surface Mounting</li><li>Left & Right Handing Available</li>"
-      },
-      {
-        "title": "Related Products",
-        "links": {
-          "Tru View": "/products/tru-view-security-doors",
-          "Viewguard Security Door": "/products/viewguard-security-doors",
-          "Sliding Security Doors": "/products/sliding-security-doors"
-        }
-      },
-      {
-        "title": "Warranty",
-        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 3 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our customers."
+        "name": "Jim M.",
+        "dataReviewId": "mfbic6Xwo-lsio6I9xt1HA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=jeqXw1DyIxQptKaEIrnGBg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=mfbic6Xwo-lsio6I9xt1HA",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Mike delivers high quality custom security screen doors with a custom fit and look. He also provided us with retractable screens that allows us to take advantage of the delta breeze. Mike and his installer deliver a quality product with exceptional customer focused service. I highly recommend giving them a shot at your business. If it's a fit .. you can't go wrong going with them."
       }
     ],
     "recentInstallImages": [
@@ -2395,49 +2539,92 @@
     ]
   },
   {
+    "title": "Window Screen Services",
+    "slug": "window-screen-services",
+    "subcategory": "Window",
+    "type": "services"
+  },
+  {
+    "title": "Custom Masonry Fire Pits",
+    "subtitle": "We'll help make your backyard a cozy retreat",
+    "phone": "(209) 379-6811",
+    "slug": "firepits",
+    "type": "services",
+    "heroImg": "../../assets/images/firepits/firepitSunset.png",
+    "heroImgAlt": "Masonry firepit image in a beautiful backyard with chairs surrounding a lit fireplace at sunset. The text says: 'Custom Masonry Firepits, We'll Help Make Your Backyard a Cozy Retreat'",
+    "textList": [
+      {
+        "title": "What kind of material can outdoor fire pits be made out of?",
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material questions please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What kind of fueling options are there for an outdoor fire pit?",
+        "description": "- We are able to install natural gas, wood-burning, or propane fuel sources for outdoor fire pits. Not sure what option is best for you? <a href='tel:+1(209) 379-6811'><u>Contact us today.</u></a>"
+      },
+      {
+        "title": "Do you repair fire pits?",
+        "description": "- Yes, our CSIA-certified technicians are able to repair fire pits, for specifics please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area to <a href='mailto:office@mikesmobile.com?subject=Masonry Firepit Inquiry'><u>Office@mikesmobile.com</u></a>, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
+      }
+    ]
+  },
+  {
+    "title": "Custom Outdoor Fireplaces",
+    "subtitle": "Be proud of your outdoor living space",
+    "phone": "(209) 379-6811",
+    "slug": "outdoorfireplaces",
+    "type": "services",
+    "heroImg": "../../assets/images/landing/outdoorFireplaces/ofHero.png",
+    "heroImgAlt": "Masonry outdoor image in a beautiful backyard with chairs with the center of attention, the outdoor fireplace at the end.",
+    "textList": [
+      {
+        "title": "What kind of material can outdoor fireplaces be made out of?",
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material questions please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What kind of fueling options are there for an outdoor fireplace?",
+        "description": "- We are able to install natural gas, wood-burning, or propane fuel sources for outdoor fire pits. Not sure what option is best for you? <a href='tel:+1(209) 379-6811'><u>Contact us today.</u></a>"
+      },
+      {
+        "title": "Do you service or repair outdoor fireplaces?",
+        "description": "- Yes, our CSIA-certified technicians are able to repair fire pits, for specifics please <a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area to <a href='mailto:office@mikesmobile.com?subject=Masonry Outdoor Fireplaces Inquiry'><u>Office@mikesmobile.com</u></a>, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
+      }
+    ]
+  },
+  {
     "title": "Window Screen Repair",
     "slug": "window-screen-repair",
+    "phone": "(916) 318-9845",
     "category": "Door and Window Screens",
     "subcategory": "Window",
     "type": "services",
-    "serviceImgCaption": "Fast, friendly, and affordable window screen & frame replacement!",
-    "textList": [
-      {
-        "title": "Fast",
-        "description": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced. We offer mobile-on-site service in most areas and have our own in-house shop in other areas so our turn-around is always fast and efficient. We charge flat rates, so getting a solid estimate with no hidden fees is easy and hassle free!"
-      },
-      {
-        "title": "Friendly",
-        "description": "Why replace the frame if the screen is just torn? We offer fast on-site re-screening. We offer window screen repair and replacement. Many of our customers opt to re-screen their sliding screen doors with Solar Screen due to its durability. Solar Screen material has a 10 year warranty*. Great durability for children or pets!"
-      },
-      {
-        "title": "Affordable",
-        "description": "We also do replacement window screen frames! Our custom window screen frames are all-aluminum constructed with mitered inside corners- no cheap plastic corners like the other guys use along with pull tabs and springs."
-      }
-    ],
-    "fullTileImage": "/assets/images/screens/window-screen-repair/car-logo-2.jpg",
-    "tileImage": "/assets/images/tiles/window-screen-repair.jpg",
+    "tileImage": "/assets/images/newTiles/WindowScreenRepair.png",
+    "tileBullets": [
+      "All work done on-site ",
+      "Convenient single visit",
+      "Frame repair also available",
+      "Affordable options"
+    ]
+  },
+  {
+    "title": "Window Screen Services",
+    "phone": "(916) 915-8731",
+    "slug": "our-window-screen-services",
+    "subcategory": "Window",
+    "type": "services",
     "tileText": "We are a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens replaced.",
-    "video": "",
-    "recentInstallImages": [
-      {
-        "alt": "repair damaged screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair-2.jpg"
-      },
-      {
-        "alt": "bent window screen",
-        "small": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Screen-Repair.jpg"
-      },
-      {
-        "alt": "Worker fixing screen",
-        "small": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "medium": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg",
-        "big": "/assets/images/screens/window-screen-repair/Window-Screen-Repair-Main.jpg"
-      }
+    "tileBullets": [
+      "All work done on-site ",
+      "Convenient single visit",
+      "Frame repair also available",
+      "Affordable options"
     ]
   },
   {
@@ -2447,8 +2634,14 @@
     "subcategory": "Window",
     "type": "products",
     "fullTileImage": "/assets/images/screens/solar-screens/solar-screen2.jpg",
-    "tileImage": "/assets/images/tiles/solar-screens.jpg",
+    "tileImage": "/assets/images/newTiles/SolarScreens.png",
     "tileText": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
+    "tileBullets": [
+      "Protect home from UV rays",
+      "Reduce home cooling costs",
+      "Increase home’s privacy",
+      "Prevent glare in home"
+    ],
     "serviceImgCaption": "Suntex Solar Screen is a unique, heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors.",
     "colorSet": [
       "screenFrameColors",
@@ -2456,8 +2649,8 @@
     ],
     "textList": [
       {
-        "title": "Pet proof",
-        "description": "Being 'Pet Proof' is a bold claim and Mike's Moble will stand behind it 100% so there is no need for an addtional pet guard on any door you upgrade with solar screen."
+        "title": "Pet Resistant",
+        "description": "Solar Screens are thicker than standard bugscreen material, making them far more durable to potential pet damage! On all solar screens, we will back this with a one-time warranty on any pet damage for up to 10 years after installation."
       },
       {
         "title": "Daytime Privacy",
@@ -2514,7 +2707,7 @@
       },
       {
         "title": "Technical Specs",
-        "description": "<p><span class='font-weight-bold'>Style:</span> Suntex 80, Suntex 90</p><p><span class='font-weight-bold'>SunTex 80/90 Colors:</span> Beige, Black, Brown, Dark Bronze, Grey, Stucco</p><p><span class='font-weight-bold'>Fire Classification</span></p><p><span class='font-weight-bold'>Suntex 80:</span> California Technical Bulletin 117, NFPA 101 (Class B Rating), IBC Section 803.1.1 (Class B Rating), CAN/ULC-S 109-03 (large scale) and CFR 49V 571.302 (FMVSS 302)</p><p><span class='font-weight-bold'>Suntex 90:</span> NFPA 101 (Class A Rating), IBC Section 803.1.1 (Class A Rating), CFR 49V 571.302 (FMVSS 302), California Techincal Bulletin 117, CAN/ULC S-109 (large scale) and ASTM E-662</p><p><span class='font-weight-bold'>Bacteria and Fungal Resistance:</span> ASTM E 2180 and ASTM G21; includes Microban antimicrobial additives</p><p><span class='font-weight-bold'>Environmental Certification:</span> Certified to GREENGUARD and GREENGUARD Gold standards for low chemical emissions into indoor air during product usage</p><p><span class='font-weight-bold'>Lead Free:</span> RoHS/Directive 2002/95/EC, US Consumer Product Safety Commission Section 101, ANSI/WCMA A 100.1-2007 for lead content and REACH (EC 1907/2006) compliant</p><p><span class='font-weight-bold'>UV Protection:</span> Seal of Approval by the Melanoma International Foundation (MIF) for effectiveness in preventing sun damage to the skin or eyes (SunTex 90)</p><p><span class='font-weight-bold'>Warranty:</span> 10-year exterior</p><p><span class='font-weight-bold'>Breaking Strength</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 400 Warp, 380 Fill (lb)</p><p><span class='font-weight-bold'>Suntex 90:</span> 480 Warp, 340 Fill (lb)</p><p><span class='font-weight-bold'>Stiffness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 500 Warp, 300 Fill (mg)</p><p><span class='font-weight-bold'>Suntex 90:</span> 400 Warp, 310 Fill (mg)</p><p><span class='font-weight-bold'>Standard Widths</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 24 in to 96 in (60.9cm to 243.8cm)</p><p><span class='font-weight-bold'>Suntex 90:</span> 36 in to 96 in (91.4cm to 243.8cm); 120 in (304.8cm) in all colors except Grey.</p><p><span class='font-weight-bold'>Standard Roll Length 80 and 90:</span> 84 in to 100' (213.4cm to 30.48m)</p><p><span class='font-weight-bold'>Composition 80 and 90:</span> 31% Polyester, 69% Vinyl on Polyester</p><p><span class='font-weight-bold'>Mesh Weight</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 13.5 oz/yd2 (457.73 g/m2)</p><p><span class='font-weight-bold'>Suntex 90:</span> 17.2 oz/yd2 (583.18 g/m2)</p><p><span class='font-weight-bold'>Fabric Thickness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 0.040 in (1.016 mm</p><p><span class='font-weight-bold'>Suntex 90:</span> 0.039 in (0.991 mm)</p><p><span class='font-weight-bold'>Openness Factor</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 25%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 10%</p><p><span class='font-weight-bold'>UV Blockage</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 75%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 90%</p><br><p><span class='font-weight-bold'>Microban</span></p><p>Phifer sun control fabrics are the only shade fabrics in the world to include Microban protection. Microban antimicrobial protection works continuously to inhibit the growth of bacteria, mold and mildew that can cause stains, odors and product deterioration.</p><p>Microban antimicrobial protection is infused into Phifer SunTex fabrics for lasting protection that won't wash off or wear away for the lifetime of the shade.</p><p>SunTex fabrics infused with Microban antimicrobial technology are ideal for any commercial or residential environment where microbes are a concern, including: Healthcare, Hospitality, Home, Office, Schools and Institutions.</p><p>All SunTex fabrics include Microban antimicrobial product protection.</p><p>Microban is the leading technology in antibacterial/antifungal protection.</p><p>Look for the Microban logo in your fabric specifications.</p>"
+        "description": "<p><span class='font-weight-bold'>Style:</span> Suntex 80, Suntex 90</p><p><span class='font-weight-bold'>SunTex 80/90 Colors:</span> Beige, Black, Brown, Dark Bronze, Grey, Stucco</p><p><span class='font-weight-bold'>Fire Classification</span></p><p><span class='font-weight-bold'>Suntex 80:</span> California Technical Bulletin 117, NFPA 101 (Class B Rating), IBC Section 803.1.1 (Class B Rating), CAN/ULC-S 109-03 (large scale) and CFR 49V 571.302 (FMVSS 302)</p><p><span class='font-weight-bold'>Suntex 90:</span> NFPA 101 (Class A Rating), IBC Section 803.1.1 (Class A Rating), CFR 49V 571.302 (FMVSS 302), California Techincal Bulletin 117, CAN/ULC S-109 (large scale) and ASTM E-662</p><p><span class='font-weight-bold'>Bacteria and Fungal Resistance:</span> ASTM E 2180 and ASTM G21; includes Microban antimicrobial additives</p><p><span class='font-weight-bold'>Environmental Certification:</span> Certified to GREENGUARD and GREENGUARD Gold standards for low chemical emissions into indoor air during product usage</p><p><span class='font-weight-bold'>Lead Free:</span> RoHS/Directive 2002/95/EC, US Consumer Product Safety Commission Section 101, ANSI/WCMA A 100.1-2007 for lead content and REACH (EC 1907/2006) compliant</p><p><span class='font-weight-bold'>UV Protection:</span> Seal of Approval by the Melanoma International Foundation (MIF) for effectiveness in preventing sun damage to the skin or eyes (SunTex 90)</p><p><span class='font-weight-bold'>Breaking Strength</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 400 Warp, 380 Fill (lb)</p><p><span class='font-weight-bold'>Suntex 90:</span> 480 Warp, 340 Fill (lb)</p><p><span class='font-weight-bold'>Stiffness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 500 Warp, 300 Fill (mg)</p><p><span class='font-weight-bold'>Suntex 90:</span> 400 Warp, 310 Fill (mg)</p><p><span class='font-weight-bold'>Standard Widths</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 24 in to 96 in (60.9cm to 243.8cm)</p><p><span class='font-weight-bold'>Suntex 90:</span> 36 in to 96 in (91.4cm to 243.8cm); 120 in (304.8cm) in all colors except Grey.</p><p><span class='font-weight-bold'>Standard Roll Length 80 and 90:</span> 84 in to 100' (213.4cm to 30.48m)</p><p><span class='font-weight-bold'>Composition 80 and 90:</span> 31% Polyester, 69% Vinyl on Polyester</p><p><span class='font-weight-bold'>Mesh Weight</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 13.5 oz/yd2 (457.73 g/m2)</p><p><span class='font-weight-bold'>Suntex 90:</span> 17.2 oz/yd2 (583.18 g/m2)</p><p><span class='font-weight-bold'>Fabric Thickness</span></p><p><span class='font-weight-bold'>Suntex 80:</span> 0.040 in (1.016 mm</p><p><span class='font-weight-bold'>Suntex 90:</span> 0.039 in (0.991 mm)</p><p><span class='font-weight-bold'>Openness Factor</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 25%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 10%</p><p><span class='font-weight-bold'>UV Blockage</span></p><p><span class='font-weight-bold'>Suntex 80:</span> Approximately 75%</p><p><span class='font-weight-bold'>Suntex 90:</span> Approximately 90%</p><br><p><span class='font-weight-bold'>Microban</span></p><p>Phifer sun control fabrics are the only shade fabrics in the world to include Microban protection. Microban antimicrobial protection works continuously to inhibit the growth of bacteria, mold and mildew that can cause stains, odors and product deterioration.</p><p>Microban antimicrobial protection is infused into Phifer SunTex fabrics for lasting protection that won't wash off or wear away for the lifetime of the shade.</p><p>SunTex fabrics infused with Microban antimicrobial technology are ideal for any commercial or residential environment where microbes are a concern, including: Healthcare, Hospitality, Home, Office, Schools and Institutions.</p><p>All SunTex fabrics include Microban antimicrobial product protection.</p><p>Microban is the leading technology in antibacterial/antifungal protection.</p><p>Look for the Microban logo in your fabric specifications.</p>"
       },
       {
         "title": "Options",
@@ -2627,8 +2820,14 @@
       "Every one of our doors is custom made to fit your doorway."
     ],
     "fullTileImage": "/assets/images/screens/sliding/main-display/Sliding-Screen-Door-2.jpg",
-    "tileImage": "/assets/images/tiles/sliding-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/SlidingScreenDoor.png",
     "tileText": "Don’t waste your time with a one-size fits all door with plastic wheels from the hardware store. Every one of our doors is custom made to fit your doorway.",
+    "tileBullets": [
+      "Won’t fall off track",
+      "Keeps bugs out",
+      "Withstands wear and tear",
+      "Customizable color"
+    ],
     "thumbImages": [
       {
         "alt": "Sliding Screen Door Open",
@@ -2697,8 +2896,14 @@
     "subcategory": "Door",
     "type": "grid",
     "fullTileImage": "/assets/images/screens/swinging-screen-doors/Swinging-Screen-Door-Main-Page-Flipcard.jpg",
-    "tileImage": "/assets/images/tiles/swinging-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/SwingingScreenDoor.png",
     "tileText": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from.",
+    "tileBullets": [
+      "Made to fit door frame",
+      "Keeps bugs out",
+      "Withstands wear and tear",
+      "Customizable design and color"
+    ],
     "description": "Looking for that old-fashioned simplicity of a swinging screen door? We have many styles and colors to choose from. These are the best swinging screen doors on the market and we can fit them to virtually any door!",
     "recentInstallImages": [
       {
@@ -3243,13 +3448,19 @@
     "subcategory": "Door",
     "type": "products",
     "tileText": "Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
+    "tileBullets": [
+      "Discrete when desired",
+      "Keeps bugs out",
+      "Single and double door options",
+      "Customizable color"
+    ],
     "bullets": [
       "Disappearing or retractable screen doors are the contemporary alternative to that old wooden swinging screen door you had growing up.",
       "The retractable screen door we offer is called the Rollaway and is manufactured by the R. Lang Company right here in California.",
       "Imagine a screen door that’s only there when you need it! The Rollaway mounts inside the door frame for minimal intrusion and most people don’t notice it until you are using it!"
     ],
     "fullTileImage": "/assets/images/screens/retractable/main-display/Double-Retractable-Screen-Door.jpg",
-    "tileImage": "/assets/images/tiles/rectratable-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/RetractableScreenDoor.png",
     "thumbImages": [
       {
         "alt": "Retractable Screen Double Door",
@@ -3279,7 +3490,7 @@
     "details": [
       {
         "title": "Product Overview",
-        "description": "We are one of the only independent disappearing screen door installers in Northern California. Have outward opening doors? Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them! We sell our doors with an industry leading 10 Year Warranty <br/><br/> Our Retractable screen doors are an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” (protrudes 5+ inches outside your door frame) doors which most other manufacturers sell. Our installers have the combined knowledge of thousands of disappearing screen door installations and we would be happy to come out and show you a display of an actual door. We offer color matching all the way around the door (often your threshold is a different color than your door frame) so the finished product blends in seamlessly with your house. <br/><br/> Our door can fit inside your home with minimal intrusion- most people will never know they are there until you use them!we have examined every door on the market and only offer the best. We sell our doors with an industry leading 10 Year Warranty* so it is in our best interest to sell the best door on the market. The door we offer is called the Rollaway, manufactured by the R.Lang Company here in California. <br/><br/> Rollaway doors are completely powder coated and offer springs and rollers on the door slides to ensure a lifetime of trouble free operation."
+        "description": "Have outward opening doors? The Rollaway disappearing screen door can fit inside your home with minimal intrusion– most people will never know they are there until you use them!<br><br>These retractable screen doors feature an “inside mount” style which offers superior aesthetics and durability when compared to “surface mount” that protrudes 5+ inches outside your door frame.<br><br>We also offer color matching to your liking so that the finished product blends in seamlessly with your house!<br><br>Interested in the Rollaway disappearing screen? Call us for a free consultation today!"
       },
       {
         "title": "Technical Specs",
@@ -3356,8 +3567,14 @@
     "subcategory": "Door",
     "type": "products",
     "tileText": "Not your average pet door! These doors are made to LAST, unlike those flimsy plastic kits from the hardware store that are just going to cause you problems.",
+    "tileBullets": [
+      "Pets let themselves out",
+      "Won’t blow open",
+      "Withstands wear and tear",
+      "Customizable size and color"
+    ],
     "fullTileImage": "/assets/images/screens/pet-door/Pet-Door-Main-Page-Flipcard.jpg",
-    "tileImage": "/assets/images/tiles/pet-doors.jpg",
+    "tileImage": "/assets/images/newTiles/PetDoor.png",
     "thumbImages": [
       {
         "alt": "pet door main door",
@@ -3510,13 +3727,381 @@
     ]
   },
   {
+    "title": "Gas Fireplace Repair & Service",
+    "slug": "gas-fireplace-repair-and-service",
+    "category": "Chimney Services",
+    "type": "about",
+    "tileImage": "/assets/images/tiles/tile2test.jpg",
+    "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "White brick, montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png"
+      },
+      {
+        "alt": "large montigo gas insert ",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png"
+      },
+      {
+        "alt": "Linear montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png"
+      },
+      {
+        "alt": "Gas brick fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Ana C.",
+        "dataReviewId": "WZzrQ9EeP1mGS4m2JHX73w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=ZqC1u6l3GVLo9eOeHth_Cg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=WZzrQ9EeP1mGS4m2JHX73w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Technician (Anthony) showed up with a mask, thoroughly explained cleaning maintenance steps involved, along with what was wrong with my gas fireplace.  Anthony was very professional and polite.  I have used Mike's mobile for a screen door with doggy door and gas fireplace service.  I will certainly be in touch with them next year for annual maintenance. Highly recommended."
+      },
+      {
+        "name": "Emily L.",
+        "dataReviewId": "qJmSlxYj3zbYTCfrd3UtnA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=GaPfaaQeBIVh_DqEopUsgg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=qJmSlxYj3zbYTCfrd3UtnA",
+        "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw",
+        "content": "COVID hasn't stopped mikes mobile from providing great service! I called for my annual cleaning for my gas fireplace and their tech arrived with a mask and gloves, socially distanced and still took the time to explain everything he did to my system this visit. I received great service and my fire place looks brand new! Best in the Modesto area!"
+      },
+      {
+        "name": "Wayne H.",
+        "dataReviewId": "C9vxrOnllxuCMc2t2vMR_g",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=xH8ySJa8JYT_HWz7EMGJDw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=C9vxrOnllxuCMc2t2vMR_g",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Wonderful service from Mike's Mobile.  Reco arrived 10 minutes early, immediately diagnosed the problem with my gas fireplace insert and fixed the issue.  He then did a full inspection and cleaned the system.  His work was spotless and he provided a full report of the condition of my system."
+      }
+    ]
+  },
+  {
+    "title": "Gas Fireplace Repair & Service",
+    "slug": "gas-fireplace-service",
+    "type": "about",
+    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
+    "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "White brick, montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png"
+      },
+      {
+        "alt": "large montigo gas insert ",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png"
+      },
+      {
+        "alt": "Linear montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png"
+      },
+      {
+        "alt": "Gas brick fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Ana C.",
+        "dataReviewId": "WZzrQ9EeP1mGS4m2JHX73w",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=ZqC1u6l3GVLo9eOeHth_Cg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=WZzrQ9EeP1mGS4m2JHX73w",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Technician (Anthony) showed up with a mask, thoroughly explained cleaning maintenance steps involved, along with what was wrong with my gas fireplace.  Anthony was very professional and polite.  I have used Mike's mobile for a screen door with doggy door and gas fireplace service.  I will certainly be in touch with them next year for annual maintenance. Highly recommended."
+      },
+      {
+        "name": "Emily L.",
+        "dataReviewId": "qJmSlxYj3zbYTCfrd3UtnA",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=GaPfaaQeBIVh_DqEopUsgg",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-modesto?hrid=qJmSlxYj3zbYTCfrd3UtnA",
+        "link3": "https://www.yelp.com/biz/K7py6eBfMdHnmi4ssi0MKw",
+        "content": "COVID hasn't stopped mikes mobile from providing great service! I called for my annual cleaning for my gas fireplace and their tech arrived with a mask and gloves, socially distanced and still took the time to explain everything he did to my system this visit. I received great service and my fire place looks brand new! Best in the Modesto area!"
+      },
+      {
+        "name": "Wayne H.",
+        "dataReviewId": "C9vxrOnllxuCMc2t2vMR_g",
+        "data-hostname": "www.yelp.com",
+        "link1": "https://www.yelp.com/user_details?userid=xH8ySJa8JYT_HWz7EMGJDw",
+        "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=C9vxrOnllxuCMc2t2vMR_g",
+        "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
+        "content": "Wonderful service from Mike's Mobile.  Reco arrived 10 minutes early, immediately diagnosed the problem with my gas fireplace insert and fixed the issue.  He then did a full inspection and cleaned the system.  His work was spotless and he provided a full report of the condition of my system."
+      }
+    ]
+  },
+  {
+    "title": "Gas Fireplace Repair & Service",
+    "slug": "gas-fireplace-service-fb-lp",
+    "type": "about",
+    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
+    "tileText": "Gas Fireplace not working? We can get it working in no time!",
+    "tileBullets": [
+      "Fix pilot light issues",
+      "Ensure burners work properly",
+      "Stop excessive fan noise",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "White brick, montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--2.png"
+      },
+      {
+        "alt": "large montigo gas insert ",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--3.png"
+      },
+      {
+        "alt": "Linear montigo gas insert",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--4.png"
+      },
+      {
+        "alt": "Gas brick fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--5.png"
+      }
+    ]
+  },
+  {
+    "title": "Gas Fireplace Installation",
+    "slug": "Gas-Fireplaces",
+    "type": "products",
+    "tileImage": "/assets/images/newTiles/GasFireplaceInstallation.png",
+    "category": "Chimney Services",
+    "tileBullets": [
+      "New Gas Fireplaces",
+      "New Gas Inserts"
+    ]
+  },
+  {
+    "title": "Pellet Stove Repair & Annual Service",
+    "slug": "pellet-stove-repair",
+    "type": "about",
+    "category": "Chimney Services",
+    "tileImage": "/assets/images/newTiles/PelletStoveRepair&Service.png",
+    "tileText": "Pellet Stove not burning right? We can get it working in no time!",
+    "tileBullets": [
+      "Fix Poor burn quality",
+      "Stop ignition issues",
+      "Address safety hazards"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tech working on gas fireplace",
+        "small": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "medium": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png",
+        "big": "/assets/images/gasFirePlaceServiceAndRepair/8x6--1.png"
+      },
+      {
+        "alt": "Black Pellet Stove",
+        "small": "/assets/images/landing/pellet/justPellet.jpg",
+        "medium": "/assets/images/landing/pellet/justPellet.jpg",
+        "big": "/assets/images/landing/pellet/justPellet.jpg"
+      },
+      {
+        "alt": "centered pellet stove",
+        "small": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletcenter.jpg"
+      },
+      {
+        "alt": "pellet stove in a living room",
+        "small": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "medium": "/assets/images/landing/pellet/pelletLiving.jpg",
+        "big": "/assets/images/landing/pellet/pelletLiving.jpg"
+      },
+      {
+        "alt": "pellet stove off centered in a living room",
+        "small": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "medium": "/assets/images/landing/pellet/pelletoffcenter.jpg",
+        "big": "/assets/images/landing/pellet/pelletoffcenter.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Waterproofing Package",
+    "slug": "water-proofing-package",
+    "category": "Chimney Services",
+    "type": "about",
+    "tileImage": "/assets/images/newTiles/Waterproofing.png",
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!",
+    "tileBullets": [
+      "Fixes leaky chimneys",
+      "Prevents future water damage",
+      "Protects from animals and debris"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Mike's Mobile's Waterproofing Package",
+        "small": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "medium": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "big": "/assets/images/waterProofing/newWaterProofingPackage.jpg"
+      },
+      {
+        "alt": "10 Year Warranty, Black Cap, black waterproofing",
+        "small": "/assets/images/waterProofing/landing/10blackcap.png",
+        "medium": "/assets/images/waterProofing/landing/10blackcap.png",
+        "big": "/assets/images/waterProofing/landing/10blackcap.png"
+      },
+      {
+        "alt": "Waterproofing comes with a 10 year No Leak warranty! Black waterproofing black cap",
+        "small": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "big": "/assets/images/waterProofing/landing/blackcapwaterproof.png"
+      },
+      {
+        "alt": "Tan Bricks with Black Waterproofing",
+        "small": "/assets/images/waterProofing/landing/silver.png",
+        "medium": "/assets/images/waterProofing/landing/silver.png",
+        "big": "/assets/images/waterProofing/landing/silver.png"
+      },
+      {
+        "alt": "Before and After Chimney Repairing and Waterproofing",
+        "small": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "medium": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "big": "/assets/images/waterProofing/landing/masonrybanda.png"
+      },
+      {
+        "alt": "White chimney with white waterproofing",
+        "small": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "big": "/assets/images/waterProofing/landing/whitebasewaterproof.png"
+      },
+      {
+        "alt": "Before and After with Waterproofing",
+        "small": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "medium": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "big": "/assets/images/waterProofing/landing/waterproofandblackcap.png"
+      }
+    ]
+  },
+  {
+    "title": "Waterproofing Package",
+    "slug": "theWaterproofingPackage",
+    "type": "about",
+    "tileImage": "/assets/images/newTiles/Waterproofing.png",
+    "tileText": "Protect your chimney from all angles with our 10-year warranty!",
+    "tileBullets": [
+      "Fixes leaky chimneys",
+      "Prevents future water damage",
+      "Protects from animals and debris"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Mike's Mobile's Waterproofing Package",
+        "small": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "medium": "/assets/images/waterProofing/newWaterProofingPackage.jpg",
+        "big": "/assets/images/waterProofing/newWaterProofingPackage.jpg"
+      },
+      {
+        "alt": "10 Year Warranty, Black Cap, black waterproofing",
+        "small": "/assets/images/waterProofing/landing/10blackcap.png",
+        "medium": "/assets/images/waterProofing/landing/10blackcap.png",
+        "big": "/assets/images/waterProofing/landing/10blackcap.png"
+      },
+      {
+        "alt": "Waterproofing comes with a 10 year No Leak warranty! Black waterproofing black cap",
+        "small": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/blackcapwaterproof.png",
+        "big": "/assets/images/waterProofing/landing/blackcapwaterproof.png"
+      },
+      {
+        "alt": "Tan Bricks with Black Waterproofing",
+        "small": "/assets/images/waterProofing/landing/silver.png",
+        "medium": "/assets/images/waterProofing/landing/silver.png",
+        "big": "/assets/images/waterProofing/landing/silver.png"
+      },
+      {
+        "alt": "Before and After Chimney Repairing and Waterproofing",
+        "small": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "medium": "/assets/images/waterProofing/landing/masonrybanda.png",
+        "big": "/assets/images/waterProofing/landing/masonrybanda.png"
+      },
+      {
+        "alt": "White chimney with white waterproofing",
+        "small": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "medium": "/assets/images/waterProofing/landing/whitebasewaterproof.png",
+        "big": "/assets/images/waterProofing/landing/whitebasewaterproof.png"
+      },
+      {
+        "alt": "Before and After with Waterproofing",
+        "small": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "medium": "/assets/images/waterProofing/landing/waterproofandblackcap.png",
+        "big": "/assets/images/waterProofing/landing/waterproofandblackcap.png"
+      }
+    ]
+  },
+  {
     "title": "Chimney Inspections",
     "slug": "chimney-inspections",
     "category": "Chimney Services",
     "type": "services",
     "fullTileImage": "/assets/images/chimneys/inspections/inspections.jpg",
-    "tileImage": "/assets/images/tiles/chimney-inspections.jpg",
+    "tileImage": "/assets/images/newTiles/ChimneyInspection.png",
     "tileText": "Keep your chimney safe and in great shape. Schedule a certified chimney inspection before you burn.",
+    "tileBullets": [
+      "Identify safety concerns",
+      "Prevent future issues",
+      "Inspection levels fit specific needs"
+    ],
     "textList": [
       {
         "title": "Level One Chimney Inspection – FREE with a cleaning",
@@ -3551,95 +4136,50 @@
     "slug": "chimney-cleaning",
     "category": "Chimney Services",
     "type": "services",
-    "fullTileImage": "/assets/images/chimneys/cleaning/chimney_cleaning.jpg",
-    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg",
-    "tileText": "Whether you have a masonry open fireplace, zero-clearance, wood-burning insert, freestanding stove or pellet stove, a chimney cleaning will help keep your family safe and your chimney working smoothly.",
-    "serviceImgCaption": "Have our chimney professionals clean and inspect your chimney.",
-    "textList": [
-      {
-        "title": "Our chimney sweep technicians keep clean work areas.",
-        "description": "A clean sweep of your chimney will remove soot, creosote and blockages from your flue liner, smoke chamber and shelf, firebox and damper. We pride ourselves in “no mess” top notch service by doing a great job with minimal interruption to you and your family. Here at Mike’s Mobile Screen and Chimney Service, we take pride in providing the best possible customer experience so that you can go about your winter without worry when you burn!"
-      },
-      {
-        "title": "Every chimney sweep will include a full Level 1 Inspection report",
-        "description": "We only send fully trained chimney cleaning professionals to your home that will live up to the guidelines of the CSIA (Chimney Safety Institute of America) and NFI (National Fireplace Association). Every chimney sweep from us will include a full Level 1 Inspection report which will inform you of the status of your chimney and fireplace which may be affecting performance and safety."
-      },
-      {
-        "title": "How often should you have your chimney cleaned?",
-        "description": "Both the CSIA (Chimney Safety Institute of America) and the National Fire Protection Association recommend yearly chimney inspections. With our chimney cleaning service, we provide an annual inspection along with the assurance of a clean chimney while you burn. Even if you don’t use your chimney often, it is possible to have debris or animals make your chimney unsafe without you even knowing. Animal nests pose a hazard to any chimney by providing combustible materials towards the roof or inside the chimney itself."
-      }
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "Vacuuming Chimney Cleaning",
-        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg",
-        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning.jpg"
-      },
-      {
-        "alt": "Inside Chimney Cleaning",
-        "small": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg",
-        "big": "/assets/images/chimneys/cleaning/Chimney-Cleaning-Fireplace.jpg"
-      },
-      {
-        "alt": "Brushing Chimney Clean",
-        "small": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
-        "medium": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg",
-        "big": "/assets/images/chimneys/cleaning/Cleaning-Chimney.jpg"
-      }
-    ]
-  },
-  {
-    "title": "Gas Fireplace Repair & Service",
-    "slug": "gas-fireplace-repair-and-service",
-    "category": "Chimney Services",
-    "type": "about",
-    "tileImage": "/assets/images/tiles/gasFireplaceTile.png",
-    "tileText": "Gas Fireplace not working? We can get it working in no time!",
-    "thumbImages": [
-      {
-        "alt": "Marble Gas fireplace",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasMarble.jpg"
-      },
-      {
-        "alt": "Gas fireplace with reflection",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasReflection.jpg"
-      },
-      {
-        "alt": "White Gas fireplace ",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasWhite.jpg"
-      },
-      {
-        "alt": "Gas brick fireplace",
-        "small": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
-        "medium": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg",
-        "big": "/assets/images/gasFirePlaceServiceAndRepair/gasBrick.jpg"
-      }
+    "phone": "(916) 318-9845",
+    "tileImage": "/assets/images/newTiles/ChimneyCleaning.png",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
     ]
   },
   {
     "title": "Chimney Repairs",
     "slug": "chimney-repairs",
     "category": "Chimney Services",
+    "phone": "(916) 318-9845",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
-    "tileImage": "/assets/images/tiles/chimney-repairs.jpg",
-    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!"
+    "tileImage": "/assets/images/newTiles/ChimneyRepair.png",
+    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ]
   },
   {
-    "title": "Chimney Crown Seal",
+    "title": "Chimney Repairs",
+    "slug": "our-chimney-repairs",
+    "phone": "(916) 304-8225",
+    "type": "grid",
+    "fullTileImage": "/assets/images/chimneys/chimney-unsplash.jpg",
+    "tileImage": "/assets/images/newTiles/ChimneyRepair.png",
+    "tileText": "When it comes to chimney repairs, our chimney professionals are your go-to for crown seals, heat damage, masonry repair, chimney liners, refractory panels, chimney de-glazing, and more!",
+    "tileBullets": [
+      "Address and prevent water damage",
+      "Repair heat damage",
+      "Prevent house fires"
+    ]
+  },
+  {
+    "title": "Chimney Crown Coat",
     "slug": "crown-seal",
     "category": "Repair",
     "type": "services",
     "tileImage": "assets/images/chimneys/repairs/crown-seal/crown-seal.jpg",
-    "tileText": "Protect your chimney from water damage. Get a crown seal for your chimney now!",
+    "tileText": "Protect your chimney from water damage. Get a crown Coat for your chimney now!",
     "textList": [
       {
         "title": "A chimney crown seal protects the chimney crown from damage over time.",
@@ -3656,34 +4196,46 @@
     ],
     "recentInstallImages": [
       {
-        "alt": "Vacuuming Chimney Cleaning",
+        "alt": "crown seal done by mikes mobile.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-1.jpg"
       },
       {
-        "alt": "Inside Chimney Cleaning",
+        "alt": "crown seal on uper crown.",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-2.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal zoom in",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-3.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal lower crown",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-4.jpg"
       },
       {
-        "alt": "Brushing Chimney Clean",
+        "alt": "crown seal white chimney",
         "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg",
         "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-5.jpg"
+      },
+      {
+        "alt": "crown seal upper stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-6.jpg"
+      },
+      {
+        "alt": "clean Crown coat square stack",
+        "small": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "medium": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg",
+        "big": "/assets/images/chimneys/repairs/crown-seal/Crown-Seal-7.jpg"
       }
     ]
   },
@@ -3932,29 +4484,124 @@
     "category": "Chimney Services",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/fireplace-screen.jpg",
-    "tileImage": "/assets/images/tiles/chimney-accessories.jpg",
-    "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!"
+    "tileImage": "/assets/images/newTiles/ChimneyAccessory.png",
+    "tileText": "Is your fireplace too plain or not quite working right? Mike’s Mobile offers a wide range of chimney accessories. From caps to keep out rain to grates to help wood more efficiently, we have it all!",
+    "tileBullets": [
+      "Reduce mess from burning",
+      "Protect chimney from water damage",
+      "Beautify home's fireplace",
+      "Prevent house fires"
+    ]
   },
   {
-    "title": "Chimney Caps and Spark Arrestor",
-    "slug": "chimney-caps-and-spark-arrestor",
-    "category": "Accessories",
-    "type": "services",
-    "tileImage": "/assets/images/chimneys/accessories/chimney-cap/chimney-cap.jpg",
+    "title": "Chimney Caps",
+    "slug": "chimney-caps",
+    "category": "Chimney Services",
+    "type": "products",
+    "tileImage": "/assets/images/newTiles/ChimneyCap.png",
     "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
+    "tileBullets": [
+      "Prevent water damage",
+      "Protect from animals and debris",
+      "Keep sparks in",
+      "Customizable colors"
+    ],
     "serviceImgCaption": "Keep animals and leaves out of your chimney.",
-    "textList": [
+    "thumbImages": [
       {
-        "title": "Reasons EVERY chimney needs a cap",
-        "description": "Rain Protection – water causes the greatest damage to your chimney of any of the elements. It soaks into the porous bricks, eats away at the mortar, hastens the destruction of the chimney liner, and destroys the chimney crown. A chimney cap does a great job of protecting your chimney from water damage."
+        "alt": "comparison between flue cap, and a chimney cap",
+        "small": "/assets/images/chimneyCaps/comparison.png",
+        "medium": "/assets/images/chimneyCaps/comparison.png",
+        "big": "/assets/images/chimneyCaps/comparison.png"
       },
       {
-        "title": "Animal Protection",
-        "description": "Animal Protection – one of the great sources of danger to homeowners is the threat of disease from animals like raccoons, squirrels, birds, and rodents that make their home in their chimneys. A well-made chimney cap will keep those animals out of your home forever. Sturdy mesh, a strong lid and one-piece construction keep even the most determined critters at bay."
+        "alt": "metallic silver chimney cap",
+        "small": "/assets/images/chimneys/caps/metallicsilver.jpg",
+        "medium": "/assets/images/chimneys/caps/metallicsilver.jpg",
+        "big": "/assets/images/chimneys/caps/metallicsilver.jpg"
       },
       {
-        "title": "Spark Protection",
-        "description": "Spark Protection – the mesh screen on our caps protects your home from sparks emitted from your chimney. This means less danger of a fire caused by stray sparks from your fireplace or woodstove."
+        "alt": "dark bronze chimney cap",
+        "small": "/assets/images/chimneys/caps/darkbronze.jpg",
+        "medium": "/assets/images/chimneys/caps/darkbronze.jpg",
+        "big": "/assets/images/chimneys/caps/darkbronze.jpg"
+      },
+      {
+        "alt": "matte black chimney cap",
+        "small": "/assets/images/chimneys/caps/matteblack.jpg",
+        "medium": "/assets/images/chimneys/caps/matteblack.jpg",
+        "big": "/assets/images/chimneys/caps/matteblack.jpg"
+      },
+      {
+        "alt": "Saddle Tan chimney cap",
+        "small": "/assets/images/chimneys/caps/saddletan.png",
+        "medium": "/assets/images/chimneys/caps/saddletan.png",
+        "big": "/assets/images/chimneys/caps/saddletan.png"
+      },
+      {
+        "alt": "Parchment chimney cap",
+        "small": "/assets/images/chimneys/caps/parchment.jpg",
+        "medium": "/assets/images/chimneys/caps/parchment.jpg",
+        "big": "/assets/images/chimneys/caps/parchment.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Chimney Caps",
+    "slug": "chimney-caps",
+    "category": "Accessories",
+    "type": "products",
+    "tileImage": "/assets/images/chimneyCaps/chimneyCapTile.png",
+    "tileText": "A chimney cap does a great job of protecting your chimney from water damage!",
+    "tileBullets": [
+      "Prevent water damage",
+      "Protect from animals and debris",
+      "Keep sparks in",
+      "Customizable colors"
+    ],
+    "serviceImgCaption": "Keep animals and leaves out of your chimney.",
+    "thumbImages": [
+      {
+        "alt": "comparison between flue cap, and a chimney cap",
+        "small": "/assets/images/chimneyCaps/comparison.png",
+        "medium": "/assets/images/chimneyCaps/comparison.png",
+        "big": "/assets/images/chimneyCaps/comparison.png"
+      },
+      {
+        "alt": "metallic silver chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilverPalm.png",
+        "big": "/assets/images/chimneyCaps/metallicSilverPalm.png"
+      },
+      {
+        "alt": "dark bronze chimney cap",
+        "small": "/assets/images/chimneyCaps/MatteBlack.png",
+        "medium": "/assets/images/chimneyCaps/MatteBlack.png",
+        "big": "/assets/images/chimneyCaps/MatteBlack.png"
+      },
+      {
+        "alt": "matte black chimney cap",
+        "small": "/assets/images/chimneyCaps/silverBig.png",
+        "medium": "/assets/images/chimneyCaps/silverBig.png",
+        "big": "/assets/images/chimneyCaps/silverBig.png"
+      },
+      {
+        "alt": "Saddle Tan chimney cap",
+        "small": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "medium": "/assets/images/chimneyCaps/metallicSilver2.png",
+        "big": "/assets/images/chimneyCaps/metallicSilver2.png"
+      },
+      {
+        "alt": "Parchment chimney cap",
+        "small": "/assets/images/chimneyCaps/silverMason.png",
+        "medium": "/assets/images/chimneyCaps/silverMason.png",
+        "big": "/assets/images/chimneyCaps/silverMason.png"
+      },
+      {
+        "alt": "Champagne chimney cap",
+        "small": "/assets/images/chimneyCaps/darkBronze.png",
+        "medium": "/assets/images/chimneyCaps/darkBronze.png",
+        "big": "/assets/images/chimneyCaps/darkBronze.png"
       }
     ]
   },
@@ -4060,8 +4707,14 @@
     "category": "Chimney Services",
     "type": "grid",
     "fullTileImage": "/assets/images/chimneys/Masonry-services.jpg",
-    "tileImage": "/assets/images/tiles/masonry-services.jpg",
-    "tileText": "Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes."
+    "tileImage": "/assets/images/newTiles/Masonry.png",
+    "tileText": "Masonry is a very popular material that gives home owners and builders flexibility. It is beautiful, versatile, resistant to fires, and earthquakes.",
+    "tileBullets": [
+      "Enhance home's appearance",
+      "Repair damaged areas",
+      "Increase home's safety",
+      "Prevent water damage"
+    ]
   },
   {
     "title": "Brick/Block/Stone Veneer",
@@ -4197,8 +4850,12 @@
     "category": "Chimney Services",
     "type": "services",
     "fullTileImage": "/assets/images/home-improvement/dryer-vent.jpg",
-    "tileImage": "/assets/images/tiles/dryer-vent.jpg",
+    "tileImage": "/assets/images/newTiles/DryerVent.png",
     "tileText": "Have your dryer vent system cleaned and inspected yearly by a dryer vent cleaning professional.",
+    "tileBullets": [
+      "Prevent dryer fires",
+      "Reduce home energy costs"
+    ],
     "textList": [
       {
         "title": "Why you should have your vent cleaned",
@@ -4247,8 +4904,15 @@
       }
     ],
     "fullTileImage": "/assets/images/security/viewguard/main-display/Viewguard-Main.jpg",
-    "tileImage": "/assets/images/tiles/viewguard-security-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/Viewguard.png",
     "tileText": "Your security screen door will be the first point of protection for keeping your home safe and secure.",
+    "tileBullets": [
+      "Premium home security",
+      "Fits any swinging door",
+      "Screen will not rust",
+      "Simplistic design",
+      "Customizable colors"
+    ],
     "thumbImages": [
       {
         "alt": "red-viewguard-security-door",
@@ -4281,182 +4945,156 @@
         "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
       }
     ],
-    "details": [
+    "colorSet": [
+      "stdColors",
+      "slidingSecurityDoorColors"
+    ]
+  },
+  {
+    "title": "Viewguard Security Screen Doors",
+    "slug": "viewguard-security-doors-central",
+    "img": "/assets/images/newTiles/Viewguard.png",
+    "subcategory": "Door",
+    "type": "products",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://mikesmobile.com/products/viewguard-security-doors",
+      "priceCurrency": "USD",
+      "price": "1956.55",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Mike's Mobile"
+      }
+    },
+    "textList": [
       {
-        "title": "Product Overview",
-        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Viewguard screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Viewguard™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, they have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+        "title": "How safe are security screen doors?",
+        "description": "Security screen doors add an additional layer of protection to one of your home’s most vulnerable points of entry and serve as a deterrent for any unwanted guests. The Viewguard, however, is head and shoulders above the jail-bar security doors of the past. With Stainless steel woven mesh, a thick aluminum frame, and a heavy-duty gear hinge, it's no wonder that tests rate the Viewguard higher in every way than a traditional steel security door."
       },
       {
-        "title": "Technical Specs",
-        "description": "STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.<br/><br/>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.<br/><br/>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.<br/><br/>MEASURING GUIDE: Click here<br/><br/>FINISHES: Bronze Anodized, White Paint. Additional color choices are listed below. Note: The stainless steel security mesh can NOT be painted. Call for pricing.<br/><br/>SECURITY DOOR SPECIFICATION:<br/><br/><p class='px-2'>Door Members: Tubular door stile shall be extruded aluminum, and exposed face width shall be at least 4 5/8in. x 1 3/8in. thick with 0.093 nominal walls. Tubular door surround shall be extruded aluminum 1 7/8in. x 1 9/16 with 0.093 nominal walls. The bottom expander expose face width shall be at least 1 3/4in. x 1 1/2in. thick with 0.060 nominal wall thickness.<br/><br/><p class='px-2'>Hardware: The optional heavy duty pneumatic door closer shall have a 1 1/2in. tube diameter and 12 1/8in. between mounting holes.</p>"
+        "title": "Will a security screen door change the look of my home?",
+        "description": "Gone are the days of having bars on your doors and windows. The Viewguard’s sleek design, clear view, optimal air flow, and multiple color options will help enhance your home’s curb appeal."
       },
       {
-        "title": "Options",
-        "description": "<li>Pneumatic Door Closure: Heavy duty type with 1-1/2in. tube and stop</li><li>Custom Bore spacing: Doors are prepped for a 2-1/8in. lock set hole size to accept a Standard handle and lock set (sold separately). We offer a variety of door handles and dead bolts. Custom bore spacing is available to fit a wider range of handle and lock sets.</li><li>French Set: Complete with locking pins on fixed door. Bores on fixed door for “dummy handle set” are available.</li><li>Threshold Extender: Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.</li><li>Colors (See below)</li><li>Lockset (not included)</li>"
+        "title": "Why choose the Viewguard for my family?",
+        "description": "The Viewguard’s screen is top of the line high tensile strength stainless steel, woven into a fine mesh, giving it the classic, simple look of a screen door- with all of the benefits of a heavy-duty security product. With this door you can stop sacrificing style for security!"
+      }
+    ],
+    "thumbImages": [
+      {
+        "alt": "red-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Related Products",
-        "links": {
-          "TRU-View Security Screen Doors": "/products/tru-view-security-doors",
-          "Titan Security Screen Doors": "/grid/titan-security-doors",
-          "Sliding Security Doors": "/products/sliding-security-doors"
-        }
+        "alt": "black-double-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Warranty",
-        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective."
+        "alt": "bronze-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "purple-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
+      },
+      {
+        "alt": "Home Sweet Home Viewguard secutiry door",
+        "small": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "medium": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
       }
     ],
     "colorSet": [
       "stdColors",
       "slidingSecurityDoorColors"
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "white-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/White-Viewguard-Security-Door.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-2.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Black-Viewguard-Security-Door-3.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-2.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-3.jpg"
-      },
-      {
-        "alt": "bronze-viewguard-security-door",
-        "small": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg",
-        "medium": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg",
-        "big": "/assets/images/security/viewguard/recent-installs/Bronze-Viewguard-Security-Door-4.jpg"
-      }
     ]
   },
   {
-    "title": "Garage Screen Doors",
-    "slug": "lifestyle-garage-screen",
-    "category": "Door and Window Screens",
+    "title": "Viewguard Security Screen Doors",
+    "slug": "viewguards",
     "subcategory": "Door",
     "type": "products",
-    "bullets": [
-      "Fully retractable garage screen door that works with your existing garage door",
-      "Access door allows for easy entry and exit",
-      "Installed and operates entirely from the interior of the garage",
-      "Completely invisible when garage door is closed"
-    ],
-    "fullTileImage": "/assets/images/screens/lifestyle/product_1.jpg",
-    "tileImage": "/assets/images/tiles/garage-screen-doors.jpg",
-    "tileText": "The Lifestyle Garage Screen can turn your garage into an airy, pest-free space on demand!",
-    "thumbImages": [
+    "offers": {
+      "@type": "Offer",
+      "url": "https://mikesmobile.com/products/viewguards",
+      "priceCurrency": "USD",
+      "price": "1956.55",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Mike's Mobile"
+      }
+    },
+    "textList": [
       {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/product_1.jpg",
-        "medium": "/assets/images/screens/lifestyle/product_1.jpg",
-        "big": "/assets/images/screens/lifestyle/product_1.jpg"
+        "title": "How safe are security screen doors?",
+        "description": "Security screen doors add an additional layer of protection to one of your home’s most vulnerable points of entry and serve as a deterrent for any unwanted guests. The Viewguard, however, is head and shoulders above the jail-bar security doors of the past. With Stainless steel woven mesh, a thick aluminum frame, and a heavy-duty gear hinge, it's no wonder that tests rate the Viewguard higher in every way than a traditional steel security door."
       },
       {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/product_2.jpg",
-        "medium": "/assets/images/screens/lifestyle/product_2.jpg",
-        "big": "/assets/images/screens/lifestyle/product_2.jpg"
+        "title": "Will a security screen door change the look of my home?",
+        "description": "Gone are the days of having bars on your doors and windows. The Viewguard’s sleek design, clear view, optimal air flow, and multiple color options will help enhance your home’s curb appeal."
       },
       {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/product_3.jpg",
-        "medium": "/assets/images/screens/lifestyle/product_3.jpg",
-        "big": "/assets/images/screens/lifestyle/product_3.jpg"
+        "title": "Why choose Viewguard for my family?",
+        "description": "The Viewguard’s screen is top of the line high tensile strength stainless steel, woven into a fine mesh, giving it the classic, simple look of a screen door- with all of the benefits of a heavy-duty security product. With this door you can stop sacrificing style for security!"
       }
     ],
-    "details": [
+    "fullTileImage": "/assets/images/security/viewguard/main-display/Viewguard-Main.jpg",
+    "tileImage": "/assets/images/tiles/viewguard-security-screen-doors.jpg",
+    "tileText": "Your security screen door will be the first point of protection for keeping your home safe and secure.",
+    "tileBullets": [
+      "Premium home security",
+      "Fits any swinging door",
+      "Screen will not rust",
+      "Simplistic design",
+      "Customizable colors"
+    ],
+    "thumbImages": [
       {
-        "title": "Product Overview",
-        "description": "<p>The Lifestyle garage door screen is a fully retractable garage screen door that works with your existing garage door. The Lifestyle features an industry first, fully retractable passage door for ease of entry and exit without having to retract the entire system. The Lifestyle garage screen is fully spring loaded, making opening and closing quick and easy.</p><p>Now you can go from garage to a cool, bright, pest-free space in seconds. When you're done enjoying the great outdoors, simply retract your Lifestyle garage screen system and close your garage door as usual. It's just that easy!</p>"
+        "alt": "red-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Red-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Technical Specs",
-        "description": "<li>Sturdy but lightweight aluminum frame</li><li>Fiberglass or PVC Coated Polyester screens available</li><li>Fits garages between 7' to 10' tall and 6' to 18' wide</li>"
+        "alt": "black-double-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-French-Set-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Options",
-        "description": "<li>30 Standard Sizes and Custom Sizes Available</li><li>3 Frame Colors</li><li>2 Screen Colors: White (PVC Coated Polyester), or Black (PVC Coated Polyester)</li>"
+        "alt": "bronze-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Related Products",
-        "links": {
-          "Retractable Screen Doors": "/products/retractable-screen-doors",
-          "Door and Window Screens": "/about/door-and-window-screens",
-          "Screen Doors": "/about/door-screens",
-          "Window Screens": "/about/window-screens",
-          "Swinging Screen Doors": "/grid/swinging-screen-doors",
-          "Security Door and Windows": "/about/security-doors-and-windows",
-          "Security Door": "/about/security-doors",
-          "Security Window Screens": "/about/security-windows"
-        }
+        "alt": "purple-viewguard-security-door",
+        "small": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "medium": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg",
+        "big": "/assets/images/security/viewguard/main-display/Purple-Viewguard-Security-Door.jpg"
       },
       {
-        "title": "Warranty",
-        "description": "<strong>Limited Lifetime Warranty<br/><br/></strong><p>All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase.</p>"
+        "alt": "Home Sweet Home Viewguard security door",
+        "small": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "medium": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png",
+        "big": "/assets/images/security/viewguard/main-display/homeSweetHomeWideBoi.png"
       }
     ],
     "colorSet": [
-      "lifestyleColors",
-      "lifestyleScreenColors"
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/recent_1.png",
-        "medium": "/assets/images/screens/lifestyle/recent_1.png",
-        "big": "/assets/images/screens/lifestyle/recent_1.png"
-      },
-      {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/recent_2.jpg",
-        "medium": "/assets/images/screens/lifestyle/recent_2.jpg",
-        "big": "/assets/images/screens/lifestyle/recent_2.jpg"
-      },
-      {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/recent_3.jpg",
-        "medium": "/assets/images/screens/lifestyle/recent_3.jpg",
-        "big": "/assets/images/screens/lifestyle/recent_3.jpg"
-      },
-      {
-        "alt": "Lifestyle Garage Screen",
-        "small": "/assets/images/screens/lifestyle/recent_4.jpg",
-        "medium": "/assets/images/screens/lifestyle/recent_4.jpg",
-        "big": "/assets/images/screens/lifestyle/recent_4.jpg"
-      }
+      "stdColors",
+      "slidingSecurityDoorColors"
     ]
   },
   {
@@ -4471,8 +5109,133 @@
       "Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."
     ],
     "fullTileImage": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
-    "tileImage": "/assets/images/tiles/truview-security-screen-doors.jpg",
+    "tileImage": "/assets/images/newTiles/TruView.png",
     "tileText": "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
+    "tileBullets": [
+      "Increased home security",
+      "Fits any swinging door",
+      "Budget-friendly option",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Tru View Security White Triple Door",
+        "small": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg",
+        "big": "/assets/images/security/tru-view/main-display/White-Triple-Tru-View-Security-Doors.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Beig Door",
+        "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Tru View Security Green Door",
+        "small": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Green-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Black Door",
+        "small": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/main-display/Black-Tru-View-Security-Door.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "Tru-View Security door is an amazing solution for front doors and back doors!<br/><br/>REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Tru-View security screen doors incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, Tru-View™ security screen doors are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your door in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our screen doors with anything else on the market today, and we think you'll agree, Tru-View™ has a lock on security and style."
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>STANDARD SIZES: 36in. x 80in. - 32in. x 80in. - 30in. x 80in.</li><li>SCREENING: 316 Series Stainless Steel, .032 wire diameter woven in a 12 x 12 mesh & epoxy coated for additional corrosion protection.</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li>"
+      },
+      {
+        "title": "Options",
+        "description": "FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, pneumatic closer, wind safety chain and installation screws."
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Viewguard Security Screen Doors": "/products/viewguard-security-doors",
+          "Titan Security Screen Doors": "/grid/titan-security-doors",
+          "Sliding Security Screen Doors": "/products/sliding-security-doors"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective."
+      }
+    ],
+    "recentInstallImages": [
+      {
+        "alt": "Tru View Security Double White Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Double-White-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Beige Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Beige-Viewguard-Security-Door-.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Black Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Black-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Single Brown Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Door Brown colored",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-Brown-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Tru View Security Single White Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door.jpg"
+      },
+      {
+        "alt": "Tru View Security Door White",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Single Tru View Security Door",
+        "small": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
+        "medium": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg",
+        "big": "/assets/images/security/tru-view/recent-installs/Single-White-Tru-View-Security-Door-3.jpg"
+      }
+    ],
+    "colorSet": [
+      "stdColors",
+      "slidingSecurityDoorColors"
+    ]
+  },
+  {
+    "title": "TRU-View Security Screen Doors",
+    "slug": "tru-view-security-doors-central",
+    "img": "/assets/images/newTiles/TruView.png",
+    "subcategory": "Door",
+    "type": "products",
+    "bullets": [
+      "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home.",
+      "Finally you can experience security without resorting to bars or unsightly steel grills.",
+      "Stainless steel marine grade mesh screen optimizes airflow, and maximizes security."
+    ],
     "thumbImages": [
       {
         "alt": "Tru View Security White Triple Door",
@@ -4592,8 +5355,15 @@
       "Available in the Stainless Steel Mesh style (Similar to Viewguard) in Single or Double door options."
     ],
     "fullTileImage": "/assets/images/security/sliding/Sliding-Security-Door-Main.jpg",
-    "tileImage": "/assets/images/tiles/sliding-security-doors.jpg",
+    "tileImage": "/assets/images/newTiles/SlidingSecurityDoor.png",
     "tileText": "Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets.",
+    "tileBullets": [
+      "Increased home security",
+      "For patio access doors",
+      "Budget-freindly option",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "thumbImages": [
       {
         "alt": "Stainless Sliding Security Single Door Beige",
@@ -4750,113 +5520,174 @@
     ]
   },
   {
-    "title": " Quick Escape Security Window Screens",
-    "slug": "quick-escape-security-windows",
-    "category": "Security Screen Doors and Windows",
-    "subcategory": "Window",
+    "title": "Sliding Security Doors",
+    "slug": "sliding-security-doors-central",
+    "img": "/assets/images/newTiles/SlidingSecurityDoor.png",
+    "subcategory": "Door",
     "type": "products",
     "bullets": [
-      "Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
-      "These screens are designed to be an inside mount or surface mount system.",
-      "Our windows features a certified, internationally patented framing system and passes international testing for knife shear, dynamic impact, and salt spray.",
-      "Our screens block out an average of 60% of the sun's harmful ultraviolet rays.",
-      "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
-      "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh called 'meshtec'.",
-      "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
+      "Let the cool breeze in while keeping undesirable elements out with TRU-Frame Sliding Security Screen Doors.",
+      "Constructed to match the look and performance of our hinged door product line, our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!",
+      "Available in the Stainless Steel Mesh style (Similar to Viewguard) in Single or Double door options."
     ],
-    "fullTileImage": "/assets/images/security/guarda-escape/CRL-Guarda-Quick-Escape-Main.jpg",
-    "tileImage": "/assets/images/tiles/crl-guarda-quick-escape.jpg",
-    "tileText": " Quick Escape Security Window Screens have an easy release push mechanism that also acts as a secure, temper resistant device locking the screen closed for peace of mind.",
     "thumbImages": [
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
-        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
-        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
+        "alt": "Stainless Sliding Security Single Door Beige",
+        "small": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
-        "medium": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg",
-        "big": "/assets/images/security/guarda-escape/main-display/Bronze-Guarda-Quick-Escape-Security-Window.jpg"
+        "alt": "Stainless Sliding Security Bronze Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
-        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg",
-        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Window.jpg"
+        "alt": "Bronze Sliding Security Single Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
-        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg",
-        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows-2.jpg"
+        "alt": "White Sliding Security Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Stainless Sliding Security White Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      },
+      {
+        "alt": "Sliding Security Double White Door Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
+      },
+      {
+        "alt": "White Stainless Sliding Security Double Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
+      },
+      {
+        "alt": "Sliding Security Door White Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Single White Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "Sliding Security Door Single",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
       }
     ],
     "details": [
       {
         "title": "Product Overview",
-        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>Security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+        "description": "A sliding security door replaces your existing patio screen door. These doors come pre-assembled and tamper resistant. Enjoy the cool night air while sleeping in peace, quiet and safety. These sliding security doors are also pet resistant! No more ripped screens from pets."
       },
       {
         "title": "Technical Specs",
-        "description": "<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>"
+        "description": "<li>Ventilation: Can be locked securely, allowing you to safely and confidently leave your primary door open day or night.</li><li>Visibility: Allows viewing of the outdoors and visitors, and eliminates the confined feeling other security products present.</li><li>Rust Free: Heavy gauge extruded aluminum frame resists rust for lasting durability.</li><li>Secure: The 2-point Locking Hardware and Integrated C enter Retention System mean our sliders can take a beating!</li><li>Pet Proof: The Stainless Steel Mesh option comes pet proof</li>"
       },
       {
         "title": "Options",
-        "description": "<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>"
+        "description": "<li>Add Solar Screen</li><li>Stainless Steel Grill</li>"
       },
       {
         "title": "Related Products",
         "links": {
-          "Fixed Security Window Screens": "/products/fixed-security-windows",
-          "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
+          "TRU-View Security Screen Doors": "/products/tru-view-security-doors",
+          "Titan Security Screen Doors": "/grid/titan-security-doors",
+          "Viewguard Security Screen Doors": "/products/viewguard-security-doors"
         }
       },
       {
         "title": "Warranty",
-        "description": "<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
+        "description": "All warranties cover materials, manufacturing defects and hardware for the periods listed below but will not cover normal wear and tear of the product. Screen mesh is not covered beyond the initial installation of products. Defective items must be reported within 5 days of receipt for validation. Improper installation of the product will not be covered under the warranties listed. Warranty periods begin from the date of purchase to our dealers.<br/><br/>Contact the factory for details on specific product lines listed below and for any warranty claim.<br/><br/>Maximum liability for R. Lang Company will be limited to replacement of product only.<br/><br/>5 Year Limited Warranty<br/><br/><br/>Security Doors<br/>WARRANTY SERVICE REQUESTS<br/><br/>Warranty periods begin from date of purchase from the R. Lang Company.<br/>All warranty service requests must be submitted by the original dealer/customer for validation purposes. You must provide an original invoice number for verification.<br/>Contact our Customer Service Department at (800) 677-5264 for the Service Request form to be emailed or faxed to you.<br/>R. Lang Company will not accept warranty requests directly from homeowners.<br/>Under no circumstance will R. Lang Company be responsible for repair bills submitted by homeowners or dealers/customers without prior approval from the Sales or Warranty Manager.<br/>Warranty requests received outside of our California service area will be processed by our Warranty Manager for fair resolution. Replacement parts will be sent as necessary to correct a problem or defect. Insulated glass failures/defects can be replaced locally but will require pre-authorization from the Sales Warranty Manager for fair credit amount reimbursement.<br/>Any dealer/customer rework or screen replacement must be pre-approved. We recommend that the product be returned for correction in our facility.<br/>R. Lang Company will cover cost for authorized replacements for material only. Dealer/customer will be responsible for any labor incurred for their shop or field expenses.<br/><br/>GENERAL WARRANTY POLICY<br/>R. Lang Company will repair or provide replacement product, at it’s election, free of charge, any product proven to have a manufacturing defect during the applicable warranty period up to a maximum liability which shall be equal to the cost of replacement of the defective product. R. Lang Company shall in no event be liable for labor charges or other expenses whatsoever in connection with removal or installation of either the original or replacement product. However, in lieu of replacement of repair, R. Lang Company, at it’s sole discretion, reserves the right to refund up to the amount paid by the original purchaser of the product but not including the installation cost. This warranty is intended to cover individual homeowners and does not apply to products installed in commercial construction. In the event of repair or replacement pursuant to terms of this warranty, the original warranty shall apply to the repaired or replacement product and will extend for the balance of the warranty period in effect at the time the product proved defective."
       }
     ],
     "recentInstallImages": [
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
-        "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg",
-        "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window.jpg"
+        "alt": "Sliding Security Door Beige Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Beige-Single-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
-        "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg",
-        "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-2.jpg"
+        "alt": "Bronze Double Stainless Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Double-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
-        "medium": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg",
-        "big": "/assets/images/security/guarda-escape/recent-installs/Bronze-Quick-Escape-Security-Window-3.jpg"
+        "alt": "Sliding Security Door Bronze Single Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/Bronze-Single-Stainless-Steel-Sliding-Security-Door.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
-        "medium": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg",
-        "big": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Window.jpg"
+        "alt": "Sliding Security Door Stainless White Double",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-2.jpg"
       },
       {
-        "alt": "Quick Escape Security Window Screens",
-        "small": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
-        "medium": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg",
-        "big": "/assets/images/security/guarda-escape/recent-installs/White-Quick-Escape-Security-Windows.jpg"
+        "alt": "Sliding Security Door White Double Stainless",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-3.jpg"
+      },
+      {
+        "alt": "Sliding Security White Double Stainless Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-4.jpg"
+      },
+      {
+        "alt": "Sliding White Double Stainless Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Double-Stainless-Steel-Sliding-Security-Door-5.jpg"
+      },
+      {
+        "alt": "White Double Stainless Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door.jpg"
+      },
+      {
+        "alt": "Sliding Security Door White Single",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-2.jpg"
+      },
+      {
+        "alt": "White Single Sliding Security Door",
+        "small": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "medium": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg",
+        "big": "/assets/images/security/sliding/recent-installs/White-Single-Stainless-Steel-Sliding-Security-Door-3.jpg"
       }
     ],
     "colorSet": [
-      "securityWindowsColors"
+      "stdColors",
+      "slidingSecurityDoorColors"
     ]
   },
   {
-    "title": "Fixed Security Window Screens",
-    "slug": "fixed-security-windows",
+    "title": "Security Window Screens",
+    "slug": "security-windows",
     "category": "Security Screen Doors and Windows",
     "subcategory": "Window",
     "type": "products",
@@ -4870,8 +5701,14 @@
       "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
     ],
     "fullTileImage": "/assets/images/security/guarda-fixed/CRL-Guarda-Fixed-Main.jpg",
-    "tileImage": "/assets/images/tiles/crl-guarda-fixed.jpg",
+    "tileImage": "/assets/images/newTiles/SecurityWindowScreens.png",
     "tileText": "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+    "tileBullets": [
+      "Window security without bars",
+      "Fits varying window shapes",
+      "Screen will not rust",
+      "Multiple color options"
+    ],
     "colorSet": [
       "securityWindowsColors"
     ],
@@ -4883,16 +5720,98 @@
         "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
       },
       {
-        "alt": "Fixed Security Window Screens",
-        "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
-        "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg",
-        "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows-2.jpg"
+        "alt": "Quick Escape Security Window Screens",
+        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
       },
       {
         "alt": "Fixed Security Window Screens",
-        "small": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
-        "medium": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg",
-        "big": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows.jpg"
+        "small": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/White-Guarda-Fixed-Security-Windows-2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-meshtech.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security-window1.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security2.jpg"
+      },
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/titan-security3.jpg"
+      }
+    ],
+    "details": [
+      {
+        "title": "Product Overview",
+        "description": "REST EASY<br/>Now you can let the cool breeze in and keep intruders out without compromising the appearance of your home. Finally you can experience total security without resorting to bars or unsightly steel grills.<br/><br/>HIGHER SECURITY<br/>security window screens incorporate the latest advances in high tensile strength materials and construction.<br/><br/>LOWER COST<br/>When compared to alternative solutions for security, our security window screens are built to last and are corrosion resistant.<br/><br/>GREATER AIRFLOW<br/>Stainless steel marine grade mesh screen optimizes airflow, and maximizes security. Strength and beauty in perfect harmony.<br/><br/>SAVE ENERGY - FEEL SAFE<br/>Opening your window in the evening reduces air conditioning costs in hot weather.<br/><br/>SUPERIOR STYLE<br/>Compare our security window screens with anything else on the market today, and we think you'll agree, they have a lock on security and style.<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. Contact the factory for more details."
+      },
+      {
+        "title": "Technical Specs",
+        "description": "<li>SCREENING: Certified Meshtec</li><li>HARDWARE: Hardware shall be aluminum, stainless steel, or other non-corrosive material compatible with aluminum.</li><li>FINISHES: Traffic Black, brown, sahara brown metallic, sahara gray metallic, light gray, paper beige, white, silver metallic, and bronze. Note: The stainless steel security mesh can NOT be painted. Call for pricing.</li>"
+      },
+      {
+        "title": "Options",
+        "description": "<li>Custom Sizes</li><li>9 Finish Colors</li><li>Two Different Mounting Options</li>"
+      },
+      {
+        "title": "Related Products",
+        "links": {
+          "Quick Escape Security Window Screens": "/products/quick-escape-security-windows",
+          "TRU-View Security Screen Doors": "/products/tru-view-security-doors"
+        }
+      },
+      {
+        "title": "Warranty",
+        "description": "<p>Hardware Warranty* for a period of one year from the date of original installation on all hardware (hinges, door closers, locks, and rollers)<br/>Powder Coating Color Warranty* for a period of 5 years from the date of original installation on mesh and sash panels</p>"
+      }
+    ]
+  },
+  {
+    "title": "Security Window Screens",
+    "slug": "security-windows-central",
+    "img": "/assets/images/newTiles/SecurityWindowScreens.png",
+    "subcategory": "Window",
+    "type": "products",
+    "bullets": [
+      "Security Fixed Window Screens are an ideal solution to cover and protect non-opening windows.",
+      "Our windows can be installed on the interior and exterior and feature a concealed fastening system and blends with any architecture.",
+      "Applications include: Schools, day care centers, psychiatric and detox centers, government buildings, military installations, adult care facilities and residential houses.",
+      "Our window screens offer flexibility for mounting on new and existing structures.",
+      "Your security window screens will be one of the first points of protection for keeping your home safe and secure.",
+      "Our security window screens looks like a normal window screen but is actually high tensile strength stainless steel woven into a fine mesh called 'meshtec'.",
+      "It provides secure protection and gives you a clear view of the outdoors without compromising the style or appearance of your home."
+    ],
+    "colorSet": [
+      "securityWindowsColors"
+    ],
+    "thumbImages": [
+      {
+        "alt": "Fixed Security Window Screens",
+        "small": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+        "medium": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg",
+        "big": "/assets/images/security/guarda-fixed/main-display/Black-Guarda-Fixed-Security-Windows.jpg"
+      },
+      {
+        "alt": "Quick Escape Security Window Screens",
+        "small": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "medium": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg",
+        "big": "/assets/images/security/guarda-escape/main-display/White-Guarda-Quick-Escape-Security-Windows.jpg"
       },
       {
         "alt": "Fixed Security Window Screens",
@@ -4960,23 +5879,108 @@
   {
     "title": "Screen Doors",
     "slug": "door-screens",
-    "type": "landing"
+    "type": "landing",
+    "thumbImages": [
+      {
+        "alt": "Living room fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim1.png"
+      },
+      {
+        "alt": "Before and After of a fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim2.png"
+      },
+      {
+        "alt": "Before and After cleaning, removal, and painting",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim3.png"
+      },
+      {
+        "alt": "Before and after waterproofing and outside mounting cap",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim4.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim4.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim4.png"
+      },
+      {
+        "alt": "Before and After chimney repair and cap",
+        "small": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
+      }
+    ]
+  },
+  {
+    "title": "Screen Door Services",
+    "slug": "our-screen-doors",
+    "phone": "(916) 243-6542",
+    "thumbImages": [
+      {
+        "alt": "Living room fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim1.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim1.png"
+      },
+      {
+        "alt": "Before and After of a fireplace",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim2.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim2.png"
+      },
+      {
+        "alt": "Before and After cleaning, removal, and painting",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "medium": "/assets/images/landing/ourchimneyservices/ourchim3.png",
+        "big": "/assets/images/landing/ourchimneyservices/ourchim3.png"
+      },
+      {
+        "alt": "Before and after waterproofing and outside mounting cap",
+        "small": "/assets/images/landing/ourchimneyservices/ourchim4.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim4.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim4.png"
+      },
+      {
+        "alt": "Before and After chimney repair and cap",
+        "small": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "medium": "assets/images/landing/ourchimneyservices/ourchim5.png",
+        "big": "assets/images/landing/ourchimneyservices/ourchim5.png"
+      }
+    ]
   },
   {
     "title": "Window Screens",
     "slug": "window-screens",
-    "type": "landing"
+    "type": "landing",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "Our Chimney Services",
+    "slug": "fireplace-services",
+    "phone": "(916) 318-9845"
   },
   {
     "title": "Chimney Services",
     "slug": "chimney-services",
+    "phone": "(916) 318-9845",
     "type": "landing"
   },
   {
-    "title": "security-screen-doors-email",
-    "slug": "security-screen-doors-email",
-    "type": "landing",
-    "tileImage": "/assets/images/tiles/chimney_cleaning.jpg"
+    "title": "Our Chimney Services",
+    "slug": "our-chimney-services",
+    "phone": "(916) 931-1772"
+  },
+  {
+    "title": "Our Chimney Services",
+    "slug": "our-annual-cleaning-and-inspection",
+    "phone": "(916) 915-8676"
+  },
+  {
+    "title": "Our Chimney Services",
+    "slug": "our-fireplace-services",
+    "phone": "(916) 931-0125"
   },
   {
     "title": "Security Screen Doors and Windows",
@@ -5029,30 +6033,176 @@
     "title": "Security Screen Doors",
     "slug": "security-doors",
     "type": "landing",
-    "images": {
-      "Security Screen Doors": [
-        {
-          "alt": "Titan Trellis Door",
-          "title": "Titan Trellis Door",
-          "small": "/assets/images/security/titan/doors/trellis_2.jpg",
-          "medium": "/assets/images/security/titan/doors/trellis_2.jpg",
-          "big": "/assets/images/security/titan/doors/trellis_2.jpg"
-        },
-        {
-          "alt": "Viewguard Security Screen Door",
-          "title": "Viewguard Security Screen Door",
-          "small": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
-          "medium": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg",
-          "big": "/assets/images/security/viewguard/main-display/Black-Viewguard-Security-Door.jpg"
-        },
-        {
-          "alt": "Tru-View Security Screen Door",
-          "title": "Tru-View Security Screen Door",
-          "small": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-          "medium": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg",
-          "big": "/assets/images/security/tru-view/main-display/Single-Beige-Tru-View-Security-Door-2.jpg"
-        }
-      ]
-    }
+    "phone": "(916) 318-9845",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "security-screen-doors",
+    "type": "landing",
+    "phone": "(916) 318-9845",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "our-security-screen-doors",
+    "type": "landing",
+    "phone": "(916) 931-1873",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "our-security-screen-doors-bakersfield",
+    "type": "landing",
+    "phone": "(661) 567-0284",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
   }
 ]

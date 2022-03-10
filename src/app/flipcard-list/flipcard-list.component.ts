@@ -18,9 +18,8 @@ export class FlipcardListComponent implements OnInit {
         (data) => data.title === card.title
       );
 
-      const link = `/${
-        serviceInfo.type === 'landing' ? 'about' : serviceInfo.type
-      }/${serviceInfo.slug}`;
+      const link = `/${serviceInfo.type === 'landing' ? 'about' : serviceInfo.type
+        }/${serviceInfo.slug}`;
 
       return {
         title: card.title,

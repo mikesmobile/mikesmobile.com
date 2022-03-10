@@ -1,0 +1,151 @@
+<div class="container">
+  <div class="row">
+    <!-- <div class="col mt-3 d-lg-none">
+      <h1 class="h3 text-center d-none d-lg-block">
+        Services in {{ region.region }}
+      </h1>
+      <app-tile-nav [turnOn]="false"></app-tile-nav>
+    </div> -->
+    <div class="col-xl-6 col-lg-5 mt-3 pb-4 summary">
+      <div class="card tile mb-3 d-none d-lg-block">
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Bakersfield" />
+        <div class="card-img-overlay text-center">
+          <h1 class="mainTitle card-title text-white transparent-gray">
+            Mike's Mobile {{ region.region }}
+          </h1>
+        </div>
+      </div>
+      <div class="card mt-3 d-lg-none">
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Bakersfield" />
+        <div class="card-img-overlay text-center">
+          <h1 class="mainTitle card-title text-white transparent-gray">
+            Mike's Mobile {{ region.region }}
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="w-100 text-center">
+            <a class="btn mikesBlueBtn btn-rounded w-75" href="tel:+1{{ region.phone }}"><i class="fas fa-phone left"></i>
+              {{ region.phone }}</a>
+            <p class="card-text">Call us for more information!</p>
+          </div>
+          <div class="office-hours mb-4 px-3 py-4">
+            <h2 class="title pl-1">
+              {{
+              region.region === 'Sacramento' || region.region === 'Stockton'
+              ? region.region
+              : ''
+              }}
+              Office Hours
+            </h2>
+            <ul class="list-unstyled opening-hours">
+              <li>Monday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Tuesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Wednesday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Thursday <span class="float-right">8:00AM - 6:30PM</span></li>
+              <li>Friday <span class="float-right">8:00AM - 5:00PM</span></li>
+              <li>Saturday <span class="float-right">8:00AM - 5:00PM</span></li>
+              <li>Sunday <span class="float-right">Closed</span></li>
+            </ul>
+          </div>
+          <ul class="area-list w-100 d-none d-lg-block">
+            <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mt-3 mt-lg-5">
+      <h1 class="h3 text-center">
+        Services in {{ region.region }}
+      </h1>
+      <p [innerHTML]="region.description" class="text-center"></p>
+      <hr class="my-4">
+
+      <app-tile-nav [turnOn]="false"></app-tile-nav>
+
+      <div class="mt-5">
+        <agm-map *ngFor="let map of region.map" [latitude]="map.latitude" [longitude]="map.longitude" [zoom]="map.zoom"
+          style="height: 500px" [scrollwheel]="scrollwheel" (mapClick)="mapClicked($event)">
+          <agm-marker *ngFor="let m of map.marker; let i = index" [latitude]="m.lat" [longitude]="m.lng" [zIndex]="5"
+            (markerClick)="clickedMarker(m.label)"></agm-marker>
+
+          <agm-polygon *ngFor="let r of map.regions; let i = index" [paths]="r.paths" [strokeWeight]="0" [zIndex]="1"
+            [clickable]="false" [fillColor]="r.fillColor" [visible]="r.visible"></agm-polygon>
+        </agm-map>
+        <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
+            style="display:inline-block; border:0;"><img style="width:200px; display:block;" width="200" height="160"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- titan and viewguard -->
+  <hr>
+
+  <div class="row my-5">
+    <div class="col-12 col-lg-6 text-center">
+      <h3>Security Screen Doors in {{region.region}}</h3>
+      <img [src]="region.imagesInfo[0].leftImg" class="img-fluid" [alt]="region.imagesInfo[0].leftImgAlt">
+      <p class="m-2" [innerHTML]="region.imagesInfo[0].leftImgText"></p>
+    </div>
+    <div class="col-12 col-lg-6 text-center">
+      <h3>Security Screen Windows in {{region.region}}</h3>
+      <img [src]="region.imagesInfo[0].rightImg" class="img-fluid" [alt]="region.imagesInfo[0].rightImgAlt">
+      <p class="m-2" [innerHTML]="region.imagesInfo[0].rightImgText"></p>
+    </div>
+  </div>
+
+  <hr />
+
+
+  <!-- reviews -->
+  <div class="row text-center justify-content-center">
+    <h2 class="w-100 text-center mt-3">
+      What People Say About Mike's Mobile Security Doors
+    </h2>
+    <div class="container">
+      <div class="row text-center mx-0">
+        <div *ngFor="let r of region.review; let i=index;" class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+          <img [src]="region.review[i].src" [alt]="region.review[i].alt" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container text-center justify-content-center">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="row d-block d-lg-none">
+            <ul class="area-list w-100">
+              <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
+            </ul>
+          </div>
+          
+          <hr/>
+
+        </div>
+      </div>
+    </div>
+    <!-- this is the flip cards -->
+
+    <div class="row w-100 my-3">
+      <div class="col-md-12">
+        <h2 class="text-center" id="security-doors-and-windows">
+          {{ region.services[0].title }} in {{ region.region }}
+        </h2>
+        <app-regioncardsecurity [cards]="region.services[0].cards"></app-regioncardsecurity>
+      </div>
+    </div>
+    <!-- <div class="row w-100 mt-5">
+      <div class="col-md-12">
+        <h2 class="h3 text-center" id="door-and-window-screens">
+          {{ region.services[1].title }} in {{ region.region }}
+        </h2>
+        <app-flipcard-list [cards]="region.services[1].cards"></app-flipcard-list>
+      </div>
+    </div> -->
+  </div>
+</div>

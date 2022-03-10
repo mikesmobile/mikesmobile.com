@@ -14,10 +14,10 @@ export class SolarScreenPriceCalcComponent implements OnInit {
   newSolarScreenWindow: SolarScreenWindow = new SolarScreenWindow();
   errorMessage: string;
   grid: boolean = false;
-  regPrice: number = 11.99;
-  gridPrice: number = 16.36;
-  minGridPrice: number = 174.41;
-  minRegPrice: number = 103.55;
+  regPrice: number = 14.17;
+  gridPrice: number = 19.62;
+  minGridPrice: number = 201.65;
+  minRegPrice: number = 119.90;
   gridMsg: string = '';
   totalCost: number;
   count: number = 1;
@@ -25,7 +25,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
 
   constructor(
     private solarScreenWindowDataService: SolarScreenWindowDataService
-  ) {}
+  ) { }
 
   @ViewChild(QuoteFormSolarScreenComponent)
   private quoteForm: QuoteFormSolarScreenComponent;
@@ -55,11 +55,11 @@ export class SolarScreenPriceCalcComponent implements OnInit {
             this.newSolarScreenWindow.gridMsg = 'W/ Grid';
           }
           if (this.newSolarScreenWindow.grid === false) {
-            if (this.newSolarScreenWindow.price < 103.55) {
+            if (this.newSolarScreenWindow.price < this.minRegPrice) {
               this.newSolarScreenWindow.price = this.minRegPrice;
             }
           } else {
-            if (this.newSolarScreenWindow.price < 174.4) {
+            if (this.newSolarScreenWindow.price < this.minGridPrice) {
               this.newSolarScreenWindow.price = this.minGridPrice;
             }
           }
@@ -87,7 +87,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
       let newPrice =
         solarScreenWindow.width * solarScreenWindow.height * this.regPrice;
       if (newPrice < this.minRegPrice) {
-        newPrice = 103.55;
+        newPrice = this.minRegPrice;
         return newPrice.toFixed(2);
       } else {
         return newPrice.toFixed(2);
@@ -96,7 +96,7 @@ export class SolarScreenPriceCalcComponent implements OnInit {
       let newPrice =
         solarScreenWindow.width * solarScreenWindow.height * this.gridPrice;
       if (newPrice < this.minGridPrice) {
-        newPrice = 174.41;
+        newPrice = this.minGridPrice;
         return newPrice.toFixed(2);
       } else {
         return newPrice.toFixed(2);
@@ -147,5 +147,5 @@ export class SolarScreenPriceCalcComponent implements OnInit {
     return total.toFixed(2);
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

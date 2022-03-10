@@ -1,87 +1,422 @@
 <app-action-buttons></app-action-buttons>
+<app-quote-form></app-quote-form>
 
 <ng-container *ngIf="landing">
+
   <ng-container *ngIf="landing.slug === 'door-screens'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Mike’s Mobile offers a variety of window and door screens from sliding
-        screen doors to security doors to Solar Screens which block out much of
-        the sun’s heat. We even offer screen repair and replacement services.
-        Contact us today so we can help you choose the perfect screen for your
-        home.
-      </p>
+    <div class="container pb-5 mb-5">
+
       <div class="row">
-        <div class="col">
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+
+        <div class="order-1 order-lg-2 col-12 col-lg-6">
+          <!-- <app-main-gallery [Images]="gallery_images"></app-main-gallery> -->
           <app-img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid"></app-img>
         </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Screen Doors</h4>
-          <div class="d-flex flex-column">
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/retractable-screen-doors">
-              Retractable Screens
+
+        <div class="order-2 order-lg-1 col-12 col-lg-6 py-2 py-lg-5 px-3">
+
+          <p class="pb-3">Whether you need a new screen door or need your home’s screen door repaired, we’ve got you
+            covered! We offer a variety of screen door services including screen door repair, replacement, and new
+            screen door installation!
+          </p>
+          <p class="pb-3">If you’re ready to update your home, we can help you find the perfect screen door for your
+            home! With Mike's Mobile, homeowners have the ability to explore different options and choose from a variety
+            of screen doors. </p>
+          <p class="font-weight-bold">Questions about screen door repairs? Contact us today for a personalized
+            experience with a team member!</p>
+          <div class="col-12 d-flex justify-content-center">
+            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now</button>
+            <a href="tel:+1{{this.phone}}" class="d-none d-lg-block btn mikesBlueBtn">Call Us Now</a>
+          </div>
+          <button class="d-lg-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Schedule Now</button>
+          <a href="tel:+1{{this.phone}}" class="d-lg-none btn btn-block mikesBlueBtn">Call Us Now</a>
+
+        </div>
+
+      </div>
+      <h3 class="font-weight-bold mt-3">Screen Door Options</h3>
+      <hr>
+      <div class="row d-flex justify-content-center">
+        <ng-container *ngFor="let service of doorsServiceList">
+          <div class="card tile m-2 rounded">
+            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
+                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
+                  [innerHTML]="service.title"></h4>
+              </div>
+              <div class="view waves-light" mdbRippleRadius>
+                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
+              </div>
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
+                <div class="tileListContainer ">
+                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                    [innerHTML]="service.tileText"></p>
+                  <ul *ngIf="service.tileBullets" class="tileList">
+                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
+                  </ul>
+                </div>
+              </div>
+
             </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/sliding-screen-doors">
-              Sliding Screens
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'our-screen-doors'">
+    <a class="d-none" mdbPageScroll href="#options"></a>
+    <div class="container pb-5 mb-5">
+
+      <div class="row">
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+
+        <div class="order-1 order-lg-2 col-12 col-lg-6">
+          <!-- <app-main-gallery [Images]="gallery_images"></app-main-gallery> -->
+          <app-img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid"></app-img>
+        </div>
+
+        <div class="order-2 order-lg-1 col-12 col-lg-6 py-2 py-lg-5 px-3">
+
+          <p class="pb-3">Whether you need a new screen door or need your home’s screen door repaired, we’ve got you
+            covered! We offer a variety of screen door services including screen door repair, replacement, and new
+            screen door installation!
+          </p>
+          <p class="pb-3">If you’re ready to update your home, we can help you find the perfect screen door for your
+            home! With Mike's Mobile, homeowners have the ability to explore different options and choose from a variety
+            of screen doors. </p>
+          <p class="font-weight-bold">Questions about screen door repairs? Contact us today for a personalized
+            experience with a team member!</p>
+          <div class="col-12 d-flex justify-content-center">
+            <button class="d-none d-lg-block btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Now</button>
+            <a href="tel:+1{{this.phone}}" class="d-none d-lg-block btn mikesBlueBtn">Call Us Now</a>
+          </div>
+          <button class="d-lg-none btn-block btn mikesBlueBtn mb-2" (click)="openQuoteForm()">Schedule Now</button>
+          <a href="tel:+1{{this.phone}}" class="d-lg-none btn btn-block mikesBlueBtn">Call Us Now</a>
+
+        </div>
+
+      </div>
+      <a id="options" style="position: absolute; top:-100px"></a>
+      <h3 class="font-weight-bold mt-3">Screen Door Options</h3>
+      <hr>
+      <div class="row d-flex justify-content-center">
+        <ng-container *ngFor="let service of doorsServiceList">
+          <div class="card tile m-2 rounded">
+            <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="container d-table tileTitle1 text-center align-center w-100 mx-0">
+                <h4 class="card-title d-table-cell backGroundGrey text-center align-middle m-0"
+                  [innerHTML]="service.title"></h4>
+              </div>
+              <div class="view waves-light" mdbRippleRadius>
+                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title"></app-img>
+              </div>
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
+                <div class="tileListContainer ">
+                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                    [innerHTML]="service.tileText"></p>
+                  <ul *ngIf="service.tileBullets" class="tileList">
+                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
+                  </ul>
+                </div>
+              </div>
+
             </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/swinging-screen-doors">
-              Swinging Screens
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/pet-doors">
-              Pet doors
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/lifestyle-garage-screen">
-              Garage Screen Doors
-            </a>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+  
+  <!-- new format -->
+  <ng-container *ngIf="landing.slug === 'window-screens' ">
+
+    <div class="container-fluid">
+      <!-- Main -->
+      <div class="row">
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 d-flex p-3 p-xl-5 justify-content-center align-items-center">
+          <div class="m-0 m-md-3 m-xl-5 px-xl-5 pb-xl-5 paddingNoneHeader">
+            <h1 class="fontResponseh1  font-weight-bold">Getting fresh air shouldn’t be hard.</h1>
+            <p style="font-size: 25px;">We make replacing your window screens fast and easy.</p>
+            <div class="d-flex justify-content-center">
+              <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+          <img data-aos="fade" data-aos-duration="1000" class="img-fluid" src="../../assets/images/landing/windowServices/openWindow.png"
+            alt="Woman opening a window" />
+        </div>
+      </div>
+    </div>
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row mb-5">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Keep Bugs Out
+          </p>
+        </div>
+
+        <!-- vv These two are the exact same but are different at certain sizes vv -->
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-right" class="subtitleBold text-center mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <!-- ^^These two are the exact same but are different at certain sizes ^^ -->
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="subtitleBold text-center mb-0">
+            ✓ Save Time
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- unordered list of stuff -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img height='300px' src="../../assets/images/landing/windowServices/brokenScreen.png" alt="Broken Screen" />
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <h2 style="font-size:40px">Sound familiar? If so, we can help.</h2>
+          <br>
+          <ul style="font-size: 20px;">
+            <li class="mb-3">Your windows are missing screens</li>
+            <li class="mb-3">Your window screens are torn</li>
+            <li class="mb-3">You don’t have time to DIY</li>
+          </ul>
+          <div class="col-12 d-flex justify-content-center">
+            <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
           </div>
         </div>
       </div>
-      <hr />
-      <p class="m-2">
-        If you are in need of more security, please visit our
-        <a class="orange-text" routerLink="/about/security-doors-and-windows">Security Screen Doors</a>
-        page! Mike’s Mobile has you covered no matter what application your home
-        needs.
-      </p>
     </div>
-  </ng-container>
-  <ng-container *ngIf="landing.slug === 'window-screens'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Mike’s Mobile offers a variety of window and door screens from sliding
-        screen doors to security doors to Solar Screens which block out much of
-        the sun’s heat. We even offer screen repair and replacement services.
-        Contact us today so we can help you choose the perfect screen for your
-        home.
-      </p>
-      <div class="row">
-        <div class="col">
-          <app-img src="/assets/images/screens/window-screen-repair/car-logo-2.jpg" class="img-fluid"></app-img>
-        </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Window Screens</h4>
-          <div class="d-flex flex-column">
-            <a class="btn blue my-2" mdbRippleRadius routerLink="/products/solar-screens">
-              Solar Screens
-            </a>
-            <a class="btn blue my-2" mdbRippleRadius routerLink="/services/window-screen-repair">
-              Window Screen Repair
-            </a>
+
+    <!-- review section -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+      <div class="container">
+        <!-- Upgrading -->
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 style="font-size:40px;" class="text-center mb-3">Getting new window screens shouldn’t be difficult…</h2>
+
+            <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
+              homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
           </div>
         </div>
+
+        <!-- reviews -->
+        <div class="row text-center mx-0 mb-4">
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-right"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/windowServices/review1.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/windowServices/elkGroveReview.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-left"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/windowServices/modestoReview.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+        </div>
+
+        <!-- icons -->
+        <div class="row">
+          <div class="order-xl-2 d-none d-xl-block col-xl"></div>
+          <div
+            class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.cslb.ca.gov/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+                alt="Department of Consumer Affairs Contractors State License Board logo">
+            </a>
+          </div>
+          <div class="order-1 order-md-2 order-xl-3 col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center px-2">
+            <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+
+            <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors" target="_blank"
+              style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+                src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+                alt="Window & Doors Contractors near me" /></a>
+          </div>
+          <div class="order-3 col-6 col-md-4 order-xl-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.hpba.org/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+                alt="Hearth Patio And BBQ Association Logo">
+            </a>
+          </div>
+          <div class="d-none d-xl-block col-xl order-xl-4"></div>
+        </div>
+
+        <!-- Call Now Phone -->
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+          </div>
+        </div>
+
+
       </div>
-      <hr />
-      <p class="m-2">
-        If you are in need of more security, please visit our
-        <a class="orange-text" routerLink="/about/security-doors-and-windows">Security Screen Doors</a>
-        page! Mike’s Mobile has you covered no matter what application your home
-        needs.
-      </p>
+
+    </div>
+
+    <!-- How We Make It Easy, 1 , 2 , 3 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <h2 id="triggerEasy" style="font-size:40px;">How We Make It Easy:</h2>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg"></div>
+          <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerEasy" data-aos="fade-up"  data-aos-anchor-placement="top-center" data-aos-delay="200">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/csr.png"
+              alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+            <p class="subtitleBold mt-2 mb-1">1. Call Us Today</p>
+            <p style="font-size:20px;" class="lineSpacing">We listen to your goals and schedule a visit</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerEasy" data-aos="fade-up"  data-aos-anchor-placement="top-center" data-aos-delay="700">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/wecometoyou.png"
+              alt="One of our outstanding technicians will be able to install your security screens to perfection!">
+            <p class="subtitleBold mt-2 mb-1">2. We Come To You</p>
+            <p style="font-size:20px;" class="lineSpacing">Our experts build and install your screens on-site</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerEasy" data-aos="fade-up"  data-aos-anchor-placement="top-center" data-aos-delay="1200">
+            <img class="img-fluid" src="../../assets/images/landing/windowServices/lovelive.png"
+              alt="Happy Family">
+            <p class="subtitleBold mt-2 mb-1">3. Enjoy The Breeze</p>
+            <p style="font-size:20px;" class="lineSpacing">Relax and let in the fresh air</p>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-1"></div>
+          <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center">
+            <img height="450px" src="../../assets/images/landing/windowServices/mikeHank.png"
+              alt="Some of our amazing technicians, ready to make your home more secure!">
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-5 px-2 mt-4">
+            <h2 style="font-size:40px;">We Get it Done in <br class="d-none d-lg-block"> One Visit</h2>
+            <br>
+            <p style="font-size:20px;" class="lineSpacing">We understand that your time is valuable. <br
+                class="d-none d-lg-block"> That’s why we offer
+              convenient and fast <br class="d-none d-lg-block"> on-site service, so you can cross your <br
+                class="d-none d-lg-block">
+              window screens off your list in no time!</p>
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+          </div>
+          <div class="col-xl-1"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Guarantee -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="order-xl-1 d-none d-xl-block col-xl-1"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 px-2 mt-5 px-md-5">
+          <h2 style='font-size: 40px;'>Our Guarantee</h2>
+          <br>
+
+          <ul style="font-size: 18px;">
+            <li class="mb-3">Save time & money - your project will be done right the first time</li>
+            <li class="mb-3">Professional installation - no cracks, gaps, or screens falling off</li>
+            <li class="mb-3">Convenience - we take care of you from start to finish</li>
+          </ul>
+
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 order-1 order-lg-2 order-xl-3">
+          <img data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapNoBakersfield.png"
+            alt="Map of our Service Area!">
+        </div>
+        <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
+
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid bluishBackground">
+
+      <!-- <div class="container pb-5"> -->
+      <div class="row">
+        <div class="d-none d-lg-block col-8 contactImg"></div>
+        <div class="d-none d-lg-block col-4 py-4">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 font-weight-bold">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <div class="d-lg-none row">
+        <div class="col-12 contactImg">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Love Where You Live</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <!-- </div> -->
     </div>
   </ng-container>
+
   <ng-container *ngIf="landing.slug === 'door-and-window-screens'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -121,9 +456,9 @@
             <a class="btn orange my-2" mdbRippleRadius routerLink="/products/pet-doors">
               Pet doors
             </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/products/lifestyle-garage-screen">
+            <!-- <a class="btn orange my-2" mdbRippleRadius routerLink="/products/lifestyle-garage-screen">
               Garage Screen Doors
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -136,411 +471,1267 @@
       </p>
     </div>
   </ng-container>
-  <ng-container *ngIf="landing.slug === 'security-screen-doors-email'">
-    <div class="container py-4">
-      <h1 class="p-2">Meshtec is seriously tough!</h1>
-      <hr />
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3jcvdpJwvzA?start=1" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <!-- new format -->
+  <ng-container *ngIf="landing.slug === 'fireplace-services' || landing.slug === 'chimney-services' || landing.slug === 'our-chimney-services' || landing.slug === 'our-fireplace-services' || landing.slug === 'our-annual-cleaning-and-inspection' ">
+
+    <div class="container-fluid">
+      <!-- Main -->
+      <div class="row">
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 d-flex p-3 p-xl-5 justify-content-center align-items-center">
+          <div class="m-0 m-md-3 m-xl-5 px-xl-5 pb-xl-5 paddingNoneHeader">
+            <h1 class="fontResponseh1 font-weight-bold">Your fireplace is the heart of your home.</h1>
+            <p style="font-size: 25px;">We make sure it stays that way.</p>
+            <div class="d-flex justify-content-center">
+              <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+          <img data-aos="fade" data-aos-duration="1000" class="img-fluid" src="../../assets/images/landing/chimServices/fireplaceChill.png"
+            alt="A couple hanging out on a couch in front of a fireplace" />
+        </div>
+      </div>
+    </div>
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row mb-5">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Enjoy Your Fireplace
+          </p>
+        </div>
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Protect Your Home
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-right" class="subtitleBold text-center mb-0">
+            ✓ Protect Your Home
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="subtitleBold text-center mb-0">
+            ✓ Make Memories
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Avoiding Fireplace -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <h2 style="font-size:40px;">Are you avoiding using your fireplace because…</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-none d-lg-block col-lg"></div>
+        <div class="col-12 col-sm-4 col-lg-3 mb-2">
+          <p style="font-size: 20px;" class="text-center font-italic">
+            It makes you feel unsafe or intimidated
+          </p>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 mb-2">
+          <p style="font-size: 20px;" class="text-center font-italic">
+            You’re worried about experiencing a <br class="d-none d-md-block">chimney fire, backdrafts, or smoke
+          </p>
+
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 mb-2">
+
+          <p style="font-size: 20px;" class="text-center font-italic">
+            You’re just not happy with how your <br class="d-none d-md-block">fireplace looks or functions
+          </p>
+        </div>
+        <div class="d-none d-lg-block col-lg"></div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-12 d-flex justify-content-center mt-4 mb-5">
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- review section -->
+    <div class="container-fluid bluishBackground py-5">
+
+      <!-- Upgrading -->
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h2 style="font-size:40px;" class="text-center mb-3">Your fireplace should bring you joy - not stress</h2>
+
+            <p style="font-size: 18px;" class="mb-1 text-center">• 20+ years in business •</p>
+            <p style="font-size: 18px;" class="mb-1 text-center">• trusted by over 50,000 homeowners •</p>
+            <p style="font-size: 18px;" class="mb-1 text-center">• most CSIA-certified technicians in California •</p>
+          </div>
+        </div>
+
+        <!-- reviews -->
+        <div class="row text-center mx-0 mb-4">
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-right"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/chimServices/one1.png" class="img-fluid" alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/chimServices/two1.png" class="img-fluid" alt="A Mike's Mobile Review">
+          </div>
+          <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+            <img data-aos="fade-left"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/chimServices/three1.png" class="img-fluid"
+              alt="A Mike's Mobile Review">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-xl-block col-xl"></div>
+          <div class="col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center">
+            <a href="https://www.csia.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/csia.png" class="img-fluid"
+                alt="Chimney Safety Institute of America logo">
+            </a>
+            <a href="https://www.ncsg.org/" target="_blank">
+              <img src="../../assets/images/landing/chimServices/NCSG.png" class="img-fluid"
+                alt="National Chimney Sweep Guild Member logo">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.cslb.ca.gov/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+                alt="Department of Consumer Affairs Contractors State License Board logo">
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+            <a href="https://www.hpba.org/" target="_blank">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+                alt="Hearth Patio And BBQ Association Logo">
+            </a>
+          </div>
+          <div class="d-none d-xl-block col-xl"></div>
+
+          <div class="col-12 d-flex justify-content-center mt-4">
+            <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
           </div>
         </div>
       </div>
-      <div class="row justify-content-md-center">
-        <div class="d-flex flex-column col-md-7">
-          <h4 class="text-center mt-2">Meshtec Technology used across all of our Security Products</h4>
+
+    </div>
+
+    <!-- How We Make It Easy, 1 , 2 , 3 -->
+    <div class="container py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <h2 style="font-size:40px;">How we make it easy:</h2>
+          </div>
         </div>
-        <div class="row justify-content-around">
-          <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="card tile my-2 rounded">
-              <a class="d-block" routerLink="/grid/titan-security-doors">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img src="/assets/images/tiles/titan-security-screen-doors.jpg" class="img-fluid card-img"
-                    alt="Titan Security Screen Doors"></app-img>
-                </div>
-                <div class="card-img-overlay tileInfo mt-0">
-                  <p class="mb-0 text-center tileBlurb text-white transparent-gray">Custom Titan Security Screen Doors
-                    can take your home to the next level of style and security.
-                  </p>
-                </div>
-                <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Titan Security Screen Doors
-                  </h4>
-                </div>
-              </a>
+        <div class="container">
+
+          <div class="row" style="display:flex; justify-content: space-evenly">
+            <div class="col-12 col-lg-3 mb-3" id="trigger-makeEasy" data-aos-anchor="#trigger-makeEasy" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom" data-aos-delay="200">
+              <img class="img-fluid" src="../../assets/images/landing/chimServices/CallToday.png"
+                alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+              <p class="subtitleBold mt-2 mb-1">1. Call Us Today</p>
+              <p style="font-size:20px;" class="lineSpacing">We’ll listen to your goals and schedule a visit</p>
+            </div>
+            <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#trigger-makeEasy" data-aos="fade-up"  data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
+              <img class="img-fluid" src="../../assets/images/landing/chimServices/DanC.png"
+                alt="One of our amazing technicians, Dan C">
+              <p class="subtitleBold mt-2 mb-1">2. We Come To You</p>
+              <p style="font-size:20px;" class="lineSpacing">
+                Our team of experts come out and do what they do best
+              </p>
+            </div>
+            <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#trigger-makeEasy" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="1200">
+              <img class="img-fluid" src="../../assets/images/landing/chimServices/loveLive.png" alt="Happy Family">
+              <p class="subtitleBold mt-2 mb-1">3. Love Where You Live</p>
+              <p style="font-size:20px;" class="lineSpacing">Feel the joy of living in your dream home</p>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-3 mb-4 cardTiles">
-            <div class="card tile my-2 rounded">
-              <a class="d-block tile" routerLink="/products/viewguard-security-doors">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img src="/assets/images/tiles/viewguard-security-screen-doors.jpg" class="img-fluid card-img"
-                    alt="Viewguard Security Screen Doors"></app-img>
-                </div>
-                <div class="card-img-overlay tileInfo mt-0">
-                  <p class="mb-0 text-center tileBlurb text-white transparent-gray">Your security screen door will be
-                    the first point of protection for keeping your home safe and secure.
-                  </p>
-                </div>
-                <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Viewguard Security Screen
-                    Doors
-                  </h4>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="card tile my-2 rounded">
-              <a class="d-block" routerLink="/products/tru-view-security-doors">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img src="/assets/images/tiles/truview-security-screen-doors.jpg" class="img-fluid card-img"
-                    alt="TRU-View Security Screen Doors"></app-img>
-                </div>
-                <div class="card-img-overlay tileInfo mt-0">
-                  <p class="mb-0 text-center tileBlurb text-white transparent-gray">With the Tru-View you can let the
-                    cool breeze in and keep intruders out without compromising the appearance of your home.
-                  </p>
-                </div>
-                <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">TRU-View Security Screen
-                    Doors
-                  </h4>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 mb-4 cardTiles">
-            <div class="card tile my-2 rounded">
-              <a class="d-block tile" routerLink="/products/quick-escape-security-windows">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img src="/assets/images/tiles/crl-guarda-quick-escape.jpg" class="img-fluid card-img"
-                    alt="Quick Escape Security Window Screens"></app-img>
-                </div>
-                <div class="card-img-overlay tileInfo mt-0">
-                  <p class="mb-0 text-center tileBlurb text-white transparent-gray">Quick Escape Security Window Screens
-                    have an easy release push mechanism that also acts as a secure, temper resistant device locking the
-                    screen closed for peace of mind.
-                  </p>
-                </div>
-                <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Quick Escape Security Window
-                    Screens
-                  </h4>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 mb-4 cardTiles">
-            <div class="card tile my-2 rounded">
-              <a class="d-block tile" routerLink="/products/fixed-security-windows">
-                <div class="view waves-light" mdbRippleRadius>
-                  <app-img src="/assets/images/tiles/crl-guarda-fixed.jpg" class="img-fluid card-img"
-                    alt="Fixed Security Window Screens"></app-img>
-                </div>
-                <div class="card-img-overlay tileInfo mt-0">
-                  <p class="mb-0 text-center tileBlurb text-white transparent-gray">Security Fixed Window Screens are an
-                    ideal solution to cover and protect non-opening windows.
-                  </p>
-                </div>
-                <div class="container d-table tileTitle text-center align-center w-100 mx-0">
-                  <h4 class="card-title d-table-cell text-center w-100 align-middle m-0">Fixed Security Window Screens
-                  </h4>
-                </div>
-              </a>
-            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
           </div>
         </div>
       </div>
     </div>
-  </ng-container>
-  <ng-container *ngIf="landing.slug === 'chimney-services'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <p class="p-2">
-        Did you know that chimneys need to be cleaned and inspected regularly in
-        order for them to burn safely? Sooty buildup can lead to chimney fires
-        that spread into the home. Even if you do not use your fireplace often,
-        general deterioration or even animal nests can make it unsafe to use.
-        Let Mike’s Mobile Chimney Service help you keep your fireplace safe and
-        your home cozy.
-      </p>
-      <div class="row">
-        <div class="col">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PKxsbx7Z9Po"
-              allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <h4 class="p-2 text-center">Chimney Services</h4>
-          <div class="d-flex flex-column">
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/chimney-inspections">
-              Chimney Inspections
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/chimney-cleaning">
-              Chimney Cleaning
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/about/gas-fireplace-repair-and-service">
-              Gas Fireplace Service & Repair
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/chimney-repairs">
-              Chimney Repair
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/chimney-accessories">
-              Chimney Accessories
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/grid/masonry-services">
-              Masonry Services
-            </a>
-            <a class="btn orange my-2" mdbRippleRadius routerLink="/services/dryer-vent-cleaning">
-              Dryer Vent Cleaning
-            </a>
-          </div>
-        </div>
-      </div>
-      <hr />
-    </div>
-  </ng-container>
-  <ng-container *ngIf="landing.slug === 'gas-fireplace-repair-and-service'">
-    <div class="container py-4">
-      <h1 class="p-2" [innerHTML]="landing.title"></h1>
-      <hr />
-      <div class="row">
-        <div class="col">
-          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
-          <div class="container ">
-            <div class="row">
-              <div class="col mt-2">
-                <div class=" d-md-none ">
-                  <a class="white-text" href="tel:+18009929938">
-                    <h4 class="animated pulse infinite orange-text text-center cursor-pointer">
-                      <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Now!
-                    </h4>
-                  </a>
-                </div>
-                <div class=" d-none d-md-block cursor-pointer text-center" (click)="openQuoteForm()">
-                  <h4 class="animated pulse infinite orange-text ">
-                    &nbsp;Schedule today!
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row text-center mb-3">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-8 mt-2">
-                  <a routerLink="/financing">
-                    <img src="/assets/images/main/financingButton.png" class="img-fluid" />
-                  </a>
-                </div>
-              </div>
+
+    <!-- Guarantee -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="order-xl-1 d-none d-xl-block col-xl-1"></div>
+          <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 px-2 mt-5">
+            <h2 style="font-size:40px">Our Guarantee</h2>
+            <br>
+            <ul style="font-size: 18px;">
+              <li class="mb-3">Save time and money - your projects will be done right the first time</li>
+              <li class="mb-3">We do everything fireplace and chimney so you won’t have to call anyone else.</li>
+              <li class="mb-3">Each solution we provide will be tailored to <u>your</u> needs</li>
+            </ul>
+            <div class="col-12 d-flex justify-content-center">
+              <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
             </div>
           </div>
 
+          <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4 p-lg-5">
+            <img data-aos="fade-left" class='img-fluid' data-aos-anchor-placement="center-bottom" src="../../assets/images/landing/mapNoBakersfield.png"
+              alt="Map of our Service Area!">
+          </div>
+          <div class="order-xl-4 d-none d-xl-block col-xl-1"></div>
+
         </div>
-        <div class="col-md-7 text-center">
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid familyBg py-5">
+
+      <div class="container pb-5">
+        <div class="row d-flex">
+          <div class="col-lg-6"></div>
+          <div class="col-12 col-lg-4 p-2">
+            <h2 style="font-size:40px; margin-bottom:0px; padding-top: 10px;"
+              class="font-weight-bold d-flex justify-content-center BlurBg">Love Where You Live</h2>
+            <app-contact-form></app-contact-form>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'electric-fireplaces'">
+    <div class="container text-center py-4">
+      <div class="row">
+        <div class="col">
+          <h1 class="p-2 " [innerHTML]="landing.title"></h1>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <h4>
+            Electric Fireplaces are ideal for creating an instant upgrade to any room. They’re especially handy when it
+            isn’t feasible to install a Gas or Wood-Burning Fireplace or Stove in a space. Electric Fireplaces can
+            literally
+            go anywhere and are ready to spread comfort and warmth straight out of the box. You can hang them on the
+            wall
+            like a piece of art. You can also install them into the wall, which includes recessing our wall-hanging
+            Electric
+            Fireplaces, or install into a freestanding mantel to create the look you desire. Modern and cost-effective,
+            Electric Fireplaces use low-energy LED lights to create realistic flames that can be seen both day and
+            night.
+            They are convenient and can even be operated by remote control, setting the mood with different colored
+            flames.
+            Electric Fireplaces can be operated with or without heat for year-round ambiance. Whether it’s a commercial
+            space or your favorite room in the house, an Electric Fireplace will add splendor and comfort no matter the
+            situation.
+          </h4>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left">
+        <div class="col-8">
+          <h4>Ascent Electric 33" & 40"</h4>
+          <h6>Built-In Electric Fireplace</h6>
+          <hr />
+          <p>
+            The Napoleon Ascent™
+            Electric 33 & 40 fireplaces imitate the look of a traditional
+            masonry fireplace but with all the convenience of simply plugging it in, sitting
+            back and enjoying the heat and glowing log set! Napoleon’s flame technology
+            randomly adjusts the flame effect, color, height and speed creating the illusion
+            of a true wood burning fire with a modulating ember bed for a realistic glow.
+            Perfect for any room in a house, condo, apartment or office.
+          </p>
+          <a href="/services/ascent-electric-fireplace"><Button class="btn btn-primary">Learn More</Button></a>
+        </div>
+        <div class="col-4">
+          <img class="img-fuild" alt="Ascent Electric Fireplace"
+            src="/assets/images/electric-fireplace/ascentFireplace.png" />
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left">
+        <div class="col-8">
+          <h4>Cinema™ Log Series 29", 27", & 24"</h4>
+          <h6>Built-In Electric Fireplace</h6>
+          <hr />
+          <p>
+            Imagine completely transforming your living space just by plugging in a fireplace.
+            With the Napoleon Cinema™
+            Log series electric fireplaces you can do just that. The
+            realistic log bed glows just like real burning logs, and when turned off, fades just
+            like a real dying fire. Set the mood instantly with complete control over flame and
+            ember lights, heat intensity and even set the NIGHT LIGHT™
+            for added ambiance.
+            These electric fireplaces add class to your décor, no matter where you put it
+          </p>
+          <a href='/services/cinema-log-series'><Button class="btn btn-primary">Learn More</Button></a>
+        </div>
+        <div class="col-4">
+          <img class="img-fuild" alt="Cinema Log Series Fireplace"
+            src="/assets/images/electric-fireplace/cinemaLogFireplace.png" />
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'water-proofing-package'">
+    <div class="container text-center pb-4">
+      <div class="row">
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+      <hr />
+      <!-- <div class="row text-center">
+        <div class="col">
+          <h1 class="p-2 text-center" [innerHTML]="landing.title"></h1>
+        </div>
+      </div>
+      <hr /> -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <!-- <img src="/assets/images/waterProofing/newWaterProofingPackage.jpg" class="img-fluid"
+            alt="water proofing package"> -->
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+        </div>
+        <div class="col-lg-6 text-left">
+          <h2 class="mt-3 mt-lg-0">We Fix Leaky Chimneys!</h2>
+          <hr>
+          <h3>Protect your chimney from all angles with our 10-year warranty!</h3>
+          <p>The last thing you want to worry about as a homeowner is water leaking into your home. That's why our
+            waterproofing bundle includes all the repairs you need to ensure your chimney isn't the cause of any
+            unfortunate leaks.</p>
+          <p>Our waterproofing package seals any leaks you may currently have in your chimney system and protects your
+            chimney from water intrusion. Water intrusion is the leading cause of chimney degradation. Give your chimney
+            a new lease on life, and protect your home.</p>
+          <p>
+            The process starts with <a href="/services/crown-seal">crown coat</a> applied to your chimney crown to
+            protect the integrity of the top of your
+            chimney stack. Once the <a href="/services/crown-seal">crown coat</a> has cured, we install a chimney cap
+            (not a flue cap!) to shed water away
+            from the stack. We also address leaks at the roofline by applying <a href="/services/flashing">flash
+              seal</a> where your roof meets your
+            chimney to ensure a watertight seal. We finish our waterproofing package with a <a
+              href="/services/masonry/waterproofing">water repellent</a> coating
+            applied to the entire stack that allows the chimney to breathe and sweat while still repelling outside
+            water.</p>
+          <p>The waterproofing package from Mike’s Mobile includes a 10-year leak free warranty and is 10% off with our
+            bundled pricing.</p>
+
+          <div class="col-12 mt-2">
+            <button class="btn oj btn-block" (click)="openQuoteForm()">Book Us Now!</button>
+          </div>
+
+        </div>
+      </div>
+      <h2 class="my-3 text-left">The Components</h2>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofCrownCoat.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/crown-seal">
+            <h4>Crown Coat</h4>
+          </a>
+          <ul>
+            <li>Seals Any Previous Damage to Your Crown</li>
+            <li>Protects Your Crown From Moisture</li>
+            <li>Prevents Further Cracking of Your Crown</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofChimneyCap.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a routerLink="/products/chimney-caps">
+            <h4>Custom Built Chimney Cap</h4>
+          </a>
+          <ul>
+            <li>6 Kynar™ Colors - Matte Black, Dark Bronze, Metallic Silver, Parchment, Saddle Tan, and Champagne </li>
+            <li>Protects Your Entire Chimney, Not Just Your Flue!</li>
+            <li>Sheds Water Away From the Stack</li>
+            <li>Keeps Animals, Debris and Rain Out of Your Flue</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofFlashSeal.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/flashing">
+            <h4>Flash Seal</h4>
+          </a>
+          <ul>
+            <li>Prevents Water From Entering Your Home or Chimney at the Roof Line</li>
+            <li>Covers Your Current Roof Flashing for a Water Tight Seal</li>
+            <li>Acts like a Rubber Boot for Your Chimney</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofSpraySeal.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/masonry/waterproofing">
+            <h4>Water Repellent</h4>
+          </a>
+          <ul>
+            <li>Seals Your Chimney Stack From Moisture Intrusion</li>
+            <li>Your Chimney Bricks Will Shed Water
+            </li>
+            <li>Still Allows Your Chimney Stack to Breathe and Sweat</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'theWaterproofingPackage'">
+
+    <div class="container text-center pb-4">
+      <div class="row">
+        <div class="col-12 d-lg-none">
+          <img src="../../assets/images/landing/Map.Landing.Graphic.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+          <h1 class="text-left h1 pageTitle mb-0 d-flex align-items-end" [innerHTML]="landing.title"></h1>
+        </div>
+        <div class="col-md-6 d-none d-lg-block">
+          <img src="../../assets/images/landing/MapMedium.png" class="img-fluid"
+            alt="Our Service Areas Mini Map. Mike's Mobile Services Sacramento, Stockton, Fresno, the Bay Area and surrounding areas!">
+        </div>
+      </div>
+
+      <hr />
+      <!-- <div class="row text-center">
+        <div class="col">
+          <h1 class="p-2 text-center" [innerHTML]="landing.title"></h1>
+        </div>
+      </div>
+      <hr /> -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <!-- <img src="/assets/images/waterProofing/newWaterProofingPackage.jpg" class="img-fluid"
+            alt="water proofing package"> -->
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+        </div>
+        <div class="col-lg-6 text-left">
+          <h2 class="mt-3 mt-lg-0">We Fix Leaky Chimneys!</h2>
+          <hr>
+          <h3>Protect your chimney from all angles with our 10-year warranty!</h3>
+          <p>The last thing you want to worry about as a homeowner is water leaking into your home. That's why our
+            waterproofing bundle includes all the repairs you need to ensure your chimney isn't the cause of any
+            unfortunate leaks.</p>
+          <p>Our waterproofing package seals any leaks you may currently have in your chimney system and protects your
+            chimney from water intrusion. Water intrusion is the leading cause of chimney degradation. Give your chimney
+            a new lease on life, and protect your home.</p>
+          <p>
+            The process starts with <a href="/services/crown-seal">crown coat</a> applied to your chimney crown to
+            protect the integrity of the top of your
+            chimney stack. Once the <a href="/services/crown-seal">crown coat</a> has cured, we install a chimney cap
+            (not a flue cap!) to shed water away
+            from the stack. We also address leaks at the roofline by applying <a href="/services/flashing">flash
+              seal</a> where your roof meets your
+            chimney to ensure a watertight seal. We finish our waterproofing package with a <a
+              href="/services/masonry/waterproofing">water repellent</a> coating
+            applied to the entire stack that allows the chimney to breathe and sweat while still repelling outside
+            water.</p>
+          <p>The waterproofing package from Mike’s Mobile includes a 10-year leak free warranty and is 10% off with our
+            bundled pricing.</p>
+
+          <div class="col-12 mt-2">
+            <button class="btn oj btn-block" (click)="openQuoteForm()">Book Us Now!</button>
+          </div>
+
+        </div>
+      </div>
+      <h2 class="my-3 text-left">The Components</h2>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofCrownCoat.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/crown-seal">
+            <h4>Crown Coat</h4>
+          </a>
+          <ul>
+            <li>Seals Any Previous Damage to Your Crown</li>
+            <li>Protects Your Crown From Moisture</li>
+            <li>Prevents Further Cracking of Your Crown</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofChimneyCap.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a routerLink="/products/chimney-caps">
+            <h4>Custom Built Chimney Cap</h4>
+          </a>
+          <ul>
+            <li>6 Kynar™ Colors - Matte Black, Dark Bronze, Metallic Silver, Parchment, Saddle Tan, and Champagne </li>
+            <li>Protects Your Entire Chimney, Not Just Your Flue!</li>
+            <li>Sheds Water Away From the Stack</li>
+            <li>Keeps Animals, Debris and Rain Out of Your Flue</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofFlashSeal.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/flashing">
+            <h4>Flash Seal</h4>
+          </a>
+          <ul>
+            <li>Prevents Water From Entering Your Home or Chimney at the Roof Line</li>
+            <li>Covers Your Current Roof Flashing for a Water Tight Seal</li>
+            <li>Acts like a Rubber Boot for Your Chimney</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row text-left mt-2 justify-content-center">
+        <div class="col-lg-2">
+          <img src="/assets/images/waterProofing/waterProofSpraySeal.png" class="img-fluid"
+            alt="custom built chimney cap">
+        </div>
+        <div class="col-lg-8">
+          <a href="/services/masonry/waterproofing">
+            <h4>Water Repellent</h4>
+          </a>
+          <ul>
+            <li>Seals Your Chimney Stack From Moisture Intrusion</li>
+            <li>Your Chimney Bricks Will Shed Water
+            </li>
+            <li>Still Allows Your Chimney Stack to Breathe and Sweat</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+
+  <!-- this is the mock up for a/b test -->
+  <ng-container *ngIf="landing.slug === 'gas-fireplace-repair-and-service' ">
+    <div class="container py-4">
+      <h1 class="p-2" [innerHTML]="landing.title"></h1>
+      <hr />
+      <div class="row align-items-center">
+        <div class="col">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          <div class="container d-md-none ">
+            <div class="row">
+              <div class="col mt-2 center">
+                <div class=" d-md-none">
+                  <a class="btn oj" href="tel:+1{{this.phone}}">Call Us Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
           <div class="container">
             <div class="row">
               <div class="col text-left">
-                <h4 class="font-weight-bold font-italic">
-                  Take Advantage of Your Gas Fireplace!
+                <h4 class="font-weight-bold font-italic mt-sm-2">
+                  We Fix Gas Fireplaces!
                 </h4>
                 <p>
-                  Gas fireplaces can be an excellent way to relax and unwind after a long day or to keep warm during the
-                  cooler months. Whether your gas fireplace is used for aesthetics or to heat up your home, regular
-                  maintenance is needed to ensure the longevity and efficiency of the fireplace. If your fireplace is
-                  experiencing issues or not working properly, you should have it diagnosed and repaired immediately.
-                  Even if no issues are apparent, annual maintenance can uncover unknown issues and will ensure your
-                  fireplace is burning efficiently. Mike's Mobile's <a class="link"
-                    href="https://www.csia.org/">CSIA</a> certified
-                  technicians will make sure your gas fireplace system is clean and properly functioning!
+                  With help from Mike’s Mobile you can be sure that your gas fireplace is working properly and save
+                  money on costly future problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified,
+                  specialized gas technicians will diagnose any issues with your system and perform the maintenance and
+                  repairs needed to ensure that it is clean and fully functioning!
+                  <br /> <br />A gas fireplace offers wonderful aesthetics and helps to keep your home warm during the
+                  cooler months. With regular maintenance, your system will be ready to go so that you can sit back,
+                  relax, and enjoy your gas fireplace!
                 </p>
               </div>
             </div>
           </div>
-          <hr />
           <div class="container">
             <div class="row">
               <div class="col text-left">
-                <h4 class="font-weight-bold">BHP Digital Reports, With Every Inspection</h4>
+                <h4 class="font-weight-bold">Annual Maintenance for Gas Fireplaces</h4>
                 <ul>
-                  <li>Our <a class="link" href="https://www.bearhandspro.com">BHP</a> digital inspection reports show
-                    you a
-                    thorough evaluation of your entire system</li>
-                  <li>BHP guides technicians through every stage of the inspection, so you know nothing that nothing in
-                    your fireplace is ever missed.</li>
-                  <li>Insurance companies and realtors love <a class="link"
-                      href="https://www.bearhandspro.com">BHP's</a> easy
-                    to read reports, including pictures of any
-                    present problems.</li>
+                  <li>
+                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends
+                    an annual inspection to ensure that your gas fireplace continues to work properly.
+                  </li>
+                  <li>
+                    Many homeowners' insurance policies require an annual professional chimney inspection and
+                    cleaning. Your insurance company may require that you provide proof of this when filing a claim.
+                  </li>
                 </ul>
               </div>
-              <hr />
-              <div class="container">
-                <div class="row">
-                  <div class="col text-left">
-                    <h4 class="font-weight-bold">Have a Gas Fireplace Issue?</h4>
-                    <ul>
-                      <li>
-                        <span class="font-weight-bold">Pilot light not functioning</span>
-                        <ul>
-                          <li>
-                            One of the most common issues we see with gas fireplaces is a non-performing pilot light. If
-                            your gas fireplace is not functioning correctly, we recommend calling us for a full
-                            diagnostic. Our certified technicians will go through every component of your gas fireplace
-                            system with the help of our custom made software, <a class="link"
-                              href="https://www.bearhandspro.com">BHP</a>, which will also generate a digital
-                            report with pictures of any issues found.
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <span class="font-weight-bold">Burner won’t start or stays on too long</span>
-                        <ul>
-                          <li>
-                            With a full diagnostic, our certified gas appliance experts will be able to determine what
-                            part of your system is failing and offer the perfect resolution for your system. As members
-                            of the <a class="link" href="http://www.ncsg.org/">National Chimney Sweep Guild (NCSG)</a>,
-                            we have the knowledge and expertise to address
-                            any issues.
-                          </li>
-                        </ul>
-                      </li>
+            </div>
+          </div>
 
-                      <li>
-                        <span class="font-weight-bold">Fan is making too much noise.</span>
-                        <ul>
-                          <li>
-                            Like any appliance fan, dust and debris build-up can cause the fan to become noisy and
-                            inefficient. If your fan has started to fail, you may need a full diagnostic of your
-                            fireplace. Annual service can prevent problems such as these from occurring or getting
-                            worse.
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div class="container">
-                <div class="row">
-                  <div class="col text-left">
-                    <h4 class="font-weight-bold">Annual Maintenance Recommended for Gas Fireplaces</h4>
-                    <ul>
-                      <li>
-                        Even if there are no obvious issues present, we advise annual service inspections for gas
-                        fireplaces. During a service appointment, we check your pilot light, electrical components, gas
-                        hookups, inspect and clean venting, inspect and clean fans and blowers, clean the front glass
-                        panel, and ensure your system is running as efficiently as possible
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <div class="container d-none d-md-block ">
+            <div class="row">
+              <div class="col mt-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Today!</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <hr />
+
+    </div>
+
+    <div class="container pt-2 pt-md-4 pb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 px-lg-5">
+          <h4 class="font-weight-bold">Is your gas fireplace having these issues? We can fix it!</h4>
+          <div class="row my-4">
+            <div class="col-12 col-lg-6">
+              <ul class="mb-0">
+                <li class="font-weight-bold">Gas Fireplace turns off by itself</li>
+                <li class="font-weight-bold">Gas fireplace sparks but burner won't light</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <ul>
+                <li class="font-weight-bold">Pilot won't stay lit</li>
+                <li class="font-weight-bold">Small or ghosting flames</li>
+              </ul>
+            </div>
+          </div>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our specialized gas
+            fireplace technicians are able to perform most repairs in one visit!</p>
+
+          <h4 class="mt-5 font-weight-bold">Why Call Mike's Mobile?</h4>
+          <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our
+            chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also
+            prioritize ongoing education and training for all of our employees to make sure that our entire team is
+            prepared to handle your needs and concerns.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 d-none d-lg-block"></div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.csia.org/certifiedchimneysweep.html" target="_blank">
+            <img src="../../assets/images/landing/certified-sweep.png" alt="Certified Chimney Sweep Logo"
+              class="img-fluid">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/ncsgm.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/gscsg.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/logo-hpba.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="col-2 d-none d-lg-block"></div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row text-center px-0 mx-0">
+        <div class="col-md-12 px-0 mx-0">
+          <div class="card-deck">
+
+            <div class="card yelpCard " *ngFor="let review of landing.reviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </ng-container>
-  <ng-container *ngIf="landing.slug === 'security-doors'">
+
+  <ng-container *ngIf="landing.slug === 'gas-fireplace-service' ">
+
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
       <hr />
-      <p class="p-2">
-        Upgrade your style along with security with our security doors. Whether
-        you are looking for a traditional security door for safety or our high
-        quality aluminum security doors to protect both your view and your home,
-        Mike’s Mobile Screens has plenty of options for you.
-      </p>
-      <div class="row">
-        <!-- Gallery -->
-        <div class="col-12 col-md-7 pb-3">
-          <app-main-gallery [Images]="security_door_gallery"></app-main-gallery>
-        </div>
-
-        <!-- Above-the-fold Text -->
-        <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Front Security Screen Doors</h3>
-          <div class="container">
-            <ul class="pb-3">
-              <li id="l2">
-                Our high quality security doors are built to protect your home
-              </li>
-              <li id="l2">
-                These doors keep intruders out without compromising the
-                appearance of your home
-              </li>
-              <li id="l2">
-                With security doors whose designs say "upscale" instead of
-                "security" you can't go wrong with a Mike's Mobile security
-                door!
-              </li>
-            </ul>
-            <div class="d-flex flex-column">
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/grid/titan-security-doors">
-                Titan
-              </a>
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/viewguard-security-doors">
-                Viewguardg
-              </a>
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/tru-view-security-doors">
-                Tru View
-              </a>
+      <div class="row align-items-center">
+        <div class="col">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          <div class="container d-md-none ">
+            <div class="row">
+              <div class="col mt-2 center">
+                <div class=" d-md-none">
+                  <a class="btn oj" href="tel:+1{{this.phone}}">Call Us Now!</a>
+                </div>
+              </div>
             </div>
-            <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
-              <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
-                &nbsp; Get a Free Quote Now!
-              </h4>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold font-italic mt-sm-2">
+                  We Fix Gas Fireplaces!
+                </h4>
+                <p>
+                  With help from Mike’s Mobile you can be sure that your gas fireplace is working properly and save
+                  money on costly future problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified,
+                  specialized gas technicians will diagnose any issues with your system and perform the maintenance and
+                  repairs needed to ensure that it is clean and fully functioning!
+                  <br /> <br />A gas fireplace offers wonderful aesthetics and helps to keep your home warm during the
+                  cooler months. With regular maintenance, your system will be ready to go so that you can sit back,
+                  relax, and enjoy your gas fireplace!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold">Annual Maintenance for Gas Fireplaces</h4>
+                <ul>
+                  <li>
+                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends
+                    an annual inspection to ensure that your gas fireplace continues to work properly.
+                  </li>
+                  <li>
+                    Many homeowners' insurance policies require an annual professional chimney inspection and
+                    cleaning. Your insurance company may require that you provide proof of this when filing a claim.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container d-none d-md-block ">
+            <div class="row">
+              <div class="col mt-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Today!</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <hr />
-      <br />
+
+    </div>
+
+    <div class="container pt-2 pt-md-4 pb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 px-lg-5">
+          <h4 class="font-weight-bold">Is your gas fireplace having these issues? We can fix it!</h4>
+          <div class="row my-4">
+            <div class="col-12 col-lg-6">
+              <ul class="mb-0">
+                <li class="font-weight-bold">Gas Fireplace turns off by itself</li>
+                <li class="font-weight-bold">Gas fireplace sparks but burner won't light</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <ul>
+                <li class="font-weight-bold">Pilot won't stay lit</li>
+                <li class="font-weight-bold">Small or ghosting flames</li>
+              </ul>
+            </div>
+          </div>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your gas fireplace and exactly how it can be fixed. Our specialized gas
+            fireplace technicians are able to perform most repairs in one visit!</p>
+
+          <h4 class="mt-5 font-weight-bold">Why Call Mike's Mobile?</h4>
+          <p>Your peace of mind and trust is of the utmost importance to us. This is why we ensure that all of our
+            chimney and fireplace technicians are certified by the Chimney Safety Institute of America. We also
+            prioritize ongoing education and training for all of our employees to make sure that our entire team is
+            prepared to handle your needs and concerns.</p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-12 d-md-none pb-3">
-          <a routerLink="/products/sliding-security-doors">
-            <app-img
-              src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-              class="img-fluid" alt="Double Stainless Steel Sliding Security Door"></app-img>
+        <div class="col-2 d-none d-lg-block"></div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.csia.org/certifiedchimneysweep.html" target="_blank">
+            <img src="../../assets/images/landing/certified-sweep.png" alt="Certified Chimney Sweep Logo"
+              class="img-fluid">
           </a>
         </div>
-        <div class="col-12 col-md-5">
-          <h3 class="text-center text-left-md">Patio Doors</h3>
-          <div class="container">
-            <p class="p-2">
-              A sliding security door replaces your existing patio screen door.
-              These doors come pre-assembled and tamper resistant. Enjoy the
-              cool night air while sleeping in peace, quiet and safety. These
-              sliding security doors are also pet resistant! No more ripped
-              screens from pets.
-            </p>
-            <div class="d-flex flex-column">
-              <a class="btn blue my-2" mdbRippleRadius routerLink="/products/sliding-security-doors">
-                Sliding Security Screen Doors
-              </a>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/ncsgm.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/gscsg.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center col-3 col-lg-2">
+          <a href="https://www.ncsg.org/" target="_blank">
+            <img src="../../assets/images/landing/logo-hpba.jpg" class="img-fluid"
+              alt="Mike's Mobile is a member of the National Chimney Sweep Guild">
+          </a>
+        </div>
+        <div class="col-2 d-none d-lg-block"></div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row text-center px-0 mx-0">
+        <div class="col-md-12 px-0 mx-0">
+          <div class="card-deck">
+
+            <div class="card yelpCard " *ngFor="let review of landing.reviews">
+              <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                <div class="card-header">
+                  <a [href]="review.link1" rel="nofollow noopener">{{
+                    review.name
+                    }}</a>'s
+                  <a [href]="review.link2" rel="nofollow noopener">review</a>
+                  of
+                  <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                  </a>
+                  <br>
+                  <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                    class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                </div>
+                <div class="card-body text-left">
+                  <p>
+                    {{ review.content }}
+                  </p>
+                </div>
+                Read more on
+                <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+              </span>
             </div>
           </div>
         </div>
-        <div class="col-7 d-none d-md-block pb-3">
-          <a routerLink="/products/sliding-security-doors">
-            <app-img
-              src="/assets/images/security/sliding/display-photos/Double-Stainless-Steel-Sliding-Security-Door.jpg"
-              class="img-fluid" alt="Double Stainless Steel Sliding Security Door"></app-img>
-          </a>
+      </div>
+
+    </div>
+
+  </ng-container>
+
+  <!-- new format -->
+  <ng-container *ngIf="landing.slug === 'security-screen-doors' || landing.slug === 'our-security-screen-doors' || landing.slug === 'our-security-screen-doors-bakersfield' || landing.slug === 'security-doors'">
+    <div class="container-fluid">
+      <!-- Main -->
+      <div class="row">
+        <div
+          class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 d-flex p-3 p-xl-5 justify-content-center align-items-center">
+          <div class="m-0 m-md-3 m-xl-5 px-xl-5 pb-xl-5 paddingNoneHeader">
+            <h1 class="fontResponseh1 font-weight-bold">Your entryway is the smile of your home.</h1>
+            <p style="font-size: 25px;">We'll help you find the perfect security screen door.</p>
+            <div class="d-flex justify-content-center">
+              <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+          <img data-aos="fade" data-aos-duration="1000" width="100%" src="../../assets/images/landing/securityscreen/redViewguard.png" alt="red viewguard" />
         </div>
       </div>
     </div>
+
+    <!-- check with words -->
+    <div class="container-fluid">
+      <div class="row mb-5">
+
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Protect Your Home
+          </p>
+        </div>
+        <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+          style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+          style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-right" class="subtitleBold text-center mb-0">
+            ✓ Enjoy The Breeze
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 py-5 bluishBackground">
+          <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="subtitleBold text-center mb-0">
+            ✓ Express Your Style
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lady cooking with the unordered list of stuff -->
+    <div class="container pb-5">
+      <div class="row pt-3">
+        <div class="col-12 col-lg-6 p-lg-5">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/cooking.jpg" alt="Lady cooking" />
+        </div>
+
+        <div class="col-12 col-lg-6 pt-lg-5">
+
+          <h2 style="font-size:40px">Sound familiar? If so, we can help.</h2>
+          <br>
+          <ul style="font-size: 18px;">
+            <li class="mb-3">You want fresh air without compromising security</li>
+            <li class="mb-3">You feel vulnerable in your home</li>
+            <li class="mb-3">Your entryway could use a refresh</li>
+          </ul>
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Improve Security -->
+    <div class="container-fluid bluishBackground">
+      <div class="row pt-5">
+        <div class="col-12 text-center">
+          <h2 style="font-size:40px;">Improving the security and comfort of your home is our priority!</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-lg-2">
+          <div class="m-0 mx-md-5 d-flex justify-content-center">
+            <img data-aos="fade-down"  data-aos-anchor-placement="bottom-bottom" height="200" src="../../assets/images/landing/securityscreen/lock.png"
+              alt="lock to show Mike's Mobile values security">
+          </div>
+          <p class="text-center subtitleItalicBlue">
+            Security
+          </p>
+          <p class="text-center">Deter intruders and <br class="d-none d-md-block">protect those in your home</p>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-2">
+          <div class="m-0 mx-md-5 d-flex justify-content-center">
+            <img data-aos="fade-down"  data-aos-anchor-placement="bottom-bottom" height="200" src="../../assets/images/landing/securityscreen/houseAir.png"
+              alt="air flow in a house is extremely important to Mike's Mobile!">
+          </div>
+          <p class="text-center subtitleItalicBlue">
+            Airflow
+          </p>
+          <p class="text-center">Stainless steel mesh <br class="d-none d-md-block"> allows cross-breeze</p>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-2">
+          <div class="m-0 mx-md-5 d-flex justify-content-center">
+            <img data-aos="fade-down"  data-aos-anchor-placement="bottom-bottom" height="200" src="../../assets/images/landing/securityscreen/star.png"
+              alt="Your style is important to us!">
+          </div>
+          <p class="text-center subtitleItalicBlue">
+            Style
+          </p>
+          <p class="text-center">Modern designs to <br class="d-none d-md-block">compliment your home</p>
+        </div>
+        <div class="d-none d-lg-block col-lg-3"></div>
+      </div>
+      <div class="row">
+
+        <div class="col-12 d-flex justify-content-center mt-4 mb-5">
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- review section -->
+    <div class="container" style="overflow: hidden;">
+
+      <!-- Upgrading -->
+      <div class="row mt-5">
+        <div class="col-12 mb-3">
+          <h2 style="font-size:40px;" class="text-center mb-3">You should be able to let in the breeze<br
+              class="d-none d-md-block"> without letting in intruders!</h2>
+
+          <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
+            homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
+        </div>
+      </div>
+
+      <!-- reviews -->
+      <div class="row text-center mx-0 mb-4">
+        <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+          <img data-aos="fade-right"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/securityscreen/left.png" class="img-fluid" alt="A Mike's Mobile Review">
+        </div>
+        <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+          <img data-aos="fade"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/securityscreen/middle.png" class="img-fluid"
+            alt="A Mike's Mobile Review">
+        </div>
+        <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+          <img data-aos="fade-left"  data-aos-anchor-placement="bottom-bottom" src="../../assets/images/landing/securityscreen/right.png" class="img-fluid"
+            alt="A Mike's Mobile Review">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="order-xl-2 d-none d-xl-block col-xl"></div>
+        <div
+          class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+          <a href="https://www.cslb.ca.gov/" target="_blank">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+              alt="Department of Consumer Affairs Contractors State License Board logo">
+          </a>
+        </div>
+        <div class="order-1 order-md-2 order-xl-3 col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center px-2">
+          <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" target="_blank"
+            style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+
+          <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors" target="_blank"
+            style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+              src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+              alt="Window & Doors Contractors near me" /></a>
+        </div>
+        <div class="order-3 col-6 col-md-4 order-xl-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+          <a href="https://www.hpba.org/" target="_blank">
+            <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+              alt="Hearth Patio And BBQ Association Logo">
+          </a>
+        </div>
+        <div class="d-none d-xl-block col-xl order-xl-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-4">
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- How We Make It Easy, 1 , 2 , 3 -->
+    <div class="container-fluid bluishBackground py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <h2 style="font-size:40px;">How We Make It Easy:</h2>
+          </div>
+        </div>
+        <div class="container">
+
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-lg"></div>
+            <div class="col-12 col-lg-3 mb-3" id="triggerMakeItEasy" data-aos-anchor="#triggerMakeItEasy" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/csr.png"
+                alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+              <p class="subtitleBold mt-2 mb-1">1. Call Us</p>
+              <p style="font-size:20px;" class="lineSpacing">
+                We’ll listen to your goals and schedule a visit</p>
+            </div>
+            <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerMakeItEasy" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-delay="700">
+              <img class="img-fluid" src="../../assets/images/landing/chimServices/DanC.png"
+                alt="One of our outstanding technicians will come to you and help you find the perfect screen door for you">
+              <p class="subtitleBold mt-2 mb-1">2. We Come To You</p>
+              <p style="font-size:20px;" class="lineSpacing">Your security advisor will help you choose the perfect door
+              </p>
+            </div>
+            <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerMakeItEasy" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-delay="1200">
+              <img class="img-fluid" src="../../assets/images/landing/securityscreen/openview.png"
+                alt="Beautiful Viewguard, perfect for YOUR house!">
+              <p class="subtitleBold mt-2 mb-1">3. Enjoy The Breeze</p>
+              <p style="font-size:20px;" class="lineSpacing">
+                Have a nice cross-breeze in your home while still feeling secure
+              </p>
+            </div>
+            <div class="col-lg"></div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free Consultation -->
+    <div class="container">
+      <div class="row">
+        <div class="d-none d-xl-block col-xl-1"></div>
+        <div class="col-12 col-lg-6 col-xl-5">
+          <img class='img-fluid' src="../../assets/images/landing/securityscreen/hankLadder.png"
+            alt="One of our amazing technicians, Hank, ready to make your home more secure!">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-5 px-2 mt-4 px-md-5">
+          <h2 style="font-size:40px;">Free Consultation</h2>
+          <br>
+          <p style="font-size:20px;" class="lineSpacing">We understand that your home is a reflection of you, which is
+            why we give you a free one-on-one consultation with a security advisor to help you find the perfect screen
+            door.</p>
+          <div class="d-flex justify-content-center">
+            <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+          </div>
+        </div>
+        <div class="d-none d-xl-block col-xl-1"></div>
+
+      </div>
+    </div>
+
+    <!-- Map Pic -->
+    <div class="container-fluid bluishBackground py-5 mt-5">
+
+      <div class="container" style="overflow: hidden;">
+        <div class="row">
+          <div class="order-xl-1 d-none d-xl-block col-xl"></div>
+          <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 mt-2 mt-md-5 px-md-5">
+            <h2 style='font-size: 40px;'>Our Guarantee</h2>
+            <br>
+            <ul style="font-size: 18px;">
+              <li class="mb-3">Save time & money - your project will be done right the first time</li>
+              <li class="mb-3">Full-service experience, we take care of you start to finish</li>
+              <li class="mb-3">Professional installation - for a perfect end result</li>
+              <li class="mb-3">Lifetime no break-in guarantee</li>
+            </ul>
+            <div class="d-flex justify-content-center mt-2">
+              <a class="btn mikesBlueBtn text-center" href="tel:+1{{this.phone}}">Call Now</a>
+            </div>
+
+          </div>
+          
+
+          <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4">
+            <img *ngIf="landing.slug !== 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/mapNoBakersfield.png"
+              alt="Map of our Service Area!">
+            <img *ngIf="landing.slug === 'our-security-screen-doors-bakersfield' " data-aos="fade-left" data-aos-anchor-placement="center-bottom" class='img-fluid' src="../../assets/images/landing/securityscreen/bakersfieldcentral.png"
+              alt="Bakersfield Sign with a Mike's Mobile Truck and text saying Proudly Serving Central California">
+              <p *ngIf="landing.slug === 'our-security-screen-doors-bakersfield'" class="pt-3 font-weight-bold small text-center">Also serving Fresno, Visalia, San Luis Obispo, and More!</p>
+          </div>
+          <div class="order-xl-4 d-none d-xl-block col-xl"></div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg"></div>
+        <div class="d-none d-lg-block col-lg-6 text-center">
+          <img class="img-fluid" src="/assets/images/landing/securityscreen/blackViewguard.png" alt="beautiful black viewguard">
+        </div>
+        
+        <div class="d-none d-lg-block col-lg-4 pt-2">
+          <h2 class="pl-2 pl-xl-3 mb-0 font-weight-bold">Schedule Today!</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+        <div class="col-lg"></div>
+      </div>
+
+      <div class="d-lg-none row">
+        <div class="col-12 viewguardImg">
+          <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Schedule Your Free
+            Consultation Today!</h2>
+          <app-contact-form></app-contact-form>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </div>
+
+    <!-- Check Out Our Recent Work -->
+    <div class="container-fluid bluishBackground py-5">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 style="font-size:40px;">Check Out Our Recent Work!</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div *ngFor="let pics of landing.images" class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+            <img class="img-fluid" src={{pics.medium}} alt={{pics.alt}}>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </ng-container>
+
   <ng-container *ngIf="landing.slug === 'security-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -563,16 +1754,14 @@
               emergency.
             </p>
             <div class="d-flex flex-column">
-              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/quick-escape-security-windows">
-                Quick Escape Security Windows
-              </a>
-              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/fixed-security-windows">
-                Fixed Security Windows
+
+              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/security-windows">
+                Security Windows
               </a>
             </div>
             <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
               <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
-                &nbsp; Get a Free Quote Now!
+                &nbsp; Schedule Now!
               </h4>
             </div>
           </div>
@@ -580,6 +1769,7 @@
       </div>
     </div>
   </ng-container>
+
   <ng-container *ngIf="landing.slug === 'security-doors-and-windows'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -611,6 +1801,7 @@
                 door!
               </li>
             </ul>
+
             <div class="d-flex flex-column">
               <a class="btn blue my-2" mdbRippleRadius routerLink="/grid/titan-security-doors">
                 Titan
@@ -622,11 +1813,11 @@
                 Tru View
               </a>
             </div>
+
             <div class="flex-row my-4 text-center" (click)="openQuoteForm()">
-              <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">
-                &nbsp; Get a Free Quote Now!
-              </h4>
+              <h4 class="animated pulse infinite orange-text pl-4 pb-3 cursor-pointer">Schedule Now!</h4>
             </div>
+
           </div>
         </div>
       </div>
@@ -684,18 +1875,18 @@
               emergency.
             </p>
             <div class="d-flex flex-column">
-              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/quick-escape-security-windows">
-                Quick Escape Security Windows
-              </a>
-              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/fixed-security-windows">
-                Fixed Security Windows
+
+              <a class="btn orange my-2" mdbRippleRadius routerLink="/products/security-windows">
+                Security Windows
               </a>
             </div>
+
           </div>
         </div>
       </div>
     </div>
   </ng-container>
+
   <ng-container *ngIf="landing.slug === 'awnings'">
     <div class="container py-4">
       <h1 class="p-2" [innerHTML]="landing.title"></h1>
@@ -732,5 +1923,106 @@
       <hr />
     </div>
   </ng-container>
+
+  <ng-container *ngIf="landing.slug === 'pellet-stove-repair'">
+
+    <div class="container py-4">
+      <h1 class="p-2" [innerHTML]="landing.title"></h1>
+      <hr />
+      <div class="row align-items-center">
+        <div class="col">
+          <app-main-gallery [Images]="gallery_images"></app-main-gallery>
+          <div class="container d-md-none ">
+            <div class="row">
+              <div class="col mt-2 center">
+                <div class=" d-md-none">
+                  <a class="btn oj" href="tel:+1{{this.phone}}">Call Us Now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold font-italic mt-sm-2">
+                  Mike’s Mobile is Northern California’s premier Pellet Stove Service and Repair company.
+                </h4>
+                <p>
+
+                  Pellet stoves need annual maintenance to ensure they are working efficiently and to avoid costly
+                  problems. Our <a class="link" href="https://www.csia.org/">CSIA</a> certified, specialized pellet
+                  technicians will diagnose any issues with your system and perform the maintenance and repairs needed
+                  to ensure that it is clean and working when you need it to!
+
+
+                  <br /> <br />A pellet stove offers very efficient heat to warm your home during the winter. With
+                  regular maintenance, your system will be ready to go so that you can sit back, relax, and enjoy your
+                  pellet stove!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col text-left">
+                <h4 class="font-weight-bold">Pellet Stoves require Annual Clean & Service</h4>
+                <ul>
+                  <li>
+                    Even if you don’t notice any obvious issues, the National Fire Protection Association recommends an
+                    annual inspection to ensure that your pellet stove continues to work properly.
+                  </li>
+                  <li>
+                    Many homeowners' insurance policies require an annual professional chimney inspection and cleaning.
+                    Your insurance company may require that you provide proof of this in the unfortunate event you need
+                    to file a claim.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container d-none d-md-block">
+            <div class="row">
+              <div class="col mt-2">
+                <button class="btn oj btn-block" (click)="openQuoteForm()">Book Us Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container pt-2 pt-md-4 pb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 px-lg-5">
+          <h4 class="font-weight-bold">Is your pellet stove having these issues? We can fix it!</h4>
+          <div class="row my-4">
+            <div class="col-12 col-lg-6">
+              <ul class="mb-0">
+                <li class="font-weight-bold">Poor burn quality</li>
+                <li class="font-weight-bold">Blackened glass</li>
+                <li class="font-weight-bold">Trouble igniting</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+              <ul>
+                <li class="font-weight-bold">Lazy or small flame</li>
+                <li class="font-weight-bold">Low heat output</li>
+              </ul>
+            </div>
+          </div>
+          <p>A full diagnostic may be needed to determine the cause of such issues. Our technicians will test every
+            component in your system. They will also provide you with a digital report, complete with photos, that shows
+            you exactly what’s wrong with your pellet stove and exactly how it can be fixed.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </ng-container>
+
+
 </ng-container>
-<app-quote-form></app-quote-form>

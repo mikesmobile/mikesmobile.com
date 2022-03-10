@@ -7,15 +7,30 @@
   top: 0
   left: 0
 
+.underLineText
+  text-decoration: underline !important
+
+.btn.oj
+  text-transform: none
+  font-size: 16px
+  color: black !important;
   
+// .btn.mikesBlueBtn
+//   text-transform: none
+//   font-size: 16px
+//   color: black !important;
+
+hr
+  background-color: $orange
+
 .hero
   background-color: mmblue
 
-.card-title, .card-back-title
+.card-title-1, .card-back-title
   font-size: 1.2em !important
   text-align: center !important
   padding: 0.3em !important
-  background-color: #ff9800
+  background-color: $orange !important
   color: white !important
 
 .card-back-title
@@ -77,7 +92,7 @@
   .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper
     transform: rotateY(180deg)
 
-.tile
+.tile1
   max-height: 200px !important
 
 .tileTitle
@@ -87,7 +102,18 @@
   padding: 0 !important
   @include breakpoint(md)
     height: 57.5px
-    background-color: #ff9800
+    background-color: $orange
+
+.tileTitle1
+  height: 79px
+  width: 140px !important
+  margin: 0 
+  padding: 0 !important
+  @include breakpoint(md)
+    height: 57.5px
+    background-color: $orange
+  @include breakpoint(xs)
+    width: 243px !important
 
 .tileInfo
   display: none
@@ -108,5 +134,97 @@
 
 .link
   text-decoration: underline
-  
 
+.fa-star
+  color: #F9A602 !important
+
+.fa-yelp
+  color: #D32323
+
+.lineSpacing
+  line-height: 30px
+
+.tile
+  display: flex
+  width: 140px!important
+  @include breakpoint(xs)
+    width: 243px !important
+
+.tileTitle
+  height: 100%
+  width: 140px !important
+  margin: 0 
+  padding: 0 !important
+  @include breakpoint(md)
+    height: 57.5px
+    background-color: $orange
+  @include breakpoint(xs)
+    width: 243px !important
+
+.card-img-overlay
+  margin-top: 5rem !important
+
+.tileListContainer
+  border-top: solid 5px $orange
+  border-bottom: solid 5px $orange
+  background: rgba(0, 0, 0, 0.7)
+
+.tileList
+  color: white
+  padding-top: 10px
+  padding-right: 10px 
+  list-style-type: disc !important
+  list-style-position: outside !important
+
+
+.tileBlurb
+  line-height: 1.4 !important
+  font-weight: normal !important
+  color: white
+
+.backGroundGrey
+  background-color: #5b5d52
+  font-size: 19px
+  color: #FFF
+
+.backGroundGrey:hover
+  color: #ebebeb
+
+.subtitle
+  font-size: 28px
+
+.subtitleBold
+  font-size: 25px
+  font-weight: bold
+
+.subtitleItalicBlue
+  color: $mmblue
+  font-size: 25px
+  font-style: italic
+  font-weight: bold
+
+
+.bluishBackground
+  background-color: #EDF3FF
+  // background-color: #93b7ff
+
+.familyBg
+  background: url('/assets/images/landing/chimServices/quoteForm.png')
+  background-position-y: 50%
+  background-repeat: none
+  background-size: cover
+
+.BlurBg
+  background-color: #ffffffaf 
+
+.contactImg
+  background: url('/assets/images/landing/windowServices/ladypointing.jpg')
+  background-repeat: none
+  background-size: cover
+  background-position-x: 52%
+  background-position-y: 50%
+
+@media screen and (min-width: 1200px) and (max-width: 1640px)
+  .paddingNoneHeader
+    padding: 0px !important
+    margin: 0px !important

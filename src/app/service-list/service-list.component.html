@@ -2,49 +2,40 @@
   <div class="container service-list justify-content-center text-center mt-3">
     <div class="row justify-content-center">
       <div class="col-12 pb-2">
-        <ng-container
-          *ngFor="let service of categoryList | findByTitle: categories[i]"
-        >
-          <h1 class="text-center py-3" [id]="service.slug">
-            <a
-              class="orange-text"
-              [routerLink]="['/about', service.slug]"
-              [innerHTML]="category"
-            ></a>
+        <ng-container *ngFor="let service of categoryList | findByTitle: categories[i]">
+          <h1 class="text-center sectionHeaders py-3" [id]="service.slug">
+            <a class="text-white" [routerLink]="['/about', service.slug]" [innerHTML]="category"></a>
           </h1>
         </ng-container>
       </div>
-      <ng-container
-        *ngFor="let service of serviceList | findByCategory: categories[i]"
-      >
-        <div class="col-6 col-md-4 col-lg-3">
+      <div class="col-12 cardContainer">
+        <ng-container *ngFor="let service of serviceList | findByCategory: categories[i]">
           <div class="card tile my-2 rounded">
             <a class="d-block" [routerLink]="['/', service.type, service.slug]">
+              <div class="container d-table tileTitle text-center align-center w-100 mx-0">
+                <h4 class="card-title d-table-cell backGroundGrey text-center w-100 align-middle m-0"
+                  [innerHTML]="service.title"></h4>
+              </div>
               <div class="view waves-light" mdbRippleRadius>
-                <app-img
-                  [src]="service.tileImage"
-                  class="img-fluid card-img"
-                  [alt]="service.title"
-                ></app-img>
+                <app-img [src]="service.tileImage" class="img-fluid card-img " [alt]="service.title">
+                </app-img>
               </div>
-              <div class="card-img-overlay tileInfo mt-0">
-                <p
-                  class="mb-0 text-center tileBlurb text-white transparent-gray"
-                  [innerHTML]="service.tileText"
-                ></p>
+              <div class="card-img-overlay tileInfo text-left px-0 mt-5">
+                <div class="tileListContainer ">
+                  <p *ngIf="!service.tileBullets" class="mb-0 text-center tileBlurb text-black transparent-gray"
+                    [innerHTML]="service.tileText"></p>
+                  <ul *ngIf="service.tileBullets" class="tileList">
+                    <li *ngFor="let bullet of service.tileBullets" class='tileListItem'>{{bullet}}</li>
+                  </ul>
+                </div>
               </div>
-              <div
-                class="container d-table tileTitle text-center align-center w-100 mx-0"
-              >
-                <h4
-                  class="card-title d-table-cell text-center w-100 align-middle m-0"
-                  [innerHTML]="service.title"
-                ></h4>
-              </div>
+
             </a>
           </div>
-        </div>
-      </ng-container>
+        </ng-container>
+      </div>
     </div>
+    <hr *ngIf="i < categories.length-1" class='divider'>
+    <br *ngIf="i == categories.length-1">
   </div>
 </ng-container>

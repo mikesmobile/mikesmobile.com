@@ -1,8 +1,113 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { Router, Event, NavigationEnd } from '@angular/router';
+import phoneListJSON from '../../assets/json/phoneList.json';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.sass']
 })
-export class FooterComponent {}
+export class FooterComponent implements OnInit {
+  phone;
+  phoneList = [];
+  turnMeOn = true;
+  central = false;
+  firepit = false;
+  currentRoute: string;
+
+  constructor(private router: Router) {
+    this.currentRoute = "";
+    this.router.events.subscribe((event: Event) => {
+      if (event instanceof NavigationEnd) {
+        // Hide progress spinner or progress bar
+        this.currentRoute = event.url;
+        this.turnMeOn = this.footerSwitch()
+        this.central = this.centralFooterCheck()
+        this.firepit = this.firepitCheck()
+        this.phone = this.phoneNumberSwitch()
+      }
+    });
+  }
+  adList = [
+    '/about/gas-fireplace-service',
+    '/about/theWaterproofingPackage',
+    '/grid/our-chimney-repairs',
+    '/about/our-screen-doors',
+    '/about/our-security-screen-doors',
+    '/about/our-chimney-services',
+    '/services/our-window-screen-services',
+    '/grid/titans',
+    '/products/viewguards',
+    '/about/our-fireplace-services',
+    '/about/our-annual-cleaning-and-inspection',
+    '/services/masonry/firepits'
+
+  ]
+  centralList = [
+    '/about/our-security-screen-doors-bakersfield',
+    '/regionsSecurity/bakersfield',
+    '/regionsSecurity/visalia',
+    '/products/security-windows-central',
+    '/grid/titan-security-doors-central',
+    '/products/viewguard-security-doors-central',
+    '/products/sliding-security-doors-central',
+    '/products/tru-view-security-doors-central'
+  ]
+
+  firepitList = [
+    '/services/masonry/firepits',
+    '/services/masonry/outdoorfireplaces'
+  ]
+
+  phoneNumberSwitch() {
+
+    // if one of the json.slugs matches currentRoute then return the phone number, otherwise return the main number. will have to combine the json in security door too.
+    // meaning i have to loop through the json slugs to find the one that matches the current route forloop style then return the specific number. 
+
+  for(let i = 0; i < this.phoneList.length; i++){
+    if(this.phoneList[i].slug === this.currentRoute){
+      return this.phoneList[i].phone
+    }
+  }
+  return this.phoneList[0].phone
+
+}
+
+  
+  // combines all the lists into one super list of blocking!
+  doNotShow = [].concat(this.adList, this.centralList, this.firepitList)
+
+  footerSwitch() {
+    // this is where I put the landing pages to remove the footer
+    for (let i = 0; i < this.doNotShow.length; i++) {
+      if (this.currentRoute === this.doNotShow[i]) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  centralFooterCheck() {
+    for (let i = 0; i < this.centralList.length; i++) {
+      if (this.currentRoute === this.centralList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  firepitCheck(){
+    for (let i = 0; i < this.firepitList.length; i++) {
+      if (this.currentRoute === this.firepitList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+
+  ngOnInit() {
+    phoneListJSON.forEach((data) => {
+      this.phoneList.push(data);
+    });
+  }
+}

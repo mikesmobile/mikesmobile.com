@@ -7,6 +7,7 @@
 @include breakpoint(lg)
   .card-title
     margin-top: 325px
+    margin-bottom: 0px
 
 .title-bar
   position: absolute
@@ -22,16 +23,28 @@
   @include breakpoint(lg)
     height: 500px
 
+.tile:hover
+  .tileInfo 
+    @include breakpoint(md)
+      display: block
+
+
 .tileImg
   display: block
 
-.tileInfo
+.tileTitle 
+  width: 100%
+  padding: 10px
+  font-weight: bold
+  background: rgba(0, 0, 0, 0.7)
+
+.tileInfo 
   display: none
-
-.tile:hover
-  .tileInfo
-    display: inline
-
+  width: 100%
+  padding: 5px
+  background-color: $mmblue
+  background: rgba(0, 174, 239, 0.8)
+    
 .carousel
   h2
     text-transform: uppercase
@@ -48,3 +61,17 @@
 
 .alert
   background-color: #f4f4f4 !important
+
+.chimneyTileTitleSmall
+  display: block;
+
+.chimneyTileTitleLarge
+  display: none
+
+@include breakpoint(xl)
+  .chimneyTileTitleSmall 
+    display: none;
+  .chimneyTileTitleLarge
+    display: block
+ 
+

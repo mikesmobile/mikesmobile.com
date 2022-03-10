@@ -35,6 +35,7 @@ import { ImageComponent } from './image/image.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { MainGalleryComponent } from './main-gallery/main-gallery.component';
+import { noTileGalleryComponent } from './no-tile-gallery/no-tile-gallery.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
@@ -49,6 +50,7 @@ import { SeoAdwordsLpComponent } from './seo-adwords-lp/seo-adwords-lp.component
 import { ServiceDetailComponent } from './service-detail/service-detail.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { TabNavComponent } from './tab-nav/tab-nav.component';
+import { CareerPageComponent } from './career-page/career-page.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { TileNavComponent } from './tile-nav/tile-nav.component';
 import { PromoComponent } from './promo/promo.component';
@@ -66,6 +68,13 @@ import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-s
 import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { LandingContactComponent } from './landing-contact/landing-contact.component';
+import { ServiceAreaComponent } from './service-area/service-area.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
+import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecurity.component';
+
+
 
 @NgModule({
   declarations: [
@@ -88,6 +97,7 @@ import { environment } from '../environments/environment';
     HomeComponent,
     ImageComponent,
     LandingPageComponent,
+    CareerPageComponent,
     NavigationComponent,
     PageNotFoundComponent,
     PostDetailComponent,
@@ -106,6 +116,7 @@ import { environment } from '../environments/environment';
     ThankYouComponent,
     FooterGalleryComponent,
     MainGalleryComponent,
+    noTileGalleryComponent,
     LandingRegionalComponent,
     ChimneyGlossaryComponent,
     ChimneyFaqComponent,
@@ -126,7 +137,12 @@ import { environment } from '../environments/environment';
     QuoteFormAwningComponent,
     AnnouncementMessageComponent,
     SolarScreenPriceCalcComponent,
-    QuoteFormSolarScreenComponent
+    QuoteFormSolarScreenComponent,
+    LandingContactComponent,
+    ServiceAreaComponent,
+    ContactFormComponent,
+    LandingRegionalSecurityComponent,
+    RegioncardsecurityComponent
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),

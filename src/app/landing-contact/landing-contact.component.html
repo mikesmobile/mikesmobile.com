@@ -1,0 +1,81 @@
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center">Join The Mike's Mobile Team!</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8">
+      <p>Thank you for your interest in a position at Mike's Mobile. Please fill out the form below completely and we'll
+        call you to schedule an interview!</p>
+    </div>
+
+    <div class="col-12 col-lg-8 shadow">
+      <form class="row contact py-4 px-2" [formGroup]="form" method="post" (ngSubmit)="onSubmit()"
+        enctype="multipart/form-data">
+        <div class="col-12 col-lg-3">
+          <span>Full Name</span>
+        </div>
+        <div class="col-12 col-lg-9 mb-2">
+          <input class="form-control" [formControl]="name" type="name" placeholder="Jane Doe" required>
+        </div>
+        <div class="col-12 col-lg-3">
+          <span>Email</span>
+        </div>
+        <div class="col-12 col-lg-9 mb-2">
+          <input class="form-control" type="email" [formControl]="email" placeholder="example@mikesmobile.com" required
+            email>
+        </div>
+        <div class="col-12 col-lg-3">
+          <span>Phone</span>
+        </div>
+        <div class="col-12 col-lg-9 mb-2">
+          <input class="form-control" [formControl]="phone" placeholder="800-123-4567" type="tel" required>
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <span>Position</span>
+        </div>
+        <div class="col-12 col-lg-9 mb-2">
+          <select class="browser-default custom-select" name="Jobs" [formControl]="position">
+            <option *ngFor="let job of jobs">{{job}}</option>
+          </select>
+
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <span>Resume Upload</span>
+        </div>
+
+        <div class="col-12 col-lg-9 mb-2">
+          <input type="file" class="form-control-file" [formControl]="file" name="file" (change)="onFileChange($event)">
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <span>Why Join Us?</span>
+        </div>
+        <div class="col-12 col-lg-9 mb-2">
+          <div class="textarea">
+            <textarea class="form-control" placeholder="Why do you want to join the Mike's Mobile Team?"
+              [formControl]="message" type="text" maxlength="1500" required></textarea>
+
+          </div>
+          <small class="end">{{message.value?.length || 0}}/1500</small>
+        </div>
+
+        <div class="col-12 d-flex justify-content-end" *ngIf="form.valid">
+          <button [disabled]="isLoading" class="submit btn btn-primary" type="submit">Submit</button>
+          <input [formControl]="honeypot" class="hidden" type="text" />
+          <div [ngClass]="!submitted ? 'hidden' : 'visible'" class="center-text">
+            <span>{{responseMessage}}</span>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-end" *ngIf="!form.valid">
+          <button [disabled]="!form.valid" class="submit btn btn-primary">Submit</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

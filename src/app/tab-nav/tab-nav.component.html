@@ -1,12 +1,8 @@
-<div class="container py-4 " id="tab-section">
+<div *ngIf="details" class="container py-4 " id="tab-section">
   <div class="container ">
-    <mdb-tabset
-      class="menu"
-      buttonClass="md-tabs light-blue tabs-3"
-      contentClass="card"
-    >
+    <mdb-tabset class="menu" buttonClass="md-tabs light-blue tabs-3" contentClass="card">
       <ng-container #navwrap *ngFor="let info of details; let i = index">
-        <mdb-tab *ngIf="info != ''" [heading]="info.title">
+        <mdb-tab *ngIf="info != '' && info.title !== 'Warranty'" [heading]="info.title">
           <div *ngIf="info.description" class="px-0 m-0 mobileGrow">
             <p class="py-4 px-0 m-0" [innerHTML]="info.description"></p>
             <div *ngIf="info.image">
@@ -32,15 +28,9 @@
             <div *ngFor="let i of info.video | keys" class="text-center py-4">
               <h3 [innerHTML]="i.key"></h3>
               <hr />
-              <iframe
-                *ngIf="info.video"
-                width="100%"
-                height="400px"
-                [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-              ></iframe>
+              <iframe *ngIf="info.video" width="100%" height="400px"
+                [src]="sanitizer.bypassSecurityTrustResourceUrl(i.value)" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
         </mdb-tab>

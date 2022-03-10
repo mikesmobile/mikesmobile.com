@@ -1,70 +1,16 @@
 [
   {
-    "title": "tru-view-security-doors",
-    "type": "products",
-    "name": "TRU-View Security Screen Doods",
-    "price": [
-      {
-        "price": "$1695",
-        "type": ""
-      }
-    ],
-    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "titan-security-doors",
-    "type": "products",
-    "name": "Titan Security Doors",
-    "priceTag": "/assets/images/priceTags/titanPriceTag.png",
-    "price": [
-      {
-        "price": "$2,295",
-        "type": ""
-      }
-    ],
-    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "viewguard-security-doors",
-    "type": "products",
-    "name": "Viewguard Security Doors",
-    "priceTag": "/assets/images/priceTags/titanPriceTag.png",
-    "price": [
-      {
-        "price": "$1,995",
-        "type": ""
-      }
-    ],
-    "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "sliding-security-doors",
-    "type": "products",
-    "name": "Sliding Security Doors",
-    "price": [
-      {
-        "price": "$2,595",
-        "type": "Single"
-      },
-      {
-        "price": "$3,195",
-        "type": "Double"
-      }
-    ],
-    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
     "title": "pet-doors",
     "type": "products",
     "name": "Pet Doors",
     "price": [
       {
         "type": "Sm-md",
-        "price": "$215.00"
+        "price": "$249.00"
       },
       {
         "type": "lg-xl",
-        "price": "$305.00"
+        "price": "$355.00"
       }
     ],
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
@@ -87,7 +33,7 @@
     "name": "Retractable Screen Doors",
     "price": [
       {
-        "price": "$795",
+        "price": "$895",
         "type": ""
       }
     ],
@@ -99,7 +45,7 @@
     "name": "El Dorado",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -111,7 +57,7 @@
     "name": "Fiesta",
     "price": [
       {
-        "price": "$625",
+        "price": "$$750",
         "type": ""
       }
     ],
@@ -123,7 +69,7 @@
     "name": "Safegaurd",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -135,7 +81,7 @@
     "name": "Santa Cruz",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -147,7 +93,7 @@
     "name": "Brighton",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -159,7 +105,7 @@
     "name": "Clearview",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -171,7 +117,7 @@
     "name": "Colonade",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
@@ -183,48 +129,11 @@
     "name": "Craftsman",
     "price": [
       {
-        "price": "$625",
+        "price": "$750",
         "type": ""
       }
     ],
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "lifestyle-garage-screen",
-    "type": "products",
-    "name": "Lifestyle Garage Screen Door",
-    "price": [
-      {
-        "price": "$2,695"
-      }
-    ],
-    "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
-  },
-  {
-    "title": "chimney-cleaning",
-    "type": "services",
-    "price": [
-      {
-        "name": "Open Fireplace",
-        "price": "$249"
-      },
-      {
-        "name": "Freestanding Stove",
-        "price": "$269"
-      },
-      {
-        "name": "Insert",
-        "price": "$349"
-      },
-      {
-        "name": "Pellet Stove",
-        "price": "$349"
-      },
-      {
-        "name": "Gas Fireplace",
-        "price": "$249"
-      }
-    ]
   },
   {
     "title": "chimney-inspections",
@@ -235,8 +144,12 @@
         "price": "Free With Cleaning"
       },
       {
-        "name": "Level - 2*",
-        "price": "$249.00"
+        "name": "Level - 2(Open & Frestanding)*",
+        "price": "$472.50"
+      },
+      {
+        "name": "Level - 2 (Insert)",
+        "price": "$507.50"
       }
     ],
     "disclaimer": "Get 1/2 cleaning when paired with a level-2 inspection!"
@@ -247,29 +160,7 @@
     "price": [
       {
         "name": "Dryer Vent Cleaning",
-        "price": "$249"
-      }
-    ]
-  },
-  {
-    "title": "window-screen-repair",
-    "type": "services",
-    "price": [
-      {
-        "name": "Re-Screen Old frame, up to 15 sq. feet:",
-        "price": "$55.00"
-      },
-      {
-        "name": "Bugscreen, under 15 sq. feet:",
-        "price": "$65.00"
-      },
-      {
-        "name": "Oversize, 15-25 sq. feet:",
-        "price": "$105.00"
-      },
-      {
-        "name": "Double hung:",
-        "price": "$115.00"
+        "price": "$339"
       }
     ]
   },
@@ -279,7 +170,7 @@
     "name": "Gas Fireplace Annual Service",
     "price": [
       {
-        "price": "$249.00"
+        "price": "$339"
       }
     ],
     "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
@@ -291,11 +182,11 @@
     "price": [
       {
         "name": "Gas Log Set - Installation only*",
-        "price": "$360.00"
+        "price": "$455"
       },
       {
         "name": "Gas Log Set - Includes set & installation",
-        "price": "$575.00"
+        "price": "$1,520.55"
       }
     ],
     "disclaimer": "We can install your Gas Log Set."

@@ -11,6 +11,7 @@ import {
 } from '@angular/animations';
 import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
 import regionalJSON from '../../assets/json/regional_services.json';
+import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
 
 @Component({
   selector: 'app-landing-regional',
@@ -42,6 +43,7 @@ import regionalJSON from '../../assets/json/regional_services.json';
 })
 export class LandingRegionalComponent implements OnInit {
   region;
+  regionSecurity;
   service;
   review1;
   review2;
@@ -60,7 +62,7 @@ export class LandingRegionalComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     public sanitizer: DomSanitizer
-  ) {}
+  ) { }
 
   mapClicked($event: MouseEvent) {
     this.scrollwheel = true;
@@ -76,9 +78,15 @@ export class LandingRegionalComponent implements OnInit {
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
 
+      console.log(params[1].path);
       this.region = regionalJSON.find((data) => {
         return data.slug === regionalSlug;
       });
+      this.regionSecurity = regionalSecurityJSON.find((data) => {
+        return data.slug === regionalSlug;
+      });
+
+      // console.log(this.region.services[1].cards)
 
       // No region found
       if (!this.region) {

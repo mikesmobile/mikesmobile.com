@@ -5,17 +5,12 @@
       "/index.html.var"
     ],
     "title": "Mike's Mobile Screen & Chimney Service",
-    "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
+    "description": "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs  and more!"
   },
   {
     "page": "/about",
     "title": "About Mike's Mobile Screen & Chimney Service",
-    "description": "Window screen repair, door screen repair, security doors and windows, retractable patio awnings and more! Chimney sweep, chimney inspections and chimney repairs for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
-  },
-  {
-    "page": "/about/awnings",
-    "title": "Awnings for California | Mike's Mobile",
-    "description": "Mike's Mobile provides Sunesta retractable awnings and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
+    "description": "Window screen repair, door screen repair, security doors and windows and more! Chimney sweep, chimney inspections and chimney repairs for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/about/chimney-services",
@@ -25,7 +20,7 @@
   {
     "page": "/about/gas-fireplace-repair-and-service",
     "title": "Gas Fireplace Repair & Service | Mike's Mobile",
-    "description": "Mike's Mobile repairs and Services gas Fireplaces! Have a CSIA certified gas technition come out to your home, and make sure your gas appliance is running great today!"
+    "description": "Mike's Mobile repairs and Services gas Fireplaces! Have a CSIA certified gas technician come out to your home, and make sure your gas appliance is running great today!"
   },
   {
     "page": "/services/gas-log-sets",
@@ -33,12 +28,24 @@
     "description": "Tired of dealing with wood fuel? Replace it with a clean burning gas log set!"
   },
   {
+    "page": "/products/chimney-caps",
+    "title": "chimney caps | Mike's Mobile",
+    "description": "Protect yourself from costly chimney repairs, with Mikes Mobiles custom built chimney caps that shed water away from your stack! "
+  },
+  {
+    "page": "/about/water-proofing-package",
+    "title": "Water Proofing Package | Mike's Mobile",
+    "description": "Mike's Mobile wants your chimney to last. With our discounted water proofing package, you get the piece of mind that your chimney is leak proof for the next 10 years! We back this up with a 10 year warranty "
+  },
+  {
     "page": "/about/door-and-window-screens",
-    "title": "Window and Door Screens | Mike's Mobile"
+    "title": "Window and Door Screens | Mike's Mobile",
+    "description": "Window screen repair, Windows, Door screen repair, security doors and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/about/door-screens",
-    "title": "Screen Doors | Mike's Mobile"
+    "title": "Screen Doors | Mike's Mobile",
+    "description": "Door screen repair, security doors and windows and more! Chimney sweep, chimney inspections and chimney repairs for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/about/security-doors",
@@ -46,22 +53,29 @@
     "description": "Upgrade your style and security with our high quality security doors. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Modesto and Bay areas."
   },
   {
+    "page": "/about/security-screen-doors",
+    "title": "Security Screen Doors | Mike's Mobile",
+    "description": "Upgrade your style and security with our beautiful high quality security screen doors. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Fresno and Bay areas."
+  },
+  {
     "page": "/about/security-doors-and-windows",
     "title": "Security Screen Doors and Windows | Mike's Mobile",
-    "description": "Upgrade your style and security with our high quality security doors. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Modesto and Bay areas."
+    "description": "Upgrade your style and security with our high quality security doors and windows. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Modesto and Bay areas."
   },
   {
     "page": "/about/security-windows",
     "title": "Security Window Screens - Windows & Doors | Mike's Mobile",
-    "description": "Upgrade your style and security with our high quality security doors. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Modesto and Bay areas."
+    "description": "Upgrade your style and security with our high quality security windows. Mike's Mobile has many options to protect both your view and your home. Contact us in the Sacramento, Stockton, Modesto and Bay areas."
   },
   {
     "page": "/about/window-screens",
-    "title": "Screen Windows | Mike's Mobile"
+    "title": "Screen Windows | Mike's Mobile",
+    "description": "Window screen repair, windows and more for the Sacramento, Stockton, Modesto, Napa and The Bay areas."
   },
   {
     "page": "/services/flashing",
-    "title": "Chimney Repair Flashing | Mike's Mobile"
+    "title": "Chimney Repair Flashing | Mike's Mobile",
+    "description": "Chimney Repair Flashing To Protect Your Home from Water"
   },
   {
     "page": "/services/awningPriceCalc",
@@ -74,7 +88,7 @@
   {
     "page": "/blog",
     "title": "Blog | Mike's Mobile Screen and Chimney Service",
-    "description": "Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto, Napa and The Bay areas. We are also experts at recommending and installing awnings. Call us today!"
+    "description": "Mike's Mobile offers security doors, windows and chimney services for Sacramento, Stockton, Modesto, Napa and The Bay areas. Call us today!"
   },
   {
     "page": "/blog/10-tips-heating-season",
@@ -88,7 +102,7 @@
   {
     "page": "/blog/another-paradise-set-in-rodeo",
     "title": "Custom Two Tone Color Security Door | Mike's Mobile",
-    "description": "Have a vision to create a custom two tone color security door with a custom mail slot? Every Mike's Mobile steel security door can have custom 2 tone colors at no extra charge. Get a free quote in the Sacramento, Stockton, Modesto and East Bay areas!"
+    "description": "Have a vision to create a custom two tone color security door with a custom mail slot? Every Mike's Mobile steel security door can have custom 2 tone colors at no extra charge. Get a Free Consultation in the Sacramento, Stockton, Modesto and East Bay areas!"
   },
   {
     "page": "/blog/another-paradise-set-in-rodeo",
@@ -357,7 +371,7 @@
   {
     "page": "/blog/solar-screens-beat-heat-better-anything-else",
     "title": "Why Solar Screens Work Best | Mike's Mobile",
-    "description": "Ever wonder why solar screens work best to beat the heat? Solar Screens work with your windows to keep the heat out and act as another insulation barrier. They make your home more efficient, more comfortable and save you money. Get a free quote in the Sacramento, Stockton, Modesto and East Bay areas"
+    "description": "Ever wonder why solar screens work best to beat the heat? Solar Screens work with your windows to keep the heat out and act as another insulation barrier. They make your home more efficient, more comfortable and save you money. Get a Free Consultation in the Sacramento, Stockton, Modesto and East Bay areas"
   },
   {
     "page": "/blog/solar-screens-installed",
@@ -426,11 +440,6 @@
     "description": "How a ViewGaurd Security Door from Mike's Mobile Can Help Keep Your Loved Ones Safe"
   },
   {
-    "page": "/blog/need-more-room",
-    "title": "Lifestyle Garage Screen Door | Mike's Mobile",
-    "description": "Need More Room? Here's The Easiest Way to Transform Your Garage Into Additional Living Space!"
-  },
-  {
     "page": "/chimney-faq",
     "title": "Chimney FAQ - Chimney Service | Mike's Mobile",
     "description": "Get your chimney FAQ answered here. How often should you have your chimney cleaned? We service any chimney in the Sacramento, Stockton, Modesto and The Bay areas. Don't hesitate to give us a call."
@@ -458,7 +467,7 @@
   {
     "page": "/chimneys/modesto",
     "title": "Chimney Services near Modesto, CA | Mike's Mobile",
-    "description": "Looking for chimney service and repair experts in the greater Modesto region? Whether you're a real estate agent, prospective homebuyer, property manager or new homeowner, Mike's Mobile Chimney Service can give you peace of mind when it comes to your fireplace. Call and request a free quote today!"
+    "description": "Looking for chimney service and repair experts in the greater Modesto region? Whether you're a real estate agent, prospective homebuyer, property manager or new homeowner, Mike's Mobile Chimney Service can give you peace of mind when it comes to your fireplace. Call and request a Free Consultation!"
   },
   {
     "page": "/chimneys/napa-vallejo",
@@ -496,7 +505,8 @@
   },
   {
     "page": "/contract",
-    "title": "Our Contract | Mike's Mobile Screen and Chimney Service"
+    "title": "Our Contract | Mike's Mobile Screen and Chimney Service",
+    "description": "Our Contract at Mike's Mobile"
   },
   {
     "page": "/faq",
@@ -510,7 +520,8 @@
   },
   {
     "page": "/fireplace-manuals",
-    "title": "Fireplace Manuals | Mike's Mobile Screen and Chimney Service"
+    "title": "Fireplace Manuals | Mike's Mobile Screen and Chimney Service",
+    "description": "Fireplace Manuals PDFs"
   },
   {
     "page": "/grid/chimney-accessories",
@@ -539,12 +550,13 @@
   },
   {
     "page": "/privacy",
-    "title": "Privacy | Mike's Mobile Screen and Chimney Service"
+    "title": "Privacy | Mike's Mobile Screen and Chimney Service",
+    "description": "Our Privacy Policy"
   },
   {
     "page": "/products/brighton-swinging-screen-door",
     "title": "Brighton - Swinging Screen Doors | Mike's Mobile",
-    "description": "The Brighton swinging screen door mixes an elegant and open design. It offers two horizontal bars and two vertical bars inside of an extruded aluminum frame. Call for a free quote here in the Sacramento, Stockton, Modesto, Napa and East Bay areas!"
+    "description": "The Brighton swinging screen door mixes an elegant and open design. It offers two horizontal bars and two vertical bars inside of an extruded aluminum frame. Call for a Free Consultation here in the Sacramento, Stockton, Modesto, Napa and East Bay areas!"
   },
   {
     "page": "/products/clearview-swinging-screen-door",
@@ -554,7 +566,7 @@
   {
     "page": "/products/colonade-swinging-screen-door",
     "title": "Colonade - Swinging Screen Doors | Mike's Mobile",
-    "description": "Our Colonade swinging screen door has an elegant design of a 15 lite grid pattern, that adds character and depth to this screen door and your home. Get a free quote in the Sacramento, Stockton, Modesto and The Bay areas."
+    "description": "Our Colonade swinging screen door has an elegant design of a 15 lite grid pattern, that adds character and depth to this screen door and your home. Get a Free Consultation in the Sacramento, Stockton, Modesto and The Bay areas."
   },
   {
     "page": "/products/craftsman-swinging-screen-door",
@@ -571,16 +583,14 @@
     "description": "The Fiesta swinging screen door offers a classic design. On the top half you have an unobstructed view and great ventilation. On the bottom half you have an aluminum grille. Contact us in the Sacramento, Stockton, Modesto and The Bay areas."
   },
   {
-    "page": "/products/lifestyle-garage-screen",
-    "title": "Lifestyle Garage Screen - Garage Screen Doors | Mike's Mobile"
-  },
-  {
     "page": "/products/pet-doors",
-    "title": "Pet Doors | Mike's Mobile"
+    "title": "Pet Doors | Mike's Mobile",
+    "description": "Mike's Mobile Offers pet doors that install directly into your sliding door!"
   },
   {
     "page": "/products/retractable-screen-doors",
-    "title": "Retractable Screen Doors | Mike's Mobile"
+    "title": "Retractable Screen Doors | Mike's Mobile",
+    "description": "Retractable Screen Doors from Mike's Mobile"
   },
   {
     "page": "/products/safeguard-swinging-screen-door",
@@ -589,20 +599,22 @@
   {
     "page": "/products/santa-cruz-swinging-screen-door",
     "title": "Santa Cruz - Swinging Screen Doors | Mike's Mobile",
-    "description": "The Santa Cruz swinging screen door offers a classic design. This grille is an extruded aluminum amplimesh style grille that adds character and charm to this awesome screen door. Get a free quote here in the Sacramento, Stockton, Modesto, Napa and East Bay areas!"
+    "description": "The Santa Cruz swinging screen door offers a classic design. This grille is an extruded aluminum amplimesh style grille that adds character and charm to this awesome screen door. Get a Free Consultation here in the Sacramento, Stockton, Modesto, Napa and East Bay areas!"
   },
   {
     "page": "/products/sliding-screen-doors",
-    "title": "Custom Sliding Screen Doors | Mike's Mobile"
+    "title": "Custom Sliding Screen Doors | Mike's Mobile",
+    "description": "Keep the bugs out of your space while letting in the breeze, with custom-fit sliding screen doors!"
   },
   {
     "page": "/products/sliding-security-doors",
-    "title": "Sliding Security Doors | Mike's Mobile"
+    "title": "Sliding Security Doors | Mike's Mobile",
+    "description": "Looking for a custom sliding security door? Our NEW Sliding Security Doors will enhance the appearance of your home while providing peace of mind!"
   },
   {
     "page": "/products/solar-screens",
     "title": "Solar Screens - Door and Window Screens | Mike's Mobile",
-    "description": "Suntex solar screens use a heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors. Get a free quote in the Sacramento, Stockton, Modesto and The Bay areas."
+    "description": "Suntex solar screens use a heavy-duty woven mesh that blocks 80-90% of the sun’s hot rays before they enter your windows and doors. Get a Free Consultation in the Sacramento, Stockton, Modesto and The Bay areas."
   },
   {
     "page": "/products/titan-biltmore",
@@ -766,21 +778,18 @@
   },
   {
     "page": "/products/tru-view-security-doors",
-    "title": "Tru-View - Security Screen Doors | Mike's Mobile"
+    "title": "Tru-View - Security Screen Doors | Mike's Mobile",
+    "description": "With the Tru-View you can let the cool breeze in and keep intruders out without compromising the appearance of your home."
   },
   {
     "page": "/products/viewguard-security-doors",
-    "title": "Viewguard - Security Screen Doors | Mike's Mobile"
+    "title": "Viewguard - Security Screen Doors | Mike's Mobile",
+    "description": "ViewGaurd Security Screen Door from Mike's Mobile Can Help Keep Your Loved Ones Safe"
   },
   {
-    "page": "/products/fixed-security-windows",
+    "page": "/products/security-windows",
     "title": "Fixed - Security Window Screens | Mike's Mobile",
     "description": "Buy Fixed Security Window Screens. They provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
-  },
-  {
-    "page": "/products/quick-escape-security-windows",
-    "title": "Quick Escape - Security Window Screens | Mike's Mobile",
-    "description": "Buy Quick Escape Security Window Screens. These premiere security window screens provide secure protection and give you a clear view of the outdoors, without compromising the style or appearance of your home."
   },
   {
     "page": "/regions",
@@ -824,12 +833,12 @@
   {
     "page": "/screens/richmond",
     "title": "Screens and Awnings near Richmond, CA | Mike's Mobile",
-    "description": "Mike's Mobile specializes in door screens, window screens and awnings for Richmond and beyond. Most screens are built on-site for that perfect fit! Call or write for a free quote."
+    "description": "Mike's Mobile specializes in door screens, window screens and awnings for Richmond and beyond. Most screens are built on-site for that perfect fit! Call or write for a Free Consultation."
   },
   {
     "page": "/screens/sacramento",
     "title": "Screens and Awnings near Sacramento | Mike's Mobile",
-    "description": "Mike's Mobile specializes in door screens, window screens and awnings for the Sacramento region and beyond. Most screens are built on-site for that perfect fit! Call or write for a free quote."
+    "description": "Mike's Mobile specializes in door screens, window screens and awnings for the Sacramento region and beyond. Most screens are built on-site for that perfect fit! Call or write for a Free Consultation."
   },
   {
     "page": "/screens/san-jose",
@@ -843,7 +852,7 @@
   {
     "page": "/security/antioch-east-bay",
     "title": "Security Screen Doors and Windows near Antioch | Mike's Mobile",
-    "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. We also offer garage screen doors and awnings. Call for a free quote!"
+    "description": "Mike's Mobile security window screens and security screen doors experts will help keep you safe in your East Bay or Antioch residence. Also make sure you chimney get's its annual cleaning. Call for a Free Consultation!"
   },
   {
     "page": "/security/auburn",
@@ -905,6 +914,11 @@
     "description": "Chimney caps with spark arrestors keep out rain, animals, reduce sparks, drafts, and keep more heat in the house. We service the Sacramento, East Bay and Stockton areas."
   },
   {
+    "page": "/about/fireplace-services",
+    "title": "Chimney and Fireplace Service | Mike's Mobile",
+    "description": "Help protect your chimney and fireplace with an annual chimney cleaning. Our fully trained and certified chimney cleaning professionals can service your Sacramento, Stockton, Modesto or East Bay Home."
+  },
+  {
     "page": "/services/chimney-cleaning",
     "title": "Chimney Cleaning Service - Chimney Service | Mike's Mobile",
     "description": "Help protect your refractory panels with an annual chimney cleaning. Let our fully trained chimney cleaning professionals service your Sacramento, Stockton, Modesto or East Bay Home."
@@ -941,7 +955,8 @@
   },
   {
     "page": "/services/dryer-vent-cleaning",
-    "title": "Dryer Vent Cleaning | Mike's Mobile"
+    "title": "Dryer Vent Cleaning | Mike's Mobile",
+    "description": "Dryer vent cleaning will help prevent dryer fires!"
   },
   {
     "page": "/services/fireplace-glass-doors",
@@ -996,11 +1011,17 @@
   {
     "page": "/services/masonry/waterproofing",
     "title": "Chimney Waterproofing - Masonry Services | Mike's Mobile",
-    "description": "Chimney waterproofing your brick or veneer structure will help ensure that your brick work lasts as long as possible. Your brick and your Sacramento, East Bay or Stockton home can benefit tremendously from waterproofing. Call Mike's Mobile for a free quote!"
+    "description": "Chimney waterproofing your brick or veneer structure will help ensure that your brick work lasts as long as possible. Your brick and your Sacramento, East Bay or Stockton home can benefit tremendously from waterproofing. Call Mike's Mobile for a Free Consultation!"
+  },
+  {
+    "page": "/services/window-screen-services",
+    "title": "Window Screen Repair | Mike's Mobile",
+    "description": "Mike's Mobile is a Mobile Window and Screen Company dedicated to giving our amazing customers a fast and affordable way to have their screens repaired or replaced."
   },
   {
     "page": "/services/window-screen-repair",
-    "title": "Window Screen Repair | Mike's Mobile"
+    "title": "Window Screen Repair | Mike's Mobile",
+    "description": "Mike's Mobile is a mobile screen company dedicated to providing our customers with a fast and affordable way to have their screens repaired or replaced."
   },
   {
     "page": "/thank-you",
@@ -1013,14 +1034,49 @@
     "robots": "noindex"
   },
   {
+    "page": "/products/security-windows-central",
+    "title": "Mike's Mobile Central California | Security Windows in Bakersfield and the Surrounding Areas. 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium Security Windows and Doors. Security window screens provide protection against intruders, UV rays, and other unwanted pests. These screens are custom-made to add security and curb appeal to your home."
+  },
+  {
+    "page": "/grid/titan-security-doors-central",
+    "title": "Mike's Mobile Central California | Security Doors in Bakersfield and the Surrounding Areas. 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium Security Windows and Doors. The Titan Security Screen door is fully customizable to reflect your style. Perfect for those that want a strong-decorative security screen door that deters potential intruders."
+  },
+  {
+    "page": "/products/viewguard-security-doors-central",
+    "title": "Mike's Mobile Central California | Security Screen Doors in Bakersfield and the Surrounding Areas. 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium Security Windows and Doors. Do you want security without the bars? The Viewguard Security Screen door, wiith a modern and simplistic design, keeps your home's entryways secure and visually appealing. "
+  },
+  {
+    "page": "/products/sliding-security-doors-central",
+    "title": "Mike's Mobile Central California | Sliding Screen Doors in Bakersfield and the Surrounding Areas. 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium Security Windows and Doors. Do you like keeping your patio door open to let the breeze in? A sliding security screen door allows you maxiumum airflow, with premium security. "
+  },
+  {
+    "page": "/products/tru-view-security-doors-central",
+    "title": "Mike's Mobile Central California | Security Screen Doors in Bakersfield and the Surrounding Areas. 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium Security Windows and Doors. The Tru-View is perfect for those who are looking to upgrade their traditional screen door. This security screen door offers a sleek design that is perfect for keeping pets at bay."
+  },
+  {
+    "page": "/regionsSecurity/bakersfield",
+    "title": "Mike's Mobile Bakersfield | Security Screen Door and Security Window Screen Services in Bakersfield, CA 93301",
+    "description": "Mike's Mobile provides Bakersfield and surrounding communities with premium home security products. Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, screens for double doors, and retractable screen doors. Premium security screen doors are recommended for maximum home security."
+  },
+  {
+    "page": "/regionsSecurity/visalia",
+    "title": "Mike's Mobile Visalia | Security Screen Door and Security Window Screen Services in Visalia, CA 93291",
+    "description": "Mike's Mobile provides Visalia and surrounding central valley communities with premium home security products. Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, and security screens for double doors. Premium security screen doors are always recommended for 1 home security."
+  },
+  {
     "page": "/regions/sacramento",
-    "title": "Mike's Mobile Sacramento | Screen and Chimney Services in Sacremento, CA 95611",
+    "title": "Mike's Mobile Sacramento | Screen and Chimney Services in Sacramento, CA 95611",
     "description": "Mikes Mobile Sacramento is your one stop shop for all your screen and chimney needs in the greater Sacramento area! swing by and check out Show Room at 9912 Business Park Dr, Suite 175 Sacramento California, 95827"
   },
   {
     "page": "/regions/stockton",
-    "title": "Mike's Mobile Stockton | Screen and Chimney Services in Stockton, CA 95210",
-    "description": "Mikes Mobile Stockton is the one stop shop for all your screen and chimney needs in the Stockton area! Swing by and check us out, at our Show Room at 8130 Lorraine Ave., Suite 312, Stockton, CA 95210, or give us a call and we'll come to you!"
+    "title": "Mike's Mobile Stockton | Screen and Chimney Services in Stockton, CA 95203",
+    "description": "Mikes Mobile Stockton is the one stop shop for all your screen and chimney needs in the Stockton area! Our Stockton location is located at 1401 W Fremont St. Stockton, CA 95203, give us a call and we can help you with Security screens and doors!"
   },
   {
     "page": "/regions/antioch-east-bay",
@@ -1050,17 +1106,17 @@
   {
     "page": "/regions/modesto",
     "title": "Mike's Mobile Modesto | Screen and Chimney Services in Modesto, California 95356",
-    "description": "Mike's Mobile Modesto the premier screen and chimney service in the Modesto Area. Tired of waiting around in an apointment window? Give us a call and we can tell you when our certified technitions will show up to help you keep your home in shape!"
+    "description": "Mike's Mobile Modesto the premier screen and chimney service in the Modesto Area. Tired of waiting around in an apointment window? Give us a call and we can tell you when our certified technicians will show up to help you keep your home in shape!"
   },
   {
     "page": "/regions/napa-vallejo",
     "title": "Mike's Mobile Napa Vallejo | Screen and Chimney Services in Napa, California 94559",
-    "description": "Mike's Mobile Napa Vallejo has been the #1 screen and chimney mobile service in the Napa Vallejo Area since 2002. We offer chimney services, door and window screens, security doors and screens, Awnings! Our certified technitions are fast and friendly!"
+    "description": "Mike's Mobile Napa Vallejo has been the #1 screen and chimney mobile service in the Napa Vallejo Area since 2002. We offer chimney services, door and window screens, security doors and screens, Awnings! Our certified technicians are fast and friendly!"
   },
   {
     "page": "/regions/fresno",
     "title": "Mike's Mobile Fresno | Screen and Chimney Services in Fresno, California 93701",
-    "description": "Mike's Mobile Fresno the premier screen and chimney service in Fresno. Give us a call for all your screen window and door, chimney, awning, and security screen window and door needs in Fresno California, and our certified technitions will be there to help!"
+    "description": "Mike's Mobile Fresno the premier screen and chimney service in Fresno. Give us a call for all your screen window and door, chimney, awning, and security screen window and door needs in Fresno California, and our certified technicians will be there to help!"
   },
   {
     "page": "/regions/yuba-city",
@@ -1070,17 +1126,17 @@
   {
     "page": "/regions/tracy",
     "title": "Mike's Mobile Tracy | Screen and Chimney Services in Tracy, California 95376",
-    "description": "Mike's Mobile Tracy is the #1 Screen and Chimney service in the Tracy Area. Give us a call and our certified technitions will help you will all your screen and chimney needs! Check out our security screens to protect your home without the ugly bars over the windows!"
+    "description": "Mike's Mobile Tracy is the #1 Screen and Chimney service in the Tracy Area. Give us a call and our certified technicians will help you will all your screen and chimney needs! Check out our security screens to protect your home without the ugly bars over the windows!"
   },
   {
     "page": "/regions/madera",
     "title": "Mike's Mobile Madera | Screen and Chimney Services in Madera, California 93637",
-    "description": "Mike's Mobile Madera the premier Screen and Chimney service in the Madera Region. Can help you with all your chimney and screen needs! Our certified technitions can repair any screen that's ripped or set you up with a brand new security screen! protect your house without looking like a prison."
+    "description": "Mike's Mobile Madera the premier Screen and Chimney service in the Madera Region. Can help you with all your chimney and screen needs! Our certified technicians can repair any screen that's ripped or set you up with a brand new security screen! protect your house without looking like a prison."
   },
   {
     "page": "/regions/merced",
     "title": "Mike's Mobile Merced | Screen and Chimney Services in Merced, California 95348",
-    "description": "Mike's Mobile Merced Screen and Chimney is the premier screen and chimney service in the Merced Area. Our technitions can help you with all your chimney and screen needs in the Merced Area. Our security windows will help turn your home into a fortress without looking like a prison!"
+    "description": "Mike's Mobile Merced Screen and Chimney is the premier screen and chimney service in the Merced Area. Our technicians can help you with all your chimney and screen needs in the Merced Area. Our security windows will help turn your home into a fortress without looking like a prison!"
   },
   {
     "page": "/regions/fremont",
@@ -1098,6 +1154,41 @@
     "description": "Mike's Mobile Danville Screen and Chimney has been helping the Danville area since 2002! Have an old chimney your too afraid to use? Give us a call and we can make sure it's safe and effecient for those cold winter nights! We can also fix all your screen and security door needs!"
   },
   {
+    "page": "/regions/elkgrove",
+    "title": "Mike's Mobile Elk Grove | Screen and Chimney Services in Elk Grove, California 95757",
+    "description": "Mike’s Mobile Screen & Chimney Service is Northern California's go-to for all Security Screen Door, Window Screen Installation, and Chimney Service needs! Our CSIA certified technicians have been helping homeowners achieve their dream home in Elk Grove since 2002! We can fix, repair, or fully restore any home's chimney or fireplace!"
+  },
+  {
+    "page": "/regions/folsom",
+    "title": "Mike's Mobile Folsom | Screen and Chimney Services in Folsom, California",
+    "description": "Mike’s Mobile Screen & Chimney Service has been assisting homeowners to carry out their home renovation ideas across Northern California since 2002. We are fully mobile and helping the Folsom community with any Security Screen, Window Screen, or Chimney Service needs! Our CSIA certified technicians make sure to keep the interior and exterior of your chimneys maintained to keep your fireplace safe and your home cozy!"
+  },
+  {
+    "page": "/regions/placerville",
+    "title": "Mike's Mobile placerville | Screen and Chimney Services in placerville, California",
+    "description": "Mike’s Mobile Screen & Chimney Service is committed to keeping Placerville homeowners safe year-round with our Security Screen Doors and Chimney Services! Our CSIA certified technicians specialize in fixing, repairing, and restoring residential fireplaces. We provide a hassle-free experience for customers, guaranteeing they feel supported in knowing that our team of professionals is there to help them with their home renovations. "
+  },
+  {
+    "page": "/regions/roseville",
+    "title": "Mike's Mobile Roseville | Screen and Chimney Services in Roseville, California",
+    "description": "Mike’s Mobile Screen & Chimney Service specializes in products that make homeowners feel safe and comfortable in their homes all year-round! Roseville homeowners are able to let the cool breeze in and keep intruders out without compromising the appearance of your home with any of our Security Screen Doors. When it's time to warm your home up in the Winter, our CSIA certified chimney technicians will come out to your home and provide a same-day inspection report! Let Mike's Mobile help turn your house into your dream home!"
+  },
+  {
+    "page": "/regions/sonora",
+    "title": "Mike's Mobile Sonora | Screen and Chimney Services in Sonora, California",
+    "description": "Mike’s Mobile Screen & Chimney Service has been serving homeowners across Northern California since 2002. We are Sonora's top trusted company for all Security Screen Door Installations, Security Screen Installations, and Fireplace Installations. All of our CSIA certified chimney technicians provide an unmatched experience for customers by providing same-day inspection reports with pictures and sharing expert knowledge on fireplace upkeep to keep them burning their unit safely. Mike's Mobile provides homeowners with transparency throughout any of our services. Let us help you with your security screen and chimney needs!"
+  },
+  {
+    "page": "/regions/turlock",
+    "title": "Mike's Mobile Turlock | Screen and Chimney Services in Turlock, California",
+    "description": "Opened in 2002, Mike’s Mobile Screen & Chimney Service has become Northern California's premier home service company. Our CSIA certified technicians are trusted by our customers to thoroughly inspect and clean their fireplaces and chimneys, as well as ensure that all customers are able to easily understand their systems! Our team of trusted security advisors are also ready to help any homeowner upgrade their security and style with high-quality, fully-customized products. Mike's Mobile is trusted by homeowners throughout the Turlock area!"
+  },
+  {
+    "page": "/regions/Vacaville",
+    "title": "Mike's Mobile Vacaville | Screen and Chimney Services in Vacaville, California",
+    "description": "Mike’s Mobile Screen & Chimney Service has assisted thousands of homeowners in completing home improvement projects since 2002. As Northern California’s trusted home service company, our goal is to ensure that all of our customers are taken care of from the minute they call to the minute their job is finished. Whether you need screen repairs, security products, or solar screens, our fully mobile team of screen technicians and security advisors are ready to tackle the project. Our CSIA certified technicians are also prepared to inspect, repair and clean any type of fireplace system!"
+  },
+  {
     "page": "/service-area",
     "title": "Mike's Mobile Service Area | Mike's Mobile",
     "description": "With two offices one located in Sacramento and the other in Stockton, we service the majority of northen California."
@@ -1106,5 +1197,10 @@
     "page": "/solar-screen-price-calc",
     "title": "Solar Screen Price Calculator | Mike's Mobile",
     "description": "Calulate out your quote for Mike's Mobiles Solar Screens, reduce the temperature of your house by 10 degrees!"
+  },
+  {
+    "page": "/about/pellet-stove-repair",
+    "title": "Pellet Stove Repair and Annual Service | Mike's Mobile",
+    "description": "Mike's Mobile Repairs and Services Pellet Stoves! Have a CSIA certified gas technician come out to your home, and make sure your pellet stove is running great today!"
   }
 ]

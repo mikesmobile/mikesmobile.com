@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
 import { MailService } from '../services/mail.service';
+import phoneListJSON from '../../assets/json/phoneList.json';
 
 // Property declared by Google Tag Manager
 declare global {
@@ -19,6 +20,8 @@ declare global {
   providers: [MailService]
 })
 export class QuoteFormComponent {
+  ourPhone = phoneListJSON[0].phone
+
   @ViewChild('quoteModal') public quoteModal: ModalDirective;
   public submitFailed: boolean = false;
   public methodSelect: Array<any> = [
@@ -30,7 +33,7 @@ export class QuoteFormComponent {
     private route: ActivatedRoute,
     private router: Router,
     private mailService: MailService
-  ) {}
+  ) { }
 
   quoteFormGroup = new FormGroup({
     name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
@@ -72,7 +75,7 @@ export class QuoteFormComponent {
   }
 
   get contactMethod() {
-    return this.quoteFormGroup.get('contactMethod');
+    return "";
   }
 
   public show() {
@@ -121,6 +124,7 @@ export class QuoteFormComponent {
         utm_campaign
       })
       .then((res) => {
+
         if (!res.ok) {
           throw Error(res.statusText);
         }
