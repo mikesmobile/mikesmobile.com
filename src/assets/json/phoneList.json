@@ -102,16 +102,19 @@
     {
         "title": "east-bay-contra-costa",
         "slug": "/about/our-security-screen-doors/east-bay-contra-costa",
-        "phone": "(925) 450-3153"
+        "phone": "(925) 450-3153",
+        "cities": ["Antioch", "Danville", "Walnut Creek", "and nearby!"]
     },
     {
         "title": "east-bay-alameda",
         "slug": "/about/our-security-screen-doors/east-bay-alameda",
-        "phone": "(510) 440-3416"
+        "phone": "(510) 440-3416",
+        "cities": ["Fremont", "Hayward", "Oakland", "Richmond", "and nearby!"]
     },
     {
         "title": "vacaville",
         "slug": "/about/our-security-screen-doors/vacaville",
-        "phone": "(510) 440-3416"
+        "phone": "(510) 440-3416",
+        "cities": ["Napa", "Vacaville", "San Rafael", "Sonoma", "and nearby!"]
     }
 ]
