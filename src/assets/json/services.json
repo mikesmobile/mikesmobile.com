@@ -6165,6 +6165,7 @@
     "title": "Security Screen Doors",
     "slug": "our-security-screen-doors-bakersfield",
     "type": "landing",
+    "serving": "Bakersfield, San Luis Obisbo, and nearby!",
     "images": [
       {
         "alt": "Titan Security Door",
@@ -6300,6 +6301,231 @@
     "type": "landing",
     "security": "true",
     "serving": "Napa, Vacaville, San Rafael, Sonoma, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "fresno",
+    "type": "landing",
+    "security": "true",
+    "serving": "Fresno, Madera, Visalia and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "stockton",
+    "type": "landing",
+    "security": "true",
+    "serving": "Merced, Modesto, Sonora, Stockton, Tracy, Turlock and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "sacramento",
+    "type": "landing",
+    "security": "true",
+    "serving": "Elk Grove, Folsom, Roseville, Sacramento, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "el-dorado-county",
+    "type": "landing",
+    "security": "true",
+    "serving": "Placerville, Yuba City, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan1.png",
+        "medium": "/assets/images/landing/securityscreen/titan1.png",
+        "big": "/assets/images/landing/securityscreen/titan1.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard2.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard2.png",
+        "big": "/assets/images/landing/securityscreen/viewguard2.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan3.png",
+        "medium": "/assets/images/landing/securityscreen/titan3.png",
+        "big": "/assets/images/landing/securityscreen/titan3.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard4.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard4.png",
+        "big": "/assets/images/landing/securityscreen/viewguard4.png"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/titan5.png",
+        "medium": "/assets/images/landing/securityscreen/titan5.png",
+        "big": "/assets/images/landing/securityscreen/titan5.png"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/viewguard6.png",
+        "medium": "/assets/images/landing/securityscreen/viewguard6.png",
+        "big": "/assets/images/landing/securityscreen/viewguard6.png"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
+    "slug": "san-jose",
+    "type": "landing",
+    "security": "true",
+    "serving": "San Jose, Santa Clara, and nearby!",
     "images": [
       {
         "alt": "Titan Security Door",

@@ -64,7 +64,11 @@ export class FooterComponent implements OnInit {
   securityDoorsList = [
     '/about/our-security-screen-doors/east-bay-contra-costa',
     '/about/our-security-screen-doors/east-bay-alameda',
-    '/about/our-security-screen-doors/vacaville'
+    '/about/our-security-screen-doors/vacaville',
+    '/about/our-security-screen-doors/stockton',
+    '/about/our-security-screen-doors/fresno',
+    '/about/our-security-screen-doors/el-dorado-county',
+    '/about/our-security-screen-doors/san-jose'
   ]
 
   phoneNumberSwitch() {
