@@ -70,7 +70,8 @@ export class FooterComponent implements OnInit {
     '/about/our-security-screen-doors/stockton',
     '/about/our-security-screen-doors/fresno',
     '/about/our-security-screen-doors/el-dorado-county',
-    '/about/our-security-screen-doors/san-jose'
+    '/about/our-security-screen-doors/san-jose',
+    '/about/our-security-screen-doors/sacramento'
   ]
 
   phoneNumberSwitch() {
