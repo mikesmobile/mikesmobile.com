@@ -29,7 +29,7 @@ export class FooterComponent implements OnInit {
         this.securityFooter = this.securityDoorCheck()
         this.phone = this.phoneNumberSwitch()
         this.cityNames = this.citySwitch()
-        this.cityNameSplit = this.cityNames ? this.cityNames.length > 4 : false
+        this.cityNameSplit = this.cityNames ? this.cityNames.length > 5 : false
       }
     });
   }
