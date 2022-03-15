@@ -389,7 +389,7 @@
           </div>
         </div>
 
-        <div *ngIf="!cityNameSplit" class="row">
+        <div *ngIf="cityNameSplit" class="row">
           <div class="col-6">
             <p *ngFor="let city of cityNames | slice:0:4">{{city}}</p>
           </div>
