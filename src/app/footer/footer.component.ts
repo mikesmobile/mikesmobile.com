@@ -9,6 +9,7 @@ import phoneListJSON from '../../assets/json/phoneList.json';
 export class FooterComponent implements OnInit {
   phone;
   cityNames;
+  cityNameSplit = false;
   phoneList = [];
   turnMeOn = true;
   central = false;
@@ -28,6 +29,7 @@ export class FooterComponent implements OnInit {
         this.securityFooter = this.securityDoorCheck()
         this.phone = this.phoneNumberSwitch()
         this.cityNames = this.citySwitch()
+        this.cityNameSplit = this.cityNames ? this.cityNames.length > 4 : false
       }
     });
   }
@@ -86,6 +88,7 @@ export class FooterComponent implements OnInit {
 }
 
 citySwitch(){
+  // debugger
   for(let i = 0; i < this.phoneList.length; i++){
     if(this.phoneList[i].slug === this.currentRoute){
       return this.phoneList[i].cities
@@ -95,7 +98,6 @@ citySwitch(){
 }
 
 
-  
   // combines all the lists into one super list of blocking!
   doNotShow = [].concat(this.adList, this.centralList, this.firepitList, this.securityDoorsList)
 
