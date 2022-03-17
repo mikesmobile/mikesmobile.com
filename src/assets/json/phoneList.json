@@ -116,5 +116,35 @@
         "slug": "/about/our-security-screen-doors/vacaville",
         "phone": "(707) 896-1470",
         "cities": ["Napa", "Vacaville", "San Rafael", "Sonoma", "& Nearby!"]
+    },
+    {
+        "title": "fresno",
+        "slug": "/about/our-security-screen-doors/fresno",
+        "phone": "(559) 295-8682",
+        "cities": ["Fresno", "Madera", "Visalia", "& Nearby!"]
+    },
+    {
+        "title": "stockton",
+        "slug": "/about/our-security-screen-doors/stockton",
+        "phone": "(209) 697-2980",
+        "cities": ["Merced", "Modesto", "Sonora", "Stockton", "Tracy", "Turlock", "& Nearby!"]
+    },
+    {
+        "title": "sacramento",
+        "slug": "/about/our-security-screen-doors/sacramento",
+        "phone": "(916) 931-1873",
+        "cities": ["Elk Grove", "Folsom", "Roseville", "Sacramento", "& Nearby!"]
+    },
+    {
+        "title": "el-dorado-county",
+        "slug": "/about/our-security-screen-doors/el-dorado-county",
+        "phone": "(530) 332-8811",
+        "cities": ["Placerville", "Yuba City", "& Nearby!"]
+    },
+    {
+        "title": "san-jose",
+        "slug": "/about/our-security-screen-doors/san-jose",
+        "phone": "(408) 763-5521",
+        "cities": ["San Jose", "Santa Clara", "& Nearby!"]
     }
 ]

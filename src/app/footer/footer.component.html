@@ -383,10 +383,19 @@
         </h6>
         <hr class="blue" />
 
-        <div class="row">
-
+        <div *ngIf="!cityNameSplit" class="row">
           <div class="col-12 text-center">
             <p *ngFor="let city of cityNames">{{city}}</p>
+          </div>
+        </div>
+
+        <div *ngIf="cityNameSplit" class="row">
+          <div class="col-6">
+            <p *ngFor="let city of cityNames | slice:0:5">{{city}}</p>
+          </div>
+          <div class="col-6">
+            <p *ngFor="let city of cityNames | slice:5">{{city}}</p>
+            
           </div>
         </div>
 

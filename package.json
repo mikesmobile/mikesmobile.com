@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "analyze": "webpack-bundle-analyzer dist/browser/stats.json",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build --prod --output-hashing none",
     "build:stats": "ng build --stats-json --prod",
     "test": "ng test",
