@@ -66,7 +66,7 @@ import { QuoteFormAwningComponent } from './quote-form-awning/quote-form-awning.
 import { AnnouncementMessageComponent } from './announcementMessage/announcementMessage.component';
 import { SolarScreenPriceCalcComponent } from './solar-screen-price-calc/solar-screen-price-calc.component';
 import { QuoteFormSolarScreenComponent } from './quote-form-solar-screen/quote-form-solar-screen.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule, ɵangular_packages_service_worker_service_worker_e } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
@@ -157,7 +157,10 @@ import { RegioncardsecurityComponent } from './regioncardsecurity/regioncardsecu
     }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [Title, HammerProvider],
+  providers: [Title, HammerProvider, {
+    provide: ɵangular_packages_service_worker_service_worker_e,
+    useFactory: () => ({ enabled: environment.production }),
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule {
