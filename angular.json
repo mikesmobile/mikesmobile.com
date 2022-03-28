@@ -60,7 +60,8 @@
                   "maximumError": "15mb"
                 }
               ],
-              "ngswConfigPath": "src/ngsw-config.json"
+              "ngswConfigPath": "src/ngsw-config.json",
+              "serviceWorker": true
             }
           }
         },
