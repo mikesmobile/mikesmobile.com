@@ -1,0 +1,14 @@
+
+
+User-agent: Googlebot
+Disallow: /cgi-bin/
+Disallow: /thank-you/
+Disallow: /assets/manuals/regency/gas/inserts/HorizonHZI234E.pdf
+Disallow: /assets/manuals/monessen/wood-burning/7412647_BFC_20.pdf
+Disallow: /promo
+
+User-agent: *
+Disallow: /thank-you/
+Allow: /
+
+Sitemap: https://mikesmobile.com/sitemap.xml
