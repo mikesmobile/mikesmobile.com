@@ -12,3 +12,4 @@ Disallow: /thank-you/
 Allow: /
 
 Sitemap: https://mikesmobile.com/sitemap.xml
+Sitemap: https://www.mikesmobile.com/sitemap.xml
