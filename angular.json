@@ -25,6 +25,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/sitemap.xml",
               "src/_redirects",
               "src/manifest.json"
             ],
@@ -99,7 +100,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/sitemap.xml"
+
             ]
           }
         },
