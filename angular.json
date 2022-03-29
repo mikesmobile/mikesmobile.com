@@ -25,7 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/_redirects"
+              "src/_redirects",
+              "src/manifest.json"
             ],
             "styles": [
               "node_modules/ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss",
@@ -33,7 +34,9 @@
               "src/styles.sass",
               "node_modules/aos/dist/aos.css"
             ],
-            "scripts": ["node_modules/aos/dist/aos.js"],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -60,8 +63,8 @@
                   "maximumError": "15mb"
                 }
               ],
-              "ngswConfigPath": "src/ngsw-config.json",
-              "serviceWorker": true
+              "serviceWorker": true,
+              "ngswConfigPath": "src/ngsw-config.json"
             }
           }
         },
@@ -95,7 +98,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.json"
             ]
           }
         },
