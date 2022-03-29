@@ -127,15 +127,15 @@ ngx-gallery
   @include breakpoint(md)
     border: none
 
-ngx-gallery  .ngx-gallery-arrow
+ngx-gallery /deep/ .ngx-gallery-arrow
   color: #000000
   font-size: 30px
 
-  .ngx-gallery-thumbnail.ngx-gallery-active
-    border: $mmblue solid 2px
-    border-radius: 5px
-    box-shadow: 0px 0px 15px 1px $mmblue
-    transition: 0.5s
+/deep/ .ngx-gallery-thumbnail.ngx-gallery-active
+  border: $mmblue solid 2px
+  border-radius: 5px
+  box-shadow: 0px 0px 15px 1px $mmblue
+  transition: 0.5s
 
 .nav-tabs
   z-index: 0

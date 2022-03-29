@@ -157,10 +157,7 @@ import { environment } from '../environments/environment';
     }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [Title, HammerProvider, {
-    provide: ServiceWorkerModule,
-    useFactory: () => ({ enabled: environment.production }),
-  }],
+  providers: [Title, HammerProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule {
