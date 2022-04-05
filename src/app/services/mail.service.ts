@@ -16,12 +16,12 @@ export class MailService {
 
     return fetch(apiEndpoint, {
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/json'
       },
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
-      body: formBody
+      body: JSON.stringify(data)
     });
   }
 }

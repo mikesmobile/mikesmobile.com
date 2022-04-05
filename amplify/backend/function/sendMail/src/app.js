@@ -54,6 +54,7 @@ app.get('/send/*', function(req, res) {
 ****************************/
 
 app.post('/send', function(req, res) {
+  console.log(req.body)
   const auth = {
     auth: {
         api_key: process.env.MAILGUN_KEY,
