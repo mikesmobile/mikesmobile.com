@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MailService {
   async send(data: any) {
-    const apiEndpoint = 'https://api.mikesmobile.com/send/';
+    const apiEndpoint = 'https://mikesmobile.com/send'
 
     let formBody: any = [];
     for (let property in data) {
