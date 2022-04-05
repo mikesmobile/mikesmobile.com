@@ -1,4 +1,27 @@
 {
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyac73712f27fb4-staging-173812-authRole",
+      "UnauthRoleArn": "arn:aws:iam::701352893967:role/amplify-amplifyac73712f27fb4-staging-173812-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::701352893967:role/amplify-amplifyac73712f27fb4-staging-173812-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-amplifyac73712f27fb4-staging-173812-deployment",
+      "UnauthRoleName": "amplify-amplifyac73712f27fb4-staging-173812-unauthRole",
+      "StackName": "amplify-amplifyac73712f27fb4-staging-173812",
+      "StackId": "arn:aws:cloudformation:us-west-1:701352893967:stack/amplify-amplifyac73712f27fb4-staging-173812/2adae5b0-b507-11ec-b023-0638dd178c5f",
+      "AmplifyAppId": "dyhwfqj3ii6sp"
+    },
+    "categories": {
+      "function": {
+        "sendMail": {
+          "mailgunKey": "key-c6a1e7131de196bdc9c015c009c26eed",
+          "mailgunDomain": "mg.mikesmobile.com",
+          "deploymentBucketName": "amplify-amplifyac73712f27fb4-staging-173812-deployment",
+          "s3Key": "amplify-builds/sendMail-35377a6d58626d745478-build.zip"
+        }
+      }
+    }
+  },
   "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-mikesmobile-dev-91310-authRole",
