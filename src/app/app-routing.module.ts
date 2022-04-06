@@ -17,7 +17,6 @@ import { LandingRegionalComponent } from './landing-regional/landing-regional.co
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { PromoComponent } from './promo/promo.component';
-
 import { PrivacyComponent } from './privacy/privacy.component';
 import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
 import { RegionListComponent } from './region-list/region-list.component';
@@ -31,6 +30,7 @@ import { CareerPageComponent } from './career-page/career-page.component';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
 import { ServiceAreaComponent } from './service-area/service-area.component';
 import { LandingRegionalSecurityComponent } from './landing-regional-security/landing-regional-security.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 const appRoutes: Routes = [
@@ -258,7 +258,7 @@ const appRoutes: Routes = [
 
 
   { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: '**', component: HomeComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
