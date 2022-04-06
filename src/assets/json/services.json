@@ -4357,6 +4357,24 @@
     ]
   },
   {
+    "title": "Masonry Repair",
+    "slug": "repair",
+    "category": "Repair",
+    "type": "services",
+    "tileImage": "assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
+    "tileText": "A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside!",
+    "textList": [
+      {
+        "title": "What kind of material do you perform masonry repairs with?",
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material inquiries please<a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
+      }
+    ]
+  },
+  {
     "title": "Chimney Liner",
     "slug": "chimney-liner",
     "category": "Repair",
