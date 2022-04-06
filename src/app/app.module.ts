@@ -142,7 +142,7 @@ import { environment } from '../environments/environment';
     ServiceAreaComponent,
     ContactFormComponent,
     LandingRegionalSecurityComponent,
-    RegioncardsecurityComponent
+    RegioncardsecurityComponent,
   ],
   imports: [
     MDBBootstrapModulesPro.forRoot(),
