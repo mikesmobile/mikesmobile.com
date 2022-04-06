@@ -8,6 +8,7 @@ import servicesJSON from '../../assets/json/services.json';
 import priceJSON from '../../assets/json/prices.json';
 import phoneListJSON from '../../assets/json/phoneList.json';
 import { fade, moveLeft, moveRight } from '../animation/animation';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-service-detail',
@@ -34,7 +35,9 @@ export class ServiceDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private jsonService: JSONLDService
+    private jsonService: JSONLDService,
+    public sanitizer: DomSanitizer
+
   ) { }
 
   ngOnInit() {

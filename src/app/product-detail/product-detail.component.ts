@@ -68,8 +68,6 @@ export class ProductDetailComponent implements OnInit {
       "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
       "content": "Today we had our second View guard door installed on the back of our home heading out to the patio.  The installation is perfect!   New threshold ( built onsite) with no gaps or space openings and perfectly balanced. Andy did a perfect job and I can't thank him enough.  Just like our first door? It closes and opens with zero noise, built right into the jam of the house..."
     }
-
-    
   ]
 
   constructor(
