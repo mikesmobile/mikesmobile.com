@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MailService {
   async send(data: any) {
-    const apiEndpoint = 'https://api.mikesmobile.com/send/';
+    const apiEndpoint = 'https://9debuaf4hh.execute-api.us-west-1.amazonaws.com/staging/send'
 
     let formBody: any = [];
     for (let property in data) {
@@ -16,12 +16,12 @@ export class MailService {
 
     return fetch(apiEndpoint, {
       headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/json'
       },
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
-      body: formBody
+      body: JSON.stringify(data)
     });
   }
 }
