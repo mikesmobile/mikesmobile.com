@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MouseEvent } from '@agm/core';
@@ -12,6 +12,7 @@ import {
 import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
 import regionalJSON from '../../assets/json/regional_services.json';
 import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
+import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 @Component({
   selector: 'app-landing-regional',
@@ -58,6 +59,12 @@ export class LandingRegionalComponent implements OnInit {
   clicked: string = 'none';
   scrollwheel = false;
 
+  @ViewChild(QuoteFormComponent) private quoteForm: QuoteFormComponent;
+
+  openQuoteForm() {
+    this.quoteForm.show();
+  }
+  
   constructor(
     private route: ActivatedRoute,
     private router: Router,
