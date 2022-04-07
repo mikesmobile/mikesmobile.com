@@ -4357,6 +4357,24 @@
     ]
   },
   {
+    "title": "Masonry Repair",
+    "slug": "repairs",
+    "category": "Repair",
+    "type": "services",
+    "tileImage": "assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
+    "tileText": "A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside!",
+    "textList": [
+      {
+        "title": "What kind of material do you perform masonry repairs with?",
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material inquiries please<a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+      },
+      {
+        "title": "What is the best way to get an estimate for a project?",
+        "description": "- If you already have an idea of what you’re wanting please send in pictures of the current project area, along with pictures of how you want the finished product to look. If you’re wanting to go over finished project details with a team member, <a href='tel:+1(209) 379-6811'><u>call today.</u></a>"
+      }
+    ]
+  },
+  {
     "title": "Chimney Liner",
     "slug": "chimney-liner",
     "category": "Repair",
@@ -5155,7 +5173,7 @@
       },
       {
         "title": "Options",
-        "description": "FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, and installation screws.<br/><br/> OPTIONAL HARDWARE: Pneumatic closer, and wind safety chain"
+        "description": "FRENCH DOOR OPTION<br/>Tru-View security screen doors are also available with a French Door kit for double doors, and include all installation hardware.<br/><br/>THRESHOLD EXTENDER:<br/>Available in white, bronze, or mill. Threshold extenders are sometimes needed to retrofit your existing door to make the Viewguard bug proof when your threshold is too short.<br/><br/>HINGE EXPANDER DETAIL: Click here<br/><br/>PRE-HUNG DETAIL: Click here<br/><br/>COLORS AVAILABLE<br/>Bronze Anodized or White Paint. Custom special colors are available. See below for samples.<br/><br/>HARDWARE:<br/>Hardware includes deluxe security lock with keyed deadbolt, thumb-turn cylinder, and installation screws.<br/><br/> OPTIONAL HARDWARE: <br/>Pneumatic closer, and wind safety chain"
       },
       {
         "title": "Related Products",

@@ -45,7 +45,6 @@ export class FooterComponent implements OnInit {
     '/products/viewguards',
     '/about/our-fireplace-services',
     '/about/our-annual-cleaning-and-inspection',
-    '/services/masonry/firepits'
 
   ]
   centralList = [
@@ -61,7 +60,8 @@ export class FooterComponent implements OnInit {
 
   firepitList = [
     '/services/masonry/firepits',
-    '/services/masonry/outdoorfireplaces'
+    '/services/masonry/outdoorfireplaces',
+    '/services/masonry/repairs'
   ]
   securityDoorsList = [
     '/about/our-security-screen-doors/east-bay-contra-costa',
@@ -73,6 +73,9 @@ export class FooterComponent implements OnInit {
     '/about/our-security-screen-doors/san-jose',
     '/about/our-security-screen-doors/sacramento'
   ]
+
+  // combines all the lists into one super list of blocking!
+  doNotShow = [].concat(this.adList, this.centralList, this.firepitList, this.securityDoorsList)
 
   phoneNumberSwitch() {
 
@@ -97,10 +100,6 @@ citySwitch(){
   }
   return this.phoneList[0].cities
 }
-
-
-  // combines all the lists into one super list of blocking!
-  doNotShow = [].concat(this.adList, this.centralList, this.firepitList, this.securityDoorsList)
 
   footerSwitch() {
     // this is where I put the landing pages to remove the footer

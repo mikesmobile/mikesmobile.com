@@ -10,6 +10,16 @@
         "phone": "(209) 379-6811"
     },
     {
+        "title": "outdoorfireplaces",
+        "slug" : "/services/masonry/outdoorfireplaces",
+        "phone": "(209) 379-6811"
+    },
+    {
+        "title": "repairs",
+        "slug" : "/services/masonry/repairs",
+        "phone": "(209) 379-6811"
+    },
+    {
         "title": "our-security-screen-doors-bakersfield",
         "slug": "/about/our-security-screen-doors-bakersfield",
         "phone": "(661) 567-0284"
@@ -93,11 +103,6 @@
         "title": "security-screen-doors",
         "slug": "/about/security-screen-doors",
         "phone": "(916) 318-9845"
-    },
-    {
-        "title": "outdoorfireplaces",
-        "slug" : "/services/masonry/outdoorfireplaces",
-        "phone": "(209) 379-6811"
     },
     {
         "title": "east-bay-contra-costa",
