@@ -38,10 +38,10 @@ export class AppComponent {
           window.scrollTo(0, 0);
 
           // Set <link rel="canonical">, <title>, and <meta name="description">
-          // seoService.updatePage(
-          //   event.urlAfterRedirects,
-          //   event.url !== event.urlAfterRedirects
-          // );
+          seoService.updatePage(
+            event.urlAfterRedirects,
+            event.url !== event.urlAfterRedirects
+          );
         }
       });
   }

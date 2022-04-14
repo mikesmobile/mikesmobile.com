@@ -43,14 +43,14 @@ export class SEOService {
     }
 
     if (redirected) {
-      // this.metaService.addTag({
-      //   name: 'prerender-status-code',
-      //   content: '301'
-      // });
-      // this.metaService.addTag({
-      //   name: 'prerender-header',
-      //   content: 'Location: ' + canonical
-      // });
+      this.metaService.addTag({
+        name: 'prerender-status-code',
+        content: '301'
+      });
+      this.metaService.addTag({
+        name: 'prerender-header',
+        content: 'Location: ' + canonical
+      });
     } else if (pageInfo) {
       // Overwrite defaults with found data
       if (pageInfo.description) {
@@ -64,13 +64,13 @@ export class SEOService {
       }
     } else {
       // Assume 404 page if info not found in meta.json
-      // robotsTag.content = 'noindex';
+      robotsTag.content = 'noindex';
       // Send 404 from prerendering service
       // This code is ONLY respected by the prerender service and therefore doesn't need to be removed as a new DOM will be generated without the code for a found page
-      // this.metaService.addTag({
-      //   name: 'prerender-status-code',
-      //   content: '404'
-      // });
+      this.metaService.addTag({
+        name: 'prerender-status-code',
+        content: '404'
+      });
       // TODO: Send 404 if possible from Apache/Nginx
     }
 
