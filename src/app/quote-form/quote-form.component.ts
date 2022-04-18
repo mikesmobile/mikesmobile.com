@@ -48,7 +48,6 @@ export class QuoteFormComponent {
       Validators.maxLength(150)
     ]),
     message: new FormControl('', [
-      Validators.required,
       Validators.maxLength(280)
     ]),
     contactMethod: new FormControl('')

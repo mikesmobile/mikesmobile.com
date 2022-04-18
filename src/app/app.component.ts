@@ -36,7 +36,6 @@ export class AppComponent {
 
           // Scroll to top of page on router events
           window.scrollTo(0, 0);
-
           // Set <link rel="canonical">, <title>, and <meta name="description">
           seoService.updatePage(
             event.urlAfterRedirects,

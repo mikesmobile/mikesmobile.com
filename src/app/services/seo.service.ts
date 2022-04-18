@@ -12,7 +12,7 @@ export class SEOService {
     @Inject(DOCUMENT) private dom: Document,
     private metaService: Meta,
     private titleService: Title
-  ) {}
+  ) { }
 
   async updatePage(url: string, redirected: boolean) {
     // Set up defaults for page found
@@ -35,7 +35,6 @@ export class SEOService {
       (data) =>
         data.page === url || (data.aliases && data.aliases.includes(url))
     );
-
     let canonical: String;
     if (pageInfo) {
       // This string is used as a Location header if redirected
