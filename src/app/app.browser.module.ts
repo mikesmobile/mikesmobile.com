@@ -7,7 +7,7 @@ import { AppModule } from "./app.module";
 
     imports: [
     
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     
     AppModule,
     
