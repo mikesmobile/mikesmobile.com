@@ -22,10 +22,10 @@ export class AppComponent {
   ) {
     // Tracks UTMs into a cookie so we can attach that information to quote forms
     utmService.checkForUTMs();
-
     router.events
       .pipe(filter((e) => e instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
+        console.log(event.urlAfterRedirects)
         if (isPlatformBrowser(this.platformId)) {
           // Send to analytics
           if (typeof gtag === 'function') {
@@ -37,10 +37,10 @@ export class AppComponent {
           // Scroll to top of page on router events
           window.scrollTo(0, 0);
           // Set <link rel="canonical">, <title>, and <meta name="description">
-          seoService.updatePage(
-            event.urlAfterRedirects,
-            event.url !== event.urlAfterRedirects
-          );
+          // seoService.updatePage(
+          //   event.urlAfterRedirects,
+          //   event.url !== event.urlAfterRedirects
+          // );
         }
       });
   }
