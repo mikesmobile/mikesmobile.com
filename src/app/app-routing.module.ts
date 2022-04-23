@@ -242,7 +242,7 @@ const appRoutes: Routes = [
   { path: 'search', component: SearchDetailComponent },
   { path: 'thank-you', component: ThankYouComponent },
   // { path: 'careers', component: CareerPageComponent },
-  // { path: 'about/:slug', component: LandingPageComponent },
+  { path: 'about/:slug', component: LandingPageComponent },
   { path: 'about/our-security-screen-doors/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'regions/:slug', component: LandingRegionalComponent },

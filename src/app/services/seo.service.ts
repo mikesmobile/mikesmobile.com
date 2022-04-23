@@ -39,17 +39,18 @@ export class SEOService {
     if (pageInfo) {
       // This string is used as a Location header if redirected
       canonical = this._updateCanonicalURL(pageInfo.page);
+      
     }
 
     if (redirected) {
-      this.metaService.addTag({
-        name: 'prerender-status-code',
-        content: '301'
-      });
-      this.metaService.addTag({
-        name: 'prerender-header',
-        content: 'Location: ' + canonical
-      });
+      // this.metaService.addTag({
+      //   name: 'prerender-status-code',
+      //   content: '301'
+      // });
+      // this.metaService.addTag({
+      //   name: 'prerender-header',
+      //   content: 'Location: ' + canonical
+      // });
     } else if (pageInfo) {
       // Overwrite defaults with found data
       if (pageInfo.description) {
