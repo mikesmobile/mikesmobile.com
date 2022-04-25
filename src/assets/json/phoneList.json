@@ -151,5 +151,10 @@
         "slug": "/about/our-security-screen-doors/san-jose",
         "phone": "(408) 763-5521",
         "cities": ["San Jose", "Santa Clara", "& Nearby!"]
+    },
+    {
+        "title": "pellet-stove-repair",
+        "slug": "/about/ad/pellet-stove-repair",
+        "phone": "(916) 238-0343"
     }
 ]

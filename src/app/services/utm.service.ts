@@ -8,7 +8,6 @@ export class UTMService {
     const source = this.getParameterByName('utm_source');
     const medium = this.getParameterByName('utm_medium');
     const campaign = this.getParameterByName('utm_campaign');
-
     let expires = new Date();
     // Store for 30 days
     expires.setTime(expires.getTime() + 30 * 24 * 60 * 60 * 1000);

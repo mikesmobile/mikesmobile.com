@@ -4322,42 +4322,6 @@
   },
   {
     "title": "Masonry Repair",
-    "slug": "masonry-repair",
-    "category": "Repair",
-    "type": "services",
-    "tileImage": "assets/images/chimneys/repairs/masonry-repair/masonry-repair.jpg",
-    "tileText": "A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside!",
-    "textList": [
-      {
-        "title": "With every masonry chimney comes deterioration over time",
-        "description": "Damaged mortar joints are one of the most types of  masonry repair needed to keep a chimney in top shape. Failing mortar joints can mean accelerated damage to the chimney, since the condition exposes the bricks to greater amounts of moisture.  When water gets into small cracks in the masonry, they can turn into large cracks, particularly as a result of freezing and thawing. Ultimately, if the problem isn’t addressed, the chimney could collapse."
-      },
-      {
-        "title": "When it comes to chimneys, prevention is the key to reducing costly masonry repairs",
-        "description": "One of the easiest parts of a chimney to take a look at now and then is the firebox. This is the portion of the chimney where you’d have your fireplace grate and logs. Before burning make sure to briefly inspect the brick for any small cracks. While small cracks a firebox can be repaired easily, letting these cracks go unrepaired could mean an entire firebox re-build to safely burn in your chimney again!"
-      },
-      {
-        "title": "Call us today and get started",
-        "description": "Towards the top of the chimney you should make sure to have your stack inspected. A leaning or damaged chimney stack could mean tons of brick falling on your home potentially damaging your home or injuring everyone inside. As with the firebox, the chimney stack is something that should be looked at and if anything seems off, its better safe than sorry so have it checked out! If you are thinking about switching to a wood-burning insert for your masonry chimney we highly recommend giving us a call so that we can make sure your chimney is ready to burn. Make sure when you decide on who you go with for your masonry repairs that they are licensed, bonded, and insured. Any amateur can promise you low prices, but it takes a professional to get the job done right."
-      }
-    ],
-    "recentInstallImages": [
-      {
-        "alt": "Vacuuming Chimney Cleaning",
-        "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg",
-        "medium": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg",
-        "big": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-1.jpg"
-      },
-      {
-        "alt": "Inside Chimney Cleaning",
-        "small": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
-        "medium": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg",
-        "big": "/assets/images/chimneys/repairs/masonry-repair/Masonry-Repair-2.jpg"
-      }
-    ]
-  },
-  {
-    "title": "Masonry Repair",
     "slug": "repairs",
     "category": "Repair",
     "type": "services",
@@ -4366,7 +4330,7 @@
     "textList": [
       {
         "title": "What kind of material do you perform masonry repairs with?",
-        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material inquiries please<a href='tel:+1(209) 379-6811'><u>contact us.</u></a>"
+        "description": "- We can custom-build fire pits with out of the following materials: stone, brick, and rock. For more information or specific material inquiries please <a href='tel:+1(209) 379-6811'><u> contact us.</u></a>"
       },
       {
         "title": "What is the best way to get an estimate for a project?",

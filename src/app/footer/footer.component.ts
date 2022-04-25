@@ -45,6 +45,7 @@ export class FooterComponent implements OnInit {
     '/products/viewguards',
     '/about/our-fireplace-services',
     '/about/our-annual-cleaning-and-inspection',
+    '/about/ad/pellet-stove-repair'
 
   ]
   centralList = [
@@ -104,7 +105,7 @@ citySwitch(){
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
     for (let i = 0; i < this.doNotShow.length; i++) {
-      if (this.currentRoute === this.doNotShow[i]) {
+      if (this.currentRoute.split('?')[0] === this.doNotShow[i]) {
         return false;
       }
     }

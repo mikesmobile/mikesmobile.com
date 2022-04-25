@@ -99,7 +99,6 @@ export class LandingPageComponent implements OnInit {
     this.route.params.subscribe((params) => {
 
       this.phone = this.slugCheckForPhoneList(params['slug'])
-
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {

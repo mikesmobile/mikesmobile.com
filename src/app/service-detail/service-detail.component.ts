@@ -46,7 +46,7 @@ export class ServiceDetailComponent implements OnInit {
       easing: 'ease-out-back',
       duration: 700
     });
-
+    
     phoneListJSON.forEach((data) => {
       this.phoneList.push(data);
     });
