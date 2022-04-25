@@ -256,7 +256,7 @@ const appRoutes: Routes = [
   { path: 'hiring-contact', component: LandingContactComponent },
   { path: 'serviceareatest', component: ServiceAreaComponent },
   { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: '**', component: PageNotFoundComponent },
+  { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
 
 @NgModule({
