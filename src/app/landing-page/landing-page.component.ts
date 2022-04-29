@@ -102,6 +102,7 @@ export class LandingPageComponent implements OnInit {
       this.landing = servicesJSON.find((data) => {
         if (data.slug === params['slug']) {
           if (data.offers) {
+            console.log(this.landing)
             this.jsonService.updateJSONLD({
               name: data.title,
               description: data.tileText,
@@ -110,6 +111,7 @@ export class LandingPageComponent implements OnInit {
             });
             return true;
           } else {
+            console.log(data)
             this.jsonService.updateJSONLD({
               name: data.title,
               description: data.tileText,

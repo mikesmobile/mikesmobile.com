@@ -13,6 +13,7 @@ export class FooterComponent implements OnInit {
   phoneList = [];
   turnMeOn = true;
   central = false;
+  south = false;
   firepit = false;
   securityFooter=false;
   currentRoute: string;
@@ -25,11 +26,13 @@ export class FooterComponent implements OnInit {
         this.currentRoute = event.url;
         this.turnMeOn = this.footerSwitch()
         this.central = this.centralFooterCheck()
+        this.south = this.southernFooterCheck()
         this.firepit = this.firepitCheck()
         this.securityFooter = this.securityDoorCheck()
         this.phone = this.phoneNumberSwitch()
         this.cityNames = this.citySwitch()
         this.cityNameSplit = this.cityNames ? this.cityNames.length > 5 : false
+        console.log(this.turnMeOn, this.central, this.south, this.firepit)
       }
     });
   }
@@ -45,9 +48,11 @@ export class FooterComponent implements OnInit {
     '/products/viewguards',
     '/about/our-fireplace-services',
     '/about/our-annual-cleaning-and-inspection',
-    '/about/ad/pellet-stove-repair'
+    '/about/ad/pellet-stove-repair',
+    '/about/our-security-screen-doors/ventura'
 
   ]
+  
   centralList = [
     '/about/our-security-screen-doors-bakersfield',
     '/regionsSecurity/bakersfield',
@@ -58,7 +63,10 @@ export class FooterComponent implements OnInit {
     '/products/sliding-security-doors-central',
     '/products/tru-view-security-doors-central',
   ]
-
+  southernList = [
+    '/about/our-security-screen-doors/ventura'
+  ]
+  
   firepitList = [
     '/services/masonry/firepits',
     '/services/masonry/outdoorfireplaces',
@@ -112,6 +120,14 @@ citySwitch(){
     return true;
   }
 
+  southernFooterCheck() {
+    for (let i = 0; i < this.southernList.length; i++) {
+      if (this.currentRoute === this.southernList[i]) {
+        return true;
+      }
+    }
+    return false;
+  }
   centralFooterCheck() {
     for (let i = 0; i < this.centralList.length; i++) {
       if (this.currentRoute === this.centralList[i]) {

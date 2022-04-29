@@ -92,7 +92,6 @@ export class QuoteFormComponent {
 
   handleSubmit(event: any) {
     event.preventDefault();
-
     // Trigger GTM Event
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({

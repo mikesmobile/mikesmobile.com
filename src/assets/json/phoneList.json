@@ -123,6 +123,12 @@
         "cities": ["Napa", "Vacaville", "San Rafael", "Sonoma", "& Nearby!"]
     },
     {
+        "title": "ventura",
+        "slug": "/about/our-security-screen-doors/ventura",
+        "phone": "(805) 267-9733",
+        "cities": ["Ventura", "Oxnard", "Santa Barbara", "Santa Clarita", "Burbank", "and nearby!"]
+    },
+    {
         "title": "fresno",
         "slug": "/about/our-security-screen-doors/fresno",
         "phone": "(559) 295-8682",

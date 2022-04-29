@@ -6324,6 +6324,51 @@
   },
   {
     "title": "Security Screen Doors",
+    "slug": "ventura",
+    "type": "landing",
+    "security": "true",
+    "serving": "Ventura, Oxnard, Santa Barbara, Santa Clarita, Burbank, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png ",
+        "medium": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png ",
+        "big": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png "
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/french-set-champagne-beige-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "medium": "/assets/images/landing/securityscreen/ventura/french-set-champagne-beige-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "big": "/assets/images/landing/securityscreen/ventura/french-set-champagne-beige-viewguard-security-screen-door-installation-in-ventura.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/wineberry-titan-security-screen-door-installation-in-ventura.jpg",
+        "medium": "/assets/images/landing/securityscreen/ventura/wineberry-titan-security-screen-door-installation-in-ventura.jpg",
+        "big": "/assets/images/landing/securityscreen/ventura/wineberry-titan-security-screen-door-installation-in-ventura.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/white-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "medium": "/assets/images/landing/securityscreen/ventura/white-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "big": "/assets/images/landing/securityscreen/ventura/white-viewguard-security-screen-door-installation-in-ventura.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/french-set-blue-hammertone-titan-security-screen-door-installation-in-ventura.jpg",
+        "medium": "/assets/images/landing/securityscreen/ventura/french-set-blue-hammertone-titan-security-screen-door-installation-in-ventura.jpg",
+        "big": "/assets/images/landing/securityscreen/ventura/french-set-blue-hammertone-titan-security-screen-door-installation-in-ventura.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/black-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "medium": "/assets/images/landing/securityscreen/ventura/black-viewguard-security-screen-door-installation-in-ventura.jpg",
+        "big": "/assets/images/landing/securityscreen/ventura/black-viewguard-security-screen-door-installation-in-ventura.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
     "slug": "fresno",
     "type": "landing",
     "security": "true",
