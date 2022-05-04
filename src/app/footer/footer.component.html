@@ -208,7 +208,8 @@
         <hr class="blue" />
 
         <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
-        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;"
+            href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
       </div>
 
     </div>
@@ -260,7 +261,18 @@
 
   <div class="container mt-3 mb-4 text-md-left">
     <div class="row mt-3 d-flex justify-content-evenly">
-      <div class="col-12 col-lg-3 mb-4">
+      <div *ngIf="currentRoute === '/about/our-security-screen-doors/san-diego'" class="col-12 col-lg-3 mb-4">
+        <h6 class="text-uppercase font-weight-bold text-center">
+          <strong>Mike's Mobile</strong>
+        </h6>
+        <hr class="blue" />
+        <p>
+          Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window Screens to California residents.
+
+        </p>
+        <p>We serve communities throughout California including San Diego County</p>
+      </div>
+      <div *ngIf="currentRoute === '/about/our-security-screen-doors/ventura'" class="col-12 col-lg-3 mb-4">
         <h6 class="text-uppercase font-weight-bold text-center">
           <strong>Mike's Mobile</strong>
         </h6>
@@ -275,32 +287,54 @@
           <strong>Service Area</strong>
         </h6>
         <hr class="blue" />
-
-        <div class="row">
-
-          <div class="col-4">
-            <p>Burbank</p>
-            <p>Calabasas</p>
-            <p>Carpinteria</p>
-            <p>Isla Vista</p>
-            <p>Lancaster</p>
-            <p>Malibu</p>
+        <div *ngIf="currentRoute === '/about/our-security-screen-doors/san-diego'">
+          <div class="row">
+            <div class="col-4">
+              <p>Carlsbad</p>
+              <p>Chula Vista</p>
+              <p>El Cajon</p>
+              <p>Encinitas</p>
+            </div>
+            <div class="col-4">
+              <p>Escondido</p>
+              <p>La Jolla</p>
+              <p>National City</p>
+              <p>Oceanside</p>
+            </div>
+            <div class="col-4">
+              <p>San Diego</p>
+              <p>San Marcos</p>
+              <p>Vista</p>
+              <p> + nearby!</p>
+            </div>
           </div>
-          <div class="col-4">
-            <p>Northridge</p>
-            <p>Orcutt</p>
-            <p>Oxnard</p>
-            <p>Palm Dale</p>
-            <p>San Fernando</p>
-            <p>Santa Barbara</p>
-          </div>
-          <div class="col-4">
-            <p>Santa Clarita</p>
-            <p>Santa Maria</p>
-            <p>Simi Valley</p>
-            <p>Thousand Oaks</p>
-            <p>Ventura</p>
-            <p> + nearby!</p>
+        </div>
+        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/ventura'">
+          <div class="row">
+            <div class="col-4">
+              <p>Burbank</p>
+              <p>Calabasas</p>
+              <p>Carpinteria</p>
+              <p>Isla Vista</p>
+              <p>Lancaster</p>
+              <p>Malibu</p>
+            </div>
+            <div class="col-4">
+              <p>Northridge</p>
+              <p>Orcutt</p>
+              <p>Oxnard</p>
+              <p>Palm Dale</p>
+              <p>San Fernando</p>
+              <p>Santa Barbara</p>
+            </div>
+            <div class="col-4">
+              <p>Santa Clarita</p>
+              <p>Santa Maria</p>
+              <p>Simi Valley</p>
+              <p>Thousand Oaks</p>
+              <p>Ventura</p>
+              <p> + nearby!</p>
+            </div>
           </div>
         </div>
 
@@ -312,7 +346,8 @@
         <hr class="blue" />
 
         <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
-        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;"
+            href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
       </div>
 
     </div>
@@ -370,7 +405,9 @@
         </h6>
         <hr class="blue" />
         <p>
-          Mike's Mobile Screens and Chimney Services is a full service chimney and brick masonry company that is licensed, bonded, and insured. We specialize in chimney repairs, fireplace hearth restoration, brick/block/stone veneer, and outdoor hardscaping.
+          Mike's Mobile Screens and Chimney Services is a full service chimney and brick masonry company that is
+          licensed, bonded, and insured. We specialize in chimney repairs, fireplace hearth restoration,
+          brick/block/stone veneer, and outdoor hardscaping.
         </p>
         <p>Our service area covers the Sacramento, Stockton, Modesto, Fresno, Napa, and Bay areas.</p>
       </div>
@@ -419,7 +456,8 @@
         <hr class="blue" />
 
         <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
-        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;"
+            href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
       </div>
 
     </div>
@@ -499,7 +537,7 @@
           </div>
           <div class="col-6">
             <p *ngFor="let city of cityNames | slice:5">{{city}}</p>
-            
+
           </div>
         </div>
 
@@ -511,7 +549,8 @@
         <hr class="blue" />
 
         <p><a href="tel:+1{{this.phone}}" style="text-decoration: underline">{{this.phone}}</a></p>
-        <p><a style="overflow-wrap: anywhere; text-decoration: underline;" href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
+        <p><a style="overflow-wrap: anywhere; text-decoration: underline;"
+            href="mailto:office@mikesmobile.com">office@mikesmobile.com</a></p>
       </div>
 
     </div>

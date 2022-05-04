@@ -129,6 +129,12 @@
         "cities": ["Ventura", "Oxnard", "Santa Barbara", "Santa Clarita", "Burbank", "and nearby!"]
     },
     {
+        "title": "san-diego",
+        "slug": "/about/our-security-screen-doors/san-diego",
+        "phone": "(619) 363-0529",
+        "cities": ["San Diego", "Chula Vista", "Carlsbad", "Oceanside", "Escondido", "and nearby!"]
+    },
+    {
         "title": "fresno",
         "slug": "/about/our-security-screen-doors/fresno",
         "phone": "(559) 295-8682",

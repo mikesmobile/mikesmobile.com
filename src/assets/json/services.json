@@ -6369,6 +6369,51 @@
   },
   {
     "title": "Security Screen Doors",
+    "slug": "san-diego",
+    "type": "landing",
+    "security": "true",
+    "serving": "San Diego, Chula Vista, Carlsbad, Oceanside, Escondido, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png ",
+        "medium": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png ",
+        "big": "/assets/images/landing/securityscreen/ventura/White_Trellis_Titan_Security_Screen_Door.png "
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/san-diego/french-set-champagne-beige-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "medium": "/assets/images/landing/securityscreen/san-diego/french-set-champagne-beige-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "big": "/assets/images/landing/securityscreen/san-diego/french-set-champagne-beige-viewguard-security-screen-door-installation-in-san-diego.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/san-diego/wineberry-titan-security-screen-door-installation-in-san-diego.jpg",
+        "medium": "/assets/images/landing/securityscreen/san-diego/wineberry-titan-security-screen-door-installation-in-san-diego.jpg",
+        "big": "/assets/images/landing/securityscreen/san-diego/wineberry-titan-security-screen-door-installation-in-san-diego.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/san-diego/white-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "medium": "/assets/images/landing/securityscreen/san-diego/white-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "big": "/assets/images/landing/securityscreen/san-diego/white-viewguard-security-screen-door-installation-in-san-diego.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/san-diego/french-set-blue-hammertone-titan-security-screen-door-installation-in-san-diego.jpg",
+        "medium": "/assets/images/landing/securityscreen/san-diego/french-set-blue-hammertone-titan-security-screen-door-installation-in-san-diego.jpg",
+        "big": "/assets/images/landing/securityscreen/san-diego/french-set-blue-hammertone-titan-security-screen-door-installation-in-san-diego.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/san-diego/black-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "medium": "/assets/images/landing/securityscreen/san-diego/black-viewguard-security-screen-door-installation-in-san-diego.jpg",
+        "big": "/assets/images/landing/securityscreen/san-diego/black-viewguard-security-screen-door-installation-in-san-diego.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
     "slug": "fresno",
     "type": "landing",
     "security": "true",

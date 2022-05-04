@@ -15,7 +15,7 @@ export class FooterComponent implements OnInit {
   central = false;
   south = false;
   firepit = false;
-  securityFooter=false;
+  securityFooter = false;
   currentRoute: string;
 
   constructor(private router: Router) {
@@ -49,10 +49,11 @@ export class FooterComponent implements OnInit {
     '/about/our-fireplace-services',
     '/about/our-annual-cleaning-and-inspection',
     '/about/ad/pellet-stove-repair',
-    '/about/our-security-screen-doors/ventura'
+    '/about/our-security-screen-doors/ventura',
+    '/about/our-security-screen-doors/san-diego',
 
   ]
-  
+
   centralList = [
     '/about/our-security-screen-doors-bakersfield',
     '/regionsSecurity/bakersfield',
@@ -64,9 +65,10 @@ export class FooterComponent implements OnInit {
     '/products/tru-view-security-doors-central',
   ]
   southernList = [
-    '/about/our-security-screen-doors/ventura'
+    '/about/our-security-screen-doors/ventura',
+    '/about/our-security-screen-doors/san-diego'
   ]
-  
+
   firepitList = [
     '/services/masonry/firepits',
     '/services/masonry/outdoorfireplaces',
@@ -91,24 +93,23 @@ export class FooterComponent implements OnInit {
     // if one of the json.slugs matches currentRoute then return the phone number, otherwise return the main number. will have to combine the json in security door too.
     // meaning i have to loop through the json slugs to find the one that matches the current route forloop style then return the specific number. 
 
-  for(let i = 0; i < this.phoneList.length; i++){
-    if(this.phoneList[i].slug === this.currentRoute){
-      return this.phoneList[i].phone
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].slug === this.currentRoute) {
+        return this.phoneList[i].phone
+      }
     }
+    return this.phoneList[0].phone
   }
-  return this.phoneList[0].phone
 
-}
-
-citySwitch(){
-  // debugger
-  for(let i = 0; i < this.phoneList.length; i++){
-    if(this.phoneList[i].slug === this.currentRoute){
-      return this.phoneList[i].cities
+  citySwitch() {
+    // debugger
+    for (let i = 0; i < this.phoneList.length; i++) {
+      if (this.phoneList[i].slug === this.currentRoute) {
+        return this.phoneList[i].cities
+      }
     }
+    return this.phoneList[0].cities
   }
-  return this.phoneList[0].cities
-}
 
   footerSwitch() {
     // this is where I put the landing pages to remove the footer
@@ -137,7 +138,7 @@ citySwitch(){
     return false;
   }
 
-  firepitCheck(){
+  firepitCheck() {
     for (let i = 0; i < this.firepitList.length; i++) {
       if (this.currentRoute === this.firepitList[i]) {
         return true;
@@ -145,7 +146,7 @@ citySwitch(){
     }
     return false;
   }
-  securityDoorCheck(){
+  securityDoorCheck() {
     for (let i = 0; i < this.securityDoorsList.length; i++) {
       if (this.currentRoute === this.securityDoorsList[i]) {
         return true;
