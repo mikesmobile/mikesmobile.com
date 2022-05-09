@@ -51,7 +51,6 @@ export class FooterComponent implements OnInit {
     '/about/ad/pellet-stove-repair',
     '/about/our-security-screen-doors/ventura',
     '/about/our-security-screen-doors/san-diego',
-
   ]
 
   centralList = [
