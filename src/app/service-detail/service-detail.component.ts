@@ -5,7 +5,6 @@ import * as AOS from 'aos';
 import { JSONLDService } from '../services/jsonld.service';
 
 import servicesJSON from '../../assets/json/services.json';
-import priceJSON from '../../assets/json/prices.json';
 import phoneListJSON from '../../assets/json/phoneList.json';
 import { fade, moveLeft, moveRight } from '../animation/animation';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -79,21 +78,11 @@ export class ServiceDetailComponent implements OnInit {
         return false;
       });
 
-      this.price = priceJSON.find((data) => {
-        if (data.title === params['slug']) {
-          return true;
-        }
-
-        return false;
-      });
-
-
       // No region found
       if (!this.service) {
         this.router.navigate(['/']);
         return;
       }
-
 
       if (this.service.fullTileImage) {
         this.img = this.service.fullTileImage;

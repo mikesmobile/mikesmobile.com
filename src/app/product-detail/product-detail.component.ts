@@ -7,7 +7,6 @@ import { QuoteFormComponent } from '../quote-form/quote-form.component';
 
 import phoneListJSON from '../../assets/json/phoneList.json';
 import servicesJSON from '../../assets/json/services.json';
-import priceJSON from '../../assets/json/prices.json';
 import { ModalDirective } from 'ng-uikit-pro-standard';
 
 @Component({
@@ -116,14 +115,6 @@ export class ProductDetailComponent implements OnInit {
             });
             return true;
           }
-        }
-
-        return false;
-      });
-
-      this.price = priceJSON.find((data) => {
-        if (data.title === params['slug']) {
-          return true;
         }
 
         return false;

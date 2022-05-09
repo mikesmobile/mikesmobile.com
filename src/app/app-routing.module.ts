@@ -53,7 +53,7 @@ const appRoutes: Routes = [
     path: 'products/vista-quick-escape',
     redirectTo: 'products/quick-escape-security-windows',
   },
-  { path: 'services/solar-screens', redirectTo: '/products/solar-screens' },
+  // { path: 'services/solar-screens', redirectTo: '/products/solar-screens' },
   { path: 'screens/screen-hardware-parts', redirectTo: '/about/door-screens' },
   {
     path: 'grid/steel-security-doors',
@@ -253,7 +253,7 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
-  { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
+  // { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
   { path: 'serviceareatest', component: ServiceAreaComponent },
   { path: '', pathMatch: 'full', component: HomeComponent },
