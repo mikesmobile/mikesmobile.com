@@ -1,0 +1,59 @@
+[
+    {
+      "title": "off"
+    },
+    {
+      "title": "tru-view-security-doors",
+      "type": "products",
+      "name": "TRU-View Security Screen Doods",
+      "price": [
+        {
+          "price": "$1,995",
+          "type": ""
+        }
+      ],
+      "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
+    },
+    {
+      "title": "titan-security-doors",
+      "type": "products",
+      "name": "Titan Security Doors",
+      "priceTag": "/assets/images/priceTags/titanPriceTag.png",
+      "price": [
+        {
+          "price": "$2,645",
+          "type": ""
+        }
+      ],
+      "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
+    },
+    {
+      "title": "viewguard-security-doors",
+      "type": "products",
+      "name": "Viewguard Security Doors",
+      "priceTag": "/assets/images/priceTags/titanPriceTag.png",
+      "price": [
+        {
+          "price": "$2,295",
+          "type": ""
+        }
+      ],
+      "disclaimer": "*Base model Price does not include tax and fees, additional charges may apply."
+    },
+    {
+      "title": "sliding-security-doors",
+      "type": "products",
+      "name": "Sliding Security Doors",
+      "price": [
+        {
+          "price": "$2,995",
+          "type": "Single"
+        },
+        {
+          "price": "$3,695",
+          "type": "Double"
+        }
+      ],
+      "disclaimer": "*Base model price does not include tax and fees, additional charges may apply."
+    }
+  ]
