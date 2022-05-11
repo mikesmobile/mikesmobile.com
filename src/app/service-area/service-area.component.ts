@@ -2,6 +2,8 @@ import { Component, ViewChild, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import { MouseEvent } from '@agm/core';
+import json from '../../assets/json/latlng.json'
+
 import {
   trigger,
   state,
@@ -113,9 +115,10 @@ export class ServiceAreaComponent implements OnInit {
     { lat: 38.40563, lng: -122.42142 },
     { lat: 38.57053, lng: -122.08625 },
     { lat: 38.89524, lng: -122.31091 },
-    { lat: 39.56332, lng: -122.28213 }
+    { lat: 39.56332, lng: -122.28213 },
   ];
 
+  pathsTwo: Array<LatLngLiteral> = json
   color: string = 'blue';
 
 

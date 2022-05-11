@@ -39,7 +39,6 @@ export class ProductDetailComponent implements OnInit {
     this.videoModal.hide();
   };
   doorsReviews = [
-
     {
       "name": "Shellie M.",
       "dataReviewId": "VU3Mvq5-41cZSbCZY2K0RA",

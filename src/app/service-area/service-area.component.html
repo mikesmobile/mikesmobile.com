@@ -47,6 +47,15 @@
   </div>
 </div>
 
+<!-- 
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" style="height: 600px" [scrollwheel]="scrollwheel"
+  (mapClick)="mapClicked($event)">
+  <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"
+    (markerClick)="clickedMarker(m.label)"></agm-marker>
+  <agm-polygon [paths]="paths" [strokeWeight]="0" clickable="false" [fillColor]="color"></agm-polygon>
+</agm-map> -->
+
+
 <h2 class="text-center pt-md-3 font-weight-bold">Service Areas (Security Products Only)</h2>
 
 <div class="container justify-content-center my-5">
