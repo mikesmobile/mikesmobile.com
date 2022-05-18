@@ -8,7 +8,7 @@
     </div> -->
     <div class="col-xl-6 col-lg-5 mt-3 pb-4 summary">
       <div class="card tile mb-3 d-none d-lg-block">
-        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Bakersfield" />
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in region" />
         <div class="card-img-overlay text-center">
           <h1 class="mainTitle card-title text-white transparent-gray">
             Mike's Mobile {{ region.region }}
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="card mt-3 d-lg-none">
-        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in Bakersfield" />
+        <img [src]="region.truckImg" class="card-img" alt="Mike's Mobile in region" />
         <div class="card-img-overlay text-center">
           <h1 class="mainTitle card-title text-white transparent-gray">
             Mike's Mobile {{ region.region }}
@@ -26,7 +26,8 @@
       <div class="card">
         <div class="card-body">
           <div class="w-100 text-center">
-            <a class="btn mikesBlueBtn btn-rounded w-75" href="tel:+1{{ region.phone }}"><i class="fas fa-phone left"></i>
+            <a class="btn mikesBlueBtn btn-rounded w-75" href="tel:+1{{ region.phone }}"><i
+                class="fas fa-phone left"></i>
               {{ region.phone }}</a>
             <p class="card-text">Call us for more information!</p>
           </div>
@@ -58,7 +59,7 @@
 
     <div class="col mt-3 mt-lg-5">
       <h1 class="h3 text-center">
-        Services in {{ region.region }}
+        Professional Security Screen Installation in {{ region.region }}
       </h1>
       <p [innerHTML]="region.description" class="text-center"></p>
       <hr class="my-4">
@@ -70,9 +71,8 @@
           style="height: 500px" [scrollwheel]="scrollwheel" (mapClick)="mapClicked($event)">
           <agm-marker *ngFor="let m of map.marker; let i = index" [latitude]="m.lat" [longitude]="m.lng" [zIndex]="5"
             (markerClick)="clickedMarker(m.label)"></agm-marker>
-
           <agm-polygon *ngFor="let r of map.regions; let i = index" [paths]="r.paths" [strokeWeight]="0" [zIndex]="1"
-            [clickable]="false" [fillColor]="r.fillColor" [visible]="r.visible"></agm-polygon>
+            [clickable]="false" [fillColor]='"#D07725"' [visible]="r.visible"></agm-polygon>
         </agm-map>
         <div *ngIf='region.region == "Sacramento"' class="col-12 text-center">
           <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors"
@@ -89,12 +89,12 @@
   <div class="row my-5">
     <div class="col-12 col-lg-6 text-center">
       <h3>Security Screen Doors in {{region.region}}</h3>
-      <img [src]="region.imagesInfo[0].leftImg" class="img-fluid" [alt]="region.imagesInfo[0].leftImgAlt">
+      <img [src]="region.imagesInfo[0].leftImg" class="img-fluid large" [alt]="region.imagesInfo[0].leftImgAlt">
       <p class="m-2" [innerHTML]="region.imagesInfo[0].leftImgText"></p>
     </div>
     <div class="col-12 col-lg-6 text-center">
       <h3>Security Screen Windows in {{region.region}}</h3>
-      <img [src]="region.imagesInfo[0].rightImg" class="img-fluid" [alt]="region.imagesInfo[0].rightImgAlt">
+      <img [src]="region.imagesInfo[0].rightImg" class="img-fluid large" [alt]="region.imagesInfo[0].rightImgAlt">
       <p class="m-2" [innerHTML]="region.imagesInfo[0].rightImgText"></p>
     </div>
   </div>
@@ -105,7 +105,7 @@
   <!-- reviews -->
   <div class="row text-center justify-content-center">
     <h2 class="w-100 text-center mt-3">
-      What People Say About Mike's Mobile Security Doors
+      What are people saying about their Security Screen Doors?
     </h2>
     <div class="container">
       <div class="row text-center mx-0">
@@ -114,7 +114,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container text-center justify-content-center">
       <div class="row text-center">
         <div class="col-md-12">
@@ -123,8 +123,8 @@
               <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
             </ul>
           </div>
-          
-          <hr/>
+
+          <hr />
 
         </div>
       </div>

@@ -30,7 +30,7 @@
   (mapClick)="mapClicked($event)">
   <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"
     (markerClick)="clickedMarker(m.label)"></agm-marker>
-  <agm-polygon [paths]="paths" [strokeWeight]="0" clickable="false" [fillColor]="color"></agm-polygon>
+  <agm-polygon [paths]="screenAndChimMap" [strokeWeight]="0" clickable="false" [fillColor]="chimColor"></agm-polygon>
 </agm-map>
 
 <h2 class="text-center pt-md-3 font-weight-bold">Service Areas (All Services)</h2>
@@ -47,22 +47,22 @@
   </div>
 </div>
 
-<!-- 
-<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" style="height: 600px" [scrollwheel]="scrollwheel"
-  (mapClick)="mapClicked($event)">
-  <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"
-    (markerClick)="clickedMarker(m.label)"></agm-marker>
-  <agm-polygon [paths]="paths" [strokeWeight]="0" clickable="false" [fillColor]="color"></agm-polygon>
-</agm-map> -->
+
+<agm-map [latitude]="35.393528" [longitude]="-119.043732" [zoom]="zoom2" style="height: 600px"
+  [scrollwheel]="scrollwheel" (mapClick)="mapClicked($event)">
+  <!-- <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"
+    (markerClick)="clickedMarker(m.label)"></agm-marker> -->
+  <agm-polygon [paths]="screenMap" [strokeWeight]="0" clickable="false" [fillColor]="screenColor"></agm-polygon>
+</agm-map>
 
 
-<h2 class="text-center pt-md-3 font-weight-bold">Service Areas (Security Products Only)</h2>
+<h2 class="text-center pt-md-3 font-weight-bold" style="color: #535456">Service Areas (Security Products Only)</h2>
 
 <div class="container justify-content-center my-5">
   <div class="row text-center justify-content-center">
     <div *ngFor="let region of regionSecurityOnly" class="col-6 col-lg-3 text-center py-1">
-      <a [routerLink]="['/regionsSecurity/', region.slug]" class="text-center justify-content-center">
-        <button class="btn blue btn-rounded waves-light">
+      <a [routerLink]="'/regions/' + region.slug + '/security'" class="text-center justify-content-center">
+        <button class="btn btn-rounded waves-light" style="background-color: #FBAD17; color: #535456">
           {{ region.region }}
         </button>
       </a>

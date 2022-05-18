@@ -247,7 +247,7 @@ const appRoutes: Routes = [
   { path: 'about/our-security-screen-doors/:slug', component: LandingPageComponent },
   { path: 'blog/:slug', component: PostDetailComponent },
   { path: 'regions/:slug', component: LandingRegionalComponent },
-  { path: 'regionsSecurity/:slug', component: LandingRegionalSecurityComponent },
+  { path: 'regions/:slug/security', component: LandingRegionalSecurityComponent },
   { path: 'grid/:slug', component: GridComponent },
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },

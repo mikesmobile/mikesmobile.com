@@ -261,20 +261,24 @@
         </h6>
         <hr class="blue" />
         <p>
-          Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window Screens to California residents.
+          Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window
+          Screens to California residents.
 
         </p>
         <p>We serve communities throughout California including San Diego County</p>
       </div>
-      <div *ngIf="currentRoute === '/about/our-security-screen-doors/ventura'" class="col-12 col-lg-3 mb-4">
+      <div
+        *ngIf="currentRoute === '/about/our-security-screen-doors/ventura' || currentRoute === '/regions/ventura/security'"
+        class="col-12 col-lg-3 mb-4">
         <h6 class="text-uppercase font-weight-bold text-center">
           <strong>Mike's Mobile</strong>
         </h6>
         <hr class="blue" />
         <p>
-          Mike's Mobile specializes in installing premium Security Screen Doors and Security Window Screens.
+          Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window
+          Screens to California residents.
         </p>
-        <p>We serve communities throughout Northern and Central California.</p>
+        <p>We serve communities throughout California including Ventura County, Santa Barbara County, Los Angeles County.</p>
       </div>
       <div class="col-12 col-lg-4 mx-auto">
         <h6 class="text-uppercase font-weight-bold text-center">
@@ -303,7 +307,7 @@
             </div>
           </div>
         </div>
-        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/ventura'">
+        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/ventura' || '/regions/ventura/security' ">
           <div class="row">
             <div class="col-4">
               <p>Burbank</p>

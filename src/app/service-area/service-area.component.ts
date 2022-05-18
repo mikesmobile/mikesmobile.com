@@ -2,8 +2,8 @@ import { Component, ViewChild, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { QuoteFormComponent } from '../quote-form/quote-form.component';
 import { MouseEvent } from '@agm/core';
-import json from '../../assets/json/latlng.json'
-
+import screens from '../../assets/json/screen.json'
+import screenAndChim from '../../assets/json/chim&screen.json'
 import {
   trigger,
   state,
@@ -74,8 +74,10 @@ export class ServiceAreaComponent implements OnInit {
       draggable: false
     }
   ];
+  isMobile: boolean = false
   // 9.7 was old setting, smaller number is more out!
   zoom: number = 7.5;
+  zoom2: number = 7.3
   scrollwheel = false;
 
   paths: Array<LatLngLiteral> = [
@@ -117,15 +119,26 @@ export class ServiceAreaComponent implements OnInit {
     { lat: 38.89524, lng: -122.31091 },
     { lat: 39.56332, lng: -122.28213 },
   ];
-
-  pathsTwo: Array<LatLngLiteral> = json
-  color: string = 'blue';
+  screenMap: Array<LatLngLiteral>[][] = [];
+  screenAndChimMap: Array<LatLngLiteral>[][] = [];
+  chimColor: string = 'blue';
+  screenColor: string = '#D07725'
 
 
   ngOnInit() {
     this.route.params.subscribe((params) => { this.id = params.id; });
     this.regions = regionalJSON;
     this.regionSecurityOnly = regionalSecurityJSON;
+    screens.forEach((item, i) => this.screenMap.push(item[i]))
+    screenAndChim.forEach((item, i) => this.screenAndChimMap.push(item[i]))
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      // true for mobile device
+      this.zoom = 7.0
+      this.zoom2 = 6.5
+    } else {
+      // false for not mobile device
+      this.isMobile = false
+    }
   }
 
   mapClicked($event: MouseEvent) {
@@ -143,6 +156,7 @@ export class ServiceAreaComponent implements OnInit {
       document.querySelector('#' + this.id).scrollIntoView({ block: 'center' });
     } catch (e) { }
   }
+
 }
 
 interface marker {

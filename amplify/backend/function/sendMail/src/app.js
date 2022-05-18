@@ -54,7 +54,6 @@ app.get('/send/*', function(req, res) {
 ****************************/
 
 app.post('/send', function(req, res) {
-  console.log(req.body)
   const auth = {
     auth: {
         api_key: process.env.MAILGUN_KEY,
@@ -145,7 +144,6 @@ app.delete('/send/*', function(req, res) {
 });
 
 app.listen(3000, function() {
-    console.log("App started")
 });
 
 // Export the app object. When executing the application local this does nothing. However,

@@ -28,13 +28,14 @@
   list-style-type: none
   margin: 0
   padding: 0
+  column-count: 3
 
   li
     border-bottom: 1px solid #333
     display: inline-block
     width: 50%
     @include breakpoint(md)
-      width: 33%
+      width: 100%
 
 @include breakpoint(md)
   .yelpCard
@@ -73,3 +74,5 @@
 .fa-star
   color: #F9A602 !important
 
+.large
+  height: 500px

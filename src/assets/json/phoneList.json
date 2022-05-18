@@ -26,13 +26,18 @@
     },
     {
         "title": "bakersfield",
-        "slug": "/regionsSecurity/bakersfield",
+        "slug": "/regions/bakersfield/security",
         "phone": "(661) 567-0284"
     },
     {
         "title": "visalia",
-        "slug": "/regionsSecurity/visalia",
+        "slug": "/regions/visalia/security",
         "phone": "(559) 242-6214"
+    },
+    {
+        "title": "ventura",
+        "slug": "/regions/ventura/security",
+        "phone": "(805) 267-9733"
     },
     {
         "title": "security-windows-central",

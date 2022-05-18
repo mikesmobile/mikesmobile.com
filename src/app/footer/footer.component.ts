@@ -51,12 +51,13 @@ export class FooterComponent implements OnInit {
     '/about/ad/pellet-stove-repair',
     '/about/our-security-screen-doors/ventura',
     '/about/our-security-screen-doors/san-diego',
+    '/regions/ventura/security'
   ]
 
   centralList = [
     '/about/our-security-screen-doors-bakersfield',
-    '/regionsSecurity/bakersfield',
-    '/regionsSecurity/visalia',
+    '/regions/bakersfield/security',
+    '/regions/visalia/security',
     '/products/security-windows-central',
     '/grid/titan-security-doors-central',
     '/products/viewguard-security-doors-central',
@@ -65,7 +66,8 @@ export class FooterComponent implements OnInit {
   ]
   southernList = [
     '/about/our-security-screen-doors/ventura',
-    '/about/our-security-screen-doors/san-diego'
+    '/about/our-security-screen-doors/san-diego',
+    '/regions/ventura/security'
   ]
 
   firepitList = [

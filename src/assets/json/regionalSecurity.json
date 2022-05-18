@@ -412,5 +412,271 @@
       "Tulare",
       "Visalia"
     ]
+  },
+  {
+    "region": "Ventura",
+    "slug": "ventura",
+    "phone": "(805) 267-9733",
+    "truckImg": "/assets/images/regional/ventura/wineberry-titan-security-screen-door-installation-ventura.jpg",
+    "description": "Mike's Mobile provides Ventura, Santa Barbara, and Santa Clarita neighboring areas with premier security products that make homeowners feel secure in their home. Whether you're looking for a securty screen door to bring peace of mind, curb appeal, or get airflow - we've got you covered! We install custom security screen doors to any residential door, including swinging front doors, double doors, and sliding patio doors. Relax in your home with our custom-fit security screens that are professionally installed to your home. ",
+    "imagesInfo": [
+      {
+        "leftImg": "/assets/images/regional/ventura/red-viewguard-security-screen-door-installation-ventura.jpg",
+        "leftImgAlt": "Red Viewguard available at Mike's Mobile",
+        "leftImgText": "<strong><b>Security Screen Doors</b></strong> are the perfect investment for any homeowner looking to allow sunlight and fresh air into your home without feeling vulnerable to potential intruders. If you're wanting upgraded security, style, and comfort for your home - we've got you covered!",
+        "rightImg": "../../assets/images/regional/ventura/stainless-steel-mesh-security-window-screen-ventura.jpg",
+        "rightImgAlt": "Swinging Screen Doors for easy exits from Mike's Mobile",
+        "rightImgText": "<strong><b>Security Window Screens</b></strong> are made out of a stainless steel mesh and designed to give homeowners peace of mind while keeping your home looking sleek and modern. With professional installation, these screens provide secure protection and deliver a solution to deter potential intruders!"
+      }
+    ],
+    "review": [
+      {
+        "src": "/assets/images/regional/ventura/enjoy-fresh-air-ventura.jpg",
+        "alt": "Mike's Mobile Review1"
+      },
+      {
+        "src": "/assets/images/regional/ventura/security-screens-feel-safe-in-your-home-ventura.jpg",
+        "alt": "Mike's Mobile Review2"
+      },
+      {
+        "src": "/assets/images/regional/ventura/security-doors-give-peace-of-mind-ventura.jpg",
+        "alt": "Mike's Mobile Review3"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 34.64251260194503,
+        "longitude": -119.37404931519215,
+        "zoom": 8.2,
+        "fillColor": "#D07725",
+        "regions": [
+          {
+            "paths": [
+              {
+                "lat": 34.4352901,
+                "lng": -120.4585625
+              },
+              {
+                "lat": 34.460204,
+                "lng": -120.116623
+              },
+              {
+                "lat": 34.394506,
+                "lng": -119.754085
+              },
+              {
+                "lat": 34.412635,
+                "lng": -119.63324
+              },
+              {
+                "lat": 34.361639,
+                "lng": -119.447854
+              },
+              {
+                "lat": 34.270335,
+                "lng": -119.312934
+              },
+              {
+                "lat": 34.258986,
+                "lng": -119.27723
+              },
+              {
+                "lat": 34.155072,
+                "lng": -119.239122
+              },
+              {
+                "lat": 34.091672,
+                "lng": -119.118015
+              },
+              {
+                "lat": 34.082312,
+                "lng": -119.061975
+              },
+              {
+                "lat": 34.043629,
+                "lng": -118.953491
+              },
+              {
+                "lat": 34.033387,
+                "lng": -118.912291
+              },
+              {
+                "lat": 33.997531,
+                "lng": -118.81067
+              },
+              {
+                "lat": 34.029972,
+                "lng": -118.68433
+              },
+              {
+                "lat": 34.037369,
+                "lng": -118.54975
+              },
+              {
+                "lat": 34.169708,
+                "lng": -118.226566
+              },
+              {
+                "lat": 34.197106,
+                "lng": -118.211925
+              },
+              {
+                "lat": 34.485677,
+                "lng": -118.039592
+              },
+              {
+                "lat": 34.708482,
+                "lng": -118.040939
+              },
+              {
+                "lat": 35.0903563,
+                "lng": -118.126223
+              },
+              {
+                "lat": 35.1334286,
+                "lng": -118.2297774
+              },
+              {
+                "lat": 35.058314,
+                "lng": -118.349393
+              },
+              {
+                "lat": 34.9239375,
+                "lng": -118.8488406
+              },
+              {
+                "lat": 34.9428573,
+                "lng": -119.33391
+              },
+              {
+                "lat": 35.0480293,
+                "lng": -119.5426038
+              },
+              {
+                "lat": 35.293361,
+                "lng": -120.034202
+              },
+              {
+                "lat": 35.215586,
+                "lng": -120.213666
+              },
+              {
+                "lat": 35.1786,
+                "lng": -120.292059
+              },
+              {
+                "lat": 35.172121,
+                "lng": -120.31371
+              },
+              {
+                "lat": 35.150469,
+                "lng": -120.364647
+              },
+              {
+                "lat": 35.134618,
+                "lng": -120.399302
+              },
+              {
+                "lat": 35.120972,
+                "lng": -120.422966
+              },
+              {
+                "lat": 35.117188,
+                "lng": -120.434146
+              },
+              {
+                "lat": 35.094353,
+                "lng": -120.485575
+              },
+              {
+                "lat": 35.087376,
+                "lng": -120.541472
+              },
+              {
+                "lat": 35.084142,
+                "lng": -120.624002
+              },
+              {
+                "lat": 35.080915,
+                "lng": -120.664219
+              },
+              {
+                "lat": 34.924249,
+                "lng": -120.666459
+              },
+              {
+                "lat": 34.55526,
+                "lng": -120.645323
+              },
+              {
+                "lat": 34.4352901,
+                "lng": -120.4585625
+              }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "BakersfieldArea"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Security Window Screens Installation",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "slug": "titan-security-doors-central",
+            "route": "/grid/titan-security-doors-central",
+            "text": "The <strong>Titan Security Screen Door</strong> is perfect for those who want a visually striking screen door that will keep intruders out. This maximum security screen is available in 40 different design options and up to 6x stronger than steel!"
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "slug": "viewguard-security-doors-central",
+            "route": "/products/viewguard-security-doors-central",
+            "text": "The <strong>Viewguard Security Screen Door</strong> is ideal for homeowners that are looking for a full visibility and maximum airflow! This modern and simplistic design will keep your home's entryway secure and beautiful."
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "slug": "tru-view-security-doors-central",
+            "route": "/products/tru-view-security-doors-central",
+            "text": "The <strong>Tru-View Security Screen Door</strong> lets you experience front door or patio security without resorting to bars or steel grills. This security screen door is perfect for letting the cool breeze in, keeping pets at bay, and keeping intruders out."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "slug": "sliding-security-doors-central",
+            "route": "/products/sliding-security-doors-central",
+            "text": "The <strong>Sliding Security Screen Door</strong> is ideal for those who want to let the cool breeze in for ventilation day and night! This security screen door has a durable frame and stainless steel mesh to keep undesirable elements out of your home."
+          },
+          {
+            "title": "Security Window Screens",
+            "slug": "security-windows-central",
+            "route": "/products/security-windows-central",
+            "text": "<strong>Security Window Screens</strong> are made out of stainless steel mesh that looks like a classic bug screen while increasing home security! A perfect addition to protect your home from intruders without compromising air flow and circulation!"
+          }
+        ]
+      }
+    ],
+    "areas": [
+      "Burbank",
+      "Calabasas",
+      "Carpinteria",
+      "Glendale",
+      "Isla Vista",
+      "Lancaster",
+      "Malibu",
+      "Northridge",
+      "Orcutt",
+      "Oxnard",
+      "Palm Dale",
+      "San Fernando",
+      "Santa Barbara",
+      "Santa Clarita",
+      "Santa Maria",
+      "Simi Valley",
+      "Thousand Oaks",
+      "Ventura"
+    ]
   }
 ]

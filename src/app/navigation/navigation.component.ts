@@ -64,6 +64,7 @@ export class NavigationComponent implements OnInit {
       // meaning i have to loop through the json slugs to find the one that matches the current route forloop style then return the specific number. 
 
     for(let i = 0; i < this.phoneList.length; i++){
+      console.log(this.phoneList[i].slug, this.currentRoute)
       if(this.phoneList[i].slug === this.currentRoute){
         return this.phoneList[i].phone
       }
