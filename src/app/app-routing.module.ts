@@ -228,6 +228,10 @@ const appRoutes: Routes = [
     path: 'regions/sliding-security-screen-doors',
     redirectTo: 'products/sliding-security-doors',
   },
+  {
+    path: 'security-doors',
+    redirectTo: 'about/security-screen-doors',
+  },
   { path: 'about', component: AboutComponent },
   { path: 'blog', component: PostListComponent },
   // { path: 'chimney-faq', component: ChimneyFaqComponent },
@@ -253,7 +257,6 @@ const appRoutes: Routes = [
   { path: 'products/:slug', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
-  // { path: 'solar-screen-price-calc', component: SolarScreenPriceCalcComponent },
   { path: 'hiring-contact', component: LandingContactComponent },
   { path: 'serviceareatest', component: ServiceAreaComponent },
   { path: '', pathMatch: 'full', component: HomeComponent },

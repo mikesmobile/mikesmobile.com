@@ -32,7 +32,6 @@ export class FooterComponent implements OnInit {
         this.phone = this.phoneNumberSwitch()
         this.cityNames = this.citySwitch()
         this.cityNameSplit = this.cityNames ? this.cityNames.length > 5 : false
-        console.log(this.turnMeOn, this.central, this.south, this.firepit)
       }
     });
   }

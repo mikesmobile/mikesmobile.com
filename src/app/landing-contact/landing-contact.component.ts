@@ -70,9 +70,6 @@ export class LandingContactComponent implements OnInit {
 
       this.MailResumeService.send(formData).then(
         (response) => {
-          // this.form.enable(); // re enable the form after a success
-          // this.isLoading = false; // re enable the submit button
-          // console.log(response);
         }
       );
       this.responseMessage = "Thanks for the message! We'll get back to you soon!";
