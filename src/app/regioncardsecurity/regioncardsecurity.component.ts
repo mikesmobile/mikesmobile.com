@@ -19,7 +19,6 @@ export class RegioncardsecurityComponent implements OnInit {
       const serviceInfo = servicesJSON.find(
         (data) => data.slug === card.slug
       );
-
       return {
         title: card.title,
         image: card.image ? card.image : serviceInfo.img,

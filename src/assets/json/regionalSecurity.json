@@ -627,32 +627,37 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "slug": "titan-security-doors-central",
-            "route": "/grid/titan-security-doors-central",
+            "slug": "titan-security-doors-ventura",
+            "image": "/assets/images/newTiles/Titan.png",
+            "route": "/grid/titan-security-doors-ventura",
             "text": "The <strong>Titan Security Screen Door</strong> is perfect for those who want a visually striking screen door that will keep intruders out. This maximum security screen is available in 40 different design options and up to 6x stronger than steel!"
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "slug": "viewguard-security-doors-central",
-            "route": "/products/viewguard-security-doors-central",
+            "slug": "viewguard-security-doors-ventura",
+            "image": "/assets/images/newTiles/Viewguard.png",
+            "route": "/products/viewguard-security-doors-ventura",
             "text": "The <strong>Viewguard Security Screen Door</strong> is ideal for homeowners that are looking for a full visibility and maximum airflow! This modern and simplistic design will keep your home's entryway secure and beautiful."
           },
           {
             "title": "TRU-View Security Screen Doors",
-            "slug": "tru-view-security-doors-central",
-            "route": "/products/tru-view-security-doors-central",
+            "slug": "tru-view-security-doors-ventura",
+            "image": "/assets/images/newTiles/TruView.png",
+            "route": "/products/tru-view-security-doors-ventura",
             "text": "The <strong>Tru-View Security Screen Door</strong> lets you experience front door or patio security without resorting to bars or steel grills. This security screen door is perfect for letting the cool breeze in, keeping pets at bay, and keeping intruders out."
           },
           {
             "title": "Sliding Security Doors",
-            "slug": "sliding-security-doors-central",
-            "route": "/products/sliding-security-doors-central",
+            "slug": "sliding-security-doors-ventura",
+            "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
+            "route": "/products/sliding-security-doors-ventura",
             "text": "The <strong>Sliding Security Screen Door</strong> is ideal for those who want to let the cool breeze in for ventilation day and night! This security screen door has a durable frame and stainless steel mesh to keep undesirable elements out of your home."
           },
           {
             "title": "Security Window Screens",
-            "slug": "security-windows-central",
-            "route": "/products/security-windows-central",
+            "slug": "security-windows-ventura",
+            "image": "/assets/images/newTiles/SecurityWindowScreens.png",
+            "route": "/products/security-windows-ventura",
             "text": "<strong>Security Window Screens</strong> are made out of stainless steel mesh that looks like a classic bug screen while increasing home security! A perfect addition to protect your home from intruders without compromising air flow and circulation!"
           }
         ]

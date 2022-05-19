@@ -92,6 +92,7 @@ export class LandingRegionalSecurityComponent implements OnInit {
         return;
       }
     });
+    console.log(this.region)
   }
 }
 
