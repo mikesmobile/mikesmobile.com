@@ -2469,6 +2469,360 @@
   </ng-container>
 
   <ng-container
+  *ngIf="landing.slug === 'los-angeles'">
+  <div class="container-fluid">
+    <!-- Main -->
+    <div class="row">
+      <div
+        class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 d-flex p-3 p-xl-5 justify-content-center align-items-center">
+        <div class="m-0 m-md-3 m-xl-5 px-xl-5 pb-xl-5 paddingNoneHeader">
+          <h1 class="fontResponseh1 font-weight-bold">Your entryway is the smile of your home.</h1>
+          <p style="font-size: 25px;">We'll help you find the perfect security screen door.</p>
+          <div class="d-flex justify-content-center">
+            <button class="btn mikesBlueBtn mt-3" (click)="openQuoteForm()">Schedule Online</button>
+          </div>
+          <hr>
+          <p class="text-center" style="font-size: 20px;">
+            Proudly Serving: <span class="font-italic">{{landing.serving}}</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 col-xl-6 order-1 order-lg-2 order-xl-3 px-0 d-flex justify-content-end">
+        <img data-aos="fade" data-aos-duration="1000" width="100%"
+          src="../../assets/images/regional/losAngeles/red-viewguard-security-screen-door-installation-los-angeles.jpg" alt="Red Viewguard Security Screen Door" />
+      </div>
+    </div>
+  </div>
+
+  <!-- check with words -->
+  <div class="container-fluid">
+    <div class="row mb-5">
+
+      <div class="col-12 col-lg-4 py-5 bluishBackground">
+        <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+          ✓ Protect Your Home
+        </p>
+      </div>
+      <div class="d-none d-lg-block col-12 col-lg-4 py-5 bluishBackground"
+        style="border-left: solid 2px #fff; border-right: solid 2px #fff;">
+        <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="text-center subtitleBold mb-0">
+          ✓ Enjoy The Breeze
+        </p>
+      </div>
+      <div class="d-lg-none col-12 col-lg-4 py-5 bluishBackground"
+        style="border-bottom: solid 2px #fff; border-top: solid 2px #fff;">
+        <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-right" class="subtitleBold text-center mb-0">
+          ✓ Enjoy The Breeze
+        </p>
+      </div>
+      <div class="col-12 col-lg-4 py-5 bluishBackground">
+        <p style="overflow: hidden; white-space: nowrap;" data-aos="fade-left" class="subtitleBold text-center mb-0">
+          ✓ Express Your Style
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lady cooking with the unordered list of stuff -->
+  <div class="container pb-5">
+    <div class="row pt-3">
+      <div class="col-12 col-lg-6 p-lg-5">
+        <img class="img-fluid" src="../../assets/images/regional/losAngeles/let-smoke-out-of-kitchen-with-security-screen-door.jpg" alt="Enjoy the safety and security of one our security screen doors!" />
+      </div>
+
+      <div class="col-12 col-lg-6 pt-lg-5">
+
+        <h2 style="font-size:40px">Sound familiar? If so, we can help.</h2>
+        <br>
+        <ul style="font-size: 18px;">
+          <li class="mb-3">You want fresh air without compromising security</li>
+          <li class="mb-3">You feel vulnerable in your home</li>
+          <li class="mb-3">Your entryway could use a refresh</li>
+        </ul>
+        <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Improve Security -->
+  <div class="container-fluid bluishBackground">
+    <div class="row pt-5">
+      <div class="col-12 text-center">
+        <h2 style="font-size:40px;">Improving the security and comfort of your home is our priority!</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-none d-lg-block col-lg-3"></div>
+      <div class="col-12 col-sm-4 col-lg-2">
+        <div class="m-0 mx-md-5 d-flex justify-content-center">
+          <img data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" height="200"
+            src="../../assets/images/landing/securityscreen/lock.png"
+            alt="lock to show Mike's Mobile values security">
+        </div>
+        <p class="text-center subtitleItalicBlue">
+          Security
+        </p>
+        <p class="text-center">Deter intruders and <br class="d-none d-md-block">protect those in your home</p>
+      </div>
+      <div class="col-12 col-sm-4 col-lg-2">
+        <div class="m-0 mx-md-5 d-flex justify-content-center">
+          <img data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" height="200"
+            src="../../assets/images/landing/securityscreen/houseAir.png"
+            alt="air flow in a house is extremely important to Mike's Mobile!">
+        </div>
+        <p class="text-center subtitleItalicBlue">
+          Airflow
+        </p>
+        <p class="text-center">Stainless steel mesh <br class="d-none d-md-block"> allows cross-breeze</p>
+      </div>
+      <div class="col-12 col-sm-4 col-lg-2">
+        <div class="m-0 mx-md-5 d-flex justify-content-center">
+          <img data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" height="200"
+            src="../../assets/images/landing/securityscreen/star.png" alt="Your style is important to us!">
+        </div>
+        <p class="text-center subtitleItalicBlue">
+          Style
+        </p>
+        <p class="text-center">Modern designs to <br class="d-none d-md-block">compliment your home</p>
+      </div>
+      <div class="d-none d-lg-block col-lg-3"></div>
+    </div>
+    <div class="row">
+
+      <div class="col-12 d-flex justify-content-center mt-4 mb-5">
+        <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- review section -->
+  <div class="container" style="overflow: hidden;">
+
+    <!-- Upgrading -->
+    <div class="row mt-5">
+      <div class="col-12 mb-3">
+        <h2 style="font-size:40px;" class="text-center mb-3">You should be able to let in the breeze<br
+            class="d-none d-md-block"> without letting in intruders!</h2>
+
+        <p style="font-size:20px;" class="text-center">Since 2002, Mike’s Mobile has proudly helped over 50,000
+          homeowners across California with their <br class="d-none d-md-block"> home renovation projects.</p>
+      </div>
+    </div>
+
+    <!-- reviews -->
+    <div class="row text-center mx-0 mb-4">
+      <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+        <img data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+          src="../../assets/images/regional/losAngeles/enjoy-fresh-air-los-angeles.jpg" class="img-fluid" alt="A Mike's Mobile Review">
+      </div>
+      <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+        <img data-aos="fade" data-aos-anchor-placement="bottom-bottom"
+          src="../../assets/images/regional/losAngeles/security-doors-give-peace-of-mind-los-angeles.jpg" class="img-fluid" alt="A Mike's Mobile Review">
+      </div>
+      <div class="col-12 col-md-4 mb-2 px-5 py-2 px-md-2 p-lg-5">
+        <img data-aos="fade-left" data-aos-anchor-placement="bottom-bottom"
+          src="../../assets/images/regional/losAngeles/security-screens-feel-safe-in-your-home-los-angeles.jpg" class="img-fluid" alt="A Mike's Mobile Review">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="order-xl-2 d-none d-xl-block col-xl"></div>
+      <div
+        class="order-2 order-md-1 order-xl-2 col-6 col-md-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+        <a href="https://www.cslb.ca.gov/" target="_blank">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/docacslb.png"
+            alt="Department of Consumer Affairs Contractors State License Board logo">
+        </a>
+      </div>
+      <div class="order-1 order-md-2 order-xl-3 col-12 col-md-4 col-xl-3 mb-2 d-flex justify-content-center px-2">
+        <a href="https://www.expertise.com/CA/elk-grove/doors-windows-contractors" target="_blank"
+          style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+            src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_elk-grove_doors-windows-contractors_2021_transparent.svg"
+            alt="Window & Doors Contractors near me" /></a>
+
+        <a href="https://www.expertise.com/CA/stockton/doors-windows-contractors" target="_blank"
+          style="display:inline-block; border:0;"><img style="width:150px; display:block;" width="150" height="120"
+            src="https://res.cloudinary.com/expertise-com/image/upload/f_auto,fl_lossy,q_auto/w_auto/remote_media/awards/ca_stockton_doors-windows-contractors_2021_transparent.svg"
+            alt="Window & Doors Contractors near me" /></a>
+      </div>
+      <div class="order-3 col-6 col-md-4 order-xl-4 col-xl-2 mb-2 d-flex justify-content-center align-items-center">
+        <a href="https://www.hpba.org/" target="_blank">
+          <img class="img-fluid" src="../../assets/images/landing/securityscreen/logo-hpba.png"
+            alt="Hearth Patio And BBQ Association Logo">
+        </a>
+      </div>
+      <div class="d-none d-xl-block col-xl order-xl-4"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center mt-4">
+        <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- How We Make It Easy, 1 , 2 , 3 -->
+  <div class="container-fluid bluishBackground py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-3">
+          <h2 style="font-size:40px;">How We Make It Easy:</h2>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg"></div>
+          <div class="col-12 col-lg-3 mb-3" id="triggerMakeItEasy" data-aos-anchor="#triggerMakeItEasy"
+            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <img class="img-fluid" src="../../assets/images/regional/losAngeles/call-for-security-screen-door-installation-los-angeles.jpg"
+              alt="Call Us! One of our Amazing CSR's will be able to get you on our schedule!">
+            <p class="subtitleBold mt-2 mb-1">1. Call Us</p>
+            <p style="font-size:20px;" class="lineSpacing">
+              We’ll listen to your goals and schedule a visit</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerMakeItEasy" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="700">
+            <img class="img-fluid" src="../../assets/images/regional/losAngeles/mikes-mobile-security-doors-free-consultation.jpg"
+              alt="One of our outstanding technicians will come to you and help you find the perfect screen door for you">
+            <p class="subtitleBold mt-2 mb-1">2. We Come To You</p>
+            <p style="font-size:20px;" class="lineSpacing">Your security advisor will help you choose the perfect
+              door
+            </p>
+          </div>
+          <div class="col-12 col-lg-3 mb-3" data-aos-anchor="#triggerMakeItEasy" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="1200">
+            <img class="img-fluid" src="../../assets/images/regional/losAngeles/desert-sand-truview-security-screen-door-installation-los-angeles.jpg"
+              alt="Beautiful Viewguard, perfect for YOUR house!">
+            <p class="subtitleBold mt-2 mb-1">3. Enjoy The Breeze</p>
+            <p style="font-size:20px;" class="lineSpacing">
+              Have a nice cross-breeze in your home while still feeling secure
+            </p>
+          </div>
+          <div class="col-lg"></div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <a class="btn mikesBlueBtn" href="tel:+1{{this.phone}}">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Free Consultation -->
+  <div class="container">
+    <div class="row">
+      <div class="d-none d-xl-block col-xl-1"></div>
+      <div class="col-12 col-lg-6 col-xl-5">
+        <img class='img-fluid' src="../../assets/images/regional/losAngeles/mikes-mobile-security-screen-door-installation-los-angeles.jpg"
+          alt="One of our amazing technicians, Hank, ready to make your home more secure!">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-5 px-2 mt-4 px-md-5">
+        <h2 style="font-size:40px;">Free Consultation</h2>
+        <br>
+        <p style="font-size:20px;" class="lineSpacing">We understand that your home is a reflection of you, which is
+          why we give you a free one-on-one consultation with a security advisor to help you find the perfect screen
+          door.</p>
+        <div class="d-flex justify-content-center">
+          <button class="btn mikesBlueBtn" (click)="openQuoteForm()">Schedule Online</button>
+        </div>
+      </div>
+      <div class="d-none d-xl-block col-xl-1"></div>
+
+    </div>
+  </div>
+
+  <!-- Map Pic -->
+  <div class="container-fluid bluishBackground py-5 mt-5">
+
+    <div class="container" style="overflow: hidden;">
+      <div class="row">
+        <div class="order-xl-1 d-none d-xl-block col-xl"></div>
+        <div class="order-2 order-lg-1 order-xl-2 col-12 col-lg-6 col-xl-6 mt-2 mt-md-5 px-md-5">
+          <h2 style='font-size: 40px;'>Our Guarantee</h2>
+          <br>
+          <ul style="font-size: 18px;">
+            <li class="mb-3">Save time & money - your project will be done right the first time</li>
+            <li class="mb-3">Full-service experience, we take care of you start to finish</li>
+            <li class="mb-3">Professional installation - for a perfect end result</li>
+            <li class="mb-3">Lifetime no break-in guarantee</li>
+          </ul>
+          <div class="d-flex justify-content-center mt-2">
+            <a class="btn mikesBlueBtn text-center" href="tel:+1{{this.phone}}">Call Now</a>
+          </div>
+
+        </div>
+
+
+        <div class="order-1 order-lg-2 order-xl-3 col-12 col-lg-6 col-xl-4">
+          <img *ngIf="landing.slug !== 'our-security-screen-doors-bakersfield' " data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom" class='img-fluid'
+            src="../../assets/images/landing/securityscreen/ventura/service_map_California.png" alt="Map of our Service Area!">
+          <img *ngIf="landing.slug === 'our-security-screen-doors-bakersfield' " data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom" class='img-fluid'
+            src="../../assets/images/landing/securityscreen/bakersfieldcentral.png"
+            alt="Bakersfield Sign with a Mike's Mobile Truck and text saying Proudly Serving Central California">
+          <p *ngIf="landing.slug === 'our-security-screen-doors-bakersfield'"
+            class="pt-3 font-weight-bold small text-center">Also serving Fresno, Visalia, San Luis Obispo, and More!
+          </p>
+        </div>
+        <div class="order-xl-4 d-none d-xl-block col-xl"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg"></div>
+      <div class="d-none d-lg-block col-lg-6 text-center">
+        <img class="img-fluid" src="../../assets/images/regional/losAngeles/bronze-viewguard-security-screen-door-installation-in-los-angeles.jpg"
+          alt="beautiful black viewguard">
+      </div>
+
+      <div class="d-none d-lg-block col-lg-4 pt-2">
+        <h2 class="pl-2 pl-xl-3 mb-0 font-weight-bold">Schedule Today!</h2>
+        <app-contact-form></app-contact-form>
+      </div>
+      <div class="col-lg"></div>
+    </div>
+
+    <div class="d-lg-none row">
+      <div class="col-12 viewguardImg">
+        <h2 style="font-size:40px;" class="pl-2 pl-xl-3 pt-4 font-weight-bold BlurBg mb-0">Schedule Your Free
+          Consultation Today!</h2>
+        <app-contact-form></app-contact-form>
+      </div>
+    </div>
+
+    <!-- </div> -->
+  </div>
+
+  <!-- Check Out Our Recent Work -->
+  <div class="container-fluid bluishBackground py-5">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h2 style="font-size:40px;">Check Out Our Recent Work!</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div *ngFor="let pics of landing.images" class="col-12 col-sm-6 col-lg-4 py-2 py-lg-3">
+          <img class="img-fluid" src={{pics.medium}} alt={{pics.alt}}>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+  <ng-container
     *ngIf="landing.slug === 'san-diego'">
     <div class="container-fluid">
       <!-- Main -->

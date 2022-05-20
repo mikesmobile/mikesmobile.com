@@ -134,6 +134,12 @@
         "cities": ["Ventura", "Oxnard", "Santa Barbara", "Santa Clarita", "Burbank", "and nearby!"]
     },
     {
+        "title": "los-angeles",
+        "slug": "/about/our-security-screen-doors/los-angeles",
+        "phone": "(213)314-0498",
+        "cities": ["Anaheim", "Beverly Hills", "Irvine", "Orange County", "and nearby!"]
+    },
+    {
         "title": "san-diego",
         "slug": "/about/our-security-screen-doors/san-diego",
         "phone": "(619) 363-0529",

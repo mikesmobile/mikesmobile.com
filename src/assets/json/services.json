@@ -6873,6 +6873,51 @@
   },
   {
     "title": "Security Screen Doors",
+    "slug": "los-angeles",
+    "type": "landing",
+    "security": "true",
+    "serving": "Anaheim, Beverly Hills, Irvine, Orange, and more!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/regional/losAngeles/white-trellis-security-screen-door-installation-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/white-trellis-security-screen-door-installation-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/white-trellis-security-screen-door-installation-los-angeles.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/regional/losAngeles/french-set-champagne-beige-viewguard-security-screen-door-installation-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/french-set-champagne-beige-viewguard-security-screen-door-installation-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/french-set-champagne-beige-viewguard-security-screen-door-installation-los-angeles.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/regional/losAngeles/wineberry-titan-security-screen-door-installation-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/wineberry-titan-security-screen-door-installation-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/wineberry-titan-security-screen-door-installation-los-angeles.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/regional/losAngeles/white-viewguard-security-screen-door-installation-in-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/white-viewguard-security-screen-door-installation-in-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/white-viewguard-security-screen-door-installation-in-los-angeles.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/regional/losAngeles/french-set-blue-hammertone-titan-security-screen-door-installation-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/french-set-blue-hammertone-titan-security-screen-door-installation-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/french-set-blue-hammertone-titan-security-screen-door-installation-los-angeles.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/regional/losAngeles/black-viewguard-security-screen-door-installation-los-angeles.jpg",
+        "medium": "/assets/images/regional/losAngeles/black-viewguard-security-screen-door-installation-los-angeles.jpg",
+        "big": "/assets/images/regional/losAngeles/black-viewguard-security-screen-door-installation-los-angeles.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
     "slug": "san-diego",
     "type": "landing",
     "security": "true",
