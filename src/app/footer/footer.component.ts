@@ -33,6 +33,7 @@ export class FooterComponent implements OnInit {
         this.cityNames = this.citySwitch()
         this.cityNameSplit = this.cityNames ? this.cityNames.length > 5 : false
       }
+      console.log(this.currentRoute)
     });
   }
   adList = [
@@ -49,6 +50,7 @@ export class FooterComponent implements OnInit {
     '/about/our-annual-cleaning-and-inspection',
     '/about/ad/pellet-stove-repair',
     '/about/our-security-screen-doors/ventura',
+    '/about/our-security-screen-doors/los-angeles',
     '/about/our-security-screen-doors/san-diego',
     '/regions/ventura/security'
   ]
@@ -65,6 +67,7 @@ export class FooterComponent implements OnInit {
   ]
   southernList = [
     '/about/our-security-screen-doors/ventura',
+    '/about/our-security-screen-doors/los-angeles',
     '/about/our-security-screen-doors/san-diego',
     '/regions/ventura/security'
   ]

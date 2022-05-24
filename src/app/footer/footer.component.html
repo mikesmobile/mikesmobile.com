@@ -280,6 +280,18 @@
         </p>
         <p>We serve communities throughout California including Ventura County, Santa Barbara County, Los Angeles County.</p>
       </div>
+      <div
+      *ngIf="currentRoute === '/about/our-security-screen-doors/los-angeles' || currentRoute === '/regions/los-angeles/security'"
+      class="col-12 col-lg-3 mb-4">
+      <h6 class="text-uppercase font-weight-bold text-center">
+        <strong>Mike's Mobile</strong>
+      </h6>
+      <hr class="blue" />
+      <p>
+        Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window Screens to California residents.
+      </p>
+      <p>We serve communities throughout Southern California including Los Angeles County, Orange County, and San Bernardino County.</p>
+    </div>
       <div class="col-12 col-lg-4 mx-auto">
         <h6 class="text-uppercase font-weight-bold text-center">
           <strong>Service Area</strong>
@@ -307,7 +319,7 @@
             </div>
           </div>
         </div>
-        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/ventura' || '/regions/ventura/security' ">
+        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/ventura' || this.currentRoute === '/regions/ventura/security' ">
           <div class="row">
             <div class="col-4">
               <p>Burbank</p>
@@ -332,6 +344,34 @@
               <p>Thousand Oaks</p>
               <p>Ventura</p>
               <p> + nearby!</p>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="this.currentRoute === '/about/our-security-screen-doors/los-angeles' || this.currentRoute === '/regions/los-angeles/security' ">
+          <div class="row">
+            <div class="col-4">
+              <p>Anaheim</p>
+              <p>Beverly Hills</p>
+              <p>Covina</p>
+              <p>Hollywood</p>
+              <p>Huntington Beach</p>
+              <p>Irvine</p>
+            </div>
+            <div class="col-4">
+              <p>Laguna Beach</p>
+              <p>Long Beach</p>
+              <p>Los Angeles</p>
+              <p>Newport Beach</p>
+              <p>Orange</p>
+              <p>Pasadena</p>
+            </div>
+            <div class="col-4">
+              <p>Riverside</p>
+              <p>San Bernadino</p>
+              <p>Santa Monica</p>
+              <p>Torrance</p>
+              <p>Venice</p>
+              <p> + More!</p>
             </div>
           </div>
         </div>
