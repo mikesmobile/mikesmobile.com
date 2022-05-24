@@ -683,5 +683,276 @@
       "Thousand Oaks",
       "Ventura"
     ]
+  },
+  {
+    "region": "Los Angeles",
+    "slug": "los-angeles",
+    "phone": "(213)314-0498",
+    "truckImg": "/assets/images/regional/los-angeles/wineberry-titan-security-screen-door-installation-los-angeles.jpg",
+    "description": "Mike's Mobile provides Los Angeles and surrounding areas with high quality security screen products that increases your home's security and curb appeal by giving your home has an extra layer of protection. We install custom security screen doors to any size door, whether you're looking for a security screen for a swinging front doors, double doors, or sliding patio doors - we can help! Let us help you feel more relaxed in your home with a custom-fit security screen.",
+    "imagesInfo": [
+      {
+        "leftImg": "/assets/images/regional/los-angeles/red-viewguard-security-screen-door-installation-los-angeles.jpg",
+        "leftImgAlt": "Red Viewguard available at Mike's Mobile",
+        "leftImgText": "A <strong><b>Security Screen Doors</b></strong> is a great investment for any homeowner looking to upgrade their home security without decreasing their home's aesthetic appeal. Installing a security screen door to your home will give you a nice cross-breeze within your home and feel better about keeping loved ones secure! If you're wanting upgraded security, style, and comfort for your home - look no further! ",
+        "rightImg": "../../assets/images/regional/los-angeles/stainless-steel-mesh-security-window-screen-los-angeles.jpg",
+        "rightImgAlt": "Swinging Screen Doors for easy exits from Mike's Mobile",
+        "rightImgText": "<strong><b>Security Window Screens</b></strong> are an upgrade from a classic window screen, made out of a stainless steel mesh and designed to give homeowners peace of mind! These window screens outlast classic bug screen mesh and will keep your home looking sleek and modern. With professional installation, these screens provide protection against bugs and intruders!"
+      }
+    ],
+    "review": [
+      {
+        "src": "/assets/images/regional/los-angeles/enjoy-fresh-air-los-angeles.jpg",
+        "alt": "Mike's Mobile Review1"
+      },
+      {
+        "src": "/assets/images/regional/los-angeles/security-screens-feel-safe-in-your-home-los-angeles.jpg",
+        "alt": "Mike's Mobile Review2"
+      },
+      {
+        "src": "/assets/images/regional/los-angeles/security-doors-give-peace-of-mind-los-angeles.jpg",
+        "alt": "Mike's Mobile Review3"
+      }
+    ],
+    "map": [
+      {
+        "latitude": 34.64251260194503,
+        "longitude": -119.37404931519215,
+        "zoom": 8.2,
+        "fillColor": "#D07725",
+        "regions": [
+          {
+            "paths": [
+              {
+                "lat": 34.4352901,
+                "lng": -120.4585625
+              },
+              {
+                "lat": 34.460204,
+                "lng": -120.116623
+              },
+              {
+                "lat": 34.394506,
+                "lng": -119.754085
+              },
+              {
+                "lat": 34.412635,
+                "lng": -119.63324
+              },
+              {
+                "lat": 34.361639,
+                "lng": -119.447854
+              },
+              {
+                "lat": 34.270335,
+                "lng": -119.312934
+              },
+              {
+                "lat": 34.258986,
+                "lng": -119.27723
+              },
+              {
+                "lat": 34.155072,
+                "lng": -119.239122
+              },
+              {
+                "lat": 34.091672,
+                "lng": -119.118015
+              },
+              {
+                "lat": 34.082312,
+                "lng": -119.061975
+              },
+              {
+                "lat": 34.043629,
+                "lng": -118.953491
+              },
+              {
+                "lat": 34.033387,
+                "lng": -118.912291
+              },
+              {
+                "lat": 33.997531,
+                "lng": -118.81067
+              },
+              {
+                "lat": 34.029972,
+                "lng": -118.68433
+              },
+              {
+                "lat": 34.037369,
+                "lng": -118.54975
+              },
+              {
+                "lat": 34.169708,
+                "lng": -118.226566
+              },
+              {
+                "lat": 34.197106,
+                "lng": -118.211925
+              },
+              {
+                "lat": 34.485677,
+                "lng": -118.039592
+              },
+              {
+                "lat": 34.708482,
+                "lng": -118.040939
+              },
+              {
+                "lat": 35.0903563,
+                "lng": -118.126223
+              },
+              {
+                "lat": 35.1334286,
+                "lng": -118.2297774
+              },
+              {
+                "lat": 35.058314,
+                "lng": -118.349393
+              },
+              {
+                "lat": 34.9239375,
+                "lng": -118.8488406
+              },
+              {
+                "lat": 34.9428573,
+                "lng": -119.33391
+              },
+              {
+                "lat": 35.0480293,
+                "lng": -119.5426038
+              },
+              {
+                "lat": 35.293361,
+                "lng": -120.034202
+              },
+              {
+                "lat": 35.215586,
+                "lng": -120.213666
+              },
+              {
+                "lat": 35.1786,
+                "lng": -120.292059
+              },
+              {
+                "lat": 35.172121,
+                "lng": -120.31371
+              },
+              {
+                "lat": 35.150469,
+                "lng": -120.364647
+              },
+              {
+                "lat": 35.134618,
+                "lng": -120.399302
+              },
+              {
+                "lat": 35.120972,
+                "lng": -120.422966
+              },
+              {
+                "lat": 35.117188,
+                "lng": -120.434146
+              },
+              {
+                "lat": 35.094353,
+                "lng": -120.485575
+              },
+              {
+                "lat": 35.087376,
+                "lng": -120.541472
+              },
+              {
+                "lat": 35.084142,
+                "lng": -120.624002
+              },
+              {
+                "lat": 35.080915,
+                "lng": -120.664219
+              },
+              {
+                "lat": 34.924249,
+                "lng": -120.666459
+              },
+              {
+                "lat": 34.55526,
+                "lng": -120.645323
+              },
+              {
+                "lat": 34.4352901,
+                "lng": -120.4585625
+              }
+            ],
+            "fillColor": "blue",
+            "visible": true,
+            "label": "BakersfieldArea"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "slug": "security",
+        "title": "Security Screen Doors and Security Window Screens Installation",
+        "cards": [
+          {
+            "title": "Titan Security Screen Doors",
+            "slug": "titan-security-doors-los-angeles",
+            "image": "/assets/images/newTiles/Titan.png",
+            "route": "/grid/titan-security-doors-los-angeles",
+            "text": "The <strong>Titan Security Screen Door</strong> is our maximum security screen door option, ideal for homeowners that want an entryway to show off their personal style! This screen door is made to last and is up to 6x stronger than steel! The Titan is available in 40 different design options and 12 frame colors."
+          },
+          {
+            "title": "Viewguard Security Screen Doors",
+            "slug": "viewguard-security-doors-los-angeles",
+            "image": "/assets/images/newTiles/Viewguard.png",
+            "route": "/products/viewguard-security-doors-los-angeles",
+            "text": "The <strong>Viewguard Security Screen Door</strong> is ideal for homeowners that are looking for a full visibility and maximum airflow, while keeping your front door clean and contemproary! The modern design of the Viewguard offers the most airflow out of any of our security products and will keep your home's entryway secure."
+          },
+          {
+            "title": "TRU-View Security Screen Doors",
+            "slug": "tru-view-security-doors-los-angeles",
+            "image": "/assets/images/newTiles/TruView.png",
+            "route": "/products/tru-view-security-doors-los-angeles",
+            "text": "The <strong>Tru-View Security Screen Door</strong> is perfect for homeowners that want increased security for their home but desire a classic looking screen door. This security screen door is perfect for letting the cool breeze in, keeping pets at bay, and detering potential intruders."
+          },
+          {
+            "title": "Sliding Security Doors",
+            "slug": "sliding-security-doors-los-angeles",
+            "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
+            "route": "/products/sliding-security-doors-los-angeles",
+            "text": "The <strong>Sliding Security Screen Door</strong> is ideal for those who want to let the breeze in overnight without worrying about unwanted visitors! This security screen door gives great open visbility of the outdoors from inside, and will last yeras thanks to the has a heavy durable frame and stainless steel mesh."
+          },
+          {
+            "title": "Security Window Screens",
+            "slug": "security-windows-los-angeles",
+            "image": "/assets/images/newTiles/SecurityWindowScreens.png",
+            "route": "/products/security-windows-los-angeles",
+            "text": "<strong>Security Window Screens</strong> are made out of stainless steel mesh allowing air flow, circulation, and protection! These premium window screens look like a classic bug screen, but offers the added benefit of longevity with rust resitent screens that will last years. Tired of your regular window screens? It's time to upgrade to ones that last! "
+          }
+        ]
+      }
+    ],
+    "areas": [
+      "Anaheim",
+      "Beverly Hills",
+      "Covina",
+      "Hollywood",
+      "Huntington Beach",
+      "Inglewood",
+      "Irvine",
+      "Laguna Beach",
+      "Long Beach",
+      "Los Angeles",
+      "Newport Beach",
+      "Orange",
+      "Pasadena",
+      "Riverside",
+      "San Bernardino",
+      "Santa Monica",
+      "Torrance",
+      "Venice"
+    ]
   }
 ]

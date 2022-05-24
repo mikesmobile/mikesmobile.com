@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TileNavComponent implements OnInit{
   @Input() turnOn: boolean = true;
-
+  slug;
   ngOnInit() {
   }
 }

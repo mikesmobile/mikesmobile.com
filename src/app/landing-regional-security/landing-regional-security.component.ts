@@ -10,7 +10,7 @@ import {
   transition,
   animate
 } from '@angular/animations';
-import { AgmPolygon, LatLngLiteral, PolygonManager } from '@agm/core';
+import { LatLngLiteral } from '@agm/core';
 import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
 
 @Component({
@@ -80,7 +80,7 @@ export class LandingRegionalSecurityComponent implements OnInit {
       easing: 'ease-out-back',
       duration: 700
     });
-    
+
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
       this.region = regionalSecurityJSON.find((data) => {

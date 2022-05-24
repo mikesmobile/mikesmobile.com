@@ -40,6 +40,11 @@
         "phone": "(805) 267-9733"
     },
     {
+        "title": "los-angeles",
+        "slug": "/regions/los-angeles/security",
+        "phone": "(213) 314-0498"
+    },
+    {
         "title": "security-windows-central",
         "slug": "/products/security-windows-central",
         "phone": "(661) 567-0284"

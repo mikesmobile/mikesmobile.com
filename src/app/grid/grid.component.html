@@ -630,6 +630,166 @@
     <app-slideShowModal></app-slideShowModal>
     <app-quote-form></app-quote-form>
   </ng-container>
+  <ng-container *ngSwitchCase="'titan-security-doors-los-angeles'">
+    <div class="container">
+      <section class="section pb-3">
+        <div class="d-flex flex-column flex-md-row mb-0">
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-end flex-md-row">
+            <h1 class="h1 my-0 align-baseline d-flex align-items-end">
+              Titan Security Screen Doors
+            </h1>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-12 col-md-7 pb-3">
+            <app-main-gallery [Images]="service.recentInstallImages"></app-main-gallery>
+          </div>
+          <div class="col-12 col-md-5 productInfo">
+            <h5 class="text-left font-weight-bold font-italic">
+              Our Titan security screens help you maximize your home's curb
+              appeal while staying safe!
+            </h5>
+            <hr />
+            <div class="container">
+              <ul class="pb-3">
+                <li class="l2">
+                  Available in 40 different designs.
+                  <a class="blue-text" mdbPageScroll href="#titanGallery">Click or scroll here to see them all</a>
+                </li>
+                <li class="l2">
+                  Aluminum alloy construction is up to 6 times stronger than
+                  steel and cannot rust
+                </li>
+                <li class="l2">
+                  Welded hinges and mitered corners add strength, enhance
+                  appearance and increase security
+                </li>
+              </ul>
+            </div>
+            <div class="row text-center mb-3">
+              <div class="container text-center">
+                <div class="row align-items-center justify-content-center">
+                  <div *ngIf="price">
+                    <div *ngFor="let item of price.price" class="col">
+                      <h5 class="p-0 ml-2 mt-1 mb-0">{{item.type}}</h5>
+                      <div class=" col priceImage ">
+                        <h5 class="priceTag text-right text-white mt-1 mb-0 ml-2">Starting at</h5>
+                        <h2 class="priceTag text-right mr-2 price  ml-2 text-white">{{ item.price }}</h2>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <button class="btn oj btn-block" (click)="openQuoteForm()">Schedule Now!</button>
+                      </div>
+                      <div class="col-12 mt-1">
+                        <a class="btn mikesBlueBtn btn-block" routerLink="/financing">We Have Financing!</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12">
+            <h4 class="font-weight-bold">
+              Color Selection &nbsp;
+              <span class="small">(click to zoom)</span>
+            </h4>
+            <hr>
+          </div>
+          <div class="col-12">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-6">
+                <app-color-swatch swatchType="titanSecurityColors"></app-color-swatch>
+              </div>
+              <div class="col-12 col-md-6">
+                <app-color-swatch swatchType="titanAluminumColors"></app-color-swatch>
+                <app-color-swatch swatchType="meshtecColor"></app-color-swatch>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-12">
+            <h4 class="font-weight-bold">Mike's Mobile Reviews</h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row text-center py-4 mx-0">
+          <div class="col-12 px-0 mx-0">
+            <div class="card-deck">
+              <div class="card" *ngFor="let review of service.reviews">
+                <span class="yelp-review" [attr.data-review-id]="review.dataReviewId" data-hostname="www.yelp.com">
+                  <div class="card-header">
+                    <a [href]="review.link1" rel="nofollow noopener">{{
+                      review.name
+                      }}</a>'s
+                    <a [href]="review.link2" rel="nofollow noopener">review</a>
+                    of
+                    <a [href]="review.link3" rel="nofollow noopener">Mike's Mobile Screen & Chimney Service
+                    </a>
+                    <br>
+                    <i class="fab fa-yelp"></i>Yelp <i class="fas star fa-star"></i><i class="fas star fa-star"></i><i
+                      class="fas star fa-star"></i><i class="fas star fa-star"></i><i class="fas  star fa-star"></i>
+                  </div>
+                  <div class="card-body text-left">
+                    <p>
+                      {{ review.content }}
+                    </p>
+                  </div>
+                  Read more on
+                  <a href="https://www.yelp.com" rel="nofollow noopener"><i class="fab fa-yelp"></i>Yelp</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h4 style="position: relative;" class="mt-4 font-weight-bold">
+          <a id="titanGallery" style="position: absolute; top:-100px"></a>
+          Door Designs
+        </h4>
+        <hr />
+        <p class="my-5 section-description" [innerHTML]="service.description"></p>
+        <div class="row justify-content-center">
+          <ng-container *ngFor="
+              let item of serviceList
+                | findByCategory: 'Titan Security Screen Doors'
+            ">
+            <div class="col-6 col-md-4 col-lg-2" (click)="openSlideShowModal(item.title)">
+              <div class="view overlay">
+                <app-img [src]="item.tileImage" class="img-fluid serviceImage titanImage" [alt]="item.title"></app-img>
+                <div class="mask rgba-white-light"></div>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title">
+                  <strong><a (click)="openSlideShowModal(item.title)" [innerHTML]="item.title"></a></strong>
+                </h4>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </section>
+    </div>
+    <app-slideShowModal></app-slideShowModal>
+    <app-quote-form></app-quote-form>
+  </ng-container>
 
   <ng-container *ngSwitchCase="'titans' ">
     <div class="container">
