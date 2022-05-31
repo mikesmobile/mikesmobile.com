@@ -8,10 +8,10 @@ See the License for the specific language governing permissions and limitations 
 
 
 /* Amplify Params - DO NOT EDIT
-	API_APIF2B5D1B3_APIID
-	API_APIF2B5D1B3_APINAME
-	ENV
-	REGION
+  API_APIF2B5D1B3_APIID
+  API_APIF2B5D1B3_APINAME
+  ENV
+  REGION
 Amplify Params - DO NOT EDIT */
 
 const express = require('express')
@@ -26,7 +26,7 @@ app.use(bodyParser.json())
 app.use(awsServerlessExpressMiddleware.eventContext())
 
 // Enable CORS for all methods
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*")
   res.header("Access-Control-Allow-Headers", "*")
   next()
@@ -39,51 +39,40 @@ app.use(function(req, res, next) {
  * Example get method *
  **********************/
 
-app.get('/send', function(req, res) {
+app.get('/send', function (req, res) {
   // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+  res.json({ success: 'get call succeed!', url: req.url });
 });
 
-app.get('/send/*', function(req, res) {
+app.get('/send/*', function (req, res) {
   // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+  res.json({ success: 'get call succeed!', url: req.url });
 });
 
 /****************************
 * Example post method *
 ****************************/
 
-app.post('/send', function(req, res) {
+app.post('/send', function (req, res) {
   const auth = {
     auth: {
-        api_key: process.env.MAILGUN_KEY,
-        domain: process.env.MAILGUN_DOMAIN
+      api_key: process.env.MAILGUN_KEY,
+      domain: process.env.MAILGUN_DOMAIN
     }
   };
   const transporter = nodemailer.createTransport(mg(auth));
-  
+
   let contactMethod = "No preferred contact method";
   if (req.body.contactMethod) {
-      contactMethod = req.body.contactMethod;
+    contactMethod = req.body.contactMethod;
   }
-  // const fakeBody = {
-  //     email: 'webdesigner.mikesmobile@gmail.com',
-  //     name: 'Quinn',
-  //     city: 'Sacramento',
-  //     phone: '9168896431',
-  //     message: 'Hello',
-  //     option: 'Yes',
-  //     utm_campaign: 'campaign man',
-  //     utm_source: 'helo',
-  //     utm_medium: 'text'
-  // }
-  // No other validation needed
+
   const mailOptions = {
-      from: "Quote Form <office@mikesmobile.com>",
-      to: "mikesmobilescreens@gmail.com",
-      replyTo: req.body.email,
-      subject: `Customer Contact - ${req.body.name}`,
-      html: `<p>
+    from: "Quote Form <office@mikesmobile.com>",
+    to: "mikesmobilescreens@gmail.com",
+    replyTo: req.body.email,
+    subject: `Customer Contact - ${req.body.name}`,
+    html: `<p>
     <ul>
       <li>Name: ${req.body.name} </li>
       <li>City: ${req.body.city}</li>
@@ -99,51 +88,51 @@ app.post('/send', function(req, res) {
   </p>`
   };
   transporter.sendMail(mailOptions, (erro, info) => {
-      if (erro) {
-          res.status(500).send({
-            status: erro
-          });
-      }
-      res.status(200).send({
-          status: 'Success, (queued)'
+    if (erro) {
+      res.status(500).send({
+        status: erro
       });
+    }
+    res.status(200).send({
+      status: 'Success, (queued)'
+    });
   });
 });
 
-app.post('/send/*', function(req, res) {
+app.post('/send/*', function (req, res) {
   // Add your code here
-  res.json({success: 'post call succeed!', url: req.url, body: req.body})
+  res.json({ success: 'post call succeed!', url: req.url, body: req.body })
 });
 
 /****************************
 * Example put method *
 ****************************/
 
-app.put('/send', function(req, res) {
+app.put('/send', function (req, res) {
   // Add your code here
-  res.json({success: 'put call succeed!', url: req.url, body: req.body})
+  res.json({ success: 'put call succeed!', url: req.url, body: req.body })
 });
 
-app.put('/send/*', function(req, res) {
+app.put('/send/*', function (req, res) {
   // Add your code here
-  res.json({success: 'put call succeed!', url: req.url, body: req.body})
+  res.json({ success: 'put call succeed!', url: req.url, body: req.body })
 });
 
 /****************************
 * Example delete method *
 ****************************/
 
-app.delete('/send', function(req, res) {
+app.delete('/send', function (req, res) {
   // Add your code here
-  res.json({success: 'delete call succeed!', url: req.url});
+  res.json({ success: 'delete call succeed!', url: req.url });
 });
 
-app.delete('/send/*', function(req, res) {
+app.delete('/send/*', function (req, res) {
   // Add your code here
-  res.json({success: 'delete call succeed!', url: req.url});
+  res.json({ success: 'delete call succeed!', url: req.url });
 });
 
-app.listen(3000, function() {
+app.listen(3000, function () {
 });
 
 // Export the app object. When executing the application local this does nothing. However,

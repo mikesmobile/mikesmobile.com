@@ -930,37 +930,37 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "slug": "titan-security-doors-los-angeles",
+            "slug": "titan-security-doors",
             "image": "/assets/images/newTiles/Titan.png",
-            "route": "/grid/titan-security-doors-los-angeles",
+            "route": "/grid/titan-security-doors",
             "text": "The <strong>Titan Security Screen Door</strong> is our maximum security screen door option, ideal for homeowners that want an entryway to show off their personal style! This screen door is made to last and is up to 6x stronger than steel! The Titan is available in 40 different design options and 12 frame colors."
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "slug": "viewguard-security-doors-los-angeles",
+            "slug": "viewguard-security-doors",
             "image": "/assets/images/newTiles/Viewguard.png",
-            "route": "/products/viewguard-security-doors-los-angeles",
+            "route": "/products/viewguard-security-doors",
             "text": "The <strong>Viewguard Security Screen Door</strong> is ideal for homeowners that are looking for a full visibility and maximum airflow, while keeping your front door clean and contemporary! The modern design of the Viewguard offers the most airflow out of any of our security products and will keep your home's entryway secure."
           },
           {
             "title": "TRU-View Security Screen Doors",
-            "slug": "tru-view-security-doors-los-angeles",
+            "slug": "tru-view-security-doors",
             "image": "/assets/images/newTiles/TruView.png",
-            "route": "/products/tru-view-security-doors-los-angeles",
+            "route": "/products/tru-view-security-doors",
             "text": "The <strong>Tru-View Security Screen Door</strong> is perfect for homeowners that want increased security for their home but desire a classic looking screen door. This security screen door is perfect for letting the cool breeze in, keeping pets at bay, and deterring potential intruders."
           },
           {
             "title": "Sliding Security Doors",
-            "slug": "sliding-security-doors-los-angeles",
+            "slug": "sliding-security-doors",
             "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
-            "route": "/products/sliding-security-doors-los-angeles",
+            "route": "/products/sliding-security-doors",
             "text": "The <strong>Sliding Security Screen Door</strong> is ideal for those who want to let the breeze in overnight without worrying about unwanted visitors! This security screen door gives great open visbility of the outdoors from inside, and will last yeras thanks to the has a heavy durable frame and stainless steel mesh."
           },
           {
             "title": "Security Window Screens",
-            "slug": "security-windows-los-angeles",
+            "slug": "security-windows",
             "image": "/assets/images/newTiles/SecurityWindowScreens.png",
-            "route": "/products/security-windows-los-angeles",
+            "route": "/products/security-windows",
             "text": "<strong>Security Window Screens</strong> are made out of stainless steel mesh allowing air flow, circulation, and protection! These premium window screens look like a classic bug screen, but offer the added benefit of longevity with rust resistant screens that will last years. Tired of your regular window screens? It's time to upgrade to ones that last! "
           }
         ]
