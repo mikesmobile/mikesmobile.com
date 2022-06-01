@@ -21,10 +21,16 @@
     "page": "/about/our-security-screen-doors/sacramento",
     "title": "About Mike's Mobile Security Screen Doors in Sacramento",
     "description": "Security doors and more for the Elk Grove, Folsom, Roseville, Sacramento, and nearby areas."
-  },{
+  },
+  {
     "page": "/about/our-security-screen-doors/ventura",
     "title": "About Mike's Mobile Security Screen Doors in Ventura",
     "description": "Security doors and more for Ventura and nearby areas."
+  },
+  {
+    "page": "/about/our-security-screen-doors/bakersfield",
+    "title": "About Mike's Mobile Security Screen Doors in Bakersfield",
+    "description": "Security doors and more for Bakersfield and nearby areas."
   },
   {
     "page": "/about/chimney-services",
