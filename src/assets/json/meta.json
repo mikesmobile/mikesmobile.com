@@ -21,6 +21,10 @@
     "page": "/about/our-security-screen-doors/sacramento",
     "title": "About Mike's Mobile Security Screen Doors in Sacramento",
     "description": "Security doors and more for the Elk Grove, Folsom, Roseville, Sacramento, and nearby areas."
+  },{
+    "page": "/about/our-security-screen-doors/ventura",
+    "title": "About Mike's Mobile Security Screen Doors in Ventura",
+    "description": "Security doors and more for Ventura and nearby areas."
   },
   {
     "page": "/about/chimney-services",
@@ -1082,6 +1086,11 @@
     "page": "/regions/ventura/security",
     "title": "Mike's Mobile Ventura | Security Screen Door and Security Window Screen Services in Ventura, CA 93001",
     "description": "Mike's Mobile provides Ventura and surrounding southern California communities with premium home security products. Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, and security screens for double doors. Premium security screen doors are always recommended for improved home security."
+  },
+  {
+    "page": "/regions/los-angeles/security",
+    "title": "Mike's Mobile Los Angeles | Security Screen Door and Security Window Screen Services in Los Angeles, CA 93001",
+    "description": "Mike's Mobile provides Los Angeles and surrounding southern California communities with premium home security products. Our professionals specialize in screen door installation for any residential door, including swinging front doors, sliding patio doors, and security screens for double doors. Premium security screen doors are always recommended for improved home security."
   },
   {
     "page": "/regions/sacramento",
