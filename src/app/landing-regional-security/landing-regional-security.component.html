@@ -64,7 +64,7 @@
       <p [innerHTML]="region.description" class="text-center"></p>
       <hr class="my-4">
 
-      <app-tile-nav [turnOn]="false"></app-tile-nav>
+      <app-tile-nav [turnOn]="false" [region]="this.region"></app-tile-nav>
 
       <div class="mt-5">
         <agm-map *ngFor="let map of region.map" [latitude]="map.latitude" [longitude]="map.longitude" [zoom]="map.zoom"
@@ -123,9 +123,7 @@
               <li *ngFor="let area of region.areas" [innerHTML]="area"></li>
             </ul> -->
           </div>
-
           <hr />
-
         </div>
       </div>
     </div>
@@ -136,7 +134,7 @@
         <h2 class="text-center" id="security-doors-and-windows">
           {{ region.services[0].title }} in {{ region.region }}
         </h2>
-        <app-regioncardsecurity [cards]="region.services[0].cards"></app-regioncardsecurity>
+        <app-regioncardsecurity [cards]="region.services[0].cards" [city]="region.slug"></app-regioncardsecurity>
       </div>
     </div>
     <!-- <div class="row w-100 mt-5">

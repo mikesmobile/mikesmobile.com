@@ -1,6 +1,6 @@
 <div class="container mt-3">
   <div class="row d-flex justify-content-center">
-    <a *ngFor="let card of cardData" class="col-12 col-lg-10 col-xl-6" [routerLink]="card.link">
+    <a *ngFor="let card of cardData" class="col-12 col-lg-10 col-xl-6" [routerLink]="card.link" [queryParams]="card.utm">
       <div class="card greyBg mb-3">
         <div class="row no-gutters">
           <div class="col-md-4">

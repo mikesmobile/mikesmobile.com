@@ -110,9 +110,8 @@ export class QuoteFormComponent {
     const url = this.route.snapshot.url.pop();
     let option = 'Homepage';
     if (url !== undefined) {
-      option = url.toString();
+      option = this.route.snapshot.url[this.route.snapshot.url.length - 1].path + '/' + this.route.snapshot.params.slug
     }
-
     this.mailService
       .send({
         ...this.quoteFormGroup.value,
@@ -126,7 +125,6 @@ export class QuoteFormComponent {
         if (!res.ok) {
           throw Error(res.statusText);
         }
-
         this.hide();
         this.quoteFormGroup.reset({});
         this.router.navigate(['/thank-you']);

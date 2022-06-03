@@ -3,7 +3,7 @@
     <div *ngIf="turnOn" class="col-md-12 m-0 p-1 smooth-scroll">
       <a
         mdbPageScroll
-        href="#chimney-services"
+        href="/chimney-services"
         mdbRippleRadius
         [pageScrollDuration]="400"
         [pageScrollOffset]="110"
@@ -24,7 +24,7 @@
       <a
       *ngIf="turnOn"
         mdbPageScroll
-        href="#security-doors-and-windows"
+        href="/security-doors-and-windows"
         mdbRippleRadius
         [pageScrollDuration]="400"
         [pageScrollOffset]="110"
@@ -45,7 +45,7 @@
       <a
       *ngIf="!turnOn"
         mdbPageScroll
-        routerLink = "/about/our-security-screen-doors/ventura"
+        routerLink = "/about/our-security-screen-doors"
         mdbRippleRadius
         [pageScrollDuration]="400"
         [pageScrollOffset]="110"
@@ -55,7 +55,7 @@
           class="card tile bg-dark text-white text-center"
           style="background-image: url('/assets/images/front-page/door.webp'); background-position: center; background-size: cover; background-repeat:no-repeat; "
           >
-          <div class="card-img-overlay ">
+          <div class="card-img-overlay">
             <h2 class="card-title transparent-gray">
               Security Screen Doors
             </h2>
@@ -71,7 +71,7 @@
       <a
         *ngIf="turnOn"
         mdbPageScroll
-        href="#door-and-window-screens"
+        href="/door-and-window-screens"
         mdbRippleRadius
         [pageScrollDuration]="400"
         [pageScrollOffset]="110"
@@ -90,7 +90,7 @@
       <a
       *ngIf="!turnOn"
       mdbPageScroll
-      routerLink = "/products/security-windows-central"
+      routerLink = "/products/security-windows"
       mdbRippleRadius
       [pageScrollDuration]="400"
       [pageScrollOffset]="110"

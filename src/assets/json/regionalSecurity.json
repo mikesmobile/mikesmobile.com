@@ -148,32 +148,37 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "slug": "titan-security-doors-central",
-            "route": "/grid/titan-security-doors-central",
+            "slug": "titan-security-doors",
+            "image": "/assets/images/newTiles/Titan.png",
+            "route": "/grid/titan-security-doors",
             "text": "The <b>Titan Security Screen Door</b> is fully customizable to reflect your style. Perfect for those that want a strong-decorative security screen door that deters potential intruders."
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "slug": "viewguard-security-doors-central",
-            "route": "/products/viewguard-security-doors-central",
+            "slug": "viewguard-security-doors",
+            "image": "/assets/images/newTiles/Viewguard.png",  
+            "route": "/products/viewguard-security-doors",
             "text": "Do you want security without the bars? The <b>Viewguard Security Screen Door</b>, wiith a modern and simplistic design, keeps your home's entryways secure and visually appealing."
           },
           {
             "title": "TRU-View Security Screen Doors",
-            "slug": "tru-view-security-doors-central",
-            "route": "/products/tru-view-security-doors-central",
+            "slug": "tru-view-security-doors",
+            "image": "/assets/images/newTiles/TruView.png",
+            "route": "/products/tru-view-security-doors",
             "text": "The <b>Tru-View</b> is perfect for those who are looking to upgrade their traditional screen door. This security screen door offers a sleek design that is perfect for keeping pets at bay."
           },
           {
             "title": "Sliding Security Doors",
-            "slug": "sliding-security-doors-central",
-            "route": "/products/sliding-security-doors-central",
+            "slug": "sliding-security-doors",
+            "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
+            "route": "/products/sliding-security-doors",
             "text": "Do you like keeping your patio door open to let the breeze in? A sliding security screen door allows you maxiumum airflow, with premium security."
           },
           {
             "title": "Security Window Screens",
-            "slug": "security-windows-central",
-            "route": "/products/security-windows-central",
+            "slug": "security-windows",
+            "route": "/products/security-windows",
+            "image": "/assets/images/newTiles/SecurityWindowScreens.png",
             "text": "Security window screens provide protection against intruders, UV rays, and other unwanted pests. These screens are custom-made to add security and curb appeal to your home."
           }
         ]
@@ -355,33 +360,38 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "slug": "titan-security-doors-central",
-            "route": "/grid/titan-security-doors-central",
-            "text": "The <b>Titan Security Screen Door</b> is our maximum security screen door, available in 40+ designs. Ideal for those that want a secure front door that's design accents your home."
+            "slug": "titan-security-doors",
+            "image": "/assets/images/newTiles/Titan.png",
+            "route": "/grid/titan-security-doors",
+            "text": "The <b>Titan Security Screen Door</b> is fully customizable to reflect your style. Perfect for those that want a strong-decorative security screen door that deters potential intruders."
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "slug": "viewguard-security-doors-central",
-            "route": "/products/viewguard-security-doors-central",
-            "text": "If you're looking to add a layer of protection to your home, a <b>Viewguard Security Screen Door</b> is for you! With a modern design, this security screen keeps your home's entryway secure and visually appealing."
+            "slug": "viewguard-security-doors",
+            "image": "/assets/images/newTiles/Viewguard.png",  
+            "route": "/products/viewguard-security-doors",
+            "text": "Do you want security without the bars? The <b>Viewguard Security Screen Door</b>, wiith a modern and simplistic design, keeps your home's entryways secure and visually appealing."
           },
           {
             "title": "TRU-View Security Screen Doors",
-            "slug": "tru-view-security-doors-central",
-            "route": "/products/tru-view-security-doors-central",
-            "text": "The <b>Tru-View</b> is the perfect solution for those that want a layer of protection that is more secure than a classic screen door. This security screen door lets the breeze in and keeps intruders out, perfect for pet owners!"
+            "slug": "tru-view-security-doors",
+            "image": "/assets/images/newTiles/TruView.png",
+            "route": "/products/tru-view-security-doors",
+            "text": "The <b>Tru-View</b> is perfect for those who are looking to upgrade their traditional screen door. This security screen door offers a sleek design that is perfect for keeping pets at bay."
           },
           {
             "title": "Sliding Security Doors",
-            "slug": "sliding-security-doors-central",
-            "route": "/products/sliding-security-doors-central",
-            "text": "Let the night breeze into your home without feeling vulnerable to potential intruders! A <b>Sliding Security Screen Door</b> gives you the well-deserved rest you need by keeping your entryway secure with stainless steel mesh. "
+            "slug": "sliding-security-doors",
+            "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
+            "route": "/products/sliding-security-doors",
+            "text": "Do you like keeping your patio door open to let the breeze in? A sliding security screen door allows you maxiumum airflow, with premium security."
           },
           {
             "title": "Security Window Screens",
-            "slug": "security-windows-central",
-            "route": "/products/security-windows-central",
-            "text": "Our <b>Security Window Screens</b> look like an average window screen but are made out of stainless steel woven mesh. These premium window screens protect against intruders, UV rays, and other unwanted pests."
+            "slug": "security-windows",
+            "route": "/products/security-windows",
+            "image": "/assets/images/newTiles/SecurityWindowScreens.png",
+            "text": "Security window screens provide protection against intruders, UV rays, and other unwanted pests. These screens are custom-made to add security and curb appeal to your home."
           }
         ]
       }
@@ -627,37 +637,37 @@
         "cards": [
           {
             "title": "Titan Security Screen Doors",
-            "slug": "titan-security-doors-ventura",
+            "slug": "titan-security-doors",
             "image": "/assets/images/newTiles/Titan.png",
-            "route": "/grid/titan-security-doors-ventura",
+            "route": "/grid/titan-security-doors",
             "text": "The <strong>Titan Security Screen Door</strong> is perfect for those who want a visually striking screen door that will keep intruders out. This maximum security screen is available in 40 different design options and up to 6x stronger than steel!"
           },
           {
             "title": "Viewguard Security Screen Doors",
-            "slug": "viewguard-security-doors-ventura",
+            "slug": "viewguard-security-doors",
             "image": "/assets/images/newTiles/Viewguard.png",
-            "route": "/products/viewguard-security-doors-ventura",
+            "route": "/products/viewguard-security-doors",
             "text": "The <strong>Viewguard Security Screen Door</strong> is ideal for homeowners that are looking for a full visibility and maximum airflow! This modern and simplistic design will keep your home's entryway secure and beautiful."
           },
           {
             "title": "TRU-View Security Screen Doors",
-            "slug": "tru-view-security-doors-ventura",
+            "slug": "tru-view-security-doors",
             "image": "/assets/images/newTiles/TruView.png",
-            "route": "/products/tru-view-security-doors-ventura",
+            "route": "/products/tru-view-security-doors",
             "text": "The <strong>Tru-View Security Screen Door</strong> lets you experience front door or patio security without resorting to bars or steel grills. This security screen door is perfect for letting the cool breeze in, keeping pets at bay, and keeping intruders out."
           },
           {
             "title": "Sliding Security Doors",
-            "slug": "sliding-security-doors-ventura",
+            "slug": "sliding-security-doors",
             "image": "/assets/images/newTiles/SlidingSecurityDoor.png",
-            "route": "/products/sliding-security-doors-ventura",
+            "route": "/products/sliding-security-doors",
             "text": "The <strong>Sliding Security Screen Door</strong> is ideal for those who want to let the cool breeze in for ventilation day and night! This security screen door has a durable frame and stainless steel mesh to keep undesirable elements out of your home."
           },
           {
             "title": "Security Window Screens",
-            "slug": "security-windows-ventura",
+            "slug": "security-windows",
             "image": "/assets/images/newTiles/SecurityWindowScreens.png",
-            "route": "/products/security-windows-ventura",
+            "route": "/products/security-windows",
             "text": "<strong>Security Window Screens</strong> are made out of stainless steel mesh that looks like a classic bug screen while increasing home security! A perfect addition to protect your home from intruders without compromising air flow and circulation!"
           }
         ]
@@ -716,7 +726,7 @@
     ],
     "map": [
       {
-        "latitude":  33.835293,
+        "latitude": 33.835293,
         "longitude": -117.914505,
         "zoom": 8.8,
         "fillColor": "#D07725",

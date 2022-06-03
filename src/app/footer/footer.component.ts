@@ -33,7 +33,6 @@ export class FooterComponent implements OnInit {
         this.cityNames = this.citySwitch()
         this.cityNameSplit = this.cityNames ? this.cityNames.length > 5 : false
       }
-      console.log(this.currentRoute)
     });
   }
   adList = [
@@ -56,7 +55,7 @@ export class FooterComponent implements OnInit {
   ]
 
   centralList = [
-    '/about/our-security-screen-doors-bakersfield',
+    '/about/our-security-screen-doors/bakersfield',
     '/regions/bakersfield/security',
     '/regions/visalia/security',
     '/products/security-windows-central',

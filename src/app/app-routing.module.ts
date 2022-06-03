@@ -246,6 +246,7 @@ const appRoutes: Routes = [
   { path: 'grid/:slug', component: GridComponent },
   { path: 'landingpages/:slug', component: SeoAdwordsLpComponent },
   { path: 'products/:slug', component: ProductDetailComponent },
+  { path: 'products/:slug/:city', component: ProductDetailComponent },
   { path: 'services/:slug', component: ServiceDetailComponent },
   { path: 'services/masonry/:slug', component: ServiceDetailComponent },
   { path: 'hiring-contact', component: LandingContactComponent },

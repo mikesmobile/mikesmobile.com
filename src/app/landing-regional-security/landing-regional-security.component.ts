@@ -80,7 +80,6 @@ export class LandingRegionalSecurityComponent implements OnInit {
       easing: 'ease-out-back',
       duration: 700
     });
-
     this.route.url.subscribe((params) => {
       const regionalSlug = params[1].path;
       this.region = regionalSecurityJSON.find((data) => {
@@ -92,7 +91,6 @@ export class LandingRegionalSecurityComponent implements OnInit {
         return;
       }
     });
-    console.log(this.region)
   }
 }
 

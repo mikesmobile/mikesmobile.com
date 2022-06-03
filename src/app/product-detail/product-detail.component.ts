@@ -190,6 +190,7 @@ export class ProductDetailComponent implements OnInit {
         },
       ]
     });
+    console.log(this)
   }
 
 
