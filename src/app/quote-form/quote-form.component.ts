@@ -103,8 +103,9 @@ export class QuoteFormComponent {
     let utm_source = '';
     let utm_medium = '';
     let utm_campaign = '';
+    let utm_term = ''
     if (utm_cookie) {
-      [utm_source, utm_medium, utm_campaign] = utm_cookie[2].split(':');
+      [utm_source, utm_medium, utm_campaign, utm_term] = utm_cookie[2].split(':');
     }
 
     const url = this.route.snapshot.url.pop();
@@ -118,10 +119,10 @@ export class QuoteFormComponent {
         option,
         utm_source,
         utm_medium,
-        utm_campaign
+        utm_campaign,
+        utm_term
       })
       .then((res) => {
-
         if (!res.ok) {
           throw Error(res.statusText);
         }
