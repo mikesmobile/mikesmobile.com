@@ -8,13 +8,14 @@ export class UTMService {
     const source = this.getParameterByName('utm_source');
     const medium = this.getParameterByName('utm_medium');
     const campaign = this.getParameterByName('utm_campaign');
+    const term = this.getParameterByName('utm_term');
     let expires = new Date();
     // Store for 30 days
     expires.setTime(expires.getTime() + 30 * 24 * 60 * 60 * 1000);
 
     // Only write cookie if there is any new utm data
     if (source + medium + campaign !== '') {
-      document.cookie = `utm=${source}:${medium}:${campaign};expires=${expires.toUTCString()}`;
+      document.cookie = `utm=${source}:${medium}:${campaign}:${term};expires=${expires.toUTCString()}`;
     }
   }
 

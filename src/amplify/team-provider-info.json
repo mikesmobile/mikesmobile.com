@@ -15,7 +15,7 @@
       "function": {
         "sendMail": {
           "deploymentBucketName": "amplify-amplifyac73712f27fb4-staging-173812-deployment",
-          "s3Key": "amplify-builds/sendMail-35377a6d58626d745478-build.zip",
+          "s3Key": "amplify-builds/sendMail-32462f75555a6f6c6b77-build.zip",
           "mailgunKey": "key-c6a1e7131de196bdc9c015c009c26eed",
           "mailgunDomain": "mg.mikesmobile.com"
         }

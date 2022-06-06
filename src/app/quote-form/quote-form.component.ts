@@ -35,6 +35,8 @@ export class QuoteFormComponent {
     private mailService: MailService
   ) { }
 
+  submitted: boolean = false;
+
   quoteFormGroup = new FormGroup({
     name: new FormControl('', [Validators.required, Validators.maxLength(100)]),
     city: new FormControl('', [Validators.required, Validators.maxLength(100)]),
@@ -45,7 +47,8 @@ export class QuoteFormComponent {
     ]),
     email: new FormControl('', [
       Validators.required,
-      Validators.maxLength(150)
+      Validators.maxLength(150),
+      Validators.email
     ]),
     message: new FormControl('', [
       Validators.maxLength(280)
@@ -90,9 +93,16 @@ export class QuoteFormComponent {
     this.quoteFormGroup.reset({});
   }
 
+  toggleSubmitted() {
+    this.submitted === true? this.submitted = false : this.submitted = true
+  }
+
   handleSubmit(event: any) {
     event.preventDefault();
     // Trigger GTM Event
+    console.log(this.submitted)
+    this.toggleSubmitted()
+    console.log(this.submitted)
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: 'quoteFormSubmission' // Unique string tracked on GTM

@@ -61,6 +61,9 @@
               <div *ngIf="email.errors.maxlength">
                 Max length is 150
               </div>
+              <div *ngIf="email.errors.email">
+                This email address seems invalid
+              </div>
             </div>
           </div>
           <div class="md-form">
@@ -98,7 +101,7 @@
           Reset
         </button>
         <button type="submit" class="btn blue relative waves-light flex-fill" mdbRippleRadius
-          [disabled]="quoteFormGroup.invalid || submitFailed" (click)="handleSubmit($event)">
+          [disabled]="quoteFormGroup.invalid || submitFailed || submitted === true" (click)="handleSubmit($event)">
           Submit
         </button>
       </div>
