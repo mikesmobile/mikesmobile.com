@@ -14,7 +14,7 @@ export class NavigationComponent implements OnInit {
   phone: string;
   currentRoute: string;
   hideMe: boolean;
-  // services;
+  showMobileDropdown: string = ''
   phoneList = [];
 
   noPhoneButton = [
@@ -83,7 +83,7 @@ export class NavigationComponent implements OnInit {
   }
 
   toggleDropdownMobile() {
-    let dropdown = document.getElementById('DropdownMobile');
+    let dropdown = document.getElementById('DropdownMobile2');
     dropdown.classList.toggle('show');
   }
 }
