@@ -41,7 +41,6 @@ import regionalSecurityJSON from '../../assets/json/regionalSecurity.json';
   ]
 })
 
-
 export class LandingRegionalSecurityComponent implements OnInit {
   region;
   service;
