@@ -51,7 +51,9 @@ export class FooterComponent implements OnInit {
     '/about/our-security-screen-doors/ventura',
     '/about/our-security-screen-doors/los-angeles',
     '/about/our-security-screen-doors/san-diego',
-    '/regions/ventura/security'
+    '/regions/ventura/security',
+    '/regions/san-diego/security',
+    '/regions/los-angeles/security',
   ]
 
   centralList = [
@@ -68,7 +70,9 @@ export class FooterComponent implements OnInit {
     '/about/our-security-screen-doors/ventura',
     '/about/our-security-screen-doors/los-angeles',
     '/about/our-security-screen-doors/san-diego',
-    '/regions/ventura/security'
+    '/regions/ventura/security',
+    '/regions/los-angeles/security',
+    '/regions/san-diego/security',
   ]
 
   firepitList = [

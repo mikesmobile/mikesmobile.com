@@ -292,30 +292,43 @@
       </p>
       <p>We serve communities throughout Southern California including Los Angeles County, Orange County, and San Bernardino County.</p>
     </div>
+    <div
+      *ngIf="currentRoute === '/about/our-security-screen-doors/san-diego' || currentRoute === '/regions/san-diego/security'"
+      class="col-12 col-lg-3 mb-4">
+      <h6 class="text-uppercase font-weight-bold text-center">
+        <strong>Mike's Mobile</strong>
+      </h6>
+      <hr class="blue" />
+      <p>
+        Mike's Mobile Security Doors specializes in installing premium Security Screen Doors and Security Window Screens to Southern California residents.
+
+      </p>
+      <p>We serve communities throughout California including San Diego County.</p>
+    </div>
       <div class="col-12 col-lg-4 mx-auto">
         <h6 class="text-uppercase font-weight-bold text-center">
           <strong>Service Area</strong>
         </h6>
         <hr class="blue" />
-        <div *ngIf="currentRoute === '/about/our-security-screen-doors/san-diego'">
+        <div *ngIf="currentRoute === '/about/our-security-screen-doors/san-diego' || currentRoute === '/regions/san-diego/security'">
           <div class="row">
             <div class="col-4">
               <p>Carlsbad</p>
               <p>Chula Vista</p>
+              <p>Del Mar</p>
               <p>El Cajon</p>
-              <p>Encinitas</p>
             </div>
             <div class="col-4">
+              <p>Encinitas</p>
               <p>Escondido</p>
               <p>La Jolla</p>
               <p>National City</p>
-              <p>Oceanside</p>
             </div>
             <div class="col-4">
+              <p>Oceanside</p>
               <p>San Diego</p>
               <p>San Marcos</p>
               <p>Vista</p>
-              <p> + nearby!</p>
             </div>
           </div>
         </div>

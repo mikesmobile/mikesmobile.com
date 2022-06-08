@@ -1,188 +1,257 @@
 [
-    {
-        "title": "default",
-        "slug": "default",
-        "phone": "(916) 318-9845"
-    },
-    {
-        "title": "firepits",
-        "slug": "/services/masonry/firepits",
-        "phone": "(916) 318-9845"
-    },
-    {
-        "title": "outdoorfireplaces",
-        "slug" : "/services/masonry/outdoorfireplaces",
-        "phone": "(916) 318-9845"
-    },
-    {
-        "title": "repairs",
-        "slug" : "/services/masonry/repairs",
-        "phone": "(916) 318-9845"
-    },
-    {
-        "title": "our-security-screen-doors-bakersfield",
-        "slug": "/about/our-security-screen-doors-bakersfield",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "bakersfield",
-        "slug": "/regions/bakersfield/security",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "visalia",
-        "slug": "/regions/visalia/security",
-        "phone": "(559) 242-6214"
-    },
-    {
-        "title": "ventura",
-        "slug": "/regions/ventura/security",
-        "phone": "(805) 267-9733"
-    },
-    {
-        "title": "los-angeles",
-        "slug": "/regions/los-angeles/security",
-        "phone": "(213) 314-0498"
-    },
-    {
-        "title": "security-windows-central",
-        "slug": "/products/security-windows-central",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "titan-security-doors-central",
-        "slug": "/grid/titan-security-doors-central",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "viewguard-security-doors-central",
-        "slug": "/products/viewguard-security-doors-central",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "sliding-security-doors-central",
-        "slug": "/products/sliding-security-doors-central",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "tru-view-security-doors-central",
-        "slug": "/products/tru-view-security-doors-central",
-        "phone": "(661) 567-0284"
-    },
-    {
-        "title": "our-window-screen-services",
-        "slug": "/services/our-window-screen-services",
-        "phone": "(916) 915-8731"
-    },
-    {
-        "title": "our-annual-cleaning-and-inspection",
-        "slug": "/about/our-annual-cleaning-and-inspection",
-        "phone": "(916) 915-8676"
-    },
-    {
-        "title": "our-fireplace-services",
-        "slug": "/about/our-fireplace-services",
-        "phone": "(916) 931-0125"
-    },
-    {
-        "title": "gas-fireplace-service",
-        "slug": "/about/gas-fireplace-service",
-        "phone": "(916) 864-3851"
-    },
-    {
-        "title": "our-chimney-services",
-        "slug": "/about/our-chimney-services",
-        "phone": "(916) 931-1772"
-    },
-    {
-        "title": "our-security-screen-doors",
-        "slug": "/about/our-security-screen-doors",
-        "phone": "(916) 931-1873"
-    },
-    {
-        "title": "theWaterproofingPackage",
-        "slug": "/about/theWaterproofingPackage",
-        "phone": "(916) 304-8225"
-    },
-    {
-        "title": "titans",
-        "slug": "/grid/titans",
-        "phone": "(916) 312-3182"
-    },
-    {
-        "title": "security-screen-doors",
-        "slug": "/about/security-screen-doors",
-        "phone": "(916) 318-9845"
-    },
-    {
-        "title": "east-bay-contra-costa",
-        "slug": "/about/our-security-screen-doors/east-bay-contra-costa",
-        "phone": "(925) 450-3153",
-        "cities": ["Antioch", "Danville", "Walnut Creek", "& Nearby!"]
-    },
-    {
-        "title": "east-bay-alameda",
-        "slug": "/about/our-security-screen-doors/east-bay-alameda",
-        "phone": "(510) 440-3416",
-        "cities": ["Fremont", "Hayward", "Oakland", "Richmond", "& Nearby!"]
-    },
-    {
-        "title": "vacaville",
-        "slug": "/about/our-security-screen-doors/vacaville",
-        "phone": "(707) 896-1470",
-        "cities": ["Napa", "Vacaville", "San Rafael", "Sonoma", "& Nearby!"]
-    },
-    {
-        "title": "ventura",
-        "slug": "/about/our-security-screen-doors/ventura",
-        "phone": "(805) 267-9733",
-        "cities": ["Ventura", "Oxnard", "Santa Barbara", "Santa Clarita", "Burbank", "and nearby!"]
-    },
-    {
-        "title": "los-angeles",
-        "slug": "/about/our-security-screen-doors/los-angeles",
-        "phone": "(213)314-0498",
-        "cities": ["Anaheim", "Beverly Hills", "Irvine", "Orange County", "and nearby!"]
-    },
-    {
-        "title": "san-diego",
-        "slug": "/about/our-security-screen-doors/san-diego",
-        "phone": "(619) 363-0529",
-        "cities": ["San Diego", "Chula Vista", "Carlsbad", "Oceanside", "Escondido", "and nearby!"]
-    },
-    {
-        "title": "fresno",
-        "slug": "/about/our-security-screen-doors/fresno",
-        "phone": "(559) 295-8682",
-        "cities": ["Fresno", "Madera", "Visalia", "& Nearby!"]
-    },
-    {
-        "title": "stockton",
-        "slug": "/about/our-security-screen-doors/stockton",
-        "phone": "(209) 697-2980",
-        "cities": ["Merced", "Modesto", "Sonora", "Stockton", "Tracy", "Turlock", "& Nearby!"]
-    },
-    {
-        "title": "sacramento",
-        "slug": "/about/our-security-screen-doors/sacramento",
-        "phone": "(916) 931-1873",
-        "cities": ["Elk Grove", "Folsom", "Roseville", "Sacramento", "& Nearby!"]
-    },
-    {
-        "title": "el-dorado-county",
-        "slug": "/about/our-security-screen-doors/el-dorado-county",
-        "phone": "(530) 332-8811",
-        "cities": ["Placerville", "Yuba City", "& Nearby!"]
-    },
-    {
-        "title": "san-jose",
-        "slug": "/about/our-security-screen-doors/san-jose",
-        "phone": "(408) 763-5521",
-        "cities": ["San Jose", "Santa Clara", "& Nearby!"]
-    },
-    {
-        "title": "pellet-stove-repair",
-        "slug": "/about/ad/pellet-stove-repair",
-        "phone": "(916) 238-0343"
-    }
+  {
+    "title": "default",
+    "slug": "default",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "firepits",
+    "slug": "/services/masonry/firepits",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "outdoorfireplaces",
+    "slug": "/services/masonry/outdoorfireplaces",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "repairs",
+    "slug": "/services/masonry/repairs",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "our-security-screen-doors-bakersfield",
+    "slug": "/about/our-security-screen-doors-bakersfield",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "bakersfield",
+    "slug": "/regions/bakersfield/security",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "visalia",
+    "slug": "/regions/visalia/security",
+    "phone": "(559) 242-6214"
+  },
+  {
+    "title": "ventura",
+    "slug": "/regions/ventura/security",
+    "phone": "(805) 267-9733"
+  },
+  {
+    "title": "los-angeles",
+    "slug": "/regions/los-angeles/security",
+    "phone": "(213) 314-0498"
+  },
+  {
+    "title": "san-diego",
+    "slug": "/regions/san-diego/security",
+    "phone": "(619) 363-0529"
+  },
+  {
+    "title": "security-windows-central",
+    "slug": "/products/security-windows-central",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "titan-security-doors-central",
+    "slug": "/grid/titan-security-doors-central",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "viewguard-security-doors-central",
+    "slug": "/products/viewguard-security-doors-central",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "sliding-security-doors-central",
+    "slug": "/products/sliding-security-doors-central",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "tru-view-security-doors-central",
+    "slug": "/products/tru-view-security-doors-central",
+    "phone": "(661) 567-0284"
+  },
+  {
+    "title": "our-window-screen-services",
+    "slug": "/services/our-window-screen-services",
+    "phone": "(916) 915-8731"
+  },
+  {
+    "title": "our-annual-cleaning-and-inspection",
+    "slug": "/about/our-annual-cleaning-and-inspection",
+    "phone": "(916) 915-8676"
+  },
+  {
+    "title": "our-fireplace-services",
+    "slug": "/about/our-fireplace-services",
+    "phone": "(916) 931-0125"
+  },
+  {
+    "title": "gas-fireplace-service",
+    "slug": "/about/gas-fireplace-service",
+    "phone": "(916) 864-3851"
+  },
+  {
+    "title": "our-chimney-services",
+    "slug": "/about/our-chimney-services",
+    "phone": "(916) 931-1772"
+  },
+  {
+    "title": "our-security-screen-doors",
+    "slug": "/about/our-security-screen-doors",
+    "phone": "(916) 931-1873"
+  },
+  {
+    "title": "theWaterproofingPackage",
+    "slug": "/about/theWaterproofingPackage",
+    "phone": "(916) 304-8225"
+  },
+  {
+    "title": "titans",
+    "slug": "/grid/titans",
+    "phone": "(916) 312-3182"
+  },
+  {
+    "title": "security-screen-doors",
+    "slug": "/about/security-screen-doors",
+    "phone": "(916) 318-9845"
+  },
+  {
+    "title": "east-bay-contra-costa",
+    "slug": "/about/our-security-screen-doors/east-bay-contra-costa",
+    "phone": "(925) 450-3153",
+    "cities": [
+      "Antioch",
+      "Danville",
+      "Walnut Creek",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "east-bay-alameda",
+    "slug": "/about/our-security-screen-doors/east-bay-alameda",
+    "phone": "(510) 440-3416",
+    "cities": [
+      "Fremont",
+      "Hayward",
+      "Oakland",
+      "Richmond",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "vacaville",
+    "slug": "/about/our-security-screen-doors/vacaville",
+    "phone": "(707) 896-1470",
+    "cities": [
+      "Napa",
+      "Vacaville",
+      "San Rafael",
+      "Sonoma",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "ventura",
+    "slug": "/about/our-security-screen-doors/ventura",
+    "phone": "(805) 267-9733",
+    "cities": [
+      "Ventura",
+      "Oxnard",
+      "Santa Barbara",
+      "Santa Clarita",
+      "Burbank",
+      "and nearby!"
+    ]
+  },
+  {
+    "title": "los-angeles",
+    "slug": "/about/our-security-screen-doors/los-angeles",
+    "phone": "(213)314-0498",
+    "cities": [
+      "Anaheim",
+      "Beverly Hills",
+      "Irvine",
+      "Orange County",
+      "and nearby!"
+    ]
+  },
+  {
+    "title": "san-diego",
+    "slug": "/about/our-security-screen-doors/san-diego",
+    "phone": "(619) 363-0529",
+    "cities": [
+      "San Diego",
+      "Chula Vista",
+      "Carlsbad",
+      "Oceanside",
+      "Escondido",
+      "and nearby!"
+    ]
+  },
+  {
+    "title": "fresno",
+    "slug": "/about/our-security-screen-doors/fresno",
+    "phone": "(559) 295-8682",
+    "cities": [
+      "Fresno",
+      "Madera",
+      "Visalia",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "stockton",
+    "slug": "/about/our-security-screen-doors/stockton",
+    "phone": "(209) 697-2980",
+    "cities": [
+      "Merced",
+      "Modesto",
+      "Sonora",
+      "Stockton",
+      "Tracy",
+      "Turlock",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "sacramento",
+    "slug": "/about/our-security-screen-doors/sacramento",
+    "phone": "(916) 931-1873",
+    "cities": [
+      "Elk Grove",
+      "Folsom",
+      "Roseville",
+      "Sacramento",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "el-dorado-county",
+    "slug": "/about/our-security-screen-doors/el-dorado-county",
+    "phone": "(530) 332-8811",
+    "cities": [
+      "Placerville",
+      "Yuba City",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "san-jose",
+    "slug": "/about/our-security-screen-doors/san-jose",
+    "phone": "(408) 763-5521",
+    "cities": [
+      "San Jose",
+      "Santa Clara",
+      "& Nearby!"
+    ]
+  },
+  {
+    "title": "pellet-stove-repair",
+    "slug": "/about/ad/pellet-stove-repair",
+    "phone": "(916) 238-0343"
+  }
 ]
