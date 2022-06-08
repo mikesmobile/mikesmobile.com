@@ -77,7 +77,7 @@ export class ServiceAreaComponent implements OnInit {
   isMobile: boolean = false
   // 9.7 was old setting, smaller number is more out!
   zoom: number = 7.5;
-  zoom2: number = 7.3
+  zoom2: number = 7.0
   scrollwheel = false;
 
   paths: Array<LatLngLiteral> = [
