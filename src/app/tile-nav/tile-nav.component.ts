@@ -17,6 +17,5 @@ export class TileNavComponent implements OnInit {
     };
     utm.utm_medium = this.region.region.split(' ').map(item => item.toLowerCase()).join('-')
     utm.utm_campaign = this.region.services[0].title.split(' ').map(item => item.toLowerCase()).join('-')
-    console.log(utm)
   }
 }

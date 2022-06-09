@@ -7332,6 +7332,51 @@
   },
   {
     "title": "Security Screen Doors",
+    "slug": "visalia",
+    "type": "landing",
+    "security": "true",
+    "serving": "Visalia, Bakersfield, San Luis Obisbo, and nearby!",
+    "images": [
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/White_Trellis_Titan_Security_Screen_Door.png ",
+        "medium": "/assets/images/landing/securityscreen/visalia/White_Trellis_Titan_Security_Screen_Door.png ",
+        "big": "/assets/images/landing/securityscreen/visalia/White_Trellis_Titan_Security_Screen_Door.png "
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/french-set-champagne-beige-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "medium": "/assets/images/landing/securityscreen/visalia/french-set-champagne-beige-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "big": "/assets/images/landing/securityscreen/visalia/french-set-champagne-beige-viewguard-security-screen-door-installation-in-visalia.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/wineberry-titan-security-screen-door-installation-in-visalia.jpg",
+        "medium": "/assets/images/landing/securityscreen/visalia/wineberry-titan-security-screen-door-installation-in-visalia.jpg",
+        "big": "/assets/images/landing/securityscreen/visalia/wineberry-titan-security-screen-door-installation-in-visalia.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/white-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "medium": "/assets/images/landing/securityscreen/visalia/white-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "big": "/assets/images/landing/securityscreen/visalia/white-viewguard-security-screen-door-installation-in-visalia.jpg"
+      },
+      {
+        "alt": "Titan Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/french-set-blue-hammertone-titan-security-screen-door-installation-in-visalia.jpg",
+        "medium": "/assets/images/landing/securityscreen/visalia/french-set-blue-hammertone-titan-security-screen-door-installation-in-visalia.jpg",
+        "big": "/assets/images/landing/securityscreen/visalia/french-set-blue-hammertone-titan-security-screen-door-installation-in-visalia.jpg"
+      },
+      {
+        "alt": "Viewguard Security Door",
+        "small": "/assets/images/landing/securityscreen/visalia/black-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "medium": "/assets/images/landing/securityscreen/visalia/black-viewguard-security-screen-door-installation-in-visalia.jpg",
+        "big": "/assets/images/landing/securityscreen/visalia/black-viewguard-security-screen-door-installation-in-visalia.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Security Screen Doors",
     "slug": "ventura",
     "type": "landing",
     "security": "true",

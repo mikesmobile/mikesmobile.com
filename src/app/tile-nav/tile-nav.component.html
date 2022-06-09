@@ -45,7 +45,7 @@
       <a
       *ngIf="!turnOn"
         mdbPageScroll
-        routerLink = "/about/our-security-screen-doors"
+        routerLink = "/about/our-security-screen-doors/{{this.region.slug}}"
         mdbRippleRadius
         [pageScrollDuration]="400"
         [pageScrollOffset]="110"
@@ -90,7 +90,7 @@
       <a
       *ngIf="!turnOn"
       mdbPageScroll
-      routerLink = "/products/security-windows"
+      routerLink = "/products/security-windows/{{this.region.slug}}"
       mdbRippleRadius
       [pageScrollDuration]="400"
       [pageScrollOffset]="110"
