@@ -46,7 +46,7 @@ export class ProductDetailComponent implements OnInit {
       "link1": "https://www.yelp.com/user_details?userid=P2zWedA2jwI52VotGhJFCA",
       "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=VU3Mvq5-41cZSbCZY2K0RA",
       "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
-      "content": "We have had Mike's mobile do 4 projects at our house and have been happy with all of them, they built new screen doors for our sliding glass doors, then install a beautiful view guard security screen door on the front door next was installing a wonderful majestic gas fireplace insert then repairing the chimney top and custom building a Beautiful cap. All the workers are polite, on time, efficient and clean up the job site when done. Highly recommend this business..."
+      "content": "We have had Den Defenders do 4 projects at our house and have been happy with all of them, they built new screen doors for our sliding glass doors, then install a beautiful view guard security screen door on the front door next was installing a wonderful majestic gas fireplace insert then repairing the chimney top and custom building a Beautiful cap. All the workers are polite, on time, efficient and clean up the job site when done. Highly recommend this business..."
     },
     {
       "name": "Stefani R.",

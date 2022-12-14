@@ -70,7 +70,7 @@ export class LandingPageComponent implements OnInit {
       "link1": "https://www.yelp.com/user_details?userid=bdN26bzhppk-oJGqcOZBZw",
       "link2": "https://www.yelp.com/biz/mikes-mobile-screen-and-chimney-service-sacramento-2?hrid=FOPy-hgM0zdxUqdSNux16w",
       "link3": "https://www.yelp.com/biz/FfkoDxdGjADTD61dzGvdLg",
-      "content": "We purchased a security door and love it. Not only does it look nice but the air flow we now get in our house is great. We have had it for months now and everyone is always complimenting us on it and asking where we got it. I am very glad we decided to go through Mikes Mobile."
+      "content": "We purchased a security door and love it. Not only does it look nice but the air flow we now get in our house is great. We have had it for months now and everyone is always complimenting us on it and asking where we got it. I am very glad we decided to go through Den Defenders."
     }
 
   ]
