@@ -19,13 +19,13 @@ export class SEOService {
     let descriptionTag = {
       name: 'description',
       content:
-        "Den Defenders Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
+        "Mike's Mobile Screen & Chimney offers Window Screen Repair, Security Screen Doors, Chimney inspections, Chimney Repairs, Retractable Awnings and more!"
     };
     let robotsTag = {
       name: 'robots',
       content: 'index, follow'
     };
-    let title = "Den Defenders Screen & Chimney Service";
+    let title = "Mike's Mobile Screen & Chimney Service";
 
     // Remove any URL encoded paramaters
     url = url.split('?')[0];
