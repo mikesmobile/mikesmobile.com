@@ -4989,9 +4989,9 @@
       "@type": "Offer",
       "url": "https://mikesmobile.com/products/viewguard-security-doors",
       "priceCurrency": "USD",
-      "price": "2828.55",
+      "price": "2595.00",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/PreSale",
       "seller": {
         "@type": "Organization",
         "name": "Mike's Mobile"
@@ -5068,9 +5068,9 @@
       "@type": "Offer",
       "url": "https://mikesmobile.com/products/viewguard-security-doors",
       "priceCurrency": "USD",
-      "price": "2828.55",
+      "price": "2595.00",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/PreSale",
       "seller": {
         "@type": "Organization",
         "name": "Mike's Mobile"
@@ -5137,9 +5137,9 @@
       "@type": "Offer",
       "url": "https://mikesmobile.com/products/viewguard-security-doors",
       "priceCurrency": "USD",
-      "price": "2828.55",
+      "price": "2595.00",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/PreSale",
       "seller": {
         "@type": "Organization",
         "name": "Mike's Mobile"
@@ -5206,9 +5206,9 @@
       "@type": "Offer",
       "url": "https://mikesmobile.com/products/viewguard-security-doors",
       "priceCurrency": "USD",
-      "price": "2828.55",
+      "price": "2595.00",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/PreSale",
       "seller": {
         "@type": "Organization",
         "name": "Mike's Mobile"
@@ -5274,9 +5274,9 @@
       "@type": "Offer",
       "url": "https://mikesmobile.com/products/viewguards",
       "priceCurrency": "USD",
-      "price": "2828.55",
+      "price": "2595.00",
       "itemCondition": "https://schema.org/NewCondition",
-      "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/PreSale",
       "seller": {
         "@type": "Organization",
         "name": "Mike's Mobile"
