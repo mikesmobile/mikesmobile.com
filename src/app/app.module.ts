@@ -21,7 +21,7 @@ import { ChimneyFaqComponent } from './chimney-faq/chimney-faq.component';
 import { ChimneyGlossaryComponent } from './chimney-glossary/chimney-glossary.component';
 import { ColorSwatchComponent } from './color-swatch/color-swatch.component';
 import { ContactComponent } from './contact/contact.component';
-import { ContractComponent } from './contract/contract.component';
+// import { ContractComponent } from './contract/contract.component';
 import { FaqListComponent } from './faq-list/faq-list.component';
 import { FinancingComponent } from './financing/financing.component';
 import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
@@ -126,7 +126,7 @@ import { environment } from '../environments/environment';
     TileNavComponent,
     FireplaceManualsComponent,
     RegionListComponent,
-    ContractComponent,
+    // ContractComponent,
     FreeQuoteComponent,
     QuoteFormPromoComponent,
     ReviewsComponent,
