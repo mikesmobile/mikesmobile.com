@@ -15,7 +15,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
 import { LandingRegionalComponent } from './landing-regional/landing-regional.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { FireplaceManualsComponent } from './fireplace-manuals/fireplace-manuals.component';
-import { ContractComponent } from './contract/contract.component';
+// import { ContractComponent } from './contract/contract.component';
 import { FreeQuoteComponent } from './free-quote/free-quote.component';
 import { FinancingComponent } from './financing/financing.component';
 import { LandingContactComponent } from './landing-contact/landing-contact.component';
@@ -229,7 +229,7 @@ const appRoutes: Routes = [
   // { path: 'chimney-glossary', component: ChimneyGlossaryComponent },
   { path: 'service-area', component: ServiceAreaComponent },
   { path: 'service-area/:id', component: ServiceAreaComponent },
-  { path: 'contract', component: ContractComponent },
+  // { path: 'contract', component: ContractComponent },
   { path: 'financing', component: FinancingComponent },
   { path: 'fireplace-manuals', component: FireplaceManualsComponent },
   { path: 'free-quote', component: FreeQuoteComponent },
