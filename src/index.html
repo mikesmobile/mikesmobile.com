@@ -2,6 +2,55 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <title>Den Defenders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script>
+    const southernCaliforniaUrls = [
+      'https://mikesmobile.com/regions/bakersfield/security',
+      'https://mikesmobile.com/about/our-security-screen-doors/bakersfield',
+      'https://mikesmobile.com/products/security-windows/bakersfield',
+      'https://mikesmobile.com/regions/los-angeles/security',
+      'https://mikesmobile.com/about/our-security-screen-doors/los-angeles',
+      'https://mikesmobile.com/products/security-windows/los-angeles',
+      'https://mikesmobile.com/regions/san-diego/security',
+      'https://mikesmobile.com/about/our-security-screen-doors/san-diego',
+      'https://mikesmobile.com/products/security-windows/san-diego',
+      'https://mikesmobile.com/regions/ventura/security',
+      'https://mikesmobile.com/about/our-security-screen-doors/ventura',
+      'https://mikesmobile.com/products/security-windows/ventura',
+      'https://mikesmobile.com/regions/visalia/security',
+      'https://mikesmobile.com/about/our-security-screen-doors/visalia',
+      'https://mikesmobile.com/products/security-windows/visalia'
+    ];
+
+    const southernCaliforniaRedirect = 'https://dendefenders.com/southern-california/mikes-mobile/';
+    const northernCaliforniaRedirect = 'https://dendefenders.com/northern-california/mikes-mobile/';
+
+    const currentUrl = window.location.href;
+
+    if (southernCaliforniaUrls.includes(currentUrl)) {
+      window.location.href = southernCaliforniaRedirect;
+    } else {
+      window.location.href = northernCaliforniaRedirect;
+    }
+  </script>
+
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="utf-8" />
   <title>Mike's Mobile Screen & Chimney Service</title>
   <base href="/" />
@@ -20,7 +69,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" rel="stylesheet" media="none"
     onload="if(media!=='all')media='all'" />
   <!-- Google Analytics -->
-  <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-31532667-1"></script>
+<!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-31532667-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -34,9 +83,9 @@
     });
     gtag('config', 'AW-993441320');
   </script> -->
-  <!-- End Google Analytics -->
-  <!-- Google Tag Manager -->
-  <!-- <script>
+<!-- End Google Analytics -->
+<!-- Google Tag Manager -->
+<!-- <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -48,15 +97,15 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-WWCHKNN');
   </script> -->
-  <!-- End Google Tag Manager -->
+<!-- End Google Tag Manager -->
 
-  <!-- Google optimize -->
-  <script src="https://www.googleoptimize.com/optimize.js?id=GTM-PBQ63M6"></script>
-  <!-- end google optimize -->
-  <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
-  <meta name="theme-color" content="#1976d2">
-  <!-- Facebook Pixel Code -->
-  <!-- <script>
+<!-- Google optimize -->
+<!-- <script src="https://www.googleoptimize.com/optimize.js?id=GTM-PBQ63M6"></script> -->
+<!-- end google optimize -->
+<!-- <link rel="manifest" href="manifest.json" crossorigin="use-credentials"> -->
+<!-- <meta name="theme-color" content="#1976d2"> -->
+<!-- Facebook Pixel Code -->
+<!-- <script>
     if (typeof fbq === 'undefined') {
       !function (f, b, e, v, n, t, s) {
         if (f.fbq) return; n = f.fbq = function () {
@@ -79,12 +128,12 @@
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1985881021669262&ev=PageView&noscript=1" /></noscript> -->
-  <!-- End Facebook Pixel Code -->
-</head>
+<!-- End Facebook Pixel Code -->
+<!-- </head>
 
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
 </body>
 
-</html>
+</html> -->
